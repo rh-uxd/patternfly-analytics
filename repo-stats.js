@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const glob = require('glob');
 
-const regex = /import\s+{?([\w\s,]+)}?\s+from\s+.*patternfly\/react/gm;
+const regex = /import\s+{?([\w\s,]+)}?\s+from\s+.*patternfly\/react-core/gm;
 const repoPath = path.resolve(__dirname, './tmp', process.argv[2])
 
 const result = {};
