@@ -12,7 +12,7 @@ mkdir -p stats
 for repo in "${REPOS[@]}"; do
   REPONAME=$(echo $repo | cut -d'/' -f5)
   # git clone "$repo" "./tmp/${REPONAME}" --depth 1
-  node ./repo-stats.js "$REPONAME" > "stats/${REPONAME}.json"
+  node ./repo-stats.js "./tmp/$REPONAME" > "stats/${REPONAME}.json"
 done
 
-node ./repo-stats-agg.js > ./stats/all.json
+node ./repo-stats-agg.js stats > ./stats/all.json

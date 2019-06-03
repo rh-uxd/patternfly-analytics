@@ -3,16 +3,21 @@ const glob = require('glob');
 
 const result = {};
 
-glob(`${__dirname}/stats/*.json`, {ignore: ['**/all.json']}, (err, files) => {
+glob(`${__dirname}/${process.argv[2]}/*.json`, {ignore: ['**/all.json']}, (err, files) => {
   files.forEach(file => {
-    const repoRes = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const repoStats = JSON.parse(fs.readFileSync(file, 'utf8'));
     
-    Object.entries(repoRes).forEach(([key, val]) => {
-      if (!(key in result)) {
-        result[key] = 0;
-      }
+    Object.entries(repoStats).forEach(([key, imports]) => {
+      result[key] = result[key] || {};
+      const pkg = result[key];
 
-      result[key] += val;
+      Object.entries(imports).forEach(([imp, count]) => {
+        if (!(imp in pkg)) {
+          pkg[imp] = 0;
+        }
+
+        pkg[imp] += count;
+      });
     })
   });
 

@@ -2,10 +2,15 @@ const path = require('path');
 const fs = require('fs');
 const glob = require('glob');
 
-const regex = /import\s+{?([\w\s,]+)}?\s+from\s+.*patternfly\/react-core/gm;
-const repoPath = path.resolve(__dirname, './tmp', process.argv[2])
+// https://regex101.com/r/hcIlRX/1
+const regex = /import\s+{?([\w\s,*]+)}?\s+from\s+['"](.*patternfly.*)['"]/gm;
+const repoPath = path.resolve(__dirname, process.argv[2])
 
-const result = {};
+const result = {
+  /* "packageName": {
+    "importName": count,
+  }*/
+};
 
 glob(`${repoPath}/**/*.{js,jsx,ts,tsx}`, (err, files) => {
   files.forEach(file => {
@@ -13,17 +18,19 @@ glob(`${repoPath}/**/*.{js,jsx,ts,tsx}`, (err, files) => {
 
     var regMatch;
     while (regMatch = regex.exec(contents)) {
+      result[regMatch[2]] = result[regMatch[2]] || {};
+      const pkg = result[regMatch[2]];
       regMatch[1]
         .split(',')
         .map(str => str.replace(/\s+as\s+.*/gm, ''))
         .map(str => str.replace(/\s/gm, ''))
         .filter(imp => imp)
         .forEach(imp => {
-          if (!(imp in result)) {
-            result[imp] = 0;
+          if (!(imp in pkg)) {
+            pkg[imp] = 0;
           }
 
-          result[imp]++;
+          pkg[imp]++;
         });
     }
   });

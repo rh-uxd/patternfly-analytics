@@ -1,27 +1,81 @@
 {
-  "AboutModal": 1,
-  "TextContent": 1,
-  "TextList": 1,
-  "TextListItem": 1,
-  "PageSection": 1,
-  "PageSectionVariants": 1,
-  "Page": 1,
-  "Popover": 2,
-  "Button": 1,
-  "Dropdown": 1,
-  "DropdownToggle": 1,
-  "DropdownSeparator": 1,
-  "DropdownItem": 1,
-  "KebabToggle": 1,
-  "Toolbar": 1,
-  "ToolbarGroup": 1,
-  "ToolbarItem": 1,
-  "Brand": 1,
-  "PageHeader": 1,
-  "Nav": 1,
-  "NavItemSeparator": 1,
-  "NavList": 1,
-  "PageSidebar": 1,
-  "NavItem": 1,
-  "NavExpandable": 1
+  "../../node_modules/patternfly-react-extensions/dist/js/components/CatalogTile": {
+    "CatalogTile": 1
+  },
+  "../../node_modules/patternfly-react-extensions/dist/js/components/VerticalTabs": {
+    "VerticalTabsTab": 1
+  },
+  "../../node_modules/patternfly-react-extensions/dist/js/components/FilterSidePanel": {
+    "FilterSidePanel": 1
+  },
+  "patternfly-react": {
+    "FieldLevelHelp": 4,
+    "Modal": 5,
+    "Form": 2,
+    "Button": 4,
+    "Alert": 3,
+    "ExpandCollapse": 1,
+    "Checkbox": 1,
+    "Icon": 4,
+    "HintBlock": 1,
+    "ListGroup": 2,
+    "Toolbar": 1,
+    "EmptyState": 2,
+    "ListView": 1,
+    "FormControl": 2,
+    "FormGroup": 1,
+    "HelpBlock": 1
+  },
+  "patternfly-react-extensions": {
+    "CatalogTile": 3,
+    "FilterSidePanel": 2,
+    "VerticalTabs": 2,
+    "CatalogItemHeader": 2,
+    "PropertiesSidePanel": 2,
+    "PropertyItem": 2
+  },
+  "@patternfly/react-icons": {
+    "CogIcon": 1,
+    "QuestionCircleIcon": 3,
+    "ArrowCircleUpIcon": 1,
+    "ThIcon": 1
+  },
+  "@patternfly/react-core": {
+    "AboutModal": 1,
+    "TextContent": 1,
+    "TextList": 1,
+    "TextListItem": 1,
+    "PageSection": 1,
+    "PageSectionVariants": 1,
+    "Page": 1,
+    "Popover": 2,
+    "Button": 1,
+    "Dropdown": 1,
+    "DropdownToggle": 1,
+    "DropdownSeparator": 1,
+    "DropdownItem": 1,
+    "KebabToggle": 1,
+    "Toolbar": 1,
+    "ToolbarGroup": 1,
+    "ToolbarItem": 1,
+    "Brand": 1,
+    "PageHeader": 1,
+    "Nav": 1,
+    "NavItemSeparator": 1,
+    "NavList": 1,
+    "PageSidebar": 1,
+    "NavItem": 1,
+    "NavExpandable": 1
+  },
+  "@patternfly/react-charts": {
+    "Chart": 2,
+    "ChartArea": 2,
+    "ChartAxis": 2,
+    "ChartGroup": 2,
+    "ChartTheme": 2,
+    "ChartVoronoiContainer": 1
+  },
+  "@patternfly/react-tokens": {
+    "global_FontFamily_sans_serif": 1
+  }
 }
