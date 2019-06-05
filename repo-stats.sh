@@ -14,5 +14,3 @@ for repo in "${REPOS[@]}"; do
   # git clone "$repo" "./tmp/${REPONAME}" --depth 1
   node ./repo-stats.js "./tmp/$REPONAME" > "stats/${REPONAME}.json"
 done
-
-node ./repo-stats-agg.js stats > ./stats/all.json

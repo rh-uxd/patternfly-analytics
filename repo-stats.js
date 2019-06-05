@@ -2,38 +2,109 @@ const path = require('path');
 const fs = require('fs');
 const glob = require('glob');
 
-// https://regex101.com/r/hcIlRX/1
-const regex = /import\s+{?([\w\s,*]+)}?\s+from\s+['"](.*patternfly.*)['"]/gm;
-const repoPath = path.resolve(__dirname, process.argv[2])
-
 const result = {
-  /* "packageName": {
-    "importName": count,
-  }*/
+  files: {
+    total: {},
+    withPatternfly: {}
+  },
+  imports: {
+    /* "packageName": {
+      "importName": count,
+    }*/
+  },
+  classes: {
+    // "className": count
+  },
+  scssVars: {
+    // "varName": count
+  }
 };
 
-glob(`${repoPath}/**/*.{js,jsx,ts,tsx}`, (err, files) => {
-  files.forEach(file => {
-    const contents = fs.readFileSync(file, 'utf8');
+const getExt = file => file.substr(file.lastIndexOf('.') + 1);
 
-    var regMatch;
-    while (regMatch = regex.exec(contents)) {
-      result[regMatch[2]] = result[regMatch[2]] || {};
-      const pkg = result[regMatch[2]];
-      regMatch[1]
-        .split(',')
-        .map(str => str.replace(/\s+as\s+.*/gm, ''))
-        .map(str => str.replace(/\s/gm, ''))
-        .filter(imp => imp)
-        .forEach(imp => {
-          if (!(imp in pkg)) {
-            pkg[imp] = 0;
-          }
+const repoPath = path.resolve(__dirname, process.argv[2]);
+const tmpDir = path.resolve(__dirname, 'tmp');
+const jsFiles = glob.sync(`${repoPath}/**/*.{js,jsx,ts,tsx}`);
+const styleFiles = glob.sync(`${repoPath}/**/*.{css,sass,scss,less}`);
 
-          pkg[imp]++;
-        });
+// https://regex101.com/r/hcIlRX/1
+const importRegex = /import\s+{?([\w\s,*]+)}?\s+from\s+['"](.*patternfly.*)['"]/gm;
+// https://regex101.com/r/GGCTuA/1
+const classRegex = /[^-\w](pf-[clu]-.*?)['"\s]/gm;
+// https://regex101.com/r/gpPax3/1
+const varRegex = /(--pf(-global)?-\w*-\w*-\w*-\w*)/gm;
+
+const matchClasses = (contents, file) => {
+  const ext = getExt(file);
+  let regMatch;
+  for (let i = 0; regMatch = classRegex.exec(contents); i++) {
+    if (i == 0) {
+      result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
+      result.files.withPatternfly[ext][file.replace(tmpDir, '')] = true;
     }
+    result.classes[regMatch[1]] = result.classes[regMatch[1]] || 0;
+    result.classes[regMatch[1]]++;
+  }
+}
+
+// Build { result: { imports } }
+jsFiles.forEach(file => {
+  const ext = getExt(file);
+  const contents = fs.readFileSync(file, 'utf8');
+  let regMatch;
+  for (let i = 0; regMatch = importRegex.exec(contents); i++) {
+    if (i == 0) {
+      result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
+      result.files.withPatternfly[ext][file.replace(tmpDir, '')] = true;
+    }
+    result.imports[regMatch[2]] = result.imports[regMatch[2]] || {};
+    regMatch[1]
+      .split(',')
+      .map(str => str.replace(/\s+as\s+.*/gm, ''))
+      .map(str => str.replace(/\s/gm, ''))
+      .filter(imp => imp)
+      .forEach(imp => {
+        const pkg = result.imports[regMatch[2]];
+        pkg[imp] = pkg[imp] || 0;
+        pkg[imp]++;
+      });
+  }
+
+  matchClasses(contents, file);
+});
+
+// Build { result: {scssVars: total: {}} }
+styleFiles.forEach(file => {
+  const ext = getExt(file);
+  const contents = fs.readFileSync(file, 'utf8');
+
+  let regMatch;
+  for (let i = 0; regMatch = varRegex.exec(contents); i++) {
+    if (i == 0) {
+      result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
+      result.files.withPatternfly[ext][file.replace(tmpDir, '')] = true;
+    }
+    result.scssVars[regMatch[1]] = result.scssVars[regMatch[1]] || 0;
+    result.scssVars[regMatch[1]]++;
+  }
+
+  matchClasses(contents, file);
+});
+
+// Build { result: {files: total: {}} }
+jsFiles.concat(styleFiles)
+  .map(getExt)
+  .forEach(ext => {
+    result.files.total[ext] = result.files.total[ext] || 0;
+    result.files.total[ext]++;
   });
 
-  console.log(JSON.stringify(result, null, 2));
+Object.entries(result.files.withPatternfly).forEach(([key, val]) => {
+  const files = Object.keys(val);
+  result.files.withPatternfly[key] = {
+    files,
+    count: files.length
+  };
 });
+
+console.log(JSON.stringify(result, null, 2));

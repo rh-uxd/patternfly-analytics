@@ -1,81 +1,221 @@
 {
-  "../../node_modules/patternfly-react-extensions/dist/js/components/CatalogTile": {
-    "CatalogTile": 1
+  "files": {
+    "total": {
+      "ts": 126,
+      "js": 28,
+      "tsx": 210,
+      "jsx": 85,
+      "scss": 78
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/console/frontend/__tests__/components/catalog.spec.tsx",
+          "/console/frontend/__tests__/components/environment.spec.tsx",
+          "/console/frontend/__tests__/components/operator-hub/operator-hub.spec.tsx",
+          "/console/frontend/__tests__/components/storage-class-form.spec.tsx",
+          "/console/frontend/packages/console-app/src/plugin.tsx",
+          "/console/frontend/public/components/about-modal.tsx",
+          "/console/frontend/public/components/app-contents.tsx",
+          "/console/frontend/public/components/cluster-settings/cluster-settings.tsx",
+          "/console/frontend/public/components/deploy-image.tsx",
+          "/console/frontend/public/components/error.tsx",
+          "/console/frontend/public/components/graphs/area.tsx",
+          "/console/frontend/public/components/graphs/query-browser.tsx",
+          "/console/frontend/public/components/image-stream.tsx",
+          "/console/frontend/public/components/nav/items.tsx",
+          "/console/frontend/public/components/nav/section.tsx",
+          "/console/frontend/public/components/operator-hub/operator-hub-community-provider-modal.tsx",
+          "/console/frontend/public/components/operator-hub/operator-hub-item-details.tsx",
+          "/console/frontend/public/components/operator-hub/operator-hub-items.tsx",
+          "/console/frontend/public/components/operator-hub/operator-hub-subscribe.tsx",
+          "/console/frontend/public/components/operator-lifecycle-manager/clusterserviceversion.tsx",
+          "/console/frontend/public/components/overview/build-overview.tsx",
+          "/console/frontend/public/components/overview/index.tsx",
+          "/console/frontend/public/components/overview/networking-overview.tsx",
+          "/console/frontend/public/components/overview/project-overview.tsx",
+          "/console/frontend/public/components/routes.tsx",
+          "/console/frontend/public/components/start-guide.tsx",
+          "/console/frontend/public/components/storage-class-form.tsx",
+          "/console/frontend/public/components/utils/status-icon.tsx"
+        ],
+        "count": 28
+      },
+      "ts": {
+        "files": [
+          "/console/frontend/integration-tests/tests/olm/catalog.scenario.ts",
+          "/console/frontend/integration-tests/tests/service-catalog/service-binding.scenario.ts",
+          "/console/frontend/integration-tests/tests/service-catalog/service-broker.scenario.ts",
+          "/console/frontend/integration-tests/tests/service-catalog/service-catalog.scenario.ts",
+          "/console/frontend/integration-tests/tests/service-catalog/service-class.scenario.ts",
+          "/console/frontend/integration-tests/views/login.view.ts",
+          "/console/frontend/integration-tests/views/sidenav.view.ts",
+          "/console/frontend/public/components/graphs/themes.ts"
+        ],
+        "count": 8
+      },
+      "jsx": {
+        "files": [
+          "/console/frontend/public/components/app.jsx",
+          "/console/frontend/public/components/catalog/catalog-item-details.jsx",
+          "/console/frontend/public/components/catalog/catalog-items.jsx",
+          "/console/frontend/public/components/environment.jsx",
+          "/console/frontend/public/components/masthead-toolbar.jsx",
+          "/console/frontend/public/components/masthead.jsx",
+          "/console/frontend/public/components/nav/index.jsx",
+          "/console/frontend/public/components/resource-quota.jsx",
+          "/console/frontend/public/components/terminal.jsx",
+          "/console/frontend/public/components/utils/tile-view-page.jsx"
+        ],
+        "count": 10
+      },
+      "scss": {
+        "files": [
+          "/console/frontend/public/components/_about-modal.scss",
+          "/console/frontend/public/components/_masthead.scss",
+          "/console/frontend/public/components/overview/_overview.scss",
+          "/console/frontend/public/style/_common.scss",
+          "/console/frontend/public/style/_layout.scss",
+          "/console/frontend/public/style/_overrides.scss",
+          "/console/frontend/public/style/_vars.scss"
+        ],
+        "count": 7
+      }
+    }
   },
-  "../../node_modules/patternfly-react-extensions/dist/js/components/VerticalTabs": {
-    "VerticalTabsTab": 1
+  "imports": {
+    "../../node_modules/patternfly-react-extensions/dist/js/components/CatalogTile": {
+      "CatalogTile": 1
+    },
+    "../../node_modules/patternfly-react-extensions/dist/js/components/VerticalTabs": {
+      "VerticalTabsTab": 1
+    },
+    "../../node_modules/patternfly-react-extensions/dist/js/components/FilterSidePanel": {
+      "FilterSidePanel": 1
+    },
+    "patternfly-react": {
+      "FieldLevelHelp": 4,
+      "Modal": 5,
+      "Form": 2,
+      "Button": 4,
+      "Alert": 3,
+      "ExpandCollapse": 1,
+      "Checkbox": 1,
+      "Icon": 4,
+      "HintBlock": 1,
+      "ListGroup": 2,
+      "Toolbar": 1,
+      "EmptyState": 2,
+      "ListView": 1,
+      "FormControl": 2,
+      "FormGroup": 1,
+      "HelpBlock": 1
+    },
+    "patternfly-react-extensions": {
+      "CatalogTile": 3,
+      "FilterSidePanel": 2,
+      "VerticalTabs": 2,
+      "CatalogItemHeader": 2,
+      "PropertiesSidePanel": 2,
+      "PropertyItem": 2
+    },
+    "@patternfly/react-icons": {
+      "CogIcon": 1,
+      "QuestionCircleIcon": 3,
+      "ArrowCircleUpIcon": 1,
+      "ThIcon": 1
+    },
+    "@patternfly/react-core": {
+      "AboutModal": 1,
+      "TextContent": 1,
+      "TextList": 1,
+      "TextListItem": 1,
+      "PageSection": 1,
+      "PageSectionVariants": 1,
+      "Page": 1,
+      "Popover": 2,
+      "Button": 1,
+      "Dropdown": 1,
+      "DropdownToggle": 1,
+      "DropdownSeparator": 1,
+      "DropdownItem": 1,
+      "KebabToggle": 1,
+      "Toolbar": 1,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 1,
+      "Brand": 1,
+      "PageHeader": 1,
+      "Nav": 1,
+      "NavItemSeparator": 1,
+      "NavList": 1,
+      "PageSidebar": 1,
+      "NavItem": 1,
+      "NavExpandable": 1
+    },
+    "@patternfly/react-charts": {
+      "Chart": 2,
+      "ChartArea": 2,
+      "ChartAxis": 2,
+      "ChartGroup": 2,
+      "ChartTheme": 2,
+      "ChartVoronoiContainer": 1
+    },
+    "@patternfly/react-tokens": {
+      "global_FontFamily_sans_serif": 1
+    }
   },
-  "../../node_modules/patternfly-react-extensions/dist/js/components/FilterSidePanel": {
-    "FilterSidePanel": 1
+  "classes": {
+    "pf-c-nav": 7,
+    "pf-c-dropdown__toggle": 3,
+    "pf-c-nav__list": 2,
+    "pf-c-nav__item": 3,
+    "pf-c-nav__link.pf-m-current": 1,
+    "pf-c-button": 1,
+    "pf-c-nav__link": 5,
+    "pf-c-badge": 1,
+    "pf-c-page__main": 3,
+    "pf-c-about-modal-box": 2,
+    "pf-c-dropdown__menu-item": 2,
+    "pf-c-page__main-section": 2,
+    "pf-c-about-modal-box__hero": 1,
+    "pf-c-about-modal-box__brand-image,": 1,
+    "pf-c-brand": 1,
+    "pf-c-dropdown__menu": 1,
+    "pf-c-dropdown__toggle-icon": 1,
+    "pf-c-page": 1,
+    "pf-c-page`": 1,
+    "pf-c-page__sidebar": 2,
+    "pf-c-nav__simple-list": 2,
+    "pf-c-nav__separator": 3,
+    "pf-c-nav__link::after": 1,
+    "pf-c-nav__link:hover": 1,
+    "pf-c-nav__toggle": 2,
+    "pf-c-nav__subnav": 1,
+    "pf-c-page__sidebar-body": 1
   },
-  "patternfly-react": {
-    "FieldLevelHelp": 4,
-    "Modal": 5,
-    "Form": 2,
-    "Button": 4,
-    "Alert": 3,
-    "ExpandCollapse": 1,
-    "Checkbox": 1,
-    "Icon": 4,
-    "HintBlock": 1,
-    "ListGroup": 2,
-    "Toolbar": 1,
-    "EmptyState": 2,
-    "ListView": 1,
-    "FormControl": 2,
-    "FormGroup": 1,
-    "HelpBlock": 1
-  },
-  "patternfly-react-extensions": {
-    "CatalogTile": 3,
-    "FilterSidePanel": 2,
-    "VerticalTabs": 2,
-    "CatalogItemHeader": 2,
-    "PropertiesSidePanel": 2,
-    "PropertyItem": 2
-  },
-  "@patternfly/react-icons": {
-    "CogIcon": 1,
-    "QuestionCircleIcon": 3,
-    "ArrowCircleUpIcon": 1,
-    "ThIcon": 1
-  },
-  "@patternfly/react-core": {
-    "AboutModal": 1,
-    "TextContent": 1,
-    "TextList": 1,
-    "TextListItem": 1,
-    "PageSection": 1,
-    "PageSectionVariants": 1,
-    "Page": 1,
-    "Popover": 2,
-    "Button": 1,
-    "Dropdown": 1,
-    "DropdownToggle": 1,
-    "DropdownSeparator": 1,
-    "DropdownItem": 1,
-    "KebabToggle": 1,
-    "Toolbar": 1,
-    "ToolbarGroup": 1,
-    "ToolbarItem": 1,
-    "Brand": 1,
-    "PageHeader": 1,
-    "Nav": 1,
-    "NavItemSeparator": 1,
-    "NavList": 1,
-    "PageSidebar": 1,
-    "NavItem": 1,
-    "NavExpandable": 1
-  },
-  "@patternfly/react-charts": {
-    "Chart": 2,
-    "ChartArea": 2,
-    "ChartAxis": 2,
-    "ChartGroup": 2,
-    "ChartTheme": 2,
-    "ChartVoronoiContainer": 1
-  },
-  "@patternfly/react-tokens": {
-    "global_FontFamily_sans_serif": 1
+  "scssVars": {
+    "--pf-global--color--100": 2,
+    "--pf-c-content--FontSize": 1,
+    "--pf-global--spacer--md": 2,
+    "--pf-global--spacer--xl": 1,
+    "--pf-global--BoxShadow--md": 1,
+    "--pf-global--Color--dark": 1,
+    "--pf-c-page__main--ZIndex": 1,
+    "--pf-c-page__header--MinHeight": 2,
+    "--pf-c-page__main-section-": 4,
+    "--pf-c-page__sidebar--Transition": 1,
+    "--pf-c-page__sidebar--md": 2,
+    "--pf-c-page__sidebar--BackgroundColor": 1,
+    "--pf-c-page__sidebar--BoxShadow": 1,
+    "--pf-c-nav__list-link-": 49,
+    "--pf-c-nav__simple-list-link": 14,
+    "--pf-global--FontWeight--normal": 1,
+    "--pf-c-nav__subnav--MarginTop": 1,
+    "--pf-c-nav__subnav--MaxHeight": 1,
+    "--pf-c-nav__list-toggle-": 1,
+    "--pf-c-nav__separator--MarginLeft": 2,
+    "--pf-c-nav__separator--BackgroundColor": 2,
+    "--pf-c-page__sidebar-body-": 2,
+    "--pf-global--FontFamily--sans": 1
   }
 }

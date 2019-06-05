@@ -1,45 +1,90 @@
 {
-  "@patternfly/react-core": {
-    "Button": 2,
-    "Modal": 1,
-    "Dropdown": 2,
-    "KebabToggle": 1,
-    "DropdownItem": 1,
-    "Card": 1,
-    "CardBody": 1,
-    "Toolbar": 1,
-    "ToolbarGroup": 1,
-    "ToolbarItem": 1,
-    "EmptyState": 1,
-    "EmptyStateBody": 1,
-    "EmptyStateIcon": 1,
-    "Title": 1,
-    "Tooltip": 1,
-    "Checkbox": 1,
-    "DropdownToggle": 1,
-    "Pagination": 1,
-    "DropdownDirection": 1,
-    "TextInput": 1,
-    "Alert": 1,
-    "AlertActionCloseButton": 1,
-    "*": 1
+  "files": {
+    "total": {
+      "js": 45,
+      "scss": 2
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/drift-frontend/src/Routes.js",
+          "/drift-frontend/src/SmartComponents/AddSystemModal/AddSystemModal.js",
+          "/drift-frontend/src/SmartComponents/DriftPage/ActionKebab/ActionKebab.js",
+          "/drift-frontend/src/SmartComponents/DriftPage/AddSystemButton/AddSystemButton.js",
+          "/drift-frontend/src/SmartComponents/DriftPage/DriftPage.js",
+          "/drift-frontend/src/SmartComponents/DriftPage/DriftTable/DriftTable.js",
+          "/drift-frontend/src/SmartComponents/DriftPage/FilterDropDown/FilterDropDown.js",
+          "/drift-frontend/src/SmartComponents/DriftPage/Pagination/Pagination.js",
+          "/drift-frontend/src/SmartComponents/DriftPage/SearchBar/SearchBar.js",
+          "/drift-frontend/src/SmartComponents/ErrorAlert/ErrorAlert.js",
+          "/drift-frontend/src/SmartComponents/StateIcon/StateIcon.js",
+          "/drift-frontend/src/SmartComponents/SystemsTable/SystemsTable.js"
+        ],
+        "count": 12
+      },
+      "scss": {
+        "files": [
+          "/drift-frontend/src/App.scss"
+        ],
+        "count": 1
+      }
+    }
   },
-  "@patternfly/react-icons": {
-    "AddCircleOIcon": 1,
-    "AngleDownIcon": 1,
-    "AngleRightIcon": 1,
-    "LongArrowAltUpIcon": 1,
-    "LongArrowAltDownIcon": 1,
-    "ArrowsAltVIcon": 1,
-    "CloseIcon": 1,
-    "ServerIcon": 1,
-    "WarningTriangleIcon": 1,
-    "CheckCircleIcon": 1,
-    "ErrorCircleOIcon": 1,
-    "HelpIcon": 1,
-    "*": 1
+  "imports": {
+    "@patternfly/react-core": {
+      "Button": 2,
+      "Modal": 1,
+      "Dropdown": 2,
+      "KebabToggle": 1,
+      "DropdownItem": 1,
+      "Card": 1,
+      "CardBody": 1,
+      "Toolbar": 1,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 1,
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateIcon": 1,
+      "Title": 1,
+      "Tooltip": 1,
+      "Checkbox": 1,
+      "DropdownToggle": 1,
+      "Pagination": 1,
+      "DropdownDirection": 1,
+      "TextInput": 1,
+      "Alert": 1,
+      "AlertActionCloseButton": 1,
+      "*": 1
+    },
+    "@patternfly/react-icons": {
+      "AddCircleOIcon": 1,
+      "AngleDownIcon": 1,
+      "AngleRightIcon": 1,
+      "LongArrowAltUpIcon": 1,
+      "LongArrowAltDownIcon": 1,
+      "ArrowsAltVIcon": 1,
+      "CloseIcon": 1,
+      "ServerIcon": 1,
+      "WarningTriangleIcon": 1,
+      "CheckCircleIcon": 1,
+      "ErrorCircleOIcon": 1,
+      "HelpIcon": 1,
+      "*": 1
+    },
+    "@patternfly/react-table": {
+      "*": 1
+    }
   },
-  "@patternfly/react-table": {
-    "*": 1
-  }
+  "classes": {
+    "pf-l-page__main": 1,
+    "pf-c-page__main": 1,
+    "pf-c-pagination": 2,
+    "pf-c-table": 1,
+    "pf-c-card__body": 2,
+    "pf-c-card": 1,
+    "pf-c-table.ins-c-table": 1,
+    "pf-c-modal-box__body": 1,
+    "pf-c-alert": 1
+  },
+  "scssVars": {}
 }
