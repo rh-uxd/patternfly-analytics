@@ -162,12 +162,11 @@
       "Checkbox": 1,
       "HintBlock": 1,
       "ListGroup": 2,
-      "Toolbar": 1,
-      "EmptyState": 2,
       "ListView": 1,
       "FormControl": 2,
       "FormGroup": 1,
-      "HelpBlock": 1
+      "HelpBlock": 1,
+      "EmptyState": 1
     },
     "patternfly-react-extensions": {
       "CatalogTile": 3,
@@ -261,6 +260,7 @@
     "pf-c-button": 1,
     "pf-c-nav__link": 5,
     "pf-c-badge": 1,
+    "pf-c-page": 2,
     "pf-c-page__main": 3,
     "pf-c-dropdown__menu-item": 5,
     "pf-c-dropdown__menu": 2,
@@ -274,7 +274,6 @@
     "pf-c-about-modal-box__brand-image,": 1,
     "pf-c-brand": 1,
     "pf-c-dropdown__toggle-icon": 1,
-    "pf-c-page": 1,
     "pf-c-page`": 1,
     "pf-c-page__sidebar": 2,
     "pf-c-nav__simple-list": 2,

@@ -22,6 +22,10 @@ const repos = [
   {
     "git": "https://github.com/project-koku/koku-ui",
     "name": "Cost Management"
+  },
+  {
+    "git": "git@github.com:ansible/awx-pf.git",
+    "name": "Ansible"
   }
 ];
 
