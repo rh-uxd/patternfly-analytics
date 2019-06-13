@@ -8,41 +8,41 @@
     "withPatternfly": {
       "js": {
         "files": [
-          "/tutorial-web-app/src/components/aboutModal/aboutModal.js",
-          "/tutorial-web-app/src/components/authentication/authenication.js",
-          "/tutorial-web-app/src/components/breadcrumb/breadcrumb.js",
-          "/tutorial-web-app/src/components/copyField/copyField.js",
-          "/tutorial-web-app/src/components/errorScreen/errorScreen.js",
-          "/tutorial-web-app/src/components/formField/formField.js",
-          "/tutorial-web-app/src/components/installedAppsView/InstalledAppsView.js",
-          "/tutorial-web-app/src/components/masthead/masthead.js",
-          "/tutorial-web-app/src/components/provisioning/provisioning.js",
-          "/tutorial-web-app/src/components/provisioning/provisioningScreen.js",
-          "/tutorial-web-app/src/components/tutorialCard/tutorialCard.js",
-          "/tutorial-web-app/src/components/tutorialDashboard/tutorialDashboard.js",
-          "/tutorial-web-app/src/components/walkthroughDetails/walkthroughDetails.js",
-          "/tutorial-web-app/src/components/walkthroughResources/walkthroughResources.js",
-          "/tutorial-web-app/src/pages/congratulations/congratulations.js",
-          "/tutorial-web-app/src/pages/help/help.js",
-          "/tutorial-web-app/src/pages/landing/landingPage.js",
-          "/tutorial-web-app/src/pages/tutorial/task/task.js",
-          "/tutorial-web-app/src/pages/tutorial/tutorial.js"
+          "./tmp/tutorial-web-app/src/components/aboutModal/aboutModal.js",
+          "./tmp/tutorial-web-app/src/components/authentication/authenication.js",
+          "./tmp/tutorial-web-app/src/components/breadcrumb/breadcrumb.js",
+          "./tmp/tutorial-web-app/src/components/copyField/copyField.js",
+          "./tmp/tutorial-web-app/src/components/errorScreen/errorScreen.js",
+          "./tmp/tutorial-web-app/src/components/formField/formField.js",
+          "./tmp/tutorial-web-app/src/components/installedAppsView/InstalledAppsView.js",
+          "./tmp/tutorial-web-app/src/components/masthead/masthead.js",
+          "./tmp/tutorial-web-app/src/components/provisioning/provisioning.js",
+          "./tmp/tutorial-web-app/src/components/provisioning/provisioningScreen.js",
+          "./tmp/tutorial-web-app/src/components/tutorialCard/tutorialCard.js",
+          "./tmp/tutorial-web-app/src/components/tutorialDashboard/tutorialDashboard.js",
+          "./tmp/tutorial-web-app/src/components/walkthroughDetails/walkthroughDetails.js",
+          "./tmp/tutorial-web-app/src/components/walkthroughResources/walkthroughResources.js",
+          "./tmp/tutorial-web-app/src/pages/congratulations/congratulations.js",
+          "./tmp/tutorial-web-app/src/pages/help/help.js",
+          "./tmp/tutorial-web-app/src/pages/landing/landingPage.js",
+          "./tmp/tutorial-web-app/src/pages/tutorial/task/task.js",
+          "./tmp/tutorial-web-app/src/pages/tutorial/tutorial.js"
         ],
         "count": 19
       },
       "scss": {
         "files": [
-          "/tutorial-web-app/src/styles/application/components/_about-modal.scss",
-          "/tutorial-web-app/src/styles/application/components/_cards.scss",
-          "/tutorial-web-app/src/styles/application/components/_copyField.scss",
-          "/tutorial-web-app/src/styles/application/components/_installedAppsView.scss",
-          "/tutorial-web-app/src/styles/application/components/_lists.scss",
-          "/tutorial-web-app/src/styles/application/components/_loading.scss",
-          "/tutorial-web-app/src/styles/application/components/_login.scss",
-          "/tutorial-web-app/src/styles/application/pages/_provisioning.scss",
-          "/tutorial-web-app/src/styles/application/pages/_taskDashboard.scss",
-          "/tutorial-web-app/src/styles/application/pages/_taskLayout.scss",
-          "/tutorial-web-app/src/styles/application/utilities/_patternfly4.scss"
+          "./tmp/tutorial-web-app/src/styles/application/components/_about-modal.scss",
+          "./tmp/tutorial-web-app/src/styles/application/components/_cards.scss",
+          "./tmp/tutorial-web-app/src/styles/application/components/_copyField.scss",
+          "./tmp/tutorial-web-app/src/styles/application/components/_installedAppsView.scss",
+          "./tmp/tutorial-web-app/src/styles/application/components/_lists.scss",
+          "./tmp/tutorial-web-app/src/styles/application/components/_loading.scss",
+          "./tmp/tutorial-web-app/src/styles/application/components/_login.scss",
+          "./tmp/tutorial-web-app/src/styles/application/pages/_provisioning.scss",
+          "./tmp/tutorial-web-app/src/styles/application/pages/_taskDashboard.scss",
+          "./tmp/tutorial-web-app/src/styles/application/pages/_taskLayout.scss",
+          "./tmp/tutorial-web-app/src/styles/application/utilities/_patternfly4.scss"
         ],
         "count": 11
       }
@@ -194,5 +194,7 @@
     "--pf-c-content--blockquote": 4,
     "--pf-c-label--Color": 1,
     "--pf-global--FontWeight--semi": 1
-  }
+  },
+  "repo": "https://github.com/integr8ly/tutorial-web-app",
+  "name": "Integreatly"
 }

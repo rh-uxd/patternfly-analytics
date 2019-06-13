@@ -7,24 +7,24 @@
     "withPatternfly": {
       "js": {
         "files": [
-          "/drift-frontend/src/Routes.js",
-          "/drift-frontend/src/SmartComponents/AddSystemModal/AddSystemModal.js",
-          "/drift-frontend/src/SmartComponents/DriftPage/ActionKebab/ActionKebab.js",
-          "/drift-frontend/src/SmartComponents/DriftPage/AddSystemButton/AddSystemButton.js",
-          "/drift-frontend/src/SmartComponents/DriftPage/DriftPage.js",
-          "/drift-frontend/src/SmartComponents/DriftPage/DriftTable/DriftTable.js",
-          "/drift-frontend/src/SmartComponents/DriftPage/FilterDropDown/FilterDropDown.js",
-          "/drift-frontend/src/SmartComponents/DriftPage/Pagination/Pagination.js",
-          "/drift-frontend/src/SmartComponents/DriftPage/SearchBar/SearchBar.js",
-          "/drift-frontend/src/SmartComponents/ErrorAlert/ErrorAlert.js",
-          "/drift-frontend/src/SmartComponents/StateIcon/StateIcon.js",
-          "/drift-frontend/src/SmartComponents/SystemsTable/SystemsTable.js"
+          "./tmp/drift-frontend/src/Routes.js",
+          "./tmp/drift-frontend/src/SmartComponents/AddSystemModal/AddSystemModal.js",
+          "./tmp/drift-frontend/src/SmartComponents/DriftPage/ActionKebab/ActionKebab.js",
+          "./tmp/drift-frontend/src/SmartComponents/DriftPage/AddSystemButton/AddSystemButton.js",
+          "./tmp/drift-frontend/src/SmartComponents/DriftPage/DriftPage.js",
+          "./tmp/drift-frontend/src/SmartComponents/DriftPage/DriftTable/DriftTable.js",
+          "./tmp/drift-frontend/src/SmartComponents/DriftPage/FilterDropDown/FilterDropDown.js",
+          "./tmp/drift-frontend/src/SmartComponents/DriftPage/Pagination/Pagination.js",
+          "./tmp/drift-frontend/src/SmartComponents/DriftPage/SearchBar/SearchBar.js",
+          "./tmp/drift-frontend/src/SmartComponents/ErrorAlert/ErrorAlert.js",
+          "./tmp/drift-frontend/src/SmartComponents/StateIcon/StateIcon.js",
+          "./tmp/drift-frontend/src/SmartComponents/SystemsTable/SystemsTable.js"
         ],
         "count": 12
       },
       "scss": {
         "files": [
-          "/drift-frontend/src/App.scss"
+          "./tmp/drift-frontend/src/App.scss"
         ],
         "count": 1
       }
@@ -86,5 +86,7 @@
     "pf-c-modal-box__body": 1,
     "pf-c-alert": 1
   },
-  "scssVars": {}
+  "scssVars": {},
+  "repo": "https://github.com/RedHatInsights/drift-frontend",
+  "name": "Insights Frontend"
 }
