@@ -1,9 +1,15 @@
 {
   "files": {
     "total": {
-      "ts": 143,
+      "withPatternfly": {
+        "tsx": 70,
+        "ts": 6,
+        "jsx": 26,
+        "scss": 8
+      },
+      "ts": 146,
       "js": 45,
-      "tsx": 235,
+      "tsx": 236,
       "jsx": 82,
       "scss": 81
     },
@@ -15,6 +21,7 @@
           "./tmp/console/frontend/__tests__/components/operator-hub/operator-hub.spec.tsx",
           "./tmp/console/frontend/__tests__/components/storage-class-form.spec.tsx",
           "./tmp/console/frontend/packages/console-app/src/plugin.tsx",
+          "./tmp/console/frontend/packages/metal3-plugin/src/components/host.tsx",
           "./tmp/console/frontend/packages/metal3-plugin/src/components/machine-cell.tsx",
           "./tmp/console/frontend/public/components/about-modal.tsx",
           "./tmp/console/frontend/public/components/alert-manager.tsx",
@@ -79,8 +86,7 @@
           "./tmp/console/frontend/public/components/utils/kebab.tsx",
           "./tmp/console/frontend/public/components/utils/status-icon.tsx",
           "./tmp/console/frontend/public/components/workload-table.tsx"
-        ],
-        "count": 69
+        ]
       },
       "ts": {
         "files": [
@@ -90,8 +96,7 @@
           "./tmp/console/frontend/integration-tests/tests/service-catalog/service-class.scenario.ts",
           "./tmp/console/frontend/integration-tests/views/login.view.ts",
           "./tmp/console/frontend/integration-tests/views/sidenav.view.ts"
-        ],
-        "count": 6
+        ]
       },
       "jsx": {
         "files": [
@@ -121,8 +126,7 @@
           "./tmp/console/frontend/public/components/service.jsx",
           "./tmp/console/frontend/public/components/terminal.jsx",
           "./tmp/console/frontend/public/components/utils/tile-view-page.jsx"
-        ],
-        "count": 26
+        ]
       },
       "scss": {
         "files": [
@@ -134,8 +138,7 @@
           "./tmp/console/frontend/public/style/_layout.scss",
           "./tmp/console/frontend/public/style/_overrides.scss",
           "./tmp/console/frontend/public/style/_vars.scss"
-        ],
-        "count": 8
+        ]
       }
     }
   },
@@ -186,6 +189,9 @@
       "ThIcon": 1,
       "EllipsisVIcon": 1
     },
+    "@patternfly/react-table": {
+      "sortable": 50
+    },
     "@patternfly/react-core": {
       "Alert": 1,
       "AboutModal": 1,
@@ -227,9 +233,6 @@
       "NavItem": 1,
       "NavExpandable": 1
     },
-    "@patternfly/react-table": {
-      "sortable": 49
-    },
     "@patternfly/react-virtualized-extension": {
       "AutoSizer": 1,
       "VirtualTableBody": 1,
@@ -239,13 +242,13 @@
       "Chart": 3,
       "ChartArea": 1,
       "ChartAxis": 3,
-      "ChartGroup": 2,
       "ChartThemeColor": 3,
       "ChartThemeVariant": 3,
       "ChartVoronoiContainer": 1,
       "getCustomTheme": 3,
       "ChartBar": 1,
       "ChartLabel": 1,
+      "ChartGroup": 1,
       "ChartLine": 1
     }
   },
@@ -326,5 +329,6 @@
     "--pf-global--FontFamily--sans": 1
   },
   "repo": "https://github.com/openshift/console",
-  "name": "OpenShift Console"
+  "name": "OpenShift Console",
+  "date": "2019-06-18T19:38:47.550Z"
 }

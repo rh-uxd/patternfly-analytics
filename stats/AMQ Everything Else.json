@@ -1,0 +1,131 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 18,
+        "css": 3
+      },
+      "js": 112,
+      "ts": 2,
+      "css": 11
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "./tmp/enmasse/console/console-init/ui/src/App/app.test_bak.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/About/About.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/Layout/Layout.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/Delete/DeleteInstanceModal.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/FilterTypes/FilterTypes.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/InstancesActionKebab/InstancesActionKebab.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/CreateAddressSpace.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Configuration/AddressSpaceTypeInput.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Configuration/AuthenticationServiceInput.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Configuration/ConfigurationForm.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Configuration/NameInput.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Configuration/NamespaceInput.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Configuration/NamespaceInput.test.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Configuration/PlansInput.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Configuration/PlansInput.test.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Review.js",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstances.js",
+          "./tmp/enmasse/console/console-init/ui/src/context/notification-manager.js"
+        ]
+      },
+      "css": {
+        "files": [
+          "./tmp/enmasse/agent/www/index.css",
+          "./tmp/enmasse/console/console-init/ui/src/components/Layout/Layout.css",
+          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Review.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Alert": 2,
+      "Button": 3,
+      "AboutModal": 1,
+      "TextContent": 2,
+      "TextList": 1,
+      "TextListItem": 1,
+      "Avatar": 1,
+      "Brand": 1,
+      "Dropdown": 3,
+      "DropdownToggle": 2,
+      "DropdownItem": 3,
+      "Nav": 1,
+      "NavItem": 1,
+      "NavList": 1,
+      "NavVariants": 1,
+      "Page": 1,
+      "PageHeader": 1,
+      "PageSection": 2,
+      "PageSectionVariants": 2,
+      "Toolbar": 2,
+      "ToolbarGroup": 2,
+      "ToolbarItem": 2,
+      "Modal": 1,
+      "DropdownPosition": 1,
+      "KebabToggle": 1,
+      "BackgroundImageSrc": 1,
+      "Wizard": 1,
+      "FormGroup": 6,
+      "Radio": 1,
+      "FormSelect": 3,
+      "FormSelectOption": 5,
+      "Form": 2,
+      "Title": 2,
+      "TextInput": 2,
+      "Card": 1,
+      "CardHeader": 1,
+      "CardBody": 1,
+      "Split": 1,
+      "SplitItem": 1,
+      "Text": 2,
+      "Badge": 1,
+      "Pagination": 1,
+      "PaginationVariant": 1,
+      "AlertActionCloseButton": 1
+    },
+    "@patternfly/patternfly/utilities/Accessibility/accessibility.css": {
+      "accessibleStyles": 1
+    },
+    "@patternfly/patternfly/utilities/Spacing/spacing.css": {
+      "spacingStyles": 2
+    },
+    "@patternfly/react-styles": {
+      "css": 2
+    },
+    "@patternfly/react-icons": {
+      "CogIcon": 1,
+      "FilterIcon": 1,
+      "CheckCircleIcon": 1,
+      "TimesCircleIcon": 1,
+      "InProgressIcon": 1,
+      "HourglassStartIcon": 1
+    },
+    "@patternfly/react-table": {
+      "Table": 1,
+      "TableVariant": 1,
+      "TableHeader": 1,
+      "TableBody": 1
+    },
+    "@patternfly/patternfly/utilities/Flex/flex.css": {
+      "flexStyles": 1
+    }
+  },
+  "classes": {
+    "pf-u-justify-content-space-between": 1,
+    "pf-u-my-md": 2,
+    "pf-u-justify-content-flex-end": 1,
+    "pf-c-avatar": 2,
+    "pf-c-page__header": 1
+  },
+  "scssVars": {
+    "--pf-c-card--BoxShadow": 1
+  },
+  "repo": "https://github.com/EnMasseProject/enmasse",
+  "name": "AMQ Everything Else",
+  "date": "2019-06-18T19:38:58.629Z"
+}

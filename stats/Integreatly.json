@@ -1,6 +1,10 @@
 {
   "files": {
     "total": {
+      "withPatternfly": {
+        "js": 19,
+        "scss": 11
+      },
       "js": 96,
       "css": 2,
       "scss": 21
@@ -27,8 +31,7 @@
           "./tmp/tutorial-web-app/src/pages/landing/landingPage.js",
           "./tmp/tutorial-web-app/src/pages/tutorial/task/task.js",
           "./tmp/tutorial-web-app/src/pages/tutorial/tutorial.js"
-        ],
-        "count": 19
+        ]
       },
       "scss": {
         "files": [
@@ -43,8 +46,7 @@
           "./tmp/tutorial-web-app/src/styles/application/pages/_taskDashboard.scss",
           "./tmp/tutorial-web-app/src/styles/application/pages/_taskLayout.scss",
           "./tmp/tutorial-web-app/src/styles/application/utilities/_patternfly4.scss"
-        ],
-        "count": 11
+        ]
       }
     }
   },
@@ -196,5 +198,6 @@
     "--pf-global--FontWeight--semi": 1
   },
   "repo": "https://github.com/integr8ly/tutorial-web-app",
-  "name": "Integreatly"
+  "name": "Integreatly",
+  "date": "2019-06-18T19:38:47.616Z"
 }

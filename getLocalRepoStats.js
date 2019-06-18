@@ -5,7 +5,9 @@ const glob = require('glob');
 const getLocalRepoStats = repoPath => {
   const result = {
     files: {
-      total: {},
+      total: {
+        withPatternfly: {}
+      },
       withPatternfly: {}
     },
     imports: {
@@ -48,6 +50,8 @@ const getLocalRepoStats = repoPath => {
 
   // Build { result: { imports } }
   jsFiles.forEach(file => {
+    const stat = fs.lstatSync(file);
+    if (stat.isSymbolicLink() || stat.isDirectory()) return;
     const ext = getExt(file);
     const contents = fs.readFileSync(file, 'utf8');
     let regMatch;
@@ -74,6 +78,8 @@ const getLocalRepoStats = repoPath => {
 
   // Build { result: {scssVars: total: {}} }
   styleFiles.forEach(file => {
+    const stat = fs.lstatSync(file);
+    if (stat.isSymbolicLink() || stat.isDirectory()) return;
     const ext = getExt(file);
     const contents = fs.readFileSync(file, 'utf8');
 
@@ -101,9 +107,9 @@ const getLocalRepoStats = repoPath => {
   Object.entries(result.files.withPatternfly).forEach(([key, val]) => {
     const files = Object.keys(val);
     result.files.withPatternfly[key] = {
-      files,
-      count: files.length
+      files
     };
+    result.files.total.withPatternfly[key] = files.length;
   });
 
   return result;

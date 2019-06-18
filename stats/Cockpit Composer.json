@@ -1,0 +1,50 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 12
+      },
+      "js": 101,
+      "css": 2
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "./tmp/cockpit-composer/components/EmptyState/EmptyStateInactive.js",
+          "./tmp/cockpit-composer/components/ListView/BlueprintContents.js",
+          "./tmp/cockpit-composer/components/ListView/ComponentDetailsView.js",
+          "./tmp/cockpit-composer/components/Modal/CreateBlueprint.js",
+          "./tmp/cockpit-composer/components/Modal/CreateImage.js",
+          "./tmp/cockpit-composer/components/Modal/DeleteBlueprint.js",
+          "./tmp/cockpit-composer/components/Modal/ExportBlueprint.js",
+          "./tmp/cockpit-composer/components/Modal/ManageSources.js",
+          "./tmp/cockpit-composer/components/Modal/PendingChanges.js",
+          "./tmp/cockpit-composer/components/Toolbar/FilterInput.js",
+          "./tmp/cockpit-composer/components/Toolbar/ToolbarLayout.js",
+          "./tmp/cockpit-composer/pages/blueprint/index.js"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "patternfly-react": {
+      "Alert": 4,
+      "Button": 3,
+      "OverlayTrigger": 3,
+      "Tooltip": 1,
+      "Tabs": 3,
+      "Tab": 3,
+      "Modal": 5,
+      "Popover": 2,
+      "Icon": 2,
+      "Spinner": 1,
+      "Filter": 2,
+      "Toolbar": 1
+    }
+  },
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/weldr/cockpit-composer",
+  "name": "Cockpit Composer",
+  "date": "2019-06-18T19:38:47.901Z"
+}

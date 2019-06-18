@@ -1,7 +1,11 @@
 {
   "files": {
     "total": {
-      "js": 45,
+      "withPatternfly": {
+        "js": 12,
+        "scss": 1
+      },
+      "js": 65,
       "scss": 2
     },
     "withPatternfly": {
@@ -19,14 +23,12 @@
           "./tmp/drift-frontend/src/SmartComponents/ErrorAlert/ErrorAlert.js",
           "./tmp/drift-frontend/src/SmartComponents/StateIcon/StateIcon.js",
           "./tmp/drift-frontend/src/SmartComponents/SystemsTable/SystemsTable.js"
-        ],
-        "count": 12
+        ]
       },
       "scss": {
         "files": [
           "./tmp/drift-frontend/src/App.scss"
-        ],
-        "count": 1
+        ]
       }
     }
   },
@@ -88,5 +90,6 @@
   },
   "scssVars": {},
   "repo": "https://github.com/RedHatInsights/drift-frontend",
-  "name": "Insights Frontend"
+  "name": "Insights Frontend",
+  "date": "2019-06-18T19:38:47.258Z"
 }

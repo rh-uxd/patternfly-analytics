@@ -1,8 +1,12 @@
 {
   "files": {
     "total": {
-      "js": 42,
-      "jsx": 157,
+      "withPatternfly": {
+        "jsx": 75,
+        "scss": 1
+      },
+      "js": 50,
+      "jsx": 163,
       "scss": 1
     },
     "withPatternfly": {
@@ -25,6 +29,9 @@
           "./tmp/awx-pf.git/src/components/CardCloseButton.jsx",
           "./tmp/awx-pf.git/src/components/Chip/Chip.jsx",
           "./tmp/awx-pf.git/src/components/Chip/ChipGroup.jsx",
+          "./tmp/awx-pf.git/src/components/ContentEmpty.jsx",
+          "./tmp/awx-pf.git/src/components/ContentError.jsx",
+          "./tmp/awx-pf.git/src/components/ContentLoading.jsx",
           "./tmp/awx-pf.git/src/components/DataListToolbar/DataListToolbar.jsx",
           "./tmp/awx-pf.git/src/components/DetailList/Detail.jsx",
           "./tmp/awx-pf.git/src/components/DetailList/DetailList.jsx",
@@ -53,7 +60,9 @@
           "./tmp/awx-pf.git/src/pages/InstanceGroups.jsx",
           "./tmp/awx-pf.git/src/pages/Inventories.jsx",
           "./tmp/awx-pf.git/src/pages/InventoryScripts.jsx",
-          "./tmp/awx-pf.git/src/pages/Jobs.jsx",
+          "./tmp/awx-pf.git/src/pages/Jobs/Job.jsx",
+          "./tmp/awx-pf.git/src/pages/Jobs/JobDetail/JobDetail.jsx",
+          "./tmp/awx-pf.git/src/pages/Jobs/JobOutput/JobOutput.jsx",
           "./tmp/awx-pf.git/src/pages/JobsSettings.jsx",
           "./tmp/awx-pf.git/src/pages/License.jsx",
           "./tmp/awx-pf.git/src/pages/Login.jsx",
@@ -78,14 +87,12 @@
           "./tmp/awx-pf.git/src/pages/Templates/TemplatesList.jsx",
           "./tmp/awx-pf.git/src/pages/UISettings.jsx",
           "./tmp/awx-pf.git/src/pages/Users.jsx"
-        ],
-        "count": 70
+        ]
       },
       "scss": {
         "files": [
           "./tmp/awx-pf.git/src/app.scss"
-        ],
-        "count": 1
+        ]
       }
     }
   },
@@ -97,7 +104,6 @@
       "Page": 1,
       "PageHeader": 1,
       "PageSidebar": 1,
-      "Button": 11,
       "AboutModal": 1,
       "TextContent": 3,
       "TextList": 2,
@@ -110,11 +116,16 @@
       "BackgroundImage": 1,
       "BackgroundImageSrc": 1,
       "PageSection": 25,
-      "PageSectionVariants": 23,
+      "PageSectionVariants": 22,
       "Breadcrumb": 1,
       "BreadcrumbItem": 1,
       "BreadcrumbHeading": 1,
+      "Button": 11,
       "Chip": 1,
+      "Title": 21,
+      "EmptyState": 3,
+      "EmptyStateIcon": 2,
+      "EmptyStateBody": 3,
       "Toolbar": 3,
       "ToolbarGroup": 3,
       "ToolbarItem": 3,
@@ -138,41 +149,37 @@
       "DropdownItem": 3,
       "DropdownToggle": 3,
       "DropdownPosition": 3,
-      "Tooltip": 5,
+      "Tooltip": 6,
       "DataList": 1,
-      "Title": 21,
-      "EmptyState": 1,
-      "EmptyStateIcon": 1,
-      "EmptyStateBody": 1,
       "Pagination": 1,
       "DropdownDirection": 1,
       "Split": 1,
       "SplitItem": 1,
       "Tabs": 1,
+      "Card": 5,
+      "CardHeader": 3,
+      "CardBody": 5,
       "LoginForm": 1,
       "LoginPage": 1,
       "Text": 1,
       "TextVariants": 1,
-      "Form": 1,
-      "Card": 4,
-      "CardHeader": 2,
-      "CardBody": 3
+      "Form": 1
     },
     "@patternfly/react-tokens": {
       "global_breakpoint_md": 1
     },
     "@patternfly/react-icons": {
-      "ExclamationTriangleIcon": 1,
+      "ExclamationTriangleIcon": 2,
       "ExclamationCircleIcon": 1,
       "InfoCircleIcon": 1,
       "CheckCircleIcon": 1,
       "TimesIcon": 1,
+      "CubesIcon": 1,
       "BarsIcon": 1,
       "EqualsIcon": 1,
       "SearchIcon": 2,
-      "QuestionCircleIcon": 2,
+      "QuestionCircleIcon": 3,
       "UserIcon": 1,
-      "CubesIcon": 1,
       "PlusIcon": 1,
       "TrashAltIcon": 1,
       "SortAlphaDownIcon": 1,
@@ -186,9 +193,8 @@
   },
   "classes": {
     "pf-c-chip": 2,
-    "pf-c-form__helper-text.pf-m-error": 4,
+    "pf-c-form__helper-text.pf-m-error": 1,
     "pf-c-tabs__item": 2,
-    "pf-c-tabs__button[children=": 2,
     "pf-c-page__header-brand-link": 1,
     "pf-c-button": 2,
     "pf-c-chip-group": 1,
@@ -196,6 +202,8 @@
     "pf-c-form-control": 2,
     "pf-c-options-menu__toggle-button": 1,
     "pf-c-input-group": 1,
+    "pf-c-tabs__list": 1,
+    "pf-c-tabs__button": 1,
     "pf-c-brand": 1,
     "pf-c-page__sidebar": 1,
     "pf-c-nav": 1,
@@ -265,5 +273,6 @@
     "--pf-global--success-color-": 3
   },
   "repo": "git@github.com:ansible/awx-pf.git",
-  "name": "Ansible"
+  "name": "Ansible",
+  "date": "2019-06-18T19:38:47.802Z"
 }
