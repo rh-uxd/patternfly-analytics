@@ -55,6 +55,7 @@ const repos = [
     "git": "https://github.com/syndesisio/syndesis-react",
     "name": "Fuse Online React"
   },
+  // https://docs.google.com/presentation/d/1nhOx4SheKFKRejtg7yHbANboeBywL7KCSvkc74UegzA
   {
     "git": "https://github.com/EnMasseProject/enmasse",
     "name": "AMQ Everything Else"
@@ -74,6 +75,14 @@ const repos = [
   {
     "git": "https://github.com/Apicurio/apicurio-studio",
     "name": "Apicurito"
+  },
+  {
+    "git": "https://github.com/kubevirt/web-ui",
+    "name": "OpenShift Cluster Console UI"
+  },
+  {
+    "git": "https://github.com/kiali/kiali-ui",
+    "name": "Kiali App"
   },
 ];
 
