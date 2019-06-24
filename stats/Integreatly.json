@@ -85,7 +85,6 @@
       "EmptyStateVariant": 2,
       "Card": 5,
       "CardHeader": 1,
-      "CardBody": 1,
       "CardFooter": 1,
       "Gallery": 1,
       "GalleryItem": 1,
@@ -175,6 +174,7 @@
   },
   "scssVars": {
     "--pf-c-about-modal-box__hero": 1,
+    "--pf-global--spacer--lg": 3,
     "--pf-global--primary-color-": 1,
     "--pf-global--success-color-": 4,
     "--pf-global--BackgroundColor--light": 1,
@@ -199,5 +199,5 @@
   },
   "repo": "https://github.com/integr8ly/tutorial-web-app",
   "name": "Integreatly",
-  "date": "2019-06-21T14:21:47.554Z"
+  "date": "2019-06-24T20:06:21.793Z"
 }

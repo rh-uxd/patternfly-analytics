@@ -3,15 +3,15 @@
     "total": {
       "withPatternfly": {
         "ts": 40,
-        "tsx": 156,
+        "tsx": 157,
         "scss": 2,
         "css": 14
       },
       "js": 87,
       "ts": 512,
-      "tsx": 478,
+      "tsx": 479,
       "scss": 86,
-      "css": 72
+      "css": 73
     },
     "withPatternfly": {
       "ts": {
@@ -71,6 +71,7 @@
           "./tmp/syndesis/app/ui-react/packages/ui/src/Connection/ConnectionDetailsForm.tsx",
           "./tmp/syndesis/app/ui-react/packages/ui/src/Connection/ConnectionDetailsHeader.tsx",
           "./tmp/syndesis/app/ui-react/packages/ui/src/Connection/ConnectionDetailsOauthCard.tsx",
+          "./tmp/syndesis/app/ui-react/packages/ui/src/Connection/ConnectionSetupOAuthCard.tsx",
           "./tmp/syndesis/app/ui-react/packages/ui/src/Connection/ConnectionsGrid.tsx",
           "./tmp/syndesis/app/ui-react/packages/ui/src/Connection/ConnectionsGridCell.tsx",
           "./tmp/syndesis/app/ui-react/packages/ui/src/Connection/ConnectionSkeleton.tsx",
@@ -310,13 +311,13 @@
       "Form": 1,
       "MenuItem": 3,
       "FormControl": 8,
-      "Card": 27,
+      "Card": 28,
       "CardBody": 6,
       "CardGrid": 7,
       "Icon": 11,
       "Alert": 8,
       "Button": 17,
-      "ListViewInfoItem": 3,
+      "ListViewInfoItem": 4,
       "ListViewItem": 12,
       "OverlayTrigger": 11,
       "Tooltip": 11,
@@ -479,6 +480,6 @@
     "--pf-c-content--small": 1
   },
   "repo": "https://github.com/syndesisio/syndesis",
-  "name": "Fuse Online",
-  "date": "2019-06-21T14:21:50.518Z"
+  "name": "Fuse-Online",
+  "date": "2019-06-24T20:06:28.464Z"
 }
