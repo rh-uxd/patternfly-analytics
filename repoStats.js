@@ -25,7 +25,8 @@ const repos = [
   },
   {
     "git": "git@github.com:ansible/awx-pf.git",
-    "name": "Ansible"
+    "name": "Ansible",
+    "private": true,
   },
   {
     "git": "https://gitlab.com/cloudigrade/frontigrade",
@@ -90,17 +91,19 @@ if (!fs.existsSync('stats')) {
   fs.mkdirSync('stats');
 }
 
-repos.forEach(repo => {
-  const repoName = repo.git.split('/').pop();
-  const tmpPath = `./tmp/${repoName}`;
-  if (!fs.existsSync(tmpPath)) {
-    execSync(`git clone "${repo.git}" "${tmpPath}" --depth 1`);
-  }
-  const results = getLocalRepoStats(`./tmp/${repoName}`);
-  results.repo = repo.git;
-  results.name = repo.name || repoName;
-  results.date = new Date().toISOString();
+repos
+  .filter(repo => process.argv[2] === '-p' || !repo.private)
+  .forEach(repo => {
+    const repoName = repo.git.split('/').pop();
+    const tmpPath = `./tmp/${repoName}`;
+    if (!fs.existsSync(tmpPath)) {
+      execSync(`git clone "${repo.git}" "${tmpPath}" --depth 1`);
+    }
+    const results = getLocalRepoStats(`./tmp/${repoName}`);
+    results.repo = repo.git;
+    results.name = repo.name || repoName;
+    results.date = new Date().toISOString();
 
-  fs.writeFileSync(`stats/${repo.name}.json`, JSON.stringify(results, null, 2));
-});
+    fs.writeFileSync(`stats/${repo.name}.json`, JSON.stringify(results, null, 2));
+  });
 
