@@ -5,8 +5,8 @@
         "css": 1
       },
       "js": 5,
-      "ts": 206,
-      "css": 90
+      "ts": 209,
+      "css": 93
     },
     "withPatternfly": {
       "css": {
@@ -23,5 +23,5 @@
   "scssVars": {},
   "repo": "https://github.com/Apicurio/apicurio-studio",
   "name": "Apicurito",
-  "date": "2019-06-21T14:21:56.911Z"
+  "date": "2019-06-24T20:06:38.181Z"
 }

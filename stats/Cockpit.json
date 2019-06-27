@@ -2,12 +2,12 @@
   "files": {
     "total": {
       "withPatternfly": {
-        "jsx": 31
+        "jsx": 29
       },
-      "js": 197,
-      "jsx": 126,
-      "css": 63,
-      "less": 31
+      "js": 184,
+      "jsx": 112,
+      "css": 57,
+      "less": 30
     },
     "withPatternfly": {
       "jsx": {
@@ -36,8 +36,6 @@
           "./tmp/cockpit/pkg/machines/components/vnc.jsx",
           "./tmp/cockpit/pkg/machines/components/warningInactive.jsx",
           "./tmp/cockpit/pkg/networkmanager/firewall.jsx",
-          "./tmp/cockpit/pkg/ovirt/components/App.jsx",
-          "./tmp/cockpit/pkg/ovirt/components/infoRecord.jsx",
           "./tmp/cockpit/pkg/packagekit/history.jsx",
           "./tmp/cockpit/pkg/packagekit/updates.jsx",
           "./tmp/cockpit/pkg/storaged/dialog.jsx",
@@ -49,8 +47,8 @@
   },
   "imports": {
     "patternfly-react": {
-      "OverlayTrigger": 13,
-      "Tooltip": 14,
+      "OverlayTrigger": 12,
+      "Tooltip": 12,
       "Alert": 2,
       "ToastNotificationList": 1,
       "ToastNotification": 1,
@@ -80,5 +78,5 @@
   "scssVars": {},
   "repo": "https://github.com/cockpit-project/cockpit",
   "name": "Cockpit",
-  "date": "2019-06-21T14:21:48.579Z"
+  "date": "2019-06-24T20:06:23.270Z"
 }

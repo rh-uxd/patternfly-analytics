@@ -7,7 +7,7 @@
       },
       "js": 2,
       "ts": 152,
-      "tsx": 191,
+      "tsx": 192,
       "scss": 13
     },
     "withPatternfly": {
@@ -173,7 +173,7 @@
       "Toolbar": 5,
       "FormGroup": 11,
       "InputGroup": 2,
-      "Tooltip": 10,
+      "Tooltip": 11,
       "DropdownButton": 6,
       "MenuItem": 9,
       "MessageDialog": 2,
@@ -321,6 +321,6 @@
     "--pf-c-nav__list-toggle-": 1
   },
   "repo": "https://github.com/kiali/kiali-ui",
-  "name": "Kiali App",
-  "date": "2019-06-21T14:21:58.940Z"
+  "name": "Kiali-App",
+  "date": "2019-06-24T20:06:39.148Z"
 }

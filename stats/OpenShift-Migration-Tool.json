@@ -2,11 +2,11 @@
   "files": {
     "total": {
       "withPatternfly": {
-        "tsx": 37
+        "tsx": 36
       },
-      "js": 9,
+      "js": 10,
       "tsx": 45,
-      "ts": 52
+      "ts": 54
     },
     "withPatternfly": {
       "tsx": {
@@ -20,7 +20,6 @@
           "./tmp/mig-ui/src/app/common/components/StatusIcon.tsx",
           "./tmp/mig-ui/src/app/home/components/Card/DashboardCard.tsx",
           "./tmp/mig-ui/src/app/home/components/Card/Status/CardStatus.tsx",
-          "./tmp/mig-ui/src/app/home/components/Card/Status/MigrationStatus.tsx",
           "./tmp/mig-ui/src/app/home/components/Card/Status/PlanStatusIcon.tsx",
           "./tmp/mig-ui/src/app/home/components/DataList/Clusters/ClusterContent.tsx",
           "./tmp/mig-ui/src/app/home/components/DataList/Clusters/ClusterDataListItem.tsx",
@@ -56,18 +55,18 @@
     "@patternfly/react-core": {
       "Alert": 1,
       "AlertActionCloseButton": 1,
-      "TextInput": 4,
+      "TextInput": 3,
       "Form": 2,
       "FormGroup": 3,
       "Modal": 4,
-      "Button": 16,
+      "Button": 15,
       "Card": 2,
       "CardHeader": 2,
       "CardBody": 2,
       "CardFooter": 2,
       "Title": 5,
-      "Grid": 3,
-      "GridItem": 3,
+      "Grid": 2,
+      "GridItem": 2,
       "DataList": 5,
       "DataListContent": 4,
       "EmptyState": 4,
@@ -78,15 +77,14 @@
       "DataListItemRow": 6,
       "DataListItemCells": 5,
       "DataListAction": 4,
-      "Progress": 1,
-      "ProgressSize": 1,
-      "ButtonVariant": 2,
-      "InputGroup": 1,
+      "Progress": 2,
+      "ProgressSize": 2,
       "Brand": 1,
       "Toolbar": 1,
       "ToolbarGroup": 1,
       "ToolbarItem": 1,
       "Dropdown": 1,
+      "ButtonVariant": 1,
       "DropdownItem": 1,
       "KebabToggle": 1,
       "DropdownToggle": 1,
@@ -116,6 +114,7 @@
       "AddCircleOIcon": 3,
       "PlusCircleIcon": 3,
       "LinkIcon": 2,
+      "MigrationIcon": 1,
       "ServiceIcon": 1,
       "DatabaseIcon": 1,
       "BellIcon": 1,
@@ -138,6 +137,6 @@
   },
   "scssVars": {},
   "repo": "https://github.com/fusor/mig-ui",
-  "name": "OpenShift Migration Tool",
-  "date": "2019-06-21T14:21:48.650Z"
+  "name": "OpenShift-Migration-Tool",
+  "date": "2019-06-24T20:06:23.408Z"
 }

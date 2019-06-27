@@ -2,7 +2,7 @@
   "files": {
     "total": {
       "withPatternfly": {
-        "js": 73,
+        "js": 72,
         "scss": 28,
         "css": 1
       },
@@ -74,7 +74,6 @@
           "./tmp/frontend-components/packages/inventory/src/InventoryDetail.js",
           "./tmp/frontend-components/packages/inventory/src/InventoryList.js",
           "./tmp/frontend-components/packages/inventory/src/Pagination.js",
-          "./tmp/frontend-components/packages/inventory/src/redux/entities.js",
           "./tmp/frontend-components/packages/notifications/src/Notification.js",
           "./tmp/frontend-components/packages/notifications/src/NotificationPagination.js",
           "./tmp/frontend-components/packages/notifications/src/NotificationPagination.test.js",
@@ -234,12 +233,11 @@
       "Table": 7,
       "TableHeader": 7,
       "TableBody": 7,
-      "sortable": 5,
+      "sortable": 6,
       "SortByDirection": 5,
       "TableVariant": 3,
       "cellWidth": 3,
       "TableGridBreakpoint": 1,
-      "SortDirection": 1,
       "*": 1
     },
     "@patternfly/react-tokens": {
@@ -394,6 +392,6 @@
     "--pf-global--breakpoint--xl": 1
   },
   "repo": "https://github.com/RedHatInsights/frontend-components",
-  "name": "Insights Library",
-  "date": "2019-06-21T14:21:46.935Z"
+  "name": "Insights-Library",
+  "date": "2019-06-24T20:06:20.621Z"
 }
