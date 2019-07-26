@@ -1,0 +1,217 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 21,
+        "ts": 8,
+        "jsx": 19,
+        "scss": 8
+      },
+      "ts": 127,
+      "js": 51,
+      "tsx": 179,
+      "jsx": 133,
+      "scss": 80
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "./tmp/web-ui/frontend/__tests__/components/catalog.spec.tsx",
+          "./tmp/web-ui/frontend/__tests__/components/environment.spec.tsx",
+          "./tmp/web-ui/frontend/__tests__/components/operator-hub/operator-hub.spec.tsx",
+          "./tmp/web-ui/frontend/__tests__/components/storage-class-form.spec.tsx",
+          "./tmp/web-ui/frontend/public/components/build.tsx",
+          "./tmp/web-ui/frontend/public/components/cluster-settings/cluster-settings.tsx",
+          "./tmp/web-ui/frontend/public/components/cluster-settings/mapping-method.tsx",
+          "./tmp/web-ui/frontend/public/components/deploy-image.tsx",
+          "./tmp/web-ui/frontend/public/components/error.tsx",
+          "./tmp/web-ui/frontend/public/components/operator-hub/operator-hub-community-provider-modal.tsx",
+          "./tmp/web-ui/frontend/public/components/operator-hub/operator-hub-item-details.tsx",
+          "./tmp/web-ui/frontend/public/components/operator-hub/operator-hub-items.tsx",
+          "./tmp/web-ui/frontend/public/components/operator-hub/operator-hub-subscribe.tsx",
+          "./tmp/web-ui/frontend/public/components/operator-lifecycle-manager/clusterserviceversion.tsx",
+          "./tmp/web-ui/frontend/public/components/overview/build-overview.tsx",
+          "./tmp/web-ui/frontend/public/components/overview/index.tsx",
+          "./tmp/web-ui/frontend/public/components/overview/networking-overview.tsx",
+          "./tmp/web-ui/frontend/public/components/overview/project-overview.tsx",
+          "./tmp/web-ui/frontend/public/components/storage-class-form.tsx",
+          "./tmp/web-ui/frontend/public/components/utils/status-icon.tsx",
+          "./tmp/web-ui/frontend/public/metalkube/components/host/host-detail.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "./tmp/web-ui/frontend/integration-tests/tests/kubevirt/utils/utils.ts",
+          "./tmp/web-ui/frontend/integration-tests/tests/olm/catalog.scenario.ts",
+          "./tmp/web-ui/frontend/integration-tests/tests/service-catalog/service-binding.scenario.ts",
+          "./tmp/web-ui/frontend/integration-tests/tests/service-catalog/service-broker.scenario.ts",
+          "./tmp/web-ui/frontend/integration-tests/tests/service-catalog/service-catalog.scenario.ts",
+          "./tmp/web-ui/frontend/integration-tests/tests/service-catalog/service-class.scenario.ts",
+          "./tmp/web-ui/frontend/integration-tests/views/login.view.ts",
+          "./tmp/web-ui/frontend/integration-tests/views/sidenav.view.ts"
+        ]
+      },
+      "jsx": {
+        "files": [
+          "./tmp/web-ui/frontend/public/components/about-modal.jsx",
+          "./tmp/web-ui/frontend/public/components/app.jsx",
+          "./tmp/web-ui/frontend/public/components/catalog/catalog-item-details.jsx",
+          "./tmp/web-ui/frontend/public/components/catalog/catalog-items.jsx",
+          "./tmp/web-ui/frontend/public/components/environment.jsx",
+          "./tmp/web-ui/frontend/public/components/masthead-toolbar.jsx",
+          "./tmp/web-ui/frontend/public/components/masthead.jsx",
+          "./tmp/web-ui/frontend/public/components/nav.jsx",
+          "./tmp/web-ui/frontend/public/components/resource-quota.jsx",
+          "./tmp/web-ui/frontend/public/components/utils/tile-view-page.jsx",
+          "./tmp/web-ui/frontend/public/kubevirt/components/cluster/events-inner-overview.jsx",
+          "./tmp/web-ui/frontend/public/kubevirt/components/disk.jsx",
+          "./tmp/web-ui/frontend/public/kubevirt/components/modals/cancel-vmi-migration-modal.jsx",
+          "./tmp/web-ui/frontend/public/kubevirt/components/modals/delete-device-modal.jsx",
+          "./tmp/web-ui/frontend/public/kubevirt/components/nav.jsx",
+          "./tmp/web-ui/frontend/public/kubevirt/components/nic.jsx",
+          "./tmp/web-ui/frontend/public/kubevirt/components/node/stop-maintenance-modal.jsx",
+          "./tmp/web-ui/frontend/public/kubevirt/components/utils/showErrors.jsx",
+          "./tmp/web-ui/frontend/public/metalkube/components/host/machine-cell.jsx"
+        ]
+      },
+      "scss": {
+        "files": [
+          "./tmp/web-ui/frontend/public/components/_about-modal.scss",
+          "./tmp/web-ui/frontend/public/components/_masthead.scss",
+          "./tmp/web-ui/frontend/public/components/overview/_overview.scss",
+          "./tmp/web-ui/frontend/public/style/_base.scss",
+          "./tmp/web-ui/frontend/public/style/_common.scss",
+          "./tmp/web-ui/frontend/public/style/_layout.scss",
+          "./tmp/web-ui/frontend/public/style/_overrides.scss",
+          "./tmp/web-ui/frontend/public/style/_vars.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "../../node_modules/patternfly-react-extensions/dist/js/components/CatalogTile": {
+      "CatalogTile": 1
+    },
+    "../../node_modules/patternfly-react-extensions/dist/js/components/VerticalTabs": {
+      "VerticalTabsTab": 1
+    },
+    "../../node_modules/patternfly-react-extensions/dist/js/components/FilterSidePanel": {
+      "FilterSidePanel": 1
+    },
+    "patternfly-react": {
+      "FieldLevelHelp": 5,
+      "Modal": 5,
+      "Form": 5,
+      "Icon": 7,
+      "Button": 5,
+      "Alert": 6,
+      "ExpandCollapse": 1,
+      "Checkbox": 1,
+      "HintBlock": 1,
+      "ListGroup": 2,
+      "Toolbar": 1,
+      "EmptyState": 2,
+      "ListView": 1,
+      "FormControl": 2,
+      "FormGroup": 1,
+      "HelpBlock": 1,
+      "Row": 1,
+      "Col": 1
+    },
+    "patternfly-react-extensions": {
+      "CatalogTile": 3,
+      "FilterSidePanel": 2,
+      "VerticalTabs": 2,
+      "CatalogItemHeader": 2,
+      "PropertiesSidePanel": 2,
+      "PropertyItem": 2
+    },
+    "@patternfly/react-core": {
+      "AboutModal": 1,
+      "TextContent": 1,
+      "TextList": 1,
+      "TextListItem": 1,
+      "Page": 1,
+      "PageSection": 1,
+      "PageSectionVariants": 1,
+      "Button": 1,
+      "Dropdown": 1,
+      "DropdownToggle": 1,
+      "DropdownSeparator": 1,
+      "DropdownItem": 1,
+      "KebabToggle": 1,
+      "Toolbar": 1,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 1,
+      "Brand": 1,
+      "PageHeader": 1,
+      "Nav": 2,
+      "NavExpandable": 1,
+      "NavItem": 1,
+      "NavList": 2,
+      "PageSidebar": 1
+    },
+    "@patternfly/react-icons": {
+      "ArrowCircleUpIcon": 1,
+      "QuestionCircleIcon": 1,
+      "ThIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-brand": 1,
+    "pf-c-nav": 7,
+    "pf-c-dropdown__toggle": 2,
+    "pf-c-nav__list": 2,
+    "pf-c-nav__item": 3,
+    "pf-c-nav__link.pf-m-current": 1,
+    "pf-u-screen-reader": 2,
+    "pf-u-hidden-on-md": 1,
+    "pf-c-nav__link": 5,
+    "pf-c-badge": 1,
+    "pf-c-about-modal-box": 1,
+    "pf-c-page__header": 2,
+    "pf-c-dropdown__menu-item": 2,
+    "pf-c-page__main-section": 2,
+    "pf-c-about-modal-box__hero": 1,
+    "pf-c-dropdown__menu": 1,
+    "pf-c-page": 1,
+    "pf-c-page`": 1,
+    "pf-c-page__sidebar": 2,
+    "pf-c-page__main": 1,
+    "pf-c-nav__simple-list": 3,
+    "pf-c-nav__link.pf-m-separator::after": 1,
+    "pf-c-nav__link::after": 1,
+    "pf-c-nav__link.pf-m-separator:after": 1,
+    "pf-c-nav__link:hover": 1,
+    "pf-c-nav__toggle": 2,
+    "pf-c-nav__subnav": 1
+  },
+  "scssVars": {
+    "--pf-global--color--100": 2,
+    "--pf-c-content--FontSize": 1,
+    "--pf-global--spacer--md": 2,
+    "--pf-global--spacer--xl": 1,
+    "--pf-global--BoxShadow--md": 1,
+    "--pf-global--Color--dark": 1,
+    "--pf-global--BackgroundColor--dark": 1,
+    "--pf-c-page__main--ZIndex": 1,
+    "--pf-c-page__header--MinHeight": 2,
+    "--pf-c-page__main-section-": 4,
+    "--pf-c-page__sidebar--Transition": 1,
+    "--pf-c-page__sidebar--md": 2,
+    "--pf-c-page__sidebar--BackgroundColor": 1,
+    "--pf-c-page__sidebar--PaddingBottom": 1,
+    "--pf-c-page__sidebar--PaddingTop": 1,
+    "--pf-c-page__sidebar--BoxShadow": 1,
+    "--pf-c-nav__list-link-": 49,
+    "--pf-c-nav__simple-list-link": 19,
+    "--pf-global--FontWeight--normal": 1,
+    "--pf-c-nav__subnav--MarginTop": 1,
+    "--pf-c-nav__subnav--MaxHeight": 1,
+    "--pf-c-nav__list-toggle-": 1,
+    "--pf-global--FontFamily--sans": 1
+  },
+  "repo": "https://github.com/kubevirt/web-ui",
+  "name": "OpenShift-Cluster-Console-UI",
+  "date": "2019-07-26T19:25:23.906Z"
+}

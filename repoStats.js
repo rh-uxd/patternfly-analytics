@@ -81,6 +81,10 @@ const repos = [
     "git": "https://github.com/kiali/kiali-ui",
     "name": "Kiali-App"
   },
+  {
+    "git": "https://github.com/aerogear/mobile-developer-console",
+    "name": "Mobile-Dev-Console"
+  },
 ];
 
 if (!fs.existsSync('stats')) {
@@ -100,6 +104,10 @@ repos
     results.name = repo.name || repoName;
     results.date = new Date().toISOString();
 
-    fs.writeFileSync(`stats/${repo.name}.json`, JSON.stringify(results, null, 2));
+    const dir = `stats/${results.date.substr(0, 10)}`;
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir);
+    }
+    fs.writeFileSync(`${dir}/${repo.name}.json`, JSON.stringify(results, null, 2));
   });
 

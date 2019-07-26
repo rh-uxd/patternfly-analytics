@@ -1,0 +1,82 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "ts": 9,
+        "less": 4
+      },
+      "js": 4,
+      "ts": 110,
+      "less": 13,
+      "scss": 1
+    },
+    "withPatternfly": {
+      "ts": {
+        "files": [
+          "./tmp/hawtio-core/src/app/help/help.config.ts",
+          "./tmp/hawtio-core/src/app/navigation/app-launcher/app-launcher.component.ts",
+          "./tmp/hawtio-core/src/app/navigation/context-selector/context-selector.component.ts",
+          "./tmp/hawtio-core/src/app/navigation/help-dropdown/help-dropdown.component.ts",
+          "./tmp/hawtio-core/src/app/navigation/user-dropdown/user-dropdown.component.ts",
+          "./tmp/hawtio-core/src/app/page/page-header/page-header.component.ts",
+          "./tmp/hawtio-core/src/app/page/page-main/page-main.component.ts",
+          "./tmp/hawtio-core/src/app/page/page-sidebar/page-sidebar.component.ts",
+          "./tmp/hawtio-core/src/app/page/page.component.ts"
+        ]
+      },
+      "less": {
+        "files": [
+          "./tmp/hawtio-core/src/app/navigation/app-launcher/app-launcher.component.less",
+          "./tmp/hawtio-core/src/app/navigation/context-selector/context-selector.component.less",
+          "./tmp/hawtio-core/src/app/page/page-main/page-main.component.less",
+          "./tmp/hawtio-core/src/app/page/page.component.less"
+        ]
+      }
+    }
+  },
+  "imports": {},
+  "classes": {
+    "pf-c-dropdown__menu-item": 4,
+    "pf-c-app-launcher": 1,
+    "pf-c-app-launcher__toggle": 2,
+    "pf-c-app-launcher__menu": 2,
+    "pf-c-app-launcher__menu-item": 1,
+    "pf-c-context-selector": 2,
+    "pf-c-context-selector__menu-list": 2,
+    "pf-c-context-selector__toggle": 1,
+    "pf-c-context-selector__toggle-text": 1,
+    "pf-c-context-selector__toggle-icon": 1,
+    "pf-c-context-selector__menu": 1,
+    "pf-c-context-selector__menu-input": 1,
+    "pf-c-input-group": 1,
+    "pf-c-form-control": 1,
+    "pf-c-context-selector__menu-list-item": 1,
+    "pf-c-dropdown": 2,
+    "pf-c-dropdown__toggle": 2,
+    "pf-c-dropdown__menu": 2,
+    "pf-c-page__header-brand": 1,
+    "pf-c-page__header-brand-toggle": 1,
+    "pf-c-button": 1,
+    "pf-c-page__header-brand-link": 1,
+    "pf-c-brand": 1,
+    "pf-c-page__header-selector": 2,
+    "pf-c-page__header-tools": 1,
+    "pf-c-page__header-tools-group": 2,
+    "pf-c-page__main-section": 2,
+    "pf-c-nav": 2,
+    "pf-c-nav__list": 1,
+    "pf-c-nav__item": 1,
+    "pf-c-nav__link": 1,
+    "pf-c-background-image": 1,
+    "pf-c-background-image__filter": 1,
+    "pf-c-page": 1,
+    "pf-c-page__header": 2,
+    "pf-c-page__sidebar": 2,
+    "pf-c-page__main": 2,
+    "pf-c-dropdown,": 1
+  },
+  "scssVars": {},
+  "repo": "https://github.com/hawtio/hawtio-core",
+  "name": "Fuse-Admin-Console",
+  "date": "2019-07-26T19:24:38.192Z"
+}
