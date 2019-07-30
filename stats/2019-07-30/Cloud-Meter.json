@@ -1,0 +1,174 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 31,
+        "scss": 1
+      },
+      "js": 144,
+      "scss": 13
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "./tmp/frontigrade/src/components/aboutModal/aboutModal.js",
+          "./tmp/frontigrade/src/components/accountEditModals/accountDeleteModal.js",
+          "./tmp/frontigrade/src/components/accountEditModals/accountEditModal.js",
+          "./tmp/frontigrade/src/components/accountGraphCard/accountGraphCard.js",
+          "./tmp/frontigrade/src/components/accountImagesView/accountImagesView.js",
+          "./tmp/frontigrade/src/components/accountImagesView/accountImagesViewListItem.js",
+          "./tmp/frontigrade/src/components/accountImagesView/accountImagesViewListItemDetail.js",
+          "./tmp/frontigrade/src/components/accountView/accountView.js",
+          "./tmp/frontigrade/src/components/accountView/accountViewListItem.js",
+          "./tmp/frontigrade/src/components/accountWizard/accountWizard.js",
+          "./tmp/frontigrade/src/components/accountWizard/accountWizardStepArn.js",
+          "./tmp/frontigrade/src/components/accountWizard/accountWizardStepPolicy.js",
+          "./tmp/frontigrade/src/components/accountWizard/accountWizardStepResults.js",
+          "./tmp/frontigrade/src/components/accountWizard/accountWizardStepRole.js",
+          "./tmp/frontigrade/src/components/authentication/authentication.js",
+          "./tmp/frontigrade/src/components/confirmationModal/confirmationModal.js",
+          "./tmp/frontigrade/src/components/copyField/copyField.js",
+          "./tmp/frontigrade/src/components/dropdownSelect/__tests__/dropdownSelect.test.js",
+          "./tmp/frontigrade/src/components/dropdownSelect/dropdownSelect.js",
+          "./tmp/frontigrade/src/components/formField/formField.js",
+          "./tmp/frontigrade/src/components/pageLayout/pageLayout.js",
+          "./tmp/frontigrade/src/components/toastNotificationsList/toastNotificationsList.js",
+          "./tmp/frontigrade/src/components/toolbar/toolbar.js",
+          "./tmp/frontigrade/src/components/toolbar/toolbarFilter.js",
+          "./tmp/frontigrade/src/components/toolbar/toolbarResults.js",
+          "./tmp/frontigrade/src/components/toolbar/toolbarRight.js",
+          "./tmp/frontigrade/src/components/toolbar/toolbarSort.js",
+          "./tmp/frontigrade/src/components/tooltip/tooltip.js",
+          "./tmp/frontigrade/src/components/viewToolbar/viewToolbar.js",
+          "./tmp/frontigrade/src/constants/__tests__/patternflyConstants.test.js",
+          "./tmp/frontigrade/src/constants/patternflyConstants.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "./tmp/frontigrade/src/styles/cloudmeter/_patternflyOverrides.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "AboutModal": 1,
+      "Button": 1,
+      "ButtonVariant": 1,
+      "TextContent": 1,
+      "TextList": 1,
+      "TextListItem": 1,
+      "Breadcrumb": 2,
+      "BreadcrumbItem": 1,
+      "BreadcrumbHeading": 1,
+      "BackgroundImage": 1,
+      "Brand": 1,
+      "Page": 1,
+      "PageHeader": 1,
+      "PageSection": 1,
+      "Toolbar": 1,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 1,
+      "Dropdown": 1,
+      "DropdownToggle": 1,
+      "DropdownItem": 1,
+      "KebabToggle": 1,
+      "BackgroundImageSrc": 1
+    },
+    "@patternfly/react-icons": {
+      "CheckIcon": 1,
+      "PasteIcon": 1,
+      "HelpIcon": 1,
+      "UserIcon": 1
+    },
+    "patternfly-react": {
+      "Alert": 5,
+      "Button": 9,
+      "Grid": 11,
+      "Icon": 11,
+      "Modal": 4,
+      "Spinner": 7,
+      "Form": 8,
+      "Card": 4,
+      "CardGrid": 1,
+      "Label": 3,
+      "SparklineChart": 1,
+      "EmptyState": 2,
+      "ListView": 4,
+      "Row": 2,
+      "Checkbox": 1,
+      "DropdownKebab": 1,
+      "MenuItem": 3,
+      "Wizard": 1,
+      "FieldLevelHelp": 1,
+      "MessageDialog": 1,
+      "InputGroup": 1,
+      "OverlayTrigger": 2,
+      "Tooltip": 2,
+      "Dropdown": 1,
+      "ToastNotificationList": 1,
+      "TimedToastNotification": 1,
+      "Toolbar": 2,
+      "Filter": 2,
+      "FormControl": 1,
+      "Sort": 1,
+      "Popover": 1
+    },
+    "../../constants/patternflyConstants": {
+      "bgImages": 1
+    },
+    "../patternflyConstants": {
+      "bgImages": 1
+    },
+    "@patternfly/patternfly-next/assets/images/background-filter.svg": {
+      "bgFilter": 1
+    },
+    "@patternfly/patternfly-next/assets/images/pfbg_576.jpg": {
+      "pfBg576": 1
+    },
+    "@patternfly/patternfly-next/assets/images/pfbg_576@2x.jpg": {
+      "pfBg576R2x": 1
+    },
+    "@patternfly/patternfly-next/assets/images/pfbg_768.jpg": {
+      "pfBg768": 1
+    },
+    "@patternfly/patternfly-next/assets/images/pfbg_768@2x.jpg": {
+      "pfBg768R2x": 1
+    },
+    "@patternfly/patternfly-next/assets/images/pfbg_992.jpg": {
+      "pfBg992": 1
+    },
+    "@patternfly/patternfly-next/assets/images/pfbg_992@2x.jpg": {
+      "pfBg992R2x": 1
+    },
+    "@patternfly/patternfly-next/assets/images/pfbg_1200.jpg": {
+      "pfBg1200": 1
+    },
+    "@patternfly/patternfly-next/assets/images/pfbg_2000.jpg": {
+      "pfBg2000": 1
+    }
+  },
+  "classes": {
+    "pf-c-dropdown": 2,
+    "pf-c-dropdown__toggle": 1,
+    "pf-c-dropdown__menu-item:hover": 1,
+    "pf-c-page__main": 1,
+    "pf-c-backdrop": 1,
+    "pf-l-bullseye": 1,
+    "pf-c-about-modal-box": 1,
+    "pf-c-about-modal-box__hero": 1
+  },
+  "scssVars": {
+    "--pf-c-page__header--MinHeight": 1,
+    "--pf-c-dropdown__toggle-icon-": 1,
+    "--pf-c-breadcrumb__link--FontWeight": 1,
+    "--pf-global--FontWeight--normal": 2,
+    "--pf-c-breadcrumb__item--FontWeight": 1,
+    "--pf-c-page__main-section-": 4,
+    "--pf-global--FontSize--md": 1
+  },
+  "repo": "https://gitlab.com/cloudigrade/frontigrade",
+  "name": "Cloud-Meter",
+  "date": "2019-07-30T15:11:24.233Z"
+}

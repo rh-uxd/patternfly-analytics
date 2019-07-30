@@ -9,6 +9,9 @@
   "author": "redallen",
   "license": "MIT",
   "dependencies": {
-    "glob": "^7.1.4"
+    "aws-sdk": "^2.502.0",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.4",
+    "yargs": "^13.3.0"
   }
 }
