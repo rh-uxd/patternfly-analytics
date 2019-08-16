@@ -89,6 +89,10 @@ const repos = [
     "git": "https://github.com/aerogear/mobile-developer-console",
     "name": "Mobile-Dev-Console"
   },
+  {
+    "git": "https://gitlab.cee.redhat.com/service/uhc-portal.git",
+    "name": "cloud.openshift.com"
+  },
 ];
 
 if (!fs.existsSync('stats')) {
