@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "build:stats": "node repoStats.js collect -p"
   },
   "author": "redallen",
   "license": "MIT",
