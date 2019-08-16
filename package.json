@@ -7,7 +7,8 @@
     "start": "webpack-dev-server --open",
     "build": "webpack",
     "watch": "webpack --watch",
-    "build:stats": "node repoStats.js collect -p"
+    "collect": "node scripts/cli collect -p",
+    "build:stats": "node scripts/cli analyze"
   },
   "author": "redallen",
   "license": "MIT",
@@ -15,7 +16,6 @@
     "@patternfly/react-charts": "^4.7.1",
     "@patternfly/react-core": "^3.75.2",
     "@reach/router": "^1.2.1",
-    "aws-sdk": "^2.502.0",
     "fs-extra": "^8.1.0",
     "glob": "^7.1.4",
     "plotly.js": "^1.49.2",

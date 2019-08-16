@@ -24,7 +24,6 @@ const getLocalRepoStats = repoPath => {
   };
 
   const getExt = file => file.substr(file.lastIndexOf('.') + 1);
-  const tmpDir = path.resolve(__dirname, 'tmp');
   const jsFiles = glob.sync(`${repoPath}/**/*.{js,jsx,ts,tsx}`);
   const styleFiles = glob.sync(`${repoPath}/**/*.{css,sass,scss,less}`);
 
@@ -41,7 +40,7 @@ const getLocalRepoStats = repoPath => {
     for (let i = 0; regMatch = classRegex.exec(contents); i++) {
       if (i == 0) {
         result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
-        result.files.withPatternfly[ext][file.replace(tmpDir, '')] = true;
+        result.files.withPatternfly[ext][file.replace(repoPath, '')] = true;
       }
       result.classes[regMatch[1]] = result.classes[regMatch[1]] || 0;
       result.classes[regMatch[1]]++;
@@ -58,7 +57,7 @@ const getLocalRepoStats = repoPath => {
     for (let i = 0; regMatch = importRegex.exec(contents); i++) {
       if (i == 0) {
         result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
-        result.files.withPatternfly[ext][file.replace(tmpDir, '')] = true;
+        result.files.withPatternfly[ext][file.replace(repoPath, '')] = true;
       }
       result.imports[regMatch[2]] = result.imports[regMatch[2]] || {};
       regMatch[1]
@@ -87,7 +86,7 @@ const getLocalRepoStats = repoPath => {
     for (let i = 0; regMatch = varRegex.exec(contents); i++) {
       if (i == 0) {
         result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
-        result.files.withPatternfly[ext][file.replace(tmpDir, '')] = true;
+        result.files.withPatternfly[ext][file.replace(repoPath, '')] = true;
       }
       result.scssVars[regMatch[1]] = result.scssVars[regMatch[1]] || 0;
       result.scssVars[regMatch[1]]++;

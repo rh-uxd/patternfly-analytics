@@ -11,42 +11,42 @@
     "withPatternfly": {
       "js": {
         "files": [
-          "./tmp/frontigrade/src/components/aboutModal/aboutModal.js",
-          "./tmp/frontigrade/src/components/accountEditModals/accountDeleteModal.js",
-          "./tmp/frontigrade/src/components/accountEditModals/accountEditModal.js",
-          "./tmp/frontigrade/src/components/accountGraphCard/accountGraphCard.js",
-          "./tmp/frontigrade/src/components/accountImagesView/accountImagesView.js",
-          "./tmp/frontigrade/src/components/accountImagesView/accountImagesViewListItem.js",
-          "./tmp/frontigrade/src/components/accountImagesView/accountImagesViewListItemDetail.js",
-          "./tmp/frontigrade/src/components/accountView/accountView.js",
-          "./tmp/frontigrade/src/components/accountView/accountViewListItem.js",
-          "./tmp/frontigrade/src/components/accountWizard/accountWizard.js",
-          "./tmp/frontigrade/src/components/accountWizard/accountWizardStepArn.js",
-          "./tmp/frontigrade/src/components/accountWizard/accountWizardStepPolicy.js",
-          "./tmp/frontigrade/src/components/accountWizard/accountWizardStepResults.js",
-          "./tmp/frontigrade/src/components/accountWizard/accountWizardStepRole.js",
-          "./tmp/frontigrade/src/components/authentication/authentication.js",
-          "./tmp/frontigrade/src/components/confirmationModal/confirmationModal.js",
-          "./tmp/frontigrade/src/components/copyField/copyField.js",
-          "./tmp/frontigrade/src/components/dropdownSelect/__tests__/dropdownSelect.test.js",
-          "./tmp/frontigrade/src/components/dropdownSelect/dropdownSelect.js",
-          "./tmp/frontigrade/src/components/formField/formField.js",
-          "./tmp/frontigrade/src/components/pageLayout/pageLayout.js",
-          "./tmp/frontigrade/src/components/toastNotificationsList/toastNotificationsList.js",
-          "./tmp/frontigrade/src/components/toolbar/toolbar.js",
-          "./tmp/frontigrade/src/components/toolbar/toolbarFilter.js",
-          "./tmp/frontigrade/src/components/toolbar/toolbarResults.js",
-          "./tmp/frontigrade/src/components/toolbar/toolbarRight.js",
-          "./tmp/frontigrade/src/components/toolbar/toolbarSort.js",
-          "./tmp/frontigrade/src/components/tooltip/tooltip.js",
-          "./tmp/frontigrade/src/components/viewToolbar/viewToolbar.js",
-          "./tmp/frontigrade/src/constants/__tests__/patternflyConstants.test.js",
-          "./tmp/frontigrade/src/constants/patternflyConstants.js"
+          "/src/components/aboutModal/aboutModal.js",
+          "/src/components/accountEditModals/accountDeleteModal.js",
+          "/src/components/accountEditModals/accountEditModal.js",
+          "/src/components/accountGraphCard/accountGraphCard.js",
+          "/src/components/accountImagesView/accountImagesView.js",
+          "/src/components/accountImagesView/accountImagesViewListItem.js",
+          "/src/components/accountImagesView/accountImagesViewListItemDetail.js",
+          "/src/components/accountView/accountView.js",
+          "/src/components/accountView/accountViewListItem.js",
+          "/src/components/accountWizard/accountWizard.js",
+          "/src/components/accountWizard/accountWizardStepArn.js",
+          "/src/components/accountWizard/accountWizardStepPolicy.js",
+          "/src/components/accountWizard/accountWizardStepResults.js",
+          "/src/components/accountWizard/accountWizardStepRole.js",
+          "/src/components/authentication/authentication.js",
+          "/src/components/confirmationModal/confirmationModal.js",
+          "/src/components/copyField/copyField.js",
+          "/src/components/dropdownSelect/__tests__/dropdownSelect.test.js",
+          "/src/components/dropdownSelect/dropdownSelect.js",
+          "/src/components/formField/formField.js",
+          "/src/components/pageLayout/pageLayout.js",
+          "/src/components/toastNotificationsList/toastNotificationsList.js",
+          "/src/components/toolbar/toolbar.js",
+          "/src/components/toolbar/toolbarFilter.js",
+          "/src/components/toolbar/toolbarResults.js",
+          "/src/components/toolbar/toolbarRight.js",
+          "/src/components/toolbar/toolbarSort.js",
+          "/src/components/tooltip/tooltip.js",
+          "/src/components/viewToolbar/viewToolbar.js",
+          "/src/constants/__tests__/patternflyConstants.test.js",
+          "/src/constants/patternflyConstants.js"
         ]
       },
       "scss": {
         "files": [
-          "./tmp/frontigrade/src/styles/cloudmeter/_patternflyOverrides.scss"
+          "/src/styles/cloudmeter/_patternflyOverrides.scss"
         ]
       }
     }
@@ -168,7 +168,7 @@
     "--pf-c-page__main-section-": 4,
     "--pf-global--FontSize--md": 1
   },
-  "repo": "https://gitlab.com/cloudigrade/frontigrade",
+  "repo": "https://gitlab.com/cloudigrade/frontigrade.git",
   "name": "Cloud-Meter",
-  "date": "2019-08-16T16:03:33.585Z"
+  "date": "2019-08-16T19:51:17.645Z"
 }

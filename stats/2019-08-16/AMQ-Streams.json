@@ -11,35 +11,35 @@
     "withPatternfly": {
       "js": {
         "files": [
-          "./tmp/strimzi-kafka-console/console/src/App/app.test.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/addNew/addTopicForm.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/addNew/customArea/ageSelectInput.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/addNew/customArea/sizeSelectInput.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/addNew/customArea/topicsCustom.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/addNew/customArea/topicsPopover.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/addNew/topicCreated.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/addNew/topicCreating.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/addNew/topicModalTitle.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/layout/about.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/layout/layout.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/layout/notificationDrawer.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/layout/notificationList.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/deleteConfirm.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/detailsTable.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/openAddTopic.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/serverError.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/topicPagination.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/topicsEmpty.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/topicsFilter.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/topicsLoading.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/topicsTableEmpty.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/topicsToolbar.js",
-          "./tmp/strimzi-kafka-console/console/src/App/components/table/topicTable.js"
+          "/console/src/App/app.test.js",
+          "/console/src/App/components/addNew/addTopicForm.js",
+          "/console/src/App/components/addNew/customArea/ageSelectInput.js",
+          "/console/src/App/components/addNew/customArea/sizeSelectInput.js",
+          "/console/src/App/components/addNew/customArea/topicsCustom.js",
+          "/console/src/App/components/addNew/customArea/topicsPopover.js",
+          "/console/src/App/components/addNew/topicCreated.js",
+          "/console/src/App/components/addNew/topicCreating.js",
+          "/console/src/App/components/addNew/topicModalTitle.js",
+          "/console/src/App/components/layout/about.js",
+          "/console/src/App/components/layout/layout.js",
+          "/console/src/App/components/layout/notificationDrawer.js",
+          "/console/src/App/components/layout/notificationList.js",
+          "/console/src/App/components/table/deleteConfirm.js",
+          "/console/src/App/components/table/detailsTable.js",
+          "/console/src/App/components/table/openAddTopic.js",
+          "/console/src/App/components/table/serverError.js",
+          "/console/src/App/components/table/topicPagination.js",
+          "/console/src/App/components/table/topicsEmpty.js",
+          "/console/src/App/components/table/topicsFilter.js",
+          "/console/src/App/components/table/topicsLoading.js",
+          "/console/src/App/components/table/topicsTableEmpty.js",
+          "/console/src/App/components/table/topicsToolbar.js",
+          "/console/src/App/components/table/topicTable.js"
         ]
       },
       "css": {
         "files": [
-          "./tmp/strimzi-kafka-console/console/src/App/App.css"
+          "/console/src/App/App.css"
         ]
       }
     }
@@ -168,5 +168,5 @@
   "scssVars": {},
   "repo": "https://github.com/strimzi-incubator/strimzi-kafka-console",
   "name": "AMQ-Streams",
-  "date": "2019-08-16T16:03:33.585Z"
+  "date": "2019-08-16T19:51:17.645Z"
 }

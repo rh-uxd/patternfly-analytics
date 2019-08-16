@@ -16,74 +16,74 @@
     "withPatternfly": {
       "tsx": {
         "files": [
-          "./tmp/web-ui/frontend/__tests__/components/catalog.spec.tsx",
-          "./tmp/web-ui/frontend/__tests__/components/environment.spec.tsx",
-          "./tmp/web-ui/frontend/__tests__/components/operator-hub/operator-hub.spec.tsx",
-          "./tmp/web-ui/frontend/__tests__/components/storage-class-form.spec.tsx",
-          "./tmp/web-ui/frontend/public/components/build.tsx",
-          "./tmp/web-ui/frontend/public/components/cluster-settings/cluster-settings.tsx",
-          "./tmp/web-ui/frontend/public/components/cluster-settings/mapping-method.tsx",
-          "./tmp/web-ui/frontend/public/components/deploy-image.tsx",
-          "./tmp/web-ui/frontend/public/components/error.tsx",
-          "./tmp/web-ui/frontend/public/components/operator-hub/operator-hub-community-provider-modal.tsx",
-          "./tmp/web-ui/frontend/public/components/operator-hub/operator-hub-item-details.tsx",
-          "./tmp/web-ui/frontend/public/components/operator-hub/operator-hub-items.tsx",
-          "./tmp/web-ui/frontend/public/components/operator-hub/operator-hub-subscribe.tsx",
-          "./tmp/web-ui/frontend/public/components/operator-lifecycle-manager/clusterserviceversion.tsx",
-          "./tmp/web-ui/frontend/public/components/overview/build-overview.tsx",
-          "./tmp/web-ui/frontend/public/components/overview/index.tsx",
-          "./tmp/web-ui/frontend/public/components/overview/networking-overview.tsx",
-          "./tmp/web-ui/frontend/public/components/overview/project-overview.tsx",
-          "./tmp/web-ui/frontend/public/components/storage-class-form.tsx",
-          "./tmp/web-ui/frontend/public/components/utils/status-icon.tsx",
-          "./tmp/web-ui/frontend/public/metalkube/components/host/host-detail.tsx"
+          "/frontend/__tests__/components/catalog.spec.tsx",
+          "/frontend/__tests__/components/environment.spec.tsx",
+          "/frontend/__tests__/components/operator-hub/operator-hub.spec.tsx",
+          "/frontend/__tests__/components/storage-class-form.spec.tsx",
+          "/frontend/public/components/build.tsx",
+          "/frontend/public/components/cluster-settings/cluster-settings.tsx",
+          "/frontend/public/components/cluster-settings/mapping-method.tsx",
+          "/frontend/public/components/deploy-image.tsx",
+          "/frontend/public/components/error.tsx",
+          "/frontend/public/components/operator-hub/operator-hub-community-provider-modal.tsx",
+          "/frontend/public/components/operator-hub/operator-hub-item-details.tsx",
+          "/frontend/public/components/operator-hub/operator-hub-items.tsx",
+          "/frontend/public/components/operator-hub/operator-hub-subscribe.tsx",
+          "/frontend/public/components/operator-lifecycle-manager/clusterserviceversion.tsx",
+          "/frontend/public/components/overview/build-overview.tsx",
+          "/frontend/public/components/overview/index.tsx",
+          "/frontend/public/components/overview/networking-overview.tsx",
+          "/frontend/public/components/overview/project-overview.tsx",
+          "/frontend/public/components/storage-class-form.tsx",
+          "/frontend/public/components/utils/status-icon.tsx",
+          "/frontend/public/metalkube/components/host/host-detail.tsx"
         ]
       },
       "ts": {
         "files": [
-          "./tmp/web-ui/frontend/integration-tests/tests/kubevirt/utils/utils.ts",
-          "./tmp/web-ui/frontend/integration-tests/tests/olm/catalog.scenario.ts",
-          "./tmp/web-ui/frontend/integration-tests/tests/service-catalog/service-binding.scenario.ts",
-          "./tmp/web-ui/frontend/integration-tests/tests/service-catalog/service-broker.scenario.ts",
-          "./tmp/web-ui/frontend/integration-tests/tests/service-catalog/service-catalog.scenario.ts",
-          "./tmp/web-ui/frontend/integration-tests/tests/service-catalog/service-class.scenario.ts",
-          "./tmp/web-ui/frontend/integration-tests/views/login.view.ts",
-          "./tmp/web-ui/frontend/integration-tests/views/sidenav.view.ts"
+          "/frontend/integration-tests/tests/kubevirt/utils/utils.ts",
+          "/frontend/integration-tests/tests/olm/catalog.scenario.ts",
+          "/frontend/integration-tests/tests/service-catalog/service-binding.scenario.ts",
+          "/frontend/integration-tests/tests/service-catalog/service-broker.scenario.ts",
+          "/frontend/integration-tests/tests/service-catalog/service-catalog.scenario.ts",
+          "/frontend/integration-tests/tests/service-catalog/service-class.scenario.ts",
+          "/frontend/integration-tests/views/login.view.ts",
+          "/frontend/integration-tests/views/sidenav.view.ts"
         ]
       },
       "jsx": {
         "files": [
-          "./tmp/web-ui/frontend/public/components/about-modal.jsx",
-          "./tmp/web-ui/frontend/public/components/app.jsx",
-          "./tmp/web-ui/frontend/public/components/catalog/catalog-item-details.jsx",
-          "./tmp/web-ui/frontend/public/components/catalog/catalog-items.jsx",
-          "./tmp/web-ui/frontend/public/components/environment.jsx",
-          "./tmp/web-ui/frontend/public/components/masthead-toolbar.jsx",
-          "./tmp/web-ui/frontend/public/components/masthead.jsx",
-          "./tmp/web-ui/frontend/public/components/nav.jsx",
-          "./tmp/web-ui/frontend/public/components/resource-quota.jsx",
-          "./tmp/web-ui/frontend/public/components/utils/tile-view-page.jsx",
-          "./tmp/web-ui/frontend/public/kubevirt/components/cluster/events-inner-overview.jsx",
-          "./tmp/web-ui/frontend/public/kubevirt/components/disk.jsx",
-          "./tmp/web-ui/frontend/public/kubevirt/components/modals/cancel-vmi-migration-modal.jsx",
-          "./tmp/web-ui/frontend/public/kubevirt/components/modals/delete-device-modal.jsx",
-          "./tmp/web-ui/frontend/public/kubevirt/components/nav.jsx",
-          "./tmp/web-ui/frontend/public/kubevirt/components/nic.jsx",
-          "./tmp/web-ui/frontend/public/kubevirt/components/node/stop-maintenance-modal.jsx",
-          "./tmp/web-ui/frontend/public/kubevirt/components/utils/showErrors.jsx",
-          "./tmp/web-ui/frontend/public/metalkube/components/host/machine-cell.jsx"
+          "/frontend/public/components/about-modal.jsx",
+          "/frontend/public/components/app.jsx",
+          "/frontend/public/components/catalog/catalog-item-details.jsx",
+          "/frontend/public/components/catalog/catalog-items.jsx",
+          "/frontend/public/components/environment.jsx",
+          "/frontend/public/components/masthead-toolbar.jsx",
+          "/frontend/public/components/masthead.jsx",
+          "/frontend/public/components/nav.jsx",
+          "/frontend/public/components/resource-quota.jsx",
+          "/frontend/public/components/utils/tile-view-page.jsx",
+          "/frontend/public/kubevirt/components/cluster/events-inner-overview.jsx",
+          "/frontend/public/kubevirt/components/disk.jsx",
+          "/frontend/public/kubevirt/components/modals/cancel-vmi-migration-modal.jsx",
+          "/frontend/public/kubevirt/components/modals/delete-device-modal.jsx",
+          "/frontend/public/kubevirt/components/nav.jsx",
+          "/frontend/public/kubevirt/components/nic.jsx",
+          "/frontend/public/kubevirt/components/node/stop-maintenance-modal.jsx",
+          "/frontend/public/kubevirt/components/utils/showErrors.jsx",
+          "/frontend/public/metalkube/components/host/machine-cell.jsx"
         ]
       },
       "scss": {
         "files": [
-          "./tmp/web-ui/frontend/public/components/_about-modal.scss",
-          "./tmp/web-ui/frontend/public/components/_masthead.scss",
-          "./tmp/web-ui/frontend/public/components/overview/_overview.scss",
-          "./tmp/web-ui/frontend/public/style/_base.scss",
-          "./tmp/web-ui/frontend/public/style/_common.scss",
-          "./tmp/web-ui/frontend/public/style/_layout.scss",
-          "./tmp/web-ui/frontend/public/style/_overrides.scss",
-          "./tmp/web-ui/frontend/public/style/_vars.scss"
+          "/frontend/public/components/_about-modal.scss",
+          "/frontend/public/components/_masthead.scss",
+          "/frontend/public/components/overview/_overview.scss",
+          "/frontend/public/style/_base.scss",
+          "/frontend/public/style/_common.scss",
+          "/frontend/public/style/_layout.scss",
+          "/frontend/public/style/_overrides.scss",
+          "/frontend/public/style/_vars.scss"
         ]
       }
     }
@@ -213,5 +213,5 @@
   },
   "repo": "https://github.com/kubevirt/web-ui",
   "name": "OpenShift-Cluster-Console-UI",
-  "date": "2019-08-16T16:03:33.585Z"
+  "date": "2019-08-16T19:51:17.645Z"
 }

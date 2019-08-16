@@ -11,7 +11,7 @@
     "withPatternfly": {
       "css": {
         "files": [
-          "./tmp/apicurio-studio/front-end/studio/src/styles.css"
+          "/front-end/studio/src/styles.css"
         ]
       }
     }
@@ -23,5 +23,5 @@
   "scssVars": {},
   "repo": "https://github.com/Apicurio/apicurio-studio",
   "name": "Apicurito",
-  "date": "2019-08-16T16:03:33.585Z"
+  "date": "2019-08-16T19:51:17.645Z"
 }

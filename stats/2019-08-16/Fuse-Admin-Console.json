@@ -13,23 +13,23 @@
     "withPatternfly": {
       "ts": {
         "files": [
-          "./tmp/hawtio-core/src/app/help/help.config.ts",
-          "./tmp/hawtio-core/src/app/navigation/app-launcher/app-launcher.component.ts",
-          "./tmp/hawtio-core/src/app/navigation/context-selector/context-selector.component.ts",
-          "./tmp/hawtio-core/src/app/navigation/help-dropdown/help-dropdown.component.ts",
-          "./tmp/hawtio-core/src/app/navigation/user-dropdown/user-dropdown.component.ts",
-          "./tmp/hawtio-core/src/app/page/page-header/page-header.component.ts",
-          "./tmp/hawtio-core/src/app/page/page-main/page-main.component.ts",
-          "./tmp/hawtio-core/src/app/page/page-sidebar/page-sidebar.component.ts",
-          "./tmp/hawtio-core/src/app/page/page.component.ts"
+          "/src/app/help/help.config.ts",
+          "/src/app/navigation/app-launcher/app-launcher.component.ts",
+          "/src/app/navigation/context-selector/context-selector.component.ts",
+          "/src/app/navigation/help-dropdown/help-dropdown.component.ts",
+          "/src/app/navigation/user-dropdown/user-dropdown.component.ts",
+          "/src/app/page/page-header/page-header.component.ts",
+          "/src/app/page/page-main/page-main.component.ts",
+          "/src/app/page/page-sidebar/page-sidebar.component.ts",
+          "/src/app/page/page.component.ts"
         ]
       },
       "less": {
         "files": [
-          "./tmp/hawtio-core/src/app/navigation/app-launcher/app-launcher.component.less",
-          "./tmp/hawtio-core/src/app/navigation/context-selector/context-selector.component.less",
-          "./tmp/hawtio-core/src/app/page/page-main/page-main.component.less",
-          "./tmp/hawtio-core/src/app/page/page.component.less"
+          "/src/app/navigation/app-launcher/app-launcher.component.less",
+          "/src/app/navigation/context-selector/context-selector.component.less",
+          "/src/app/page/page-main/page-main.component.less",
+          "/src/app/page/page.component.less"
         ]
       }
     }
@@ -78,5 +78,5 @@
   "scssVars": {},
   "repo": "https://github.com/hawtio/hawtio-core",
   "name": "Fuse-Admin-Console",
-  "date": "2019-08-16T16:03:33.585Z"
+  "date": "2019-08-16T19:51:17.645Z"
 }

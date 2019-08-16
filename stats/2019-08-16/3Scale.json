@@ -15,43 +15,43 @@
     "withPatternfly": {
       "js": {
         "files": [
-          "./tmp/porta/app/javascript/packs/LoginPage.js",
-          "./tmp/porta/app/javascript/packs/SignUpPage.js",
-          "./tmp/porta/ie11-stylesheet-converter.js"
+          "/app/javascript/packs/LoginPage.js",
+          "/app/javascript/packs/SignUpPage.js",
+          "/ie11-stylesheet-converter.js"
         ]
       },
       "jsx": {
         "files": [
-          "./tmp/porta/app/javascript/src/LoginPage/loginForms/AuthenticationProviders.jsx",
-          "./tmp/porta/app/javascript/src/LoginPage/loginForms/FlashMessages.jsx",
-          "./tmp/porta/app/javascript/src/LoginPage/loginForms/ForgotCredentials.jsx",
-          "./tmp/porta/app/javascript/src/LoginPage/loginForms/FormGroup.jsx",
-          "./tmp/porta/app/javascript/src/LoginPage/loginForms/Login3scaleForm.jsx",
-          "./tmp/porta/app/javascript/src/LoginPage/loginForms/RequestPassWordForm.jsx",
-          "./tmp/porta/app/javascript/src/LoginPage/loginForms/SignupForm.jsx",
-          "./tmp/porta/app/javascript/src/LoginPage/LoginPageWrapper.jsx",
-          "./tmp/porta/app/javascript/src/LoginPage/SignupPageWrapper.jsx",
-          "./tmp/porta/app/javascript/src/Navigation/components/PF4NavProxy.jsx",
-          "./tmp/porta/app/javascript/src/Navigation/components/VerticalNav.jsx",
-          "./tmp/porta/spec/javascripts/LoginPage/FormGroup.spec.jsx",
-          "./tmp/porta/spec/javascripts/LoginPage/LoginPageWrapper.spec.jsx",
-          "./tmp/porta/spec/javascripts/LoginPage/RequestPasswordForm.spec.jsx",
-          "./tmp/porta/spec/javascripts/LoginPage/SignupForm.spec.jsx",
-          "./tmp/porta/spec/javascripts/LoginPage/SignupPageWrapper.spec.jsx"
+          "/app/javascript/src/LoginPage/loginForms/AuthenticationProviders.jsx",
+          "/app/javascript/src/LoginPage/loginForms/FlashMessages.jsx",
+          "/app/javascript/src/LoginPage/loginForms/ForgotCredentials.jsx",
+          "/app/javascript/src/LoginPage/loginForms/FormGroup.jsx",
+          "/app/javascript/src/LoginPage/loginForms/Login3scaleForm.jsx",
+          "/app/javascript/src/LoginPage/loginForms/RequestPassWordForm.jsx",
+          "/app/javascript/src/LoginPage/loginForms/SignupForm.jsx",
+          "/app/javascript/src/LoginPage/LoginPageWrapper.jsx",
+          "/app/javascript/src/LoginPage/SignupPageWrapper.jsx",
+          "/app/javascript/src/Navigation/components/PF4NavProxy.jsx",
+          "/app/javascript/src/Navigation/components/VerticalNav.jsx",
+          "/spec/javascripts/LoginPage/FormGroup.spec.jsx",
+          "/spec/javascripts/LoginPage/LoginPageWrapper.spec.jsx",
+          "/spec/javascripts/LoginPage/RequestPasswordForm.spec.jsx",
+          "/spec/javascripts/LoginPage/SignupForm.spec.jsx",
+          "/spec/javascripts/LoginPage/SignupPageWrapper.spec.jsx"
         ]
       },
       "scss": {
         "files": [
-          "./tmp/porta/app/assets/stylesheets/provider/_header.scss",
-          "./tmp/porta/app/assets/stylesheets/provider/_patternfly_ie11.scss",
-          "./tmp/porta/app/assets/stylesheets/provider/_vertical_nav.scss",
-          "./tmp/porta/app/javascript/src/LoginPage/assets/styles/loginPage.scss",
-          "./tmp/porta/app/javascript/src/Navigation/styles/PF4NavProxy.scss"
+          "/app/assets/stylesheets/provider/_header.scss",
+          "/app/assets/stylesheets/provider/_patternfly_ie11.scss",
+          "/app/assets/stylesheets/provider/_vertical_nav.scss",
+          "/app/javascript/src/LoginPage/assets/styles/loginPage.scss",
+          "/app/javascript/src/Navigation/styles/PF4NavProxy.scss"
         ]
       },
       "css": {
         "files": [
-          "./tmp/porta/app/javascript/src/LoginPage/assets/styles/ie11-pf4BaseStyles.css"
+          "/app/javascript/src/LoginPage/assets/styles/ie11-pf4BaseStyles.css"
         ]
       }
     }
@@ -145,5 +145,5 @@
   },
   "repo": "https://github.com/3scale/porta",
   "name": "3Scale",
-  "date": "2019-08-16T16:03:33.585Z"
+  "date": "2019-08-16T19:51:17.645Z"
 }

@@ -11,30 +11,30 @@
     "withPatternfly": {
       "js": {
         "files": [
-          "./tmp/drift-frontend/src/Routes.js",
-          "./tmp/drift-frontend/src/SmartComponents/AddSystemModal/AddSystemModal.js",
-          "./tmp/drift-frontend/src/SmartComponents/BaselinesPage/BaselinesPage.js",
-          "./tmp/drift-frontend/src/SmartComponents/BaselinesPage/CreateBaseline/CreateBaseline.js",
-          "./tmp/drift-frontend/src/SmartComponents/BaselinesPage/CreateBaselineButton/CreateBaselineButton.js",
-          "./tmp/drift-frontend/src/SmartComponents/BaselinesPage/EditBaseline/EditBaseline.js",
-          "./tmp/drift-frontend/src/SmartComponents/BaselinesPage/EditBaseline/redux/helpers.js",
-          "./tmp/drift-frontend/src/SmartComponents/BaselinesTable/BaselinesTable.js",
-          "./tmp/drift-frontend/src/SmartComponents/BaselinesTable/BaselineTableKebab/BaselineTableKebab.js",
-          "./tmp/drift-frontend/src/SmartComponents/DriftPage/ActionKebab/ActionKebab.js",
-          "./tmp/drift-frontend/src/SmartComponents/DriftPage/AddSystemButton/AddSystemButton.js",
-          "./tmp/drift-frontend/src/SmartComponents/DriftPage/DriftPage.js",
-          "./tmp/drift-frontend/src/SmartComponents/DriftPage/DriftTable/DriftTable.js",
-          "./tmp/drift-frontend/src/SmartComponents/DriftPage/FilterDropDown/FilterDropDown.js",
-          "./tmp/drift-frontend/src/SmartComponents/DriftPage/Pagination/Pagination.js",
-          "./tmp/drift-frontend/src/SmartComponents/DriftPage/SearchBar/SearchBar.js",
-          "./tmp/drift-frontend/src/SmartComponents/ErrorAlert/ErrorAlert.js",
-          "./tmp/drift-frontend/src/SmartComponents/StateIcon/StateIcon.js",
-          "./tmp/drift-frontend/src/SmartComponents/SystemsTable/SystemsTable.js"
+          "/src/Routes.js",
+          "/src/SmartComponents/AddSystemModal/AddSystemModal.js",
+          "/src/SmartComponents/BaselinesPage/BaselinesPage.js",
+          "/src/SmartComponents/BaselinesPage/CreateBaseline/CreateBaseline.js",
+          "/src/SmartComponents/BaselinesPage/CreateBaselineButton/CreateBaselineButton.js",
+          "/src/SmartComponents/BaselinesPage/EditBaseline/EditBaseline.js",
+          "/src/SmartComponents/BaselinesPage/EditBaseline/redux/helpers.js",
+          "/src/SmartComponents/BaselinesTable/BaselinesTable.js",
+          "/src/SmartComponents/BaselinesTable/BaselineTableKebab/BaselineTableKebab.js",
+          "/src/SmartComponents/DriftPage/ActionKebab/ActionKebab.js",
+          "/src/SmartComponents/DriftPage/AddSystemButton/AddSystemButton.js",
+          "/src/SmartComponents/DriftPage/DriftPage.js",
+          "/src/SmartComponents/DriftPage/DriftTable/DriftTable.js",
+          "/src/SmartComponents/DriftPage/FilterDropDown/FilterDropDown.js",
+          "/src/SmartComponents/DriftPage/Pagination/Pagination.js",
+          "/src/SmartComponents/DriftPage/SearchBar/SearchBar.js",
+          "/src/SmartComponents/ErrorAlert/ErrorAlert.js",
+          "/src/SmartComponents/StateIcon/StateIcon.js",
+          "/src/SmartComponents/SystemsTable/SystemsTable.js"
         ]
       },
       "scss": {
         "files": [
-          "./tmp/drift-frontend/src/App.scss"
+          "/src/App.scss"
         ]
       }
     }
@@ -115,5 +115,5 @@
   "scssVars": {},
   "repo": "https://github.com/RedHatInsights/drift-frontend",
   "name": "Insights-Frontend",
-  "date": "2019-08-16T16:03:33.585Z"
+  "date": "2019-08-16T19:51:17.645Z"
 }

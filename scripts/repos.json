@@ -23,10 +23,10 @@
     {
       "git": "git@github.com:ansible/awx-pf.git",
       "name": "Ansible",
-      "private": true,
+      "private": true
     },
     {
-      "git": "https://gitlab.com/cloudigrade/frontigrade",
+      "git": "https://gitlab.com/cloudigrade/frontigrade.git",
       "name": "Cloud-Meter"
     },
     {

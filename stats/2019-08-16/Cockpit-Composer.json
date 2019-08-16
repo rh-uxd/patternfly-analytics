@@ -11,25 +11,25 @@
     "withPatternfly": {
       "js": {
         "files": [
-          "./tmp/cockpit-composer/components/EmptyState/EmptyStateInactive.js",
-          "./tmp/cockpit-composer/components/ListView/BlueprintContents.js",
-          "./tmp/cockpit-composer/components/ListView/ComponentDetailsView.js",
-          "./tmp/cockpit-composer/components/ListView/SourcesListItem.js",
-          "./tmp/cockpit-composer/components/Modal/CreateBlueprint.js",
-          "./tmp/cockpit-composer/components/Modal/CreateImage.js",
-          "./tmp/cockpit-composer/components/Modal/DeleteBlueprint.js",
-          "./tmp/cockpit-composer/components/Modal/EditDescription.js",
-          "./tmp/cockpit-composer/components/Modal/ExportBlueprint.js",
-          "./tmp/cockpit-composer/components/Modal/ManageSources.js",
-          "./tmp/cockpit-composer/components/Modal/PendingChanges.js",
-          "./tmp/cockpit-composer/components/Toolbar/FilterInput.js",
-          "./tmp/cockpit-composer/components/Toolbar/ToolbarLayout.js",
-          "./tmp/cockpit-composer/pages/blueprint/index.js"
+          "/components/EmptyState/EmptyStateInactive.js",
+          "/components/ListView/BlueprintContents.js",
+          "/components/ListView/ComponentDetailsView.js",
+          "/components/ListView/SourcesListItem.js",
+          "/components/Modal/CreateBlueprint.js",
+          "/components/Modal/CreateImage.js",
+          "/components/Modal/DeleteBlueprint.js",
+          "/components/Modal/EditDescription.js",
+          "/components/Modal/ExportBlueprint.js",
+          "/components/Modal/ManageSources.js",
+          "/components/Modal/PendingChanges.js",
+          "/components/Toolbar/FilterInput.js",
+          "/components/Toolbar/ToolbarLayout.js",
+          "/pages/blueprint/index.js"
         ]
       },
       "css": {
         "files": [
-          "./tmp/cockpit-composer/public/custom.css"
+          "/public/custom.css"
         ]
       }
     }
@@ -60,5 +60,5 @@
   },
   "repo": "https://github.com/weldr/cockpit-composer",
   "name": "Cockpit-Composer",
-  "date": "2019-08-16T16:03:33.585Z"
+  "date": "2019-08-16T19:51:17.645Z"
 }

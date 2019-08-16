@@ -12,34 +12,34 @@
     "withPatternfly": {
       "js": {
         "files": [
-          "./tmp/enmasse/console/console-init/ui/src/App/app.test_bak.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/About/About.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/About/About.test.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/Layout/Layout.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/Delete/DeleteInstanceModal.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/FilterTypes/FilterTypes.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/InstancesActionKebab/InstancesActionKebab.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/AddressSpaceTypeInput.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/AuthenticationServiceInput.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/ConfigurationForm.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/NameInput.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/NamespaceInput.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/NamespaceInput.test.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/PlansInput.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/PlansInput.test.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/CreateAddressSpace.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Review.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/EditAddressSpace/EditAddressSpace.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/EditAddressSpace/EditAddressSpace.test.js",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstances.js",
-          "./tmp/enmasse/console/console-init/ui/src/context/notification-manager.js"
+          "/console/console-init/ui/src/App/app.test_bak.js",
+          "/console/console-init/ui/src/components/About/About.js",
+          "/console/console-init/ui/src/components/About/About.test.js",
+          "/console/console-init/ui/src/components/Layout/Layout.js",
+          "/console/console-init/ui/src/components/MessagingInstances/Delete/DeleteInstanceModal.js",
+          "/console/console-init/ui/src/components/MessagingInstances/FilterTypes/FilterTypes.js",
+          "/console/console-init/ui/src/components/MessagingInstances/InstancesActionKebab/InstancesActionKebab.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/AddressSpaceTypeInput.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/AuthenticationServiceInput.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/ConfigurationForm.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/NameInput.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/NamespaceInput.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/NamespaceInput.test.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/PlansInput.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/ConfigureAddressSpace/PlansInput.test.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/CreateAddressSpace.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Review.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/EditAddressSpace/EditAddressSpace.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/EditAddressSpace/EditAddressSpace.test.js",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstances.js",
+          "/console/console-init/ui/src/context/notification-manager.js"
         ]
       },
       "css": {
         "files": [
-          "./tmp/enmasse/agent/www/index.css",
-          "./tmp/enmasse/console/console-init/ui/src/components/Layout/Layout.css",
-          "./tmp/enmasse/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Review.css"
+          "/agent/www/index.css",
+          "/console/console-init/ui/src/components/Layout/Layout.css",
+          "/console/console-init/ui/src/components/MessagingInstances/MessagingInstance/Enmasse/CreateAddressSpace/Steps/Review.css"
         ]
       }
     }
@@ -130,5 +130,5 @@
   },
   "repo": "https://github.com/EnMasseProject/enmasse",
   "name": "AMQ-Everything-Else",
-  "date": "2019-08-16T16:03:33.585Z"
+  "date": "2019-08-16T19:51:17.645Z"
 }
