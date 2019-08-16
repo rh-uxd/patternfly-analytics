@@ -1,7 +1,7 @@
+const path = require('path');
 const glob = require('glob');
 
-glob('../stats', file => {
-  console.log('file', file)
+glob.sync(`${path.resolve(__dirname, '../stats')}/**/*.json`).forEach(file => {
+  const stat = require(file);
+  console.log(stat.date)
 })
-
-console.log(__dirname)

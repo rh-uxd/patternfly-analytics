@@ -8,7 +8,7 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "collect": "node scripts/cli collect -p",
-    "build:stats": "node scripts/cli analyze"
+    "analyze": "node scripts/cli analyze"
   },
   "author": "redallen",
   "license": "MIT",

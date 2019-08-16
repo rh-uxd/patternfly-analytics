@@ -85,6 +85,10 @@
     {
       "git": "https://gitlab.cee.redhat.com/service/uhc-portal.git",
       "name": "cloud.openshift.com"
+    },
+    {
+      "git": "https://github.com/kubevirt/web-ui-components.git",
+      "name": "KubeVirt-UI"
     }
   ]
 }
