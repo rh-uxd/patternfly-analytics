@@ -84,11 +84,17 @@
     },
     {
       "git": "https://gitlab.cee.redhat.com/service/uhc-portal.git",
-      "name": "cloud.openshift.com"
+      "name": "cloud.openshift.com",
+      "private": true
     },
     {
       "git": "https://github.com/kubevirt/web-ui-components.git",
       "name": "KubeVirt-UI"
+    },
+    {
+      "git": "https://gitlab.corp.redhat.com/ads/offmgr-frontend.git",
+      "name": "Offering Manager",
+      "private": true
     }
   ]
 }
