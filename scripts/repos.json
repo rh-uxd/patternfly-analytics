@@ -93,8 +93,12 @@
     },
     {
       "git": "https://gitlab.corp.redhat.com/ads/offmgr-frontend.git",
-      "name": "Offering Manager",
+      "name": "Offering-Manager",
       "private": true
+    },
+    {
+      "git": "https://github.com/RedHatInsights/curiosity-frontend",
+      "name": "Insights-Curiosity"
     }
   ]
 }
