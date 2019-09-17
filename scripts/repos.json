@@ -99,6 +99,11 @@
     {
       "git": "https://github.com/RedHatInsights/curiosity-frontend",
       "name": "Insights-Curiosity"
+    },
+    {
+      "git": "https://gitlab.cee.redhat.com/redhataccess/customer-success-ui",
+      "name": "Internal-GCS",
+      "private": true
     }
   ]
 }

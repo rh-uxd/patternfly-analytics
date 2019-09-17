@@ -1,0 +1,35 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 6
+      },
+      "ts": 90,
+      "js": 7,
+      "tsx": 97,
+      "css": 2
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/app/react/components/successPlans/objective/ObjectiveItem.tsx",
+          "/app/react/components/successPlans/objective/ObjectiveList.tsx",
+          "/app/react/components/workbench/CTAList.tsx",
+          "/app/react/components/workbench/CTAListItem.tsx",
+          "/app/react/components/workbench/list-commons/InfoItemFactory.tsx",
+          "/app/react/components/workbench/TaskList.tsx"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "patternfly-react/dist/js/components/ListView": {
+      "ListView": 6
+    }
+  },
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://gitlab.cee.redhat.com/redhataccess/customer-success-ui",
+  "name": "Internal-GCS",
+  "date": "2019-09-17T17:47:07.765Z"
+}
