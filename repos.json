@@ -101,9 +101,8 @@
       "name": "Insights-Curiosity"
     },
     {
-      "git": "https://gitlab.cee.redhat.com/redhataccess/customer-success-ui",
-      "name": "Internal-GCS",
-      "private": true
+      "git": "https://github.com/quay/quay",
+      "name": "Quay"
     }
   ]
 }

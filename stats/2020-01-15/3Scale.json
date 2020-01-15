@@ -1,0 +1,193 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 2,
+        "jsx": 23,
+        "scss": 8,
+        "css": 1
+      },
+      "js": 196,
+      "jsx": 197,
+      "css": 27,
+      "scss": 119
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/app/javascript/packs/LoginPage.js",
+          "/app/javascript/packs/SignUpPage.js"
+        ]
+      },
+      "jsx": {
+        "files": [
+          "/app/javascript/src/Dashboard/tabs-widget.jsx",
+          "/app/javascript/src/Form/FormFieldset.jsx",
+          "/app/javascript/src/Form/FormLegend.jsx",
+          "/app/javascript/src/LoginPage/loginForms/AuthenticationProviders.jsx",
+          "/app/javascript/src/LoginPage/loginForms/FlashMessages.jsx",
+          "/app/javascript/src/LoginPage/loginForms/ForgotCredentials.jsx",
+          "/app/javascript/src/LoginPage/loginForms/FormGroups.jsx",
+          "/app/javascript/src/LoginPage/loginForms/Login3scaleForm.jsx",
+          "/app/javascript/src/LoginPage/loginForms/RequestPasswordForm.jsx",
+          "/app/javascript/src/LoginPage/loginForms/SignupForm.jsx",
+          "/app/javascript/src/LoginPage/LoginPageWrapper.jsx",
+          "/app/javascript/src/LoginPage/SignupPageWrapper.jsx",
+          "/app/javascript/src/Navigation/components/PF4NavProxy.jsx",
+          "/app/javascript/src/Navigation/components/VerticalNav.jsx",
+          "/app/javascript/src/Settings/components/Common/RadioFieldset.jsx",
+          "/app/javascript/src/Settings/components/Common/SelectGroup.jsx",
+          "/app/javascript/src/Settings/components/Common/TextInputGroup.jsx",
+          "/app/javascript/src/Settings/components/OidcFieldset.jsx",
+          "/spec/javascripts/LoginPage/FormGroup.spec.jsx",
+          "/spec/javascripts/LoginPage/LoginPageWrapper.spec.jsx",
+          "/spec/javascripts/LoginPage/RequestPasswordForm.spec.jsx",
+          "/spec/javascripts/LoginPage/SignupForm.spec.jsx",
+          "/spec/javascripts/LoginPage/SignupPageWrapper.spec.jsx"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/app/assets/stylesheets/provider/_patternfly_tabs_fake.scss",
+          "/app/assets/stylesheets/provider/_pop_navigation.scss",
+          "/app/assets/stylesheets/provider/_vertical_nav.scss",
+          "/app/assets/stylesheets/provider/layouts/_main.scss",
+          "/app/javascript/src/LoginPage/assets/styles/loginPage.scss",
+          "/app/javascript/src/Navigation/styles/ContextSelector.scss",
+          "/app/javascript/src/Navigation/styles/PF4NavProxy.scss",
+          "/app/javascript/src/patternflyStyles/pf4BaseIE11.scss"
+        ]
+      },
+      "css": {
+        "files": [
+          "/app/javascript/src/LoginPage/assets/styles/ie11-pf4BaseStyles.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/js/components/Form/FormContext": {
+      "FormContext": 1
+    },
+    "@patternfly/react-styles/css/components/Form/form": {
+      "styles": 1
+    },
+    "@patternfly/react-styles": {
+      "css": 1,
+      "getModifier": 1
+    },
+    "@patternfly/react-icons": {
+      "KeyIcon": 1,
+      "LessThanIcon": 1,
+      "GreaterThanIcon": 1,
+      "ExclamationCircleIcon": 1
+    },
+    "@patternfly/react-core": {
+      "LoginMainFooterBandItem": 1,
+      "FormGroup": 3,
+      "TextInput": 2,
+      "Form": 3,
+      "ActionGroup": 3,
+      "Button": 3,
+      "LoginPage": 2,
+      "Radio": 1,
+      "Select": 1,
+      "SelectOption": 1,
+      "Checkbox": 1
+    }
+  },
+  "classes": {
+    "pf-c-page": 4,
+    "pf-c-tabs": 4,
+    "pf-c-form__legend": 1,
+    "pf-c-form__helper-text": 6,
+    "pf-c-button": 5,
+    "pf-c-nav": 6,
+    "pf-c-nav__item": 4,
+    "pf-c-nav__link": 6,
+    "pf-c-nav__toggle": 3,
+    "pf-c-nav__subnav": 3,
+    "pf-c-nav__simple-list": 2,
+    "pf-c-nav__list": 3,
+    "pf-c-nav__section-title": 4,
+    "pf-c-page__sidebar-body": 2,
+    "pf-c-form__group": 7,
+    "pf-c-login": 4,
+    "pf-c-tabs__list": 2,
+    "pf-c-tabs__item": 2,
+    "pf-c-tabs__button::before": 2,
+    "pf-c-tabs__button": 3,
+    "pf-c-tabs__button::after": 2,
+    "pf-c-tabs__item:not(pf-m-current):hover": 1,
+    "pf-c-page__header-tools": 3,
+    "pf-c-page__sidebar": 5,
+    "pf-c-nav__section": 2,
+    "pf-c-page__main": 3,
+    "pf-c-background-image": 1,
+    "pf-c-background-image::before": 2,
+    "pf-c-login__header": 6,
+    "pf-c-brand": 2,
+    "pf-c-login__main": 4,
+    "pf-c-login__main-header": 1,
+    "pf-c-login__main-body": 4,
+    "pf-c-form__helper-text-icon": 1,
+    "pf-c-login__main-footer-band": 1,
+    "pf-c-login__main-footer-band>*+*": 1,
+    "pf-c-title.pf-m-4xl": 1,
+    "pf-c-title.pf-m-3xl": 1,
+    "pf-c-title.pf-m-2xl": 1,
+    "pf-c-title.pf-m-xl": 1,
+    "pf-c-title.pf-m-lg": 1,
+    "pf-c-title.pf-m-md": 1,
+    "pf-c-form": 2,
+    "pf-c-form-control": 2,
+    "pf-c-form__group.pf-m-action": 1,
+    "pf-c-form__label": 2,
+    "pf-c-form__label-required": 1,
+    "pf-c-form__helper-text:not(.pf-m-error)": 1,
+    "pf-c-form__helper-text.pf-m-error": 1,
+    "pf-c-form__helper-text.pf-m-inactive": 1,
+    "pf-c-form__helper-text.pf-m-hidden": 1,
+    "pf-c-form__actions": 2,
+    "pf-c-form__actions>*": 1,
+    "pf-c-login__container": 1,
+    "pf-c-button.pf-m-primary": 1,
+    "pf-c-nav__link::after": 1,
+    "pf-c-nav__link:active,": 1,
+    "pf-c-nav__link:hover": 1,
+    "pf-c-nav__link:active": 1,
+    "pf-c-nav__link,": 1,
+    "pf-c-nav__link.pf-m-hover::after": 1,
+    "pf-c-nav__link.pf-m-active::after": 1,
+    "pf-c-nav__link.pf-m-focus::after": 1,
+    "pf-c-nav__item.pf-m-expanded": 2,
+    "pf-c-page__header": 3,
+    "pf-c-page__header-brand": 2,
+    "pf-c-page__header-brand-toggle": 1,
+    "pf-c-page__header-nav": 5,
+    "pf-c-nav__scroll-button": 1,
+    "pf-c-nav__scroll-button:nth-of-type(1)": 1,
+    "pf-c-page__sidebar.pf-m-expanded": 1,
+    "pf-c-page__sidebar.pf-m-collapsed": 1
+  },
+  "scssVars": {
+    "--pf-global--LineHeight--md": 1,
+    "--pf-c-tabs__item--BorderColor": 1,
+    "--pf-c-tabs__item--BorderWidth": 4,
+    "--pf-c-tabs__button--Background": 1,
+    "--pf-c-tabs__item--m": 5,
+    "--pf-c-tabs__button--FontWeight": 1,
+    "--pf-c-tabs__button--OutlineOffset": 1,
+    "--pf-c-tabs__button--PaddingTop": 1,
+    "--pf-c-tabs__button--PaddingRight": 1,
+    "--pf-c-tabs__button--PaddingBottom": 1,
+    "--pf-c-tabs__button--PaddingLeft": 1,
+    "--pf-c-tabs__item--hover": 1,
+    "--pf-global--danger-color-": 2,
+    "--pf-global--info-color-": 2,
+    "--pf-c-page__header-tools-": 1
+  },
+  "repo": "https://github.com/3scale/porta",
+  "name": "3Scale",
+  "date": "2020-01-15T16:10:56.303Z"
+}

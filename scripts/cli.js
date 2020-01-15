@@ -2,7 +2,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 const fs = require('fs-extra');
 const { getLocalRepoStats } = require('./getLocalRepoStats');
-const repos = require('./repos.json').repos;
+const repos = require('../repos.json').repos;
 
 const statsDir = path.resolve(__dirname, '../stats');
 const tmpDir = path.resolve(__dirname, '../tmp');
