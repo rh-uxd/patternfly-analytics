@@ -103,6 +103,26 @@
     {
       "git": "https://github.com/quay/quay",
       "name": "Quay"
+    },
+    {
+      "git": "https://github.com/infinispan/infinispan-console",
+      "name": "Infinispan-Console"
+    },
+    {
+      "git": "https://github.com/katello/katello",
+      "name": "Foreman-Katello"
+    },
+    {
+      "git": "https://github.com/theforeman/foreman",
+      "name": "Foreman-Console"
+    },
+    {
+      "git": "https://github.com/theforeman/foreman-js",
+      "name": "Foreman-Tools"
+    },
+    {
+      "git": "https://github.com/theforeman/foreman-tasks",
+      "name": "Foreman-Tasks"
     }
   ]
 }
