@@ -6,6 +6,7 @@ function aggregateClassNames(report) {
   const totalCounts = {};
 
   Object.values(report).forEach(pageClasses => {
+    delete pageClasses.time;
     delete pageClasses.count;
     Object.entries(pageClasses).forEach(([className, count]) => {
       totalCounts[className] = totalCounts[className] + count || count;
