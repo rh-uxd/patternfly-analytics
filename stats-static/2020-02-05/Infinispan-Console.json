@@ -1,0 +1,169 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 13,
+        "ts": 1
+      },
+      "js": 7,
+      "tsx": 16,
+      "ts": 9,
+      "css": 1
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/app/app.test.tsx",
+          "/src/app/AppLayout/AppLayout.tsx",
+          "/src/app/CacheManagers/CacheManagers.tsx",
+          "/src/app/CacheManagers/CacheTableDisplay.tsx",
+          "/src/app/CacheManagers/ClusterDisplay.tsx",
+          "/src/app/CacheManagers/DetailConfigurations.tsx",
+          "/src/app/CacheManagers/DetailStats.tsx",
+          "/src/app/Caches/CreateCache.tsx",
+          "/src/app/Caches/DetailCache.tsx",
+          "/src/app/NotFound/NotFound.tsx",
+          "/src/app/routes.tsx",
+          "/src/app/Support/Support.tsx",
+          "/src/app/Welcome/Welcome.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/services/displayUtils.ts"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Button": 6,
+      "Brand": 1,
+      "Dropdown": 1,
+      "DropdownItem": 1,
+      "DropdownToggle": 1,
+      "KebabToggle": 1,
+      "Page": 2,
+      "PageHeader": 1,
+      "SkipToContent": 1,
+      "Toolbar": 1,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 1,
+      "Card": 4,
+      "CardBody": 4,
+      "CardHeader": 3,
+      "EmptyState": 6,
+      "EmptyStateBody": 6,
+      "EmptyStateIcon": 6,
+      "EmptyStateVariant": 6,
+      "Grid": 5,
+      "GridItem": 5,
+      "Label": 4,
+      "PageSection": 8,
+      "Stack": 6,
+      "StackItem": 6,
+      "Tab": 1,
+      "Tabs": 1,
+      "Title": 7,
+      "Tooltip": 2,
+      "Bullseye": 1,
+      "Level": 2,
+      "LevelItem": 2,
+      "Pagination": 1,
+      "Select": 2,
+      "SelectOption": 2,
+      "SelectVariant": 2,
+      "Gallery": 1,
+      "GalleryItem": 1,
+      "Accordion": 1,
+      "AccordionContent": 1,
+      "AccordionItem": 1,
+      "AccordionToggle": 1,
+      "Text": 1,
+      "TextContent": 1,
+      "TextVariants": 1,
+      "CardHead": 1,
+      "ActionGroup": 1,
+      "Alert": 3,
+      "AlertActionCloseButton": 1,
+      "AlertVariant": 1,
+      "Expandable": 1,
+      "Form": 1,
+      "FormGroup": 1,
+      "TextArea": 1,
+      "TextInput": 1,
+      "EmptyStateSecondaryActions": 1,
+      "BackgroundImage": 1,
+      "BackgroundImageSrc": 1,
+      "LoginPage": 1
+    },
+    "@patternfly/react-tokens": {
+      "chart_color_blue_500": 1,
+      "chart_color_blue_400": 2,
+      "chart_color_black_100": 2,
+      "chart_color_black_200": 1,
+      "chart_color_blue_300": 1,
+      "chart_color_black_300": 1,
+      "chart_color_black_400": 1,
+      "chart_color_black_500": 1,
+      "chart_color_blue_200": 1,
+      "chart_color_cyan_300": 1,
+      "chart_color_cyan_400": 1,
+      "chart_color_gold_300": 1,
+      "chart_color_green_300": 1,
+      "chart_color_orange_300": 1,
+      "chart_color_purple_200": 1,
+      "chart_color_red_300": 1,
+      "chart_color_red_400": 1
+    },
+    "@patternfly/react-styles": {
+      "css": 1
+    },
+    "@patternfly/react-styles/css/utilities/Accessibility/accessibility": {
+      "accessibleStyles": 1
+    },
+    "@patternfly/react-icons": {
+      "CubesIcon": 5,
+      "FolderOpenIcon": 2,
+      "MemoryIcon": 2,
+      "MonitoringIcon": 3,
+      "PendingIcon": 2,
+      "RegistryIcon": 1,
+      "VolumeIcon": 2,
+      "DegradedIcon": 2,
+      "KeyIcon": 2,
+      "PlusCircleIcon": 1,
+      "SaveIcon": 2,
+      "SearchIcon": 1,
+      "ServiceIcon": 2,
+      "Spinner2Icon": 2,
+      "StorageDomainIcon": 2,
+      "ClusterIcon": 1,
+      "CubeIcon": 1,
+      "UnknownIcon": 1,
+      "ServerGroupIcon": 1,
+      "ApplicationsIcon": 1,
+      "CatalogIcon": 1,
+      "InfoIcon": 1
+    },
+    "@patternfly/react-charts": {
+      "ChartDonut": 2,
+      "ChartThemeColor": 2
+    },
+    "@patternfly/react-table": {
+      "cellWidth": 1,
+      "Table": 1,
+      "TableBody": 1,
+      "TableHeader": 1
+    }
+  },
+  "classes": {
+    "pf-c-nav__link": 1,
+    "pf-l-bullseye": 1,
+    "pf-l-bullseye__item": 1
+  },
+  "scssVars": {},
+  "repo": "https://github.com/infinispan/infinispan-console",
+  "name": "Infinispan-Console",
+  "date": "2020-02-05T18:27:33.542Z"
+}

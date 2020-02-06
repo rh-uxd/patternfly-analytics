@@ -1,0 +1,27 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "css": 1
+      },
+      "ts": 226,
+      "js": 3,
+      "css": 103
+    },
+    "withPatternfly": {
+      "css": {
+        "files": [
+          "/front-end/studio/src/styles.css"
+        ]
+      }
+    }
+  },
+  "imports": {},
+  "classes": {
+    "pf-c-page__header": 1
+  },
+  "scssVars": {},
+  "repo": "https://github.com/Apicurio/apicurio-studio",
+  "name": "Apicurito",
+  "date": "2020-02-05T18:27:33.542Z"
+}
