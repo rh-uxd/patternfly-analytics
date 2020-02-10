@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const { Cluster } = require('puppeteer-cluster');
 
 const statsDir = path.resolve(__dirname, '../../stats-html');
-const projectName = 'openshift';
+const projectName = 'cloud-management-services';
 // List of pages to crawl
 const pages = [];
 let crawlCount = 0;
@@ -50,13 +50,20 @@ async function crawlLinks(page, options, cluster) {
 }
 
 async function crawlPage(page, pagePath, options, cluster) {
-  try {
-    await page.goto(pagePath, { waitUntil: 'load', timeout: 6000 });
-    console.log(`${++crawlCount}/${pages.length} ${pagePath}`);
+  await page.goto(pagePath, { waitUntil: 'networkidle0', timeout: 6000 });
+  console.log(`${++crawlCount}/${pages.length} ${pagePath}`);
+
+  if (page.url().includes('sso.qa.redhat.com')) {
+    console.log('logging in...');
+    await page.type('#username', options.username);
+    await page.type('#password', options.password);
+    await page.click('#_eventId_submit');
+    await page.waitForNavigation();
+    console.log('logged in...');
+    await page.goto(pagePath, { waitUntil: 'networkidle0', timeout: 6000 });
+    console.log('loaded', page.url())
   }
-  catch {
-    console.error(`${pagePath} timeout`);
-  }
+
 
   const startTime = process.hrtime();
   await Promise.all([
@@ -76,7 +83,9 @@ async function crawl(options) {
   });
 
   async function crawlPageWrapper({ page, data: pagePath }) {
-    await crawlPage(page, pagePath, options, cluster);
+    if (!(options.skipRegex && options.skipRegex.test(pagePath))) {
+      await crawlPage(page, pagePath, options, cluster);
+    }
   }
   await cluster.task(crawlPageWrapper);
 
@@ -96,10 +105,13 @@ async function crawl(options) {
 //   pages: ['']
 // });
 
-// crawl({
-//   prefix: 'http://localhost:9000',
-//   pages: ['/dashboards', '/add/ns/default']
-// });
+crawl({
+  prefix: 'https://nightly.cloud.redhat.com/rhel',
+  pages: ['/dashboard'],
+  skipRegex: /inventory\/.*\/.*/,
+  username: 'jalberts@redhat.com',
+  password: 'redhat'
+});
 
 // (async () => {
 //   const browser = await puppeteer.launch();
