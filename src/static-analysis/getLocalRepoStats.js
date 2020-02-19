@@ -63,11 +63,21 @@ const getLocalRepoStats = repoPath => {
         .split(',')
         .map(str => str.replace(/\s+as\s+.*/gm, ''))
         .map(str => str.replace(/\s/gm, ''))
-        .filter(imp => imp)
+        .filter(Boolean)
         .forEach(imp => {
+          // Add for import stats
           const pkg = result.imports[regMatch[2]];
           pkg[imp] = pkg[imp] || 0;
           pkg[imp]++;
+
+          // Search for JSX usage
+          // Should use the "as" part in case of "import {Button as MyButton} from ..."
+          // https://regex101.com/r/cdbMfA/1
+          const jsxRegex = new RegExp(`<\\s*${imp}\\s*(\\w[\\w\\d]+\\s*=\\s*('|"|\`|\\\${).*('|"|\`|}))>`, 'g');
+          let jsxMatch;
+          while ((jsxMatch = jsxRegex.exec(contents)) ) {
+            console.log(imp, jsxMatch[1]);
+          }
         });
     }
 
