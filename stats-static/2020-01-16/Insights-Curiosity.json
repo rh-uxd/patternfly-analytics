@@ -1,0 +1,84 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 9,
+        "scss": 1
+      },
+      "js": 79,
+      "scss": 5
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/components/authentication/authentication.js",
+          "/src/components/chartArea/chartArea.js",
+          "/src/components/graphCard/graphCard.js",
+          "/src/components/openshiftView/openshiftView.js",
+          "/src/components/pageLayout/pageLayout.js",
+          "/src/components/rhelView/rhelView.js",
+          "/src/components/select/__tests__/select.test.js",
+          "/src/components/select/select.js",
+          "/src/components/tourView/tourView.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/styles/_usage-graph.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "EmptyState": 2,
+      "EmptyStateBody": 2,
+      "EmptyStateIcon": 1,
+      "EmptyStateVariant": 2,
+      "Card": 1,
+      "CardHead": 1,
+      "CardActions": 1,
+      "CardBody": 1,
+      "PageSection": 4,
+      "Page": 1,
+      "SelectVariant": 2,
+      "Select": 1,
+      "SelectOption": 1,
+      "Button": 1,
+      "EmptyStateSecondaryActions": 1,
+      "Title": 1
+    },
+    "@patternfly/react-icons": {
+      "BanIcon": 1,
+      "BinocularsIcon": 1
+    },
+    "@patternfly/react-charts": {
+      "Chart": 1,
+      "ChartAxis": 1,
+      "ChartLegend": 1,
+      "ChartStack": 1,
+      "ChartThreshold": 1,
+      "ChartTooltip": 1,
+      "ChartThemeColor": 1,
+      "ChartArea": 1
+    },
+    "@patternfly/react-tokens": {
+      "chart_color_green_300": 1,
+      "chart_color_blue_100": 2,
+      "chart_color_blue_300": 2,
+      "chart_color_cyan_100": 1,
+      "chart_color_cyan_300": 1
+    }
+  },
+  "classes": {
+    "pf-c-card__head": 1
+  },
+  "scssVars": {
+    "--pf-global--BorderWidth--sm": 1,
+    "--pf-global--BorderColor--100": 1,
+    "--pf-c-card--child": 1
+  },
+  "repo": "https://github.com/RedHatInsights/curiosity-frontend",
+  "name": "Insights-Curiosity",
+  "date": "2020-01-16T14:14:22.210Z"
+}
