@@ -53,6 +53,7 @@ const getLocalRepoStats = repoPath => {
     const ext = getExt(file);
     const contents = fs.readFileSync(file, 'utf8');
     let regMatch;
+    console.log(file);
     for (let i = 0; regMatch = importRegex.exec(contents); i++) {
       if (i == 0) {
         result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
@@ -71,12 +72,14 @@ const getLocalRepoStats = repoPath => {
           pkg[imp]++;
 
           // Search for JSX usage
-          // Should use the "as" part in case of "import {Button as MyButton} from ..."
-          // https://regex101.com/r/cdbMfA/1
-          const jsxRegex = new RegExp(`<\\s*${imp}\\s*(\\w[\\w\\d]+\\s*=\\s*('|"|\`|\\\${).*('|"|\`|}))>`, 'g');
-          let jsxMatch;
-          while ((jsxMatch = jsxRegex.exec(contents)) ) {
-            console.log(imp, jsxMatch[1]);
+          // Should handle the "as" part in case of "import {Button as MyButton} from ..."
+          // https://regex101.com/r/cdbMfA/2
+          if (regMatch[2].includes('@patternfly') && !/\s+as\s+/.test(imp)) {
+            const jsxRegex = new RegExp(`<\\s*${imp}\\s[^>]*>`, 'g');
+            let jsxMatch;
+            while ((jsxMatch = jsxRegex.exec(contents)) ) {
+              console.log(jsxMatch[0].replace(/\n/g, ' '));
+            }
           }
         });
     }
