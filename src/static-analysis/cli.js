@@ -28,8 +28,10 @@ require('yargs')
       .filter(repo => argv.p || !repo.private) // Only public repos unless flag passed
       .forEach(repo => {
         const repoName = repo.git.split('/').pop();
-        const tmpPath = `${tmpDir}/${repoName}`;
-        execSync(`git clone "${repo.git}" "${tmpPath}" --depth 1`);
+        const tmpPath = `${tmpDir}/${repo.name}`;
+        const command = `git clone "${repo.git}" "${tmpPath}" --depth 1`; 
+        console.log(command);
+        execSync(command);
         const results = getLocalRepoStats(tmpPath);
         results.repo = repo.git;
         results.name = repo.name || repoName;

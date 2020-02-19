@@ -1251,6 +1251,6 @@
     "--pf-chart-global--FontFamily": 1
   },
   "repo": "https://github.com/openshift/console",
-  "name": "OpenShift-Console",
+  "name": "OpenShift-Admin-Console",
   "date": "2020-02-05T18:27:33.542Z"
 }

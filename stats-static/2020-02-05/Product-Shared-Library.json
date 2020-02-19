@@ -689,6 +689,6 @@
     "--pf-global--breakpoint--xl": 1
   },
   "repo": "https://github.com/RedHatInsights/frontend-components",
-  "name": "Insights-Library",
+  "name": "Product-Shared-Library",
   "date": "2020-02-05T18:27:33.542Z"
 }

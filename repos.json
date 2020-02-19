@@ -1,24 +1,12 @@
 {
   "repos": [
     {
-      "git": "https://github.com/RedHatInsights/frontend-components",
-      "name": "Insights-Library"
+      "git": "https://github.com/fusor/mig-ui",
+      "name": "OpenShift-Migration-Tool"
     },
     {
-      "git": "https://github.com/RedHatInsights/drift-frontend",
-      "name": "Insights-Frontend"
-    },
-    {
-      "git": "https://github.com/openshift/console",
-      "name": "OpenShift-Console"
-    },
-    {
-      "git": "https://github.com/integr8ly/tutorial-web-app",
-      "name": "Integreatly"
-    },
-    {
-      "git": "https://github.com/project-koku/koku-ui",
-      "name": "Cost-Management"
+      "git": "https://github.com/ManageIQ/manageiq-v2v",
+      "name": "IMS-V2V"
     },
     {
       "git": "git@github.com:ansible/awx-pf.git",
@@ -26,87 +14,12 @@
       "private": true
     },
     {
-      "git": "https://gitlab.com/cloudigrade/frontigrade.git",
-      "name": "Cloud-Meter"
+      "git": "https://github.com/RedHatInsights/tower-analytics-frontend",
+      "name": "Automation-Analytics"
     },
     {
-      "git": "https://github.com/weldr/cockpit-composer",
-      "name": "Cockpit-Composer"
-    },
-    {
-      "git": "https://github.com/cockpit-project/cockpit",
-      "name": "Cockpit"
-    },
-    {
-      "git": "https://github.com/fusor/mig-ui",
-      "name": "OpenShift-Migration-Tool"
-    },
-    {
-      "git": "https://github.com/hawtio/hawtio-core",
-      "name": "Fuse-Admin-Console"
-    },
-    {
-      "git": "https://github.com/syndesisio/syndesis",
-      "name": "Fuse-Online"
-    },
-    {
-      "comment": "https://docs.google.com/presentation/d/1nhOx4SheKFKRejtg7yHbANboeBywL7KCSvkc74UegzA",
-      "git": "https://github.com/EnMasseProject/enmasse",
-      "name": "AMQ-Everything-Else"
-    },
-    {
-      "git": "https://github.com/strimzi-incubator/strimzi-kafka-console",
-      "name": "AMQ-Streams"
-    },
-    {
-      "git": "https://github.com/apache/qpid-dispatch",
-      "name": "AMQ-Interconnect"
-    },
-    {
-      "git": "https://github.com/3scale/porta",
-      "name": "3Scale"
-    },
-    {
-      "git": "https://github.com/Apicurio/apicurio-studio",
-      "name": "Apicurito"
-    },
-    {
-      "git": "https://github.com/kubevirt/web-ui",
-      "name": "OpenShift-Cluster-Console-UI"
-    },
-    {
-      "git": "https://github.com/kiali/kiali-ui",
-      "name": "Kiali-App"
-    },
-    {
-      "git": "https://github.com/aerogear/mobile-developer-console",
-      "name": "Mobile-Dev-Console"
-    },
-    {
-      "git": "https://gitlab.cee.redhat.com/service/uhc-portal.git",
-      "name": "cloud.openshift.com",
-      "private": true
-    },
-    {
-      "git": "https://github.com/kubevirt/web-ui-components.git",
-      "name": "KubeVirt-UI"
-    },
-    {
-      "git": "https://gitlab.corp.redhat.com/ads/offmgr-frontend.git",
-      "name": "Offering-Manager",
-      "private": true
-    },
-    {
-      "git": "https://github.com/RedHatInsights/curiosity-frontend",
-      "name": "Insights-Curiosity"
-    },
-    {
-      "git": "https://github.com/quay/quay",
-      "name": "Quay"
-    },
-    {
-      "git": "https://github.com/infinispan/infinispan-console",
-      "name": "Infinispan-Console"
+      "git": "https://github.com/ansible/ansible-hub-ui",
+      "name": "Automation-Hub"
     },
     {
       "git": "https://github.com/katello/katello",
@@ -117,16 +30,212 @@
       "name": "Foreman-Console"
     },
     {
-      "git": "https://github.com/theforeman/foreman-js",
-      "name": "Foreman-Tools"
-    },
-    {
       "git": "https://github.com/theforeman/foreman-tasks",
       "name": "Foreman-Tasks"
     },
     {
-      "git": "https://github.com/quipucords/quipucords-ui",
-      "name": "Quipucords"
+      "git": "https://github.com/theforeman/foreman-js",
+      "name": "Foreman-Tools"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/frontend-components",
+      "name": "Product-Shared-Library"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/settings-frontend",
+      "name": "Settings-Frontend"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/insights-rbac-ui",
+      "name": "Settings-RBAC"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/notifications-frontend",
+      "name": "Settings-Hooks"
+    },
+    {
+      "git": "https://github.com/ManageIQ/sources-ui",
+      "name": "Settings-Sources"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/catalog-ui",
+      "name": "Settings-Catalog"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/insights-dashboard",
+      "name": "Insights-Dashboard"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/vulnerability-ui",
+      "name": "Insights-Vulnerability"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/compliance-frontend",
+      "name": "Insights-Compliance"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/drift-frontend",
+      "name": "Insights-Drift"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/insights-inventory-frontend",
+      "name": "Insights-Inventory"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/insights-remediations-frontend",
+      "name": "Insights-Remediations"
+    },
+    {
+      "git": "https://github.com/project-koku/koku-ui",
+      "name": "Cost-Management"
+    },
+    {
+      "git": "https://github.com/project-xavier/xavier-ui",
+      "name": "Migration-Analytics"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/curiosity-frontend",
+      "name": "Insights-Curiosity"
+    },
+    {
+      "git": "https://github.com/cockpit-project/cockpit",
+      "name": "Cockpit"
+    },
+    {
+      "git": "https://github.com/weldr/cockpit-composer",
+      "name": "RHEL-Composer"
+    },
+    {
+      "git": "https://github.com/openshift/console",
+      "name": "OpenShift-Admin-Console"
+    },
+    {
+      "git": "https://gitlab.cee.redhat.com/service/uhc-portal.git",
+      "name": "cloud.openshift.com",
+      "private": true
+    },
+    {
+      "git": "https://github.com/quay/quay",
+      "name": "Quay"
+    },
+    {
+      "git": "https://github.com/oVirt/ovirt-web-ui",
+      "name": "Virtualization-Frontend"
+    },
+    {
+      "git": "https://github.com/oVirt/ovirt-engine",
+      "name": "Virtualization-Engine"
+    },
+    {
+      "git": "https://github.com/openstack/horizon",
+      "name": "Openstack-Horizon"
+    },
+    {
+      "git": "https://github.com/kiali/kiali-ui",
+      "name": "Kiali-App"
+    },
+    {
+      "git": "https://github.com/integr8ly/tutorial-web-app",
+      "name": "Integreatly"
+    },
+    {
+      "git": "https://github.com/rh-uxd/integration",
+      "name": "Common-Integration"
+    },
+    {
+      "git": "https://github.com/EnMasseProject/enmasse",
+      "comment": "https://docs.google.com/presentation/d/1nhOx4SheKFKRejtg7yHbANboeBywL7KCSvkc74UegzA",
+      "name": "AMQ"
+    },
+    {
+      "git": "https://github.com/apache/activemq",
+      "name": "AMQ-Consolidated"
+    },
+    {
+      "git": "https://github.com/strimzi-incubator/strimzi-kafka-console",
+      "name": "AMQ-Streams"
+    },
+    {
+      "git": "https://github.com/apache/qpid-dispatch",
+      "name": "AMQ-Interconnect"
+    },
+    {
+      "git": "https://github.com/hawtio/hawtio-core",
+      "name": "Fuse-Console"
+    },
+    {
+      "git": "https://github.com/syndesisio/syndesis",
+      "name": "Fuse-Online"
+    },
+    {
+      "git": "https://github.com/apache/activemq-artemis",
+      "name": "AMQ-Artemis-Console"
+    },
+    {
+      "git": "https://github.com/3scale/porta",
+      "name": "3Scale"
+    },
+    {
+      "git": "https://github.com/3scale/porta-fly",
+      "name": "3Scale-Fly"
+    },
+    {
+      "git": "https://github.com/Apicurio/apicurio-studio",
+      "name": "Apicurio"
+    },
+    {
+      "git": "https://github.com/Apicurio/apicurio-studio-react-poc",
+      "name": "Apicurio-POC"
+    },
+    {
+      "git": "https://github.com/keycloak/keycloak",
+      "name": "Keycloak"
+    },
+    {
+      "git": "https://github.com/redhat-developer/codeready-workspaces",
+      "name": "Che-CodeReady"
+    },
+    {
+      "git": "https://github.com/kiegroup/kie-wb-common",
+      "name": "Process-Automation"
+    },
+    {
+      "git": "https://github.com/kiegroup/kogito-tooling",
+      "name": "Kogito"
+    },
+    {
+      "git": "https://github.com/wildfly/wildfly",
+      "name": "Enterprise-Application-Platform"
+    },
+    {
+      "git": "https://github.com/windup/windup",
+      "name": "Application-Migration-Toolkit"
+    },
+    {
+      "git": "https://github.com/infinispan/infinispan-console",
+      "name": "Infinispan"
+    },
+    {
+      "git": "https://github.com/redhat-developer/developers.redhat.com",
+      "name": "Red-Hat-Developers"
+    },
+    {
+      "git": "https://github.com/operator-framework/operatorhub.io",
+      "name": "Operatorhub"
+    },
+    {
+      "git": "https://gitlab.corp.redhat.com/ads/offmgr-frontend.git",
+      "name": "Offering-Manager",
+      "private": true
+    },
+    {
+      "git": "https://github.com/distributed-system-analysis/pbench",
+      "name": "Pbench"
+    },
+    {
+      "git": "git@gitlab.cee.redhat.com:RHELReporting/telltale-ui.git",
+      "name": "Telltale",
+      "private": true
     }
   ]
 }

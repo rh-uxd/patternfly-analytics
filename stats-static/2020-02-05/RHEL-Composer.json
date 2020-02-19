@@ -129,6 +129,6 @@
     "--pf-c-data-list__cell-cell": 2
   },
   "repo": "https://github.com/weldr/cockpit-composer",
-  "name": "Cockpit-Composer",
+  "name": "RHEL-Composer",
   "date": "2020-02-05T18:27:33.542Z"
 }
