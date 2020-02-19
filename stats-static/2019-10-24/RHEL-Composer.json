@@ -1,0 +1,88 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 16,
+        "css": 1
+      },
+      "js": 103,
+      "css": 2
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/components/EmptyState/EmptyStateInactive.js",
+          "/components/ListView/BlueprintContents.js",
+          "/components/ListView/BlueprintsDataList.js",
+          "/components/ListView/ComponentDetailsView.js",
+          "/components/ListView/SourcesListItem.js",
+          "/components/Modal/CreateBlueprint.js",
+          "/components/Modal/CreateImage.js",
+          "/components/Modal/DeleteBlueprint.js",
+          "/components/Modal/EditDescription.js",
+          "/components/Modal/ExportBlueprint.js",
+          "/components/Modal/ManageSources.js",
+          "/components/Modal/PendingChanges.js",
+          "/components/Toolbar/FilterInput.js",
+          "/components/Toolbar/ToolbarLayout.js",
+          "/pages/blueprint/index.js",
+          "/test/end-to-end/pages/blueprints.page.js"
+        ]
+      },
+      "css": {
+        "files": [
+          "/public/custom.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "patternfly-react": {
+      "Alert": 4,
+      "Button": 3,
+      "OverlayTrigger": 3,
+      "Tooltip": 1,
+      "Tabs": 3,
+      "Tab": 3,
+      "Spinner": 2,
+      "Modal": 6,
+      "Popover": 2,
+      "Icon": 2,
+      "Filter": 2,
+      "Toolbar": 1
+    },
+    "@patternfly/react-core": {
+      "DataList": 1,
+      "DataListItem": 1,
+      "DataListItemRow": 1,
+      "DataListCell": 1,
+      "DataListItemCells": 1
+    },
+    "@patternfly/react-icons": {
+      "PficonTemplateIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-data-list__item-action": 1,
+    "pf-c-data-list": 1,
+    "pf-c-data-list__item": 1,
+    "pf-c-data-list__item-action.cc-m-nowrap": 1,
+    "pf-c-data-list__item-content": 1,
+    "pf-c-data-list__cell": 3,
+    "pf-c-data-list__cell:last-child": 1
+  },
+  "scssVars": {
+    "--pf-global--BackgroundColor--100": 2,
+    "--pf-global--FontSize--2xl": 1,
+    "--pf-global--link--Color": 1,
+    "--pf-global--spacer--sm": 1,
+    "--pf-global--Color--200": 2,
+    "--pf-c-data-list__item-control": 1,
+    "--pf-c-data-list__cell-": 1,
+    "--pf-global--spacer--xs": 1,
+    "--pf-global--spacer--md": 1
+  },
+  "repo": "https://github.com/weldr/cockpit-composer",
+  "name": "RHEL-Composer",
+  "date": "2019-10-24T13:12:11.390Z"
+}
