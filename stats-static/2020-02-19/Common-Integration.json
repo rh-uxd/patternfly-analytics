@@ -1,0 +1,102 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 6,
+        "css": 1
+      },
+      "tsx": 12,
+      "ts": 11,
+      "js": 2,
+      "css": 3
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/packages/demo-app-2/src/App.tsx",
+          "/packages/demo-app/src/App.tsx",
+          "/packages/integration/src/components/CrossNavContextSelector/ContextSelectorToggle.tsx",
+          "/packages/integration/src/components/CrossNavContextSelector/CrossNavContextSelector.tsx",
+          "/packages/integration/src/components/CrossNavContextSelector/CrossNavContextSelectorItem.tsx",
+          "/packages/integration/src/components/CrossNavHeader/CrossNavHeader.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/packages/demo-app/src/App.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Avatar": 2,
+      "Brand": 2,
+      "Button": 3,
+      "ButtonVariant": 3,
+      "Breadcrumb": 2,
+      "BreadcrumbItem": 2,
+      "Card": 2,
+      "CardBody": 2,
+      "Dropdown": 2,
+      "DropdownToggle": 2,
+      "DropdownItem": 2,
+      "DropdownSeparator": 2,
+      "KebabToggle": 2,
+      "Gallery": 2,
+      "GalleryItem": 2,
+      "Nav": 2,
+      "NavItem": 2,
+      "NavList": 2,
+      "Page": 2,
+      "PageSection": 2,
+      "PageSectionVariants": 2,
+      "PageSidebar": 2,
+      "SkipToContent": 2,
+      "TextContent": 2,
+      "Text": 2,
+      "Toolbar": 2,
+      "ToolbarGroup": 2,
+      "ToolbarItem": 2,
+      "KEY_CODES": 1,
+      "ContextSelectorProps": 1,
+      "Omit": 1,
+      "PageHeaderProps": 1,
+      "PageContextConsumer": 1
+    },
+    "@patternfly/react-styles/css/utilities/Accessibility/accessibility": {
+      "accessibleStyles": 2
+    },
+    "@patternfly/react-styles/css/utilities/Spacing/spacing": {
+      "spacingStyles": 2
+    },
+    "@patternfly/react-styles": {
+      "css": 6
+    },
+    "@patternfly/react-icons": {
+      "BellIcon": 2,
+      "CogIcon": 2,
+      "CaretDownIcon": 1,
+      "BarsIcon": 1
+    },
+    "@patternfly/react-styles/css/components/ContextSelector/context-selector": {
+      "styles": 3
+    },
+    "@patternfly/react-styles/css/components/Page/page": {
+      "styles": 1
+    }
+  },
+  "classes": {
+    "pf-c-page__header": 1,
+    "pf-c-context-selector": 2,
+    "pf-c-context-selector__toggle": 2,
+    "pf-c-page__header-tools": 2,
+    "pf-c-context-selector__toggle::before": 1
+  },
+  "scssVars": {
+    "--pf-global--BackgroundColor--dark": 1
+  },
+  "repo": "https://github.com/rh-uxd/integration",
+  "name": "Common-Integration",
+  "date": "2020-02-19T17:38:24.544Z"
+}

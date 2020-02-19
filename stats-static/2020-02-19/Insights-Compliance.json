@@ -1,0 +1,144 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 29,
+        "scss": 3
+      },
+      "js": 100,
+      "scss": 4
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/PresentationalComponents/CompliancePoliciesEmptyState/CompliancePoliciesEmptyState.js",
+          "/src/PresentationalComponents/CompliancePolicyCard/CompliancePolicyCard.js",
+          "/src/PresentationalComponents/ComplianceScore/ComplianceScore.js",
+          "/src/PresentationalComponents/ComplianceTabs/ComplianceTabs.js",
+          "/src/PresentationalComponents/LoadingComplianceCards/LoadingComplianceCards.js",
+          "/src/PresentationalComponents/LoadingPoliciesTable/LoadingPoliciesTable.js",
+          "/src/PresentationalComponents/ProfileTypeSelect/ProfileTypeSelect.js",
+          "/src/PresentationalComponents/ReduxFormWrappers/ReduxFormWrappers.js",
+          "/src/PresentationalComponents/SystemsComplianceFilter/SystemsComplianceFilter.js",
+          "/src/SmartComponents/BusinessObjectiveField/BusinessObjectiveField.js",
+          "/src/SmartComponents/ComplianceReports/ComplianceReports.js",
+          "/src/SmartComponents/CreatePolicy/CreatePolicy.js",
+          "/src/SmartComponents/CreatePolicy/CreateSCAPPolicy.js",
+          "/src/SmartComponents/CreatePolicy/EditPolicyDetails.js",
+          "/src/SmartComponents/CreatePolicy/EditPolicyRules.js",
+          "/src/SmartComponents/CreatePolicy/EditPolicySystems.js",
+          "/src/SmartComponents/CreatePolicy/FinishedCreatePolicy.js",
+          "/src/SmartComponents/CreatePolicy/ReviewCreatedPolicy.js",
+          "/src/SmartComponents/DeletePolicy/DeletePolicy.js",
+          "/src/SmartComponents/DownloadTableButton/DownloadTableButton.js",
+          "/src/SmartComponents/DownloadTableButton/DownloadTableButton.test.js",
+          "/src/SmartComponents/EditPolicy/EditPolicy.js",
+          "/src/SmartComponents/EditPolicy/UpdateProfileButton.js",
+          "/src/SmartComponents/InventoryDetails/InventoryDetails.js",
+          "/src/SmartComponents/PoliciesTable/PoliciesTable.js",
+          "/src/SmartComponents/PolicyDetails/PolicyDetails.js",
+          "/src/SmartComponents/ProfileThresholdField/ProfileThresholdField.js",
+          "/src/SmartComponents/SystemDetails/SystemDetails.js",
+          "/src/SmartComponents/SystemsTable/SystemsTable.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss",
+          "/src/Charts.scss",
+          "/src/SmartComponents/PolicyDetails/PolicyDetails.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Title": 5,
+      "TextContent": 9,
+      "Button": 6,
+      "Bullseye": 3,
+      "EmptyState": 3,
+      "EmptyStateIcon": 2,
+      "ClipboardCopy": 1,
+      "ClipboardCopyVariant": 1,
+      "Chip": 1,
+      "Card": 2,
+      "CardBody": 1,
+      "Text": 7,
+      "TextVariants": 7,
+      "Grid": 5,
+      "GridItem": 5,
+      "Tabs": 1,
+      "Tab": 1,
+      "TextInput": 1,
+      "TextArea": 1,
+      "Checkbox": 1,
+      "FormGroup": 4,
+      "Wizard": 1,
+      "Form": 4,
+      "EmptyStateBody": 2,
+      "EmptyStateSecondaryActions": 1,
+      "EmptyStateVariant": 2,
+      "Progress": 1,
+      "ProgressMeasureLocation": 1,
+      "TextList": 1,
+      "TextListVariants": 1,
+      "TextListItem": 1,
+      "TextListItemVariants": 1,
+      "Modal": 2,
+      "Dropdown": 2,
+      "KebabToggle": 1,
+      "DropdownItem": 2,
+      "Tooltip": 2,
+      "DropdownPosition": 1,
+      "DropdownToggle": 1,
+      "*": 2,
+      "InputGroup": 1,
+      "Level": 1,
+      "LevelItem": 1,
+      "Pagination": 1,
+      "PaginationVariant": 1,
+      "Breadcrumb": 2,
+      "BreadcrumbItem": 2
+    },
+    "@patternfly/patternfly/components/EmptyState/empty-state.css": {
+      "emptyStateStyles": 1
+    },
+    "@patternfly/react-icons": {
+      "CloudServerIcon": 1,
+      "QuestionCircleIcon": 1,
+      "CheckCircleIcon": 1,
+      "ExclamationCircleIcon": 1,
+      "FilterIcon": 1,
+      "CogsIcon": 1,
+      "*": 2,
+      "OutlinedQuestionCircleIcon": 1
+    },
+    "@patternfly/react-charts": {
+      "ChartDonut": 2,
+      "ChartThemeColor": 2,
+      "ChartThemeVariant": 2
+    },
+    "@patternfly/react-table": {
+      "Table": 2,
+      "TableHeader": 2,
+      "TableBody": 2,
+      "sortable": 1,
+      "*": 1
+    }
+  },
+  "classes": {
+    "pf-c-dropdown__menu-item": 1,
+    "pf-l-tabs,": 1,
+    "pf-c-tabs": 1,
+    "pf-l-grid": 2
+  },
+  "scssVars": {
+    "--pf-l-grid__item--GridColumnEnd": 2,
+    "--pf-global--spacer--md": 1,
+    "--pf-global--Color--200": 1
+  },
+  "repo": "https://github.com/RedHatInsights/compliance-frontend",
+  "name": "Insights-Compliance",
+  "date": "2020-02-19T17:38:24.544Z"
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 35,
+      "ts": 7,
+      "css": 15
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/apache/activemq",
+  "name": "AMQ-Consolidated",
+  "date": "2020-02-19T17:38:24.544Z"
+}

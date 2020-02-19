@@ -1,0 +1,79 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 10,
+        "scss": 1
+      },
+      "js": 41,
+      "scss": 2
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/Components/EmptyState.js",
+          "/src/Components/LoadingState.js",
+          "/src/Components/ModulesList.js",
+          "/src/Components/NoData.js",
+          "/src/Components/NotificationsList.js",
+          "/src/Components/TemplatesList.js",
+          "/src/Containers/Clusters/Clusters.js",
+          "/src/Containers/OrganizationStatistics/OrganizationStatistics.js",
+          "/src/Routes.js",
+          "/src/Utilities/Legend.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Button": 2,
+      "Title": 3,
+      "EmptyState": 3,
+      "EmptyStateVariant": 3,
+      "EmptyStateIcon": 3,
+      "EmptyStateBody": 2,
+      "Badge": 2,
+      "DataList": 3,
+      "DataListItem": 3,
+      "DataListCell": 3,
+      "FormSelect": 3,
+      "FormSelectOption": 3,
+      "Modal": 1,
+      "Card": 2,
+      "CardBody": 2,
+      "CardHeader": 2,
+      "Switch": 1
+    },
+    "@patternfly/react-icons": {
+      "CubesIcon": 3,
+      "WarningTriangleIcon": 1,
+      "ArrowIcon": 1,
+      "CircleIcon": 1,
+      "FilterIcon": 2
+    }
+  },
+  "classes": {
+    "pf-c-data-list__cell": 3,
+    "pf-c-card": 1,
+    "pf-c-card:first-of-type": 1,
+    "pf-c-page__main": 1,
+    "pf-c-data-list": 2,
+    "pf-c-modal-box.templateModal": 1,
+    "pf-c-table": 1
+  },
+  "scssVars": {
+    "--pf-c-data-list__cell-": 2,
+    "--pf-c-data-list__cell-cell": 1,
+    "--pf-c-modal-box-": 1,
+    "--pf-c-table-td-": 2
+  },
+  "repo": "https://github.com/RedHatInsights/tower-analytics-frontend",
+  "name": "Automation-Analytics",
+  "date": "2020-02-19T17:38:24.544Z"
+}

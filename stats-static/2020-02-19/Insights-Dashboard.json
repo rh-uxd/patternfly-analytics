@@ -1,0 +1,85 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 8,
+        "scss": 3
+      },
+      "js": 30,
+      "scss": 5
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/PresentationalComponents/Dashboard/Dashboard.js",
+          "/src/PresentationalComponents/GaugeSection/GaugeSection.js",
+          "/src/PresentationalComponents/GaugeWidget/GaugeWidget.js",
+          "/src/PresentationalComponents/Skeleton/Skeleton.js",
+          "/src/PresentationalComponents/Template/TemplateCard.js",
+          "/src/Routes.js",
+          "/src/SmartComponents/Compliance/ComplianceCard.js",
+          "/src/SmartComponents/Vulnerability/VulnerabilityCard.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss",
+          "/src/PresentationalComponents/Dashboard/_dashboard.scss",
+          "/src/PresentationalComponents/GaugeWidget/_ins-c-gauge-widget.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/js/layouts/Gallery/index": {
+      "Gallery": 1,
+      "GalleryItem": 1
+    },
+    "@patternfly/react-core": {
+      "Split": 2,
+      "SplitItem": 2,
+      "Button": 2,
+      "Modal": 1,
+      "Stack": 2,
+      "StackItem": 2,
+      "Card": 4,
+      "CardBody": 4,
+      "CardFooter": 4,
+      "CardHeader": 4,
+      "Level": 1,
+      "LevelItem": 1,
+      "Title": 3,
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateIcon": 1
+    },
+    "@patternfly/react-icons": {
+      "DownloadIcon": 1,
+      "ClipboardCheckIcon": 1,
+      "ExclamationCircleIcon": 1,
+      "FlagIcon": 1
+    }
+  },
+  "classes": {
+    "pf-u-text-align-center": 3,
+    "pf-c-page__main": 1,
+    "pf-u-mt-0": 1,
+    "pf-l-page__main": 1,
+    "pf-c-card": 1,
+    "pf-l-gallery": 1,
+    "pf-l-stack": 1
+  },
+  "scssVars": {
+    "--pf-l-gallery--GridTemplateColumns": 1,
+    "--pf-global--spacer--md": 3,
+    "--pf-global--spacer--sm": 4,
+    "--pf-global--Color--100": 1,
+    "--pf-global--FontSize--4xl": 1,
+    "--pf-global--success-color-": 1,
+    "--pf-global--danger-color-": 1,
+    "--pf-global--FontSize--2xl": 1
+  },
+  "repo": "https://github.com/RedHatInsights/insights-dashboard",
+  "name": "Insights-Dashboard",
+  "date": "2020-02-19T17:38:24.544Z"
+}

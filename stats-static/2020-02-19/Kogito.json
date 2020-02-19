@@ -1,0 +1,139 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 6,
+        "scss": 2,
+        "css": 1
+      },
+      "ts": 94,
+      "js": 20,
+      "tsx": 46,
+      "css": 2,
+      "scss": 2
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/packages/microeditor-envelope/src/LoadingScreen/LoadingScreen.tsx",
+          "/packages/online-editor/src/editor/EditorFullScreenToolbar.tsx",
+          "/packages/online-editor/src/editor/EditorPage.tsx",
+          "/packages/online-editor/src/editor/EditorToolbar.tsx",
+          "/packages/online-editor/src/home/HomePage.tsx",
+          "/packages/online-editor/src/index.tsx"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/packages/microeditor-envelope/src/LoadingScreen/spinner.scss",
+          "/packages/microeditor-envelope/src/LoadingScreen/styles.scss"
+        ]
+      },
+      "css": {
+        "files": [
+          "/packages/online-editor/static/resources/style.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Button": 3,
+      "Alert": 2,
+      "AlertActionCloseButton": 1,
+      "Page": 2,
+      "PageSection": 3,
+      "Stack": 1,
+      "StackItem": 1,
+      "TextInput": 1,
+      "Title": 2,
+      "Toolbar": 2,
+      "ToolbarGroup": 2,
+      "ToolbarItem": 2,
+      "Dropdown": 2,
+      "DropdownItem": 2,
+      "DropdownPosition": 1,
+      "KebabToggle": 1,
+      "Bullseye": 1,
+      "PageHeader": 1,
+      "Card": 1,
+      "CardHeader": 1,
+      "CardBody": 1,
+      "CardFooter": 1,
+      "Gallery": 1,
+      "DropdownToggle": 1,
+      "Text": 1,
+      "TextVariants": 1,
+      "TextContent": 1,
+      "Brand": 1,
+      "AlertVariant": 1,
+      "AlertActionLink": 1
+    },
+    "@patternfly/react-icons": {
+      "EditIcon": 1,
+      "ExternalLinkAltIcon": 1,
+      "OutlinedQuestionCircleIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-page": 2,
+    "pf-c-page__main": 1,
+    "pf-l-bullseye": 1,
+    "pf-c-empty-state": 1,
+    "pf-u-mb-lg": 1,
+    "pf-c-spinner": 2,
+    "pf-c-spinner__clipper": 2,
+    "pf-c-spinner__lead-ball": 2,
+    "pf-c-spinner__tail-ball": 2,
+    "pf-c-title": 3,
+    "pf-c-empty-state__body": 1,
+    "pf-u-mr-sm": 3,
+    "pf-u-mx-sm": 5,
+    "pf-u-display-none": 1,
+    "pf-u-display-none-on-lg": 1,
+    "pf-u-p-2xl-on-lg": 1,
+    "pf-u-text-align-right": 1,
+    "pf-u-px-2xl-on-lg": 1,
+    "pf-c-button": 1,
+    "pf-c-spinner__clipper::after": 1
+  },
+  "scssVars": {
+    "--pf-c-spinner--AnimationDuration": 6,
+    "--pf-c-spinner--AnimationTimingFunction": 2,
+    "--pf-c-spinner--diameter": 12,
+    "--pf-global--icon--FontSize": 5,
+    "--pf-c-spinner--stroke": 6,
+    "--pf-c-spinner--Width": 2,
+    "--pf-c-spinner--Height": 2,
+    "--pf-c-spinner--Color": 4,
+    "--pf-global--primary-color-": 1,
+    "--pf-c-spinner--m": 8,
+    "--pf-c-spinner__clipper--Width": 2,
+    "--pf-c-spinner__clipper--Height": 2,
+    "--pf-c-spinner__clipper--after": 8,
+    "--pf-c-spinner__lead-ball-": 2,
+    "--pf-c-spinner__ball--after": 8,
+    "--pf-c-spinner__tail-ball-": 2,
+    "--pf-c-page--BackgroundColor": 1,
+    "--pf-global--BackgroundColor--100": 1,
+    "--pf-c-page__header-brand-link": 1,
+    "--pf-l-gallery--GridTemplateColumns": 1,
+    "--pf-c-page__main-section-": 1,
+    "--pf-global--BackgroundColor--dark": 1,
+    "--pf-global--Color--light": 2,
+    "--pf-global--BorderWidth--lg": 2,
+    "--pf-global--BorderColor--100": 3,
+    "--pf-global--spacer--xl": 1,
+    "--pf-global--BorderColor--200": 1,
+    "--pf-global--ZIndex--xs": 1,
+    "--pf-c-page__main-nav-": 1,
+    "--pf-global--spacer--sm": 1,
+    "--pf-global--BorderWidth--sm": 3,
+    "--pf-global--BorderRadius--sm": 2,
+    "--pf-global--BorderWidth--md": 1,
+    "--pf-global--active-color-": 1
+  },
+  "repo": "https://github.com/kiegroup/kogito-tooling",
+  "name": "Kogito",
+  "date": "2020-02-19T17:38:24.544Z"
+}

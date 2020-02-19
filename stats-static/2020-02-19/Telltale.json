@@ -1,0 +1,152 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 20,
+        "scss": 3
+      },
+      "js": 13,
+      "ts": 30,
+      "tsx": 30,
+      "scss": 4
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/App.tsx",
+          "/src/components/__tests__/BurnRate.test.tsx",
+          "/src/components/BurnRate.tsx",
+          "/src/components/FlagsSelect.tsx",
+          "/src/components/Granularity.tsx",
+          "/src/components/SingleSelect.tsx",
+          "/src/components/Spinner.tsx",
+          "/src/components/TypeaheadSelect.tsx",
+          "/src/pages/About.tsx",
+          "/src/pages/Charts.test.tsx",
+          "/src/pages/Charts.tsx",
+          "/src/pages/subpages/Footer.tsx",
+          "/src/pages/subpages/Header.tsx",
+          "/src/pages/subpages/HeaderToolbar.tsx",
+          "/src/pages/subpages/Sidebar.tsx",
+          "/src/views/ConfigureBar.tsx",
+          "/src/views/table/__tests__/IssueTable.test.tsx",
+          "/src/views/table/__tests__/IssueTableToolbar.test.tsx",
+          "/src/views/table/IssueTable.tsx",
+          "/src/views/table/IssueTableToolbar.tsx"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss",
+          "/src/index.scss",
+          "/src/scss/spinner.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Page": 2,
+      "PageSection": 2,
+      "PageSectionVariants": 2,
+      "Alert": 2,
+      "Switch": 5,
+      "TextInput": 2,
+      "Title": 6,
+      "TitleLevel": 5,
+      "InputGroup": 1,
+      "Button": 2,
+      "ButtonVariant": 1,
+      "InputGroupText": 1,
+      "Stack": 1,
+      "StackItem": 1,
+      "Select": 3,
+      "SelectOption": 3,
+      "SelectVariant": 3,
+      "SelectOptionObject": 3,
+      "Radio": 1,
+      "AboutModal": 1,
+      "Text": 2,
+      "TextContent": 1,
+      "TextList": 1,
+      "TextListItem": 1,
+      "Tab": 2,
+      "Tabs": 2,
+      "EmptyState": 2,
+      "Bullseye": 2,
+      "EmptyStateBody": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateVariant": 1,
+      "Grid": 3,
+      "GridItem": 3,
+      "TextVariants": 1,
+      "PageHeader": 1,
+      "Toolbar": 2,
+      "ToolbarGroup": 2,
+      "ToolbarItem": 2,
+      "Tooltip": 1,
+      "TooltipPosition": 1,
+      "Nav": 1,
+      "NavList": 1,
+      "NavItem": 1,
+      "PageSidebar": 1,
+      "Pagination": 3
+    },
+    "@patternfly/react-icons": {
+      "TrendUpIcon": 2,
+      "TrendDownIcon": 2,
+      "DatabaseIcon": 1,
+      "ArrowIcon": 1,
+      "HelpIcon": 1
+    },
+    "@patternfly/react-table": {
+      "Table": 2,
+      "SortByDirection": 2,
+      "sortable": 1,
+      "TableBody": 1,
+      "TableHeader": 1,
+      "TableVariant": 1
+    }
+  },
+  "classes": {
+    "pf-c-spinner": 2,
+    "pf-c-spinner__clipper": 2,
+    "pf-c-spinner__lead-ball": 2,
+    "pf-c-spinner__tail-ball": 2,
+    "pf-c-select__toggle.pf-m-typeahead": 1,
+    "pf-c-tabs__list": 1,
+    "pf-c-tabs__item{": 1,
+    "pf-c-alert__title": 1,
+    "pf-c-select__menu": 1,
+    "pf-c-spinner__clipper::after": 1
+  },
+  "scssVars": {
+    "--pf-global--FontWeight--normal": 2,
+    "--pf-global--LineHeight--md": 2,
+    "--pf-global--Color--100": 1,
+    "--pf-global--FontFamily--sans": 1,
+    "--pf-global--FontSize--md": 1,
+    "--pf-global--BackgroundColor--100": 1,
+    "--pf-global--link--FontWeight": 1,
+    "--pf-global--link--Color": 3,
+    "--pf-global--link--TextDecoration": 3,
+    "--pf-c-spinner--AnimationDuration": 8,
+    "--pf-c-spinner--AnimationTimingFunction": 2,
+    "--pf-c-spinner--Width": 12,
+    "--pf-global--icon--FontSize": 10,
+    "--pf-c-spinner--Height": 8,
+    "--pf-c-spinner--stroke": 8,
+    "--pf-c-spinner--Color": 4,
+    "--pf-global--primary-color-": 1,
+    "--pf-c-spinner--m": 16,
+    "--pf-c-spinner__clipper--Width": 4,
+    "--pf-c-spinner__clipper--Height": 3,
+    "--pf-c-spinner__clipper--after": 20,
+    "--pf-c-spinner__lead-ball-": 2,
+    "--pf-c-spinner__ball--after": 8,
+    "--pf-c-spinner__tail-ball-": 2
+  },
+  "repo": "git@gitlab.cee.redhat.com:RHELReporting/telltale-ui.git",
+  "name": "Telltale",
+  "date": "2020-02-19T17:38:24.544Z"
+}

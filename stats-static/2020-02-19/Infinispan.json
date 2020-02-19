@@ -1,0 +1,190 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 16,
+        "ts": 2,
+        "css": 1
+      },
+      "js": 8,
+      "tsx": 19,
+      "ts": 9,
+      "css": 1
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/app/app.test.tsx",
+          "/src/app/AppLayout/AppLayout.tsx",
+          "/src/app/CacheManagers/CacheManagers.tsx",
+          "/src/app/CacheManagers/CacheTableDisplay.tsx",
+          "/src/app/CacheManagers/CounterTableDisplay.tsx",
+          "/src/app/CacheManagers/TasksTableDisplay.tsx",
+          "/src/app/Caches/CreateCache.tsx",
+          "/src/app/Caches/DetailCache.tsx",
+          "/src/app/Caches/DetailConfigurations.tsx",
+          "/src/app/ClusterStatus/ClusterStatus.tsx",
+          "/src/app/Common/CardTitle.tsx",
+          "/src/app/GlobalStats/GlobalStats.tsx",
+          "/src/app/NotFound/NotFound.tsx",
+          "/src/app/routes.tsx",
+          "/src/app/Support/Support.tsx",
+          "/src/app/Welcome/Welcome.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/services/dataContainerService.ts",
+          "/src/services/displayUtils.ts"
+        ]
+      },
+      "css": {
+        "files": [
+          "/src/app/app.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Button": 7,
+      "Brand": 1,
+      "Nav": 1,
+      "NavItem": 1,
+      "NavList": 1,
+      "NavVariants": 1,
+      "Page": 2,
+      "PageHeader": 1,
+      "PageSidebar": 1,
+      "SkipToContent": 1,
+      "EmptyState": 9,
+      "EmptyStateBody": 8,
+      "EmptyStateIcon": 9,
+      "EmptyStateVariant": 9,
+      "PageSection": 9,
+      "PageSectionVariants": 5,
+      "Tab": 1,
+      "Tabs": 1,
+      "Text": 9,
+      "TextContent": 9,
+      "TextVariants": 9,
+      "Title": 10,
+      "Toolbar": 4,
+      "ToolbarGroup": 4,
+      "ToolbarItem": 4,
+      "Tooltip": 2,
+      "TooltipPosition": 2,
+      "Badge": 4,
+      "Bullseye": 5,
+      "Flex": 1,
+      "FlexItem": 1,
+      "Pagination": 5,
+      "Select": 2,
+      "SelectOption": 2,
+      "SelectVariant": 2,
+      "Stack": 7,
+      "StackItem": 7,
+      "ActionGroup": 1,
+      "Alert": 3,
+      "AlertActionCloseButton": 1,
+      "AlertVariant": 1,
+      "Breadcrumb": 3,
+      "BreadcrumbItem": 3,
+      "Expandable": 2,
+      "Form": 1,
+      "FormGroup": 1,
+      "TextArea": 1,
+      "TextInput": 1,
+      "Card": 3,
+      "CardBody": 3,
+      "CardHeader": 2,
+      "Grid": 3,
+      "GridItem": 3,
+      "Popover": 1,
+      "PopoverPosition": 1,
+      "TextList": 2,
+      "TextListItem": 2,
+      "TextListItemVariants": 2,
+      "TextListVariants": 2,
+      "ToolbarSection": 1,
+      "Gallery": 1,
+      "GalleryItem": 2,
+      "Label": 1,
+      "Level": 1,
+      "LevelItem": 1,
+      "EmptyStateSecondaryActions": 1,
+      "BackgroundImage": 1,
+      "BackgroundImageSrc": 1,
+      "LoginPage": 1
+    },
+    "@patternfly/react-tokens": {
+      "chart_color_blue_500": 1,
+      "chart_color_green_300": 3,
+      "chart_color_black_300": 1,
+      "chart_color_black_400": 1,
+      "chart_color_black_500": 1,
+      "chart_color_blue_200": 1,
+      "chart_color_cyan_300": 1,
+      "chart_color_cyan_400": 1,
+      "chart_color_gold_300": 1,
+      "chart_color_orange_300": 1,
+      "chart_color_purple_200": 1,
+      "chart_color_red_300": 1,
+      "chart_color_red_400": 1,
+      "chart_global_label_Fill": 1
+    },
+    "@patternfly/react-icons": {
+      "CubesIcon": 5,
+      "ErrorCircleOIcon": 2,
+      "InProgressIcon": 2,
+      "OffIcon": 2,
+      "OkIcon": 3,
+      "OutlinedQuestionCircleIcon": 2,
+      "SearchIcon": 5,
+      "CubeIcon": 1,
+      "DegradedIcon": 1,
+      "KeyIcon": 1,
+      "SaveIcon": 1,
+      "ServiceIcon": 1,
+      "Spinner2Icon": 1,
+      "StorageDomainIcon": 1,
+      "UnknownIcon": 1,
+      "ClusterIcon": 1,
+      "RebalanceIcon": 1,
+      "ArrowIcon": 1,
+      "ServerGroupIcon": 1,
+      "VolumeIcon": 1,
+      "ApplicationsIcon": 1,
+      "CatalogIcon": 1,
+      "InfoIcon": 1
+    },
+    "@patternfly/react-table": {
+      "cellWidth": 3,
+      "Table": 5,
+      "TableBody": 5,
+      "TableHeader": 5,
+      "textCenter": 2
+    },
+    "@patternfly/react-core/dist/js/experimental": {
+      "DataToolbar": 1,
+      "DataToolbarContent": 1,
+      "DataToolbarItem": 1
+    },
+    "@patternfly/react-charts": {
+      "ChartDonut": 2,
+      "ChartThemeColor": 2
+    }
+  },
+  "classes": {
+    "pf-c-nav__link": 1,
+    "pf-l-bullseye": 1,
+    "pf-l-bullseye__item": 1,
+    "pf-c-nav": 1
+  },
+  "scssVars": {
+    "--pf-c-nav--m": 1
+  },
+  "repo": "https://github.com/infinispan/infinispan-console",
+  "name": "Infinispan",
+  "date": "2020-02-19T17:38:24.544Z"
+}

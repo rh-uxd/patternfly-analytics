@@ -1,0 +1,19 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 12,
+      "tsx": 8,
+      "ts": 3,
+      "css": 78,
+      "less": 63
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/kiegroup/kie-wb-common",
+  "name": "Process-Automation",
+  "date": "2020-02-19T17:38:24.544Z"
+}

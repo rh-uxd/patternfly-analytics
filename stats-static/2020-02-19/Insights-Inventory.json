@@ -1,0 +1,76 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 5,
+        "scss": 3
+      },
+      "js": 23,
+      "scss": 8
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/components/DeleteModal.js",
+          "/src/components/inventory/AsyncInventory.js",
+          "/src/Routes.js",
+          "/src/routes/InventoryDetail.js",
+          "/src/routes/InventoryTable.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/components/Alerts.scss",
+          "/src/routes/inventory.scss",
+          "/src/Utilities/_colors.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Modal": 1,
+      "Split": 1,
+      "SplitItem": 1,
+      "Stack": 1,
+      "StackItem": 1,
+      "Level": 1,
+      "LevelItem": 1,
+      "Button": 1,
+      "ClipboardCopy": 1,
+      "*": 1,
+      "Grid": 2,
+      "GridItem": 2,
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1
+    },
+    "@patternfly/react-icons": {
+      "ExclamationTriangleIcon": 1,
+      "*": 1
+    },
+    "@patternfly/react-table": {
+      "*": 1
+    }
+  },
+  "classes": {
+    "pf-c-page__main": 1,
+    "pf-l-page__main": 1,
+    "pf-c-alert": 2,
+    "pf-l-grid__item:not([class*=": 1,
+    "pf-c-breadcrumb": 1,
+    "pf-c-breadcrumb__item": 1,
+    "pf-c-tabs__list": 1,
+    "pf-c-clipboard-copy": 1,
+    "pf-l-split:first-child": 1
+  },
+  "scssVars": {
+    "--pf-global--BackgroundColor--100": 1,
+    "--pf-c-tabs__item--BorderColor": 2,
+    "--pf-c-tabs__item--BorderWidth": 3,
+    "--pf-global--warning-color-": 1,
+    "--pf-global--BackgroundColor--300": 1
+  },
+  "repo": "https://github.com/RedHatInsights/insights-inventory-frontend",
+  "name": "Insights-Inventory",
+  "date": "2020-02-19T17:38:24.544Z"
+}

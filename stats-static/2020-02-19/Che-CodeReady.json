@@ -1,0 +1,15 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "css": 2
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/redhat-developer/codeready-workspaces",
+  "name": "Che-CodeReady",
+  "date": "2020-02-19T17:38:24.544Z"
+}

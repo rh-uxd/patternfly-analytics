@@ -1,0 +1,16 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 609,
+      "scss": 102
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/openstack/horizon",
+  "name": "Openstack-Horizon",
+  "date": "2020-02-19T17:38:24.544Z"
+}
