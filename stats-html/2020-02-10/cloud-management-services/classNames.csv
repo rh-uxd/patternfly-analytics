@@ -1,0 +1,158 @@
+className,count
+pf-m-redhat-font,16
+pf-c-page pf-m-redhat-font,18
+pf-c-page__header,18
+pf-c-page__header-brand,18
+pf-c-page__header-brand-toggle,18
+pf-c-button pf-m-plain,120
+pf-c-page__header-brand-link,18
+pf-l-page__header-tools pf-c-page__header-tools,18
+pf-l-toolbar,18
+pf-l-toolbar__group pf-u-mr-0 pf-u-mr-lg-on-lg,18
+pf-l-toolbar__item,20
+pf-c-dropdown pf-m-align-right,54
+pf-c-dropdown__toggle pf-m-plain,156
+pf-l-toolbar__group,22
+pf-l-toolbar__item pf-u-hidden-on-lg pf-u-mr-0,18
+pf-l-toolbar__item pf-u-screen-reader pf-u-visible-on-lg,18
+pf-c-dropdown__toggle-text,20
+pf-c-dropdown__toggle-icon,20
+pf-c-avatar,18
+pf-c-page__sidebar pf-l-page__sidebar ins-c-sidebar--loading pf-m-dark,18
+pf-l-split ins-c-navigation__header,18
+pf-l-split__item ins-c-page__home-icon,18
+pf-l-split__item pf-m-fill pf-u-display-flex pf-u-align-items-center ins-c-navigation__header-title__wrapper,18
+pf-c-nav pf-m-dark,18
+pf-c-nav__list,18
+pf-c-nav__item,142
+pf-c-nav__link pf-m-current,18
+pf-c-nav__link,126
+pf-c-nav__toggle,18
+pf-c-nav__subnav,18
+pf-c-nav__simple-list,18
+pf-c-nav__separator,18
+pf-c-nav__item ins-c-page__documentation,18
+pf-c-nav__link ins-c-page__documentation,18
+pf-c-page__drawer,18
+pf-c-drawer__content,18
+page__dashboard pf-c-page__main,1
+pf-l-page-header pf-c-page-header pf-l-page__main-section pf-c-page__main-section pf-m-light,6
+pf-c-title pf-m-2xl,16
+ins-l-dashboard pf-l-page__main-section pf-c-page__main-section,1
+pf-l-gallery pf-m-gutter,1
+pf-c-card ins-c-card__vulnerability,1
+pf-c-card__header pf-c-title pf-m-md,2
+pf-c-title pf-m-lg pf-u-mt-0 pf-u-mb-0,1
+pf-c-card__body,2
+pf-c-card__footer,2
+pf-c-card ins-c-card__compliance,1
+pf-c-title pf-m-lg,4
+pf-l-stack,3
+pf-c-empty-state pf-m-lg,3
+pf-c-empty-state__icon,4
+pf-c-empty-state__body,2
+pf-c-page__main,18
+pf-c-drawer__panel,18
+pf-c-drawer__panel-body,18
+pf-c-page__main pf-l-page__main,2
+pf-l-page__main-section pf-c-page__main-section,6
+pf-l-grid pf-m-gutter,12
+pf-l-bullseye,3
+pf-c-content,155
+pf-c-clipboard-copy upload-instructions,4
+pf-c-clipboard-copy__group,4
+pf-c-clipboard-copy__group-toggle,4
+pf-c-clipboard-copy__group-toggle-icon,4
+pf-c-form-control,9
+pf-c-clipboard-copy__group-copy,4
+pf-c-button pf-m-primary,2
+drift pf-m-redhat-font,2
+pf-c-nav__item pf-m-expanded pf-m-current,2
+page__undefined pf-l-page__main pf-c-page__main,2
+page__Vulnerabilities pf-l-page__main pf-c-page__main,2
+pf-c-tabs vulnerability-tabs,2
+pf-c-tabs__scroll-button,22
+pf-c-tabs__list,11
+pf-c-tabs__item pf-m-current vulnerability-tabs,2
+pf-c-tabs__button,40
+pf-c-tabs__item vulnerability-tabs,2
+pf-l-stack__item,58
+pf-l-toolbar ins-c-table__toolbar space-between-toolbar-items,2
+pf-l-toolbar__group vulnerability-toolbar-spacing,2
+pf-c-dropdown,104
+pf-c-dropdown__toggle pf-m-split-button,2
+pf-c-check,2
+pf-c-check__input,2
+pf-c-dropdown__toggle-button,2
+pf-c-form-control ins-c-conditional-filter,3
+pf-c-dropdown ins-c-filter__dropdown,2
+pf-c-dropdown__toggle,2
+pf-c-pagination,2
+pf-c-pagination__total-items,3
+pf-c-options-menu,5
+pf-c-options-menu__toggle pf-m-plain pf-m-text,6
+pf-c-options-menu__toggle-text,6
+pf-c-options-menu__toggle-button,6
+pf-c-pagination__nav,6
+pf-c-pagination__nav-page-select,5
+pf-l-toolbar ins-c-table__toolbar pf-u-pt-0,2
+pf-c-table pf-m-grid-lg,2
+pf-c-table__check,57
+pf-c-table__sort col-width-10 no-wrap,4
+pf-c-table__sort-indicator,16
+pf-c-table__sort pf-m-selected col-width-10 hide-description,2
+pf-c-table__sort col-width-10,8
+pf-c-table__toggle,45
+pf-c-table__action,99
+pf-c-table__expandable-row,45
+pf-c-table__expandable-row-content,45
+pf-l-toolbar ins-c-table__toolbar,2
+pf-c-pagination pf-m-footer,3
+page__remediations pf-l-page__main pf-c-page__main,1
+pf-c-empty-state pf-m-lg ins-c-no-remediations,1
+page__inventory pf-c-page__main pf-l-page__main,10
+pf-m-light pf-l-page-header pf-c-page-header pf-l-page__main-section pf-c-page__main-section,1
+pf-l-grid__item pf-m-12-col,11
+pf-c-data-toolbar ins-c-inventory__table--toolbar ins-c-primary-toolbar,1
+pf-c-data-toolbar__content,1
+pf-c-data-toolbar__group pf-m-filter-group ins-c-primary-toolbar__group-filter pf-m-spacer-lg pf-m-space-items-lg,1
+pf-c-data-toolbar__item ins-c-primary-toolbar__filter,1
+pf-l-split ins-c-conditional-filter,1
+pf-l-split__item pf-m-fill,10
+pf-c-data-toolbar__item ins-c-primary-toolbar__pagination,1
+pf-c-pagination pf-m-compact,1
+pf-c-data-toolbar__content pf-m-hidden,1
+pf-c-data-toolbar__group pf-m-filter-group,1
+pf-c-data-toolbar__expandable-content,1
+pf-c-data-toolbar__group,1
+pf-l-grid ins-inventory-list,1
+pf-c-table pf-m-grid-md ins-c-entity-table,1
+pf-c-table__sort,1
+pf-m-width-25,1
+pf-m-width-25 pf-c-table__sort,1
+pf-c-button pf-m-plain ins-c-tag-count,18
+pf-l-toolbar ins-c-table__toolbar ins-m-footer ins-c-inventory__table--toolbar,1
+pf-c-options-menu pf-m-top,1
+pf-c-chip-group pf-m-toolbar,1
+pf-c-chip-group__label,1
+pf-c-chip-group,1
+pf-c-chip,1
+pf-c-chip__text,1
+pf-c-button pf-m-link,1
+pf-m-light ins-inventory-detail ins-c-inventory__detail--general-info pf-l-page-header pf-c-page-header pf-l-page__main-section pf-c-page__main-section,9
+pf-c-breadcrumb,9
+pf-c-breadcrumb__list,9
+pf-c-breadcrumb__item,18
+pf-c-breadcrumb__item-divider,9
+pf-l-split ins-c-inventory__detail--header,9
+pf-l-split__item,9
+pf-l-grid ins-entity-facts,9
+pf-l-grid__item pf-m-6-col-on-md,9
+pf-c-tabs pf-m-fill ins-c-inventory-detail__app-tabs,9
+pf-c-tabs__item pf-m-current ins-c-inventory-detail__app-tabs,9
+pf-c-tabs__item ins-c-inventory-detail__app-tabs,27
+ins-c-inventory__detail--general-info pf-l-page__main-section pf-c-page__main-section,9
+pf-l-grid pf-m-all-12-col-on-sm pf-m-all-6-col-on-md pf-m-gutter,9
+pf-l-grid__item,54
+pf-l-stack pf-m-gutter,54
+pf-l-stack__item pf-m-fill,54

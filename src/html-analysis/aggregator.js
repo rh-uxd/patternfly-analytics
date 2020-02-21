@@ -11,7 +11,7 @@ function aggregateClassNames(report) {
     Object.entries(pageClasses).forEach(([className, count]) => {
       totalCounts[className] = totalCounts[className] + count || count;
     });
-  })
+  });
 
   let csvString = 'className,count';
 
@@ -23,17 +23,33 @@ function aggregateClassNames(report) {
 }
 
 function aggregateUrls(report) {
-  let csvString = 'url,count';
+  let csvString = 'url,pf3ClassCount,pf4ClassCount,otherClassCount';
 
   Object.entries(report)
     .sort((u1, u2) => u1[0].localeCompare(u2[0]))
     .forEach(([url, pageClasses]) => {
-      csvString += `\n${url},${pageClasses.count}`;
-    })
+      let pf3Count = 0;
+      let pf4Count = 0;
+      let otherCount = 0;
+
+      delete pageClasses.time;
+      delete pageClasses.count;
+      Object.entries(pageClasses).forEach(([className, count]) => {
+        if (/pf/.test(className)) {
+          pf3Count++;
+        }
+        else if (/pf-[clum]/.test(className)) {
+          pf4Count++;
+        }
+        else {
+          otherCount++;
+        }
+      });
+      csvString += `\n${url},${pf3Count},${pf4Count},${otherCount}`;
+    });
   
   return csvString;
 }
-
 
 glob.sync(path.join(__dirname, '../../stats-html/**/*.json')).forEach(file => {
   const report = require(file);

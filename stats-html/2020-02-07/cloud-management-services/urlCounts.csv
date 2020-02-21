@@ -1,0 +1,4 @@
+url,pf3ClassCount,pf4ClassCount,otherClassCount
+https://nightly.cloud.redhat.com/rhel/compliance/policies,36,0,0
+https://nightly.cloud.redhat.com/rhel/dashboard,43,0,0
+https://nightly.cloud.redhat.com/rhel/vulnerability,64,0,0

@@ -3,7 +3,6 @@ const fs = require('fs-extra');
 const { Cluster } = require('puppeteer-cluster');
 
 const statsDir = path.resolve(__dirname, '../../stats-html');
-const projectName = 'cloud-management-services';
 // List of pages to crawl
 const pages = [];
 let crawlCount = 0;
@@ -14,7 +13,7 @@ async function crawlPatternflyUsage(page, pagePath, options) {
   // Naive looking at <a> tags
   // Possible improvement would be to be more like Google
   // https://searchengineland.com/tested-googlebot-crawls-javascript-heres-learned-220157
-  const classNames = (await page.$$eval('[class*="pf"]', as => as.map(a => a.classList)))
+  const classNames = (await page.$$eval('[class]', as => as.map(a => a.classList)))
     .map(classList => Object.values(classList).join(' '));
 
   if (report[pagePath]) {
@@ -31,6 +30,7 @@ async function crawlPatternflyUsage(page, pagePath, options) {
 function normalizeHref(href) {
   return href
     .replace(/#.*/, '') // Remove after # (anchor links)
+    .replace(/\?.*/, '') // Remove after ? (queries)
     .replace(/\/$/, ''); // Remove trailing /
 }
 
@@ -50,8 +50,7 @@ async function crawlLinks(page, options, cluster) {
 }
 
 async function crawlPage(page, pagePath, options, cluster) {
-  await page.goto(pagePath, { waitUntil: 'networkidle0', timeout: 6000 });
-  console.log(`${++crawlCount}/${pages.length} ${pagePath}`);
+  await page.goto(pagePath, { waitUntil: 'networkidle2', timeout: 8000 });
 
   if (page.url().includes('sso.qa.redhat.com')) {
     console.log('logging in...');
@@ -73,6 +72,7 @@ async function crawlPage(page, pagePath, options, cluster) {
     .then(() => {
       const elapsed = process.hrtime(startTime);
       report[pagePath].time = elapsed[0] + elapsed[1] / 1000000000;
+      console.log(`${++crawlCount}/${pages.length} ${pagePath}`);
     })
 }
 
@@ -92,9 +92,10 @@ async function crawl(options) {
   pages.push(...options.pages.map(page => `${options.prefix}${page}`));
   pages.forEach(initialPage => cluster.queueJob(initialPage));
 
+  console.log('Waiting for idle');
   await cluster.idle();
   await cluster.close();
-  const reportPath = path.join(statsDir, `/${new Date().toISOString().substr(0, 10)}/`, projectName, '/report.json');
+  const reportPath = path.join(statsDir, `/${new Date().toISOString().substr(0, 10)}/`, options.name, '/report.json');
   fs.ensureFileSync(reportPath);
   fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
   process.exit(exitCode);
@@ -106,18 +107,8 @@ async function crawl(options) {
 // });
 
 crawl({
-  prefix: 'https://nightly.cloud.redhat.com/rhel',
-  pages: ['/dashboard'],
-  skipRegex: /inventory\/.*\/.*/,
-  username: 'jalberts@redhat.com',
-  password: 'redhat'
+  name: 'openshift',
+  prefix: 'http://localhost:9000',
+  pages: ['/dashboards', '/topology/ns/default/graph'],
 });
 
-// (async () => {
-//   const browser = await puppeteer.launch();
-//   const page = await browser.newPage();
-//   await page.goto('https://example.com');
-//   await page.screenshot({path: 'example.png'});
-
-//   await browser.close();
-// })();
