@@ -35,11 +35,11 @@ function aggregateUrls(report) {
       delete pageClasses.time;
       delete pageClasses.count;
       Object.entries(pageClasses).forEach(([className, count]) => {
-        if (/pf/.test(className)) {
-          pf3Count++;
-        }
-        else if (/pf-[clum]/.test(className)) {
+        if (/pf-[clum]/.test(className)) {
           pf4Count++;
+        }
+        else if (/pf/.test(className)) {
+          pf3Count++;
         }
         else {
           otherCount++;
