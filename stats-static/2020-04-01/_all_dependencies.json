@@ -1,0 +1,6662 @@
+{
+  "@allpro/react-router-pause": [
+    null
+  ],
+  "@angular-devkit/build-angular": [
+    null,
+    null,
+    null
+  ],
+  "@angular-devkit/build-ng-packagr": [
+    null,
+    null,
+    null
+  ],
+  "@angular/animations": [
+    null
+  ],
+  "@angular/cli": [
+    null,
+    null,
+    null
+  ],
+  "@angular/common": [
+    null,
+    null,
+    null
+  ],
+  "@angular/compiler": [
+    null,
+    null,
+    null
+  ],
+  "@angular/compiler-cli": [
+    null,
+    null,
+    null
+  ],
+  "@angular/core": [
+    null,
+    null,
+    null
+  ],
+  "@angular/forms": [
+    null,
+    null,
+    null
+  ],
+  "@angular/language-service": [
+    null,
+    null,
+    null
+  ],
+  "@angular/platform-browser": [
+    null,
+    null,
+    null
+  ],
+  "@angular/platform-browser-dynamic": [
+    null,
+    null,
+    null
+  ],
+  "@angular/router": [
+    null,
+    null,
+    null
+  ],
+  "@apicurio/models": [
+    null,
+    null
+  ],
+  "@apicurio/services": [
+    null
+  ],
+  "@apollo/react-hoc": [
+    null
+  ],
+  "@apollo/react-hooks": [
+    null,
+    null
+  ],
+  "@apollo/react-testing": [
+    null
+  ],
+  "@atlasmap/atlasmap-data-mapper": [
+    null
+  ],
+  "@babel/cli": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/core": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/plugin-proposal-class-properties": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/plugin-proposal-decorators": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/plugin-proposal-object-rest-spread": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/plugin-proposal-optional-chaining": [
+    null
+  ],
+  "@babel/plugin-syntax-decorators": [
+    null
+  ],
+  "@babel/plugin-syntax-dynamic-import": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/plugin-syntax-jsx": [
+    null
+  ],
+  "@babel/plugin-syntax-typescript": [
+    null
+  ],
+  "@babel/plugin-transform-destructuring": [
+    null
+  ],
+  "@babel/plugin-transform-for-of": [
+    null
+  ],
+  "@babel/plugin-transform-object-assign": [
+    null,
+    null
+  ],
+  "@babel/plugin-transform-react-display-name": [
+    null
+  ],
+  "@babel/plugin-transform-runtime": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/plugin-transform-template-literals": [
+    null
+  ],
+  "@babel/polyfill": [
+    null
+  ],
+  "@babel/preset-env": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/preset-flow": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/preset-react": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/preset-typescript": [
+    null,
+    null
+  ],
+  "@babel/register": [
+    null,
+    null
+  ],
+  "@babel/runtime": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@babel/types": [
+    null
+  ],
+  "@commitlint/cli": [
+    null,
+    null,
+    null
+  ],
+  "@commitlint/config-conventional": [
+    null,
+    null
+  ],
+  "@commitlint/travis-cli": [
+    null
+  ],
+  "@console/ceph-storage-plugin": [
+    null,
+    null
+  ],
+  "@console/container-security": [
+    null
+  ],
+  "@console/dev-console": [
+    null
+  ],
+  "@console/git-service": [
+    null
+  ],
+  "@console/internal": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@console/knative-plugin": [
+    null,
+    null
+  ],
+  "@console/kubevirt-plugin": [
+    null
+  ],
+  "@console/metal3-plugin": [
+    null
+  ],
+  "@console/network-attachment-definition-plugin": [
+    null
+  ],
+  "@console/noobaa-storage-plugin": [
+    null
+  ],
+  "@console/operator-lifecycle-manager": [
+    null,
+    null
+  ],
+  "@console/patternfly": [
+    null
+  ],
+  "@console/plugin-sdk": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@console/shared": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@console/topology": [
+    null
+  ],
+  "@craco/craco": [
+    null
+  ],
+  "@data-driven-forms/form-builder": [
+    null
+  ],
+  "@data-driven-forms/pf4-component-mapper": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@data-driven-forms/react-form-renderer": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@dump247/storybook-state": [
+    null
+  ],
+  "@fortawesome/fontawesome-free": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "@fortawesome/free-solid-svg-icons": [
+    null
+  ],
+  "@hawtio/core-dts": [
+    null
+  ],
+  "@hawtio/node-backend": [
+    null
+  ],
+  "@improbable-eng/grpc-web": [
+    null,
+    null
+  ],
+  "@kiali/k-charted-pf4": [
+    null
+  ],
+  "@kogito-tooling/chrome-extension": [
+    null
+  ],
+  "@kogito-tooling/core-api": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@kogito-tooling/desktop": [
+    null
+  ],
+  "@kogito-tooling/kie-bc-editors": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "@kogito-tooling/kie-bc-editors-unpacked": [
+    null
+  ],
+  "@kogito-tooling/microeditor-envelope": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@kogito-tooling/microeditor-envelope-protocol": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@kogito-tooling/vscode-extension": [
+    null
+  ],
+  "@mdx-js/loader": [
+    null
+  ],
+  "@metahub/karma-jasmine-jquery": [
+    null
+  ],
+  "@novnc/novnc": [
+    null
+  ],
+  "@octokit/rest": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "@patternfly/patternfly": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@patternfly/patternfly-next": [
+    null
+  ],
+  "@patternfly/pfe-datetime": [
+    null
+  ],
+  "@patternfly/pfelement": [
+    null
+  ],
+  "@patternfly/react-catalog-view-extension": [
+    null
+  ],
+  "@patternfly/react-charts": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@patternfly/react-console": [
+    null,
+    null,
+    null
+  ],
+  "@patternfly/react-core": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@patternfly/react-icons": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@patternfly/react-styled-system": [
+    null
+  ],
+  "@patternfly/react-styles": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@patternfly/react-table": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@patternfly/react-tokens": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@patternfly/react-topology": [
+    null,
+    null
+  ],
+  "@patternfly/react-virtualized-extension": [
+    null
+  ],
+  "@rails/webpacker": [
+    null
+  ],
+  "@react-mock/localstorage": [
+    null
+  ],
+  "@react-pdf/renderer": [
+    null
+  ],
+  "@red-hat-insights/insights-frontend-components": [
+    null
+  ],
+  "@redhat-cloud-services/approval-client": [
+    null
+  ],
+  "@redhat-cloud-services/catalog-client": [
+    null
+  ],
+  "@redhat-cloud-services/frontend-components": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-charts": [
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-config": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-inventory": [
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-inventory-compliance": [
+    null,
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-inventory-general-info": [
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-inventory-insights": [
+    null,
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-inventory-patchman": [
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-inventory-vulnerabilities": [
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-notifications": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-pdf-generator": [
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-remediations": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-sources": [
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-translations": [
+    null,
+    null
+  ],
+  "@redhat-cloud-services/frontend-components-utilities": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@redhat-cloud-services/host-inventory-client": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "@redhat-cloud-services/insights-client": [
+    null
+  ],
+  "@redhat-cloud-services/rbac-client": [
+    null,
+    null,
+    null
+  ],
+  "@redhat-cloud-services/remediations-client": [
+    null
+  ],
+  "@redhat-cloud-services/vulnerabilities-client": [
+    null
+  ],
+  "@redhat/redhat-font": [
+    null
+  ],
+  "@rescripts/cli": [
+    null
+  ],
+  "@rh-uxd/integration-core": [
+    null,
+    null,
+    null
+  ],
+  "@rh-uxd/integration-react": [
+    null,
+    null
+  ],
+  "@rollup/plugin-commonjs": [
+    null
+  ],
+  "@rollup/plugin-json": [
+    null
+  ],
+  "@rollup/plugin-node-resolve": [
+    null
+  ],
+  "@rollup/pluginutils": [
+    null
+  ],
+  "@semantic-release/changelog": [
+    null
+  ],
+  "@semantic-release/exec": [
+    null
+  ],
+  "@semantic-release/git": [
+    null,
+    null
+  ],
+  "@semantic-release/npm": [
+    null
+  ],
+  "@sentry/browser": [
+    null
+  ],
+  "@sentry/minimal": [
+    null
+  ],
+  "@spice-project/spice-html5": [
+    null
+  ],
+  "@storybook/addon-a11y": [
+    null,
+    null,
+    null
+  ],
+  "@storybook/addon-actions": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@storybook/addon-centered": [
+    null
+  ],
+  "@storybook/addon-docs": [
+    null,
+    null
+  ],
+  "@storybook/addon-info": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@storybook/addon-knobs": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@storybook/addon-links": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "@storybook/addon-notes": [
+    null,
+    null,
+    null
+  ],
+  "@storybook/addon-options": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@storybook/addon-storysource": [
+    null
+  ],
+  "@storybook/addon-viewport": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@storybook/addons": [
+    null,
+    null
+  ],
+  "@storybook/react": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@storybook/source-loader": [
+    null
+  ],
+  "@storybook/storybook-deployer": [
+    null
+  ],
+  "@storybook/theming": [
+    null,
+    null,
+    null
+  ],
+  "@svgr/webpack": [
+    null
+  ],
+  "@syndesis/api": [
+    null
+  ],
+  "@syndesis/apicurio-adapter": [
+    null
+  ],
+  "@syndesis/apicurio-assembly": [
+    null
+  ],
+  "@syndesis/atlasmap-adapter": [
+    null
+  ],
+  "@syndesis/atlasmap-assembly": [
+    null
+  ],
+  "@syndesis/auto-form": [
+    null,
+    null
+  ],
+  "@syndesis/history": [
+    null,
+    null
+  ],
+  "@syndesis/models": [
+    null,
+    null,
+    null
+  ],
+  "@syndesis/ui": [
+    null,
+    null
+  ],
+  "@syndesis/utils": [
+    null,
+    null
+  ],
+  "@testing-library/jest-dom": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@testing-library/react": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@testing-library/user-event": [
+    null,
+    null,
+    null
+  ],
+  "@theforeman/builder": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@theforeman/eslint-plugin-foreman": [
+    null,
+    null
+  ],
+  "@theforeman/stories": [
+    null,
+    null
+  ],
+  "@theforeman/test": [
+    null,
+    null
+  ],
+  "@theforeman/vendor": [
+    null,
+    null
+  ],
+  "@theforeman/vendor-core": [
+    null,
+    null
+  ],
+  "@theforeman/vendor-dev": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/angular": [
+    null,
+    null
+  ],
+  "@types/angular-mocks": [
+    null
+  ],
+  "@types/angular-route": [
+    null,
+    null
+  ],
+  "@types/angular-sanitize": [
+    null
+  ],
+  "@types/argv": [
+    null
+  ],
+  "@types/c3": [
+    null
+  ],
+  "@types/chrome": [
+    null
+  ],
+  "@types/classnames": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/codemirror": [
+    null
+  ],
+  "@types/compare-versions": [
+    null
+  ],
+  "@types/compression": [
+    null
+  ],
+  "@types/core-js": [
+    null
+  ],
+  "@types/cytoscape": [
+    null
+  ],
+  "@types/dagre": [
+    null
+  ],
+  "@types/date-fns": [
+    null
+  ],
+  "@types/dragula": [
+    null
+  ],
+  "@types/enzyme": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/enzyme-adapter-react-16": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/expect": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/express": [
+    null
+  ],
+  "@types/file-saver": [
+    null
+  ],
+  "@types/fs-extra": [
+    null,
+    null
+  ],
+  "@types/glob": [
+    null,
+    null,
+    null
+  ],
+  "@types/google-protobuf": [
+    null,
+    null
+  ],
+  "@types/history": [
+    null
+  ],
+  "@types/i18next": [
+    null,
+    null,
+    null
+  ],
+  "@types/i18next-browser-languagedetector": [
+    null
+  ],
+  "@types/i18next-xhr-backend": [
+    null
+  ],
+  "@types/immutable": [
+    null,
+    null
+  ],
+  "@types/jasmine": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/jasmine-jquery": [
+    null
+  ],
+  "@types/jasminewd2": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/jest": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/jquery": [
+    null,
+    null
+  ],
+  "@types/js-base64": [
+    null
+  ],
+  "@types/js-combinatorics": [
+    null
+  ],
+  "@types/js-yaml": [
+    null
+  ],
+  "@types/lodash": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/lodash-es": [
+    null,
+    null,
+    null
+  ],
+  "@types/marked": [
+    null,
+    null,
+    null
+  ],
+  "@types/mocha": [
+    null
+  ],
+  "@types/mustache": [
+    null
+  ],
+  "@types/named-urls": [
+    null
+  ],
+  "@types/node": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/parse-link-header": [
+    null
+  ],
+  "@types/patternfly-react": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/prop-types": [
+    null,
+    null,
+    null
+  ],
+  "@types/qs": [
+    null
+  ],
+  "@types/react": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/react-content-loader": [
+    null,
+    null
+  ],
+  "@types/react-dom": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/react-helmet": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/react-i18next": [
+    null
+  ],
+  "@types/react-jsonschema-form": [
+    null,
+    null
+  ],
+  "@types/react-loadable": [
+    null
+  ],
+  "@types/react-redux": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/react-router": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/react-router-dom": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/react-transition-group": [
+    null,
+    null
+  ],
+  "@types/react-virtualized": [
+    null,
+    null,
+    null
+  ],
+  "@types/redux-logger": [
+    null
+  ],
+  "@types/sanitize-html": [
+    null
+  ],
+  "@types/semver": [
+    null
+  ],
+  "@types/showdown": [
+    null,
+    null
+  ],
+  "@types/systemjs": [
+    null
+  ],
+  "@types/urijs": [
+    null
+  ],
+  "@types/victory": [
+    null,
+    null
+  ],
+  "@types/vscode": [
+    null
+  ],
+  "@types/webpack": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@types/webpack-env": [
+    null
+  ],
+  "@typescript-eslint/eslint-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@typescript-eslint/parser": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "@wdio/allure-reporter": [
+    null
+  ],
+  "@wdio/cli": [
+    null,
+    null
+  ],
+  "@wdio/dot-reporter": [
+    null
+  ],
+  "@wdio/junit-reporter": [
+    null
+  ],
+  "@wdio/local-runner": [
+    null,
+    null
+  ],
+  "@wdio/mocha-framework": [
+    null,
+    null
+  ],
+  "@wdio/reporter": [
+    null
+  ],
+  "@wdio/selenium-standalone-service": [
+    null
+  ],
+  "@wdio/spec-reporter": [
+    null,
+    null
+  ],
+  "@wdio/sync": [
+    null,
+    null
+  ],
+  "@webcomponents/custom-elements": [
+    null
+  ],
+  "@webcomponents/webcomponentsjs": [
+    null
+  ],
+  "@xstate/test": [
+    null
+  ],
+  "@yarnpkg/lockfile": [
+    null
+  ],
+  "abort-controller": [
+    null
+  ],
+  "abortcontroller-polyfill": [
+    null
+  ],
+  "actioncable": [
+    null
+  ],
+  "adm-zip": [
+    null
+  ],
+  "allure-commandline": [
+    null
+  ],
+  "angular": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "angular-animate": [
+    null
+  ],
+  "angular-cookies": [
+    null,
+    null
+  ],
+  "angular-loader": [
+    null
+  ],
+  "angular-mocks": [
+    null
+  ],
+  "angular-patternfly": [
+    null,
+    null
+  ],
+  "angular-resource": [
+    null
+  ],
+  "angular-route": [
+    null,
+    null,
+    null
+  ],
+  "angular-sanitize": [
+    null,
+    null
+  ],
+  "angular-translate": [
+    null,
+    null
+  ],
+  "angular-translate-loader-url": [
+    null
+  ],
+  "angular-treeview": [
+    null
+  ],
+  "angular-ui-select2": [
+    null
+  ],
+  "aphrodite": [
+    null
+  ],
+  "apicurio-data-models": [
+    null,
+    null,
+    null
+  ],
+  "apicurio-design-studio": [
+    null
+  ],
+  "apicurio-ts-core": [
+    null,
+    null,
+    null
+  ],
+  "apidoc-mock": [
+    null
+  ],
+  "apollo-boost": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "apollo-server": [
+    null
+  ],
+  "appformer-js": [
+    null
+  ],
+  "argv": [
+    null
+  ],
+  "argv-parse": [
+    null
+  ],
+  "asciidoctor.js": [
+    null
+  ],
+  "assets-webpack-plugin": [
+    null
+  ],
+  "async": [
+    null,
+    null
+  ],
+  "asyncawait": [
+    null
+  ],
+  "autofill-event": [
+    null
+  ],
+  "autoprefixer": [
+    null,
+    null,
+    null
+  ],
+  "awesome-debounce-promise": [
+    null,
+    null,
+    null
+  ],
+  "awesome-typescript-loader": [
+    null
+  ],
+  "axe-core": [
+    null
+  ],
+  "axios": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "axios-mock-adapter": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "babel-cli": [
+    null,
+    null
+  ],
+  "babel-core": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "babel-eslint": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "babel-jest": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "babel-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "babel-plugin-add-module-exports": [
+    null
+  ],
+  "babel-plugin-dev-expression": [
+    null
+  ],
+  "babel-plugin-dual-import": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "babel-plugin-dynamic-import-node": [
+    null
+  ],
+  "babel-plugin-istanbul": [
+    null
+  ],
+  "babel-plugin-lodash": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "babel-plugin-module-resolver": [
+    null
+  ],
+  "babel-plugin-named-asset-import": [
+    null,
+    null
+  ],
+  "babel-plugin-react-docgen": [
+    null
+  ],
+  "babel-plugin-react-intl": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "babel-plugin-react-intl-auto": [
+    null
+  ],
+  "babel-plugin-transform-class-properties": [
+    null,
+    null,
+    null
+  ],
+  "babel-plugin-transform-es2015-modules-commonjs": [
+    null
+  ],
+  "babel-plugin-transform-export-extensions": [
+    null
+  ],
+  "babel-plugin-transform-imports": [
+    null,
+    null
+  ],
+  "babel-plugin-transform-object-assign": [
+    null
+  ],
+  "babel-plugin-transform-object-rest-spread": [
+    null,
+    null,
+    null
+  ],
+  "babel-plugin-transform-react-constant-elements": [
+    null
+  ],
+  "babel-plugin-transform-regenerator": [
+    null
+  ],
+  "babel-plugin-transform-runtime": [
+    null
+  ],
+  "babel-plugin-webpack-alias": [
+    null
+  ],
+  "babel-polyfill": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "babel-preset-env": [
+    null,
+    null,
+    null
+  ],
+  "babel-preset-es2015": [
+    null,
+    null
+  ],
+  "babel-preset-flow": [
+    null
+  ],
+  "babel-preset-latest": [
+    null
+  ],
+  "babel-preset-minify": [
+    null
+  ],
+  "babel-preset-react": [
+    null,
+    null,
+    null
+  ],
+  "babel-preset-react-app": [
+    null,
+    null
+  ],
+  "babel-preset-stage-1": [
+    null
+  ],
+  "babel-runtime": [
+    null
+  ],
+  "backstopjs": [
+    null
+  ],
+  "base64-js": [
+    null
+  ],
+  "bastion": [
+    null
+  ],
+  "bitbucket": [
+    null
+  ],
+  "blob-util": [
+    null
+  ],
+  "bluebird": [
+    null
+  ],
+  "body-parser": [
+    null,
+    null,
+    null
+  ],
+  "bootbox": [
+    null
+  ],
+  "bootstrap": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bootstrap-datepicker": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "bootstrap-sass": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bootstrap-select": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bootstrap-slider": [
+    null,
+    null
+  ],
+  "bootstrap-slider-without-jquery": [
+    null
+  ],
+  "bootstrap-switch": [
+    null,
+    null,
+    null
+  ],
+  "bootstrap-touchspin": [
+    null,
+    null,
+    null
+  ],
+  "bower": [
+    null
+  ],
+  "brace": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "browser-env": [
+    null
+  ],
+  "browser-sync": [
+    null
+  ],
+  "browserslist": [
+    null
+  ],
+  "btoa": [
+    null
+  ],
+  "c3": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "cache-loader": [
+    null,
+    null
+  ],
+  "cal-heatmap": [
+    null
+  ],
+  "camelcase": [
+    null
+  ],
+  "canonical-path": [
+    null
+  ],
+  "canvas": [
+    null
+  ],
+  "case-sensitive-paths-webpack-plugin": [
+    null,
+    null
+  ],
+  "chai": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "chalk": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "chart.js": [
+    null
+  ],
+  "cheerio": [
+    null
+  ],
+  "chrome-extension-pack-kogito-kie-editors": [
+    null
+  ],
+  "chrome-remote-interface": [
+    null
+  ],
+  "chromedriver": [
+    null,
+    null
+  ],
+  "chromy": [
+    null
+  ],
+  "circular-dependency-plugin": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "classlist.js": [
+    null
+  ],
+  "classnames": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "clean-css": [
+    null
+  ],
+  "clean-css-cli": [
+    null
+  ],
+  "clean-webpack-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "client-oauth2": [
+    null,
+    null
+  ],
+  "clipboard": [
+    null
+  ],
+  "clone": [
+    null
+  ],
+  "clsx": [
+    null,
+    null
+  ],
+  "codacy-coverage": [
+    null
+  ],
+  "codecov": [
+    null,
+    null,
+    null
+  ],
+  "codelyzer": [
+    null
+  ],
+  "codemirror": [
+    null,
+    null
+  ],
+  "commander": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "commitizen": [
+    null
+  ],
+  "commitlint-config-cz": [
+    null,
+    null
+  ],
+  "commitplease": [
+    null
+  ],
+  "compare-versions": [
+    null
+  ],
+  "compression": [
+    null
+  ],
+  "compression-webpack-plugin": [
+    null,
+    null
+  ],
+  "connect-history-api-fallback": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "connect-livereload": [
+    null,
+    null
+  ],
+  "connected-react-router": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "copy-to-clipboard": [
+    null
+  ],
+  "copy-webpack-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "copyfiles": [
+    null
+  ],
+  "cordova-android": [
+    null
+  ],
+  "cordova-ios": [
+    null
+  ],
+  "cordova-plugin-browsertab": [
+    null
+  ],
+  "cordova-plugin-compat": [
+    null
+  ],
+  "cordova-plugin-deeplinks": [
+    null
+  ],
+  "cordova-plugin-whitelist": [
+    null
+  ],
+  "core-js": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "core-js-compat": [
+    null
+  ],
+  "coveralls": [
+    null,
+    null
+  ],
+  "cp-cli": [
+    null,
+    null
+  ],
+  "cpr": [
+    null,
+    null
+  ],
+  "cpx": [
+    null
+  ],
+  "create-react-class": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "cross-env": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "cross-fetch": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "cross-var": [
+    null,
+    null
+  ],
+  "css-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "cssnano": [
+    null,
+    null
+  ],
+  "csstips": [
+    null
+  ],
+  "csv": [
+    null
+  ],
+  "csx": [
+    null
+  ],
+  "cy-node-html-label": [
+    null
+  ],
+  "cypress": [
+    null
+  ],
+  "cytoscape": [
+    null
+  ],
+  "cytoscape-canvas": [
+    null
+  ],
+  "cytoscape-cola": [
+    null
+  ],
+  "cytoscape-cose-bilkent": [
+    null
+  ],
+  "cytoscape-dagre": [
+    null
+  ],
+  "cytoscape-popper": [
+    null
+  ],
+  "cz-conventional-changelog": [
+    null
+  ],
+  "cz-customizable": [
+    null
+  ],
+  "d3": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "d3-queue": [
+    null
+  ],
+  "dagre": [
+    null
+  ],
+  "datatables.net": [
+    null,
+    null,
+    null
+  ],
+  "datatables.net-bs": [
+    null
+  ],
+  "datatables.net-colreorder": [
+    null,
+    null
+  ],
+  "datatables.net-colreorder-bs": [
+    null,
+    null
+  ],
+  "datatables.net-select": [
+    null,
+    null
+  ],
+  "date-fns": [
+    null,
+    null,
+    null
+  ],
+  "dateformat": [
+    null
+  ],
+  "debug": [
+    null,
+    null
+  ],
+  "deep-equal": [
+    null
+  ],
+  "deep-freeze": [
+    null
+  ],
+  "deep-object-diff": [
+    null
+  ],
+  "deepmerge": [
+    null
+  ],
+  "del": [
+    null,
+    null,
+    null
+  ],
+  "del-cli": [
+    null
+  ],
+  "detect-browser": [
+    null
+  ],
+  "detect-port": [
+    null
+  ],
+  "diff": [
+    null
+  ],
+  "docker-file-parser": [
+    null
+  ],
+  "dot": [
+    null,
+    null
+  ],
+  "dotenv": [
+    null,
+    null,
+    null
+  ],
+  "dotenv-expand": [
+    null
+  ],
+  "downshift": [
+    null
+  ],
+  "drmonty-datatables-colvis": [
+    null,
+    null
+  ],
+  "dsmorse-gridster": [
+    null
+  ],
+  "ejs": [
+    null,
+    null
+  ],
+  "electron": [
+    null,
+    null
+  ],
+  "electron-packager": [
+    null
+  ],
+  "electron-rebuild": [
+    null
+  ],
+  "elliptic": [
+    null
+  ],
+  "emotion": [
+    null
+  ],
+  "empty": [
+    null
+  ],
+  "enzyme": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "enzyme-adapter-react-16": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "enzyme-to-json": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eonasdan-bootstrap-datetimepicker": [
+    null,
+    null,
+    null
+  ],
+  "errorhandler": [
+    null
+  ],
+  "escape-string-regexp": [
+    null
+  ],
+  "eslint": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-config-airbnb": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-config-airbnb-base": [
+    null
+  ],
+  "eslint-config-airbnb-typescript": [
+    null
+  ],
+  "eslint-config-google": [
+    null
+  ],
+  "eslint-config-jquery": [
+    null
+  ],
+  "eslint-config-openstack": [
+    null
+  ],
+  "eslint-config-prettier": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-config-react-app": [
+    null,
+    null
+  ],
+  "eslint-config-standard": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-config-standard-jsx": [
+    null,
+    null
+  ],
+  "eslint-config-standard-react": [
+    null,
+    null,
+    null
+  ],
+  "eslint-import-resolver-alias": [
+    null
+  ],
+  "eslint-import-resolver-typescript": [
+    null
+  ],
+  "eslint-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-angular": [
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-babel": [
+    null,
+    null
+  ],
+  "eslint-plugin-chai-expect": [
+    null
+  ],
+  "eslint-plugin-chai-friendly": [
+    null
+  ],
+  "eslint-plugin-cockpit": [
+    null
+  ],
+  "eslint-plugin-flowtype": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-import": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-jest": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-jquery": [
+    null
+  ],
+  "eslint-plugin-json": [
+    null,
+    null
+  ],
+  "eslint-plugin-jsx-a11y": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-mocha": [
+    null
+  ],
+  "eslint-plugin-node": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-patternfly-react": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-prettier": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-promise": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-react": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-react-hooks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eslint-plugin-redux-saga": [
+    null
+  ],
+  "eslint-plugin-sort-class-members": [
+    null
+  ],
+  "eslint-plugin-standard": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "eventemitter3": [
+    null
+  ],
+  "expect": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "expose-loader": [
+    null
+  ],
+  "express": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "express-force-ssl": [
+    null
+  ],
+  "express-http-proxy": [
+    null
+  ],
+  "express-prometheus-middleware": [
+    null
+  ],
+  "express-session": [
+    null
+  ],
+  "extract-text-webpack-plugin": [
+    null,
+    null,
+    null
+  ],
+  "faker": [
+    null,
+    null,
+    null
+  ],
+  "fast-json-patch": [
+    null
+  ],
+  "fastclick": [
+    null
+  ],
+  "fbjs-scripts": [
+    null
+  ],
+  "fetch-mock": [
+    null,
+    null
+  ],
+  "file-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "file-saver": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "filesaver": [
+    null
+  ],
+  "filesize": [
+    null
+  ],
+  "find-cache-dir": [
+    null
+  ],
+  "find-up": [
+    null
+  ],
+  "flow-babel-webpack-plugin": [
+    null
+  ],
+  "flow-bin": [
+    null
+  ],
+  "flow-typed": [
+    null
+  ],
+  "focus-trap-react": [
+    null
+  ],
+  "font-awesome": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "font-awesome-sass": [
+    null
+  ],
+  "fork-ts-checker-webpack-plugin": [
+    null,
+    null,
+    null
+  ],
+  "formik": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "freemarker-parser": [
+    null
+  ],
+  "front-matter": [
+    null
+  ],
+  "fs-extra": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "fsevents": [
+    null
+  ],
+  "fuzzysearch": [
+    null,
+    null
+  ],
+  "geckodriver": [
+    null
+  ],
+  "generator-bastion": [
+    null,
+    null
+  ],
+  "gettext-extractor": [
+    null
+  ],
+  "gh-pages": [
+    null
+  ],
+  "git-revision-webpack-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "git-url-parse": [
+    null
+  ],
+  "gitbook-cli": [
+    null
+  ],
+  "gitlab": [
+    null
+  ],
+  "glob": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "glop": [
+    null
+  ],
+  "glslify-loader": [
+    null,
+    null
+  ],
+  "google-code-prettify": [
+    null,
+    null
+  ],
+  "google-protobuf": [
+    null,
+    null
+  ],
+  "graphql": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "graphql-tag": [
+    null,
+    null,
+    null
+  ],
+  "grpc": [
+    null,
+    null
+  ],
+  "grpc-tools": [
+    null,
+    null
+  ],
+  "grunt": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "grunt-angular-gettext": [
+    null,
+    null
+  ],
+  "grunt-babel": [
+    null
+  ],
+  "grunt-bower-install-simple": [
+    null
+  ],
+  "grunt-bower-task": [
+    null,
+    null
+  ],
+  "grunt-bump": [
+    null
+  ],
+  "grunt-cli": [
+    null,
+    null,
+    null
+  ],
+  "grunt-compare-size": [
+    null
+  ],
+  "grunt-concurrent": [
+    null,
+    null
+  ],
+  "grunt-contrib-clean": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "grunt-contrib-concat": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "grunt-contrib-connect": [
+    null,
+    null,
+    null
+  ],
+  "grunt-contrib-copy": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "grunt-contrib-cssmin": [
+    null,
+    null,
+    null
+  ],
+  "grunt-contrib-jshint": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "grunt-contrib-less": [
+    null,
+    null,
+    null
+  ],
+  "grunt-contrib-pug": [
+    null
+  ],
+  "grunt-contrib-uglify": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "grunt-contrib-watch": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "grunt-conventional-changelog": [
+    null,
+    null
+  ],
+  "grunt-css-count": [
+    null,
+    null
+  ],
+  "grunt-eslint": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "grunt-exec": [
+    null
+  ],
+  "grunt-file-append": [
+    null
+  ],
+  "grunt-git": [
+    null
+  ],
+  "grunt-git-authors": [
+    null
+  ],
+  "grunt-html": [
+    null
+  ],
+  "grunt-htmlhint": [
+    null,
+    null,
+    null
+  ],
+  "grunt-jekyll": [
+    null,
+    null,
+    null
+  ],
+  "grunt-jscs": [
+    null
+  ],
+  "grunt-jsonlint": [
+    null
+  ],
+  "grunt-karma": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "grunt-lassie": [
+    null
+  ],
+  "grunt-newer": [
+    null
+  ],
+  "grunt-ng-annotate": [
+    null
+  ],
+  "grunt-ngdocs": [
+    null
+  ],
+  "grunt-npmcopy": [
+    null
+  ],
+  "grunt-parallel": [
+    null
+  ],
+  "grunt-postcss": [
+    null,
+    null
+  ],
+  "grunt-run": [
+    null,
+    null
+  ],
+  "grunt-sass": [
+    null
+  ],
+  "grunt-serve": [
+    null
+  ],
+  "grunt-stylelint": [
+    null,
+    null
+  ],
+  "grunt-text-replace": [
+    null
+  ],
+  "grunt-umd": [
+    null
+  ],
+  "grunt-version": [
+    null
+  ],
+  "gulp": [
+    null
+  ],
+  "gulp-angular-templatecache": [
+    null
+  ],
+  "gulp-concat": [
+    null
+  ],
+  "gulp-less": [
+    null
+  ],
+  "gulp-ng-annotate": [
+    null
+  ],
+  "gulp-rename": [
+    null
+  ],
+  "gulp-replace": [
+    null
+  ],
+  "gulp-sass": [
+    null
+  ],
+  "gulp-typescript": [
+    null
+  ],
+  "gzip-js": [
+    null
+  ],
+  "gzip-size": [
+    null
+  ],
+  "handlebars": [
+    null,
+    null
+  ],
+  "handlebars-loader": [
+    null
+  ],
+  "happypack": [
+    null
+  ],
+  "helmet": [
+    null
+  ],
+  "highlight.js": [
+    null,
+    null,
+    null
+  ],
+  "history": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "hosted-git-info": [
+    null
+  ],
+  "html-loader": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "html-pdf": [
+    null
+  ],
+  "html-replace-webpack-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "html-webpack-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "htmlparser": [
+    null
+  ],
+  "http-proxy-middleware": [
+    null,
+    null
+  ],
+  "hugo-cli": [
+    null
+  ],
+  "human-date": [
+    null
+  ],
+  "humanize-duration": [
+    null
+  ],
+  "husky": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "i": [
+    null
+  ],
+  "i18next": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "i18next-browser-languagedetector": [
+    null,
+    null
+  ],
+  "i18next-express-middleware": [
+    null
+  ],
+  "i18next-json-sync": [
+    null,
+    null
+  ],
+  "i18next-xhr-backend": [
+    null,
+    null,
+    null
+  ],
+  "identity-obj-proxy": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "imagemin": [
+    null,
+    null,
+    null
+  ],
+  "imap-simple": [
+    null
+  ],
+  "img-loader": [
+    null
+  ],
+  "immer": [
+    null,
+    null
+  ],
+  "immutable": [
+    null,
+    null,
+    null
+  ],
+  "imports-loader": [
+    null
+  ],
+  "inquirer": [
+    null
+  ],
+  "insight": [
+    null
+  ],
+  "intl": [
+    null
+  ],
+  "intl-messageformat": [
+    null
+  ],
+  "intl-messageformat-parser": [
+    null
+  ],
+  "ip": [
+    null
+  ],
+  "ipaddr.js": [
+    null
+  ],
+  "isomorphic-fetch": [
+    null
+  ],
+  "jasmine": [
+    null
+  ],
+  "jasmine-console-reporter": [
+    null,
+    null
+  ],
+  "jasmine-core": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "jasmine-jquery": [
+    null,
+    null
+  ],
+  "jasmine-reporters": [
+    null,
+    null
+  ],
+  "jasmine-spec-reporter": [
+    null
+  ],
+  "jasmine-ts": [
+    null
+  ],
+  "jed": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "jest": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "jest-axe": [
+    null
+  ],
+  "jest-canvas-mock": [
+    null,
+    null
+  ],
+  "jest-cli": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "jest-emotion": [
+    null
+  ],
+  "jest-environment-jsdom-fourteen": [
+    null
+  ],
+  "jest-fetch-mock": [
+    null
+  ],
+  "jest-junit": [
+    null,
+    null
+  ],
+  "jest-localstorage-mock": [
+    null
+  ],
+  "jest-mock": [
+    null
+  ],
+  "jest-mock-axios": [
+    null
+  ],
+  "jest-prop-type-error": [
+    null
+  ],
+  "jest-resolve": [
+    null
+  ],
+  "jest-transform-stub": [
+    null
+  ],
+  "jest-watch-typeahead": [
+    null
+  ],
+  "jest-webextension-mock": [
+    null
+  ],
+  "jiff": [
+    null
+  ],
+  "jison": [
+    null
+  ],
+  "jquery": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "jquery-flot": [
+    null,
+    null
+  ],
+  "jquery-match-height": [
+    null,
+    null,
+    null
+  ],
+  "jquery-ui": [
+    null
+  ],
+  "jquery-ujs": [
+    null
+  ],
+  "jquery.cookie": [
+    null
+  ],
+  "js-base64": [
+    null,
+    null,
+    null
+  ],
+  "js-combinatorics": [
+    null
+  ],
+  "js-cookie": [
+    null,
+    null
+  ],
+  "js-file-download": [
+    null
+  ],
+  "js-logger": [
+    null
+  ],
+  "js-sha1": [
+    null
+  ],
+  "js-sha256": [
+    null
+  ],
+  "js-yaml": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "jsdoc": [
+    null,
+    null
+  ],
+  "jsdom": [
+    null,
+    null
+  ],
+  "jsel": [
+    null
+  ],
+  "jshint-stylish": [
+    null
+  ],
+  "json-api-normalizer": [
+    null
+  ],
+  "json-beautify": [
+    null
+  ],
+  "json-loader": [
+    null
+  ],
+  "json-merge-patch": [
+    null
+  ],
+  "json-stable-stringify-without-jsonify": [
+    null,
+    null
+  ],
+  "jsonfile": [
+    null
+  ],
+  "jsonpath": [
+    null
+  ],
+  "jstz": [
+    null
+  ],
+  "jszip": [
+    null,
+    null
+  ],
+  "karma": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "karma-browserstack-launcher": [
+    null,
+    null,
+    null
+  ],
+  "karma-chrome-launcher": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "karma-cli": [
+    null,
+    null,
+    null
+  ],
+  "karma-coverage": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "karma-coverage-istanbul-reporter": [
+    null
+  ],
+  "karma-detect-browsers": [
+    null
+  ],
+  "karma-es6-shim": [
+    null
+  ],
+  "karma-firefox-launcher": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "karma-fixture": [
+    null
+  ],
+  "karma-htmlfile-reporter": [
+    null,
+    null
+  ],
+  "karma-ie-launcher": [
+    null
+  ],
+  "karma-jasmine": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "karma-jasmine-ajax": [
+    null,
+    null
+  ],
+  "karma-jasmine-html-reporter": [
+    null,
+    null,
+    null
+  ],
+  "karma-jquery": [
+    null
+  ],
+  "karma-jsdom-launcher": [
+    null
+  ],
+  "karma-junit-reporter": [
+    null,
+    null,
+    null
+  ],
+  "karma-mocha": [
+    null
+  ],
+  "karma-mocha-reporter": [
+    null,
+    null
+  ],
+  "karma-ng-html2js-preprocessor": [
+    null,
+    null,
+    null
+  ],
+  "karma-phantomjs-launcher": [
+    null,
+    null
+  ],
+  "karma-qunit": [
+    null,
+    null
+  ],
+  "karma-sourcemap-loader": [
+    null
+  ],
+  "karma-spec-reporter": [
+    null,
+    null
+  ],
+  "karma-threshold-reporter": [
+    null
+  ],
+  "karma-typescript-preprocessor": [
+    null
+  ],
+  "karma-webpack": [
+    null,
+    null,
+    null
+  ],
+  "keycloak-js": [
+    null,
+    null
+  ],
+  "koa-connect": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "lerna": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "less": [
+    null,
+    null
+  ],
+  "less-loader": [
+    null,
+    null
+  ],
+  "linkifyjs": [
+    null
+  ],
+  "lint-staged": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "liquid-node": [
+    null
+  ],
+  "load-grunt-tasks": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "locale-code": [
+    null
+  ],
+  "lock-treatment-tool": [
+    null
+  ],
+  "lodash": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "lodash-es": [
+    null,
+    null,
+    null
+  ],
+  "lodash-webpack-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "lodash.flattendeep": [
+    null
+  ],
+  "lodash.get": [
+    null
+  ],
+  "lodash.orderby": [
+    null
+  ],
+  "logfmt": [
+    null
+  ],
+  "loose-envify": [
+    null
+  ],
+  "markdown-it": [
+    null
+  ],
+  "marked": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "matchdep": [
+    null,
+    null
+  ],
+  "material-ui": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "memoize-one": [
+    null
+  ],
+  "merge": [
+    null
+  ],
+  "merge2": [
+    null
+  ],
+  "method-override": [
+    null
+  ],
+  "microbundle": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "mini-css-extract-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "minimatch": [
+    null
+  ],
+  "mkdirp": [
+    null,
+    null,
+    null
+  ],
+  "mobx": [
+    null
+  ],
+  "mobx-react": [
+    null
+  ],
+  "mobx-react-lite": [
+    null
+  ],
+  "mocha": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "mocha-jenkins-reporter": [
+    null
+  ],
+  "mocha-junit-reporter": [
+    null
+  ],
+  "mocha-tags": [
+    null
+  ],
+  "moment": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "moment-duration-format": [
+    null
+  ],
+  "moment-range": [
+    null
+  ],
+  "moment-timezone": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "monaco-editor-core": [
+    null
+  ],
+  "monaco-editor-webpack-plugin": [
+    null
+  ],
+  "monaco-languageclient": [
+    null
+  ],
+  "morgan": [
+    null
+  ],
+  "moxios": [
+    null,
+    null,
+    null
+  ],
+  "multer": [
+    null
+  ],
+  "multiselect": [
+    null
+  ],
+  "murmurhash-js": [
+    null,
+    null
+  ],
+  "mustache": [
+    null,
+    null,
+    null
+  ],
+  "my-local-ip": [
+    null
+  ],
+  "mz": [
+    null
+  ],
+  "named-urls": [
+    null,
+    null
+  ],
+  "native-promise-only": [
+    null
+  ],
+  "natives": [
+    null
+  ],
+  "ncp": [
+    null
+  ],
+  "ng-file-upload": [
+    null
+  ],
+  "ng-metadata": [
+    null
+  ],
+  "ng-packagr": [
+    null,
+    null,
+    null
+  ],
+  "ngreact": [
+    null
+  ],
+  "ngtemplate-loader": [
+    null
+  ],
+  "ngx-bootstrap": [
+    null,
+    null,
+    null
+  ],
+  "ngx-clipboard": [
+    null,
+    null
+  ],
+  "ngx-logger": [
+    null
+  ],
+  "nock": [
+    null
+  ],
+  "node-fetch": [
+    null,
+    null
+  ],
+  "node-jq": [
+    null
+  ],
+  "node-sass": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "node-sass-chokidar": [
+    null
+  ],
+  "nodemon": [
+    null
+  ],
+  "npm": [
+    null
+  ],
+  "npm-check-updates": [
+    null
+  ],
+  "npm-run-all": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "nsp": [
+    null
+  ],
+  "null-loader": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "number_helpers": [
+    null
+  ],
+  "numbro": [
+    null
+  ],
+  "numeral": [
+    null,
+    null
+  ],
+  "oai-ts-commands": [
+    null
+  ],
+  "oai-ts-core": [
+    null
+  ],
+  "object-keys": [
+    null
+  ],
+  "open": [
+    null
+  ],
+  "openshift-logos-icon": [
+    null,
+    null
+  ],
+  "opn": [
+    null
+  ],
+  "optimize-css-assets-webpack-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "p-limit": [
+    null
+  ],
+  "pako": [
+    null
+  ],
+  "parse-bitbucket-url": [
+    null
+  ],
+  "parse-link-header": [
+    null
+  ],
+  "path": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "path-exists": [
+    null
+  ],
+  "path-to-regexp": [
+    null
+  ],
+  "patternfly": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "patternfly-bootstrap-combobox": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "patternfly-bootstrap-treeview": [
+    null,
+    null
+  ],
+  "patternfly-eng-release": [
+    null,
+    null
+  ],
+  "patternfly-ng": [
+    null
+  ],
+  "patternfly-react": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "patternfly-react-extensions": [
+    null,
+    null,
+    null
+  ],
+  "phantomjs-prebuilt": [
+    null
+  ],
+  "pixrem": [
+    null
+  ],
+  "plato": [
+    null
+  ],
+  "plotly.js": [
+    null
+  ],
+  "pluralize": [
+    null,
+    null,
+    null
+  ],
+  "pnp-webpack-plugin": [
+    null
+  ],
+  "po2json": [
+    null,
+    null
+  ],
+  "point-in-svg-path": [
+    null
+  ],
+  "popper.js": [
+    null,
+    null
+  ],
+  "postcss": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "postcss-cli": [
+    null,
+    null
+  ],
+  "postcss-flexbugs-fixes": [
+    null
+  ],
+  "postcss-loader": [
+    null,
+    null,
+    null
+  ],
+  "postcss-normalize": [
+    null
+  ],
+  "postcss-preset-env": [
+    null,
+    null
+  ],
+  "postcss-safe-parser": [
+    null
+  ],
+  "postcss-smart-import": [
+    null
+  ],
+  "precss": [
+    null
+  ],
+  "prettier": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "prettier-eslint": [
+    null
+  ],
+  "pretty-quick": [
+    null
+  ],
+  "promises-aplus-tests": [
+    null
+  ],
+  "prop-types": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "protractor": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "protractor-fail-fast": [
+    null,
+    null
+  ],
+  "protractor-jasmine2-screenshot-reporter": [
+    null,
+    null
+  ],
+  "publish-release": [
+    null
+  ],
+  "pug": [
+    null
+  ],
+  "punycode": [
+    null
+  ],
+  "puppeteer": [
+    null,
+    null,
+    null
+  ],
+  "q": [
+    null,
+    null
+  ],
+  "qs": [
+    null,
+    null,
+    null
+  ],
+  "query-string": [
+    null,
+    null
+  ],
+  "querystring": [
+    null
+  ],
+  "qunit": [
+    null,
+    null
+  ],
+  "qunit-tap": [
+    null
+  ],
+  "qunitjs": [
+    null
+  ],
+  "raf": [
+    null,
+    null
+  ],
+  "raven-js": [
+    null
+  ],
+  "raw-body": [
+    null
+  ],
+  "raw-loader": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "rcue": [
+    null
+  ],
+  "react": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-ace": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-apollo": [
+    null,
+    null
+  ],
+  "react-app-polyfill": [
+    null
+  ],
+  "react-async": [
+    null,
+    null,
+    null
+  ],
+  "react-axe": [
+    null,
+    null,
+    null
+  ],
+  "react-bootstrap": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-bootstrap-switch": [
+    null
+  ],
+  "react-bootstrap-typeahead": [
+    null
+  ],
+  "react-codemirror2": [
+    null
+  ],
+  "react-content-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-cookie": [
+    null
+  ],
+  "react-copy-to-clipboard": [
+    null,
+    null,
+    null
+  ],
+  "react-datepicker": [
+    null
+  ],
+  "react-debounce-input": [
+    null
+  ],
+  "react-dev-utils": [
+    null
+  ],
+  "react-diff-view": [
+    null
+  ],
+  "react-dnd": [
+    null,
+    null,
+    null
+  ],
+  "react-dnd-html5-backend": [
+    null,
+    null,
+    null
+  ],
+  "react-dnd-test-backend": [
+    null
+  ],
+  "react-dnd-test-utils": [
+    null
+  ],
+  "react-docgen-typescript-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-document-title": [
+    null
+  ],
+  "react-dom": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-draggable": [
+    null
+  ],
+  "react-dragula": [
+    null
+  ],
+  "react-dropzone": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-ellipsis-with-tooltip": [
+    null,
+    null
+  ],
+  "react-fast-compare": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-flexview": [
+    null
+  ],
+  "react-floater": [
+    null
+  ],
+  "react-fontawesome": [
+    null
+  ],
+  "react-helmet": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-hooks-testing-library": [
+    null
+  ],
+  "react-html-parser": [
+    null
+  ],
+  "react-i18next": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-iframe": [
+    null
+  ],
+  "react-infinite-scroller": [
+    null
+  ],
+  "react-intl": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-intl-po": [
+    null,
+    null
+  ],
+  "react-is": [
+    null
+  ],
+  "react-json-view": [
+    null,
+    null
+  ],
+  "react-jsonschema-form": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-lazy-load-image-component": [
+    null
+  ],
+  "react-lazyload": [
+    null
+  ],
+  "react-lightweight-tooltip": [
+    null,
+    null
+  ],
+  "react-linkify": [
+    null
+  ],
+  "react-loadable": [
+    null
+  ],
+  "react-loading-skeleton": [
+    null
+  ],
+  "react-markdown": [
+    null,
+    null
+  ],
+  "react-measure": [
+    null
+  ],
+  "react-modal": [
+    null,
+    null
+  ],
+  "react-monaco-editor": [
+    null
+  ],
+  "react-numeric-input": [
+    null
+  ],
+  "react-onclickoutside": [
+    null
+  ],
+  "react-password-strength": [
+    null
+  ],
+  "react-popper": [
+    null
+  ],
+  "react-redux": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-redux-test-utils": [
+    null,
+    null
+  ],
+  "react-remarkable": [
+    null
+  ],
+  "react-resize-detector": [
+    null
+  ],
+  "react-router": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-router-bootstrap": [
+    null
+  ],
+  "react-router-config": [
+    null
+  ],
+  "react-router-dom": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-router-hash-link": [
+    null
+  ],
+  "react-router-last-location": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-router-navigation-prompt": [
+    null
+  ],
+  "react-scripts": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-select": [
+    null,
+    null
+  ],
+  "react-show-more-text": [
+    null
+  ],
+  "react-sortable-hoc": [
+    null
+  ],
+  "react-table": [
+    null
+  ],
+  "react-tagsinput": [
+    null,
+    null
+  ],
+  "react-test-renderer": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "react-testing-library": [
+    null
+  ],
+  "react-transition-group": [
+    null,
+    null
+  ],
+  "react-truncate": [
+    null,
+    null,
+    null
+  ],
+  "react-virtualized": [
+    null,
+    null,
+    null
+  ],
+  "read-pkg": [
+    null,
+    null
+  ],
+  "readdir": [
+    null
+  ],
+  "readline-sync": [
+    null
+  ],
+  "recompose": [
+    null
+  ],
+  "recursive-readdir": [
+    null
+  ],
+  "redux": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "redux-api-middleware": [
+    null
+  ],
+  "redux-form": [
+    null,
+    null
+  ],
+  "redux-form-validators": [
+    null
+  ],
+  "redux-immutable-state-invariant": [
+    null
+  ],
+  "redux-logger": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "redux-mock-store": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "redux-persist": [
+    null,
+    null
+  ],
+  "redux-persist-transform-filter": [
+    null
+  ],
+  "redux-promise-middleware": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "redux-saga": [
+    null,
+    null,
+    null
+  ],
+  "redux-thunk": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "reduxsauce": [
+    null
+  ],
+  "regenerator-runtime": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "remarkable": [
+    null
+  ],
+  "rename-cli": [
+    null
+  ],
+  "replace-in-file": [
+    null
+  ],
+  "request": [
+    null,
+    null,
+    null
+  ],
+  "require-all": [
+    null
+  ],
+  "require-dir": [
+    null,
+    null
+  ],
+  "requirejs": [
+    null
+  ],
+  "reselect": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "resolve": [
+    null
+  ],
+  "resolve-pathname": [
+    null
+  ],
+  "resolve-url-loader": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "restangular": [
+    null
+  ],
+  "rfs": [
+    null
+  ],
+  "rgb-hex": [
+    null
+  ],
+  "rhd-frontend": [
+    null
+  ],
+  "rhea": [
+    null,
+    null
+  ],
+  "rimraf": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "rollup": [
+    null,
+    null,
+    null
+  ],
+  "rollup-plugin-analyzer": [
+    null
+  ],
+  "rollup-plugin-async": [
+    null
+  ],
+  "rollup-plugin-babel": [
+    null,
+    null
+  ],
+  "rollup-plugin-commonjs": [
+    null
+  ],
+  "rollup-plugin-node-globals": [
+    null
+  ],
+  "rollup-plugin-node-resolve": [
+    null
+  ],
+  "rollup-plugin-postcss": [
+    null
+  ],
+  "rollup-plugin-replace": [
+    null
+  ],
+  "rollup-plugin-sass": [
+    null
+  ],
+  "rollup-plugin-size-snapshot": [
+    null,
+    null
+  ],
+  "rollup-plugin-terser": [
+    null
+  ],
+  "rollup-plugin-uglify": [
+    null
+  ],
+  "run-script-os": [
+    null
+  ],
+  "rxjs": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "rxjs-tslint": [
+    null
+  ],
+  "safename": [
+    null
+  ],
+  "sanitize-html": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sass": [
+    null
+  ],
+  "sass-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sass-resources-loader": [
+    null
+  ],
+  "sassdoc": [
+    null,
+    null
+  ],
+  "schema-utils": [
+    null
+  ],
+  "screenfull": [
+    null,
+    null
+  ],
+  "script-loader": [
+    null
+  ],
+  "scss-bundle": [
+    null
+  ],
+  "seamless-immutable": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "select2": [
+    null,
+    null,
+    null
+  ],
+  "self-signed-https": [
+    null
+  ],
+  "semantic-release": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "semver": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "sequelize": [
+    null
+  ],
+  "serve-favicon": [
+    null
+  ],
+  "sha.js": [
+    null
+  ],
+  "sharp": [
+    null,
+    null
+  ],
+  "shelljs": [
+    null
+  ],
+  "shortid": [
+    null
+  ],
+  "showdown": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "shx": [
+    null
+  ],
+  "simple-git": [
+    null
+  ],
+  "simplemde": [
+    null
+  ],
+  "sinon": [
+    null
+  ],
+  "sizzle": [
+    null,
+    null
+  ],
+  "smoothscroll-polyfill": [
+    null
+  ],
+  "snyk": [
+    null
+  ],
+  "sortabular": [
+    null
+  ],
+  "source-map-explorer": [
+    null,
+    null
+  ],
+  "source-map-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "spandx": [
+    null
+  ],
+  "sprintf-js": [
+    null
+  ],
+  "sqlite3": [
+    null
+  ],
+  "ssri": [
+    null
+  ],
+  "standard-version": [
+    null
+  ],
+  "start-server-and-test": [
+    null
+  ],
+  "stdio": [
+    null,
+    null
+  ],
+  "strict-loader": [
+    null
+  ],
+  "string-natural-compare": [
+    null
+  ],
+  "string-replace-loader": [
+    null
+  ],
+  "strip-ansi": [
+    null
+  ],
+  "strip-json-comments": [
+    null
+  ],
+  "style-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "styled-components": [
+    null,
+    null
+  ],
+  "stylelint": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "stylelint-config-recommended-scss": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "stylelint-config-sass-guidelines": [
+    null
+  ],
+  "stylelint-config-standard": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "stylelint-order": [
+    null,
+    null
+  ],
+  "stylelint-scss": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "surge": [
+    null,
+    null
+  ],
+  "svg-url-loader": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "svg2ttf": [
+    null
+  ],
+  "svgo": [
+    null
+  ],
+  "svgson": [
+    null
+  ],
+  "sw2dts": [
+    null
+  ],
+  "swagger-tools": [
+    null
+  ],
+  "swagger-ui": [
+    null
+  ],
+  "swagger-ui-express": [
+    null
+  ],
+  "swagger-ui-react": [
+    null
+  ],
+  "sync-request": [
+    null
+  ],
+  "systemjs": [
+    null
+  ],
+  "systemjs-plugin-babel": [
+    null
+  ],
+  "table": [
+    null,
+    null
+  ],
+  "table-resolver": [
+    null
+  ],
+  "talkback": [
+    null
+  ],
+  "tar": [
+    null
+  ],
+  "terser-webpack-plugin": [
+    null,
+    null,
+    null
+  ],
+  "testswarm": [
+    null
+  ],
+  "tether": [
+    null
+  ],
+  "text-encoding": [
+    null,
+    null
+  ],
+  "text-security": [
+    null
+  ],
+  "thenby": [
+    null
+  ],
+  "thread-loader": [
+    null,
+    null
+  ],
+  "throttle-debounce": [
+    null
+  ],
+  "time-grunt": [
+    null
+  ],
+  "tiny-invariant": [
+    null
+  ],
+  "tiny-warning": [
+    null
+  ],
+  "tippy.js": [
+    null
+  ],
+  "topojson": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "topojson-client": [
+    null
+  ],
+  "traverse": [
+    null
+  ],
+  "travis-deploy-once": [
+    null
+  ],
+  "ts-jest": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "ts-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "ts-mocks": [
+    null
+  ],
+  "ts-node": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "ts-pnp": [
+    null
+  ],
+  "ts-protoc-gen": [
+    null,
+    null
+  ],
+  "tsconfig-paths-webpack-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "tsickle": [
+    null,
+    null,
+    null
+  ],
+  "tslib": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "tslint": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "tslint-config-prettier": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "tslint-eslint-rules": [
+    null,
+    null,
+    null
+  ],
+  "tslint-microsoft-contrib": [
+    null
+  ],
+  "tslint-react": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "tslint-react-hooks": [
+    null
+  ],
+  "typedoc": [
+    null,
+    null
+  ],
+  "typesafe-actions": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "typescript": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "typescript-tslint-plugin": [
+    null
+  ],
+  "typestyle": [
+    null
+  ],
+  "uglify-js": [
+    null,
+    null,
+    null
+  ],
+  "uglifyjs-folder": [
+    null
+  ],
+  "uglifyjs-webpack-plugin": [
+    null,
+    null
+  ],
+  "underscore": [
+    null,
+    null
+  ],
+  "unfetch": [
+    null
+  ],
+  "unidiff": [
+    null
+  ],
+  "updox": [
+    null,
+    null
+  ],
+  "urijs": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "url": [
+    null
+  ],
+  "url-join": [
+    null
+  ],
+  "url-loader": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "url-parse": [
+    null
+  ],
+  "url-polyfill": [
+    null,
+    null,
+    null
+  ],
+  "url-search-params-polyfill": [
+    null,
+    null
+  ],
+  "use-patternfly": [
+    null
+  ],
+  "use-react-router": [
+    null
+  ],
+  "utf8": [
+    null
+  ],
+  "uuid": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "validate.js": [
+    null
+  ],
+  "value-equal": [
+    null
+  ],
+  "velocityjs": [
+    null
+  ],
+  "victory": [
+    null,
+    null,
+    null
+  ],
+  "victory-core": [
+    null
+  ],
+  "victory-legend": [
+    null
+  ],
+  "virtual-dom": [
+    null
+  ],
+  "visibilityjs": [
+    null
+  ],
+  "vsce": [
+    null
+  ],
+  "vscode-extension-pack-kogito-kie-editors": [
+    null
+  ],
+  "vscode-languageserver-types": [
+    null
+  ],
+  "vscode-test": [
+    null
+  ],
+  "watch": [
+    null,
+    null,
+    null
+  ],
+  "wdio-timeline-reporter": [
+    null
+  ],
+  "webcola": [
+    null
+  ],
+  "webdriverio": [
+    null,
+    null
+  ],
+  "webpack": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "webpack-bundle-analyzer": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "webpack-cli": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "webpack-dev-server": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "webpack-hot-client": [
+    null
+  ],
+  "webpack-inject-plugin": [
+    null
+  ],
+  "webpack-log": [
+    null
+  ],
+  "webpack-manifest-plugin": [
+    null
+  ],
+  "webpack-merge": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "webpack-node-externals": [
+    null
+  ],
+  "webpack-serve": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "webpack-stats-plugin": [
+    null,
+    null
+  ],
+  "webpack-virtual-modules": [
+    null,
+    null
+  ],
+  "webpack-visualizer-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "whatwg-fetch": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "workbox-webpack-plugin": [
+    null
+  ],
+  "workbox-window": [
+    null
+  ],
+  "write-file-webpack-plugin": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "xhr-mock": [
+    null
+  ],
+  "xstate": [
+    null
+  ],
+  "xterm": [
+    null,
+    null,
+    null
+  ],
+  "yalc": [
+    null
+  ],
+  "yaml-language-server": [
+    null
+  ],
+  "yamljs": [
+    null
+  ],
+  "yargs": [
+    null,
+    null
+  ],
+  "yarn": [
+    null
+  ],
+  "yup": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "zeroclipboard": [
+    null
+  ],
+  "zip-webpack-plugin": [
+    null
+  ],
+  "zone.js": [
+    null,
+    null,
+    null
+  ]
+}

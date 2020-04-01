@@ -1,7 +1,7 @@
 const fs = require('fs');
 const glob = require('glob');
 
-const getLocalRepoStats = repoPath => {
+function getPatternflyStats(repoPath) {
   const result = {
     files: {
       total: {
@@ -114,6 +114,6 @@ const getLocalRepoStats = repoPath => {
 }
 
 module.exports = {
-  getLocalRepoStats
+  getPatternflyStats
 };
 
