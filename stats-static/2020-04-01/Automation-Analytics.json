@@ -1,0 +1,84 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 11,
+        "scss": 1
+      },
+      "js": 43,
+      "scss": 2
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/Components/EmptyState.js",
+          "/src/Components/LoadingState.js",
+          "/src/Components/ModulesList.js",
+          "/src/Components/NoData.js",
+          "/src/Components/NotificationsList.js",
+          "/src/Components/TemplatesList.js",
+          "/src/Containers/Clusters/Clusters.js",
+          "/src/Containers/Notifications/Notifications.js",
+          "/src/Containers/OrganizationStatistics/OrganizationStatistics.js",
+          "/src/Routes.js",
+          "/src/Utilities/Legend.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Button": 2,
+      "Title": 3,
+      "EmptyState": 3,
+      "EmptyStateVariant": 3,
+      "EmptyStateIcon": 3,
+      "EmptyStateBody": 2,
+      "Badge": 3,
+      "DataList": 2,
+      "DataListItem": 2,
+      "DataListCell": 2,
+      "Alert": 1,
+      "AlertGroup": 1,
+      "AlertVariant": 1,
+      "Modal": 1,
+      "Card": 3,
+      "CardBody": 3,
+      "CardHeader": 3,
+      "FormSelect": 3,
+      "FormSelectOption": 3,
+      "Pagination": 1,
+      "PaginationVariant": 1,
+      "Switch": 1
+    },
+    "@patternfly/react-icons": {
+      "CubesIcon": 3,
+      "ArrowIcon": 1,
+      "CircleIcon": 1,
+      "FilterIcon": 2
+    }
+  },
+  "classes": {
+    "pf-c-data-list__cell": 2,
+    "pf-c-card": 1,
+    "pf-c-card:first-of-type": 1,
+    "pf-c-page__main": 1,
+    "pf-c-data-list": 2,
+    "pf-c-modal-box.templateModal": 1,
+    "pf-c-table": 1
+  },
+  "scssVars": {
+    "--pf-c-data-list__cell-": 2,
+    "--pf-c-data-list__cell-cell": 1,
+    "--pf-c-modal-box-": 1,
+    "--pf-c-table-td-": 2
+  },
+  "repo": "https://github.com/RedHatInsights/tower-analytics-frontend",
+  "name": "Automation-Analytics",
+  "date": "2020-04-01T15:12:37.894Z"
+}

@@ -1,0 +1,110 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 8,
+        "tsx": 35,
+        "scss": 1
+      },
+      "js": 30,
+      "tsx": 86,
+      "ts": 73,
+      "scss": 14
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/frontend/src/components/editor/descriptors/Descriptor.js",
+          "/frontend/src/components/editor/descriptors/DescriptorsEditor.js",
+          "/frontend/src/components/editor/EditorSelect.js",
+          "/frontend/src/components/editor/ImageEditor.js",
+          "/frontend/src/components/editor/LabelsEditor.js",
+          "/frontend/src/components/editor/ResourcesEditor.js",
+          "/frontend/src/components/editor/RulesEditor.js",
+          "/frontend/src/pages/operatorHub/OperatorHub.js"
+        ]
+      },
+      "tsx": {
+        "files": [
+          "/frontend/src/components/editor/EditorSection.tsx",
+          "/frontend/src/components/editor/ListObjectEditor.tsx",
+          "/frontend/src/components/modals/ConfirmationModal.tsx",
+          "/frontend/src/components/modals/ExampleYamlModal.tsx",
+          "/frontend/src/components/modals/ImportYamlModal.tsx",
+          "/frontend/src/components/modals/InstallModal.tsx",
+          "/frontend/src/components/modals/MessageDialog.tsx",
+          "/frontend/src/components/modals/PreviewOperatorModal.tsx",
+          "/frontend/src/components/modals/UploadFileModal.tsx",
+          "/frontend/src/components/modals/UploadPackageFromGithubModal.tsx",
+          "/frontend/src/components/modals/UploadUrlModal.tsx",
+          "/frontend/src/components/OperatorSidePanel.tsx",
+          "/frontend/src/components/OperatorTile.tsx",
+          "/frontend/src/components/other/ErrorMessage.tsx",
+          "/frontend/src/components/other/Loader.tsx",
+          "/frontend/src/components/packageEditor/channelsEditor/ChannelEditorChannel.tsx",
+          "/frontend/src/components/packageEditor/channelsEditor/ChannelEditorChannelIcon.tsx",
+          "/frontend/src/components/packageEditor/createPackage/CreatePackagePageHeader.tsx",
+          "/frontend/src/components/packageEditor/modals/EditNameModal.tsx",
+          "/frontend/src/components/packageEditor/modals/EditUpdateGraphModal.tsx",
+          "/frontend/src/components/page/DocumentationPage.tsx",
+          "/frontend/src/components/page/HeaderTopBar.tsx",
+          "/frontend/src/components/uploader/operator/UploaderObjectList.tsx",
+          "/frontend/src/components/uploader/package/PackageUploaderFolderIcon.tsx",
+          "/frontend/src/components/uploader/package/PackageUploaderObjectList.tsx",
+          "/frontend/src/components/uploader/package/PackageUploaderSortIcon.tsx",
+          "/frontend/src/components/uploader/UploaderBase.tsx",
+          "/frontend/src/components/uploader/UploaderStatusIcon.tsx",
+          "/frontend/src/components/YamlViewer.tsx",
+          "/frontend/src/pages/operatorBundlePage/OperatorBundlePage.tsx",
+          "/frontend/src/pages/operatorPage/OperatorPage.tsx",
+          "/frontend/src/pages/operatorPreviewPage/OperatorPreviewPage.tsx",
+          "/frontend/src/pages/packageEditor/PackageChannelsEditor.tsx",
+          "/frontend/src/pages/packageEditor/PackageEditorLandingPage.tsx",
+          "/frontend/src/pages/packageEditor/pageWrapper/PackageEditorBreadcrumbs.tsx"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/frontend/src/styles/overrides.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "patternfly-react": {
+      "Icon": 24,
+      "ExpandCollapse": 1,
+      "TypeAheadSelect": 1,
+      "Alert": 8,
+      "Grid": 10,
+      "Modal": 10,
+      "FormControl": 2,
+      "HelpBlock": 2,
+      "DropdownButton": 3,
+      "MenuItem": 4,
+      "OverlayTrigger": 2,
+      "Popover": 1,
+      "EmptyState": 3,
+      "DropdownKebab": 1,
+      "Nav": 1,
+      "NavItem": 1,
+      "TabContainer": 1,
+      "Breadcrumb": 4,
+      "Tooltip": 1
+    },
+    "patternfly-react-extensions": {
+      "CatalogItemHeader": 1,
+      "PropertiesSidePanel": 1,
+      "PropertyItem": 1,
+      "CatalogTile": 1,
+      "FilterSidePanel": 1
+    }
+  },
+  "classes": {},
+  "scssVars": {
+    "--pf-global--FontFamily--sans": 1
+  },
+  "repo": "https://github.com/operator-framework/operatorhub.io",
+  "name": "Operatorhub",
+  "date": "2020-04-01T15:12:37.894Z"
+}

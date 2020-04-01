@@ -1,0 +1,153 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 38,
+        "scss": 4
+      },
+      "js": 124,
+      "scss": 5
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/PresentationalComponents/CheckboxGroup/CheckboxGroup.js",
+          "/src/PresentationalComponents/CompliancePoliciesEmptyState/CompliancePoliciesEmptyState.js",
+          "/src/PresentationalComponents/ComplianceScore/ComplianceScore.js",
+          "/src/PresentationalComponents/ComplianceTabs/ComplianceTabs.js",
+          "/src/PresentationalComponents/ErrorPage/ErrorPage.js",
+          "/src/PresentationalComponents/LoadingComplianceCards/LoadingComplianceCards.js",
+          "/src/PresentationalComponents/LoadingPoliciesTable/LoadingPoliciesTable.js",
+          "/src/PresentationalComponents/PolicyDetailsDescription/PolicyDetailsDescription.js",
+          "/src/PresentationalComponents/PolicyTabs/PolicyTabs.js",
+          "/src/PresentationalComponents/ProfileTypeSelect/ProfileTypeSelect.js",
+          "/src/PresentationalComponents/ReduxFormWrappers/ReduxFormWrappers.js",
+          "/src/PresentationalComponents/ReportCard/PolicyPopover.js",
+          "/src/PresentationalComponents/ReportCard/ReportCard.js",
+          "/src/PresentationalComponents/ReportDetailsDescription/ReportDetailsDescription.js",
+          "/src/PresentationalComponents/ReportTabs/ReportTabs.js",
+          "/src/SmartComponents/AssignPoliciesModal/AssignPoliciesModal.js",
+          "/src/SmartComponents/AssignPoliciesModal/SubmitPoliciesButton.js",
+          "/src/SmartComponents/AssignPoliciesModal/SubmitPoliciesButton.test.js",
+          "/src/SmartComponents/BusinessObjectiveField/BusinessObjectiveField.js",
+          "/src/SmartComponents/CreatePolicy/CreatePolicy.js",
+          "/src/SmartComponents/CreatePolicy/CreateSCAPPolicy.js",
+          "/src/SmartComponents/CreatePolicy/EditPolicyDetails.js",
+          "/src/SmartComponents/CreatePolicy/EditPolicyRules.js",
+          "/src/SmartComponents/CreatePolicy/EditPolicySystems.js",
+          "/src/SmartComponents/CreatePolicy/FinishedCreatePolicy.js",
+          "/src/SmartComponents/CreatePolicy/ReviewCreatedPolicy.js",
+          "/src/SmartComponents/DeletePolicy/DeletePolicy.js",
+          "/src/SmartComponents/EditPolicy/EditPolicy.js",
+          "/src/SmartComponents/EditPolicy/UpdateProfileButton.js",
+          "/src/SmartComponents/InventoryDetails/InventoryDetails.js",
+          "/src/SmartComponents/PoliciesTable/PoliciesTable.js",
+          "/src/SmartComponents/PolicyDetails/PolicyDetails.js",
+          "/src/SmartComponents/PolicyDetails/PolicyRulesTab.js",
+          "/src/SmartComponents/ProfileThresholdField/ProfileThresholdField.js",
+          "/src/SmartComponents/ReportDetails/ReportDetails.js",
+          "/src/SmartComponents/Reports/Reports.js",
+          "/src/SmartComponents/SystemDetails/SystemDetails.js",
+          "/src/SmartComponents/SystemsTable/SystemsTable.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss",
+          "/src/Charts.scss",
+          "/src/SmartComponents/PolicyDetails/PolicyDetails.scss",
+          "/src/SmartComponents/ReportDetails/ReportDetails.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Checkbox": 2,
+      "Title": 6,
+      "TextContent": 12,
+      "Button": 11,
+      "Bullseye": 3,
+      "EmptyState": 3,
+      "EmptyStateIcon": 2,
+      "ClipboardCopy": 1,
+      "ClipboardCopyVariant": 1,
+      "Tabs": 3,
+      "Tab": 3,
+      "Text": 10,
+      "Card": 3,
+      "Grid": 6,
+      "GridItem": 6,
+      "CardHeader": 2,
+      "CardBody": 2,
+      "TextVariants": 8,
+      "Tooltip": 1,
+      "TextInput": 1,
+      "TextArea": 1,
+      "Popover": 1,
+      "TextListItem": 3,
+      "TextListItemVariants": 3,
+      "CardFooter": 1,
+      "TextList": 2,
+      "TextListVariants": 2,
+      "Modal": 3,
+      "FormGroup": 4,
+      "Wizard": 1,
+      "Form": 4,
+      "EmptyStateBody": 2,
+      "EmptyStateSecondaryActions": 1,
+      "EmptyStateVariant": 2,
+      "Progress": 1,
+      "ProgressMeasureLocation": 1,
+      "*": 2,
+      "InputGroup": 1,
+      "Level": 1,
+      "LevelItem": 1,
+      "Pagination": 1,
+      "PaginationVariant": 1,
+      "Breadcrumb": 3,
+      "BreadcrumbItem": 3,
+      "Alert": 1
+    },
+    "@patternfly/patternfly/components/EmptyState/empty-state.css": {
+      "emptyStateStyles": 1
+    },
+    "@patternfly/react-icons": {
+      "CloudServerIcon": 1,
+      "QuestionCircleIcon": 1,
+      "CheckCircleIcon": 1,
+      "ExclamationCircleIcon": 1,
+      "WarningTriangleIcon": 1,
+      "OutlinedQuestionCircleIcon": 2,
+      "CogsIcon": 1,
+      "*": 2
+    },
+    "@patternfly/react-table": {
+      "Table": 2,
+      "TableHeader": 2,
+      "TableBody": 2,
+      "sortable": 2,
+      "*": 1
+    },
+    "@patternfly/react-charts": {
+      "ChartDonut": 2,
+      "ChartThemeColor": 2,
+      "ChartThemeVariant": 2
+    }
+  },
+  "classes": {
+    "pf-l-page__main-section": 1,
+    "pf-u-m-sm": 1,
+    "pf-l-tabs,": 1,
+    "pf-c-tabs": 1,
+    "pf-l-grid": 2
+  },
+  "scssVars": {
+    "--pf-global--Color--200": 3,
+    "--pf-l-grid__item--GridColumnEnd": 2,
+    "--pf-global--spacer--md": 2
+  },
+  "repo": "https://github.com/RedHatInsights/compliance-frontend",
+  "name": "Insights-Compliance",
+  "date": "2020-04-01T15:12:37.894Z"
+}

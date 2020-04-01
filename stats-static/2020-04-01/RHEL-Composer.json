@@ -1,0 +1,134 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 26,
+        "css": 1
+      },
+      "js": 105,
+      "css": 2
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/components/EmptyState/EmptyStateInactive.js",
+          "/components/ListView/BlueprintContents.js",
+          "/components/ListView/BlueprintsDataList.js",
+          "/components/ListView/ComponentDetailsView.js",
+          "/components/ListView/ComponentInputs.js",
+          "/components/ListView/ComponentsDataListItem.js",
+          "/components/ListView/ComponentSummaryList.js",
+          "/components/ListView/ComponentTypeIcons.js",
+          "/components/ListView/DependencyListView.js",
+          "/components/ListView/ImagesDataList.js",
+          "/components/ListView/ListItemImages.js",
+          "/components/ListView/ListItemUploads.js",
+          "/components/ListView/SourcesListItem.js",
+          "/components/Logs/Logs.js",
+          "/components/Modal/CreateBlueprint.js",
+          "/components/Modal/CreateImage.js",
+          "/components/Modal/DeleteBlueprint.js",
+          "/components/Modal/EditDescription.js",
+          "/components/Modal/ExportBlueprint.js",
+          "/components/Modal/ManageSources.js",
+          "/components/Modal/PendingChanges.js",
+          "/components/Toolbar/FilterInput.js",
+          "/components/Toolbar/ToolbarLayout.js",
+          "/pages/blueprint/index.js",
+          "/test/end-to-end/components/selectedComponents.component.js",
+          "/test/end-to-end/pages/blueprints.page.js"
+        ]
+      },
+      "css": {
+        "files": [
+          "/public/custom.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "patternfly-react": {
+      "Alert": 4,
+      "Button": 3,
+      "OverlayTrigger": 3,
+      "Tooltip": 1,
+      "Tabs": 3,
+      "Tab": 3,
+      "Spinner": 2,
+      "Modal": 6,
+      "Popover": 2,
+      "Icon": 2,
+      "Filter": 2,
+      "Toolbar": 1
+    },
+    "@patternfly/react-core": {
+      "DataList": 6,
+      "Alert": 1,
+      "DataListItem": 6,
+      "DataListItemRow": 6,
+      "DataListCell": 6,
+      "DataListItemCells": 6,
+      "Tooltip": 3,
+      "TooltipPosition": 3,
+      "DataListToggle": 2,
+      "DataListContent": 2,
+      "Split": 1,
+      "SplitItem": 1,
+      "Button": 3,
+      "Bullseye": 1
+    },
+    "@patternfly/react-icons": {
+      "PficonTemplateIcon": 1,
+      "BuilderImageIcon": 1,
+      "CaretDownIcon": 1,
+      "ServiceIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-button": 2,
+    "pf-u-mt-md": 1,
+    "pf-c-data-list__item-action": 7,
+    "pf-u-display-flex-on-xl": 2,
+    "pf-l-flex": 4,
+    "pf-c-content": 1,
+    "pf-l-flex__item": 7,
+    "pf-c-data-list__item-control": 1,
+    "pf-c-data-list__toggle": 1,
+    "pf-u-px-lg": 1,
+    "pf-c-data-list__expandable-content`).waitForExist(timeout);": 1,
+    "pf-c-data-list__item`);": 1,
+    "pf-c-data-list": 2,
+    "pf-c-data-list__item": 1,
+    "pf-c-data-list.cc-m-compact": 1,
+    "pf-c-data-list__item-row.cc-m-sticky": 1,
+    "pf-c-data-list__expandable-content": 1,
+    "pf-c-data-list__item-control[aria-hidden=": 1,
+    "pf-c-data-list__item-action.cc-m-nowrap": 1,
+    "pf-c-data-list__item-content": 3,
+    "pf-c-data-list__cell": 10,
+    "pf-c-data-list__cell:last-child": 3,
+    "pf-c-data-list__cell:not(:last-child)": 1,
+    "pf-c-data-list__item-content.cc-m-stacked": 2,
+    "pf-c-data-list__item-content.cc-m-split-on-lg": 2
+  },
+  "scssVars": {
+    "--pf-global--BackgroundColor--100": 2,
+    "--pf-global--FontSize--2xl": 1,
+    "--pf-global--link--Color": 1,
+    "--pf-global--spacer--sm": 8,
+    "--pf-global--Color--200": 2,
+    "--pf-c-data-list__cell-": 4,
+    "--pf-c-data-list__item-content": 1,
+    "--pf-c-data-list__item-control": 2,
+    "--pf-global--spacer--md": 9,
+    "--pf-c-data-list__item-action": 3,
+    "--pf-c-data-list__item-row": 2,
+    "--pf-c-data-list__item-item": 2,
+    "--pf-global--icon--FontSize": 1,
+    "--pf-global--spacer--xs": 3,
+    "--pf-c-data-list__cell-cell": 2
+  },
+  "repo": "https://github.com/weldr/cockpit-composer",
+  "name": "RHEL-Composer",
+  "date": "2020-04-01T15:12:37.894Z"
+}

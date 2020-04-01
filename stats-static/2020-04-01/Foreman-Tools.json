@@ -1,0 +1,16 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 54,
+      "scss": 9
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/theforeman/foreman-js",
+  "name": "Foreman-Tools",
+  "date": "2020-04-01T15:12:37.894Z"
+}

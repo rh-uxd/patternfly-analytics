@@ -1,0 +1,45 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 4
+      },
+      "js": 26,
+      "scss": 2
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/PresentationalComponents/RenderForms.js",
+          "/src/Routes.js",
+          "/src/SmartComponents/Applications/applications.test.js",
+          "/src/SmartComponents/General/General.js"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Stack": 1,
+      "StackItem": 1,
+      "Card": 1,
+      "CardBody": 1,
+      "Title": 1,
+      "EmptyState": 1,
+      "EmptyStateVariant": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateBody": 1
+    },
+    "@patternfly/react-icons": {
+      "CubesIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-page__main": 1,
+    "pf-c-form": 1
+  },
+  "scssVars": {},
+  "repo": "https://github.com/RedHatInsights/settings-frontend",
+  "name": "Settings-Frontend",
+  "date": "2020-04-01T15:12:37.894Z"
+}

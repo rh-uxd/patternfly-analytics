@@ -1,0 +1,92 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 12,
+        "scss": 1
+      },
+      "js": 61,
+      "scss": 4
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/PresentationalComponents/BulletlessList/BulletlessList.js",
+          "/src/PresentationalComponents/BulletlessList/BulletlessList.test.js",
+          "/src/PresentationalComponents/CustomInputFieldTemplate/CustomInputFieldTemplate.js",
+          "/src/PresentationalComponents/CustomObjectFieldTemplate/CustomObjectFieldTemplate.js",
+          "/src/PresentationalComponents/EndpointToggle/EndpointToggle.js",
+          "/src/PresentationalComponents/FilterList/FilterList.js",
+          "/src/PresentationalComponents/NotificationActions/NotificationActions.js",
+          "/src/PresentationalComponents/NotificationsPage/NotificationsPage.js",
+          "/src/PresentationalComponents/StatusIcon/StatusIcon.js",
+          "/src/PresentationalComponents/StatusPopup/StatusPopup.js",
+          "/src/SmartComponents/NotificationEdit/NotificationEdit.js",
+          "/src/SmartComponents/NotificationsIndex/NotificationsIndex.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/PresentationalComponents/CustomInputFieldTemplate/CustomInputFieldTemplate.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "List": 1,
+      "ListItem": 2,
+      "TextInput": 2,
+      "FormGroup": 1,
+      "Title": 3,
+      "Switch": 2,
+      "Card": 1,
+      "CardBody": 1,
+      "CardHeader": 1,
+      "Checkbox": 1,
+      "Grid": 1,
+      "GridItem": 1,
+      "Dropdown": 1,
+      "KebabToggle": 1,
+      "DropdownItem": 1,
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1,
+      "Stack": 2,
+      "StackItem": 2,
+      "Split": 2,
+      "SplitItem": 2,
+      "Tooltip": 1,
+      "Button": 2,
+      "PageSection": 1,
+      "Bullseye": 1,
+      "EmptyState": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateBody": 1,
+      "Pagination": 1,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 1
+    },
+    "@patternfly/react-icons": {
+      "CheckCircleIcon": 1,
+      "TimesCircleIcon": 1,
+      "QuestionCircleIcon": 1,
+      "CubesIcon": 1
+    },
+    "@patternfly/react-table": {
+      "Table": 1,
+      "TableBody": 1,
+      "TableGridBreakpoint": 1,
+      "TableHeader": 1,
+      "sortable": 1
+    }
+  },
+  "classes": {
+    "pf-c-form": 1,
+    "pf-c-form-control": 1,
+    "pf-c-form__group": 1
+  },
+  "scssVars": {},
+  "repo": "https://github.com/RedHatInsights/notifications-frontend",
+  "name": "Settings-Hooks",
+  "date": "2020-04-01T15:12:37.894Z"
+}

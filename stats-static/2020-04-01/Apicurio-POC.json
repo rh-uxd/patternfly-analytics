@@ -1,0 +1,161 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 22,
+        "css": 4
+      },
+      "js": 11,
+      "ts": 59,
+      "tsx": 27,
+      "css": 5
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/packages/studio/src/app/app.test.tsx",
+          "/packages/studio/src/app/app.tsx",
+          "/packages/studio/src/app/appHeader.tsx",
+          "/packages/studio/src/app/appSidebar.tsx",
+          "/packages/studio/src/app/components/api/apiCard/apiCard.tsx",
+          "/packages/studio/src/app/components/api/apiCard/apiCardView.tsx",
+          "/packages/studio/src/app/components/api/apiDataList/apiDataList.tsx",
+          "/packages/studio/src/app/components/api/apiDataList/apiDataListItem.tsx",
+          "/packages/studio/src/app/components/api/apiDrawer/apiDrawer.tsx",
+          "/packages/studio/src/app/components/api/apiDrawer/apiDrawerPanelContent.tsx",
+          "/packages/studio/src/app/components/api/apiEditor/apiEditor.tsx",
+          "/packages/studio/src/app/components/api/apiEmptyState/apiEmptyState.tsx",
+          "/packages/studio/src/app/components/api/apiTabs/apiTabs.tsx",
+          "/packages/studio/src/app/components/api/apiToolbar/apiToolbar.tsx",
+          "/packages/studio/src/app/components/userDropDown/userDropDown.tsx",
+          "/packages/studio/src/app/pages/api/createApi.tsx",
+          "/packages/studio/src/app/pages/api/importApi.tsx",
+          "/packages/studio/src/app/pages/api/viewApis.tsx",
+          "/packages/studio/src/app/pages/dashboard/dashboard.tsx",
+          "/packages/studio/src/app/pages/settings/linkedAccounts.tsx",
+          "/packages/studio/src/app/pages/settings/userProfile.tsx",
+          "/packages/studio/src/app/pages/settings/validations.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/packages/studio/src/app/app.css",
+          "/packages/studio/src/app/components/api/apiCard/apiCard.css",
+          "/packages/studio/src/app/components/api/apiDrawer/apiDrawer.css",
+          "/packages/studio/src/app/components/api/apiTag/apiTag.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Alert": 1,
+      "Button": 9,
+      "Page": 1,
+      "Avatar": 1,
+      "Brand": 1,
+      "PageHeader": 1,
+      "Nav": 1,
+      "NavExpandable": 1,
+      "NavItem": 1,
+      "NavList": 1,
+      "NavProps": 1,
+      "PageSidebar": 1,
+      "Card": 3,
+      "CardHead": 2,
+      "CardHeader": 1,
+      "CardBody": 3,
+      "CardFooter": 1,
+      "CardActions": 2,
+      "Gallery": 1,
+      "DataList": 1,
+      "DataListItem": 1,
+      "DataListItemCells": 1,
+      "DataListItemRow": 1,
+      "DataListCell": 1,
+      "DataListCheck": 1,
+      "DataListAction": 1,
+      "Title": 5,
+      "Grid": 1,
+      "GridItem": 1,
+      "GutterSize": 1,
+      "EmptyState": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateVariant": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateSecondaryActions": 1,
+      "Tabs": 1,
+      "Tab": 1,
+      "TabContent": 1,
+      "Dropdown": 1,
+      "DropdownItem": 1,
+      "DropdownToggle": 1,
+      "DropdownSeparator": 1,
+      "AboutModal": 1,
+      "Text": 5,
+      "TextContent": 5,
+      "TextList": 1,
+      "TextListItem": 1,
+      "TextVariants": 1,
+      "Breadcrumb": 2,
+      "BreadcrumbItem": 2,
+      "Form": 2,
+      "FormGroup": 2,
+      "TextInput": 2,
+      "TextArea": 2,
+      "FormSelectOption": 2,
+      "FormSelect": 2,
+      "ActionGroup": 2,
+      "PageSection": 3,
+      "PageSectionVariants": 3,
+      "Split": 1,
+      "SplitItem": 1,
+      "Level": 1,
+      "LevelItem": 1
+    },
+    "@patternfly/react-core/dist/esm/experimental": {
+      "Drawer": 1,
+      "DrawerPanelContent": 1,
+      "DrawerContent": 1,
+      "DataToolbar": 1,
+      "DataToolbarItem": 1,
+      "DataToolbarContent": 1
+    },
+    "@patternfly/react-icons": {
+      "TimesIcon": 1,
+      "EyeIcon": 1,
+      "PlusCircleIcon": 1,
+      "ThIcon": 1,
+      "ListIcon": 1
+    }
+  },
+  "classes": {
+    "pf-u-mr-sm": 1,
+    "pf-l-split__item": 1,
+    "pf-c-button.pf-m-primary,": 1,
+    "pf-c-empty-state__primary": 1,
+    "pf-c-drawer__panel-body": 1
+  },
+  "scssVars": {
+    "--pf-global--BorderColor--100": 1,
+    "--pf-global--primary-color-": 1,
+    "--pf-global--spacer--xs": 1,
+    "--pf-global--FontSize--sm": 4,
+    "--pf-global--spacer--md": 2,
+    "--pf-global--spacer--sm": 4,
+    "--pf-global--active-color-": 1,
+    "--pf-global--Color--100": 1,
+    "--pf-global--Color--200": 1,
+    "--pf-global--danger-color-": 1,
+    "--pf-global--spacer--xl": 1,
+    "--pf-c-empty-state-": 1,
+    "--pf-global--FontWeight--normal": 1,
+    "--pf-global--spacer--lg": 1,
+    "--pf-global--BackgroundColor--300": 1,
+    "--pf-global--FontSize--xs": 1,
+    "--pf-global--BorderRadius--lg": 1
+  },
+  "repo": "https://github.com/Apicurio/apicurio-studio-react-poc",
+  "name": "Apicurio-POC",
+  "date": "2020-04-01T15:12:37.894Z"
+}

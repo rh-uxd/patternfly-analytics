@@ -1,0 +1,254 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 46,
+        "scss": 1
+      },
+      "js": 152,
+      "scss": 6
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/components/AddApplication/AddApplicationDescription.js",
+          "/src/components/AddApplication/AddApplicationSchema.js",
+          "/src/components/AddApplication/RemoveAppModal.js",
+          "/src/components/AddApplication/steps/ErroredStep.js",
+          "/src/components/AddApplication/steps/FinishedStep.js",
+          "/src/components/AddApplication/WizardBody.js",
+          "/src/components/ApplicationsList/ApplicationList.js",
+          "/src/components/EditField/EditField.js",
+          "/src/components/SourceEditForm/Header.js",
+          "/src/components/SourceEditForm/HorizontalFormWrapper.js",
+          "/src/components/SourceEditForm/parser/unsupportedAuthType.js",
+          "/src/components/SourceEditForm/SourceEditModal.js",
+          "/src/components/SourceRemoveModal.js",
+          "/src/components/SourcesEmptyState.js",
+          "/src/components/SourcesTable/EmptyStateTable.js",
+          "/src/components/SourcesTable/formatters.js",
+          "/src/components/SourcesTable/loaders.js",
+          "/src/components/SourcesTable/SourcesTable.js",
+          "/src/components/steps/ErroredStep.js",
+          "/src/components/steps/FinishedStep.js",
+          "/src/components/steps/LoadingStep.js",
+          "/src/components/UndoButton/UndoButtonAdd.js",
+          "/src/pages/Sources.js",
+          "/src/test/components/addApplication/AddApplication.test.js",
+          "/src/test/components/addApplication/AddApplicationDescription.test.js",
+          "/src/test/components/addApplication/RemoveAppModal.test.js",
+          "/src/test/components/addApplication/steps/ErroredStep.test.js",
+          "/src/test/components/addApplication/steps/FinishedStep.test.js",
+          "/src/test/components/addApplication/WizardBody.test.js",
+          "/src/test/components/applicationList/ApplicationList.test.js",
+          "/src/test/components/editField/editField.test.js",
+          "/src/test/components/sourceEditForm/Header.test.js",
+          "/src/test/components/sourceEditForm/HorizontalFormWrapper.test.js",
+          "/src/test/components/sourceEditForm/parser/unsupportedAuthType.test.js",
+          "/src/test/components/sourceEditForm/SourceEditModal.test.js",
+          "/src/test/components/SourceRemoveModal.test.js",
+          "/src/test/components/SourcesEmptyState.test.js",
+          "/src/test/components/sourcesTable/EmptyStateTable.test.js",
+          "/src/test/components/sourcesTable/formatters.test.js",
+          "/src/test/components/sourcesTable/loaders.test.js",
+          "/src/test/components/sourcesTable/SourcesTable.test.js",
+          "/src/test/components/steps/ErroredStep.test.js",
+          "/src/test/components/steps/FinishedStep.test.js",
+          "/src/test/components/steps/LoadingStep.test.js",
+          "/src/test/components/undoButton/UndoButton.test.js",
+          "/src/test/pages/Sources.test.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/js/components/Text/Text": {
+      "Text": 8,
+      "TextVariants": 8
+    },
+    "@patternfly/react-core/dist/js/components/Text/TextContent": {
+      "TextContent": 9
+    },
+    "@patternfly/react-core/dist/js/layouts/Grid/index": {
+      "Grid": 1,
+      "GridItem": 1
+    },
+    "@patternfly/react-core/dist/js/components/Button/Button": {
+      "Button": 11,
+      "ButtonVariant": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Split/Split": {
+      "Split": 2
+    },
+    "@patternfly/react-core/dist/js/layouts/Split/SplitItem": {
+      "SplitItem": 2
+    },
+    "@patternfly/react-core/dist/js/layouts/Stack/Stack": {
+      "Stack": 2
+    },
+    "@patternfly/react-core/dist/js/components/Modal/Modal": {
+      "Modal": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/exclamation-triangle-icon": {
+      "ExclamationTriangleIcon": 3
+    },
+    "@patternfly/react-core/dist/js/components/Wizard/Wizard": {
+      "Wizard": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Grid/Grid": {
+      "Grid": 2
+    },
+    "@patternfly/react-core/dist/js/layouts/Grid/GridItem": {
+      "GridItem": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/pencil-alt-icon": {
+      "PencilAltIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Form/FormGroup": {
+      "FormGroup": 1
+    },
+    "@patternfly/react-core/dist/js/components/Title/Title": {
+      "Title": 5,
+      "TitleLevel": 1
+    },
+    "@patternfly/react-core/dist/js/components/Form/Form": {
+      "Form": 1
+    },
+    "@patternfly/react-core/dist/js/components/Spinner": {
+      "Spinner": 6
+    },
+    "@patternfly/react-core/dist/js/components/Modal": {
+      "Modal": 1
+    },
+    "@patternfly/react-core/dist/js/components/Checkbox/Checkbox": {
+      "Checkbox": 1
+    },
+    "@patternfly/react-core/dist/js/components/Text/TextList": {
+      "TextList": 1
+    },
+    "@patternfly/react-core/dist/js/components/Text/TextListItem": {
+      "TextListItem": 1
+    },
+    "@patternfly/react-core/dist/js/components/EmptyState/EmptyState": {
+      "EmptyState": 5,
+      "EmptyStateVariant": 4
+    },
+    "@patternfly/react-core/dist/js/components/EmptyState/EmptyStateIcon": {
+      "EmptyStateIcon": 4
+    },
+    "@patternfly/react-core/dist/js/components/EmptyState/EmptyStateBody": {
+      "EmptyStateBody": 5
+    },
+    "@patternfly/react-core/dist/js/components/Card/Card": {
+      "Card": 1
+    },
+    "@patternfly/react-core/dist/js/components/Card/CardBody": {
+      "CardBody": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Bullseye/Bullseye": {
+      "Bullseye": 6
+    },
+    "@patternfly/react-icons/dist/js/icons/wrench-icon": {
+      "WrenchIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/search-icon": {
+      "SearchIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Badge/Badge": {
+      "Badge": 1
+    },
+    "@patternfly/react-core/dist/js/components/Popover/Popover": {
+      "Popover": 1
+    },
+    "@patternfly/react-core/dist/js/components/Tooltip/Tooltip": {
+      "Tooltip": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/check-circle-icon": {
+      "CheckCircleIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/question-circle-icon": {
+      "QuestionCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/times-circle-icon": {
+      "TimesCircleIcon": 2
+    },
+    "@patternfly/react-table": {
+      "RowWrapper": 3,
+      "Table": 3,
+      "TableHeader": 2,
+      "TableBody": 2,
+      "sortable": 2,
+      "ActionsColumn": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Bullseye": {
+      "Bullseye": 2
+    },
+    "@patternfly/react-core/dist/js/components/EmptyState/EmptyStateSecondaryActions": {
+      "EmptyStateSecondaryActions": 3
+    },
+    "@patternfly/react-core": {
+      "Button": 15,
+      "EmptyStateBody": 6,
+      "Text": 6,
+      "Title": 4,
+      "Modal": 2,
+      "Wizard": 1,
+      "FormGroup": 2,
+      "Grid": 1,
+      "Form": 2,
+      "TextInput": 1,
+      "Bullseye": 3,
+      "Card": 1,
+      "CardBody": 1,
+      "EmptyState": 2,
+      "EmptyStateIcon": 3,
+      "Badge": 2,
+      "Tooltip": 1,
+      "EmptyStateSecondaryActions": 1,
+      "Chip": 1,
+      "Select": 1,
+      "Pagination": 1
+    },
+    "@patternfly/react-icons": {
+      "PencilAltIcon": 1,
+      "CheckCircleIcon": 1,
+      "TimesCircleIcon": 1,
+      "QuestionCircleIcon": 1,
+      "ExclamationTriangleIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/arrows-alt-v-icon": {
+      "ArrowsAltVIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/long-arrow-alt-down-icon": {
+      "LongArrowAltDownIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-form__horizontal-group": 1,
+    "pf-u-mr-sm": 1,
+    "pf-u-mb-0-on-sm": 1,
+    "pf-c-dropdown__toggle": 3,
+    "pf-c-dropdown__menu-item": 3,
+    "pf-c-pagination__nav-page-select": 1,
+    "pf-l-gallery": 1,
+    "pf-c-backdrop": 1,
+    "pf-l-bullseye": 2
+  },
+  "scssVars": {
+    "--pf-c-form--section": 1,
+    "--pf-global--warning-color-": 2,
+    "--pf-global--disabled-color-": 1,
+    "--pf-global--Color--100": 1,
+    "--pf-global--success-color-": 1,
+    "--pf-global--danger-color-": 1,
+    "--pf-global--icon--Color": 1
+  },
+  "repo": "https://github.com/ManageIQ/sources-ui",
+  "name": "Settings-Sources",
+  "date": "2020-04-01T15:12:37.894Z"
+}
