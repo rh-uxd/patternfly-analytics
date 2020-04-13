@@ -30,18 +30,18 @@ function collectPatternflyStats(argv) {
         execSync(command);
       }
       const patternflyStats = getPatternflyStats(tmpPath);
-      const packageStats = getPackageStats(tmpPath, patternflyStats.name)
       patternflyStats.repo = repo.git;
       patternflyStats.name = repo.name || repoName;
       patternflyStats.date = date;
       if (argv.j) {
-        patternflyStats.dependencies = packageStats;
+        patternflyStats.dependencies = getPackageStats(tmpPath, patternflyStats.name);
       }
 
       fs.outputFileSync(`${dir}/${repo.name}.json`, JSON.stringify(patternflyStats, null, 2));
     });
-  
-  fs.outputFileSync(`${dir}/_all_dependencies.json`, JSON.stringify(getAggregatePackageStats(), null, 2));
+  if (argv.j) {
+    fs.outputFileSync(`${dir}/_all_dependencies.json`, JSON.stringify(getAggregatePackageStats(), null, 2));
+  }
   console.log(`Collected stats for ${date} under ${dir}`);
 }
 

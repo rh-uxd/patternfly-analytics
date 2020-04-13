@@ -74,7 +74,7 @@ function getPatternflyStats(repoPath) {
     matchClasses(contents, file);
   });
 
-  // Build { result: {scssVars: total: {}} }
+  // Build { result: { scssVars: total: {} } }
   styleFiles.forEach(file => {
     const stat = fs.lstatSync(file);
     if (stat.isSymbolicLink() || stat.isDirectory()) return;
@@ -94,7 +94,7 @@ function getPatternflyStats(repoPath) {
     matchClasses(contents, file);
   });
 
-  // Build { result: {files: total: {}} }
+  // Build { result: { files: total: {} } }
   jsFiles.concat(styleFiles)
     .map(getExt)
     .forEach(ext => {
@@ -104,9 +104,7 @@ function getPatternflyStats(repoPath) {
 
   Object.entries(result.files.withPatternfly).forEach(([key, val]) => {
     const files = Object.keys(val);
-    result.files.withPatternfly[key] = {
-      files
-    };
+    result.files.withPatternfly[key] = { files };
     result.files.total.withPatternfly[key] = files.length;
   });
 

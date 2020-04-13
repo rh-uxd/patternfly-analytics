@@ -1,0 +1,16 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "css": 3
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/wildfly/wildfly",
+  "name": "Enterprise-Application-Platform",
+  "date": "2020-04-13T14:25:54.006Z",
+  "dependencies": {}
+}

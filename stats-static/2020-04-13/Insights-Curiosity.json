@@ -1,0 +1,148 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 12,
+        "scss": 1
+      },
+      "js": 98,
+      "scss": 5
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/components/authentication/authentication.js",
+          "/src/components/chartArea/chartArea.js",
+          "/src/components/graphCard/graphCard.js",
+          "/src/components/messageView/__tests__/messageView.test.js",
+          "/src/components/messageView/messageView.js",
+          "/src/components/openshiftView/openshiftView.js",
+          "/src/components/pageLayout/pageLayout.js",
+          "/src/components/rhelView/rhelView.js",
+          "/src/components/select/__tests__/select.test.js",
+          "/src/components/select/select.js",
+          "/src/components/toolbar/toolbar.js",
+          "/src/components/tourView/tourView.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/styles/_usage-graph.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-icons": {
+      "BanIcon": 2,
+      "BinocularsIcon": 1
+    },
+    "@patternfly/react-charts": {
+      "Chart": 1,
+      "ChartAxis": 1,
+      "ChartLegend": 1,
+      "ChartStack": 1,
+      "ChartThreshold": 1,
+      "ChartTooltip": 1,
+      "ChartThemeColor": 1,
+      "ChartArea": 1
+    },
+    "@patternfly/react-core": {
+      "Card": 1,
+      "CardHead": 1,
+      "CardActions": 1,
+      "CardBody": 1,
+      "EmptyState": 2,
+      "EmptyStateBody": 2,
+      "EmptyStateIcon": 1,
+      "EmptyStateVariant": 2,
+      "PageSection": 1,
+      "SelectVariant": 2,
+      "Select": 1,
+      "SelectOption": 1,
+      "DataToolbar": 1,
+      "DataToolbarContent": 1,
+      "DataToolbarFilter": 1,
+      "DataToolbarGroup": 1,
+      "Button": 1,
+      "EmptyStateSecondaryActions": 1,
+      "Title": 1
+    },
+    "@patternfly/react-tokens": {
+      "chart_color_green_300": 1,
+      "chart_color_blue_100": 2,
+      "chart_color_blue_300": 2,
+      "chart_color_cyan_100": 1,
+      "chart_color_cyan_300": 1
+    }
+  },
+  "classes": {
+    "pf-c-card__head": 1
+  },
+  "scssVars": {
+    "--pf-global--BorderWidth--sm": 1,
+    "--pf-global--BorderColor--100": 1,
+    "--pf-c-card--child": 1
+  },
+  "repo": "https://github.com/RedHatInsights/curiosity-frontend",
+  "name": "Insights-Curiosity",
+  "date": "2020-04-13T14:25:54.006Z",
+  "dependencies": {
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-tokens": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "apidoc-mock": 1,
+    "axios": 1,
+    "classnames": 1,
+    "enzyme": 1,
+    "enzyme-adapter-react-16": 1,
+    "enzyme-to-json": 1,
+    "eslint-config-airbnb": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-import": 1,
+    "eslint-plugin-jest": 1,
+    "eslint-plugin-json": 1,
+    "eslint-plugin-jsx-a11y": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "express": 1,
+    "gettext-extractor": 1,
+    "i18next": 1,
+    "i18next-xhr-backend": 1,
+    "js-cookie": 1,
+    "locale-code": 1,
+    "lodash": 1,
+    "moment": 1,
+    "moxios": 1,
+    "node-sass": 1,
+    "npm-run-all": 1,
+    "numbro": 1,
+    "prettier": 1,
+    "prop-types": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-i18next": 1,
+    "react-redux": 1,
+    "react-router": 1,
+    "react-router-dom": 1,
+    "react-scripts": 1,
+    "redux": 1,
+    "redux-logger": 1,
+    "redux-mock-store": 1,
+    "redux-promise-middleware": 1,
+    "redux-thunk": 1,
+    "reselect": 1,
+    "standard-version": 1,
+    "swagger-ui-express": 1,
+    "victory": 1,
+    "victory-core": 1,
+    "victory-legend": 1,
+    "yamljs": 1
+  }
+}

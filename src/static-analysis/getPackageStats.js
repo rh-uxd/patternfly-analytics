@@ -35,7 +35,7 @@ function getPackageStats(repoPath, repoName) {
 
 function getAggregatePackageStats() {
   const ordered = {};
-  Object.keys(aggregated).sort().forEach(key => ordered[key] = aggregated[key]);
+  Object.keys(aggregated).sort().forEach(key => ordered[key] = aggregated[key].sort());
 
   return ordered;
 }
