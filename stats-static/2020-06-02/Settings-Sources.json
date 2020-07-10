@@ -1,0 +1,332 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 48,
+        "scss": 2
+      },
+      "js": 158,
+      "scss": 7
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/components/AddApplication/AddApplicationDescription.js",
+          "/src/components/AddApplication/AddApplicationSchema.js",
+          "/src/components/AddApplication/RemoveAppModal.js",
+          "/src/components/AddApplication/steps/ErroredStep.js",
+          "/src/components/AddApplication/steps/FinishedStep.js",
+          "/src/components/AddApplication/steps/LoadingStep.js",
+          "/src/components/AddApplication/WizardBody.js",
+          "/src/components/ApplicationsList/ApplicationList.js",
+          "/src/components/EditField/EditField.js",
+          "/src/components/SourceEditForm/Header.js",
+          "/src/components/SourceEditForm/HorizontalFormWrapper.js",
+          "/src/components/SourceEditForm/parser/AuthenticationManagement.js",
+          "/src/components/SourceEditForm/parser/RemoveAuth.js",
+          "/src/components/SourceEditForm/parser/RemoveAuthPlaceholder.js",
+          "/src/components/SourceEditForm/parser/unsupportedAuthType.js",
+          "/src/components/SourceEditForm/SourceEditModal.js",
+          "/src/components/SourceRemoveModal/AppListInRemoval.js",
+          "/src/components/SourceRemoveModal/SourceRemoveModal.js",
+          "/src/components/SourcesEmptyState.js",
+          "/src/components/SourcesTable/EmptyStateTable.js",
+          "/src/components/SourcesTable/formatters.js",
+          "/src/components/SourcesTable/loaders.js",
+          "/src/components/SourcesTable/SourcesTable.js",
+          "/src/pages/Sources.js",
+          "/src/test/components/addApplication/AddApplication.test.js",
+          "/src/test/components/addApplication/AddApplicationDescription.test.js",
+          "/src/test/components/addApplication/RemoveAppModal.test.js",
+          "/src/test/components/addApplication/steps/ErroredStep.test.js",
+          "/src/test/components/addApplication/steps/FinishedStep.test.js",
+          "/src/test/components/addApplication/steps/LoadingStep.test.js",
+          "/src/test/components/addApplication/WizardBody.test.js",
+          "/src/test/components/applicationList/ApplicationList.test.js",
+          "/src/test/components/editField/editField.test.js",
+          "/src/test/components/sourceEditForm/Header.test.js",
+          "/src/test/components/sourceEditForm/HorizontalFormWrapper.test.js",
+          "/src/test/components/sourceEditForm/parser/authenticationManagement.test.js",
+          "/src/test/components/sourceEditForm/parser/removeAuth.test.js",
+          "/src/test/components/sourceEditForm/parser/removeAuthPlaceholder.test.js",
+          "/src/test/components/sourceEditForm/parser/unsupportedAuthType.test.js",
+          "/src/test/components/sourceEditForm/SourceEditModal.test.js",
+          "/src/test/components/sourceRemoveModal/AppListInRemoval.test.js",
+          "/src/test/components/sourceRemoveModal/SourceRemoveModal.test.js",
+          "/src/test/components/SourcesEmptyState.test.js",
+          "/src/test/components/sourcesTable/EmptyStateTable.test.js",
+          "/src/test/components/sourcesTable/formatters.test.js",
+          "/src/test/components/sourcesTable/loaders.test.js",
+          "/src/test/components/sourcesTable/SourcesTable.test.js",
+          "/src/test/pages/Sources.test.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss",
+          "/src/components/SourcesTable/loaders.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/js/components/Text/Text": {
+      "Text": 13,
+      "TextVariants": 12
+    },
+    "@patternfly/react-core/dist/js/components/Text/TextContent": {
+      "TextContent": 13
+    },
+    "@patternfly/react-core/dist/js/layouts/Grid/index": {
+      "Grid": 1,
+      "GridItem": 1
+    },
+    "@patternfly/react-core/dist/js/components/Button/Button": {
+      "Button": 10,
+      "ButtonVariant": 1
+    },
+    "@patternfly/react-core/dist/js/components/Modal/Modal": {
+      "Modal": 2
+    },
+    "@patternfly/react-core/dist/js/components/Title/Title": {
+      "Title": 9,
+      "TitleLevel": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/exclamation-triangle-icon": {
+      "ExclamationTriangleIcon": 5
+    },
+    "@patternfly/react-core/dist/js/components/EmptyState/EmptyState": {
+      "EmptyState": 5,
+      "EmptyStateVariant": 4
+    },
+    "@patternfly/react-core/dist/js/components/EmptyState/EmptyStateIcon": {
+      "EmptyStateIcon": 5
+    },
+    "@patternfly/react-core/dist/js/components/EmptyState/EmptyStateBody": {
+      "EmptyStateBody": 5
+    },
+    "@patternfly/react-core/dist/js/components/EmptyState/EmptyStateSecondaryActions": {
+      "EmptyStateSecondaryActions": 3
+    },
+    "@patternfly/react-core/dist/js/layouts/Bullseye/Bullseye": {
+      "Bullseye": 6
+    },
+    "@patternfly/react-core/dist/js/components/Progress/Progress": {
+      "Progress": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/times-circle-icon": {
+      "TimesCircleIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/check-circle-icon": {
+      "CheckCircleIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/Spinner": {
+      "Spinner": 8
+    },
+    "@patternfly/react-core/dist/js/components/Wizard/Wizard": {
+      "Wizard": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Grid/Grid": {
+      "Grid": 2
+    },
+    "@patternfly/react-core/dist/js/layouts/Grid/GridItem": {
+      "GridItem": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/pencil-alt-icon": {
+      "PencilAltIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Form/FormGroup": {
+      "FormGroup": 1
+    },
+    "@patternfly/react-core/dist/js/components/Form/Form": {
+      "Form": 1
+    },
+    "@patternfly/react-core/dist/js/components/Button": {
+      "Button": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Grid": {
+      "GridItem": 3,
+      "Grid": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/trash-icon": {
+      "TrashIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Modal": {
+      "Modal": 2
+    },
+    "@patternfly/react-core/dist/js/layouts/Bullseye": {
+      "Bullseye": 4
+    },
+    "@patternfly/react-core/dist/js/components/Text/TextList": {
+      "TextList": 1
+    },
+    "@patternfly/react-core/dist/js/components/Text/TextListItem": {
+      "TextListItem": 1
+    },
+    "@patternfly/react-core/dist/js/components/Checkbox/Checkbox": {
+      "Checkbox": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/wrench-icon": {
+      "WrenchIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/search-icon": {
+      "SearchIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Badge/Badge": {
+      "Badge": 1
+    },
+    "@patternfly/react-core/dist/js/components/Popover/Popover": {
+      "Popover": 1
+    },
+    "@patternfly/react-core/dist/js/components/Tooltip/Tooltip": {
+      "Tooltip": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/question-circle-icon": {
+      "QuestionCircleIcon": 1
+    },
+    "@patternfly/react-table": {
+      "RowWrapper": 3,
+      "Table": 3,
+      "TableHeader": 2,
+      "TableBody": 2,
+      "sortable": 2,
+      "ActionsColumn": 1
+    },
+    "@patternfly/react-core": {
+      "EmptyStateBody": 6,
+      "Radio": 1,
+      "Text": 9,
+      "Button": 13,
+      "Modal": 3,
+      "Title": 5,
+      "EmptyStateIcon": 3,
+      "Progress": 2,
+      "EmptyStateSecondaryActions": 1,
+      "Wizard": 1,
+      "FormGroup": 2,
+      "Grid": 1,
+      "Form": 2,
+      "TextInput": 1,
+      "TextList": 1,
+      "TextListItem": 1,
+      "Bullseye": 3,
+      "EmptyState": 2,
+      "Badge": 1,
+      "Tooltip": 2,
+      "DropdownItem": 1,
+      "Chip": 1,
+      "Select": 1,
+      "Pagination": 1
+    },
+    "@patternfly/react-icons": {
+      "PencilAltIcon": 1,
+      "CheckCircleIcon": 1,
+      "TimesCircleIcon": 1,
+      "QuestionCircleIcon": 1,
+      "ExclamationTriangleIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/arrows-alt-v-icon": {
+      "ArrowsAltVIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/long-arrow-alt-down-icon": {
+      "LongArrowAltDownIcon": 1
+    }
+  },
+  "classes": {
+    "pf-u-mr-sm": 4,
+    "pf-u-mb-0": 5,
+    "pf-u-mt-xl": 4,
+    "pf-u-mb-md": 2,
+    "pf-c-form__horizontal-group": 1,
+    "pf-u-mt-md": 1,
+    "pf-u-mb-0-on-sm": 1,
+    "pf-u-p-lg": 1,
+    "pf-u-p-md": 1,
+    "pf-c-dropdown__toggle": 3,
+    "pf-c-dropdown__menu-item": 3,
+    "pf-c-pagination__nav-page-select": 1,
+    "pf-l-gallery": 1,
+    "pf-c-backdrop": 1,
+    "pf-l-bullseye": 2
+  },
+  "scssVars": {
+    "--pf-c-form--section": 1,
+    "--pf-global--warning-color-": 2,
+    "--pf-global--disabled-color-": 1,
+    "--pf-global--Color--100": 1,
+    "--pf-global--success-color-": 1,
+    "--pf-global--danger-color-": 1,
+    "--pf-global--icon--Color": 1,
+    "--pf-global--spacer--lg": 2,
+    "--pf-global--BackgroundColor--100": 1
+  },
+  "repo": "https://github.com/ManageIQ/sources-ui",
+  "name": "Settings-Sources",
+  "date": "2020-06-02T14:41:03.072Z",
+  "dependencies": {
+    "@babel/cli": 1,
+    "@babel/core": 1,
+    "@babel/plugin-proposal-class-properties": 1,
+    "@babel/plugin-syntax-dynamic-import": 1,
+    "@babel/plugin-transform-runtime": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-react": 1,
+    "@data-driven-forms/pf4-component-mapper": 1,
+    "@data-driven-forms/react-form-renderer": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-table": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-sources": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@sentry/minimal": 1,
+    "axios": 1,
+    "axios-mock-adapter": 1,
+    "babel-core": 1,
+    "babel-eslint": 1,
+    "babel-loader": 1,
+    "babel-polyfill": 1,
+    "css-loader": 1,
+    "deep-object-diff": 1,
+    "enzyme": 1,
+    "enzyme-adapter-react-16": 1,
+    "enzyme-to-json": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-react": 1,
+    "file-loader": 1,
+    "git-revision-webpack-plugin": 1,
+    "html-replace-webpack-plugin": 1,
+    "html-webpack-plugin": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "lodash": 1,
+    "node-fetch": 1,
+    "node-sass": 1,
+    "npm-run-all": 1,
+    "prop-types": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-intl": 1,
+    "react-redux": 1,
+    "react-router-dom": 1,
+    "redux": 1,
+    "redux-logger": 1,
+    "redux-mock-store": 1,
+    "redux-promise-middleware": 1,
+    "redux-thunk": 1,
+    "sass-loader": 1,
+    "source-map-loader": 1,
+    "style-loader": 1,
+    "stylelint": 1,
+    "stylelint-config-recommended-scss": 1,
+    "stylelint-scss": 1,
+    "webpack": 1,
+    "webpack-bundle-analyzer": 1,
+    "webpack-cli": 1,
+    "webpack-dev-server": 1,
+    "whatwg-fetch": 1,
+    "write-file-webpack-plugin": 1
+  }
+}

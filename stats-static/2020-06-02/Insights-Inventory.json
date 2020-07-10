@@ -1,0 +1,135 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 5,
+        "scss": 3
+      },
+      "js": 25,
+      "scss": 8
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/components/DeleteModal.js",
+          "/src/components/inventory/AsyncInventory.js",
+          "/src/Routes.js",
+          "/src/routes/InventoryDetail.js",
+          "/src/routes/InventoryTable.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/components/Alerts.scss",
+          "/src/routes/inventory.scss",
+          "/src/Utilities/_colors.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Modal": 1,
+      "Split": 1,
+      "SplitItem": 1,
+      "Stack": 1,
+      "StackItem": 1,
+      "Level": 1,
+      "LevelItem": 1,
+      "Button": 1,
+      "ClipboardCopy": 1,
+      "*": 1,
+      "Grid": 2,
+      "GridItem": 2,
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1
+    },
+    "@patternfly/react-icons": {
+      "ExclamationTriangleIcon": 1,
+      "*": 1
+    },
+    "@patternfly/react-table": {
+      "*": 1
+    }
+  },
+  "classes": {
+    "pf-c-page__main": 1,
+    "pf-l-page__main": 1,
+    "pf-c-alert": 2,
+    "pf-l-grid__item:not([class*=": 1,
+    "pf-c-breadcrumb": 1,
+    "pf-c-breadcrumb__item": 1,
+    "pf-c-tabs__list": 1,
+    "pf-c-clipboard-copy": 1,
+    "pf-l-split:first-child": 1
+  },
+  "scssVars": {
+    "--pf-global--BackgroundColor--100": 1,
+    "--pf-c-tabs__item--BorderColor": 2,
+    "--pf-c-tabs__item--BorderWidth": 3,
+    "--pf-global--warning-color-": 1,
+    "--pf-global--BackgroundColor--300": 1
+  },
+  "repo": "https://github.com/RedHatInsights/insights-inventory-frontend",
+  "name": "Insights-Inventory",
+  "date": "2020-06-02T14:41:03.072Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@babel/plugin-proposal-class-properties": 1,
+    "@babel/plugin-proposal-decorators": 1,
+    "@babel/plugin-proposal-object-rest-spread": 1,
+    "@babel/plugin-syntax-dynamic-import": 1,
+    "@babel/plugin-transform-runtime": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-flow": 1,
+    "@babel/preset-react": 1,
+    "@babel/runtime": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-table": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-inventory-compliance": 1,
+    "@redhat-cloud-services/frontend-components-inventory-general-info": 1,
+    "@redhat-cloud-services/frontend-components-inventory-insights": 1,
+    "@redhat-cloud-services/frontend-components-inventory-patchman": 1,
+    "@redhat-cloud-services/frontend-components-inventory-vulnerabilities": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@redhat-cloud-services/host-inventory-client": 1,
+    "babel-core": 1,
+    "babel-eslint": 1,
+    "babel-jest": 1,
+    "babel-plugin-dual-import": 1,
+    "babel-plugin-lodash": 1,
+    "classnames": 1,
+    "enzyme": 1,
+    "enzyme-adapter-react-16": 1,
+    "enzyme-to-json": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-react": 1,
+    "fetch-mock": 1,
+    "graphql": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "jest-cli": 1,
+    "node-fetch": 1,
+    "npm-run-all": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-intl": 1,
+    "react-redux": 1,
+    "react-router-dom": 1,
+    "redux": 1,
+    "redux-logger": 1,
+    "redux-promise-middleware": 1,
+    "stylelint": 1,
+    "stylelint-config-recommended-scss": 1,
+    "stylelint-scss": 1,
+    "webpack": 1,
+    "webpack-bundle-analyzer": 1,
+    "webpack-cli": 1,
+    "whatwg-fetch": 1
+  }
+}

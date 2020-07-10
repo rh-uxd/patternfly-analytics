@@ -1,0 +1,84 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 22
+      },
+      "js": 176,
+      "css": 2,
+      "scss": 12
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/webpack/ForemanTasks/Components/common/ClickConfirmation/index.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/Errors.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/Locks.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/RunningSteps.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/Task.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/TaskInfo.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/TaskDetails.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/Components/ScheduledTasksCard/ScheduledTasksCard.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/Components/StoppedTasksCard/StoppedTasksCard.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/Components/StoppedTasksCard/StoppedTasksCardHelper.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/Components/TasksDonutCard/TasksDonutCard.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/TasksCardsGrid.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksLabelsRow/TasksLabelsRow.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksTimeRow/Components/TimeDropDown/TimeDropDown.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksTimeRow/TasksTimeRow.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/TasksDashboard.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/ActionSelectButton.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/ConfirmModal/ConfirmModal.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/SelectAllAlert.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/TableSelectionCell.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/TableSelectionHeaderCell.js",
+          "/webpack/ForemanTasks/Components/TasksTable/TasksTablePage.js"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "patternfly-react": {
+      "Button": 7,
+      "Alert": 4,
+      "Card": 4,
+      "Row": 5,
+      "Col": 3,
+      "Grid": 3,
+      "ProgressBar": 1,
+      "Tab": 1,
+      "Tabs": 1,
+      "Icon": 1,
+      "CardGrid": 1,
+      "Label": 1,
+      "DropdownButton": 2,
+      "MenuItem": 2,
+      "Table": 2,
+      "Spinner": 1
+    }
+  },
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/theforeman/foreman-tasks",
+  "name": "Foreman-Tasks",
+  "date": "2020-07-10T15:39:40.480Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@theforeman/builder": 1,
+    "@theforeman/eslint-plugin-foreman": 1,
+    "@theforeman/stories": 1,
+    "@theforeman/test": 1,
+    "@theforeman/vendor-dev": 1,
+    "babel-eslint": 1,
+    "c3": 1,
+    "eslint": 1,
+    "humanize-duration": 1,
+    "jed": 1,
+    "prettier": 1,
+    "react-html-parser": 1,
+    "react-intl": 1,
+    "stylelint": 1,
+    "stylelint-config-standard": 1,
+    "surge": 1
+  }
+}

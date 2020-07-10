@@ -1,0 +1,161 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 7,
+        "css": 1
+      },
+      "tsx": 13,
+      "ts": 14,
+      "js": 3,
+      "css": 2
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/packages/demo-app-2/src/App.tsx",
+          "/packages/demo-app/src/App.tsx",
+          "/packages/integration-react/src/components/CrossNavContextSelector/ContextSelectorToggle.tsx",
+          "/packages/integration-react/src/components/CrossNavContextSelector/CrossNavContextSelector.tsx",
+          "/packages/integration-react/src/components/CrossNavContextSelector/CrossNavContextSelectorItem.tsx",
+          "/packages/integration-react/src/components/CrossNavHeader/CrossNavHeader.tsx",
+          "/packages/integration-react/src/components/LoadingPage/LoadingPage.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/packages/integration-core/styles/core.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Avatar": 2,
+      "Brand": 2,
+      "Button": 3,
+      "ButtonVariant": 3,
+      "Breadcrumb": 2,
+      "BreadcrumbItem": 2,
+      "Card": 2,
+      "CardBody": 2,
+      "Dropdown": 2,
+      "DropdownToggle": 2,
+      "DropdownItem": 2,
+      "DropdownSeparator": 2,
+      "KebabToggle": 2,
+      "Gallery": 2,
+      "GalleryItem": 2,
+      "Nav": 2,
+      "NavItem": 2,
+      "NavList": 2,
+      "Page": 2,
+      "PageSection": 2,
+      "PageSectionVariants": 2,
+      "PageSidebar": 2,
+      "SkipToContent": 2,
+      "TextContent": 2,
+      "Text": 2,
+      "Toolbar": 2,
+      "ToolbarGroup": 2,
+      "ToolbarItem": 2,
+      "KEY_CODES": 1,
+      "ContextSelectorProps": 1,
+      "Omit": 1,
+      "PageHeaderProps": 1,
+      "PageContextConsumer": 1,
+      "Bullseye": 1,
+      "Spinner": 1,
+      "Flex": 1,
+      "FlexItem": 1,
+      "FlexModifiers": 1,
+      "Title": 1
+    },
+    "@patternfly/react-styles/css/utilities/Accessibility/accessibility": {
+      "accessibleStyles": 2
+    },
+    "@patternfly/react-styles/css/utilities/Spacing/spacing": {
+      "spacingStyles": 2
+    },
+    "@patternfly/react-styles": {
+      "css": 6
+    },
+    "@patternfly/react-icons": {
+      "BellIcon": 2,
+      "CogIcon": 2,
+      "CaretDownIcon": 1,
+      "BarsIcon": 1
+    },
+    "@patternfly/react-styles/css/components/ContextSelector/context-selector": {
+      "styles": 3
+    },
+    "@patternfly/react-styles/css/components/Page/page": {
+      "styles": 1
+    }
+  },
+  "classes": {
+    "pf-c-page__header.pf-m-no-toggle": 7,
+    "pf-c-page__header-tools": 5,
+    "pf-c-page__header-brand-link": 5,
+    "pf-c-page__header": 3,
+    "pf-c-brand": 1,
+    "pf-c-context-selector": 3,
+    "pf-c-context-selector__toggle": 3,
+    "pf-c-context-selector__toggle::before": 3,
+    "pf-c-context-selector__toggle::before,": 1,
+    "pf-c-context-selector__toggle:hover::before,": 1,
+    "pf-c-context-selector__toggle:focus::before": 1,
+    "pf-c-page__header-brand-toggle": 4,
+    "pf-c-button": 1
+  },
+  "scssVars": {
+    "--pf-global--spacer--md": 7,
+    "--pf-global--BackgroundColor--dark": 1,
+    "--pf-global--BorderColor--200": 4,
+    "--pf-global--BorderWidth--lg": 1,
+    "--pf-global--active-color-": 1,
+    "--pf-global--BorderWidth--sm": 1,
+    "--pf-global--spacer--sm": 3,
+    "--pf-global--BackgroundColor--200": 1
+  },
+  "repo": "https://github.com/rh-uxd/integration",
+  "name": "Common-Integration",
+  "date": "2020-07-10T15:39:40.480Z",
+  "dependencies": {
+    "@patternfly/react-core": 3,
+    "@patternfly/react-icons": 3,
+    "@rh-uxd/integration-core": 3,
+    "@rh-uxd/integration-react": 2,
+    "@testing-library/jest-dom": 2,
+    "@testing-library/react": 2,
+    "@testing-library/user-event": 2,
+    "@types/jest": 3,
+    "@types/node": 2,
+    "@types/react": 3,
+    "@types/react-dom": 3,
+    "axios": 1,
+    "copy-webpack-plugin": 1,
+    "css-loader": 1,
+    "jest": 1,
+    "lerna": 1,
+    "path": 1,
+    "raw-loader": 1,
+    "react": 3,
+    "react-dom": 3,
+    "react-scripts": 2,
+    "rimraf": 2,
+    "style-loader": 2,
+    "svg-url-loader": 1,
+    "ts-jest": 1,
+    "ts-loader": 2,
+    "typedoc": 2,
+    "typescript": 4,
+    "url-loader": 1,
+    "watch": 1,
+    "webpack": 2,
+    "webpack-bundle-analyzer": 2,
+    "webpack-cli": 2,
+    "webpack-dev-server": 2,
+    "webpack-merge": 2
+  }
+}
