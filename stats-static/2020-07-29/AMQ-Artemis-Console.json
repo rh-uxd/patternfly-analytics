@@ -1,0 +1,20 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 22,
+      "ts": 4,
+      "css": 7
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/apache/activemq-artemis",
+  "name": "AMQ-Artemis-Console",
+  "date": "2020-07-29T20:24:04.992Z",
+  "dependencies": {
+    "gitbook-cli": 1
+  }
+}

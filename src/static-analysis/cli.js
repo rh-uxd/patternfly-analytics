@@ -24,11 +24,11 @@ function collectPatternflyStats(argv) {
       console.log(repo.name);
       const repoName = repo.git.split('/').pop();
       const tmpPath = `${tmpDir}/${repo.name}`;
-      if (!fs.existsSync(tmpPath)) {
-        const command = `git clone "${repo.git}" "${tmpPath}" --depth 1`;
-        console.log(command);
-        execSync(command);
-      }
+      const command = fs.existsSync(tmpPath)
+        ? `cd ${tmpPath} && git pull`
+        : `git clone "${repo.git}" "${tmpPath}" --depth 1`;
+      console.log(command);
+      execSync(command);
       const patternflyStats = getPatternflyStats(tmpPath);
       patternflyStats.repo = repo.git;
       patternflyStats.name = repo.name || repoName;

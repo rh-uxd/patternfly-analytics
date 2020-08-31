@@ -1,0 +1,49 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 12,
+      "tsx": 8,
+      "ts": 3,
+      "css": 79,
+      "less": 64
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/kiegroup/kie-wb-common",
+  "name": "Process-Automation",
+  "date": "2020-08-31T13:16:38.903Z",
+  "dependencies": {
+    "@types/enzyme": 1,
+    "@types/enzyme-adapter-react-16": 1,
+    "@types/jest": 1,
+    "@types/react": 1,
+    "appformer-js": 1,
+    "babel-core": 1,
+    "babel-loader": 1,
+    "babel-preset-env": 1,
+    "babel-preset-react": 1,
+    "circular-dependency-plugin": 1,
+    "clean-webpack-plugin": 1,
+    "enzyme": 1,
+    "enzyme-adapter-react-16": 1,
+    "enzyme-to-json": 1,
+    "jest": 1,
+    "jest-junit": 1,
+    "lock-treatment-tool": 1,
+    "prettier": 1,
+    "react": 1,
+    "ts-jest": 1,
+    "ts-loader": 1,
+    "tslint": 1,
+    "tslint-config-prettier": 1,
+    "tslint-react": 1,
+    "typescript": 1,
+    "watch": 1,
+    "webpack": 1,
+    "webpack-cli": 1
+  }
+}
