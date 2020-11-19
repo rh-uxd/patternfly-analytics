@@ -1,8 +1,16 @@
 {
   "repos": [
     {
-      "git": "https://github.com/fusor/mig-ui",
-      "name": "OpenShift-Migration-Tool"
+      "git": "https://github.com/konveyor/mig-ui",
+      "name": "Migration-Toolkit-for-Containers"
+    },
+    {
+      "git": "https://github.com/konveyor/virt-ui",
+      "name": "Migration-Toolkit-for-Virtualization"
+    },
+    {
+      "git": "https://github.com/konveyor/lib-ui",
+      "name": "Konveyor-Shared-Library"
     },
     {
       "git": "https://github.com/ManageIQ/manageiq-v2v",
