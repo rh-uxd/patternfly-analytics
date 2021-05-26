@@ -1,0 +1,25 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 5,
+      "css": 2
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/distributed-system-analysis/pbench",
+  "name": "Pbench",
+  "date": "2021-05-26T18:04:46.187Z",
+  "dependencies": {
+    "c3": 1,
+    "d3": 1,
+    "d3-queue": 1,
+    "fastdom": 1,
+    "function-bind": 1,
+    "nvd3": 1,
+    "save-svg-as-png": 1
+  }
+}

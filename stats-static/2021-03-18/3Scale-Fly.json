@@ -1,0 +1,89 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 9
+      },
+      "tsx": 14,
+      "ts": 5,
+      "css": 2
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/App.tsx",
+          "/src/components/AppLayout.tsx",
+          "/src/components/AppNavExpandable.tsx",
+          "/src/components/AppNavGroup.tsx",
+          "/src/components/AppNavItem.tsx",
+          "/src/components/Loading.tsx",
+          "/src/components/NotFound.tsx",
+          "/src/pages/Applications.tsx",
+          "/src/pages/Overview.tsx"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Brand": 1,
+      "Nav": 1,
+      "NavList": 1,
+      "NavVariants": 1,
+      "Page": 1,
+      "PageHeader": 1,
+      "PageSidebar": 1,
+      "SkipToContent": 1,
+      "PageHeaderProps": 1,
+      "NavExpandable": 1,
+      "NavGroup": 1,
+      "NavItem": 1,
+      "NavItemSeparator": 1,
+      "EmptyState": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateVariant": 1,
+      "PageSection": 4,
+      "Title": 2,
+      "Alert": 1,
+      "PageSectionVariants": 1,
+      "TextContent": 2,
+      "Text": 2,
+      "TextVariants": 1,
+      "Card": 1,
+      "CardBody": 1
+    },
+    "@patternfly/react-core/dist/js/experimental": {
+      "Spinner": 1
+    },
+    "@patternfly/react-table": {
+      "Table": 1,
+      "TableHeader": 1,
+      "TableBody": 1
+    }
+  },
+  "classes": {
+    "pf-c-nav__link": 1
+  },
+  "scssVars": {},
+  "repo": "https://github.com/3scale/porta-fly",
+  "name": "3Scale-Fly",
+  "date": "2021-03-18T18:57:52.435Z",
+  "dependencies": {
+    "@patternfly/react-core": 1,
+    "@patternfly/react-table": 1,
+    "@types/jest": 1,
+    "@types/node": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "@types/react-router": 1,
+    "@types/react-router-dom": 1,
+    "react": 1,
+    "react-async": 1,
+    "react-dom": 1,
+    "react-router": 1,
+    "react-router-dom": 1,
+    "react-router-last-location": 1,
+    "react-scripts": 1,
+    "typescript": 1
+  }
+}

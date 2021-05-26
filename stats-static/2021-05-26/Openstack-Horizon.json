@@ -1,0 +1,29 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 606,
+      "scss": 102
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/openstack/horizon",
+  "name": "Openstack-Horizon",
+  "date": "2021-05-26T18:04:46.187Z",
+  "dependencies": {
+    "eslint": 1,
+    "eslint-config-openstack": 1,
+    "eslint-plugin-angular": 1,
+    "jasmine-core": 1,
+    "karma": 1,
+    "karma-cli": 1,
+    "karma-coverage": 1,
+    "karma-firefox-launcher": 1,
+    "karma-jasmine": 1,
+    "karma-ng-html2js-preprocessor": 1,
+    "karma-threshold-reporter": 1
+  }
+}

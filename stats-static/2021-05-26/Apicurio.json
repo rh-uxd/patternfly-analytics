@@ -1,0 +1,65 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "css": 1
+      },
+      "ts": 255,
+      "js": 4,
+      "css": 122
+    },
+    "withPatternfly": {
+      "css": {
+        "files": [
+          "/front-end/studio/src/styles.css"
+        ]
+      }
+    }
+  },
+  "imports": {},
+  "classes": {
+    "pf-c-page__header": 1
+  },
+  "scssVars": {},
+  "repo": "https://github.com/Apicurio/apicurio-studio",
+  "name": "Apicurio",
+  "date": "2021-05-26T18:04:46.187Z",
+  "dependencies": {
+    "@angular-devkit/build-angular": 1,
+    "@angular-devkit/build-ng-packagr": 1,
+    "@angular/cli": 1,
+    "@angular/common": 1,
+    "@angular/compiler": 1,
+    "@angular/compiler-cli": 1,
+    "@angular/core": 1,
+    "@angular/forms": 1,
+    "@angular/language-service": 1,
+    "@angular/platform-browser": 1,
+    "@angular/platform-browser-dynamic": 1,
+    "@angular/router": 1,
+    "@patternfly/patternfly": 1,
+    "@types/js-base64": 1,
+    "@types/marked": 1,
+    "@types/node": 1,
+    "apicurio-data-models": 1,
+    "apicurio-ts-core": 1,
+    "brace": 1,
+    "core-js": 1,
+    "cp-cli": 1,
+    "js-base64": 1,
+    "js-yaml": 1,
+    "marked": 1,
+    "moment": 1,
+    "ng-packagr": 1,
+    "ngx-bootstrap": 1,
+    "ngx-clipboard": 1,
+    "patternfly": 1,
+    "pluralize": 1,
+    "rxjs": 1,
+    "ts-node": 1,
+    "tsickle": 1,
+    "tslib": 1,
+    "typescript": 1,
+    "zone.js": 1
+  }
+}
