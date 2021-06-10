@@ -1,6 +1,23 @@
 const fs = require('fs');
 const glob = require('glob');
 
+const patternflyAggs = {
+  files: {
+    total: {
+      withPatternfly: {}
+    }
+  },
+  imports: {
+
+  },
+  classes: {
+
+  },
+  scssVars: {
+
+  }
+};
+
 function getPatternflyStats(repoPath) {
   const result = {
     files: {
@@ -59,13 +76,17 @@ function getPatternflyStats(repoPath) {
         result.files.withPatternfly[ext][file.replace(repoPath, '')] = true;
       }
       result.imports[regMatch[2]] = result.imports[regMatch[2]] || {};
+      patternflyAggs.imports[regMatch[2]] = patternflyAggs.imports[regMatch[2]] || {};
       regMatch[1]
         .split(',')
         .map(str => str.replace(/\s+as\s+.*/gm, ''))
         .map(str => str.replace(/\s/gm, ''))
         .filter(imp => imp)
         .forEach(imp => {
-          const pkg = result.imports[regMatch[2]];
+          let pkg = result.imports[regMatch[2]];
+          pkg[imp] = pkg[imp] || 0;
+          pkg[imp]++;
+          pkg = patternflyAggs.imports[regMatch[2]];
           pkg[imp] = pkg[imp] || 0;
           pkg[imp]++;
         });
@@ -89,6 +110,8 @@ function getPatternflyStats(repoPath) {
       }
       result.scssVars[regMatch[1]] = result.scssVars[regMatch[1]] || 0;
       result.scssVars[regMatch[1]]++;
+      patternflyAggs.scssVars[regMatch[1]] = patternflyAggs.scssVars[regMatch[1]] || 0;
+      patternflyAggs.scssVars[regMatch[1]]++;
     }
 
     matchClasses(contents, file);
@@ -100,6 +123,8 @@ function getPatternflyStats(repoPath) {
     .forEach(ext => {
       result.files.total[ext] = result.files.total[ext] || 0;
       result.files.total[ext]++;
+      patternflyAggs.files.total[ext] = patternflyAggs.files.total[ext] || 0;
+      patternflyAggs.files.total[ext]++;
     });
 
   Object.entries(result.files.withPatternfly).forEach(([key, val]) => {
@@ -112,6 +137,7 @@ function getPatternflyStats(repoPath) {
 }
 
 module.exports = {
-  getPatternflyStats
+  getPatternflyStats,
+  patternflyAggs
 };
 

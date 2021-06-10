@@ -1,7 +1,7 @@
 const path = require('path');
 const { execSync } = require('child_process');
 const fs = require('fs-extra');
-const { getPatternflyStats } = require('./getPatternfyStats');
+const { getPatternflyStats, patternflyAggs } = require('./getPatternfyStats');
 const { getPackageStats, getAggregatePackageStats } = require('./getPackageStats');
 const repos = require('../../repos.json').repos;
 
@@ -41,6 +41,7 @@ function collectPatternflyStats(argv) {
     });
   if (argv.j) {
     fs.outputFileSync(`${dir}/_all_dependencies.json`, JSON.stringify(getAggregatePackageStats(), null, 2));
+    fs.outputFileSync(`${dir}/_all.json`, JSON.stringify(patternflyAggs, null, 2));
   }
   console.log(`Collected stats for ${date} under ${dir}`);
 }
