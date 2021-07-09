@@ -46,7 +46,7 @@ function getPatternflyStats(repoPath) {
   // https://regex101.com/r/hcIlRX/1
   const importRegex = /import\s+{?([\w\s,*]+)}?\s+from\s+['"](.*patternfly.*)['"]/gm;
   // https://regex101.com/r/GGCTuA/1
-  const classRegex = /[^-\w](pf-[clu]-.*?)['"\s]/gm;
+  const classRegex = /[^-\w](pf-[clum]-.*?)['"\s]/gm;
   // https://regex101.com/r/gpPax3/1
   const varRegex = /(--pf(-global)?-\w*-\w*-\w*-\w*)/gm;
 
