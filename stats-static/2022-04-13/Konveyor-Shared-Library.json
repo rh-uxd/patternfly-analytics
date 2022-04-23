@@ -1,0 +1,162 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 9,
+        "ts": 1,
+        "css": 1
+      },
+      "js": 2,
+      "ts": 19,
+      "tsx": 11,
+      "css": 1
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/components/LoadingEmptyState.tsx",
+          "/src/components/ResolvedQuery/ResolvedQueries.tsx",
+          "/src/components/StatusIcon/StatusIcon.test.tsx",
+          "/src/components/StatusIcon/StatusIcon.tsx",
+          "/src/components/ValidatedTextInput/ValidatedPasswordInput.tsx",
+          "/src/components/ValidatedTextInput/ValidatedTextInput.stories.tsx",
+          "/src/components/ValidatedTextInput/ValidatedTextInput.tsx",
+          "/src/hooks/useFormState/useFormState.stories.tsx",
+          "/src/hooks/useSelectionState/useSelectionState.stories.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/hooks/useFormState/useFormState.ts"
+        ]
+      },
+      "css": {
+        "files": [
+          "/src/components/StatusIcon/StatusIcon.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Bullseye": 1,
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "Spinner": 3,
+      "SpinnerProps": 3,
+      "Title": 1,
+      "Alert": 1,
+      "AlertActionCloseButton": 1,
+      "AlertProps": 1,
+      "AlertGroup": 1,
+      "Flex": 3,
+      "FlexItem": 1,
+      "Button": 3,
+      "FormGroup": 3,
+      "FormGroupProps": 3,
+      "InputGroup": 1,
+      "TextInput": 3,
+      "TextInputProps": 3,
+      "Form": 2,
+      "TextArea": 3,
+      "TextAreaProps": 2,
+      "Checkbox": 1
+    },
+    "@patternfly/react-styles/css/utilities/Spacing/spacing": {
+      "spacing": 1
+    },
+    "@patternfly/react-tokens": {
+      "global_disabled_color_200": 2,
+      "global_success_color_100": 2,
+      "global_warning_color_100": 2,
+      "global_Color_dark_200": 2,
+      "global_danger_color_100": 2,
+      "global_info_color_100": 2,
+      "global_info_color_200": 1
+    },
+    "@patternfly/react-icons": {
+      "CheckCircleIcon": 1,
+      "ExclamationTriangleIcon": 1,
+      "ExclamationCircleIcon": 1,
+      "InfoCircleIcon": 1,
+      "QuestionCircleIcon": 1,
+      "PauseCircleIcon": 1,
+      "EyeIcon": 1,
+      "EyeSlashIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/createIcon": {
+      "SVGIconProps": 1
+    },
+    "@patternfly/react-table": {
+      "Table": 1,
+      "TableHeader": 1,
+      "TableBody": 1,
+      "ICell": 1,
+      "IRow": 1
+    }
+  },
+  "classes": {
+    "pf-c-empty-state__icon": 1,
+    "pf-l-flex": 1,
+    "pf-c-spinner.status-icon-loading-spinner": 1
+  },
+  "scssVars": {
+    "--pf-c-spinner--diameter": 1
+  },
+  "repo": "https://github.com/konveyor/lib-ui",
+  "name": "Konveyor-Shared-Library",
+  "date": "2022-04-13T20:29:45.548Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-table": 1,
+    "@patternfly/react-tokens": 1,
+    "@rollup/plugin-commonjs": 1,
+    "@rollup/plugin-json": 1,
+    "@rollup/plugin-node-resolve": 1,
+    "@storybook/addon-docs": 1,
+    "@storybook/addon-postcss": 1,
+    "@storybook/addons": 1,
+    "@storybook/react": 1,
+    "@storybook/theming": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@types/jest": 1,
+    "@types/react": 1,
+    "@types/rollup-plugin-postcss": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "axios": 1,
+    "babel-loader": 1,
+    "babel-preset-react-app": 1,
+    "cz-conventional-changelog": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "fast-deep-equal": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "levenary": 1,
+    "node-sass": 1,
+    "postcss": 1,
+    "prettier": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-is": 1,
+    "react-query": 1,
+    "rimraf": 1,
+    "rollup": 1,
+    "rollup-plugin-peer-deps-external": 1,
+    "rollup-plugin-postcss": 1,
+    "rollup-plugin-typescript2": 1,
+    "sass-loader": 1,
+    "semantic-release": 1,
+    "ts-jest": 1,
+    "tslib": 1,
+    "typescript": 1,
+    "yup": 1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "jsx": 2
+      },
+      "js": 18,
+      "jsx": 3,
+      "css": 4,
+      "less": 1
+    },
+    "withPatternfly": {
+      "jsx": {
+        "files": [
+          "/dashboard/src/modules/components/ToastNotificationComponent/index.jsx",
+          "/dashboard/src/modules/containers/MainLayout/index.jsx"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Alert": 1,
+      "AlertGroup": 1,
+      "AlertVariant": 1,
+      "AlertActionCloseButton": 1,
+      "Spinner": 1
+    }
+  },
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/distributed-system-analysis/pbench",
+  "name": "Pbench",
+  "date": "2022-04-21T01:58:33.864Z",
+  "dependencies": {
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "axios": 1,
+    "c3": 1,
+    "d3": 1,
+    "d3-queue": 1,
+    "fastdom": 1,
+    "function-bind": 1,
+    "nvd3": 1,
+    "patternfly": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-redux": 1,
+    "react-scripts": 1,
+    "redux-logger": 1,
+    "redux-thunk": 1,
+    "save-svg-as-png": 1,
+    "web-vitals": 1
+  }
+}
