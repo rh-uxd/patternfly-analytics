@@ -2,7 +2,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 const fs = require('fs-extra');
 // IMPORT FUNCTIONS FROM THIS DIRECTORY
-const { getPatternflyStats, patternflyAggs } = require('./getPatternfyStats');
+const { getPatternflyStats, patternflyAggs } = require('./getPatternflyStats');
 const { getPackageStats, getAggregatePackageStats } = require('./getPackageStats');
 const { getSortedImports } = require('./getSortedImports');
 // IMPORT JSON LIST OF REPOS
