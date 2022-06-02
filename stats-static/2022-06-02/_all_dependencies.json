@@ -1,0 +1,8022 @@
+{
+  "@allpro/react-router-pause": [
+    "Fuse-Online"
+  ],
+  "@angular-devkit/build-angular": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular-devkit/core": [
+    "Apicurio"
+  ],
+  "@angular/animations": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular/cli": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular/common": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular/compiler": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular/compiler-cli": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular/core": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular/elements": [
+    "Kogito"
+  ],
+  "@angular/forms": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular/language-service": [
+    "Apicurio",
+    "Fuse-Online"
+  ],
+  "@angular/platform-browser": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular/platform-browser-dynamic": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@angular/router": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "@ansible/galaxy-doc-builder": [
+    "Automation-Hub"
+  ],
+  "@apicurio/data-models": [
+    "Apicurio"
+  ],
+  "@apicurio/models": [
+    "Apicurio-POC",
+    "Apicurio-POC"
+  ],
+  "@apicurio/services": [
+    "Apicurio-POC"
+  ],
+  "@apollo/client": [
+    "Foreman-Tools",
+    "Insights-Compliance"
+  ],
+  "@apollo/react-hooks": [
+    "AMQ"
+  ],
+  "@apollo/react-testing": [
+    "AMQ",
+    "Foreman-Tools"
+  ],
+  "@atlasmap/atlasmap": [
+    "Fuse-Online"
+  ],
+  "@atlasmap/core": [
+    "Fuse-Online"
+  ],
+  "@axe-core/react": [
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@babel/cli": [
+    "3Scale",
+    "Keycloak",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Red-Hat-Developers",
+    "Settings-Sources"
+  ],
+  "@babel/compat-data": [
+    "Keycloak",
+    "Settings-Frontend",
+    "Settings-RBAC"
+  ],
+  "@babel/core": [
+    "3Scale",
+    "AMQ-Streams",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Foreman-Console",
+    "Foreman-Tasks",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Red-Hat-Developers",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "@babel/eslint-parser": [
+    "Cockpit",
+    "Foreman-Katello",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Vulnerability",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "@babel/eslint-plugin": [
+    "Foreman-Katello",
+    "Insights-Dashboard",
+    "Virtualization-Frontend"
+  ],
+  "@babel/helper-validator-identifier": [
+    "Settings-Hooks"
+  ],
+  "@babel/node": [
+    "Virtualization-Frontend"
+  ],
+  "@babel/plugin-proposal-class-properties": [
+    "3Scale",
+    "AMQ-Streams",
+    "Automation-Analytics",
+    "Foreman-Tools",
+    "Insights-Compliance",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Keycloak",
+    "Migration-Analytics",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-RBAC"
+  ],
+  "@babel/plugin-proposal-decorators": [
+    "Insights-Compliance",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Vulnerability",
+    "Product-Shared-Library",
+    "Settings-Frontend",
+    "Settings-RBAC"
+  ],
+  "@babel/plugin-proposal-nullish-coalescing-operator": [
+    "Insights-Vulnerability"
+  ],
+  "@babel/plugin-proposal-object-rest-spread": [
+    "3Scale",
+    "Automation-Analytics",
+    "Foreman-Tools",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC"
+  ],
+  "@babel/plugin-proposal-optional-chaining": [
+    "Insights-Vulnerability",
+    "Product-Shared-Library"
+  ],
+  "@babel/plugin-syntax-dynamic-import": [
+    "3Scale",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Foreman-Tools",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@babel/plugin-syntax-flow": [
+    "Virtualization-Frontend"
+  ],
+  "@babel/plugin-transform-destructuring": [
+    "3Scale"
+  ],
+  "@babel/plugin-transform-modules-amd": [
+    "Foreman-Tools"
+  ],
+  "@babel/plugin-transform-modules-commonjs": [
+    "Foreman-Tools"
+  ],
+  "@babel/plugin-transform-modules-systemjs": [
+    "Foreman-Tools"
+  ],
+  "@babel/plugin-transform-object-assign": [
+    "Foreman-Tools",
+    "Fuse-Online"
+  ],
+  "@babel/plugin-transform-react-display-name": [
+    "Product-Shared-Library"
+  ],
+  "@babel/plugin-transform-react-jsx": [
+    "Virtualization-Frontend"
+  ],
+  "@babel/plugin-transform-runtime": [
+    "3Scale",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Fuse-Online",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@babel/plugin-transform-template-literals": [
+    "3Scale"
+  ],
+  "@babel/plugin-transform-typescript": [
+    "Product-Shared-Library"
+  ],
+  "@babel/polyfill": [
+    "3Scale"
+  ],
+  "@babel/preset-env": [
+    "3Scale",
+    "AMQ-Streams",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Kogito",
+    "Migration-Analytics",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Red-Hat-Developers",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "@babel/preset-flow": [
+    "3Scale",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Settings-Frontend",
+    "Settings-RBAC",
+    "Virtualization-Frontend"
+  ],
+  "@babel/preset-react": [
+    "3Scale",
+    "AMQ-Streams",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Foreman-Tools",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Kogito",
+    "Migration-Analytics",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "@babel/preset-typescript": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Keycloak",
+    "Migration-Analytics",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog"
+  ],
+  "@babel/register": [
+    "Red-Hat-Developers"
+  ],
+  "@babel/runtime": [
+    "3Scale",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Fuse-Online",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC"
+  ],
+  "@babel/types": [
+    "Settings-RBAC"
+  ],
+  "@closeio/use-infinite-scroll": [
+    "Virtualization-Frontend"
+  ],
+  "@codemirror/autocomplete": [
+    "OpenShift-Admin-Console"
+  ],
+  "@codemirror/closebrackets": [
+    "OpenShift-Admin-Console"
+  ],
+  "@codemirror/commands": [
+    "OpenShift-Admin-Console"
+  ],
+  "@codemirror/highlight": [
+    "OpenShift-Admin-Console"
+  ],
+  "@codemirror/history": [
+    "OpenShift-Admin-Console"
+  ],
+  "@codemirror/lint": [
+    "OpenShift-Admin-Console"
+  ],
+  "@codemirror/matchbrackets": [
+    "OpenShift-Admin-Console"
+  ],
+  "@codemirror/search": [
+    "OpenShift-Admin-Console"
+  ],
+  "@codemirror/view": [
+    "OpenShift-Admin-Console"
+  ],
+  "@commitlint/cli": [
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Insights-Compliance"
+  ],
+  "@commitlint/config-conventional": [
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Insights-Compliance"
+  ],
+  "@commitlint/travis-cli": [
+    "Insights-Compliance"
+  ],
+  "@console/ceph-storage-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/container-security": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/dev-console": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/git-service": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/gitops-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/helm-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/insights-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/internal": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/knative-plugin": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/kubevirt-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/local-storage-operator-plugin": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/metal3-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/network-attachment-definition-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/operator-lifecycle-manager": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/patternfly": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/pipelines-plugin": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/plugin-sdk": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/rhoas-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/shared": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/telemetry-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/topology": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@craco/craco": [
+    "Fuse-Online"
+  ],
+  "@cypress/react": [
+    "Product-Shared-Library"
+  ],
+  "@cypress/webpack-dev-server": [
+    "Product-Shared-Library"
+  ],
+  "@cypress/webpack-preprocessor": [
+    "OpenShift-Admin-Console"
+  ],
+  "@data-driven-forms/form-builder": [
+    "Settings-Catalog"
+  ],
+  "@data-driven-forms/pf4-component-mapper": [
+    "Insights-Remediations",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@data-driven-forms/react-form-renderer": [
+    "Insights-Remediations",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@dump247/storybook-state": [
+    "Fuse-Online"
+  ],
+  "@eclipse-che/plugin-registry-generator": [
+    "Che-CodeReady"
+  ],
+  "@formatjs/cli": [
+    "Cost-Management",
+    "Insights-Dashboard",
+    "Insights-Vulnerability",
+    "Product-Shared-Library"
+  ],
+  "@formatjs/icu-messageformat-parser": [
+    "Virtualization-Frontend"
+  ],
+  "@fortawesome/fontawesome-free": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Integreatly",
+    "OpenShift-Admin-Console"
+  ],
+  "@fortawesome/fontawesome-svg-core": [
+    "Pbench"
+  ],
+  "@fortawesome/free-solid-svg-icons": [
+    "Cost-Management",
+    "Pbench"
+  ],
+  "@fortawesome/react-fontawesome": [
+    "Pbench"
+  ],
+  "@graphql-codegen/cli": [
+    "OpenShift-Admin-Console"
+  ],
+  "@graphql-codegen/typescript": [
+    "OpenShift-Admin-Console"
+  ],
+  "@graphql-codegen/typescript-graphql-files-modules": [
+    "OpenShift-Admin-Console"
+  ],
+  "@graphql-codegen/typescript-operations": [
+    "OpenShift-Admin-Console"
+  ],
+  "@hawtio/core-dts": [
+    "Fuse-Console"
+  ],
+  "@hawtio/node-backend": [
+    "Fuse-Console"
+  ],
+  "@hot-loader/react-dom": [
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@improbable-eng/grpc-web": [
+    "Operatorhub",
+    "Operatorhub"
+  ],
+  "@isomorphic-git/cors-proxy": [
+    "Kogito"
+  ],
+  "@isomorphic-git/idb-keyval": [
+    "Kogito"
+  ],
+  "@joi/date": [
+    "Insights-Curiosity"
+  ],
+  "@kie-tools-core/backend": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/chrome-extension": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/editor": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/envelope": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/envelope-bus": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/guided-tour": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/i18n": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/keyboard-shortcuts": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/monaco-editor": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/notifications": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/operating-system": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/patternfly-base": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/run-script-if": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/vscode-extension": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/vscode-java-code-completion": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/webpack-base": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-core/workspace": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-examples/base64png-editor": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-examples/ping-pong-view": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools-examples/ping-pong-view-angular": [
+    "Kogito"
+  ],
+  "@kie-tools-examples/ping-pong-view-react": [
+    "Kogito"
+  ],
+  "@kie-tools-examples/todo-list-view": [
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/backend-extended-services": [
+    "Kogito"
+  ],
+  "@kie-tools/boxed-expression-component": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/build-env": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder": [
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder-component-api": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder-component-assembler": [
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder-component-dev": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder-component-echarts": [
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder-component-echarts-base": [
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder-component-svg-heatmap": [
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder-component-table": [
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder-component-timeseries": [
+    "Kogito"
+  ],
+  "@kie-tools/dashbuilder-component-uniforms": [
+    "Kogito"
+  ],
+  "@kie-tools/dmn-dev-sandbox-form-webapp": [
+    "Kogito"
+  ],
+  "@kie-tools/dmn-dev-sandbox-quarkus": [
+    "Kogito"
+  ],
+  "@kie-tools/extended-services": [
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/feel-input-component": [
+    "Kogito"
+  ],
+  "@kie-tools/form": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/form-dmn": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/i18n-common-dictionary": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/image-env-to-json": [
+    "Kogito"
+  ],
+  "@kie-tools/import-java-classes-component": [
+    "Kogito"
+  ],
+  "@kie-tools/jitexecutor-native": [
+    "Kogito"
+  ],
+  "@kie-tools/kie-bc-editors": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/kie-editors-standalone": [
+    "Kogito"
+  ],
+  "@kie-tools/kie-sandbox-fs": [
+    "Kogito"
+  ],
+  "@kie-tools/online-editor": [
+    "Kogito"
+  ],
+  "@kie-tools/pmml-editor": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/pmml-editor-marshaller": [
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/serverless-workflow-editor": [
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/serverless-workflow-language-service": [
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/serverless-workflow-service-catalog": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/stunner-editors": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/stunner-editors-dmn-loader": [
+    "Kogito"
+  ],
+  "@kie-tools/uniforms-bootstrap4-codegen": [
+    "Kogito"
+  ],
+  "@kie-tools/uniforms-patternfly-codegen": [
+    "Kogito"
+  ],
+  "@kie-tools/unitables": [
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie-tools/unitables-dmn": [
+    "Kogito"
+  ],
+  "@kie-tools/vscode-java-code-completion-extension-plugin": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@kie/lock-treatment-tool": [
+    "Process-Automation"
+  ],
+  "@kie/npm-treatment-tool": [
+    "Kogito"
+  ],
+  "@konveyor/lib-ui": [
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@lerna/project": [
+    "Kogito",
+    "Kogito"
+  ],
+  "@lingui/cli": [
+    "Automation-Hub"
+  ],
+  "@lingui/macro": [
+    "Automation-Hub"
+  ],
+  "@lingui/react": [
+    "Automation-Hub"
+  ],
+  "@ls-lint/ls-lint": [
+    "Automation-Hub"
+  ],
+  "@mdx-js/loader": [
+    "Foreman-Tools",
+    "Product-Shared-Library"
+  ],
+  "@mdx-js/mdx": [
+    "Product-Shared-Library"
+  ],
+  "@mdx-js/react": [
+    "Product-Shared-Library"
+  ],
+  "@microsoft/tsdoc": [
+    "OpenShift-Admin-Console"
+  ],
+  "@next/env": [
+    "Product-Shared-Library"
+  ],
+  "@next/mdx": [
+    "Product-Shared-Library"
+  ],
+  "@novnc/novnc": [
+    "Foreman-Tools"
+  ],
+  "@octokit/plugin-rest-endpoint-methods": [
+    "Kogito"
+  ],
+  "@octokit/rest": [
+    "Kogito",
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library"
+  ],
+  "@openshift-console/dynamic-plugin-sdk": [
+    "OpenShift-Admin-Console"
+  ],
+  "@openshift-console/dynamic-plugin-sdk-webpack": [
+    "OpenShift-Admin-Console"
+  ],
+  "@openshift-console/plugin-shared": [
+    "OpenShift-Admin-Console"
+  ],
+  "@patternfly/patternfly": [
+    "3Scale",
+    "AMQ-Interconnect",
+    "AMQ-Streams",
+    "Apicurio",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Console",
+    "Fuse-Online",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Remediations",
+    "Integreatly",
+    "Keycloak",
+    "Kiali-App",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Pbench",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Red-Hat-Developers",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks"
+  ],
+  "@patternfly/patternfly-next": [
+    "Operatorhub"
+  ],
+  "@patternfly/pfe-datetime": [
+    "Red-Hat-Developers"
+  ],
+  "@patternfly/pfelement": [
+    "Red-Hat-Developers"
+  ],
+  "@patternfly/quickstarts": [
+    "3Scale",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-RBAC"
+  ],
+  "@patternfly/react-catalog-view-extension": [
+    "Foreman-Tools",
+    "OpenShift-Admin-Console"
+  ],
+  "@patternfly/react-charts": [
+    "AMQ",
+    "AMQ-Interconnect",
+    "Automation-Analytics",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Remediations",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Quay",
+    "Virtualization-Frontend"
+  ],
+  "@patternfly/react-code-editor": [
+    "Infinispan"
+  ],
+  "@patternfly/react-console": [
+    "OpenShift-Admin-Console",
+    "Virtualization-Frontend"
+  ],
+  "@patternfly/react-core": [
+    "3Scale",
+    "3Scale-Fly",
+    "AMQ",
+    "AMQ-Interconnect",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "@patternfly/react-icons": [
+    "3Scale",
+    "AMQ",
+    "AMQ-Interconnect",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Cockpit",
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Keycloak",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@patternfly/react-log-viewer": [
+    "Infinispan",
+    "Insights-Remediations",
+    "OpenShift-Admin-Console"
+  ],
+  "@patternfly/react-styles": [
+    "3Scale",
+    "AMQ",
+    "AMQ-Interconnect",
+    "AMQ-Streams",
+    "Cockpit",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Curiosity",
+    "Integreatly",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "@patternfly/react-table": [
+    "3Scale",
+    "3Scale-Fly",
+    "AMQ",
+    "AMQ-Interconnect",
+    "AMQ-Streams",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@patternfly/react-tokens": [
+    "Automation-Analytics",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Remediations",
+    "Kiali-App",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Settings-RBAC"
+  ],
+  "@patternfly/react-topology": [
+    "AMQ-Interconnect",
+    "Fuse-Online",
+    "OpenShift-Admin-Console"
+  ],
+  "@patternfly/react-virtualized-extension": [
+    "OpenShift-Admin-Console"
+  ],
+  "@pmmmwh/react-refresh-webpack-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@rails/webpacker": [
+    "3Scale"
+  ],
+  "@react-mock/localstorage": [
+    "AMQ-Interconnect"
+  ],
+  "@react-pdf/renderer": [
+    "Insights-Vulnerability",
+    "Product-Shared-Library"
+  ],
+  "@redhat-cloud-services/access-requests-frontend": [
+    "Settings-RBAC"
+  ],
+  "@redhat-cloud-services/approval-client": [
+    "Settings-Catalog"
+  ],
+  "@redhat-cloud-services/catalog-client": [
+    "Settings-Catalog"
+  ],
+  "@redhat-cloud-services/cost-management-client": [
+    "Settings-RBAC"
+  ],
+  "@redhat-cloud-services/eslint-config-redhat-cloud-services": [
+    "Automation-Analytics",
+    "Insights-Compliance",
+    "Insights-Remediations",
+    "Product-Shared-Library",
+    "Settings-Frontend",
+    "Settings-RBAC"
+  ],
+  "@redhat-cloud-services/frontend-components": [
+    "Automation-Analytics",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@redhat-cloud-services/frontend-components-charts": [
+    "Insights-Dashboard",
+    "Product-Shared-Library"
+  ],
+  "@redhat-cloud-services/frontend-components-config": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@redhat-cloud-services/frontend-components-config-utilities": [
+    "Automation-Hub",
+    "Cost-Management",
+    "Product-Shared-Library"
+  ],
+  "@redhat-cloud-services/frontend-components-notifications": [
+    "Automation-Analytics",
+    "Cost-Management",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@redhat-cloud-services/frontend-components-pdf-generator": [
+    "Insights-Compliance",
+    "Insights-Vulnerability",
+    "Product-Shared-Library"
+  ],
+  "@redhat-cloud-services/frontend-components-remediations": [
+    "Insights-Compliance",
+    "Product-Shared-Library"
+  ],
+  "@redhat-cloud-services/frontend-components-router": [
+    "Product-Shared-Library"
+  ],
+  "@redhat-cloud-services/frontend-components-testing": [
+    "Settings-Hooks"
+  ],
+  "@redhat-cloud-services/frontend-components-translations": [
+    "Cost-Management",
+    "Insights-Dashboard",
+    "Insights-Vulnerability",
+    "Settings-Hooks"
+  ],
+  "@redhat-cloud-services/frontend-components-utilities": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cost-Management",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "@redhat-cloud-services/host-inventory-client": [
+    "Insights-Compliance",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Product-Shared-Library"
+  ],
+  "@redhat-cloud-services/insights-common-typescript": [
+    "Settings-Hooks"
+  ],
+  "@redhat-cloud-services/rbac-client": [
+    "Cost-Management",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Hooks",
+    "Settings-RBAC"
+  ],
+  "@redhat-cloud-services/remediations-client": [
+    "Insights-Remediations"
+  ],
+  "@redhat-cloud-services/sources-client": [
+    "Insights-Remediations",
+    "Settings-Catalog"
+  ],
+  "@redhat-cloud-services/types": [
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "@redhat-cloud-services/vulnerabilities-client": [
+    "Insights-Vulnerability"
+  ],
+  "@reduxjs/toolkit": [
+    "Foreman-Tools",
+    "Migration-Toolkit-for-Containers"
+  ],
+  "@rescripts/cli": [
+    "AMQ"
+  ],
+  "@rh-uxd/appservices-patternfly-core": [
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Integreatly"
+  ],
+  "@rh-uxd/appservices-patternfly-crossconsole": [
+    "Common-Integration",
+    "Common-Integration"
+  ],
+  "@rh-uxd/integration-core": [
+    "Apicurio-POC"
+  ],
+  "@rh-uxd/integration-react": [
+    "Apicurio-POC"
+  ],
+  "@rjsf/core": [
+    "OpenShift-Admin-Console"
+  ],
+  "@rollup/plugin-commonjs": [
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Konveyor-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "@rollup/plugin-image": [
+    "Insights-Vulnerability"
+  ],
+  "@rollup/plugin-inject": [
+    "Keycloak"
+  ],
+  "@rollup/plugin-json": [
+    "Insights-Vulnerability",
+    "Konveyor-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "@rollup/plugin-node-resolve": [
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Konveyor-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "@rollup/plugin-typescript": [
+    "Keycloak"
+  ],
+  "@rollup/pluginutils": [
+    "Insights-Vulnerability"
+  ],
+  "@scalprum/core": [
+    "Product-Shared-Library"
+  ],
+  "@scalprum/react-core": [
+    "Insights-Remediations",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "@semantic-release/changelog": [
+    "Insights-Vulnerability"
+  ],
+  "@semantic-release/git": [
+    "Insights-Vulnerability"
+  ],
+  "@semantic-release/npm": [
+    "Insights-Vulnerability"
+  ],
+  "@sentry/browser": [
+    "Product-Shared-Library"
+  ],
+  "@sentry/minimal": [
+    "Settings-Sources"
+  ],
+  "@severlessworkflow/sdk-typescript": [
+    "Kogito"
+  ],
+  "@sheerun/mutationobserver-shim": [
+    "Foreman-Katello"
+  ],
+  "@simbathesailor/use-what-changed": [
+    "Kogito"
+  ],
+  "@spice-project/spice-html5": [
+    "Foreman-Tools"
+  ],
+  "@storybook/addon-a11y": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@storybook/addon-actions": [
+    "AMQ",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Kiali-App"
+  ],
+  "@storybook/addon-docs": [
+    "AMQ",
+    "Foreman-Tools",
+    "Konveyor-Shared-Library"
+  ],
+  "@storybook/addon-essentials": [
+    "Kiali-App"
+  ],
+  "@storybook/addon-info": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@storybook/addon-knobs": [
+    "AMQ",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@storybook/addon-links": [
+    "AMQ",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Kiali-App"
+  ],
+  "@storybook/addon-notes": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@storybook/addon-options": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@storybook/addon-postcss": [
+    "Foreman-Tools",
+    "Konveyor-Shared-Library"
+  ],
+  "@storybook/addon-storysource": [
+    "Foreman-Tools"
+  ],
+  "@storybook/addon-viewport": [
+    "AMQ",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@storybook/addons": [
+    "AMQ",
+    "Konveyor-Shared-Library"
+  ],
+  "@storybook/node-logger": [
+    "Kiali-App"
+  ],
+  "@storybook/preset-create-react-app": [
+    "Kiali-App"
+  ],
+  "@storybook/react": [
+    "AMQ",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Kiali-App",
+    "Konveyor-Shared-Library"
+  ],
+  "@storybook/source-loader": [
+    "Foreman-Tools"
+  ],
+  "@storybook/theming": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Konveyor-Shared-Library"
+  ],
+  "@stripe/react-stripe-js": [
+    "3Scale"
+  ],
+  "@stripe/stripe-js": [
+    "3Scale"
+  ],
+  "@syndesis/api": [
+    "Fuse-Online"
+  ],
+  "@syndesis/apicurio-adapter": [
+    "Fuse-Online"
+  ],
+  "@syndesis/apicurio-assembly": [
+    "Fuse-Online"
+  ],
+  "@syndesis/atlasmap-adapter": [
+    "Fuse-Online"
+  ],
+  "@syndesis/auto-form": [
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@syndesis/history": [
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@syndesis/models": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@syndesis/ui": [
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@syndesis/utils": [
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@testing-library/cypress": [
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@testing-library/dom": [
+    "Infinispan",
+    "Insights-Drift",
+    "Migration-Toolkit-for-Containers",
+    "Product-Shared-Library",
+    "Settings-Hooks",
+    "Settings-Sources"
+  ],
+  "@testing-library/jest-dom": [
+    "AMQ",
+    "AMQ-Interconnect",
+    "Automation-Analytics",
+    "Foreman-Katello",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Drift",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Hooks",
+    "Settings-Sources"
+  ],
+  "@testing-library/react": [
+    "AMQ",
+    "AMQ-Interconnect",
+    "Automation-Analytics",
+    "Cost-Management",
+    "Foreman-Katello",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Hooks",
+    "Settings-Sources"
+  ],
+  "@testing-library/react-hooks": [
+    "Automation-Analytics",
+    "Foreman-Tools",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Kogito",
+    "Product-Shared-Library",
+    "Settings-Hooks"
+  ],
+  "@testing-library/user-event": [
+    "Automation-Analytics",
+    "Cost-Management",
+    "Foreman-Katello",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Drift",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Pbench",
+    "Product-Shared-Library",
+    "Settings-Hooks",
+    "Settings-Sources"
+  ],
+  "@theforeman/builder": [
+    "Foreman-Console",
+    "Foreman-Katello",
+    "Foreman-Tasks",
+    "Foreman-Tools",
+    "Foreman-Tools"
+  ],
+  "@theforeman/eslint-plugin-foreman": [
+    "Foreman-Console",
+    "Foreman-Tasks"
+  ],
+  "@theforeman/find-foreman": [
+    "Foreman-Katello",
+    "Foreman-Tools"
+  ],
+  "@theforeman/stories": [
+    "Foreman-Console",
+    "Foreman-Tasks"
+  ],
+  "@theforeman/test": [
+    "Foreman-Console",
+    "Foreman-Tasks"
+  ],
+  "@theforeman/vendor": [
+    "Foreman-Console",
+    "Foreman-Tools"
+  ],
+  "@theforeman/vendor-core": [
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Foreman-Tools"
+  ],
+  "@theforeman/vendor-dev": [
+    "Foreman-Console",
+    "Foreman-Tasks",
+    "Foreman-Tools"
+  ],
+  "@types/angular": [
+    "Fuse-Console",
+    "Quay"
+  ],
+  "@types/angular-mocks": [
+    "Quay"
+  ],
+  "@types/angular-route": [
+    "Fuse-Console",
+    "Quay"
+  ],
+  "@types/angular-sanitize": [
+    "Quay"
+  ],
+  "@types/argv": [
+    "Operatorhub"
+  ],
+  "@types/chai": [
+    "Kogito",
+    "OpenShift-Admin-Console"
+  ],
+  "@types/chrome": [
+    "Kogito"
+  ],
+  "@types/classnames": [
+    "AMQ",
+    "Fuse-Online",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay"
+  ],
+  "@types/codemirror": [
+    "Fuse-Online"
+  ],
+  "@types/compare-versions": [
+    "Operatorhub"
+  ],
+  "@types/compression": [
+    "Operatorhub"
+  ],
+  "@types/core-js": [
+    "Quay"
+  ],
+  "@types/cypress-axe": [
+    "OpenShift-Admin-Console"
+  ],
+  "@types/cypress-cucumber-preprocessor": [
+    "Kiali-App"
+  ],
+  "@types/cypress-image-snapshot": [
+    "Kogito"
+  ],
+  "@types/cytoscape": [
+    "Kiali-App"
+  ],
+  "@types/d3-scale": [
+    "Fuse-Online"
+  ],
+  "@types/d3-shape": [
+    "Fuse-Online"
+  ],
+  "@types/dot": [
+    "Product-Shared-Library"
+  ],
+  "@types/dragula": [
+    "Operatorhub"
+  ],
+  "@types/echarts": [
+    "Kogito"
+  ],
+  "@types/ejs": [
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console"
+  ],
+  "@types/enzyme": [
+    "Apicurio-POC",
+    "Cost-Management",
+    "Fuse-Online",
+    "Kiali-App",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Quay"
+  ],
+  "@types/enzyme-adapter-react-16": [
+    "Apicurio-POC",
+    "Fuse-Online",
+    "Process-Automation"
+  ],
+  "@types/expect": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Red-Hat-Developers"
+  ],
+  "@types/express": [
+    "Fuse-Online",
+    "Migration-Toolkit-for-Virtualization",
+    "Operatorhub"
+  ],
+  "@types/file-saver": [
+    "Fuse-Online",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@types/filesystem": [
+    "Kogito"
+  ],
+  "@types/fs-extra": [
+    "Che-CodeReady",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Operatorhub"
+  ],
+  "@types/git-url-parse": [
+    "OpenShift-Admin-Console"
+  ],
+  "@types/glob": [
+    "Che-CodeReady",
+    "Kogito",
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "@types/google-protobuf": [
+    "Operatorhub",
+    "Operatorhub"
+  ],
+  "@types/heatmap.js": [
+    "Kogito"
+  ],
+  "@types/history": [
+    "Kogito",
+    "Operatorhub",
+    "Product-Shared-Library"
+  ],
+  "@types/i18next": [
+    "Fuse-Online"
+  ],
+  "@types/immutable": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "@types/inquirer": [
+    "Kogito"
+  ],
+  "@types/invariant": [
+    "Kogito"
+  ],
+  "@types/jasmine": [
+    "Fuse-Console",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay"
+  ],
+  "@types/jasminewd2": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "@types/jest": [
+    "3Scale-Fly",
+    "AMQ",
+    "AMQ-Interconnect",
+    "Apicurio-POC",
+    "Che-CodeReady",
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Console",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Kiali-App",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "@types/jest-when": [
+    "Kogito"
+  ],
+  "@types/jquery": [
+    "Fuse-Console",
+    "Quay"
+  ],
+  "@types/js-base64": [
+    "Apicurio"
+  ],
+  "@types/js-combinatorics": [
+    "OpenShift-Admin-Console"
+  ],
+  "@types/js-yaml": [
+    "Che-CodeReady",
+    "Kogito",
+    "Migration-Toolkit-for-Virtualization",
+    "Operatorhub"
+  ],
+  "@types/json-schema": [
+    "Kogito",
+    "OpenShift-Admin-Console"
+  ],
+  "@types/lodash": [
+    "Fuse-Console",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Migration-Analytics",
+    "Operatorhub",
+    "Operatorhub",
+    "Settings-Catalog"
+  ],
+  "@types/lodash-es": [
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay"
+  ],
+  "@types/lodash.isequal": [
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@types/marked": [
+    "Apicurio",
+    "Fuse-Console",
+    "Fuse-Online",
+    "Product-Shared-Library"
+  ],
+  "@types/mermaid": [
+    "Kogito"
+  ],
+  "@types/minimatch": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@types/mocha": [
+    "Kogito"
+  ],
+  "@types/mustache": [
+    "Fuse-Online"
+  ],
+  "@types/named-urls": [
+    "Fuse-Online"
+  ],
+  "@types/netmask": [
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@types/node": [
+    "3Scale-Fly",
+    "AMQ",
+    "Apicurio",
+    "Apicurio-POC",
+    "Automation-Hub",
+    "Common-Integration",
+    "Common-Integration",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Keycloak",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Operatorhub",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "@types/numeral": [
+    "Kogito"
+  ],
+  "@types/papaparse": [
+    "Kogito"
+  ],
+  "@types/patternfly-react": [
+    "Fuse-Online"
+  ],
+  "@types/prop-types": [
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay"
+  ],
+  "@types/q": [
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@types/qs": [
+    "Cost-Management",
+    "Settings-Catalog"
+  ],
+  "@types/react": [
+    "3Scale-Fly",
+    "AMQ",
+    "Apicurio-POC",
+    "Automation-Hub",
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Insights-Compliance",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "@types/react-content-loader": [
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "@types/react-dom": [
+    "3Scale-Fly",
+    "AMQ",
+    "Apicurio-POC",
+    "Automation-Hub",
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "@types/react-helmet": [
+    "Fuse-Online",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "@types/react-jsonschema-form": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "@types/react-lazy-load-image-component": [
+    "Settings-Catalog"
+  ],
+  "@types/react-loadable": [
+    "Fuse-Online"
+  ],
+  "@types/react-redux": [
+    "Cost-Management",
+    "Kiali-App",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "@types/react-resizable": [
+    "Kogito"
+  ],
+  "@types/react-router": [
+    "3Scale-Fly",
+    "AMQ",
+    "Apicurio-POC",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@types/react-router-dom": [
+    "3Scale-Fly",
+    "AMQ",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cost-Management",
+    "Fuse-Online",
+    "Infinispan",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "@types/react-router-hash-link": [
+    "Migration-Toolkit-for-Containers"
+  ],
+  "@types/react-syntax-highlighter": [
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@types/react-table": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@types/react-test-renderer": [
+    "Fuse-Online"
+  ],
+  "@types/react-transition-group": [
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "@types/react-truncate": [
+    "Settings-Catalog"
+  ],
+  "@types/react-virtualized": [
+    "Fuse-Online",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "@types/redux-logger": [
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Settings-Catalog"
+  ],
+  "@types/redux-mock-store": [
+    "Product-Shared-Library"
+  ],
+  "@types/redux-saga": [
+    "Migration-Toolkit-for-Containers"
+  ],
+  "@types/rollup-plugin-postcss": [
+    "Konveyor-Shared-Library"
+  ],
+  "@types/sanitize-html": [
+    "Operatorhub",
+    "Product-Shared-Library"
+  ],
+  "@types/selenium-webdriver": [
+    "Kogito"
+  ],
+  "@types/semver": [
+    "Che-CodeReady",
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "Operatorhub"
+  ],
+  "@types/showdown": [
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay"
+  ],
+  "@types/simpl-schema": [
+    "Kogito"
+  ],
+  "@types/simple-oauth2": [
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@types/sinon": [
+    "Kogito"
+  ],
+  "@types/streamsaver": [
+    "Automation-Analytics"
+  ],
+  "@types/styled-components": [
+    "Automation-Analytics",
+    "Settings-Catalog"
+  ],
+  "@types/svg-pan-zoom": [
+    "Kogito"
+  ],
+  "@types/testing-library__jest-dom": [
+    "Kogito",
+    "Migration-Toolkit-for-Containers"
+  ],
+  "@types/testing-library__react": [
+    "Kogito"
+  ],
+  "@types/testing-library__react-hooks": [
+    "Kogito"
+  ],
+  "@types/underscore": [
+    "Kogito"
+  ],
+  "@types/urijs": [
+    "Fuse-Console"
+  ],
+  "@types/uuid": [
+    "Automation-Analytics",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "@types/victory": [
+    "Infinispan",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "@types/vscode": [
+    "Kogito"
+  ],
+  "@types/webpack": [
+    "Apicurio-POC",
+    "Cost-Management",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "@types/webpack-dev-server": [
+    "OpenShift-Admin-Console"
+  ],
+  "@typescript-eslint/eslint-plugin": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Che-CodeReady",
+    "Cost-Management",
+    "Infinispan",
+    "Keycloak",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "@typescript-eslint/parser": [
+    "Automation-Hub",
+    "Che-CodeReady",
+    "Cost-Management",
+    "Infinispan",
+    "Keycloak",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "@vscode/test-web": [
+    "Kogito"
+  ],
+  "@wdio/allure-reporter": [
+    "Red-Hat-Developers"
+  ],
+  "@wdio/cli": [
+    "Red-Hat-Developers"
+  ],
+  "@wdio/dot-reporter": [
+    "Red-Hat-Developers"
+  ],
+  "@wdio/local-runner": [
+    "Red-Hat-Developers"
+  ],
+  "@wdio/mocha-framework": [
+    "Red-Hat-Developers"
+  ],
+  "@wdio/reporter": [
+    "Red-Hat-Developers"
+  ],
+  "@wdio/selenium-standalone-service": [
+    "Red-Hat-Developers"
+  ],
+  "@wdio/spec-reporter": [
+    "Red-Hat-Developers"
+  ],
+  "@wdio/sync": [
+    "Red-Hat-Developers"
+  ],
+  "@webcomponents/custom-elements": [
+    "Kiali-App"
+  ],
+  "@webcomponents/webcomponentsjs": [
+    "Foreman-Tools"
+  ],
+  "@webpack-cli/serve": [
+    "Infinispan"
+  ],
+  "@wojtekmaj/enzyme-adapter-react-17": [
+    "Automation-Analytics",
+    "Cost-Management",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "OpenShift-Admin-Console",
+    "Settings-Frontend",
+    "Settings-RBAC"
+  ],
+  "@wojtekmaj/enzyme-adapter-utils": [
+    "Insights-Remediations"
+  ],
+  "@xstate/test": [
+    "Cost-Management"
+  ],
+  "@yarnpkg/lockfile": [
+    "Cost-Management"
+  ],
+  "abort-controller": [
+    "OpenShift-Admin-Console"
+  ],
+  "abortcontroller-polyfill": [
+    "Insights-Inventory"
+  ],
+  "ace-builds": [
+    "Foreman-Tools"
+  ],
+  "acorn": [
+    "OpenShift-Admin-Console"
+  ],
+  "acorn-jsx": [
+    "OpenShift-Admin-Console"
+  ],
+  "ajv": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "OpenShift-Admin-Console"
+  ],
+  "ajv-errors": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "allure-commandline": [
+    "Red-Hat-Developers"
+  ],
+  "angular": [
+    "Foreman-Katello",
+    "Fuse-Console",
+    "Keycloak",
+    "Quay"
+  ],
+  "angular-cookies": [
+    "Keycloak"
+  ],
+  "angular-loader": [
+    "Keycloak"
+  ],
+  "angular-mocks": [
+    "Quay"
+  ],
+  "angular-patternfly": [
+    "Foreman-Katello",
+    "Fuse-Console"
+  ],
+  "angular-resource": [
+    "Keycloak"
+  ],
+  "angular-route": [
+    "Fuse-Console",
+    "Keycloak",
+    "Quay"
+  ],
+  "angular-sanitize": [
+    "Keycloak",
+    "Quay"
+  ],
+  "angular-translate": [
+    "Keycloak"
+  ],
+  "angular-translate-loader-url": [
+    "Keycloak"
+  ],
+  "angular-treeview": [
+    "Keycloak"
+  ],
+  "angular-ui-select2": [
+    "Keycloak"
+  ],
+  "aphrodite": [
+    "Cost-Management"
+  ],
+  "apicurio-data-models": [
+    "Apicurio-POC",
+    "Fuse-Online"
+  ],
+  "apicurio-design-studio": [
+    "Fuse-Online"
+  ],
+  "apicurio-ts-core": [
+    "Apicurio",
+    "Apicurio-POC",
+    "Fuse-Online"
+  ],
+  "apidoc-mock": [
+    "Insights-Curiosity"
+  ],
+  "apollo-boost": [
+    "AMQ",
+    "Insights-Compliance"
+  ],
+  "apollo-cache-inmemory": [
+    "OpenShift-Admin-Console"
+  ],
+  "apollo-client": [
+    "OpenShift-Admin-Console"
+  ],
+  "apollo-link-http": [
+    "OpenShift-Admin-Console"
+  ],
+  "apollo-link-ws": [
+    "OpenShift-Admin-Console"
+  ],
+  "apollo-server": [
+    "AMQ"
+  ],
+  "appformer-js": [
+    "Process-Automation"
+  ],
+  "argparse": [
+    "Cockpit"
+  ],
+  "argv": [
+    "Operatorhub"
+  ],
+  "argv-parse": [
+    "Foreman-Console"
+  ],
+  "asciidoctor.js": [
+    "Integreatly"
+  ],
+  "asn1js": [
+    "OpenShift-Admin-Console"
+  ],
+  "assert": [
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "assert-never": [
+    "Settings-Hooks"
+  ],
+  "assets-webpack-plugin": [
+    "RHEL-Composer"
+  ],
+  "async": [
+    "Red-Hat-Developers"
+  ],
+  "asyncawait": [
+    "Red-Hat-Developers"
+  ],
+  "autofill-event": [
+    "Keycloak"
+  ],
+  "autoprefixer": [
+    "Red-Hat-Developers"
+  ],
+  "awesome-debounce-promise": [
+    "Insights-Remediations",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Sources"
+  ],
+  "axe-core": [
+    "Cockpit"
+  ],
+  "axios": [
+    "Apicurio-POC",
+    "Automation-Hub",
+    "Che-CodeReady",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Hooks",
+    "Settings-Sources"
+  ],
+  "axios-mock-adapter": [
+    "Foreman-Katello",
+    "Foreman-Tools",
+    "Insights-Inventory",
+    "Kiali-App",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "babel-cli": [
+    "IMS-V2V"
+  ],
+  "babel-core": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Drift",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Kiali-App",
+    "Migration-Analytics",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC"
+  ],
+  "babel-eslint": [
+    "3Scale",
+    "Foreman-Console",
+    "Foreman-Tasks",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Inventory",
+    "Keycloak",
+    "Migration-Analytics",
+    "Operatorhub",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks"
+  ],
+  "babel-jest": [
+    "3Scale",
+    "AMQ-Streams",
+    "Automation-Analytics",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Virtualization-Frontend"
+  ],
+  "babel-loader": [
+    "3Scale",
+    "AMQ",
+    "AMQ-Streams",
+    "Cockpit",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Insights-Compliance",
+    "Insights-Drift",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Virtualization-Frontend"
+  ],
+  "babel-plugin-add-module-exports": [
+    "IMS-V2V"
+  ],
+  "babel-plugin-dev-expression": [
+    "Fuse-Online"
+  ],
+  "babel-plugin-dual-import": [
+    "Insights-Dashboard",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Settings-RBAC"
+  ],
+  "babel-plugin-dynamic-import-node": [
+    "Foreman-Tools",
+    "Foreman-Tools"
+  ],
+  "babel-plugin-istanbul": [
+    "RHEL-Composer"
+  ],
+  "babel-plugin-lodash": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Insights-Compliance",
+    "Insights-Drift",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC"
+  ],
+  "babel-plugin-macros": [
+    "Automation-Hub"
+  ],
+  "babel-plugin-module-resolver": [
+    "Foreman-Tools"
+  ],
+  "babel-plugin-named-asset-import": [
+    "Fuse-Online"
+  ],
+  "babel-plugin-react-docgen": [
+    "Foreman-Tools"
+  ],
+  "babel-plugin-react-intl": [
+    "RHEL-Composer"
+  ],
+  "babel-plugin-react-intl-auto": [
+    "RHEL-Composer"
+  ],
+  "babel-plugin-transform-class-properties": [
+    "IMS-V2V",
+    "Insights-Vulnerability"
+  ],
+  "babel-plugin-transform-es2015-modules-commonjs": [
+    "IMS-V2V"
+  ],
+  "babel-plugin-transform-export-extensions": [
+    "IMS-V2V"
+  ],
+  "babel-plugin-transform-imports": [
+    "Automation-Analytics",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC"
+  ],
+  "babel-plugin-transform-inline-environment-variables": [
+    "Insights-Vulnerability"
+  ],
+  "babel-plugin-transform-object-assign": [
+    "IMS-V2V"
+  ],
+  "babel-plugin-transform-object-rest-spread": [
+    "IMS-V2V",
+    "Insights-Remediations"
+  ],
+  "babel-polyfill": [
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Vulnerability",
+    "Product-Shared-Library"
+  ],
+  "babel-preset-env": [
+    "IMS-V2V",
+    "Process-Automation"
+  ],
+  "babel-preset-es2015": [
+    "Apicurio-POC",
+    "IMS-V2V"
+  ],
+  "babel-preset-minify": [
+    "IMS-V2V"
+  ],
+  "babel-preset-react": [
+    "IMS-V2V",
+    "Process-Automation"
+  ],
+  "babel-preset-react-app": [
+    "Fuse-Online",
+    "Insights-Curiosity",
+    "Konveyor-Shared-Library"
+  ],
+  "babel-preset-stage-1": [
+    "IMS-V2V"
+  ],
+  "base64-js": [
+    "Keycloak"
+  ],
+  "bastion": [
+    "Foreman-Katello"
+  ],
+  "bluebird": [
+    "Fuse-Online"
+  ],
+  "body-parser": [
+    "AMQ-Interconnect",
+    "Integreatly"
+  ],
+  "bootbox": [
+    "Quay"
+  ],
+  "bootstrap": [
+    "Fuse-Online",
+    "Keycloak",
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "bootstrap-sass": [
+    "3Scale",
+    "Foreman-Tools",
+    "Operatorhub",
+    "Quay"
+  ],
+  "bootstrap-select": [
+    "Foreman-Katello",
+    "Virtualization-Frontend"
+  ],
+  "bootstrap-slider-without-jquery": [
+    "Kiali-App"
+  ],
+  "bootstrap-switch": [
+    "Virtualization-Frontend"
+  ],
+  "bootstrap-touchspin": [
+    "IMS-V2V"
+  ],
+  "brace": [
+    "Apicurio",
+    "Fuse-Online",
+    "Operatorhub",
+    "Quay"
+  ],
+  "braintree-web": [
+    "3Scale"
+  ],
+  "browser-env": [
+    "OpenShift-Admin-Console"
+  ],
+  "browser-sync": [
+    "Red-Hat-Developers"
+  ],
+  "browserify-zlib": [
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "browserslist": [
+    "AMQ-Interconnect"
+  ],
+  "buffer": [
+    "Kogito",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "c3": [
+    "3Scale",
+    "Foreman-Tasks",
+    "Pbench",
+    "Product-Shared-Library"
+  ],
+  "cache-loader": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "camelcase": [
+    "Settings-Hooks",
+    "Virtualization-Frontend"
+  ],
+  "canvas": [
+    "3Scale",
+    "Settings-Catalog"
+  ],
+  "case-sensitive-paths-webpack-plugin": [
+    "Virtualization-Frontend"
+  ],
+  "chai": [
+    "Kogito",
+    "Red-Hat-Developers"
+  ],
+  "chalk": [
+    "Foreman-Tools",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "Virtualization-Frontend"
+  ],
+  "cheerio": [
+    "Foreman-Tools"
+  ],
+  "chokidar": [
+    "Keycloak",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "chrome-remote-interface": [
+    "Cockpit",
+    "RHEL-Composer"
+  ],
+  "chromedriver": [
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "circular-dependency-plugin": [
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "Process-Automation",
+    "Quay"
+  ],
+  "classnames": [
+    "3Scale",
+    "Automation-Hub",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "clean-terminal-webpack-plugin": [
+    "Virtualization-Frontend"
+  ],
+  "clean-webpack-plugin": [
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "RHEL-Composer"
+  ],
+  "client-oauth2": [
+    "Integreatly"
+  ],
+  "clipboard": [
+    "Quay"
+  ],
+  "clone": [
+    "AMQ",
+    "AMQ"
+  ],
+  "clsx": [
+    "Settings-Catalog"
+  ],
+  "codecov": [
+    "Insights-Compliance",
+    "Insights-Vulnerability"
+  ],
+  "codelyzer": [
+    "Apicurio"
+  ],
+  "codemirror": [
+    "3Scale",
+    "Fuse-Online"
+  ],
+  "codemirror-promql": [
+    "OpenShift-Admin-Console"
+  ],
+  "codesandbox": [
+    "Product-Shared-Library"
+  ],
+  "combine-reducer": [
+    "Kogito"
+  ],
+  "commander": [
+    "Cost-Management",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Kogito",
+    "Product-Shared-Library"
+  ],
+  "comment-json": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "commitlint-config-cz": [
+    "Foreman-Tools"
+  ],
+  "compare-versions": [
+    "Operatorhub"
+  ],
+  "compressing": [
+    "Kogito"
+  ],
+  "compression": [
+    "Migration-Toolkit-for-Containers",
+    "Operatorhub"
+  ],
+  "compression-webpack-plugin": [
+    "Cockpit",
+    "Foreman-Console",
+    "Foreman-Tools"
+  ],
+  "concurrently": [
+    "Che-CodeReady",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "connect-history-api-fallback": [
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Virtualization-Frontend"
+  ],
+  "connected-react-router": [
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Migration-Toolkit-for-Containers",
+    "Operatorhub",
+    "Virtualization-Frontend"
+  ],
+  "copy-to-clipboard": [
+    "Operatorhub"
+  ],
+  "copy-webpack-plugin": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Cockpit",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Infinispan",
+    "Insights-Curiosity",
+    "Kogito",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "copyfiles": [
+    "Kogito",
+    "Red-Hat-Developers"
+  ],
+  "cordova-android": [
+    "Keycloak"
+  ],
+  "cordova-ios": [
+    "Keycloak"
+  ],
+  "cordova-plugin-browsertab": [
+    "Keycloak"
+  ],
+  "cordova-plugin-compat": [
+    "Keycloak"
+  ],
+  "cordova-plugin-deeplinks": [
+    "Keycloak"
+  ],
+  "cordova-plugin-whitelist": [
+    "Keycloak"
+  ],
+  "core-js": [
+    "3Scale",
+    "Apicurio",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Quay",
+    "Quay",
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "coveralls": [
+    "Foreman-Tools"
+  ],
+  "cp-cli": [
+    "Apicurio",
+    "Fuse-Online"
+  ],
+  "cpr": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "cpx": [
+    "Che-CodeReady",
+    "Red-Hat-Developers"
+  ],
+  "create-react-class": [
+    "Migration-Analytics"
+  ],
+  "cross-env": [
+    "Cost-Management",
+    "Foreman-Console"
+  ],
+  "cross-fetch": [
+    "Migration-Analytics",
+    "Settings-Hooks",
+    "Settings-RBAC"
+  ],
+  "cross-var": [
+    "Kogito",
+    "Red-Hat-Developers"
+  ],
+  "cspell": [
+    "Insights-Curiosity"
+  ],
+  "css-loader": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Vulnerability",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Virtualization-Frontend"
+  ],
+  "css-minimizer-webpack-plugin": [
+    "Cockpit",
+    "Infinispan",
+    "Migration-Toolkit-for-Virtualization",
+    "Virtualization-Frontend"
+  ],
+  "cssnano": [
+    "Foreman-Console",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "cssnano-cli": [
+    "Red-Hat-Developers"
+  ],
+  "cssnano-preset-lite": [
+    "Cockpit"
+  ],
+  "csstips": [
+    "Kiali-App",
+    "Settings-Hooks"
+  ],
+  "csstype": [
+    "Automation-Hub",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "csv-parse": [
+    "IMS-V2V"
+  ],
+  "csx": [
+    "Kiali-App",
+    "Settings-Hooks"
+  ],
+  "customize-cra": [
+    "Pbench"
+  ],
+  "customize-cra-less-loader": [
+    "Pbench"
+  ],
+  "cy-node-html-label": [
+    "Kiali-App"
+  ],
+  "cypress": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Fuse-Online",
+    "Infinispan",
+    "Kiali-App",
+    "Kogito",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library"
+  ],
+  "cypress-axe": [
+    "OpenShift-Admin-Console"
+  ],
+  "cypress-cucumber-preprocessor": [
+    "Kiali-App",
+    "OpenShift-Admin-Console"
+  ],
+  "cypress-file-upload": [
+    "Automation-Hub",
+    "Kogito",
+    "OpenShift-Admin-Console"
+  ],
+  "cypress-iframe": [
+    "Kogito"
+  ],
+  "cypress-image-snapshot": [
+    "Kogito"
+  ],
+  "cypress-jest-adapter": [
+    "OpenShift-Admin-Console"
+  ],
+  "cypress-log-to-output": [
+    "Automation-Hub",
+    "Kogito"
+  ],
+  "cypress-mochawesome-reporter": [
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "cypress-multi-reporters": [
+    "Automation-Hub",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console"
+  ],
+  "cypress-real-events": [
+    "Kogito",
+    "Kogito"
+  ],
+  "cytoscape": [
+    "Kiali-App"
+  ],
+  "cytoscape-canvas": [
+    "Kiali-App"
+  ],
+  "cytoscape-popper": [
+    "Kiali-App"
+  ],
+  "cz-conventional-changelog": [
+    "Konveyor-Shared-Library"
+  ],
+  "cz-customizable": [
+    "Foreman-Tools"
+  ],
+  "d3": [
+    "AMQ-Interconnect",
+    "Automation-Analytics",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Pbench",
+    "Product-Shared-Library"
+  ],
+  "d3-queue": [
+    "AMQ-Interconnect",
+    "Pbench"
+  ],
+  "d3-scale": [
+    "Fuse-Online"
+  ],
+  "d3-shape": [
+    "Fuse-Online"
+  ],
+  "dagre": [
+    "Kiali-App"
+  ],
+  "datatables.net": [
+    "Foreman-Tools"
+  ],
+  "datatables.net-bs": [
+    "Foreman-Tools"
+  ],
+  "date-fns": [
+    "AMQ",
+    "Cockpit",
+    "Cost-Management",
+    "Settings-Hooks"
+  ],
+  "dateformat": [
+    "Operatorhub"
+  ],
+  "dayjs": [
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "dayjs-ext": [
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "debug": [
+    "AMQ",
+    "AMQ-Streams"
+  ],
+  "decompress": [
+    "Kogito"
+  ],
+  "deep-equal": [
+    "Cockpit"
+  ],
+  "deep-freeze": [
+    "Kiali-App"
+  ],
+  "deep-object-diff": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Settings-Sources"
+  ],
+  "deepmerge": [
+    "Fuse-Online"
+  ],
+  "del": [
+    "Fuse-Console",
+    "RHEL-Composer"
+  ],
+  "del-cli": [
+    "Red-Hat-Developers"
+  ],
+  "detect-browser": [
+    "Automation-Hub",
+    "Integreatly",
+    "Settings-Catalog"
+  ],
+  "detect-port": [
+    "Virtualization-Frontend"
+  ],
+  "dexie": [
+    "Kogito"
+  ],
+  "diff": [
+    "Foreman-Tools"
+  ],
+  "docker-file-parser": [
+    "OpenShift-Admin-Console"
+  ],
+  "dot": [
+    "Insights-Vulnerability",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "dotenv": [
+    "Foreman-Console",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Product-Shared-Library",
+    "Virtualization-Frontend"
+  ],
+  "dotenv-expand": [
+    "Insights-Curiosity"
+  ],
+  "dotenv-webpack": [
+    "Infinispan",
+    "Insights-Curiosity"
+  ],
+  "download-cli": [
+    "Settings-Hooks"
+  ],
+  "downshift": [
+    "Foreman-Katello"
+  ],
+  "dsmorse-gridster": [
+    "Foreman-Tools"
+  ],
+  "dtsgenerator": [
+    "Fuse-Online"
+  ],
+  "echarts": [
+    "Kogito"
+  ],
+  "ejs": [
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "RHEL-Composer"
+  ],
+  "electron": [
+    "Kogito"
+  ],
+  "electron-packager": [
+    "Kogito"
+  ],
+  "electron-rebuild": [
+    "Kogito"
+  ],
+  "elliptic": [
+    "AMQ"
+  ],
+  "empty": [
+    "3Scale"
+  ],
+  "env-cmd": [
+    "Settings-Hooks"
+  ],
+  "enzyme": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Kiali-App",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-RBAC"
+  ],
+  "enzyme-adapter-react-16": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Insights-Dashboard",
+    "Integreatly",
+    "Kiali-App",
+    "Migration-Analytics",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog"
+  ],
+  "enzyme-to-json": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Cost-Management",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Kiali-App",
+    "Migration-Analytics",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-RBAC"
+  ],
+  "es6-promise": [
+    "Keycloak"
+  ],
+  "escape-string-regexp": [
+    "AMQ"
+  ],
+  "eslint": [
+    "3Scale",
+    "AMQ",
+    "AMQ-Streams",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Che-CodeReady",
+    "Cockpit",
+    "Cost-Management",
+    "Foreman-Console",
+    "Foreman-Katello",
+    "Foreman-Katello",
+    "Foreman-Katello",
+    "Foreman-Tasks",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Openstack-Horizon",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "eslint-config-airbnb": [
+    "Foreman-Katello",
+    "IMS-V2V",
+    "Insights-Curiosity",
+    "OpenShift-Admin-Console",
+    "RHEL-Composer"
+  ],
+  "eslint-config-airbnb-base": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-config-google": [
+    "Red-Hat-Developers"
+  ],
+  "eslint-config-next": [
+    "Product-Shared-Library"
+  ],
+  "eslint-config-openstack": [
+    "Openstack-Horizon"
+  ],
+  "eslint-config-prettier": [
+    "Automation-Hub",
+    "Che-CodeReady",
+    "IMS-V2V",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Vulnerability",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-Sources"
+  ],
+  "eslint-config-react-app": [
+    "Insights-Curiosity",
+    "Keycloak"
+  ],
+  "eslint-config-standard": [
+    "3Scale",
+    "Cockpit",
+    "IMS-V2V",
+    "Virtualization-Frontend"
+  ],
+  "eslint-config-standard-jsx": [
+    "Cockpit",
+    "IMS-V2V"
+  ],
+  "eslint-config-standard-react": [
+    "Cockpit",
+    "IMS-V2V",
+    "Virtualization-Frontend"
+  ],
+  "eslint-import-resolver-alias": [
+    "Foreman-Tools"
+  ],
+  "eslint-import-resolver-typescript": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-loader": [
+    "3Scale",
+    "Insights-Dashboard",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks"
+  ],
+  "eslint-plugin-angular": [
+    "Foreman-Katello",
+    "Foreman-Katello",
+    "Openstack-Horizon"
+  ],
+  "eslint-plugin-babel": [
+    "Foreman-Katello",
+    "RHEL-Composer"
+  ],
+  "eslint-plugin-chai-expect": [
+    "Red-Hat-Developers"
+  ],
+  "eslint-plugin-chai-friendly": [
+    "Red-Hat-Developers"
+  ],
+  "eslint-plugin-cypress": [
+    "Automation-Analytics",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library"
+  ],
+  "eslint-plugin-deprecation": [
+    "Che-CodeReady"
+  ],
+  "eslint-plugin-flowtype": [
+    "3Scale",
+    "Cockpit",
+    "Insights-Curiosity",
+    "Keycloak",
+    "Virtualization-Frontend"
+  ],
+  "eslint-plugin-formatjs": [
+    "Cost-Management",
+    "Settings-Catalog"
+  ],
+  "eslint-plugin-graphql": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-header": [
+    "Che-CodeReady"
+  ],
+  "eslint-plugin-i18n-json": [
+    "Infinispan"
+  ],
+  "eslint-plugin-import": [
+    "3Scale",
+    "Che-CodeReady",
+    "Cockpit",
+    "Foreman-Katello",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Insights-Curiosity",
+    "Keycloak",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Red-Hat-Developers",
+    "Virtualization-Frontend"
+  ],
+  "eslint-plugin-jest": [
+    "Che-CodeReady",
+    "Foreman-Katello",
+    "IMS-V2V",
+    "Insights-Curiosity",
+    "OpenShift-Admin-Console",
+    "Settings-Hooks"
+  ],
+  "eslint-plugin-jest-dom": [
+    "Cost-Management",
+    "Infinispan",
+    "Settings-Hooks"
+  ],
+  "eslint-plugin-jquery": [
+    "Foreman-Tools"
+  ],
+  "eslint-plugin-jsdoc": [
+    "Cost-Management",
+    "Insights-Curiosity"
+  ],
+  "eslint-plugin-json": [
+    "Insights-Curiosity",
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-jsx-a11y": [
+    "3Scale",
+    "Cockpit",
+    "Foreman-Katello",
+    "IMS-V2V",
+    "Insights-Curiosity",
+    "Keycloak",
+    "OpenShift-Admin-Console",
+    "RHEL-Composer"
+  ],
+  "eslint-plugin-markdown": [
+    "Cost-Management"
+  ],
+  "eslint-plugin-no-null": [
+    "Che-CodeReady"
+  ],
+  "eslint-plugin-no-unsanitized": [
+    "Che-CodeReady"
+  ],
+  "eslint-plugin-node": [
+    "Cockpit",
+    "OpenShift-Admin-Console",
+    "Red-Hat-Developers",
+    "Virtualization-Frontend"
+  ],
+  "eslint-plugin-patternfly-react": [
+    "AMQ-Streams",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Integreatly",
+    "Operatorhub"
+  ],
+  "eslint-plugin-prettier": [
+    "Cost-Management",
+    "IMS-V2V",
+    "Insights-Curiosity",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Sources"
+  ],
+  "eslint-plugin-promise": [
+    "3Scale",
+    "Cockpit",
+    "Foreman-Katello",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "OpenShift-Admin-Console",
+    "Red-Hat-Developers",
+    "Virtualization-Frontend"
+  ],
+  "eslint-plugin-react": [
+    "3Scale",
+    "Automation-Hub",
+    "Cockpit",
+    "Cost-Management",
+    "Foreman-Katello",
+    "IMS-V2V",
+    "Infinispan",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "eslint-plugin-react-hooks": [
+    "Cockpit",
+    "Foreman-Katello",
+    "Foreman-Tools",
+    "Infinispan",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Vulnerability",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Hooks",
+    "Virtualization-Frontend"
+  ],
+  "eslint-plugin-redux-saga": [
+    "RHEL-Composer"
+  ],
+  "eslint-plugin-rulesdir": [
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "eslint-plugin-simple-import-sort": [
+    "Cost-Management",
+    "Settings-Hooks"
+  ],
+  "eslint-plugin-sort-class-members": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-sort-keys-fix": [
+    "Cost-Management"
+  ],
+  "eslint-plugin-spellcheck": [
+    "Foreman-Console"
+  ],
+  "eslint-plugin-standard": [
+    "3Scale",
+    "Cockpit",
+    "IMS-V2V",
+    "Red-Hat-Developers"
+  ],
+  "eslint-plugin-testing-library": [
+    "Cost-Management",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "Settings-Hooks"
+  ],
+  "eslint-plugin-tsdoc": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-webpack-plugin": [
+    "Cockpit",
+    "Insights-Curiosity",
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "eventemitter3": [
+    "Kiali-App"
+  ],
+  "expect": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "expose-loader": [
+    "Foreman-Console"
+  ],
+  "express": [
+    "AMQ-Interconnect",
+    "Infinispan",
+    "Insights-Curiosity",
+    "Integreatly",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "Operatorhub",
+    "Product-Shared-Library"
+  ],
+  "express-force-ssl": [
+    "Operatorhub"
+  ],
+  "express-http-proxy": [
+    "Integreatly"
+  ],
+  "express-prometheus-middleware": [
+    "Integreatly"
+  ],
+  "extract-text-webpack-plugin": [
+    "Foreman-Console"
+  ],
+  "faker": [
+    "RHEL-Composer",
+    "Red-Hat-Developers"
+  ],
+  "fast-deep-equal": [
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "fast-json-patch": [
+    "AMQ"
+  ],
+  "fast-xml-parser": [
+    "Kogito"
+  ],
+  "fastclick": [
+    "RHEL-Composer"
+  ],
+  "fastdom": [
+    "Pbench"
+  ],
+  "fetch-mock": [
+    "Insights-Inventory",
+    "Settings-Hooks"
+  ],
+  "fetch-mock-jest": [
+    "Automation-Analytics"
+  ],
+  "file-loader": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Infinispan",
+    "Insights-Dashboard",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-RBAC",
+    "Virtualization-Frontend"
+  ],
+  "file-saver": [
+    "Automation-Hub",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay"
+  ],
+  "file-selector": [
+    "IMS-V2V"
+  ],
+  "filesaver": [
+    "Keycloak"
+  ],
+  "filesize": [
+    "Virtualization-Frontend"
+  ],
+  "find-up": [
+    "OpenShift-Admin-Console"
+  ],
+  "flow-bin": [
+    "3Scale",
+    "Virtualization-Frontend"
+  ],
+  "flow-typed": [
+    "3Scale",
+    "Virtualization-Frontend"
+  ],
+  "focus-trap-react": [
+    "OpenShift-Admin-Console"
+  ],
+  "font-awesome": [
+    "AMQ-Interconnect",
+    "Keycloak",
+    "Operatorhub",
+    "Quay"
+  ],
+  "fork-ts-checker-webpack-plugin": [
+    "Automation-Hub",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay"
+  ],
+  "formik": [
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "Settings-Hooks"
+  ],
+  "freemarker-parser": [
+    "Fuse-Online"
+  ],
+  "fs": [
+    "Red-Hat-Developers"
+  ],
+  "fs-extra": [
+    "Che-CodeReady",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Red-Hat-Developers"
+  ],
+  "function-bind": [
+    "Pbench"
+  ],
+  "fuzzysearch": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "geckodriver": [
+    "OpenShift-Admin-Console"
+  ],
+  "generator-bastion": [
+    "Foreman-Katello",
+    "Foreman-Katello"
+  ],
+  "get-ssl-certificate": [
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "gettext-parser": [
+    "Cockpit"
+  ],
+  "gh-pages": [
+    "Fuse-Online",
+    "Kogito",
+    "Kogito"
+  ],
+  "gherkin-lint": [
+    "OpenShift-Admin-Console"
+  ],
+  "git-revision-webpack-plugin": [
+    "Cost-Management",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Settings-Catalog"
+  ],
+  "git-url-parse": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "gitlab": [
+    "OpenShift-Admin-Console"
+  ],
+  "glob": [
+    "Che-CodeReady",
+    "Cost-Management",
+    "Insights-Curiosity",
+    "Insights-Remediations",
+    "Kogito",
+    "Kogito",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "glslify-loader": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "good-guy-http": [
+    "Insights-Compliance"
+  ],
+  "google-protobuf": [
+    "Operatorhub",
+    "Operatorhub"
+  ],
+  "graphql": [
+    "AMQ",
+    "AMQ",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Insights-Compliance",
+    "Insights-Inventory",
+    "OpenShift-Admin-Console"
+  ],
+  "graphql-tag": [
+    "Foreman-Console",
+    "Insights-Compliance",
+    "OpenShift-Admin-Console"
+  ],
+  "graphviz": [
+    "Kogito"
+  ],
+  "grpc": [
+    "Operatorhub",
+    "Operatorhub"
+  ],
+  "grpc-tools": [
+    "Operatorhub",
+    "Operatorhub"
+  ],
+  "grunt": [
+    "Foreman-Katello",
+    "Foreman-Katello"
+  ],
+  "grunt-angular-gettext": [
+    "Foreman-Katello",
+    "Foreman-Katello"
+  ],
+  "grunt-bower-task": [
+    "Foreman-Katello",
+    "Foreman-Katello"
+  ],
+  "grunt-concurrent": [
+    "Foreman-Katello",
+    "Foreman-Katello"
+  ],
+  "grunt-eslint": [
+    "Foreman-Katello",
+    "Foreman-Katello"
+  ],
+  "grunt-htmlhint": [
+    "Foreman-Katello",
+    "Foreman-Katello"
+  ],
+  "grunt-karma": [
+    "Foreman-Katello",
+    "Foreman-Katello"
+  ],
+  "gulp": [
+    "Fuse-Console",
+    "Pbench"
+  ],
+  "gulp-angular-templatecache": [
+    "Fuse-Console"
+  ],
+  "gulp-concat": [
+    "Fuse-Console"
+  ],
+  "gulp-less": [
+    "Fuse-Console"
+  ],
+  "gulp-ng-annotate": [
+    "Fuse-Console"
+  ],
+  "gulp-rename": [
+    "Fuse-Console"
+  ],
+  "gulp-replace": [
+    "Fuse-Console"
+  ],
+  "gulp-sass": [
+    "Fuse-Console"
+  ],
+  "gulp-typescript": [
+    "Fuse-Console"
+  ],
+  "gzip-size": [
+    "Virtualization-Frontend"
+  ],
+  "handlebars": [
+    "AMQ",
+    "Che-CodeReady",
+    "Virtualization-Frontend"
+  ],
+  "handlebars-loader": [
+    "Virtualization-Frontend"
+  ],
+  "happypack": [
+    "Operatorhub"
+  ],
+  "heatmap.js": [
+    "Kogito"
+  ],
+  "highlight.js": [
+    "Foreman-Console",
+    "Quay",
+    "Red-Hat-Developers"
+  ],
+  "history": [
+    "Foreman-Tools",
+    "Kogito",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Virtualization-Frontend"
+  ],
+  "hoist-non-react-statics": [
+    "OpenShift-Admin-Console"
+  ],
+  "honkit": [
+    "AMQ-Artemis-Console"
+  ],
+  "hook-into-props": [
+    "Cost-Management"
+  ],
+  "hosted-git-info": [
+    "3Scale"
+  ],
+  "html-loader": [
+    "Cost-Management",
+    "Quay"
+  ],
+  "html-replace-webpack-plugin": [
+    "Cost-Management",
+    "Kogito",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Settings-Catalog"
+  ],
+  "html-webpack-plugin": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Cockpit",
+    "Cost-Management",
+    "Infinispan",
+    "Insights-Inventory",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Virtualization-Frontend"
+  ],
+  "htmlparser": [
+    "Cockpit"
+  ],
+  "http-proxy-middleware": [
+    "Fuse-Online",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "http-server": [
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library"
+  ],
+  "http-status-codes": [
+    "Settings-Hooks"
+  ],
+  "https-proxy-agent": [
+    "Cost-Management",
+    "Insights-Dashboard",
+    "Migration-Toolkit-for-Containers",
+    "Product-Shared-Library"
+  ],
+  "hugo-cli": [
+    "Red-Hat-Developers"
+  ],
+  "human-date": [
+    "Cost-Management"
+  ],
+  "humanize-duration": [
+    "Foreman-Tools"
+  ],
+  "husky": [
+    "AMQ",
+    "Automation-Hub",
+    "Fuse-Online",
+    "Kiali-App",
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "Operatorhub"
+  ],
+  "i": [
+    "Integreatly"
+  ],
+  "i18next": [
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Curiosity",
+    "Integreatly",
+    "OpenShift-Admin-Console"
+  ],
+  "i18next-browser-languagedetector": [
+    "Fuse-Online",
+    "Infinispan",
+    "OpenShift-Admin-Console"
+  ],
+  "i18next-conv": [
+    "OpenShift-Admin-Console"
+  ],
+  "i18next-http-backend": [
+    "Infinispan",
+    "OpenShift-Admin-Console"
+  ],
+  "i18next-json-sync": [
+    "Integreatly"
+  ],
+  "i18next-parser": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "i18next-pseudo": [
+    "OpenShift-Admin-Console"
+  ],
+  "i18next-xhr-backend": [
+    "Insights-Curiosity",
+    "Integreatly"
+  ],
+  "identity-obj-proxy": [
+    "Automation-Analytics",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "if-env": [
+    "Che-CodeReady"
+  ],
+  "imagemin": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Infinispan",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "imap-simple": [
+    "Red-Hat-Developers"
+  ],
+  "img-loader": [
+    "AMQ-Streams"
+  ],
+  "immer": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Kogito",
+    "Settings-Hooks",
+    "Virtualization-Frontend"
+  ],
+  "immutable": [
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Virtualization-Frontend"
+  ],
+  "import-sort-style-eslint": [
+    "Che-CodeReady"
+  ],
+  "in-browser-download": [
+    "Settings-Hooks"
+  ],
+  "inquirer": [
+    "Cost-Management",
+    "Kogito",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "insights-common-typescript-dev": [
+    "Settings-Hooks"
+  ],
+  "intl": [
+    "Foreman-Console"
+  ],
+  "intl-messageformat": [
+    "Virtualization-Frontend"
+  ],
+  "ip-range-check": [
+    "Migration-Toolkit-for-Containers"
+  ],
+  "ipaddr.js": [
+    "Foreman-Tools"
+  ],
+  "is-cidr": [
+    "Migration-Toolkit-for-Containers"
+  ],
+  "is-ip": [
+    "Migration-Toolkit-for-Containers"
+  ],
+  "is-plain-object": [
+    "Kogito"
+  ],
+  "isomorphic-git": [
+    "Kogito"
+  ],
+  "isomorphic-textencoder": [
+    "Kogito"
+  ],
+  "jasmine-console-reporter": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "jasmine-core": [
+    "Foreman-Katello",
+    "Foreman-Katello",
+    "Fuse-Console",
+    "OpenShift-Admin-Console",
+    "Openstack-Horizon",
+    "Quay",
+    "Quay",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "jasmine-reporters": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "jasmine-ts": [
+    "Quay"
+  ],
+  "jed": [
+    "Cockpit",
+    "Foreman-Console",
+    "Foreman-Tasks",
+    "RHEL-Composer"
+  ],
+  "jest": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Che-CodeReady",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Katello",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Pbench",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "jest-axe": [
+    "AMQ-Interconnect"
+  ],
+  "jest-canvas-mock": [
+    "Insights-Compliance",
+    "Kiali-App",
+    "Product-Shared-Library"
+  ],
+  "jest-cli": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Integreatly",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "jest-dom": [
+    "Fuse-Online"
+  ],
+  "jest-environment-jsdom": [
+    "Settings-Sources"
+  ],
+  "jest-fetch-mock": [
+    "Fuse-Online",
+    "Insights-Remediations"
+  ],
+  "jest-junit": [
+    "OpenShift-Admin-Console",
+    "Process-Automation"
+  ],
+  "jest-localstorage-mock": [
+    "Kiali-App"
+  ],
+  "jest-mock": [
+    "Fuse-Online",
+    "Settings-Hooks"
+  ],
+  "jest-mock-axios": [
+    "Settings-Catalog"
+  ],
+  "jest-prop-type-error": [
+    "Foreman-Tools"
+  ],
+  "jest-raw-loader": [
+    "Kogito"
+  ],
+  "jest-resolve": [
+    "Insights-Curiosity",
+    "OpenShift-Admin-Console"
+  ],
+  "jest-transform-graphql": [
+    "Foreman-Tools",
+    "OpenShift-Admin-Console"
+  ],
+  "jest-transform-stub": [
+    "3Scale",
+    "Settings-Hooks"
+  ],
+  "jest-watch-typeahead": [
+    "Insights-Curiosity"
+  ],
+  "jest-webextension-mock": [
+    "Kogito"
+  ],
+  "jest-when": [
+    "Kogito"
+  ],
+  "jiff": [
+    "Insights-Drift"
+  ],
+  "jison": [
+    "AMQ"
+  ],
+  "joi": [
+    "Insights-Curiosity"
+  ],
+  "jquery": [
+    "3Scale",
+    "Foreman-Tools",
+    "Fuse-Console",
+    "Keycloak",
+    "Quay",
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "jquery-ui": [
+    "3Scale"
+  ],
+  "jquery-ujs": [
+    "Foreman-Tools"
+  ],
+  "jquery.cookie": [
+    "Foreman-Tools"
+  ],
+  "js-base64": [
+    "Apicurio",
+    "Apicurio-POC",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "js-combinatorics": [
+    "OpenShift-Admin-Console"
+  ],
+  "js-cookie": [
+    "Automation-Hub",
+    "Insights-Curiosity",
+    "Integreatly",
+    "Pbench",
+    "Settings-Catalog"
+  ],
+  "js-file-download": [
+    "Cost-Management"
+  ],
+  "js-logger": [
+    "Fuse-Console"
+  ],
+  "js-sha1": [
+    "Cockpit"
+  ],
+  "js-sha256": [
+    "Cockpit",
+    "Keycloak"
+  ],
+  "js-yaml": [
+    "Apicurio",
+    "Che-CodeReady",
+    "Fuse-Online",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Frontend"
+  ],
+  "jsdoc": [
+    "Pbench",
+    "Product-Shared-Library",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "jsdoc3-parser": [
+    "Product-Shared-Library"
+  ],
+  "jsel": [
+    "RHEL-Composer"
+  ],
+  "json-api-normalizer": [
+    "Insights-Compliance"
+  ],
+  "json-beautify": [
+    "Kiali-App"
+  ],
+  "json-merge-patch": [
+    "Migration-Toolkit-for-Containers"
+  ],
+  "json-schema": [
+    "Kogito",
+    "OpenShift-Admin-Console"
+  ],
+  "json-stable-stringify-without-jsonify": [
+    "Cockpit",
+    "Virtualization-Frontend"
+  ],
+  "jsonata": [
+    "Kogito"
+  ],
+  "jsonc-parser": [
+    "Kogito"
+  ],
+  "jsonfile": [
+    "Fuse-Online"
+  ],
+  "jsonpath": [
+    "AMQ"
+  ],
+  "jstz": [
+    "Foreman-Tools"
+  ],
+  "jszip": [
+    "Kogito",
+    "Migration-Toolkit-for-Containers",
+    "Operatorhub"
+  ],
+  "junit-report-merger": [
+    "Kogito",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "just-debounce-it": [
+    "Kogito"
+  ],
+  "just-once": [
+    "Kogito"
+  ],
+  "jws": [
+    "Cost-Management",
+    "Product-Shared-Library"
+  ],
+  "karma": [
+    "Foreman-Katello",
+    "Foreman-Katello",
+    "Fuse-Console",
+    "Fuse-Online",
+    "Kogito",
+    "Openstack-Horizon",
+    "Quay",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers",
+    "Settings-Hooks"
+  ],
+  "karma-browserstack-launcher": [
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "karma-chrome-launcher": [
+    "Foreman-Katello",
+    "Foreman-Katello",
+    "Fuse-Console",
+    "Fuse-Online",
+    "Kogito",
+    "Quay",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers",
+    "Settings-Hooks"
+  ],
+  "karma-cli": [
+    "Openstack-Horizon"
+  ],
+  "karma-coverage": [
+    "Foreman-Katello",
+    "Foreman-Katello",
+    "Openstack-Horizon",
+    "Quay"
+  ],
+  "karma-edge-launcher": [
+    "Kogito"
+  ],
+  "karma-es6-shim": [
+    "Quay"
+  ],
+  "karma-fail-fast-reporter": [
+    "Kogito"
+  ],
+  "karma-firefox-launcher": [
+    "Fuse-Online",
+    "Kogito",
+    "Openstack-Horizon",
+    "Settings-Hooks"
+  ],
+  "karma-htmlfile-reporter": [
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "karma-ie-launcher": [
+    "Kogito"
+  ],
+  "karma-jasmine": [
+    "Foreman-Katello",
+    "Foreman-Katello",
+    "Fuse-Console",
+    "Kogito",
+    "Openstack-Horizon",
+    "Quay",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers",
+    "Settings-Hooks"
+  ],
+  "karma-jasmine-ajax": [
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "karma-jasmine-html-reporter": [
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "karma-junit-reporter": [
+    "Kogito",
+    "Red-Hat-Developers"
+  ],
+  "karma-mocha": [
+    "Fuse-Online"
+  ],
+  "karma-mocha-reporter": [
+    "Fuse-Console",
+    "Fuse-Online"
+  ],
+  "karma-ng-html2js-preprocessor": [
+    "Foreman-Katello",
+    "Foreman-Katello",
+    "Openstack-Horizon"
+  ],
+  "karma-safari-launcher": [
+    "Kogito"
+  ],
+  "karma-sourcemap-loader": [
+    "Fuse-Online"
+  ],
+  "karma-spec-reporter": [
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "karma-threshold-reporter": [
+    "Openstack-Horizon"
+  ],
+  "karma-typescript-preprocessor": [
+    "Fuse-Console"
+  ],
+  "karma-verbose-reporter": [
+    "Kogito"
+  ],
+  "karma-webpack": [
+    "Fuse-Online",
+    "Kogito",
+    "Quay",
+    "Settings-Hooks"
+  ],
+  "keycloak-js": [
+    "Apicurio",
+    "Apicurio-POC",
+    "Infinispan"
+  ],
+  "ky": [
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "lage": [
+    "Fuse-Online"
+  ],
+  "lerna": [
+    "Apicurio-POC",
+    "Common-Integration",
+    "Foreman-Tools",
+    "Product-Shared-Library"
+  ],
+  "less": [
+    "Pbench"
+  ],
+  "less-loader": [
+    "Pbench"
+  ],
+  "less-watch-compiler": [
+    "Pbench"
+  ],
+  "levenary": [
+    "Konveyor-Shared-Library"
+  ],
+  "license-reporter": [
+    "Infinispan"
+  ],
+  "linkifyjs": [
+    "Insights-Compliance"
+  ],
+  "lint-staged": [
+    "AMQ",
+    "Fuse-Online",
+    "Fuse-Online",
+    "OpenShift-Admin-Console"
+  ],
+  "locale-code": [
+    "Insights-Curiosity"
+  ],
+  "lock-dependencies": [
+    "Settings-Hooks"
+  ],
+  "lodash": [
+    "AMQ-Streams",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Fuse-Console",
+    "Insights-Curiosity",
+    "Insights-Inventory",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Migration-Toolkit-for-Containers",
+    "Operatorhub",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Hooks",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "lodash-es": [
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay"
+  ],
+  "lodash-webpack-plugin": [
+    "Migration-Analytics",
+    "Settings-Catalog"
+  ],
+  "lodash.clamp": [
+    "Fuse-Online"
+  ],
+  "lodash.escaperegexp": [
+    "3Scale"
+  ],
+  "lodash.flattendeep": [
+    "Integreatly"
+  ],
+  "lodash.get": [
+    "Integreatly"
+  ],
+  "lodash.isequal": [
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "lodash.orderby": [
+    "IMS-V2V"
+  ],
+  "loglevel": [
+    "Fuse-Online"
+  ],
+  "loose-envify": [
+    "Fuse-Online"
+  ],
+  "lru-cache": [
+    "Insights-Curiosity"
+  ],
+  "m-react-splitters": [
+    "Kiali-App"
+  ],
+  "marked": [
+    "Apicurio",
+    "Fuse-Console",
+    "Fuse-Online",
+    "Insights-Inventory",
+    "Insights-Vulnerability",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "material-ui": [
+    "Migration-Analytics"
+  ],
+  "memoize-one": [
+    "Quay"
+  ],
+  "merge": [
+    "OpenShift-Admin-Console"
+  ],
+  "merge2": [
+    "Fuse-Console"
+  ],
+  "mermaid": [
+    "Kogito"
+  ],
+  "microbundle": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "mini-css-extract-plugin": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Cockpit",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Infinispan",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "minimatch": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "minimist": [
+    "OpenShift-Admin-Console"
+  ],
+  "mkdirp": [
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "mocha": [
+    "AMQ",
+    "AMQ",
+    "Fuse-Online",
+    "Kogito",
+    "Migration-Toolkit-for-Virtualization",
+    "Red-Hat-Developers"
+  ],
+  "mocha-jenkins-reporter": [
+    "Kogito"
+  ],
+  "mocha-junit-reporter": [
+    "AMQ",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console"
+  ],
+  "mocha-multi-reporters": [
+    "Kogito"
+  ],
+  "mocha-tags": [
+    "Red-Hat-Developers"
+  ],
+  "mochawesome": [
+    "OpenShift-Admin-Console"
+  ],
+  "mochawesome-merge": [
+    "OpenShift-Admin-Console"
+  ],
+  "mochawesome-report-generator": [
+    "OpenShift-Admin-Console"
+  ],
+  "mock-socket": [
+    "OpenShift-Admin-Console"
+  ],
+  "mockdate": [
+    "3Scale"
+  ],
+  "moment": [
+    "3Scale",
+    "Apicurio",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Che-CodeReady",
+    "Fuse-Online",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Kiali-App",
+    "Kogito",
+    "Migration-Analytics",
+    "Quay",
+    "Virtualization-Frontend"
+  ],
+  "moment-duration-format": [
+    "Virtualization-Frontend"
+  ],
+  "moment-range": [
+    "3Scale"
+  ],
+  "moment-timezone": [
+    "3Scale"
+  ],
+  "monaco-editor": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "monaco-editor-core": [
+    "OpenShift-Admin-Console"
+  ],
+  "monaco-editor-webpack-plugin": [
+    "Infinispan",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "OpenShift-Admin-Console"
+  ],
+  "monaco-languageclient": [
+    "OpenShift-Admin-Console"
+  ],
+  "monaco-yaml": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "moxios": [
+    "Insights-Curiosity",
+    "Insights-Drift",
+    "Integreatly"
+  ],
+  "multiselect": [
+    "Foreman-Tools"
+  ],
+  "murmurhash-js": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "mustache": [
+    "Fuse-Online",
+    "Integreatly",
+    "Product-Shared-Library"
+  ],
+  "my-local-ip": [
+    "Fuse-Online"
+  ],
+  "named-urls": [
+    "Fuse-Online",
+    "Fuse-Online"
+  ],
+  "natives": [
+    "Fuse-Console"
+  ],
+  "natsort": [
+    "Insights-Compliance"
+  ],
+  "ncp": [
+    "Integreatly"
+  ],
+  "netmask": [
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "next": [
+    "Product-Shared-Library"
+  ],
+  "next-transpile-modules": [
+    "Product-Shared-Library"
+  ],
+  "ng-file-upload": [
+    "Keycloak"
+  ],
+  "ng-metadata": [
+    "Quay"
+  ],
+  "ng-packagr": [
+    "Apicurio"
+  ],
+  "ngreact": [
+    "Foreman-Katello"
+  ],
+  "ngtemplate-loader": [
+    "Quay"
+  ],
+  "ngx-bootstrap": [
+    "Apicurio",
+    "Fuse-Online"
+  ],
+  "ngx-clipboard": [
+    "Apicurio",
+    "Fuse-Online"
+  ],
+  "nock": [
+    "Foreman-Katello",
+    "OpenShift-Admin-Console"
+  ],
+  "node-fetch": [
+    "Automation-Analytics",
+    "Insights-Inventory",
+    "Migration-Toolkit-for-Virtualization",
+    "Product-Shared-Library"
+  ],
+  "node-jq": [
+    "Fuse-Online"
+  ],
+  "node-notifier": [
+    "Settings-Catalog"
+  ],
+  "node-sass": [
+    "3Scale",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Kiali-App",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Operatorhub",
+    "Quay",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers",
+    "Settings-Catalog"
+  ],
+  "node-sass-chokidar": [
+    "Integreatly"
+  ],
+  "node-sass-package-importer": [
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "nodemon": [
+    "Integreatly",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "npm": [
+    "Red-Hat-Developers"
+  ],
+  "npm-check-updates": [
+    "Insights-Curiosity"
+  ],
+  "npm-run-all": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Kogito",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "null-loader": [
+    "3Scale",
+    "Cockpit",
+    "Cost-Management",
+    "Kogito",
+    "OpenShift-Admin-Console"
+  ],
+  "number_helpers": [
+    "Foreman-Tools"
+  ],
+  "numbro": [
+    "Insights-Curiosity"
+  ],
+  "numeral": [
+    "3Scale",
+    "IMS-V2V",
+    "Infinispan",
+    "Kogito"
+  ],
+  "nvd3": [
+    "Pbench"
+  ],
+  "oai-ts-commands": [
+    "Fuse-Online"
+  ],
+  "oai-ts-core": [
+    "Fuse-Online"
+  ],
+  "openapi-types": [
+    "Kogito",
+    "Kogito"
+  ],
+  "openapi2typescript": [
+    "Settings-Hooks"
+  ],
+  "openapi2typescript-cli": [
+    "Settings-Hooks"
+  ],
+  "openshift-logos-icon": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "optimize-css-assets-webpack-plugin": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Foreman-Console",
+    "Operatorhub"
+  ],
+  "os-browserify": [
+    "Kogito"
+  ],
+  "p-limit": [
+    "AMQ",
+    "Settings-Hooks"
+  ],
+  "package.json": [
+    "Quay"
+  ],
+  "papaparse": [
+    "Kogito"
+  ],
+  "parse-bitbucket-url": [
+    "OpenShift-Admin-Console"
+  ],
+  "patch-package": [
+    "Kogito"
+  ],
+  "path": [
+    "Common-Integration",
+    "Fuse-Console",
+    "Red-Hat-Developers"
+  ],
+  "path-browserify": [
+    "Kogito",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "path-to-regexp": [
+    "RHEL-Composer"
+  ],
+  "patternfly": [
+    "AMQ-Streams",
+    "Apicurio",
+    "Cockpit",
+    "Foreman-Katello",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Keycloak",
+    "Operatorhub",
+    "Pbench",
+    "Quay",
+    "Virtualization-Frontend"
+  ],
+  "patternfly-bootstrap-combobox": [
+    "Virtualization-Frontend"
+  ],
+  "patternfly-react": [
+    "AMQ-Streams",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Operatorhub",
+    "Quay",
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "patternfly-react-extensions": [
+    "Foreman-Tools",
+    "Operatorhub",
+    "Quay"
+  ],
+  "pkg": [
+    "Kogito"
+  ],
+  "pkijs": [
+    "OpenShift-Admin-Console"
+  ],
+  "plotly.js": [
+    "Quay"
+  ],
+  "pluralize": [
+    "3Scale",
+    "Apicurio",
+    "Fuse-Online",
+    "OpenShift-Admin-Console"
+  ],
+  "po2json": [
+    "RHEL-Composer"
+  ],
+  "point-in-svg-path": [
+    "OpenShift-Admin-Console"
+  ],
+  "popper.js": [
+    "OpenShift-Admin-Console"
+  ],
+  "portfinder": [
+    "Kogito"
+  ],
+  "postcss": [
+    "Automation-Hub",
+    "Konveyor-Shared-Library",
+    "Red-Hat-Developers",
+    "Settings-Catalog",
+    "Settings-Hooks",
+    "Virtualization-Frontend"
+  ],
+  "postcss-cli": [
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "postcss-css-variables": [
+    "Red-Hat-Developers"
+  ],
+  "postcss-loader": [
+    "3Scale",
+    "Virtualization-Frontend"
+  ],
+  "postcss-nested": [
+    "Red-Hat-Developers"
+  ],
+  "postcss-preset-env": [
+    "Integreatly",
+    "Virtualization-Frontend"
+  ],
+  "postcss-smart-import": [
+    "3Scale"
+  ],
+  "postinstall-postinstall": [
+    "Kogito"
+  ],
+  "precss": [
+    "Integreatly"
+  ],
+  "prettier": [
+    "AMQ",
+    "AMQ-Interconnect",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Automation-Hub",
+    "Che-CodeReady",
+    "Cost-Management",
+    "Foreman-Console",
+    "Foreman-Tasks",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Infinispan",
+    "Insights-Curiosity",
+    "Integreatly",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Sources"
+  ],
+  "prettier-eslint": [
+    "IMS-V2V"
+  ],
+  "prettier-plugin-import-sort": [
+    "Che-CodeReady"
+  ],
+  "prettier-plugin-sort-json": [
+    "Fuse-Online"
+  ],
+  "pretty-format": [
+    "Foreman-Console"
+  ],
+  "pretty-quick": [
+    "Kiali-App",
+    "Kogito"
+  ],
+  "prism-react-renderer": [
+    "Product-Shared-Library"
+  ],
+  "process": [
+    "Migration-Toolkit-for-Containers",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "prop-types": [
+    "3Scale",
+    "AMQ-Interconnect",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Infinispan",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "protractor": [
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay"
+  ],
+  "protractor-fail-fast": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "protractor-jasmine2-screenshot-reporter": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "puppeteer": [
+    "Fuse-Console",
+    "Fuse-Online",
+    "Kogito"
+  ],
+  "q": [
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "qs": [
+    "Cost-Management",
+    "Insights-Dashboard",
+    "Insights-Vulnerability",
+    "Settings-Catalog"
+  ],
+  "query-string": [
+    "Automation-Analytics",
+    "Foreman-Katello",
+    "Insights-Drift",
+    "Insights-Vulnerability",
+    "Operatorhub"
+  ],
+  "qunit": [
+    "Cockpit"
+  ],
+  "qunit-tap": [
+    "Cockpit"
+  ],
+  "raf": [
+    "3Scale",
+    "Foreman-Tools"
+  ],
+  "raven-js": [
+    "Quay"
+  ],
+  "raw-loader": [
+    "Apicurio-POC",
+    "Cockpit",
+    "Common-Integration",
+    "Foreman-Console",
+    "Infinispan",
+    "Kogito",
+    "Migration-Toolkit-for-Virtualization",
+    "Product-Shared-Library"
+  ],
+  "rc-input-number": [
+    "Foreman-Tools"
+  ],
+  "rcue": [
+    "Keycloak"
+  ],
+  "react": [
+    "3Scale",
+    "3Scale-Fly",
+    "AMQ",
+    "AMQ-Interconnect",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Pbench",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "react-ace": [
+    "AMQ",
+    "Apicurio-POC",
+    "Foreman-Tools",
+    "Kiali-App"
+  ],
+  "react-app-rewired": [
+    "Pbench"
+  ],
+  "react-async": [
+    "3Scale-Fly",
+    "AMQ"
+  ],
+  "react-axe": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Infinispan"
+  ],
+  "react-bootstrap": [
+    "Cost-Management",
+    "Foreman-Katello",
+    "Pbench",
+    "Virtualization-Frontend"
+  ],
+  "react-bootstrap-switch": [
+    "Virtualization-Frontend"
+  ],
+  "react-bootstrap-typeahead": [
+    "IMS-V2V",
+    "Operatorhub"
+  ],
+  "react-codemirror2": [
+    "Fuse-Online"
+  ],
+  "react-content-loader": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Insights-Compliance",
+    "Product-Shared-Library",
+    "Settings-Hooks"
+  ],
+  "react-cool-onclickoutside": [
+    "Kogito"
+  ],
+  "react-copy-to-clipboard": [
+    "Kiali-App",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "react-datepicker": [
+    "Kiali-App"
+  ],
+  "react-debounce-input": [
+    "Foreman-Tools"
+  ],
+  "react-dev-utils": [
+    "Virtualization-Frontend"
+  ],
+  "react-diff-view": [
+    "Foreman-Tools"
+  ],
+  "react-dnd": [
+    "Foreman-Tools",
+    "Fuse-Online",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "react-dnd-html5-backend": [
+    "Foreman-Tools",
+    "Fuse-Online",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "react-dnd-test-backend": [
+    "Foreman-Console"
+  ],
+  "react-dnd-test-utils": [
+    "Foreman-Console"
+  ],
+  "react-dnd-touch-backend": [
+    "Fuse-Online"
+  ],
+  "react-docgen": [
+    "Product-Shared-Library"
+  ],
+  "react-docgen-typescript-loader": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "react-dom": [
+    "3Scale",
+    "3Scale-Fly",
+    "AMQ",
+    "AMQ-Interconnect",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Pbench",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "react-draggable": [
+    "OpenShift-Admin-Console"
+  ],
+  "react-dragula": [
+    "Operatorhub"
+  ],
+  "react-dropzone": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Insights-Remediations",
+    "Kogito",
+    "Migration-Analytics"
+  ],
+  "react-ellipsis-with-tooltip": [
+    "Foreman-Tools",
+    "IMS-V2V"
+  ],
+  "react-error-boundary": [
+    "Insights-Remediations"
+  ],
+  "react-fast-compare": [
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Migration-Toolkit-for-Containers"
+  ],
+  "react-fetching-library": [
+    "Settings-Hooks"
+  ],
+  "react-file-picker": [
+    "Fuse-Online"
+  ],
+  "react-flexview": [
+    "Kiali-App"
+  ],
+  "react-fontawesome": [
+    "AMQ-Interconnect"
+  ],
+  "react-helmet": [
+    "Foreman-Tools",
+    "Fuse-Online",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "react-hooks-testing-library": [
+    "Product-Shared-Library"
+  ],
+  "react-hot-loader": [
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "react-html-parser": [
+    "3Scale"
+  ],
+  "react-i18next": [
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Curiosity",
+    "Integreatly",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "react-id-generator": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "react-intl": [
+    "Cost-Management",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Inventory",
+    "Insights-Vulnerability",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "react-intl-po": [
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "react-is": [
+    "Foreman-Tools",
+    "Konveyor-Shared-Library"
+  ],
+  "react-json-chart-builder": [
+    "Automation-Analytics"
+  ],
+  "react-json-view": [
+    "Kogito",
+    "Migration-Toolkit-for-Containers",
+    "Product-Shared-Library",
+    "Settings-Catalog"
+  ],
+  "react-jsonschema-form": [
+    "3Scale",
+    "Quay"
+  ],
+  "react-jss": [
+    "Product-Shared-Library"
+  ],
+  "react-lazy-load-image-component": [
+    "Settings-Catalog"
+  ],
+  "react-lightweight-tooltip": [
+    "Operatorhub",
+    "Quay"
+  ],
+  "react-linkify": [
+    "OpenShift-Admin-Console"
+  ],
+  "react-loadable": [
+    "Fuse-Online"
+  ],
+  "react-loading-skeleton": [
+    "Foreman-Tools"
+  ],
+  "react-markdown": [
+    "Automation-Hub",
+    "Product-Shared-Library"
+  ],
+  "react-masonry-css": [
+    "Insights-Dashboard"
+  ],
+  "react-measure": [
+    "OpenShift-Admin-Console"
+  ],
+  "react-modal": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "react-monaco-editor": [
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Fuse-Online",
+    "Infinispan",
+    "Kogito",
+    "OpenShift-Admin-Console"
+  ],
+  "react-onclickoutside": [
+    "Foreman-Tools"
+  ],
+  "react-password-strength": [
+    "Foreman-Tools"
+  ],
+  "react-popper": [
+    "AMQ"
+  ],
+  "react-query": [
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "react-redux": [
+    "3Scale",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cost-Management",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Kiali-App",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "react-redux-test-utils": [
+    "Foreman-Tools"
+  ],
+  "react-refresh": [
+    "OpenShift-Admin-Console"
+  ],
+  "react-remarkable": [
+    "Foreman-Console"
+  ],
+  "react-resizable": [
+    "Kogito"
+  ],
+  "react-resize-detector": [
+    "Kiali-App"
+  ],
+  "react-rnd": [
+    "OpenShift-Admin-Console"
+  ],
+  "react-router": [
+    "3Scale-Fly",
+    "AMQ",
+    "Apicurio-POC",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Insights-Curiosity",
+    "Insights-Remediations",
+    "Integreatly",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Pbench",
+    "Virtualization-Frontend"
+  ],
+  "react-router-bootstrap": [
+    "Foreman-Tools"
+  ],
+  "react-router-config": [
+    "Virtualization-Frontend"
+  ],
+  "react-router-dom": [
+    "3Scale-Fly",
+    "AMQ",
+    "AMQ-Interconnect",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "react-router-hash-link": [
+    "Automation-Hub",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console"
+  ],
+  "react-router-last-location": [
+    "3Scale-Fly",
+    "AMQ",
+    "Infinispan",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "react-router-navigation-prompt": [
+    "Virtualization-Frontend"
+  ],
+  "react-sage": [
+    "Fuse-Online"
+  ],
+  "react-scripts": [
+    "3Scale-Fly",
+    "AMQ",
+    "AMQ-Interconnect",
+    "Common-Integration",
+    "Common-Integration",
+    "Fuse-Online",
+    "Integreatly",
+    "Kiali-App",
+    "Pbench"
+  ],
+  "react-select": [
+    "AMQ-Streams"
+  ],
+  "react-show-more-text": [
+    "Insights-Compliance"
+  ],
+  "react-sortable-hoc": [
+    "3Scale",
+    "Kogito"
+  ],
+  "react-string-format": [
+    "Settings-Hooks"
+  ],
+  "react-syntax-highlighter": [
+    "Infinispan",
+    "Insights-Remediations",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "react-table": [
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "react-tagsinput": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "react-test-renderer": [
+    "Foreman-Katello",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "IMS-V2V",
+    "Infinispan",
+    "Insights-Compliance",
+    "Kogito",
+    "Settings-Hooks"
+  ],
+  "react-testing-library": [
+    "AMQ"
+  ],
+  "react-transition-group": [
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "react-truncate": [
+    "Settings-Catalog"
+  ],
+  "react-use": [
+    "Insights-Curiosity",
+    "Settings-Hooks"
+  ],
+  "react-use-gesture": [
+    "Fuse-Online"
+  ],
+  "react-virtualized": [
+    "Fuse-Online",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "read-pkg": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "readdir": [
+    "Fuse-Online"
+  ],
+  "readline-sync": [
+    "Virtualization-Frontend"
+  ],
+  "recompose": [
+    "IMS-V2V"
+  ],
+  "recursive-readdir": [
+    "Virtualization-Frontend"
+  ],
+  "redux": [
+    "3Scale",
+    "AMQ-Streams",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cost-Management",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Kiali-App",
+    "Kogito",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Pbench",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources",
+    "Virtualization-Frontend"
+  ],
+  "redux-api-middleware": [
+    "3Scale"
+  ],
+  "redux-form": [
+    "IMS-V2V",
+    "Insights-Compliance"
+  ],
+  "redux-form-validators": [
+    "IMS-V2V"
+  ],
+  "redux-immutable-state-invariant": [
+    "3Scale"
+  ],
+  "redux-logger": [
+    "Automation-Hub",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Integreatly",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Pbench",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "redux-mock-store": [
+    "Automation-Analytics",
+    "Foreman-Console",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Kiali-App",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "redux-persist": [
+    "Kiali-App",
+    "Migration-Toolkit-for-Containers"
+  ],
+  "redux-persist-transform-filter": [
+    "Kiali-App"
+  ],
+  "redux-promise-middleware": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "redux-saga": [
+    "Migration-Toolkit-for-Containers",
+    "RHEL-Composer",
+    "Virtualization-Frontend"
+  ],
+  "redux-thunk": [
+    "3Scale",
+    "Cost-Management",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Insights-Curiosity",
+    "Integreatly",
+    "Kiali-App",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Pbench",
+    "Settings-Catalog",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "regenerator-runtime": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Foreman-Tools",
+    "Infinispan",
+    "Insights-Drift",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Virtualization",
+    "RHEL-Composer"
+  ],
+  "regression": [
+    "Kiali-App"
+  ],
+  "rehype-raw": [
+    "Product-Shared-Library"
+  ],
+  "rehype-sanitize": [
+    "Product-Shared-Library"
+  ],
+  "remark-gfm": [
+    "Product-Shared-Library"
+  ],
+  "remarkable": [
+    "Cockpit"
+  ],
+  "rename-cli": [
+    "Red-Hat-Developers"
+  ],
+  "request": [
+    "AMQ",
+    "Red-Hat-Developers"
+  ],
+  "require-dir": [
+    "Foreman-Katello",
+    "Foreman-Katello"
+  ],
+  "reselect": [
+    "Foreman-Tools",
+    "Insights-Curiosity",
+    "Kiali-App",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "RHEL-Composer"
+  ],
+  "resolve-pathname": [
+    "Fuse-Online"
+  ],
+  "resolve-url-loader": [
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay"
+  ],
+  "rfs": [
+    "Integreatly"
+  ],
+  "rgb-hex": [
+    "Product-Shared-Library"
+  ],
+  "rhd-frontend": [
+    "Red-Hat-Developers"
+  ],
+  "rhea": [
+    "AMQ",
+    "AMQ-Interconnect"
+  ],
+  "rimraf": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Che-CodeReady",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Integreatly",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "Operatorhub",
+    "Virtualization-Frontend"
+  ],
+  "rollup": [
+    "Fuse-Online",
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Konveyor-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Red-Hat-Developers"
+  ],
+  "rollup-plugin-babel": [
+    "Fuse-Online",
+    "Insights-Vulnerability",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "rollup-plugin-commonjs": [
+    "Fuse-Online"
+  ],
+  "rollup-plugin-node-globals": [
+    "Insights-Vulnerability",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "rollup-plugin-node-resolve": [
+    "Fuse-Online"
+  ],
+  "rollup-plugin-peer-deps-external": [
+    "Konveyor-Shared-Library"
+  ],
+  "rollup-plugin-postcss": [
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Konveyor-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "rollup-plugin-replace": [
+    "Fuse-Online",
+    "Product-Shared-Library"
+  ],
+  "rollup-plugin-size-snapshot": [
+    "Fuse-Online"
+  ],
+  "rollup-plugin-terser": [
+    "Insights-Vulnerability",
+    "Keycloak",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "rollup-plugin-typescript2": [
+    "Konveyor-Shared-Library"
+  ],
+  "rollup-plugin-uglify": [
+    "Fuse-Online"
+  ],
+  "rsuite": [
+    "Pbench"
+  ],
+  "run-script-os": [
+    "Kogito"
+  ],
+  "rxjs": [
+    "Apicurio",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Kogito",
+    "Quay"
+  ],
+  "sanitize-html": [
+    "Insights-Vulnerability",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay"
+  ],
+  "sass": [
+    "Automation-Hub",
+    "Cockpit",
+    "Cost-Management",
+    "Insights-Compliance",
+    "Kogito",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "RHEL-Composer"
+  ],
+  "sass-loader": [
+    "3Scale",
+    "Automation-Hub",
+    "Cockpit",
+    "Cost-Management",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Insights-Dashboard",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer"
+  ],
+  "sassdoc": [
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "save-svg-as-png": [
+    "Pbench"
+  ],
+  "sax": [
+    "Kogito"
+  ],
+  "screenfull": [
+    "Kiali-App",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "script-loader": [
+    "Quay"
+  ],
+  "scss-bundle": [
+    "Foreman-Tools"
+  ],
+  "seamless-immutable": [
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Insights-Dashboard",
+    "Insights-Vulnerability"
+  ],
+  "seedrandom": [
+    "Kiali-App"
+  ],
+  "select2": [
+    "3Scale",
+    "Foreman-Tools",
+    "Keycloak"
+  ],
+  "selenium-webdriver": [
+    "Kogito"
+  ],
+  "self-signed-https": [
+    "Operatorhub"
+  ],
+  "semantic-release": [
+    "Insights-Vulnerability",
+    "Konveyor-Shared-Library",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers"
+  ],
+  "semver": [
+    "Che-CodeReady",
+    "Kogito",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay",
+    "Virtualization-Frontend"
+  ],
+  "sequelize": [
+    "Integreatly"
+  ],
+  "serve": [
+    "Pbench"
+  ],
+  "sha.js": [
+    "Integreatly"
+  ],
+  "sharp": [
+    "Operatorhub",
+    "Operatorhub"
+  ],
+  "shell-escape-tag": [
+    "Automation-Hub"
+  ],
+  "showdown": [
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay",
+    "Quay"
+  ],
+  "shx": [
+    "Keycloak"
+  ],
+  "simple-git": [
+    "Che-CodeReady",
+    "Integreatly"
+  ],
+  "simple-oauth2": [
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "simplemde": [
+    "Operatorhub"
+  ],
+  "sinon": [
+    "Kogito"
+  ],
+  "sizzle": [
+    "Cockpit",
+    "RHEL-Composer"
+  ],
+  "smoothscroll-polyfill": [
+    "Settings-Catalog"
+  ],
+  "snowpack": [
+    "Keycloak"
+  ],
+  "snyk": [
+    "Kiali-App"
+  ],
+  "sortabular": [
+    "IMS-V2V"
+  ],
+  "source-map-explorer": [
+    "Integreatly",
+    "Kiali-App"
+  ],
+  "source-map-loader": [
+    "Automation-Hub",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog"
+  ],
+  "spandx": [
+    "Red-Hat-Developers"
+  ],
+  "spectron": [
+    "Kogito"
+  ],
+  "sprintf-js": [
+    "IMS-V2V"
+  ],
+  "sqlite3": [
+    "Integreatly"
+  ],
+  "ssri": [
+    "Settings-Catalog"
+  ],
+  "standard-version": [
+    "Insights-Curiosity"
+  ],
+  "start-server-and-test": [
+    "Infinispan",
+    "Kogito"
+  ],
+  "stdio": [
+    "RHEL-Composer"
+  ],
+  "stream": [
+    "Kogito",
+    "Migration-Toolkit-for-Containers"
+  ],
+  "stream-browserify": [
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "streamsaver": [
+    "Automation-Analytics"
+  ],
+  "strict-loader": [
+    "Cockpit"
+  ],
+  "string-replace-loader": [
+    "Cockpit",
+    "RHEL-Composer"
+  ],
+  "strip-ansi": [
+    "Virtualization-Frontend"
+  ],
+  "style-loader": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Automation-Hub",
+    "Common-Integration",
+    "Common-Integration",
+    "Foreman-Console",
+    "Infinispan",
+    "Insights-Dashboard",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Catalog",
+    "Virtualization-Frontend"
+  ],
+  "styled-components": [
+    "Automation-Analytics",
+    "Settings-Catalog"
+  ],
+  "styled-jsx": [
+    "Product-Shared-Library"
+  ],
+  "stylelint": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Foreman-Console",
+    "Foreman-Tasks",
+    "IMS-V2V",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Migration-Analytics",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks"
+  ],
+  "stylelint-config-recommended-scss": [
+    "Automation-Analytics",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Migration-Analytics",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-Hooks"
+  ],
+  "stylelint-config-standard": [
+    "Foreman-Console",
+    "Foreman-Tasks",
+    "IMS-V2V",
+    "Integreatly",
+    "RHEL-Composer"
+  ],
+  "stylelint-config-standard-scss": [
+    "Automation-Hub"
+  ],
+  "stylelint-order": [
+    "Integreatly"
+  ],
+  "stylelint-scss": [
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Insights-Compliance",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Integreatly",
+    "Migration-Analytics",
+    "Settings-Frontend",
+    "Settings-Hooks"
+  ],
+  "subscriptions-transport-ws": [
+    "OpenShift-Admin-Console"
+  ],
+  "surge": [
+    "Foreman-Tasks",
+    "Foreman-Tools"
+  ],
+  "svg-pan-zoom": [
+    "Kogito"
+  ],
+  "svg-url-loader": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Common-Integration",
+    "Infinispan",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "svgo": [
+    "Fuse-Online"
+  ],
+  "swagger-tools": [
+    "3Scale"
+  ],
+  "swagger-ui": [
+    "3Scale"
+  ],
+  "swagger-ui-express": [
+    "Insights-Curiosity"
+  ],
+  "symlink-dir": [
+    "Kogito"
+  ],
+  "sync-request": [
+    "Red-Hat-Developers"
+  ],
+  "tabbable": [
+    "Foreman-Console"
+  ],
+  "table": [
+    "Virtualization-Frontend"
+  ],
+  "table-resolver": [
+    "IMS-V2V"
+  ],
+  "tailwindcss": [
+    "Settings-Catalog"
+  ],
+  "talkback": [
+    "Fuse-Online"
+  ],
+  "terser-webpack-plugin": [
+    "Cockpit",
+    "Infinispan",
+    "Migration-Toolkit-for-Virtualization",
+    "Operatorhub",
+    "Quay",
+    "Virtualization-Frontend"
+  ],
+  "text-encoding": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "text-security": [
+    "Keycloak"
+  ],
+  "thenby": [
+    "AMQ"
+  ],
+  "thread-loader": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "throttle-debounce": [
+    "Cockpit"
+  ],
+  "tiny-invariant": [
+    "Fuse-Online"
+  ],
+  "tiny-warning": [
+    "Fuse-Online"
+  ],
+  "tippy.js": [
+    "Kiali-App"
+  ],
+  "topojson": [
+    "Migration-Analytics"
+  ],
+  "topojson-client": [
+    "AMQ-Interconnect"
+  ],
+  "traverse": [
+    "AMQ"
+  ],
+  "travis-deploy-once": [
+    "Red-Hat-Developers"
+  ],
+  "tree-crawl": [
+    "Migration-Toolkit-for-Containers"
+  ],
+  "trim": [
+    "Settings-Catalog"
+  ],
+  "ts-essentials": [
+    "Settings-Hooks"
+  ],
+  "ts-import-plugin": [
+    "Settings-Hooks"
+  ],
+  "ts-jest": [
+    "Apicurio-POC",
+    "Che-CodeReady",
+    "Common-Integration",
+    "Cost-Management",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Quay",
+    "Settings-Hooks"
+  ],
+  "ts-json-schema-generator": [
+    "OpenShift-Admin-Console"
+  ],
+  "ts-loader": [
+    "AMQ",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Quay",
+    "Quay",
+    "Settings-Catalog"
+  ],
+  "ts-mockito": [
+    "Che-CodeReady"
+  ],
+  "ts-mocks": [
+    "Quay"
+  ],
+  "ts-node": [
+    "Apicurio",
+    "Che-CodeReady",
+    "Fuse-Online",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay",
+    "Settings-Hooks"
+  ],
+  "ts-protoc-gen": [
+    "Operatorhub",
+    "Operatorhub"
+  ],
+  "tsconfig-paths-webpack-plugin": [
+    "AMQ",
+    "Apicurio-POC",
+    "Cost-Management",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "tsickle": [
+    "Fuse-Online"
+  ],
+  "tslib": [
+    "Apicurio",
+    "Che-CodeReady",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Toolkit-for-Virtualization"
+  ],
+  "tslint": [
+    "Apicurio-POC",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Migration-Analytics",
+    "Process-Automation",
+    "Quay"
+  ],
+  "tslint-config-prettier": [
+    "Apicurio-POC",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Migration-Analytics",
+    "Process-Automation"
+  ],
+  "tslint-eslint-rules": [
+    "Apicurio-POC",
+    "Migration-Analytics"
+  ],
+  "tslint-microsoft-contrib": [
+    "Fuse-Online"
+  ],
+  "tslint-react": [
+    "Apicurio-POC",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Migration-Analytics",
+    "Process-Automation"
+  ],
+  "tsutils": [
+    "OpenShift-Admin-Console"
+  ],
+  "typedoc": [
+    "Common-Integration",
+    "Common-Integration",
+    "Product-Shared-Library"
+  ],
+  "typesafe-actions": [
+    "Cost-Management",
+    "Kiali-App",
+    "Migration-Analytics",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Settings-Hooks"
+  ],
+  "typescript": [
+    "3Scale",
+    "3Scale-Fly",
+    "AMQ",
+    "AMQ-Interconnect",
+    "Apicurio",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Che-CodeReady",
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Fuse-Console",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Dashboard",
+    "Keycloak",
+    "Keycloak",
+    "Kiali-App",
+    "Kogito",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Operatorhub",
+    "Operatorhub",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "Quay",
+    "Red-Hat-Developers",
+    "Red-Hat-Developers",
+    "Settings-Catalog",
+    "Settings-Hooks"
+  ],
+  "typescript-tslint-plugin": [
+    "Apicurio-POC"
+  ],
+  "typestyle": [
+    "Kiali-App",
+    "Settings-Hooks"
+  ],
+  "ua-parser-js": [
+    "Insights-Drift"
+  ],
+  "uglify-js": [
+    "Red-Hat-Developers"
+  ],
+  "uglifyjs-folder": [
+    "Red-Hat-Developers"
+  ],
+  "uglifyjs-webpack-plugin": [
+    "AMQ-Streams",
+    "Foreman-Console"
+  ],
+  "umd-compat-loader": [
+    "OpenShift-Admin-Console"
+  ],
+  "underscore": [
+    "Kogito",
+    "Kogito",
+    "Red-Hat-Developers"
+  ],
+  "unfetch": [
+    "Insights-Vulnerability"
+  ],
+  "unidiff": [
+    "Foreman-Tools"
+  ],
+  "uniforms": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "uniforms-bridge-json-schema": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "uniforms-bridge-simple-schema-2": [
+    "Kogito"
+  ],
+  "uniforms-patternfly": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Kogito"
+  ],
+  "unique-names-generator": [
+    "OpenShift-Admin-Console"
+  ],
+  "urijs": [
+    "Foreman-Tools",
+    "Fuse-Console",
+    "IMS-V2V",
+    "Insights-Remediations",
+    "Product-Shared-Library"
+  ],
+  "url": [
+    "Migration-Toolkit-for-Containers",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "url-join": [
+    "Automation-Hub"
+  ],
+  "url-loader": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Common-Integration",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Infinispan",
+    "Kogito",
+    "Migration-Toolkit-for-Virtualization",
+    "Product-Shared-Library",
+    "Virtualization-Frontend"
+  ],
+  "url-parse": [
+    "Quay"
+  ],
+  "url-polyfill": [
+    "3Scale",
+    "Quay"
+  ],
+  "url-search-params-polyfill": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "use-debounce": [
+    "Fuse-Online"
+  ],
+  "use-deep-compare-effect": [
+    "Foreman-Katello"
+  ],
+  "use-patternfly": [
+    "AMQ"
+  ],
+  "use-react-router": [
+    "Fuse-Online"
+  ],
+  "user-event": [
+    "Cost-Management"
+  ],
+  "utf8": [
+    "IMS-V2V"
+  ],
+  "util": [
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "uuid": [
+    "AMQ",
+    "Automation-Analytics",
+    "Cockpit",
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "Migration-Toolkit-for-Containers",
+    "RHEL-Composer"
+  ],
+  "validate.js": [
+    "3Scale"
+  ],
+  "validator": [
+    "Pbench"
+  ],
+  "value-equal": [
+    "Fuse-Online"
+  ],
+  "velocityjs": [
+    "Fuse-Online"
+  ],
+  "victory": [
+    "Insights-Curiosity"
+  ],
+  "victory-core": [
+    "Cost-Management"
+  ],
+  "victory-create-container": [
+    "Insights-Curiosity"
+  ],
+  "virtual-dom": [
+    "3Scale"
+  ],
+  "visibilityjs": [
+    "Kiali-App"
+  ],
+  "vsce": [
+    "Kogito"
+  ],
+  "vscode-extension-tester": [
+    "Kogito"
+  ],
+  "vscode-json-languageservice": [
+    "Kogito",
+    "Kogito"
+  ],
+  "vscode-languageserver-textdocument": [
+    "Kogito",
+    "Kogito"
+  ],
+  "vscode-languageserver-types": [
+    "Kogito",
+    "Kogito",
+    "Kogito",
+    "OpenShift-Admin-Console"
+  ],
+  "vscode-test": [
+    "Kogito"
+  ],
+  "vscode-ws-jsonrpc": [
+    "Fuse-Online"
+  ],
+  "vuepress": [
+    "Che-CodeReady"
+  ],
+  "watch": [
+    "Common-Integration",
+    "Process-Automation"
+  ],
+  "web-streams-polyfill": [
+    "Automation-Analytics"
+  ],
+  "web-vitals": [
+    "Pbench"
+  ],
+  "webdriverio": [
+    "Red-Hat-Developers"
+  ],
+  "webpack": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Foreman-Tools",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Fuse-Online",
+    "Infinispan",
+    "Insights-Drift",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Quay",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-RBAC",
+    "Virtualization-Frontend"
+  ],
+  "webpack-bundle-analyzer": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Common-Integration",
+    "Common-Integration",
+    "Foreman-Console",
+    "Foreman-Tools",
+    "Infinispan",
+    "Insights-Compliance",
+    "Insights-Curiosity",
+    "Insights-Dashboard",
+    "Insights-Drift",
+    "Insights-Inventory",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Quay",
+    "Quay",
+    "Settings-Catalog",
+    "Settings-Frontend",
+    "Settings-RBAC",
+    "Settings-Sources"
+  ],
+  "webpack-cli": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Automation-Analytics",
+    "Automation-Hub",
+    "Cockpit",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Foreman-Tools",
+    "Infinispan",
+    "Insights-Drift",
+    "Insights-Remediations",
+    "Insights-Vulnerability",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Process-Automation",
+    "Product-Shared-Library",
+    "Quay",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Virtualization-Frontend"
+  ],
+  "webpack-dev-server": [
+    "3Scale",
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Common-Integration",
+    "Common-Integration",
+    "Cost-Management",
+    "Infinispan",
+    "Kogito",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Containers",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Operatorhub",
+    "Product-Shared-Library",
+    "Product-Shared-Library",
+    "Settings-Catalog",
+    "Virtualization-Frontend"
+  ],
+  "webpack-dev-server-without-h2": [
+    "Foreman-Console"
+  ],
+  "webpack-inject-plugin": [
+    "Foreman-Tools"
+  ],
+  "webpack-merge": [
+    "AMQ-Streams",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Apicurio-POC",
+    "Common-Integration",
+    "Common-Integration",
+    "Infinispan",
+    "Kogito",
+    "Migration-Toolkit-for-Virtualization",
+    "Operatorhub"
+  ],
+  "webpack-node-externals": [
+    "Kogito"
+  ],
+  "webpack-stats-plugin": [
+    "Foreman-Console",
+    "Foreman-Tools"
+  ],
+  "webpack-virtual-modules": [
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "webpack-visualizer-plugin": [
+    "Migration-Analytics"
+  ],
+  "whatwg-fetch": [
+    "Insights-Inventory",
+    "OpenShift-Admin-Console",
+    "Product-Shared-Library",
+    "Quay",
+    "RHEL-Composer",
+    "Settings-Catalog",
+    "Settings-Sources"
+  ],
+  "workbox-webpack-plugin": [
+    "Settings-Catalog"
+  ],
+  "workbox-window": [
+    "Fuse-Online"
+  ],
+  "write-file-webpack-plugin": [
+    "Migration-Analytics",
+    "Product-Shared-Library",
+    "Settings-Catalog"
+  ],
+  "xml-js": [
+    "Kogito"
+  ],
+  "xstate": [
+    "Cost-Management"
+  ],
+  "xterm": [
+    "Cockpit",
+    "OpenShift-Admin-Console",
+    "Quay"
+  ],
+  "xterm-addon-attach": [
+    "OpenShift-Admin-Console"
+  ],
+  "xterm-addon-fit": [
+    "OpenShift-Admin-Console"
+  ],
+  "yalc": [
+    "Fuse-Online"
+  ],
+  "yaml": [
+    "Kogito"
+  ],
+  "yaml-language-server": [
+    "OpenShift-Admin-Console"
+  ],
+  "yaml-loader": [
+    "3Scale"
+  ],
+  "yamljs": [
+    "Insights-Curiosity"
+  ],
+  "yargs": [
+    "Fuse-Console",
+    "Fuse-Online",
+    "Kogito",
+    "Product-Shared-Library",
+    "Product-Shared-Library"
+  ],
+  "yup": [
+    "Foreman-Tools",
+    "IMS-V2V",
+    "Konveyor-Shared-Library",
+    "Migration-Analytics",
+    "Migration-Toolkit-for-Virtualization",
+    "OpenShift-Admin-Console",
+    "Settings-Hooks"
+  ],
+  "zip-webpack-plugin": [
+    "Kogito"
+  ],
+  "zod": [
+    "Settings-Hooks"
+  ],
+  "zone.js": [
+    "Apicurio",
+    "Fuse-Online",
+    "Kogito"
+  ]
+}
