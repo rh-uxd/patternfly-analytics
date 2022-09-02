@@ -1,0 +1,93 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 4
+      },
+      "js": 30,
+      "scss": 2
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/PresentationalComponents/PlainTextWithLinks.js",
+          "/src/PresentationalComponents/RenderForms.js",
+          "/src/SmartComponents/Applications/Applications.js",
+          "/src/SmartComponents/Applications/applications.test.js"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Text": 1,
+      "TextVariants": 1,
+      "Stack": 1,
+      "StackItem": 1,
+      "Card": 1,
+      "CardBody": 1
+    }
+  },
+  "classes": {
+    "pf-u-ml-md": 1,
+    "pf-u-mt-sm": 1,
+    "pf-c-form": 1
+  },
+  "scssVars": {},
+  "repo": "https://github.com/RedHatInsights/settings-frontend",
+  "name": "Settings-Frontend",
+  "date": "2021-07-15T14:21:58.154Z",
+  "dependencies": {
+    "@babel/compat-data": 1,
+    "@babel/core": 1,
+    "@babel/plugin-proposal-class-properties": 1,
+    "@babel/plugin-proposal-decorators": 1,
+    "@babel/plugin-proposal-object-rest-spread": 1,
+    "@babel/plugin-syntax-dynamic-import": 1,
+    "@babel/plugin-transform-runtime": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-flow": 1,
+    "@babel/preset-react": 1,
+    "@babel/runtime": 1,
+    "@data-driven-forms/pf4-component-mapper": 1,
+    "@data-driven-forms/react-form-renderer": 1,
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-table": 1,
+    "@redhat-cloud-services/eslint-config-redhat-cloud-services": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@wojtekmaj/enzyme-adapter-react-17": 1,
+    "babel-core": 1,
+    "babel-eslint": 1,
+    "babel-jest": 1,
+    "babel-plugin-lodash": 1,
+    "babel-plugin-transform-imports": 1,
+    "classnames": 1,
+    "enzyme": 1,
+    "enzyme-to-json": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-loader": 1,
+    "eslint-plugin-react": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "js-yaml": 1,
+    "npm-run-all": 1,
+    "prop-types": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-redux": 1,
+    "react-router-dom": 1,
+    "redux": 1,
+    "redux-logger": 1,
+    "redux-mock-store": 1,
+    "redux-promise-middleware": 1,
+    "stylelint": 1,
+    "stylelint-config-recommended-scss": 1,
+    "stylelint-scss": 1,
+    "webpack-bundle-analyzer": 1
+  }
+}

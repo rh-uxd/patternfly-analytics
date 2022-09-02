@@ -1,0 +1,176 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 8,
+        "css": 1
+      },
+      "js": 3,
+      "ts": 10,
+      "tsx": 11,
+      "css": 2
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/packages/appservices-patternfly-crossconsole/src/components/CrossNavContextSelector/ContextSelectorToggle.tsx",
+          "/packages/appservices-patternfly-crossconsole/src/components/CrossNavContextSelector/CrossNavContextSelector.tsx",
+          "/packages/appservices-patternfly-crossconsole/src/components/CrossNavContextSelector/CrossNavContextSelectorConstants.tsx",
+          "/packages/appservices-patternfly-crossconsole/src/components/CrossNavContextSelector/CrossNavContextSelectorItem.tsx",
+          "/packages/appservices-patternfly-crossconsole/src/components/CrossNavHeader/CrossNavHeader.tsx",
+          "/packages/appservices-patternfly-crossconsole/src/components/LoadingPage/LoadingPage.tsx",
+          "/packages/examples/demo-app-2/src/App.tsx",
+          "/packages/examples/demo-app/src/App.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/packages/appservices-patternfly-core/styles/core.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-icons": {
+      "CaretDownIcon": 1,
+      "BarsIcon": 1,
+      "BellIcon": 2,
+      "CogIcon": 2
+    },
+    "@patternfly/react-styles/css/components/ContextSelector/context-selector": {
+      "styles": 3
+    },
+    "@patternfly/react-styles": {
+      "css": 6
+    },
+    "@patternfly/react-core": {
+      "KEY_CODES": 1,
+      "ContextSelectorProps": 1,
+      "Button": 3,
+      "ButtonVariant": 3,
+      "PageHeaderProps": 1,
+      "PageContextConsumer": 1,
+      "Bullseye": 1,
+      "Spinner": 1,
+      "Flex": 1,
+      "FlexItem": 1,
+      "Title": 1,
+      "Avatar": 2,
+      "Brand": 2,
+      "Breadcrumb": 2,
+      "BreadcrumbItem": 2,
+      "Card": 2,
+      "CardBody": 2,
+      "Dropdown": 2,
+      "DropdownToggle": 2,
+      "DropdownItem": 2,
+      "DropdownSeparator": 2,
+      "KebabToggle": 2,
+      "Gallery": 2,
+      "GalleryItem": 2,
+      "Nav": 2,
+      "NavItem": 2,
+      "NavList": 2,
+      "Page": 2,
+      "PageSection": 2,
+      "PageSectionVariants": 2,
+      "PageSidebar": 2,
+      "SkipToContent": 2,
+      "TextContent": 2,
+      "Text": 2,
+      "Toolbar": 2,
+      "ToolbarGroup": 2,
+      "ToolbarItem": 2
+    },
+    "@rh-uxd/appservices-patternfly-core": {
+      "CrossNavApp": 4,
+      "CrossNavAppState": 1,
+      "getAppNavState": 1,
+      "setAppNavState": 1,
+      "navigateToApp": 1,
+      "getAvailableApps": 1,
+      "getSolutionExplorerServer": 1,
+      "CrossNavAppKeys": 1
+    },
+    "@patternfly/react-styles/css/components/Page/page": {
+      "styles": 1
+    },
+    "@rh-uxd/appservices-patternfly-crossconsole": {
+      "CrossNavHeader": 2,
+      "CrossNavApp": 2,
+      "LoadingPage": 2
+    },
+    "@patternfly/react-styles/css/utilities/Accessibility/accessibility": {
+      "accessibleStyles": 2
+    },
+    "@patternfly/react-styles/css/utilities/Spacing/spacing": {
+      "spacingStyles": 2
+    }
+  },
+  "classes": {
+    "pf-m-no-toggle": 1,
+    "pf-m-no-crossconsole`}": 1,
+    "pf-c-page__header.pf-m-no-toggle": 7,
+    "pf-c-page__header-tools": 6,
+    "pf-c-page__header-brand-link": 6,
+    "pf-c-page__header.pf-m-no-crossconsole": 4,
+    "pf-c-page__header-brand-toggle": 5,
+    "pf-c-page__header": 3,
+    "pf-c-brand": 1,
+    "pf-c-context-selector": 3,
+    "pf-c-context-selector__toggle": 3,
+    "pf-c-context-selector__toggle::before": 3,
+    "pf-m-expanded.pf-c-context-selector__toggle::before,": 1,
+    "pf-c-context-selector__toggle:hover::before,": 1,
+    "pf-c-context-selector__toggle:focus::before": 1,
+    "pf-c-button": 1,
+    "pf-c-page__header.pf-m-no-crossconsole.pf-m-no-toggle": 1
+  },
+  "scssVars": {
+    "--pf-global--spacer--md": 5,
+    "--pf-global--BackgroundColor--dark": 1,
+    "--pf-global--BorderColor--200": 4,
+    "--pf-global--BorderWidth--lg": 1,
+    "--pf-global--active-color-": 1,
+    "--pf-global--BorderWidth--sm": 1,
+    "--pf-global--spacer--sm": 3,
+    "--pf-global--BackgroundColor--200": 1
+  },
+  "repo": "https://github.com/rh-uxd/integration",
+  "name": "Common-Integration",
+  "date": "2022-09-02T17:49:36.149Z",
+  "dependencies": {
+    "@patternfly/react-core": 3,
+    "@patternfly/react-icons": 3,
+    "@rh-uxd/appservices-patternfly-core": 3,
+    "@rh-uxd/appservices-patternfly-crossconsole": 2,
+    "@types/jest": 3,
+    "@types/node": 2,
+    "@types/react": 3,
+    "@types/react-dom": 3,
+    "axios": 1,
+    "copy-webpack-plugin": 1,
+    "css-loader": 1,
+    "jest": 1,
+    "lerna": 1,
+    "path": 1,
+    "raw-loader": 1,
+    "react": 3,
+    "react-dom": 3,
+    "react-scripts": 2,
+    "rimraf": 2,
+    "style-loader": 2,
+    "svg-url-loader": 1,
+    "ts-jest": 1,
+    "ts-loader": 2,
+    "typedoc": 2,
+    "typescript": 4,
+    "url-loader": 1,
+    "watch": 1,
+    "webpack": 2,
+    "webpack-bundle-analyzer": 2,
+    "webpack-cli": 2,
+    "webpack-dev-server": 2,
+    "webpack-merge": 2
+  }
+}
