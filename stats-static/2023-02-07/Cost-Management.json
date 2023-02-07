@@ -1,0 +1,716 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 142,
+        "ts": 64,
+        "scss": 22,
+        "css": 1
+      },
+      "js": 7,
+      "ts": 597,
+      "tsx": 274,
+      "scss": 24,
+      "css": 2
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/components/exports/exportActions.tsx",
+          "/src/components/exports/exportsContent.tsx",
+          "/src/components/exports/exportsDrawer.tsx",
+          "/src/components/exports/exportsLink.tsx",
+          "/src/components/exports/exportsTable.tsx",
+          "/src/components/inactiveSources/inactiveSources.tsx",
+          "/src/routes.tsx",
+          "/src/routes/components/currency/currency.tsx",
+          "/src/routes/components/state/emptyFilterState/emptyFilterState.tsx",
+          "/src/routes/components/state/emptyValueState/emptyValueState.tsx",
+          "/src/routes/components/state/errorState/errorState.tsx",
+          "/src/routes/components/state/loadingState/loadingState.tsx",
+          "/src/routes/costModels/components/addPriceList.tsx",
+          "/src/routes/costModels/components/errorState.tsx",
+          "/src/routes/costModels/components/forms/form.tsx",
+          "/src/routes/costModels/components/inputs/rateInput.tsx",
+          "/src/routes/costModels/components/inputs/selector.tsx",
+          "/src/routes/costModels/components/inputs/simpleInput.tsx",
+          "/src/routes/costModels/components/paginationToolbarTemplate.tsx",
+          "/src/routes/costModels/components/priceListToolbar.tsx",
+          "/src/routes/costModels/components/rateForm/rateForm.tsx",
+          "/src/routes/costModels/components/rateForm/taggingRatesForm.tsx",
+          "/src/routes/costModels/components/rateForm/utils.tsx",
+          "/src/routes/costModels/components/rateTable.tsx",
+          "/src/routes/costModels/components/readOnlyTooltip.tsx",
+          "/src/routes/costModels/components/toolbar/checkboxSelector.tsx",
+          "/src/routes/costModels/components/toolbar/primarySelector.tsx",
+          "/src/routes/costModels/components/warningIcon.tsx",
+          "/src/routes/costModels/costModel/addRateModal.tsx",
+          "/src/routes/costModels/costModel/addSourceStep.tsx",
+          "/src/routes/costModels/costModel/addSourceWizard.tsx",
+          "/src/routes/costModels/costModel/assignSourcesModalToolbar.tsx",
+          "/src/routes/costModels/costModel/costModelInfo.tsx",
+          "/src/routes/costModels/costModel/dialog.test.tsx",
+          "/src/routes/costModels/costModel/dialog.tsx",
+          "/src/routes/costModels/costModel/distribution.tsx",
+          "/src/routes/costModels/costModel/header.tsx",
+          "/src/routes/costModels/costModel/markup.tsx",
+          "/src/routes/costModels/costModel/priceListTable.tsx",
+          "/src/routes/costModels/costModel/sourcesTable.tsx",
+          "/src/routes/costModels/costModel/sourcesToolbar.tsx",
+          "/src/routes/costModels/costModel/table.tsx",
+          "/src/routes/costModels/costModel/updateCostModel.tsx",
+          "/src/routes/costModels/costModel/updateDistributionDialog.tsx",
+          "/src/routes/costModels/costModel/updateMarkupDialog.tsx",
+          "/src/routes/costModels/costModel/updateRateModel.tsx",
+          "/src/routes/costModels/costModelsDetails/bottomPagination.tsx",
+          "/src/routes/costModels/costModelsDetails/costModelsDetails.tsx",
+          "/src/routes/costModels/costModelsDetails/createCostModelButton.tsx",
+          "/src/routes/costModels/costModelsDetails/dialog.tsx",
+          "/src/routes/costModels/costModelsDetails/emptyStateBase.tsx",
+          "/src/routes/costModels/costModelsDetails/header.tsx",
+          "/src/routes/costModels/costModelsDetails/noCostModels.tsx",
+          "/src/routes/costModels/costModelsDetails/table.tsx",
+          "/src/routes/costModels/costModelsDetails/toolbar.tsx",
+          "/src/routes/costModels/costModelsDetails/utils/dialog.tsx",
+          "/src/routes/costModels/costModelsDetails/utils/filters.tsx",
+          "/src/routes/costModels/costModelsDetails/utils/query.tsx",
+          "/src/routes/costModels/costModelsDetails/utils/table.tsx",
+          "/src/routes/costModels/costModelsDetails/utils/toolbar.tsx",
+          "/src/routes/costModels/costModelWizard/assignSourcesToolbar.tsx",
+          "/src/routes/costModels/costModelWizard/costModelWizard.tsx",
+          "/src/routes/costModels/costModelWizard/distribution.tsx",
+          "/src/routes/costModels/costModelWizard/generalInformation.tsx",
+          "/src/routes/costModels/costModelWizard/markup.tsx",
+          "/src/routes/costModels/costModelWizard/priceListTable.tsx",
+          "/src/routes/costModels/costModelWizard/review.tsx",
+          "/src/routes/costModels/costModelWizard/table.tsx",
+          "/src/routes/state/maintenance/maintenanceState.tsx",
+          "/src/routes/state/noData/noDataState.tsx",
+          "/src/routes/state/noProviders/noProvidersState.tsx",
+          "/src/routes/views/components/charts/costChart/costChart.tsx",
+          "/src/routes/views/components/charts/costExplorerChart/costExplorerChart.tsx",
+          "/src/routes/views/components/charts/dailyCostChart/dailyCostChart.tsx",
+          "/src/routes/views/components/charts/dailyTrendChart/dailyTrendChart.tsx",
+          "/src/routes/views/components/charts/historicalCostChart/historicalCostChart.tsx",
+          "/src/routes/views/components/charts/historicalTrendChart/historicalTrendChart.tsx",
+          "/src/routes/views/components/charts/historicalUsageChart/historicalUsageChart.tsx",
+          "/src/routes/views/components/charts/trendChart/trendChart.tsx",
+          "/src/routes/views/components/charts/usageChart/usageChart.tsx",
+          "/src/routes/views/components/costType/costType.tsx",
+          "/src/routes/views/components/dataToolbar/dataKebab.tsx",
+          "/src/routes/views/components/dataToolbar/dataToolbar.tsx",
+          "/src/routes/views/components/dataToolbar/tagValue.tsx",
+          "/src/routes/views/components/export/exportModal.tsx",
+          "/src/routes/views/components/export/exportSubmit.tsx",
+          "/src/routes/views/components/groupBy/groupBy.tsx",
+          "/src/routes/views/components/groupBy/groupByOrg.tsx",
+          "/src/routes/views/components/groupBy/groupByTag.tsx",
+          "/src/routes/views/components/perspective/perspectiveSelect.tsx",
+          "/src/routes/views/components/reports/reportSummary/reportSummary.tsx",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryAlt.tsx",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryDetails.tsx",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryItem.tsx",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryItems.tsx",
+          "/src/routes/views/components/resourceTypeahead/resourceInput.tsx",
+          "/src/routes/views/details/awsDetails/awsDetails.tsx",
+          "/src/routes/views/details/awsDetails/detailsHeader.tsx",
+          "/src/routes/views/details/azureDetails/azureDetails.tsx",
+          "/src/routes/views/details/azureDetails/detailsHeader.tsx",
+          "/src/routes/views/details/components/actions/actions.tsx",
+          "/src/routes/views/details/components/breakdown/breakdownBase.tsx",
+          "/src/routes/views/details/components/breakdown/breakdownHeader.tsx",
+          "/src/routes/views/details/components/cluster/clusterModal.tsx",
+          "/src/routes/views/details/components/columnManagement/columnManagementModal.tsx",
+          "/src/routes/views/details/components/costChart/costChart.tsx",
+          "/src/routes/views/details/components/costOverview/costOverviewBase.tsx",
+          "/src/routes/views/details/components/dataTable/dataTable.tsx",
+          "/src/routes/views/details/components/historicalData/historicalDataBase.tsx",
+          "/src/routes/views/details/components/historicalData/historicalDataCostChart.tsx",
+          "/src/routes/views/details/components/historicalData/historicalDataTrendChart.tsx",
+          "/src/routes/views/details/components/historicalData/historicalDataUsageChart.tsx",
+          "/src/routes/views/details/components/summary/summaryCard.tsx",
+          "/src/routes/views/details/components/summary/summaryModal.tsx",
+          "/src/routes/views/details/components/summary/summaryModalContent.tsx",
+          "/src/routes/views/details/components/tag/tagContent.tsx",
+          "/src/routes/views/details/components/tag/tagLink.tsx",
+          "/src/routes/views/details/components/tag/tagModal.tsx",
+          "/src/routes/views/details/components/usageChart/usageChart.tsx",
+          "/src/routes/views/details/gcpDetails/detailsHeader.tsx",
+          "/src/routes/views/details/gcpDetails/gcpDetails.tsx",
+          "/src/routes/views/details/ibmDetails/detailsHeader.tsx",
+          "/src/routes/views/details/ibmDetails/ibmDetails.tsx",
+          "/src/routes/views/details/ociDetails/detailsHeader.tsx",
+          "/src/routes/views/details/ociDetails/ociDetails.tsx",
+          "/src/routes/views/details/ocpDetails/detailsHeader.tsx",
+          "/src/routes/views/details/ocpDetails/detailsTable.tsx",
+          "/src/routes/views/details/ocpDetails/ocpDetails.tsx",
+          "/src/routes/views/details/rhelDetails/detailsHeader.tsx",
+          "/src/routes/views/details/rhelDetails/detailsTable.tsx",
+          "/src/routes/views/details/rhelDetails/rhelDetails.tsx",
+          "/src/routes/views/explorer/explorer.tsx",
+          "/src/routes/views/explorer/explorerChart.tsx",
+          "/src/routes/views/explorer/explorerDatePicker.tsx",
+          "/src/routes/views/explorer/explorerDateRange.tsx",
+          "/src/routes/views/explorer/explorerHeader.tsx",
+          "/src/routes/views/explorer/explorerTable.tsx",
+          "/src/routes/views/overview/components/chartComparison.tsx",
+          "/src/routes/views/overview/components/dashboardBase.tsx",
+          "/src/routes/views/overview/components/dashboardWidgetBase.tsx",
+          "/src/routes/views/overview/overview.tsx",
+          "/src/store/export/exportActions.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/components/exports/exports.styles.ts",
+          "/src/components/exports/exportsTable.styles.ts",
+          "/src/routes/components/currency/currency.styles.ts",
+          "/src/routes/costModels/components/inputs/rateInput.styles.ts",
+          "/src/routes/costModels/components/priceListToolbar.styles.ts",
+          "/src/routes/costModels/costModel/costCalc.styles.ts",
+          "/src/routes/costModels/costModel/costModelInfo.styles.ts",
+          "/src/routes/costModels/costModel/costModelsDetails.styles.ts",
+          "/src/routes/state/noProviders/noProvidersState.styles.ts",
+          "/src/routes/views/components/charts/chartTheme/theme-utils.ts",
+          "/src/routes/views/components/charts/common/chartUtils.ts",
+          "/src/routes/views/components/charts/costChart/costChart.styles.ts",
+          "/src/routes/views/components/charts/costExplorerChart/costExplorerChart.styles.ts",
+          "/src/routes/views/components/charts/dailyCostChart/dailyCostChart.styles.ts",
+          "/src/routes/views/components/charts/dailyTrendChart/dailyTrendChart.styles.ts",
+          "/src/routes/views/components/charts/historicalCostChart/historicalCostChart.styles.ts",
+          "/src/routes/views/components/charts/historicalTrendChart/historicalTrendChart.styles.ts",
+          "/src/routes/views/components/charts/historicalUsageChart/historicalUsageChart.styles.ts",
+          "/src/routes/views/components/charts/trendChart/trendChart.styles.ts",
+          "/src/routes/views/components/charts/usageChart/usageChart.styles.ts",
+          "/src/routes/views/components/costType/costType.styles.ts",
+          "/src/routes/views/components/dataToolbar/dataToolbar.styles.ts",
+          "/src/routes/views/components/export/exportModal.styles.ts",
+          "/src/routes/views/components/groupBy/groupBy.styles.ts",
+          "/src/routes/views/components/perspective/perspective.styles.ts",
+          "/src/routes/views/details/awsDetails/awsDetails.styles.ts",
+          "/src/routes/views/details/awsDetails/detailsHeader.styles.ts",
+          "/src/routes/views/details/azureDetails/azureDetails.styles.ts",
+          "/src/routes/views/details/azureDetails/detailsHeader.styles.ts",
+          "/src/routes/views/details/components/breakdown/breakdown.styles.ts",
+          "/src/routes/views/details/components/breakdown/breakdownHeader.styles.ts",
+          "/src/routes/views/details/components/cluster/cluster.styles.ts",
+          "/src/routes/views/details/components/cluster/clusterModal.styles.ts",
+          "/src/routes/views/details/components/costChart/costChart.styles.ts",
+          "/src/routes/views/details/components/dataTable/dataTable.styles.ts",
+          "/src/routes/views/details/components/historicalData/historicalChart.styles.ts",
+          "/src/routes/views/details/components/summary/summary.styles.ts",
+          "/src/routes/views/details/components/summary/summaryCard.styles.ts",
+          "/src/routes/views/details/components/summary/summaryModal.styles.ts",
+          "/src/routes/views/details/components/tag/tag.styles.ts",
+          "/src/routes/views/details/components/tag/tagModal.styles.ts",
+          "/src/routes/views/details/components/usageChart/usageChart.styles.ts",
+          "/src/routes/views/details/gcpDetails/detailsHeader.styles.ts",
+          "/src/routes/views/details/gcpDetails/gcpDetails.styles.ts",
+          "/src/routes/views/details/ibmDetails/detailsHeader.styles.ts",
+          "/src/routes/views/details/ibmDetails/ibmDetails.styles.ts",
+          "/src/routes/views/details/ociDetails/detailsHeader.styles.ts",
+          "/src/routes/views/details/ociDetails/ociDetails.styles.ts",
+          "/src/routes/views/details/ocpDetails/detailsHeader.styles.ts",
+          "/src/routes/views/details/ocpDetails/ocpDetails.styles.ts",
+          "/src/routes/views/details/rhelDetails/detailsHeader.styles.ts",
+          "/src/routes/views/details/rhelDetails/rhelDetails.styles.ts",
+          "/src/routes/views/explorer/explorer.styles.ts",
+          "/src/routes/views/explorer/explorerChart.styles.ts",
+          "/src/routes/views/explorer/explorerDatePicker.styles.ts",
+          "/src/routes/views/explorer/explorerFilter.styles.ts",
+          "/src/routes/views/explorer/explorerHeader.styles.ts",
+          "/src/routes/views/explorer/explorerTable.styles.ts",
+          "/src/routes/views/overview/awsOcpDashboard/awsOcpDashboardWidget.styles.ts",
+          "/src/routes/views/overview/components/dashboardWidget.styles.ts",
+          "/src/routes/views/overview/overview.styles.ts",
+          "/src/store/costModels/actions.ts",
+          "/src/store/rbac/actions.ts",
+          "/src/styles/theme.ts"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/components/exports/exports.scss",
+          "/src/components/inactiveSources/inactiveSources.scss",
+          "/src/routes/components/currency/currency.scss",
+          "/src/routes/components/state/emptyValueState/emptyValueState.scss",
+          "/src/routes/views/components/costType/costType.scss",
+          "/src/routes/views/components/dataToolbar/dataToolbar.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummary.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryAlt.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryCost.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryDailyCost.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryDailyTrend.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryDetails.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryItem.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryItems.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryTrend.scss",
+          "/src/routes/views/components/reports/reportSummary/reportSummaryUsage.scss",
+          "/src/routes/views/details/components/breakdown/breakdownHeader.scss",
+          "/src/routes/views/details/components/cluster/clusterModal.scss",
+          "/src/routes/views/details/components/dataTable/dataTable.scss",
+          "/src/routes/views/details/components/summary/summaryModal.scss",
+          "/src/routes/views/explorer/explorerTable.scss",
+          "/src/routes/views/overview/overview.scss"
+        ]
+      },
+      "css": {
+        "files": [
+          "/src/styles/global.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Dropdown": 8,
+      "DropdownItem": 8,
+      "KebabToggle": 6,
+      "Pagination": 18,
+      "PaginationVariant": 11,
+      "Drawer": 1,
+      "DrawerActions": 1,
+      "DrawerCloseButton": 1,
+      "DrawerContent": 1,
+      "DrawerContentBody": 1,
+      "DrawerHead": 1,
+      "DrawerPanelContent": 1,
+      "Title": 55,
+      "TitleSizes": 38,
+      "AlertActionLink": 1,
+      "Button": 32,
+      "Bullseye": 8,
+      "ButtonVariant": 15,
+      "EmptyState": 15,
+      "EmptyStateBody": 15,
+      "EmptyStateIcon": 14,
+      "Label": 3,
+      "Popover": 4,
+      "Spinner": 5,
+      "Alert": 11,
+      "AlertActionCloseButton": 1,
+      "Select": 14,
+      "SelectOption": 14,
+      "SelectVariant": 13,
+      "EmptyStateVariant": 5,
+      "ActionGroup": 1,
+      "Form": 7,
+      "Stack": 14,
+      "StackItem": 14,
+      "Text": 11,
+      "TextContent": 13,
+      "TextVariants": 7,
+      "FormGroup": 12,
+      "InputGroup": 9,
+      "InputGroupText": 7,
+      "TextInput": 13,
+      "SelectDirection": 2,
+      "Toolbar": 10,
+      "ToolbarContent": 10,
+      "ToolbarItem": 10,
+      "ToolbarFilter": 6,
+      "ToolbarGroup": 3,
+      "ToolbarItemVariant": 4,
+      "ToolbarToggleGroup": 6,
+      "Grid": 9,
+      "GridItem": 9,
+      "Radio": 6,
+      "Switch": 2,
+      "Checkbox": 2,
+      "Split": 2,
+      "SplitItem": 2,
+      "Tooltip": 5,
+      "Modal": 14,
+      "TabContent": 3,
+      "Card": 7,
+      "CardActions": 2,
+      "CardBody": 7,
+      "CardHeader": 2,
+      "CardHeaderMain": 2,
+      "DropdownPosition": 4,
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1,
+      "List": 4,
+      "ListItem": 4,
+      "Tab": 4,
+      "Tabs": 4,
+      "TabTitleText": 4,
+      "TextList": 3,
+      "TextListItem": 3,
+      "TextListItemVariants": 2,
+      "TextListVariants": 3,
+      "TextArea": 2,
+      "ModalVariant": 4,
+      "Flex": 2,
+      "FlexItem": 2,
+      "PageSection": 2,
+      "PageSectionVariants": 2,
+      "AlertVariant": 4,
+      "DropdownToggle": 2,
+      "Wizard": 1,
+      "EmptyStateSecondaryActions": 1,
+      "DropdownToggleCheckbox": 1,
+      "CardFooter": 3,
+      "CardTitle": 5,
+      "Skeleton": 10,
+      "Progress": 1,
+      "ProgressSize": 1,
+      "Divider": 1,
+      "Menu": 1,
+      "MenuContent": 1,
+      "MenuItem": 1,
+      "MenuList": 1,
+      "Popper": 1,
+      "TextInputGroup": 1,
+      "TextInputGroupMain": 1,
+      "TextInputGroupUtilities": 1,
+      "DataList": 2,
+      "DataListCell": 2,
+      "DataListCheck": 1,
+      "DataListItem": 2,
+      "DataListItemCells": 2,
+      "DataListItemRow": 2,
+      "ButtonType": 1,
+      "DatePicker": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_BackgroundColor_light_100": {
+      "global_BackgroundColor_light_100": 26
+    },
+    "@patternfly/react-tokens/dist/js/global_spacer_lg": {
+      "global_spacer_lg": 31
+    },
+    "@patternfly/react-tokens/dist/js/global_spacer_md": {
+      "global_spacer_md": 32
+    },
+    "@patternfly/react-tokens/dist/js/global_spacer_sm": {
+      "global_spacer_sm": 20
+    },
+    "@patternfly/react-icons/dist/esm/icons/angle-double-left-icon": {
+      "AngleDoubleLeftIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_danger_color_200": {
+      "global_danger_color_200": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_FontSize_sm": {
+      "global_FontSize_sm": 9
+    },
+    "@patternfly/react-tokens/dist/js/global_spacer_xl": {
+      "global_spacer_xl": 6
+    },
+    "@patternfly/react-icons/dist/esm/icons/download-icon": {
+      "DownloadIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-circle-icon": {
+      "ExclamationCircleIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/outlined-clock-icon": {
+      "OutlinedClockIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/plus-circle-icon": {
+      "PlusCircleIcon": 8
+    },
+    "@patternfly/react-icons/dist/esm/icons/sync-icon": {
+      "SyncIcon": 1
+    },
+    "@patternfly/react-table": {
+      "sortable": 2,
+      "SortByDirection": 8,
+      "Table": 1,
+      "TableBody": 1,
+      "TableHeader": 1,
+      "TableVariant": 2,
+      "ActionsColumn": 3,
+      "ExpandableRowContent": 1,
+      "TableComposable": 7,
+      "Tbody": 7,
+      "Td": 7,
+      "Th": 7,
+      "Thead": 7,
+      "Tr": 7,
+      "TableGridBreakpoint": 2,
+      "InnerScrollContainer": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/search-icon": {
+      "SearchIcon": 8
+    },
+    "@patternfly/react-icons/dist/esm/icons/minus-icon": {
+      "MinusIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/error-circle-o-icon": {
+      "ErrorCircleOIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/lock-icon": {
+      "LockIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_danger_color_100": {
+      "global_DangerColor_100": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_FontWeight_bold": {
+      "global_FontWeight_bold": 4
+    },
+    "@patternfly/react-icons/dist/esm/icons/filter-icon": {
+      "FilterIcon": 8
+    },
+    "@patternfly/react-icons/dist/esm/icons/minus-circle-icon": {
+      "MinusCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/warning-triangle-icon": {
+      "WarningTriangleIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_FontSize_md": {
+      "global_FontSize_md": 4
+    },
+    "@patternfly/react-tokens/dist/js/global_FontSize_xl": {
+      "global_FontSize_xl": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-triangle-icon": {
+      "ExclamationTriangleIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/outlined-question-circle-icon": {
+      "OutlinedQuestionCircleIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/ok-icon": {
+      "OkIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_spacer_xs": {
+      "global_spacer_xs": 5
+    },
+    "@patternfly/react-icons/dist/esm/icons/external-link-alt-icon": {
+      "ExternalLinkAltIcon": 1
+    },
+    "@patternfly/react-charts": {
+      "ChartThemeColor": 3,
+      "mergeTheme": 1,
+      "getInteractiveLegendItemStyles": 1,
+      "Chart": 9,
+      "ChartArea": 6,
+      "ChartAxis": 9,
+      "ChartLegend": 10,
+      "ChartLegendTooltip": 9,
+      "createContainer": 9,
+      "getInteractiveLegendEvents": 9,
+      "ChartBar": 3,
+      "ChartStack": 1,
+      "ChartGroup": 2,
+      "ChartLine": 2,
+      "ChartLabel": 1,
+      "ChartPie": 1,
+      "ChartBullet": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_black_200": {
+      "chart_color_black_200": 5
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_blue_100": {
+      "chart_color_blue_100": 5
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_blue_200": {
+      "chart_color_blue_200": 5
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_blue_300": {
+      "chart_color_blue_300": 6
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_blue_400": {
+      "chart_color_blue_400": 5
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_blue_500": {
+      "chart_color_blue_500": 5
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_100": {
+      "chart_color_green_100": 8
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_200": {
+      "chart_color_green_200": 8
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_300": {
+      "chart_color_green_300": 9
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_400": {
+      "chart_color_green_400": 8
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_500": {
+      "chart_color_green_500": 8
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_cyan_300": {
+      "chart_color_cyan_300": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_gold_300": {
+      "chart_color_gold_300": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_orange_300": {
+      "chart_color_orange_300": 3
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_purple_300": {
+      "chart_color_purple_300": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/export-icon": {
+      "ExportIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/times-icon": {
+      "TimesIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_Color_100": {
+      "global_Color_100": 8
+    },
+    "@patternfly/react-tokens/dist/js/global_BackgroundColor_100": {
+      "global_BackgroundColor_100": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_disabled_color_100": {
+      "global_disabled_color_100": 3
+    },
+    "@patternfly/react-tokens/dist/js/global_FontSize_xs": {
+      "global_FontSize_xs": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/angle-left-icon": {
+      "AngleLeftIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_spacer_3xl": {
+      "global_spacer_3xl": 7
+    },
+    "@patternfly/react-tokens/dist/js/global_spacer_2xl": {
+      "global_spacer_2xl": 5
+    },
+    "@patternfly/react-icons/dist/esm/icons/calculator-icon": {
+      "CalculatorIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/tag-icon": {
+      "TagIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_Color_200": {
+      "global_Color_200": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_BoxShadow_sm_right": {
+      "global_BoxShadow_sm_right": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_breakpoint_lg": {
+      "global_breakpoint_lg": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_breakpoint_md": {
+      "global_breakpoint_md": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_breakpoint_sm": {
+      "global_breakpoint_sm": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_breakpoint_xl": {
+      "global_breakpoint_xl": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_breakpoint_xs": {
+      "global_breakpoint_xs": 1
+    },
+    "@patternfly/react-tokens/dist/js/global_Color_dark_100": {
+      "global_Color_dark_100": 1
+    }
+  },
+  "classes": {
+    "pf-c-alert__action-group": 1,
+    "pf-m-redhat-font": 5,
+    "pf-c-divider": 1,
+    "pf-m-sm": 1,
+    "pf-c-breadcrumb__list": 1,
+    "pf-c-breadcrumb__item": 1,
+    "pf-c-breadcrumb__item-divider": 2,
+    "pf-c-drawer__content": 1,
+    "pf-c-select__menu": 1,
+    "pf-c-select": 2,
+    "pf-c-select__menu-item-description": 1,
+    "pf-c-breadcrumb__item:not(:last-child)": 1,
+    "pf-c-modal-box__body": 2,
+    "pf-c-modal-box__footer": 2,
+    "pf-c-modal-box": 1,
+    "pf-c-table": 1,
+    "pf-c-page__main-section": 1,
+    "pf-l-grid": 2,
+    "pf-l-grid__item": 1
+  },
+  "scssVars": {
+    "--pf-global--BackgroundColor--light": 3,
+    "--pf-global--spacer--lg": 5,
+    "--pf-global--FontSize--sm": 1,
+    "--pf-global--spacer--md": 11,
+    "--pf-global--FontSize--xs": 4,
+    "--pf-global--Color--200": 2,
+    "--pf-global--spacer--sm": 9,
+    "--pf-global--LineHeight--sm": 2,
+    "--pf-global--spacer--xs": 3,
+    "--pf-global--Color--100": 2,
+    "--pf-global--FontSize--2xl": 1,
+    "--pf-global--FontSize--4xl": 1,
+    "--pf-c-breadcrumb__item--MarginRight": 1,
+    "--pf-c-breadcrumb__item-divider-": 1,
+    "--pf-global--success-color-": 4,
+    "--pf-global--danger-color-": 4,
+    "--pf-c-page__main-section-": 1
+  },
+  "repo": "https://github.com/project-koku/koku-ui",
+  "name": "Cost-Management",
+  "date": "2023-02-07T20:41:17.305Z",
+  "dependencies": {
+    "@formatjs/cli": 1,
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-table": 1,
+    "@patternfly/react-tokens": 1,
+    "@redhat-cloud-services/eslint-config-redhat-cloud-services": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-translations": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@redhat-cloud-services/rbac-client": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@types/jest": 1,
+    "@types/qs": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "@types/react-redux": 1,
+    "@types/react-router-dom": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "@unleash/proxy-client-react": 1,
+    "@xstate/test": 1,
+    "@yarnpkg/lockfile": 1,
+    "aphrodite": 1,
+    "axios": 1,
+    "copy-webpack-plugin": 1,
+    "date-fns": 1,
+    "eslint": 1,
+    "eslint-plugin-formatjs": 1,
+    "eslint-plugin-jest-dom": 1,
+    "eslint-plugin-jsdoc": 1,
+    "eslint-plugin-markdown": 1,
+    "eslint-plugin-patternfly-react": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-simple-import-sort": 1,
+    "eslint-plugin-sort-keys-fix": 1,
+    "eslint-plugin-testing-library": 1,
+    "git-revision-webpack-plugin": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "jest-mock-axios": 1,
+    "js-file-download": 1,
+    "jws": 1,
+    "lodash": 1,
+    "prettier": 1,
+    "qs": 1,
+    "react": 1,
+    "react-bootstrap": 1,
+    "react-dom": 1,
+    "react-intl": 1,
+    "react-redux": 1,
+    "react-router-dom": 1,
+    "redux": 1,
+    "redux-thunk": 1,
+    "rimraf": 1,
+    "typesafe-actions": 1,
+    "typescript": 1,
+    "unleash-proxy-client": 1,
+    "user-event": 1,
+    "victory-core": 1,
+    "webpack-bundle-analyzer": 1,
+    "xstate": 1
+  }
+}

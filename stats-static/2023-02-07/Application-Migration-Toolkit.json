@@ -1,0 +1,17 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 51,
+      "css": 16
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "scssVars": {},
+  "repo": "https://github.com/windup/windup",
+  "name": "Application-Migration-Toolkit",
+  "date": "2023-02-07T20:41:17.305Z",
+  "dependencies": {}
+}
