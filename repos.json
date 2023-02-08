@@ -5,16 +5,8 @@
       "name": "Migration-Toolkit-for-Containers"
     },
     {
-      "git": "https://github.com/konveyor/virt-ui",
-      "name": "Migration-Toolkit-for-Virtualization"
-    },
-    {
       "git": "https://github.com/konveyor/lib-ui",
       "name": "Konveyor-Shared-Library"
-    },
-    {
-      "git": "https://github.com/ManageIQ/manageiq-v2v",
-      "name": "IMS-V2V"
     },
     {
       "git": "git@github.com:ansible/awx-pf.git",
@@ -147,10 +139,6 @@
       "name": "Integreatly"
     },
     {
-      "git": "https://github.com/rh-uxd/integration",
-      "name": "Common-Integration"
-    },
-    {
       "git": "https://github.com/EnMasseProject/enmasse",
       "comment": "https://docs.google.com/presentation/d/1nhOx4SheKFKRejtg7yHbANboeBywL7KCSvkc74UegzA",
       "name": "AMQ"
@@ -158,10 +146,6 @@
     {
       "git": "https://github.com/apache/activemq",
       "name": "AMQ-Consolidated"
-    },
-    {
-      "git": "https://github.com/strimzi-incubator/strimzi-kafka-console",
-      "name": "AMQ-Streams"
     },
     {
       "git": "https://github.com/apache/qpid-dispatch",
@@ -224,14 +208,6 @@
       "name": "Infinispan"
     },
     {
-      "git": "https://github.com/redhat-developer/developers.redhat.com",
-      "name": "Red-Hat-Developers"
-    },
-    {
-      "git": "https://github.com/operator-framework/operatorhub.io",
-      "name": "Operatorhub"
-    },
-    {
       "git": "https://gitlab.corp.redhat.com/ads/offmgr-frontend.git",
       "name": "Offering-Manager",
       "private": true
@@ -244,6 +220,102 @@
       "git": "git@gitlab.cee.redhat.com:RHELReporting/telltale-ui.git",
       "name": "Telltale",
       "private": true
+    },
+    {
+      "git": "https://github.com/aerogear/uniforms-patternfly",
+      "name": "Aerogear-Uniforms-Patternfly"
+    },
+    {
+      "git": "https://github.com/ansible-community/ara-web",
+      "name": "Ansible-Community-Ara-Web"
+    },
+    {
+      "git": "https://github.com/openshift/hac-dev",
+      "name": "HAC-Dev"
+    },
+    {
+      "git": "https://github.com/ansible/awx",
+      "name": "Ansible-awx"
+    },
+    {
+      "git": "https://github.com/apache/camel-karavan",
+      "name": "Camel-Karavan"
+    },
+    {
+      "git": "https://github.com/Apicurio/apicurio-registry",
+      "name": "Apicurio-Registry"
+    },
+    {
+      "git": "https://github.com/change-metrics/monocle",
+      "name": "Change-Metrics-Monocle"
+    },
+    {
+      "git": "https://github.com/cockpit-project/cockpit-certificates",
+      "name": "Cockpit-certificates"
+    },
+    {
+      "git": "https://github.com/cockpit-project/cockpit-machines",
+      "name": "Cockpit-machines"
+    },
+    {
+      "git": "https://github.com/cockpit-project/cockpit-podman",
+      "name": "Cockpit-podman"
+    },
+    {
+      "git": "https://github.com/cockpit-project/starter-kit",
+      "name": "Cockpit-Starter-Kit"
+    },
+    {
+      "git": "https://github.com/debezium/debezium-ui",
+      "name": "Debezium"
+    },
+    {
+      "git": "https://github.com/FNNDSC/ChRIS_store_ui",
+      "name": "ChRIS"
+    },
+    {
+      "git": "https://github.com/keycloak/keycloak-quickstarts",
+      "name": "Keycloak-Quickstarts"
+    },
+    {
+      "git": "https://github.com/kiali/kiali",
+      "name": "Kiali"
+    },
+    {
+      "git": "https://github.com/kiegroup/optaweb-employee-rostering",
+      "name": "Optaweb-Employee-Rostering"
+    },
+    {
+      "git": "https://github.com/kiegroup/optaweb-vehicle-routing",
+      "name": "Optaweb-Vehicle-Routing"
+    },
+    {
+      "git": "https://github.com/kubernetes-sigs/kui",
+      "name": "Kui"
+    },
+    {
+      "git": "https://github.com/ocristopfer/cockpit-sensors",
+      "name": "Ocristopher"
+    },
+    {
+      "git": "https://github.com/opendatahub-io/jupyterhub-singleuser-profiles",
+      "name": "Opendatahub"
+    },
+    {
+      "git": "https://github.com/openshift/console-plugin-template",
+      "name": "Console-Plugin-Template"
+    },
+    {
+      "git": "https://github.com/packit/dashboard",
+      "name": "Packit-Dashboard"
+    },
+    {
+      "git": "https://github.com/patternfly/patternfly-react-seed",
+      "name": "PatternFly-React-Seed"
+    },
+    {
+      "git": "https://github.com/vercel/next.js",
+      "name": "Vercel"
     }
   ]
 }
