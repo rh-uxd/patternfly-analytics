@@ -314,10 +314,6 @@
       "name": "Vercel"
     },
     {
-      "git": "https://github.com/project-koku/koku-ui",
-      "name": "Cost-Management"
-    },
-    {
       "git": "https://github.com/RedHatInsights/hybrid-committed-spend-ui",
       "name": "Hybrid-Commited-Spend"
     },
@@ -326,7 +322,7 @@
       "name": "Opendatahub"
     },
     {
-      "git": "https://github.com/k8s-operatorhub/operatorhub.io/blob/main/frontend",
+      "git": "https://github.com/operator-framework/operatorhub.io.git",
       "name": "Operatorhub"
     },
     {
@@ -336,10 +332,6 @@
     {
       "git": "https://github.com/quipucords/quipucords-ui",
       "name": "Subscriptions-quipucords"
-    },
-    {
-      "git": "https://github.com/ansible/ansible-hub-ui",
-      "name": "Ansible-hub-ui"
     },
     {
       "git": "https://github.com/ansible/ansible-ui",
@@ -380,10 +372,6 @@
     {
       "git": "https://github.com/RedHatInsights/insights-chrome",
       "name": "RedHatInsights-insights-chrome"
-    },
-    {
-      "git": "https://github.com/spadgett/console-quickstarts-plugin",
-      "name": "Openshift-console-quickstarts-plugin"
     },
     {
       "git": "https://github.com/stackrox/stackrox",
