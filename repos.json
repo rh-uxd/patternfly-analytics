@@ -1,12 +1,20 @@
 {
   "repos": [
     {
-      "git": "https://github.com/konveyor/mig-ui",
+      "git": "https://github.com/migtools/mig-ui",
       "name": "Migration-Toolkit-for-Containers"
     },
     {
-      "git": "https://github.com/konveyor/lib-ui",
-      "name": "Konveyor-Shared-Library"
+      "git": "https://github.com/kubev2v/forklift-console-plugin",
+      "name": "Migration-Toolkit-for-Virtualization"
+    },
+    {
+      "git": "https://github.com/konveyor/tackle2-ui",
+      "name": "Migration-Toolkit-For-Applications"
+    },
+    {
+      "git": "https://github.com/migtools/lib-ui",
+      "name": "Migration-Tools-Shared-Library"
     },
     {
       "git": "git@github.com:ansible/awx-pf.git",
