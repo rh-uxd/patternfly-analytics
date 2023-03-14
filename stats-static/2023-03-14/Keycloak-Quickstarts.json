@@ -1,0 +1,120 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 2,
+        "tsx": 1,
+        "css": 1
+      },
+      "js": 36,
+      "tsx": 1,
+      "css": 9
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/extend-account-console/src/main/resources/theme/keycloak-man/account/resources/content/keycloak-man/sample-overview.js",
+          "/extend-account-console/src/main/resources/theme/keycloak-man/account/resources/content/keycloak-man/who-is-keycloak-man.js"
+        ]
+      },
+      "tsx": {
+        "files": [
+          "/extend-account-console/src/main/resources/theme/keycloak-man/account/src/app/content/keycloak-man/KeycloakManLovesJsx.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/extend-account-console/src/main/resources/theme/keycloak-man/account/resources/css/styles.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Card": 1,
+      "CardBody": 1,
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateVariant": 1,
+      "Grid": 1,
+      "GridItem": 1,
+      "Title": 1
+    }
+  },
+  "classes": {
+    "pf-c-card": 2,
+    "pf-c-brand": 2,
+    "pf-c-card__body": 10,
+    "pf-c-content": 1,
+    "pf-c-card__header": 1,
+    "pf-c-card__header-main": 1,
+    "pf-c-nav__list": 1,
+    "pf-c-nav__link": 2,
+    "pf-c-nav__simple-list": 1
+  },
+  "scssVars": {
+    "--pf-global--FontFamily--sans": 1,
+    "--pf-global--FontFamily--heading": 1,
+    "--pf-global--BackgroundColor--dark": 1,
+    "--pf-global--Color--100": 1,
+    "--pf-c-nav__list-link-": 2,
+    "--pf-c-nav__simple-list-link": 2
+  },
+  "repo": "https://github.com/keycloak/keycloak-quickstarts",
+  "name": "Keycloak-Quickstarts",
+  "date": "2023-03-14T17:40:20.054Z",
+  "dependencies": {
+    "@babel/cli": 1,
+    "@babel/core": 1,
+    "@babel/plugin-proposal-class-properties": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-react": 1,
+    "@babel/preset-typescript": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@types/node": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "@types/react-router-dom": 1,
+    "babel-core": 1,
+    "babel-loader": 1,
+    "babel-preset-env": 1,
+    "babel-preset-stage-3": 1,
+    "body-parser": 1,
+    "cors": 1,
+    "cross-env": 1,
+    "css-loader": 1,
+    "eslint": 1,
+    "eslint-config-semistandard": 1,
+    "eslint-config-standard": 1,
+    "eslint-plugin-promise": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-standard": 1,
+    "express": 2,
+    "express-session": 1,
+    "file-loader": 1,
+    "ink-docstrap": 1,
+    "jsdoc": 1,
+    "jshint": 1,
+    "keycloak-client-registration": 1,
+    "keycloak-connect": 1,
+    "keycloak-js": 1,
+    "keycloak-request-token": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-router-dom": 1,
+    "roi": 1,
+    "rollup-plugin-postcss": 1,
+    "snowpack": 1,
+    "tape": 1,
+    "typescript": 1,
+    "vue": 1,
+    "vue-loader": 1,
+    "vue-logger": 1,
+    "vue-template-compiler": 1,
+    "vuejs-logger": 1,
+    "webpack": 1,
+    "webpack-dev-server": 1
+  }
+}

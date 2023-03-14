@@ -1,0 +1,343 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "jsx": 28,
+        "scss": 4,
+        "css": 2
+      },
+      "js": 5,
+      "jsx": 29,
+      "scss": 4,
+      "css": 3
+    },
+    "withPatternfly": {
+      "jsx": {
+        "files": [
+          "/src/app.jsx",
+          "/src/ContainerCheckpointModal.jsx",
+          "/src/ContainerCommitModal.jsx",
+          "/src/ContainerDeleteModal.jsx",
+          "/src/ContainerDetails.jsx",
+          "/src/ContainerHeader.jsx",
+          "/src/ContainerHealthLogs.jsx",
+          "/src/ContainerIntegration.jsx",
+          "/src/ContainerLogs.jsx",
+          "/src/ContainerRenameModal.jsx",
+          "/src/ContainerRestoreModal.jsx",
+          "/src/Containers.jsx",
+          "/src/Dropdown.jsx",
+          "/src/DynamicListForm.jsx",
+          "/src/ForceRemoveModal.jsx",
+          "/src/ImageDeleteModal.jsx",
+          "/src/ImageDetails.jsx",
+          "/src/ImageHistory.jsx",
+          "/src/ImageRunModal.jsx",
+          "/src/Images.jsx",
+          "/src/ImageSearchModal.jsx",
+          "/src/ImageUsedBy.jsx",
+          "/src/Notification.jsx",
+          "/src/PodActions.jsx",
+          "/src/PodCreateModal.jsx",
+          "/src/PruneUnusedImagesModal.jsx",
+          "/src/PublishPort.jsx",
+          "/src/Volume.jsx"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/Containers.scss",
+          "/src/DynamicListForm.scss",
+          "/src/ImageRunModal.scss",
+          "/src/podman.scss"
+        ]
+      },
+      "css": {
+        "files": [
+          "/src/Images.css",
+          "/src/ImageSearchModal.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/esm/components/Page": {
+      "Page": 1,
+      "PageSection": 1,
+      "PageSectionVariants": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Alert": {
+      "Alert": 3,
+      "AlertActionCloseButton": 2,
+      "AlertActionLink": 1
+    },
+    "@patternfly/react-core/dist/esm/components/AlertGroup": {
+      "AlertGroup": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Button": {
+      "Button": 21
+    },
+    "@patternfly/react-core/dist/esm/components/Checkbox": {
+      "Checkbox": 8
+    },
+    "@patternfly/react-core/dist/esm/components/Title": {
+      "Title": 1
+    },
+    "@patternfly/react-core/dist/esm/components/EmptyState": {
+      "EmptyState": 2,
+      "EmptyStateIcon": 1,
+      "EmptyStateSecondaryActions": 1,
+      "EmptyStateVariant": 1,
+      "EmptyStateBody": 1
+    },
+    "@patternfly/react-core/dist/esm/layouts/Stack": {
+      "Stack": 3,
+      "StackItem": 1
+    },
+    "@patternfly/react-icons": {
+      "ExclamationCircleIcon": 3,
+      "CheckCircleIcon": 1,
+      "ErrorCircleOIcon": 1,
+      "MicrochipIcon": 1,
+      "MemoryIcon": 1,
+      "PortIcon": 1,
+      "VolumeIcon": 1,
+      "MinusIcon": 3,
+      "OutlinedQuestionCircleIcon": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Form": {
+      "Form": 7,
+      "FormGroup": 7,
+      "FormFieldGroup": 1,
+      "FormFieldGroupHeader": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Modal": {
+      "Modal": 12
+    },
+    "@patternfly/react-core/dist/esm/components/TextInput": {
+      "TextInput": 8
+    },
+    "@patternfly/react-core/dist/esm/components/DescriptionList": {
+      "DescriptionList": 4,
+      "DescriptionListDescription": 4,
+      "DescriptionListGroup": 4,
+      "DescriptionListTerm": 4
+    },
+    "@patternfly/react-core/dist/esm/layouts/Flex": {
+      "Flex": 8,
+      "FlexItem": 4
+    },
+    "@patternfly/react-core/dist/esm/components/FormSelect": {
+      "FormSelect": 6,
+      "FormSelectOption": 6
+    },
+    "@patternfly/react-core/dist/esm/components/Toolbar": {
+      "Toolbar": 2,
+      "ToolbarContent": 2,
+      "ToolbarItem": 2
+    },
+    "@patternfly/react-core/dist/esm/components/List": {
+      "List": 4,
+      "ListItem": 4
+    },
+    "@patternfly/react-core/dist/esm/components/Tooltip": {
+      "Tooltip": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Badge": {
+      "Badge": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Card": {
+      "Card": 2,
+      "CardActions": 1,
+      "CardBody": 2,
+      "CardHeader": 2,
+      "CardTitle": 2,
+      "CardFooter": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Divider": {
+      "Divider": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Dropdown": {
+      "Dropdown": 4,
+      "DropdownItem": 4,
+      "DropdownSeparator": 2,
+      "KebabToggle": 3,
+      "DropdownToggle": 1,
+      "DropdownToggleAction": 1,
+      "DropdownPosition": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Popover": {
+      "Popover": 3
+    },
+    "@patternfly/react-core/dist/esm/components/LabelGroup": {
+      "LabelGroup": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Text": {
+      "Text": 3,
+      "TextVariants": 2
+    },
+    "@patternfly/react-table": {
+      "cellWidth": 2
+    },
+    "@patternfly/react-core/dist/esm/components/HelperText": {
+      "HelperText": 1,
+      "HelperTextItem": 1
+    },
+    "@patternfly/react-core/dist/esm/layouts/Grid": {
+      "Grid": 3,
+      "GridItem": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Radio": {
+      "Radio": 3
+    },
+    "@patternfly/react-core/dist/esm/components/Select": {
+      "Select": 1,
+      "SelectGroup": 1,
+      "SelectOption": 1,
+      "SelectVariant": 1
+    },
+    "@patternfly/react-core/dist/esm/components/NumberInput": {
+      "NumberInput": 1
+    },
+    "@patternfly/react-core/dist/esm/components/InputGroup": {
+      "InputGroup": 1,
+      "InputGroupText": 1,
+      "InputGroupTextVariant": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Tabs": {
+      "Tab": 1,
+      "TabTitleText": 1,
+      "Tabs": 1
+    },
+    "@patternfly/react-core/dist/esm/components/ToggleGroup": {
+      "ToggleGroup": 1,
+      "ToggleGroupItem": 1
+    },
+    "@patternfly/react-core/dist/esm/components/ExpandableSection": {
+      "ExpandableSection": 1
+    },
+    "@patternfly/react-core/dist/esm/components/DataList": {
+      "DataList": 1,
+      "DataListCell": 1,
+      "DataListItem": 1,
+      "DataListItemCells": 1,
+      "DataListItemRow": 1
+    }
+  },
+  "classes": {
+    "pf-m-page-insets": 1,
+    "pf-m-danger": 4,
+    "pf-c-table__action": 3,
+    "pf-u-hidden-on-sm": 4,
+    "pf-u-disabled-color-100": 2,
+    "pf-m-6-col-on-md": 3,
+    "pf-m-1-col-on-md": 3,
+    "pf-c-form": 3,
+    "pf-c-form__group-label-help": 9,
+    "pf-u-w-100": 1,
+    "pf-u-ml-md": 1,
+    "pf-m-2-col-on-md": 4,
+    "pf-c-form-control": 2,
+    "pf-m-4-col-on-md": 1,
+    "pf-m-3-col-on-md": 2,
+    "pf-c-card__header": 2,
+    "pf-c-card__title": 2,
+    "pf-l-flex": 3,
+    "pf-c-toolbar__content-section": 1,
+    "pf-c-empty-state": 1,
+    "pf-c-form__label": 1,
+    "pf-c-form__group-control": 1,
+    "pf-c-check": 1,
+    "pf-c-form__field-group-body": 1,
+    "pf-c-select__menu": 1,
+    "pf-c-select__menu-list": 1,
+    "pf-c-select__list-item.pf-m-loading": 1,
+    "pf-c-toggle-group__text": 1,
+    "pf-c-select,": 1,
+    "pf-c-form-control:not(.pf-c-select__toggle-typeahead)": 1,
+    "pf-m-horizontal": 1,
+    "pf-c-form__group.ct-m-horizontal": 1,
+    "pf-c-dropdown__menu-item.pf-m-danger:not(.pf-m-disabled,": 1,
+    "pf-m-aria-disabled)": 1,
+    "pf-c-table.pf-m-compact": 2,
+    "pf-c-expandable-section__content": 1,
+    "pf-c-modal-box__body": 1,
+    "pf-c-modal-box__footer": 1,
+    "pf-c-data-list": 1,
+    "pf-c-form__group:nth-child(2)": 1,
+    "pf-c-card.containers-containers,": 1,
+    "pf-c-card.containers-images": 1,
+    "pf-c-table__toggle": 1,
+    "pf-c-table": 1,
+    "pf-c-badge": 1,
+    "pf-c-alert__description": 1,
+    "pf-m-plain": 1
+  },
+  "scssVars": {
+    "--pf-global--spacer--md": 7,
+    "--pf-c-button--m": 1,
+    "--pf-global--FontWeight--normal": 1,
+    "--pf-global--FontSize--sm": 1,
+    "--pf-global--FontWeight--bold": 1,
+    "--pf-global--FontSize--md": 2,
+    "--pf-global--spacer-sm": 1,
+    "--pf-global--spacer--sm": 4,
+    "--pf-global--spacer--lg": 1,
+    "--pf-global--LineHeight--md": 1,
+    "--pf-c-form__field-group-body": 2,
+    "--pf-global--spacer--xs": 1,
+    "--pf-global--spacer--3xl": 1,
+    "--pf-c-form--m": 4,
+    "--pf-global--danger-color-": 3,
+    "--pf-c-table__action--PaddingTop": 1,
+    "--pf-c-table__action--PaddingBottom": 1,
+    "--pf-global--BorderColor--200": 1,
+    "--pf-global--Color--100": 1,
+    "--pf-global--Color--200": 2,
+    "--pf-global--FontSize--lg": 1,
+    "--pf-global--info-color-": 1,
+    "--pf-global--success-color-": 2,
+    "--pf-c-table-tr-": 4,
+    "--pf-c-card--m": 2
+  },
+  "repo": "https://github.com/cockpit-project/cockpit-podman",
+  "name": "Cockpit-podman",
+  "date": "2023-03-14T17:40:20.054Z",
+  "dependencies": {
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-table": 1,
+    "argparse": 1,
+    "chrome-remote-interface": 1,
+    "date-fns": 1,
+    "docker-names": 1,
+    "esbuild": 1,
+    "esbuild-plugin-copy": 1,
+    "esbuild-sass-plugin": 1,
+    "eslint": 1,
+    "eslint-config-standard": 1,
+    "eslint-config-standard-jsx": 1,
+    "eslint-config-standard-react": 1,
+    "eslint-plugin-flowtype": 1,
+    "eslint-plugin-import": 1,
+    "eslint-plugin-jsx-a11y": 1,
+    "eslint-plugin-promise": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "eslint-plugin-standard": 1,
+    "gettext-parser": 1,
+    "htmlparser": 1,
+    "jed": 1,
+    "prop-types": 1,
+    "react": 1,
+    "react-dom": 1,
+    "sass": 1,
+    "sizzle": 1,
+    "stylelint": 1,
+    "stylelint-config-standard-scss": 1,
+    "stylelint-formatter-pretty": 1,
+    "throttle-debounce": 1,
+    "xterm": 1
+  }
+}

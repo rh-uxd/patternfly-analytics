@@ -1,0 +1,47 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "css": 1
+      },
+      "js": 29,
+      "css": 6
+    },
+    "withPatternfly": {
+      "css": {
+        "files": [
+          "/artemis-hawtio/activemq-branding/src/main/webapp/plugin/css/activemq.css"
+        ]
+      }
+    }
+  },
+  "imports": {},
+  "classes": {
+    "pf-c-page__header": 1,
+    "pf-c-login,": 1,
+    "pf-c-about-modal-box__hero": 1,
+    "pf-c-login__main": 1,
+    "pf-c-login__footer": 2,
+    "pf-c-list": 1,
+    "pf-c-login__main-body": 1,
+    "pf-c-login__main-header": 1,
+    "pf-c-button.pf-m-primary": 1,
+    "pf-c-button.pf-m-primary.pf-m-hover,": 1,
+    "pf-c-button.pf-m-primary:hover": 1,
+    "pf-c-title.pf-m-3xl": 1,
+    "pf-c-nav__list": 4,
+    "pf-m-current.pf-c-nav__link::after,": 1,
+    "pf-m-current>.pf-c-nav__link::after": 1,
+    "pf-c-nav__link.pf-m-hover::after,": 1,
+    "pf-c-nav__link:hover::after": 1
+  },
+  "scssVars": {
+    "--pf-c-form__label--Color": 1
+  },
+  "repo": "https://github.com/apache/activemq-artemis",
+  "name": "AMQ-Artemis-Console",
+  "date": "2023-03-14T17:40:20.054Z",
+  "dependencies": {
+    "honkit": 1
+  }
+}

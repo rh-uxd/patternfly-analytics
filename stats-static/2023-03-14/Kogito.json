@@ -1,0 +1,1626 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 342,
+        "ts": 18,
+        "css": 23,
+        "scss": 29,
+        "sass": 1
+      },
+      "js": 409,
+      "ts": 1432,
+      "tsx": 772,
+      "scss": 52,
+      "css": 204,
+      "less": 102,
+      "sass": 4
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/examples/base64png-editor/src/Base64PngEditor.tsx",
+          "/examples/uniforms-patternfly/src/App.tsx",
+          "/examples/uniforms-patternfly/src/Form.tsx",
+          "/examples/webapp/src/App.tsx",
+          "/examples/webapp/src/Home.tsx",
+          "/examples/webapp/src/Pages/Base64Png/Base64PngGallery.tsx",
+          "/examples/webapp/src/Pages/Base64Png/Base64PngPage.tsx",
+          "/examples/webapp/src/Pages/KogitoEditors/BpmnPage.tsx",
+          "/examples/webapp/src/Pages/KogitoEditors/DmnPage.tsx",
+          "/examples/webapp/src/Pages/KogitoEditors/Sidebar.tsx",
+          "/examples/webapp/src/Pages/PingPong/Angular/PingPongAngularDivViewsPage.tsx",
+          "/examples/webapp/src/Pages/PingPong/Angular/PingPongAngularIFrameViewsPage.tsx",
+          "/examples/webapp/src/Pages/PingPong/Mixed/PingPongMixedViewsPage.tsx",
+          "/examples/webapp/src/Pages/PingPong/React/PingPongReactDivViewsPage.tsx",
+          "/examples/webapp/src/Pages/PingPong/React/PingPongReactIFrameViewsPage.tsx",
+          "/examples/webapp/src/Pages/PingPong/StatsSidebar.tsx",
+          "/examples/webapp/src/Pages/StandaloneEditors/DmnStandaloneEditorPage.tsx",
+          "/examples/webapp/src/Pages/StandaloneEditors/SwfEditorEmptyState.tsx",
+          "/examples/webapp/src/Pages/StandaloneEditors/SwfStandaloneDiagramOnlyEditorPage.tsx",
+          "/examples/webapp/src/Pages/StandaloneEditors/SwfStandaloneEditorPage.tsx",
+          "/examples/webapp/src/Pages/StandaloneEditors/SwfStandaloneTextOnlyEditorPage.tsx",
+          "/examples/webapp/src/Pages/TodoList/TodoListViewPage.tsx",
+          "/packages/boxed-expression-component/showcase/index.tsx",
+          "/packages/boxed-expression-component/src/components/ContextExpression/ContextEntryInfo.tsx",
+          "/packages/boxed-expression-component/src/components/DecisionTableExpression/HitPolicySelector.tsx",
+          "/packages/boxed-expression-component/src/components/EditExpressionMenu/DataTypeSelector.tsx",
+          "/packages/boxed-expression-component/src/components/EditExpressionMenu/EditExpressionMenu.tsx",
+          "/packages/boxed-expression-component/src/components/EditExpressionMenu/EditTextInline.tsx",
+          "/packages/boxed-expression-component/src/components/FunctionExpression/EditParameters.tsx",
+          "/packages/boxed-expression-component/src/components/FunctionExpression/FunctionExpression.tsx",
+          "/packages/boxed-expression-component/src/components/FunctionExpression/FunctionKindSelector.tsx",
+          "/packages/boxed-expression-component/src/components/InvocationExpression/InvocationExpression.tsx",
+          "/packages/boxed-expression-component/src/components/LiteralExpression/LiteralExpression.tsx",
+          "/packages/boxed-expression-component/src/components/LiteralExpression/PMMLLiteralExpression.tsx",
+          "/packages/boxed-expression-component/src/components/LogicTypeSelector/LogicTypeSelector.tsx",
+          "/packages/boxed-expression-component/src/components/PopoverMenu/PopoverMenu.tsx",
+          "/packages/boxed-expression-component/src/components/Resizer/Resizer.tsx",
+          "/packages/boxed-expression-component/src/components/SelectionBox/CellSelectionBox.tsx",
+          "/packages/boxed-expression-component/src/components/Table/Table.tsx",
+          "/packages/boxed-expression-component/src/components/Table/TableBody.tsx",
+          "/packages/boxed-expression-component/src/components/Table/TableHandler.tsx",
+          "/packages/boxed-expression-component/src/components/Table/TableHandlerMenu.tsx",
+          "/packages/boxed-expression-component/src/components/Table/TableHeader.tsx",
+          "/packages/boxed-expression-component/src/components/Table/TdAdditiveCell.tsx",
+          "/packages/boxed-expression-component/src/components/Table/TdCell.tsx",
+          "/packages/boxed-expression-component/src/components/Table/ThCell.tsx",
+          "/packages/boxed-expression-component/tests/components/EditExpressionMenu/EditExpressionMenu.test.tsx",
+          "/packages/boxed-expression-component/tests/components/InvocationExpression/InvocationExpression.test.tsx",
+          "/packages/boxed-expression-component/tests/components/Resizer/Resizer.test.tsx",
+          "/packages/boxed-expression-component/tests/components/Table/Table.test.tsx",
+          "/packages/boxed-expression-component/tests/components/Table/TableHandlerMenu.test.tsx",
+          "/packages/dashbuilder-component-table/src/FilteredTable.tsx",
+          "/packages/dashbuilder-component-uniforms/src/Uniforms.tsx",
+          "/packages/dashbuilder-component-uniforms/src/UniformsComponent.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/AreaChart.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/BarChart.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/BaseChart.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/DonutChart.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/LineChart.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/PieChart.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/ScatterChart.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/StackChart.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/UtilizationDonut.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/charts/XYChart.tsx",
+          "/packages/dashbuilder-component-victory-charts/src/VictoryChartComponent.tsx",
+          "/packages/dashbuilder-editor/dev-webapp/App.tsx",
+          "/packages/dashbuilder-editor/src/editor/DashbuilderEditor.tsx",
+          "/packages/dashbuilder-editor/src/editor/Toolbar.tsx",
+          "/packages/dashbuilder-viewer-deployment-webapp/src/components/AppToolbar.tsx",
+          "/packages/dashbuilder-viewer-deployment-webapp/src/components/LoadingSpinner.tsx",
+          "/packages/dashbuilder-viewer-deployment-webapp/src/pages/ErrorPage.tsx",
+          "/packages/dashbuilder-viewer-deployment-webapp/src/pages/HomePage.tsx",
+          "/packages/dashbuilder-viewer/dev-webapp/App.tsx",
+          "/packages/dmn-dev-deployment-form-webapp/src/DmnFormErrorPage.tsx",
+          "/packages/dmn-dev-deployment-form-webapp/src/DmnFormPage.tsx",
+          "/packages/dmn-dev-deployment-form-webapp/src/DmnFormToolbar.tsx",
+          "/packages/editor/src/envelope/KeyBindingsHelpOverlay/KeyBindingsHelpOverlay.tsx",
+          "/packages/editor/src/envelope/LoadingScreen/LoadingScreen.tsx",
+          "/packages/form-dmn/src/DmnFormResult.tsx",
+          "/packages/form-dmn/src/uniforms/DmnAutoFieldProvider.tsx",
+          "/packages/form-dmn/src/uniforms/DmnFeelContextField.tsx",
+          "/packages/form/src/FormBase.tsx",
+          "/packages/form/src/FormStatus.tsx",
+          "/packages/guided-tour/src/components/Dialog.tsx",
+          "/packages/guided-tour/src/components/NavigationControls.tsx",
+          "/packages/guided-tour/src/components/utils/GuidedTourContent.tsx",
+          "/packages/import-java-classes-component/src/components/ImportJavaClasses/ImportJavaClassesWizard.tsx",
+          "/packages/import-java-classes-component/src/components/ImportJavaClasses/ImportJavaClassesWizardFieldListTable.tsx",
+          "/packages/import-java-classes-component/src/components/ImportJavaClasses/ImportJavaClassesWizardFirstStep.tsx",
+          "/packages/import-java-classes-component/src/components/ImportJavaClasses/ImportJavaClassesWizardSecondStep.tsx",
+          "/packages/online-editor/src/aboutModal/AboutButton.tsx",
+          "/packages/online-editor/src/accounts/AccountsIcon.tsx",
+          "/packages/online-editor/src/accounts/git/ConnectToGitSection.tsx",
+          "/packages/online-editor/src/accounts/openshift/ConnecToOpenShiftSimple.tsx",
+          "/packages/online-editor/src/accounts/openshift/ConnectToDeveloperSandboxForRedHatOpenShiftWizard.tsx",
+          "/packages/online-editor/src/accounts/openshift/ConnectToOpenShiftSection.tsx",
+          "/packages/online-editor/src/alerts/Alerts.tsx",
+          "/packages/online-editor/src/authProviders/AuthProviderIcon.tsx",
+          "/packages/online-editor/src/authProviders/AuthProvidersGallery.tsx",
+          "/packages/online-editor/src/authSessions/AuthSessionLabel.tsx",
+          "/packages/online-editor/src/authSessions/AuthSessionSelect.tsx",
+          "/packages/online-editor/src/authSessions/AuthSessionsList.tsx",
+          "/packages/online-editor/src/dates/RelativeDate.tsx",
+          "/packages/online-editor/src/devDeployments/DevDeploymentsConfirmDeleteModal.tsx",
+          "/packages/online-editor/src/devDeployments/DevDeploymentsConfirmDeployModal.tsx",
+          "/packages/online-editor/src/devDeployments/DevDeploymentsDeployDropdownItems.tsx",
+          "/packages/online-editor/src/devDeployments/DevDeploymentsDropdown.tsx",
+          "/packages/online-editor/src/devDeployments/DevDeploymentsDropdownItem.tsx",
+          "/packages/online-editor/src/editor/DeleteDropdownWithConfirmation.tsx",
+          "/packages/online-editor/src/editor/DmnRunner/DmnRunnerDockToggle.tsx",
+          "/packages/online-editor/src/editor/DmnRunner/DmnRunnerDrawer.tsx",
+          "/packages/online-editor/src/editor/DmnRunner/DmnRunnerDrawerPanelContent.tsx",
+          "/packages/online-editor/src/editor/DmnRunner/DmnRunnerLoading.tsx",
+          "/packages/online-editor/src/editor/DmnRunner/DmnRunnerTable.tsx",
+          "/packages/online-editor/src/editor/EditorPage.tsx",
+          "/packages/online-editor/src/editor/EditorPageDockDrawer.tsx",
+          "/packages/online-editor/src/editor/EditorPageDockToggleItem.tsx",
+          "/packages/online-editor/src/editor/EditorPageErrorPage.tsx",
+          "/packages/online-editor/src/editor/KieSandboxExtendedServices/KieSandboxExtendedServicesButtons.tsx",
+          "/packages/online-editor/src/editor/KieSandboxExtendedServices/KieSandboxExtendedServicesDropdownGroup.tsx",
+          "/packages/online-editor/src/editor/NotificationsPanel/NotificationsPanel.tsx",
+          "/packages/online-editor/src/editor/NotificationsPanel/NotificationsPanelDockToggle.tsx",
+          "/packages/online-editor/src/editor/NotificationsPanel/NotificationsPanelTabContent.tsx",
+          "/packages/online-editor/src/editor/TextEditor/TextEditorModal.tsx",
+          "/packages/online-editor/src/editor/Toolbar/EditorToolbar.tsx",
+          "/packages/online-editor/src/editor/Toolbar/FileStatus.tsx",
+          "/packages/online-editor/src/editor/Toolbar/FileSwitcher.tsx",
+          "/packages/online-editor/src/editor/Toolbar/GitIntegration/CreateGistOrSnippetModal.tsx",
+          "/packages/online-editor/src/editor/Toolbar/GitIntegration/CreateGitRepositoryModal.tsx",
+          "/packages/online-editor/src/editor/Toolbar/GitIntegration/GitIntegrationAlerts.tsx",
+          "/packages/online-editor/src/editor/Toolbar/GitIntegration/LoadOrganizationsSelect.tsx",
+          "/packages/online-editor/src/editor/Toolbar/GitIntegration/PushToGitAlertActionLinks.tsx",
+          "/packages/online-editor/src/editor/Toolbar/KebabDropdown.tsx",
+          "/packages/online-editor/src/editor/Toolbar/NewFileDropdownMenu.tsx",
+          "/packages/online-editor/src/editor/Toolbar/Share/DownloadDropdownGroup.tsx",
+          "/packages/online-editor/src/editor/Toolbar/Share/EmbedDropdownGroup.tsx",
+          "/packages/online-editor/src/editor/Toolbar/Share/EmbedModal.tsx",
+          "/packages/online-editor/src/editor/Toolbar/Share/GitDropdownGroup.tsx",
+          "/packages/online-editor/src/editor/Toolbar/SyncDropdownMenu.tsx",
+          "/packages/online-editor/src/editor/Toolbar/VsCodeDropdownMenu.tsx",
+          "/packages/online-editor/src/editor/Toolbar/Workspace/Hooks.tsx",
+          "/packages/online-editor/src/editor/Toolbar/Workspace/WorkspaceToolbar.tsx",
+          "/packages/online-editor/src/filesList/FileDataList.tsx",
+          "/packages/online-editor/src/filesList/FileLabel.tsx",
+          "/packages/online-editor/src/gitRefs/GitRefTypeIcon.tsx",
+          "/packages/online-editor/src/home/HomePage.tsx",
+          "/packages/online-editor/src/home/UploadCard.tsx",
+          "/packages/online-editor/src/importFromUrl/AdvancedImportModalContent.tsx",
+          "/packages/online-editor/src/importFromUrl/ImportableUrlHooks.tsx",
+          "/packages/online-editor/src/importFromUrl/ImportFromUrlHomePageCard.tsx",
+          "/packages/online-editor/src/importFromUrl/ImportSingleFileFromUrlForm.tsx",
+          "/packages/online-editor/src/importFromUrl/NewWorkspaceFromUrlPage.tsx",
+          "/packages/online-editor/src/importFromUrl/NewWorkspaceWithEmptyFilePage.tsx",
+          "/packages/online-editor/src/kieSandboxExtendedServices/FeatureDependentOnKieSandboxExtendedServices.tsx",
+          "/packages/online-editor/src/kieSandboxExtendedServices/KieSandboxExtendedServicesIcon.tsx",
+          "/packages/online-editor/src/kieSandboxExtendedServices/KieSandboxExtendedServicesModal.tsx",
+          "/packages/online-editor/src/NoMatchPage.tsx",
+          "/packages/online-editor/src/os/SelectOs.tsx",
+          "/packages/online-editor/src/pageTemplate/OnlineEditorPage.tsx",
+          "/packages/online-editor/src/ResponsiveDropdown/ResponsiveDropdown.tsx",
+          "/packages/online-editor/src/ResponsiveDropdown/ResponsiveDropdownModal.tsx",
+          "/packages/online-editor/src/ResponsiveDropdown/ResponsiveDropdownToggle.tsx",
+          "/packages/online-editor/src/settings/KieSandboxExtendedServicesSettingsTab.tsx",
+          "/packages/online-editor/src/settings/SettingsButton.tsx",
+          "/packages/online-editor/src/settings/SettingsContext.tsx",
+          "/packages/online-editor/src/settings/SettingsModalBody.tsx",
+          "/packages/online-editor/src/tour/GuidedTourInitializer.tsx",
+          "/packages/online-editor/src/workspace/components/PromiseModal.tsx",
+          "/packages/online-editor/src/workspace/components/WorkspaceCommitModal.tsx",
+          "/packages/online-editor/src/workspace/components/WorkspaceDescriptorDates.tsx",
+          "/packages/online-editor/src/workspace/components/WorkspaceLabel.tsx",
+          "/packages/online-editor/src/workspace/components/WorkspaceListItem.tsx",
+          "/packages/online-editor/src/workspace/components/WorkspaceLoadingCard.tsx",
+          "/packages/online-editor/src/workspace/components/WorkspacesContextProviderWithCustomCommitMessagesModal.tsx",
+          "/packages/online-editor/src/workspace/components/WorkspaceStatusIndicator.tsx",
+          "/packages/online-editor/src/workspace/startupBlockers/IncompatibleBrowser.tsx",
+          "/packages/online-editor/src/workspace/startupBlockers/StartupBlockerTemplate.tsx",
+          "/packages/pmml-editor/dev-webapp/EmptyState.tsx",
+          "/packages/pmml-editor/dev-webapp/HistoryButtons.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/ConstraintsEdit/ConstraintsEdit.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/ConstraintsEnumEdit/ConstraintsEnumEdit.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/ConstraintsLabel/ConstraintsLabel.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/ConstraintsRangeEdit/ConstraintsRangeEdit.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/DataDictionaryContainer/DataDictionaryContainer.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/DataDictionaryHandler/DataDictionaryHandler.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/DataDictionaryPropertiesEdit/DataDictionaryPropertiesEdit.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/DataTypeItem/DataTypeItem.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/DataTypesSort/DataTypesSort.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/EmptyDataDictionary/EmptyDataDictionary.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/MultipleDataTypeAdd/MultipleDataTypeAdd.tsx",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/PropertiesLabels/PropertiesLabels.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorCore/atoms/ActionSpacer.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorCore/atoms/ModelTitle.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorCore/atoms/ValidationIndicator.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorCore/molecules/EditorHeader.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorCore/organisms/EmptyStateModelNotFound.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorCore/templates/UnsupportedModelPage.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/AttributeLabel.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/AttributesTableAction.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/CharacteristicLabel.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/CharacteristicLabelsEditMode.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/CharacteristicsTableAction.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/GenericNumericInput.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/GenericSelector.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/GenericTextInput.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/AttributeEditor.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/AttributesTableRow.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/AttributeToolbar.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/CharacteristicsTableEditRow.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/CharacteristicsTableRow.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/CharacteristicsToolbar.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/EmptyStateNoAttributes.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/EmptyStateNoCharacteristics.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/EmptyStateNoMatchingCharacteristics.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/organisms/CharacteristicsContainer.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/organisms/CharacteristicsTable.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/organisms/CorePropertiesTable.tsx",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/templates/ScorecardEditorPage.tsx",
+          "/packages/pmml-editor/src/editor/components/Header/atoms/HeaderTitle.tsx",
+          "/packages/pmml-editor/src/editor/components/LandingPage/molecules/LandingPageHeader.tsx",
+          "/packages/pmml-editor/src/editor/components/LandingPage/molecules/LandingPageToolbar.tsx",
+          "/packages/pmml-editor/src/editor/components/LandingPage/molecules/ModelCard.tsx",
+          "/packages/pmml-editor/src/editor/components/LandingPage/organisms/EmptyStateNoContent.tsx",
+          "/packages/pmml-editor/src/editor/components/LandingPage/organisms/EmptyStateNoModels.tsx",
+          "/packages/pmml-editor/src/editor/components/LandingPage/templates/LandingPage.tsx",
+          "/packages/pmml-editor/src/editor/components/LinearRegressionViewer/molecules/LinearRegressionView.tsx",
+          "/packages/pmml-editor/src/editor/components/LinearRegressionViewer/templates/LinearRegressionViewerPage.tsx",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/EmptyMiningSchema/EmptyMiningSchema.tsx",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaAddFields/MiningSchemaAddFields.tsx",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaContainer/MiningSchemaContainer.tsx",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaFieldLabels/MiningSchemaFieldLabels.tsx",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaFields/MiningSchemaFields.tsx",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaHandler/MiningSchemaHandler.tsx",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaPropertiesEdit/MiningSchemaPropertiesEdit.tsx",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/NoMiningSchemaFieldsOptions/NoMiningSchemaFieldsOptions.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/atoms/OutputFieldLabel.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/atoms/OutputFieldRowAction.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/atoms/OutputLabelsEditMode.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/molecules/OutputFieldEditRow.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/molecules/OutputFieldRow.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/organisms/EmptyStateNoOutput.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/organisms/OutputFieldExtendedProperties.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/organisms/OutputFieldsTable.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/organisms/OutputsBatchAdd.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/organisms/OutputsContainer.tsx",
+          "/packages/pmml-editor/src/editor/components/Outputs/organisms/OutputsHandler.tsx",
+          "/packages/pmml-editor/src/editor/PMMLEditor.tsx",
+          "/packages/serverless-logic-web-tools-swf-deployment-webapp/src/pages/BasePage.tsx",
+          "/packages/serverless-logic-web-tools-swf-deployment-webapp/src/pages/HomePage.tsx",
+          "/packages/serverless-logic-web-tools/src/alerts/Alerts.tsx",
+          "/packages/serverless-logic-web-tools/src/dates/RelativeDate.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/CreateGitHubRepositoryModal.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/DeleteDropdownWithConfirmation.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/Deploy/ConfirmDeployModal.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/Deploy/ConfirmOptions/DashDeployOptions.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/Deploy/ConfirmOptions/SwfDeployOptions.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/Deploy/DeployDropdownItems.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/EditorPage.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/EditorPageDockDrawer.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/EditorPageErrorPage.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/EditorToolbar.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/FileSwitcher.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/KieSandboxExtendedServices/KieSandboxExtendedServicesButtons.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/KieSandboxExtendedServices/KieSandboxExtendedServicesDropdownGroup.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/LoadingSpinner.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/NewFileDropdownMenu.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/NotificationsPanel/NotificationsPanel.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/NotificationsPanel/NotificationsPanelDockToggle.tsx",
+          "/packages/serverless-logic-web-tools/src/editor/NotificationsPanel/NotificationsPanelTabContent.tsx",
+          "/packages/serverless-logic-web-tools/src/home/HomePage.tsx",
+          "/packages/serverless-logic-web-tools/src/home/ImportFromUrlCard.tsx",
+          "/packages/serverless-logic-web-tools/src/home/SampleCard.tsx",
+          "/packages/serverless-logic-web-tools/src/home/Showcase.tsx",
+          "/packages/serverless-logic-web-tools/src/home/UploadCard.tsx",
+          "/packages/serverless-logic-web-tools/src/kieSandboxExtendedServices/FeatureDependentOnKieSandboxExtendedServices.tsx",
+          "/packages/serverless-logic-web-tools/src/kieSandboxExtendedServices/KieSandboxExtendedServicesIcon.tsx",
+          "/packages/serverless-logic-web-tools/src/kieSandboxExtendedServices/KieSandboxExtendedServicesModal.tsx",
+          "/packages/serverless-logic-web-tools/src/navigation/NoMatchPage.tsx",
+          "/packages/serverless-logic-web-tools/src/openshift/dropdown/OpenShiftDeploymentDropdownItem.tsx",
+          "/packages/serverless-logic-web-tools/src/openshift/dropdown/OpenshiftDeploymentsDropdown.tsx",
+          "/packages/serverless-logic-web-tools/src/os/SelectOs.tsx",
+          "/packages/serverless-logic-web-tools/src/pageTemplate/OnlineEditorPage.tsx",
+          "/packages/serverless-logic-web-tools/src/ResponsiveDropdown/ResponsiveDropdown.tsx",
+          "/packages/serverless-logic-web-tools/src/ResponsiveDropdown/ResponsiveDropdownModal.tsx",
+          "/packages/serverless-logic-web-tools/src/ResponsiveDropdown/ResponsiveDropdownToggle.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/extendedServices/KieSandboxExtendedServicesSettingsTab.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/featurePreview/FeaturePreviewSettingsTab.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/github/GitHubSettingsTab.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/kafka/ApacheKafkaSettingsTab.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/openshift/OpenShiftSettingsTab.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/openshift/OpenShiftSettingsTabSimpleConfig.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/serviceAccount/ServiceAccountSettingsTab.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/serviceRegistry/ServiceRegistrySettingsTab.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/SettingsButton.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/SettingsContext.tsx",
+          "/packages/serverless-logic-web-tools/src/settings/SettingsModalBody.tsx",
+          "/packages/serverless-logic-web-tools/src/workspace/components/FileLabel.tsx",
+          "/packages/serverless-logic-web-tools/src/workspace/components/ImportFromUrlForm.tsx",
+          "/packages/serverless-logic-web-tools/src/workspace/components/NewWorkspaceFromUrlPage.tsx",
+          "/packages/serverless-logic-web-tools/src/workspace/components/NewWorkspaceWithEmptyFilePage.tsx",
+          "/packages/serverless-logic-web-tools/src/workspace/components/WorkspaceLabel.tsx",
+          "/packages/serverless-logic-web-tools/src/workspace/components/WorkspaceStatusIndicator.tsx",
+          "/packages/serverless-logic-web-tools/src/workspace/startupBlockers/IncompatibleBrowser.tsx",
+          "/packages/serverless-logic-web-tools/src/workspace/startupBlockers/StartupBlockerTemplate.tsx",
+          "/packages/serverless-workflow-combined-editor/dev-webapp/App.tsx",
+          "/packages/serverless-workflow-combined-editor/dev-webapp/EmptyState.tsx",
+          "/packages/serverless-workflow-combined-editor/dev-webapp/HistoryButtons.tsx",
+          "/packages/serverless-workflow-combined-editor/src/editor/ServerlessWorkflowCombinedEditor.tsx",
+          "/packages/serverless-workflow-mermaid-viewer/dev-webapp/App.tsx",
+          "/packages/serverless-workflow-mermaid-viewer/dev-webapp/EmptyState.tsx",
+          "/packages/serverless-workflow-mermaid-viewer/dev-webapp/HistoryButtons.tsx",
+          "/packages/serverless-workflow-text-editor/dev-webapp/App.tsx",
+          "/packages/serverless-workflow-text-editor/dev-webapp/EmptyState.tsx",
+          "/packages/serverless-workflow-text-editor/dev-webapp/HistoryButtons.tsx",
+          "/packages/uniforms-patternfly-codegen/src/uniforms/AutoForm.tsx",
+          "/packages/uniforms-patternfly-codegen/src/uniforms/NestField.tsx",
+          "/packages/uniforms-patternfly/src/__tests__/DateField.test.tsx",
+          "/packages/uniforms-patternfly/src/__tests__/TextField.test.tsx",
+          "/packages/uniforms-patternfly/src/BaseForm.tsx",
+          "/packages/uniforms-patternfly/src/BoolField.tsx",
+          "/packages/uniforms-patternfly/src/DateField.tsx",
+          "/packages/uniforms-patternfly/src/ListAddField.tsx",
+          "/packages/uniforms-patternfly/src/ListDelField.tsx",
+          "/packages/uniforms-patternfly/src/ListField.tsx",
+          "/packages/uniforms-patternfly/src/LongTextField.tsx",
+          "/packages/uniforms-patternfly/src/NestField.tsx",
+          "/packages/uniforms-patternfly/src/NumField.tsx",
+          "/packages/uniforms-patternfly/src/RadioField.tsx",
+          "/packages/uniforms-patternfly/src/SelectCheckboxField.tsx",
+          "/packages/uniforms-patternfly/src/SelectField.tsx",
+          "/packages/uniforms-patternfly/src/SelectInputsField.tsx",
+          "/packages/uniforms-patternfly/src/SubmitField.tsx",
+          "/packages/uniforms-patternfly/src/TextField.tsx",
+          "/packages/uniforms-patternfly/src/wrapField.tsx",
+          "/packages/unitables-dmn/src/DmnTableResults.tsx",
+          "/packages/unitables/src/uniforms/AutoField.tsx",
+          "/packages/unitables/src/Unitables.tsx",
+          "/packages/yard-editor/dev-webapp/App.tsx",
+          "/packages/yard-editor/dev-webapp/EmptyState.tsx",
+          "/packages/yard-editor/dev-webapp/MenuButtons.tsx",
+          "/packages/yard-editor/src/editor/YardEditor.tsx",
+          "/packages/yard-editor/src/uiEditor/YardUIEditor.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/packages/boxed-expression-component/it-tests/e2e/context_expression.cy.ts",
+          "/packages/boxed-expression-component/it-tests/e2e/literal_expression.cy.ts",
+          "/packages/boxed-expression-component/it-tests/e2e/popover.cy.ts",
+          "/packages/chrome-extension-pack-kogito-kie-editors/it-tests/framework/editor/Editor.ts",
+          "/packages/form-generation-tool/src/__tests__/generation/formGenerationCommand.test.ts",
+          "/packages/form-generation-tool/src/__tests__/generation/fs/storeFormAsset.test.ts",
+          "/packages/form-generation-tool/src/__tests__/generation/tools/uniforms/patternfly/PatternflyFormGenerationTool.test.ts",
+          "/packages/form-generation-tool/src/generation/tools/formGenerationToolRegistry.ts",
+          "/packages/form-generation-tool/src/generation/tools/uniforms/patternfly/PatternflyFormGenerationTool.ts",
+          "/packages/online-editor/src/responsiveBreakpoints/ResponsiveBreakpoints.ts",
+          "/packages/online-editor/webpack.config.ts",
+          "/packages/pmml-editor/it-tests/e2e/mining-schema.cy.ts",
+          "/packages/pmml-editor/it-tests/e2e/predicate.cy.ts",
+          "/packages/pmml-editor/it-tests/e2e/smoke/NewFile.cy.ts",
+          "/packages/serverless-logic-web-tools/it-tests/e2e/RecentModel.cy.ts",
+          "/packages/serverless-logic-web-tools/it-tests/e2e/TrySample.cy.ts",
+          "/packages/serverless-logic-web-tools/src/ResponsiveDropdown/hooks.ts",
+          "/packages/unitables/src/uniforms/UnitablesJsonSchemaBridge.ts"
+        ]
+      },
+      "css": {
+        "files": [
+          "/packages/boxed-expression-component/src/components/BoxedExpressionEditor/base-no-reset-wrapped.css",
+          "/packages/boxed-expression-component/src/components/BoxedExpressionEditor/BoxedExpressionProvider.css",
+          "/packages/boxed-expression-component/src/components/DecisionTableExpression/DecisionTableExpression.css",
+          "/packages/boxed-expression-component/src/components/ExpressionContainer/ExpressionContainer.css",
+          "/packages/boxed-expression-component/src/components/FunctionExpression/EditParameters.css",
+          "/packages/boxed-expression-component/src/components/FunctionExpression/FunctionExpression.css",
+          "/packages/boxed-expression-component/src/components/InvocationExpression/InvocationExpression.css",
+          "/packages/boxed-expression-component/src/components/LiteralExpression/LiteralExpression.css",
+          "/packages/boxed-expression-component/src/components/LiteralExpression/PMMLLiteralExpression.css",
+          "/packages/boxed-expression-component/src/components/PopoverMenu/PopoverMenu.css",
+          "/packages/boxed-expression-component/src/components/Resizer/Resizer.css",
+          "/packages/boxed-expression-component/src/components/Table/Table.css",
+          "/packages/dashbuilder-component-table/static/index.css",
+          "/packages/dashbuilder-component-victory-charts/static/index.css",
+          "/packages/dashbuilder-viewer-deployment-webapp/static/resources/style.css",
+          "/packages/dmn-dev-deployment-form-webapp/static/resources/style.css",
+          "/packages/import-java-classes-component/src/components/ImportJavaClasses/ImportJavaClassesWizardThirdStep.css",
+          "/packages/online-editor/static/resources/style.css",
+          "/packages/serverless-logic-web-tools-swf-deployment-webapp/static/resources/style.css",
+          "/packages/serverless-logic-web-tools/static/resources/style.css",
+          "/packages/unitables/src/boxed/CustomTable.css",
+          "/packages/yard-editor/src/editor/YardEditor.css",
+          "/packages/yard-editor/src/uiEditor/YardUIEditor.css"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/packages/editor/src/envelope/styles.scss",
+          "/packages/form-dmn/src/styles.scss",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/ConstraintsEdit/ConstraintsEdit.scss",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/ConstraintsEnumEdit/ConstraintsEnumEdit.scss",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/ConstraintsLabel/ConstraintsLabel.scss",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/ConstraintsRangeEdit/ConstraintsRangeEdit.scss",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/DataDictionaryContainer/DataDictionaryContainer.scss",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/DataDictionaryPropertiesEdit/DataDictionaryPropertiesEdit.scss",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/DataTypeItem/DataTypeItem.scss",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/MultipleDataTypeAdd/MultipleDataTypesAdd.scss",
+          "/packages/pmml-editor/src/editor/components/DataDictionary/PropertiesLabels/PropertiesLabels.scss",
+          "/packages/pmml-editor/src/editor/components/EditorCore/atoms/ModelTitle.scss",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/AttributeLabel.scss",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/atoms/CharacteristicLabel.scss",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/AttributeEditor.scss",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/molecules/CharacteristicsToolbar.scss",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/organisms/AttributesTable.scss",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/organisms/CharacteristicsContainer.scss",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/organisms/CorePropertiesTable.scss",
+          "/packages/pmml-editor/src/editor/components/EditorScorecard/templates/ScorecardEditorPage.scss",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaContainer/MiningSchemaContainer.scss",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaFieldLabels/MiningSchemaFieldLabels.scss",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaFields/MiningSchemaFields.scss",
+          "/packages/pmml-editor/src/editor/components/MiningSchema/MiningSchemaPropertiesEdit/MiningSchemaPropertiesEdit.scss",
+          "/packages/pmml-editor/src/editor/components/Outputs/atoms/OutputFieldLabel.scss",
+          "/packages/pmml-editor/src/editor/components/Outputs/molecules/OutputFieldRow.scss",
+          "/packages/pmml-editor/src/editor/components/Outputs/organisms/OutputFieldsTable.scss",
+          "/packages/pmml-editor/src/editor/components/Outputs/organisms/OutputsBatchAdd.scss",
+          "/packages/pmml-editor/src/editor/components/Outputs/organisms/OutputsContainer.scss"
+        ]
+      },
+      "sass": {
+        "files": [
+          "/packages/guided-tour/src/components/Dialog.sass"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/js/components/EmptyState": {
+      "EmptyState": 47,
+      "EmptyStateIcon": 45,
+      "EmptyStateBody": 42,
+      "EmptyStateSecondaryActions": 9,
+      "EmptyStateVariant": 18
+    },
+    "@patternfly/react-core/dist/js/components/Nav": {
+      "Nav": 7,
+      "NavItem": 7,
+      "NavList": 7
+    },
+    "@patternfly/react-core/dist/js/components/Page": {
+      "Page": 43,
+      "PageHeader": 3,
+      "PageSection": 46,
+      "PageHeaderToolsItem": 9,
+      "PageHeaderTools": 1,
+      "PageHeaderToolsGroup": 1,
+      "PageSectionVariants": 5
+    },
+    "@patternfly/react-core/dist/js/components/Switch": {
+      "Switch": 8,
+      "SwitchProps": 1
+    },
+    "@patternfly/react-core/dist/js/components/Title": {
+      "Title": 51,
+      "TitleSizes": 7
+    },
+    "@patternfly/react-icons/dist/js/icons/cubes-icon": {
+      "CubesIcon": 14
+    },
+    "@patternfly/react-core/dist/js/components/Brand": {
+      "Brand": 6
+    },
+    "@kie-tools/uniforms-patternfly/dist/esm/AutoForm": {
+      "AutoForm": 2
+    },
+    "@patternfly/react-core/dist/js/components/Text": {
+      "Text": 79,
+      "TextContent": 74,
+      "TextVariants": 59,
+      "TextList": 1,
+      "TextListItem": 1,
+      "TextListItemVariants": 1,
+      "TextListVariants": 1
+    },
+    "@patternfly/react-core/dist/js/components/Card": {
+      "Card": 17,
+      "CardBody": 15,
+      "CardFooter": 9,
+      "CardTitle": 11,
+      "CardHeader": 8,
+      "CardHeaderMain": 8,
+      "CardActions": 3,
+      "CardExpandableContent": 1
+    },
+    "@patternfly/react-core/dist/js/components/TextInput": {
+      "TextInput": 42,
+      "TextInputProps": 4
+    },
+    "@patternfly/react-core/dist/js/components/Label": {
+      "Label": 26,
+      "LabelProps": 3
+    },
+    "@patternfly/react-core/dist/js/components/Button": {
+      "Button": 108,
+      "ButtonVariant": 48,
+      "ButtonProps": 3
+    },
+    "@patternfly/react-core/dist/js/components/Modal": {
+      "Modal": 29,
+      "ModalBoxCloseButton": 1,
+      "ModalVariant": 24,
+      "ModalProps": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/pen-icon": {
+      "PenIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Select": {
+      "Select": 14,
+      "SelectOption": 14,
+      "SelectVariant": 14,
+      "SelectGroup": 4,
+      "SelectPosition": 5,
+      "SelectProps": 2,
+      "SelectDirection": 6,
+      "SelectOptionObject": 4
+    },
+    "@patternfly/react-core/dist/js/components/Divider": {
+      "Divider": 32
+    },
+    "@patternfly/react-icons/dist/js/icons/cog-icon": {
+      "CogIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/outlined-trash-alt-icon": {
+      "OutlinedTrashAltIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Menu": {
+      "Menu": 7,
+      "MenuItem": 8,
+      "MenuList": 7,
+      "MenuGroup": 5,
+      "DrilldownMenu": 4,
+      "MenuContent": 4,
+      "MenuInput": 4
+    },
+    "@patternfly/react-core/dist/js/components/Popover": {
+      "Popover": 10
+    },
+    "@patternfly/react-table": {
+      "TableComposable": 3,
+      "Tbody": 3,
+      "Tr": 4,
+      "Th": 3,
+      "Thead": 2,
+      "Td": 4,
+      "selectable": 1,
+      "ExpandableRowContent": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Flex": {
+      "Flex": 48,
+      "FlexItem": 43
+    },
+    "@patternfly/react-core/dist/js/components/Pagination": {
+      "Pagination": 1
+    },
+    "@patternfly/react-core/dist/js/components/SearchInput": {
+      "SearchInput": 2
+    },
+    "@kie-tools/uniforms-patternfly/dist/esm": {
+      "AutoForm": 1,
+      "AutoField": 1,
+      "AutoFields": 1,
+      "BoolField": 1,
+      "DateField": 1,
+      "ListField": 1,
+      "NestField": 1,
+      "NumField": 1,
+      "RadioField": 1,
+      "SelectField": 1,
+      "TextField": 1
+    },
+    "@patternfly/react-core/dist/js/components/Alert": {
+      "Alert": 35,
+      "AlertActionCloseButton": 10,
+      "AlertVariant": 4,
+      "AlertActionLink": 5
+    },
+    "@patternfly/react-charts": {
+      "ChartArea": 2,
+      "ChartGroup": 6,
+      "ChartBar": 2,
+      "ChartVoronoiContainer": 2,
+      "ChartDonut": 1,
+      "ChartLine": 2,
+      "ChartPie": 1,
+      "ChartScatter": 1,
+      "ChartStack": 1,
+      "ChartTooltip": 1,
+      "ChartDonutUtilization": 1,
+      "Chart": 2,
+      "ChartAxis": 2,
+      "ChartLabel": 1
+    },
+    "@patternfly/react-core/dist/js/components/Drawer": {
+      "Drawer": 9,
+      "DrawerContent": 9,
+      "DrawerContentBody": 6,
+      "DrawerPanelBody": 5,
+      "DrawerPanelContent": 9,
+      "DrawerCloseButton": 3,
+      "DrawerActions": 2,
+      "DrawerHead": 2,
+      "DrawerSection": 2
+    },
+    "@patternfly/react-core/dist/js/components/": {
+      "Button": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Split": {
+      "Split": 32,
+      "SplitItem": 32
+    },
+    "@patternfly/react-core/dist/js/components/Masthead": {
+      "Masthead": 6,
+      "MastheadBrand": 7,
+      "MastheadMain": 6,
+      "MastheadContent": 1
+    },
+    "@patternfly/react-core/dist/js/components/Tooltip": {
+      "Tooltip": 54,
+      "TooltipPosition": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/help-icon": {
+      "HelpIcon": 17
+    },
+    "@patternfly/react-core/dist/js/components/Dropdown": {
+      "Dropdown": 18,
+      "DropdownItem": 21,
+      "DropdownPosition": 12,
+      "DropdownToggle": 16,
+      "DropdownGroup": 10,
+      "DropdownToggleAction": 1,
+      "DropdownProps": 2,
+      "DropdownToggleProps": 2,
+      "DropdownSeparator": 2
+    },
+    "@patternfly/react-core/dist/js/components/Spinner": {
+      "Spinner": 21
+    },
+    "@patternfly/react-core/dist/js/layouts/Bullseye": {
+      "Bullseye": 28
+    },
+    "@patternfly/react-icons/dist/js/icons/exclamation-triangle-icon": {
+      "ExclamationTriangleIcon": 18
+    },
+    "@patternfly/react-icons/dist/js/icons/ellipsis-v-icon": {
+      "EllipsisVIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/external-link-alt-icon": {
+      "ExternalLinkAltIcon": 8
+    },
+    "@patternfly/react-icons/dist/js/icons/keyboard-icon": {
+      "KeyboardIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/check-circle-icon": {
+      "CheckCircleIcon": 18
+    },
+    "@patternfly/react-icons/dist/js/icons/info-circle-icon": {
+      "InfoCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/exclamation-circle-icon": {
+      "ExclamationCircleIcon": 20
+    },
+    "@patternfly/react-icons/dist/js/icons/outlined-question-circle-icon": {
+      "OutlinedQuestionCircleIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/DescriptionList": {
+      "DescriptionList": 3,
+      "DescriptionListDescription": 3,
+      "DescriptionListGroup": 3,
+      "DescriptionListTerm": 3
+    },
+    "./tools/uniforms/patternfly/mock": {
+      "ApplyForVisaSchema": 1,
+      "ConfirmTravelSchema": 1
+    },
+    "../../../generation/tools/uniforms/patternfly/PatternflyFormGenerationTool": {
+      "PatternflyFormConfig": 1
+    },
+    "../../../../../generation/tools/uniforms/patternfly/PatternflyFormGenerationTool": {
+      "PatternflyFormConfig": 1,
+      "PatternflyFormGenerationTool": 1
+    },
+    "./uniforms/patternfly/PatternflyFormGenerationTool": {
+      "PatternflyFormGenerationTool": 1
+    },
+    "@kie-tools/uniforms-patternfly-codegen/dist": {
+      "renderForm": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/exclamation-icon": {
+      "ExclamationIcon": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/angle-left-icon": {
+      "AngleLeftIcon": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/angle-right-icon": {
+      "AngleRightIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/book-icon": {
+      "BookIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/times-circle-icon": {
+      "TimesCircleIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Wizard": {
+      "Wizard": 4,
+      "WizardContextConsumer": 3,
+      "WizardFooter": 3,
+      "WizardContext": 2
+    },
+    "@patternfly/react-core/dist/js/components/DataList": {
+      "DataList": 5,
+      "DataListCell": 5,
+      "DataListCheck": 1,
+      "DataListItem": 5,
+      "DataListItemRow": 5,
+      "DataListItemCells": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/info-alt-icon": {
+      "InfoAltIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/user-icon": {
+      "UserIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/plus-icon": {
+      "PlusIcon": 9
+    },
+    "@patternfly/react-icons/dist/js/icons/users-icon": {
+      "UsersIcon": 6
+    },
+    "@patternfly/react-core/dist/js/components/Form": {
+      "Form": 33,
+      "FormGroup": 34,
+      "ActionGroup": 9,
+      "FormAlert": 10,
+      "FormHelperText": 7,
+      "FormGroupProps": 1
+    },
+    "@patternfly/react-core/dist/js/helpers": {
+      "ValidatedOptions": 4
+    },
+    "@patternfly/react-core/dist/js/components/InputGroup": {
+      "InputGroup": 12,
+      "InputGroupText": 7
+    },
+    "@patternfly/react-icons/dist/js/icons/arrow-right-icon": {
+      "ArrowRightIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/times-icon": {
+      "TimesIcon": 7
+    },
+    "@patternfly/react-core/dist/js/components/List": {
+      "List": 7,
+      "ListComponent": 1,
+      "ListItem": 7,
+      "OrderType": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/pficon-satellite-icon": {
+      "PficonSatelliteIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/AlertGroup": {
+      "AlertGroup": 2
+    },
+    "@patternfly/react-icons/dist/js/createIcon": {
+      "getSize": 1,
+      "IconSize": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/bitbucket-icon": {
+      "BitbucketIcon": 7
+    },
+    "@patternfly/react-icons/dist/js/icons/github-icon": {
+      "GithubIcon": 11
+    },
+    "@patternfly/react-icons/dist/js/icons/gitlab-icon": {
+      "GitlabIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/openshift-icon": {
+      "OpenshiftIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/question-icon": {
+      "QuestionIcon": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Gallery": {
+      "Gallery": 7,
+      "GalleryItem": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Stack": {
+      "Stack": 18,
+      "StackItem": 17
+    },
+    "@patternfly/react-icons/dist/js/icons/caret-down-icon": {
+      "CaretDownIcon": 7
+    },
+    "@patternfly/react-core/dist/js/components/Skeleton": {
+      "Skeleton": 5
+    },
+    "@patternfly/react-icons/dist/js/icons/trash-icon": {
+      "TrashIcon": 14
+    },
+    "@patternfly/react-icons/dist/js/icons/sync-alt-icon": {
+      "SyncAltIcon": 5
+    },
+    "@patternfly/react-core/dist/js/components/ToggleGroup": {
+      "ToggleGroupItem": 3,
+      "ToggleGroup": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/table-icon": {
+      "TableIcon": 3
+    },
+    "@patternfly/react-core/dist/js/components/Toolbar": {
+      "ToolbarItem": 6,
+      "Toolbar": 5,
+      "ToolbarContent": 5,
+      "ToolbarGroup": 2,
+      "ToolbarItemProps": 2
+    },
+    "@patternfly/react-core/dist/js/components/ClipboardCopy": {
+      "ClipboardCopy": 3,
+      "ClipboardCopyVariant": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/list-icon": {
+      "ListIcon": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/download-icon": {
+      "DownloadIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/upload-icon": {
+      "UploadIcon": 3
+    },
+    "@patternfly/react-core/dist/js/components/Badge": {
+      "Badge": 2
+    },
+    "@patternfly/react-core/dist/js/components/Tabs": {
+      "Tab": 5,
+      "Tabs": 5,
+      "TabTitleText": 5
+    },
+    "@patternfly/react-icons/dist/js/icons/angle-up-icon": {
+      "AngleUpIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/angle-down-icon": {
+      "AngleDownIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/NotificationDrawer": {
+      "NotificationDrawer": 2,
+      "NotificationDrawerBody": 2,
+      "NotificationDrawerGroup": 2,
+      "NotificationDrawerGroupList": 2,
+      "NotificationDrawerList": 2,
+      "NotificationDrawerListItem": 2,
+      "NotificationDrawerListItemHeader": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/save-icon": {
+      "SaveIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/outlined-clock-icon": {
+      "OutlinedClockIcon": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/desktop-icon": {
+      "DesktopIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/outlined-hdd-icon": {
+      "OutlinedHddIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/Dropdown/Toggle": {
+      "Toggle": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/folder-icon": {
+      "FolderIcon": 7
+    },
+    "@patternfly/react-icons/dist/js/icons/image-icon": {
+      "ImageIcon": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/th-large-icon": {
+      "ThLargeIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/arrow-left-icon": {
+      "ArrowLeftIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/Radio": {
+      "Radio": 7,
+      "RadioProps": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/lock-icon": {
+      "LockIcon": 3
+    },
+    "@patternfly/react-core/dist/js/helpers/constants": {
+      "ValidatedOptions": 6
+    },
+    "@patternfly/react-icons/dist/js/icons/columns-icon": {
+      "ColumnsIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/git-icon": {
+      "GitIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/arrow-circle-up-icon": {
+      "ArrowCircleUpIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/task-icon": {
+      "TaskIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/code-branch-icon": {
+      "CodeBranchIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/tag-icon": {
+      "TagIcon": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Grid": {
+      "Grid": 3,
+      "GridItem": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/code-icon": {
+      "CodeIcon": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/connected-icon": {
+      "ConnectedIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/disconnected-icon": {
+      "DisconnectedIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/ExpandableSection": {
+      "ExpandableSection": 4
+    },
+    "@patternfly/react-tokens/dist/esm/global_breakpoint_xs": {
+      "global_breakpoint_xs": 2
+    },
+    "@patternfly/react-tokens/dist/esm/global_breakpoint_sm": {
+      "global_breakpoint_sm": 2
+    },
+    "@patternfly/react-tokens/dist/esm/global_breakpoint_md": {
+      "global_breakpoint_md": 2
+    },
+    "@patternfly/react-tokens/dist/esm/global_breakpoint_lg": {
+      "global_breakpoint_lg": 2
+    },
+    "@patternfly/react-tokens/dist/esm/global_breakpoint_xl": {
+      "global_breakpoint_xl": 2
+    },
+    "@patternfly/react-tokens/dist/esm/global_breakpoint_2xl": {
+      "global_breakpoint_2xl": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/book-open-icon": {
+      "BookOpenIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/trophy-icon": {
+      "TrophyIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/TextArea": {
+      "TextArea": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/pending-icon": {
+      "PendingIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/security-icon": {
+      "SecurityIcon": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Modal": {
+      "ModalVariant": 2
+    },
+    "@kie-tools-core/patternfly-base": {
+      "patternflyBase": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/grip-vertical-icon": {
+      "GripVerticalIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/Checkbox": {
+      "Checkbox": 7,
+      "CheckboxProps": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/sort-icon": {
+      "SortIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/bolt-icon": {
+      "BoltIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/close-icon": {
+      "CloseIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/warning-triangle-icon": {
+      "WarningTriangleIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/arrow-alt-circle-left-icon": {
+      "ArrowAltCircleLeftIcon": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/arrow-alt-circle-right-icon": {
+      "ArrowAltCircleRightIcon": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/boxes-icon": {
+      "BoxesIcon": 4
+    },
+    "@patternfly/react-core/dist/js/layouts/Level": {
+      "Level": 2,
+      "LevelItem": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/search-icon": {
+      "SearchIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/dice-six-icon": {
+      "DiceSixIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/calculator-icon": {
+      "CalculatorIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/sign-out-alt-icon": {
+      "SignOutAltIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/FormSelect": {
+      "FormSelect": 1,
+      "FormSelectOption": 1
+    },
+    "@patternfly/react-icons/dist/js/icons": {
+      "RegistryIcon": 1,
+      "FolderIcon": 1,
+      "FileIcon": 1,
+      "MonitoringIcon": 1,
+      "ExclamationIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/topology-icon": {
+      "TopologyIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/DatePicker": {
+      "DatePicker": 2
+    },
+    "@patternfly/react-core/dist/js/components/TimePicker": {
+      "TimePicker": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/plus-circle-icon": {
+      "PlusCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/minus-circle-icon": {
+      "MinusCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/cube-icon": {
+      "CubeIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-button": 14,
+    "pf-c-select__toggle-text": 4,
+    "pf-c-popover__content": 5,
+    "pf-c-select__menu": 5,
+    "pf-u-text-truncate": 13,
+    "pf-c-form-control": 4,
+    "pf-c-drawer": 6,
+    "pf-c-drawer__splitter": 6,
+    "pf-c-drawer__splitter-handle": 2,
+    "pf-m-vertical": 1,
+    "pf-c-select__menu-search": 1,
+    "pf-c-menu__group-title": 3,
+    "pf-l-bullseye": 4,
+    "pf-l-flex": 5,
+    "pf-u-ml-sm": 2,
+    "pf-u-mx-sm": 4,
+    "pf-c-modal-box": 7,
+    "pf-c-content": 5,
+    "pf-u-mr-sm": 1,
+    "pf-u-p-0": 1,
+    "pf-c-form__group-label-help": 31,
+    "pf-u-mt-sm": 15,
+    "pf-u-mt-md": 11,
+    "pf-u-my-md": 4,
+    "pf-c-drawer__panel": 3,
+    "pf-c-drawer__splitter.pf-m-vertical": 2,
+    "pf-c-drawer__content": 4,
+    "pf-c-drawer__panel-main": 2,
+    "pf-m-active": 3,
+    "pf-u-mt-xl": 4,
+    "pf-u-display-flex": 1,
+    "pf-u-w-25": 2,
+    "pf-u-w-75": 2,
+    "pf-u-h-100": 2,
+    "pf-u-flex-direction-row": 2,
+    "pf-c-content--align-left": 4,
+    "pf-m-disabled": 17,
+    "pf-m-orange": 1,
+    "pf-c-button__icon": 1,
+    "pf-m-orange>span.pf-c-label__content": 1,
+    "pf-c-label__icon": 1,
+    "pf-c-title": 7,
+    "pf-c-form-control`,": 1,
+    "pf-c-form__helper-text": 4,
+    "pf-c-options-menu__toggle-text": 2,
+    "pf-u-mb-md": 2,
+    "pf-c-dropdown__menu-item-description": 1,
+    "pf-c-form": 3,
+    "pf-c-input-group": 1,
+    "pf-c-card": 1,
+    "pf-m-overpass-font": 1,
+    "pf-m-transparent": 2,
+    "pf-m-transparent-100": 1,
+    "pf-m-transparent-200": 1,
+    "pf-m-opaque-100": 2,
+    "pf-m-opaque-200": 2,
+    "pf-m-opaque-300": 1,
+    "pf-c-menu__item": 1,
+    "pf-c-popover__content,": 1,
+    "pf-c-title,": 1,
+    "pf-c-popover__arrow": 2,
+    "pf-c-menu__item-text": 1,
+    "pf-c-drawer__splitter::after": 1,
+    "pf-c-drawer__splitter-handle::after": 1,
+    "pf-c-drawer.resizer-disabled": 2,
+    "pf-c-drawer.drawer-on-body": 1,
+    "pf-c-table,": 1,
+    "pf-c-input-group,": 1,
+    "pf-c-options-menu__menu": 1,
+    "pf-c-options-menu__menu,": 1,
+    "pf-c-pagination__nav,": 1,
+    "pf-c-pagination__total-items": 1,
+    "pf-c-options-menu__menu-item:hover,": 1,
+    "pf-c-table": 2,
+    "pf-m-hoverable:hover": 1,
+    "pf-c-form-control:disabled": 3,
+    "pf-c-chart": 3,
+    "pf-c-page__header": 3,
+    "pf-c-page__header-nav": 4,
+    "pf-c-modal-box.kgt-dialog": 1,
+    "pf-c-dropdown__group-title": 2,
+    "pf-c-alert": 2,
+    "pf-c-select__toggle:hover": 1,
+    "pf-c-expandable-section.plain": 2,
+    "pf-c-expandable-section__toggle": 2,
+    "pf-c-dropdown__menu": 5,
+    "pf-c-menu__item-description": 2,
+    "pf-c-select__toggle.pf-m-disabled": 2,
+    "pf-c-select__toggle": 2,
+    "pf-l-split__item.modelTitle__icon": 1,
+    "pf-c-masthead__main::before": 1,
+    "pf-c-divider": 1
+  },
+  "scssVars": {
+    "--pf-global--Color--100": 11,
+    "--pf-global--Color--dark": 9,
+    "--pf-global--Color--200": 6,
+    "--pf-global--BorderColor--100": 12,
+    "--pf-global--BorderColor--dark": 2,
+    "--pf-global--primary-color-": 20,
+    "--pf-global--link--Color": 23,
+    "--pf-global--BackgroundColor--100": 9,
+    "--pf-global--BackgroundColor--light": 14,
+    "--pf-global--Color--light": 21,
+    "--pf-global--BorderColor--light": 5,
+    "--pf-global--BackgroundColor--dark": 20,
+    "--pf-c-card--BackgroundColor": 1,
+    "--pf-c-button--m": 16,
+    "--pf-global--palette--black": 23,
+    "--pf-global--palette--blue": 16,
+    "--pf-global--palette--cyan": 8,
+    "--pf-global--palette--gold": 10,
+    "--pf-global--palette--green": 10,
+    "--pf-global--palette--light": 14,
+    "--pf-global--palette--orange": 7,
+    "--pf-global--palette--purple": 8,
+    "--pf-global--palette--red": 6,
+    "--pf-global--palette--white": 3,
+    "--pf-global--BackgroundColor--200": 13,
+    "--pf-global--Color--300": 1,
+    "--pf-global--Color--400": 1,
+    "--pf-global--active-color-": 7,
+    "--pf-global--disabled-color-": 7,
+    "--pf-global--secondary-color-": 1,
+    "--pf-global--default-color-": 3,
+    "--pf-global--success-color-": 6,
+    "--pf-global--info-color-": 6,
+    "--pf-global--warning-color-": 6,
+    "--pf-global--danger-color-": 9,
+    "--pf-global--BoxShadow--sm": 7,
+    "--pf-global--BoxShadow--md": 5,
+    "--pf-global--BoxShadow--lg": 6,
+    "--pf-global--BoxShadow--xl": 5,
+    "--pf-global--BoxShadow--inset": 1,
+    "--pf-global--spacer--xs": 17,
+    "--pf-global--spacer--sm": 14,
+    "--pf-global--spacer--md": 6,
+    "--pf-global--spacer--lg": 3,
+    "--pf-global--spacer--xl": 3,
+    "--pf-global--spacer--2xl": 2,
+    "--pf-global--spacer--3xl": 1,
+    "--pf-global--spacer--4xl": 1,
+    "--pf-global--spacer--form": 5,
+    "--pf-global--gutter--md": 1,
+    "--pf-global--ZIndex--xs": 1,
+    "--pf-global--ZIndex--sm": 1,
+    "--pf-global--ZIndex--md": 1,
+    "--pf-global--ZIndex--lg": 1,
+    "--pf-global--ZIndex--xl": 1,
+    "--pf-global--ZIndex--2xl": 1,
+    "--pf-global--breakpoint--xs": 1,
+    "--pf-global--breakpoint--sm": 1,
+    "--pf-global--breakpoint--md": 1,
+    "--pf-global--breakpoint--lg": 1,
+    "--pf-global--breakpoint--xl": 1,
+    "--pf-global--breakpoint--2xl": 1,
+    "--pf-global--link--TextDecoration": 2,
+    "--pf-global--BorderWidth--sm": 7,
+    "--pf-global--BorderWidth--md": 17,
+    "--pf-global--BorderWidth--lg": 3,
+    "--pf-global--BorderWidth--xl": 1,
+    "--pf-global--BorderColor--200": 9,
+    "--pf-global--BorderColor--300": 1,
+    "--pf-global--BorderRadius--sm": 13,
+    "--pf-global--BorderRadius--lg": 1,
+    "--pf-global--icon--Color": 2,
+    "--pf-global--icon--FontSize": 7,
+    "--pf-global--FontFamily--sans": 6,
+    "--pf-global--FontFamily--heading": 2,
+    "--pf-global--FontFamily--monospace": 4,
+    "--pf-global--FontFamily--overpass": 4,
+    "--pf-global--FontSize--4xl": 1,
+    "--pf-global--FontSize--3xl": 1,
+    "--pf-global--FontSize--2xl": 3,
+    "--pf-global--FontSize--xl": 3,
+    "--pf-global--FontSize--lg": 3,
+    "--pf-global--FontSize--md": 10,
+    "--pf-global--FontSize--sm": 2,
+    "--pf-global--FontSize--xs": 1,
+    "--pf-global--FontWeight--light": 1,
+    "--pf-global--FontWeight--normal": 8,
+    "--pf-global--FontWeight--semi": 2,
+    "--pf-global--FontWeight--overpass": 4,
+    "--pf-global--FontWeight--bold": 2,
+    "--pf-global--LineHeight--sm": 1,
+    "--pf-global--LineHeight--md": 8,
+    "--pf-global--arrow--width": 2,
+    "--pf-global--target-size-": 2,
+    "--pf-c-menu__group-title-": 6,
+    "--pf-c-menu__item--Color": 1,
+    "--pf-c-drawer__splitter--after": 2,
+    "--pf-c-form-control-": 7,
+    "--pf-c-tooltip__content--Color": 5,
+    "--pf-c-tooltip__content--BackgroundColor": 5,
+    "--pf-c-page__header-brand-link": 3,
+    "--pf-c-page__header--BackgroundColor": 1,
+    "--pf-c-page__header-nav-": 2,
+    "--pf-c-button--FontSize": 3,
+    "--pf-c-page__header--MinHeight": 5,
+    "--pf-global--Color-dark-": 1,
+    "--pf-l-gallery--GridTemplateColumns": 2,
+    "--pf-c-page__main-section-": 10,
+    "--pf-c-select__toggle--disabled": 2,
+    "--pf-c-form__label-text-": 1,
+    "--pf-c-form__label--FontSize": 1,
+    "--pf-l-split--m": 1,
+    "--pf-c-toolbar__content--PaddingLeft": 1,
+    "--pf-c-toolbar__content--PaddingRight": 1,
+    "--pf-c-toolbar--PaddingTop": 1,
+    "--pf-c-drawer--child": 4
+  },
+  "repo": "https://github.com/kiegroup/kogito-tooling",
+  "name": "Kogito",
+  "date": "2023-03-14T17:40:20.054Z",
+  "dependencies": {
+    "@angular-devkit/build-angular": 1,
+    "@angular/animations": 1,
+    "@angular/cli": 1,
+    "@angular/common": 1,
+    "@angular/compiler": 1,
+    "@angular/compiler-cli": 1,
+    "@angular/core": 1,
+    "@angular/elements": 1,
+    "@angular/forms": 1,
+    "@angular/platform-browser": 1,
+    "@angular/platform-browser-dynamic": 1,
+    "@angular/router": 1,
+    "@babel/core": 67,
+    "@babel/preset-env": 68,
+    "@babel/preset-react": 65,
+    "@babel/traverse": 1,
+    "@isomorphic-git/cors-proxy": 1,
+    "@isomorphic-git/idb-keyval": 1,
+    "@kie-tools-core/backend": 12,
+    "@kie-tools-core/chrome-extension": 3,
+    "@kie-tools-core/editor": 30,
+    "@kie-tools-core/envelope": 11,
+    "@kie-tools-core/envelope-bus": 30,
+    "@kie-tools-core/guided-tour": 19,
+    "@kie-tools-core/i18n": 33,
+    "@kie-tools-core/keyboard-shortcuts": 12,
+    "@kie-tools-core/monaco-editor": 8,
+    "@kie-tools-core/notifications": 26,
+    "@kie-tools-core/openshift": 2,
+    "@kie-tools-core/operating-system": 15,
+    "@kie-tools-core/patternfly-base": 44,
+    "@kie-tools-core/react-hooks": 4,
+    "@kie-tools-core/vscode-extension": 10,
+    "@kie-tools-core/vscode-java-code-completion": 7,
+    "@kie-tools-core/webpack-base": 50,
+    "@kie-tools-core/workspace": 25,
+    "@kie-tools-core/workspaces-git-fs": 3,
+    "@kie-tools-examples/base64png-editor": 3,
+    "@kie-tools-examples/ping-pong-view": 3,
+    "@kie-tools-examples/ping-pong-view-angular": 1,
+    "@kie-tools-examples/ping-pong-view-react": 1,
+    "@kie-tools-examples/todo-list-view": 2,
+    "@kie-tools-scripts/bootstrap": 1,
+    "@kie-tools-scripts/build-env": 3,
+    "@kie-tools-scripts/check-junit-report-results": 1,
+    "@kie-tools-scripts/run-script-if": 1,
+    "@kie-tools-scripts/sparse-checkout": 1,
+    "@kie-tools-scripts/update-version": 1,
+    "@kie-tools/backend-extended-services": 1,
+    "@kie-tools/boxed-expression-component": 5,
+    "@kie-tools/dashbuilder": 2,
+    "@kie-tools/dashbuilder-client": 6,
+    "@kie-tools/dashbuilder-component-api": 9,
+    "@kie-tools/dashbuilder-component-assembler": 1,
+    "@kie-tools/dashbuilder-component-dev": 7,
+    "@kie-tools/dashbuilder-component-echarts": 1,
+    "@kie-tools/dashbuilder-component-echarts-base": 2,
+    "@kie-tools/dashbuilder-component-map": 1,
+    "@kie-tools/dashbuilder-component-svg-heatmap": 1,
+    "@kie-tools/dashbuilder-component-table": 1,
+    "@kie-tools/dashbuilder-component-timeseries": 1,
+    "@kie-tools/dashbuilder-component-uniforms": 1,
+    "@kie-tools/dashbuilder-component-victory-charts": 1,
+    "@kie-tools/dashbuilder-editor": 1,
+    "@kie-tools/dashbuilder-language-service": 3,
+    "@kie-tools/dashbuilder-swf-monitoring-dashboard": 1,
+    "@kie-tools/dashbuilder-viewer": 2,
+    "@kie-tools/dashbuilder-viewer-deployment-webapp": 1,
+    "@kie-tools/dashbuilder-viewer-image-env": 2,
+    "@kie-tools/dmn-dev-deployment-base-image-env": 2,
+    "@kie-tools/dmn-dev-deployment-form-webapp": 1,
+    "@kie-tools/dmn-dev-deployment-quarkus-app": 1,
+    "@kie-tools/dmn-language-service": 1,
+    "@kie-tools/emscripten-fs": 3,
+    "@kie-tools/eslint": 78,
+    "@kie-tools/extended-services": 2,
+    "@kie-tools/feel-input-component": 1,
+    "@kie-tools/form": 4,
+    "@kie-tools/form-dmn": 3,
+    "@kie-tools/git-cors-proxy-image": 1,
+    "@kie-tools/i18n-common-dictionary": 13,
+    "@kie-tools/image-env-to-json": 1,
+    "@kie-tools/import-java-classes-component": 1,
+    "@kie-tools/jitexecutor-native": 1,
+    "@kie-tools/kie-bc-editors": 9,
+    "@kie-tools/kie-editors-standalone": 1,
+    "@kie-tools/kie-sandbox-fs": 1,
+    "@kie-tools/maven-config-setup-helper": 6,
+    "@kie-tools/online-editor": 1,
+    "@kie-tools/pmml-editor": 3,
+    "@kie-tools/pmml-editor-marshaller": 2,
+    "@kie-tools/root-env": 115,
+    "@kie-tools/serverless-logic-web-tools-base-builder-image-env": 2,
+    "@kie-tools/serverless-logic-web-tools-swf-builder-image-env": 2,
+    "@kie-tools/serverless-logic-web-tools-swf-deployment-webapp": 1,
+    "@kie-tools/serverless-workflow-combined-editor": 3,
+    "@kie-tools/serverless-workflow-diagram-editor": 2,
+    "@kie-tools/serverless-workflow-diagram-editor-assets": 5,
+    "@kie-tools/serverless-workflow-diagram-editor-envelope": 5,
+    "@kie-tools/serverless-workflow-jq-expressions": 4,
+    "@kie-tools/serverless-workflow-language-service": 5,
+    "@kie-tools/serverless-workflow-mermaid-viewer": 5,
+    "@kie-tools/serverless-workflow-service-catalog": 7,
+    "@kie-tools/serverless-workflow-standalone-editor": 1,
+    "@kie-tools/serverless-workflow-text-editor": 4,
+    "@kie-tools/stunner-editors": 7,
+    "@kie-tools/stunner-editors-dmn-loader": 1,
+    "@kie-tools/text-editor": 1,
+    "@kie-tools/tsconfig": 90,
+    "@kie-tools/uniforms-bootstrap4-codegen": 1,
+    "@kie-tools/uniforms-patternfly": 5,
+    "@kie-tools/uniforms-patternfly-codegen": 1,
+    "@kie-tools/unitables": 2,
+    "@kie-tools/unitables-dmn": 1,
+    "@kie-tools/vscode-java-code-completion-extension-plugin": 3,
+    "@kie-tools/yaml-language-server": 2,
+    "@kie-tools/yard-editor": 1,
+    "@nice-move/prettier-plugin-package-json": 1,
+    "@octokit/plugin-rest-endpoint-methods": 2,
+    "@octokit/rest": 3,
+    "@patternfly/react-charts": 2,
+    "@patternfly/react-core": 29,
+    "@patternfly/react-icons": 24,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-table": 5,
+    "@patternfly/react-tokens": 2,
+    "@pnpm/filter-workspace-packages": 1,
+    "@pnpm/find-workspace-packages": 1,
+    "@pnpm/logger": 1,
+    "@rhoas/registry-instance-sdk": 2,
+    "@severlessworkflow/sdk-typescript": 2,
+    "@svgr/webpack": 1,
+    "@testing-library/jest-dom": 37,
+    "@testing-library/react": 17,
+    "@testing-library/react-hooks": 2,
+    "@types/chai": 5,
+    "@types/chrome": 4,
+    "@types/cypress-image-snapshot": 1,
+    "@types/d3-scale": 1,
+    "@types/echarts": 1,
+    "@types/heatmap.js": 2,
+    "@types/history": 2,
+    "@types/inquirer": 1,
+    "@types/invariant": 1,
+    "@types/jest": 68,
+    "@types/jest-when": 64,
+    "@types/js-yaml": 2,
+    "@types/json-schema": 5,
+    "@types/json-to-ast": 1,
+    "@types/lodash": 13,
+    "@types/mermaid": 1,
+    "@types/minimatch": 8,
+    "@types/mocha": 3,
+    "@types/node": 1,
+    "@types/numeral": 1,
+    "@types/papaparse": 1,
+    "@types/prettier": 2,
+    "@types/react": 52,
+    "@types/react-dom": 40,
+    "@types/react-redux": 1,
+    "@types/react-resizable": 1,
+    "@types/react-router": 9,
+    "@types/react-router-dom": 10,
+    "@types/react-simple-maps": 1,
+    "@types/react-table": 3,
+    "@types/react-transition-group": 1,
+    "@types/react-virtualized-auto-sizer": 1,
+    "@types/react-window": 1,
+    "@types/selenium-webdriver": 4,
+    "@types/semver": 1,
+    "@types/simpl-schema": 4,
+    "@types/sinon": 1,
+    "@types/svg-pan-zoom": 1,
+    "@types/testing-library__jest-dom": 35,
+    "@types/testing-library__react": 17,
+    "@types/testing-library__react-hooks": 2,
+    "@types/underscore": 3,
+    "@types/uuid": 5,
+    "@types/vscode": 19,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "@vscode/test-web": 7,
+    "@vscode/vsce": 13,
+    "ajv": 6,
+    "ajv-errors": 4,
+    "axios": 2,
+    "bowser": 2,
+    "buffer": 2,
+    "chai": 5,
+    "combine-reducer": 1,
+    "commander": 1,
+    "copy-webpack-plugin": 39,
+    "copyfiles": 26,
+    "cpr": 9,
+    "cross-env": 3,
+    "cross-fetch": 1,
+    "css-loader": 2,
+    "csstype": 4,
+    "cypress": 5,
+    "cypress-file-upload": 5,
+    "cypress-iframe": 5,
+    "cypress-image-snapshot": 1,
+    "cypress-log-to-output": 5,
+    "cypress-real-events": 2,
+    "d3-scale": 1,
+    "deep-object-diff": 3,
+    "dexie": 2,
+    "echarts": 1,
+    "esbuild": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "fast-xml-parser": 2,
+    "file-loader": 7,
+    "filemanager-webpack-plugin": 1,
+    "gh-pages": 2,
+    "graph-data-structure": 2,
+    "graphviz": 1,
+    "heatmap.js": 1,
+    "history": 2,
+    "html-replace-webpack-plugin": 5,
+    "html-webpack-plugin": 14,
+    "husky": 1,
+    "identity-obj-proxy": 1,
+    "immer": 1,
+    "inquirer": 1,
+    "invariant": 1,
+    "isomorphic-git": 2,
+    "isomorphic-textencoder": 1,
+    "jest": 69,
+    "jest-junit": 63,
+    "jest-raw-loader": 2,
+    "jest-webextension-mock": 2,
+    "jest-when": 65,
+    "js-yaml": 3,
+    "json-schema": 4,
+    "json-to-ast": 1,
+    "jsonata": 2,
+    "jsonc-parser": 2,
+    "jsonschema": 1,
+    "jszip": 2,
+    "junit-report-merger": 2,
+    "just-debounce-it": 1,
+    "just-once": 1,
+    "karma": 1,
+    "karma-browserstack-launcher": 1,
+    "karma-chrome-launcher": 1,
+    "karma-edge-launcher": 1,
+    "karma-fail-fast-reporter": 1,
+    "karma-firefox-launcher": 1,
+    "karma-ie-launcher": 1,
+    "karma-jasmine": 1,
+    "karma-junit-reporter": 1,
+    "karma-safari-launcher": 1,
+    "karma-verbose-reporter": 1,
+    "karma-webpack": 1,
+    "lodash": 13,
+    "markdown-table": 1,
+    "mermaid": 1,
+    "minimatch": 8,
+    "mocha": 3,
+    "mocha-jenkins-reporter": 3,
+    "mocha-junit-reporter": 3,
+    "mocha-multi-reporters": 3,
+    "moment": 2,
+    "monaco-editor": 16,
+    "monaco-editor-webpack-plugin": 8,
+    "monaco-yaml": 9,
+    "numeral": 1,
+    "openapi-types": 4,
+    "os-browserify": 1,
+    "papaparse": 1,
+    "patch-package": 2,
+    "path-browserify": 2,
+    "pkg": 2,
+    "portfinder": 2,
+    "postinstall-postinstall": 1,
+    "prettier": 4,
+    "pretty-quick": 1,
+    "puppeteer": 1,
+    "raw-loader": 5,
+    "react": 52,
+    "react-cool-onclickoutside": 1,
+    "react-dom": 49,
+    "react-dropzone": 2,
+    "react-id-generator": 3,
+    "react-json-view": 1,
+    "react-monaco-editor": 1,
+    "react-redux": 1,
+    "react-resizable": 1,
+    "react-router": 7,
+    "react-router-dom": 10,
+    "react-simple-maps": 1,
+    "react-sortable-hoc": 1,
+    "react-table": 3,
+    "react-transition-group": 1,
+    "react-virtualized-auto-sizer": 1,
+    "react-window": 1,
+    "redux": 1,
+    "rimraf": 107,
+    "run-script-os": 24,
+    "rxjs": 1,
+    "sass": 1,
+    "sass-loader": 1,
+    "selenium-webdriver": 4,
+    "semver": 1,
+    "simpl-schema": 2,
+    "sinon": 1,
+    "source-map-loader": 1,
+    "start-server-and-test": 15,
+    "stream": 1,
+    "style-loader": 2,
+    "svg-pan-zoom": 1,
+    "symlink-dir": 2,
+    "ts-jest": 68,
+    "ts-json-schema-generator": 1,
+    "ts-loader": 2,
+    "ts-node": 2,
+    "typescript": 83,
+    "underscore": 3,
+    "uniforms": 10,
+    "uniforms-bridge-json-schema": 7,
+    "uniforms-bridge-simple-schema": 1,
+    "uniforms-bridge-simple-schema-2": 4,
+    "url-loader": 2,
+    "uuid": 4,
+    "victory-zoom-container": 1,
+    "vscode-extension-tester": 4,
+    "vscode-json-languageservice": 7,
+    "vscode-languageserver": 3,
+    "vscode-languageserver-textdocument": 7,
+    "vscode-languageserver-types": 11,
+    "vscode-test": 3,
+    "webpack": 52,
+    "webpack-cli": 49,
+    "webpack-dev-server": 50,
+    "webpack-merge": 50,
+    "webpack-node-externals": 4,
+    "xml-js": 1,
+    "yaml": 3,
+    "yaml-language-server": 1,
+    "yaml-language-server-parser": 3,
+    "yargs": 1,
+    "zip-webpack-plugin": 3,
+    "zone.js": 1
+  }
+}

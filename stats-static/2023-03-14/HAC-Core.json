@@ -1,0 +1,112 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 3
+      },
+      "ts": 35,
+      "js": 7,
+      "tsx": 14,
+      "scss": 1
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/frontend/src/Routes.tsx",
+          "/frontend/src/Routes/DynamicRoute/DynamicRoute.tsx",
+          "/frontend/src/Utils/Loader.tsx"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Bullseye": 3,
+      "Spinner": 3,
+      "PageSection": 1
+    }
+  },
+  "classes": {
+    "pf-m-no-padding`}>": 1
+  },
+  "scssVars": {},
+  "repo": "https://github.com/openshift/hac-core",
+  "name": "HAC-Core",
+  "date": "2023-03-14T17:40:20.054Z",
+  "dependencies": {
+    "@openshift/dynamic-plugin-sdk": 1,
+    "@openshift/dynamic-plugin-sdk-extensions": 1,
+    "@openshift/dynamic-plugin-sdk-utils": 1,
+    "@patternfly/patternfly": 1,
+    "@patternfly/quickstarts": 1,
+    "@patternfly/react-catalog-view-extension": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-table": 1,
+    "@patternfly/react-virtualized-extension": 1,
+    "@redhat-cloud-services/eslint-config-redhat-cloud-services": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@scalprum/core": 1,
+    "@scalprum/react-core": 1,
+    "@testing-library/dom": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/react-hooks": 1,
+    "@testing-library/user-event": 1,
+    "@types/classnames": 1,
+    "@types/jest": 1,
+    "@types/pluralize": 1,
+    "@types/react-redux": 1,
+    "@types/react-router-dom": 1,
+    "@types/react-virtualized": 1,
+    "@types/redux-logger": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "@unleash/proxy-client-react": 1,
+    "ajv": 1,
+    "chalk": 1,
+    "classnames": 1,
+    "comment-json": 1,
+    "copy-webpack-plugin": 1,
+    "enzyme": 1,
+    "enzyme-to-json": 1,
+    "eslint": 1,
+    "eslint-import-resolver-typescript": 1,
+    "eslint-loader": 1,
+    "eslint-plugin-import": 1,
+    "eslint-plugin-react-hooks": 1,
+    "find-up": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "jest-fetch-mock": 1,
+    "lodash-es": 1,
+    "pluralize": 1,
+    "prop-types": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-helmet": 1,
+    "react-i18next": 1,
+    "react-redux": 1,
+    "react-router": 1,
+    "react-router-dom": 1,
+    "react-virtualized": 1,
+    "read-pkg": 1,
+    "redux": 1,
+    "redux-logger": 1,
+    "redux-promise-middleware": 1,
+    "redux-thunk": 1,
+    "semver": 1,
+    "stylelint": 1,
+    "stylelint-config-recommended-scss": 1,
+    "stylelint-scss": 1,
+    "ts-jest": 1,
+    "ts-node": 1,
+    "typesafe-actions": 1,
+    "typescript": 1,
+    "unleash-proxy-client": 1,
+    "webpack-bundle-analyzer": 1,
+    "webpack-virtual-modules": 1
+  }
+}
