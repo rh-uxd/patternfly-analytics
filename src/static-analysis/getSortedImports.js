@@ -5,7 +5,7 @@ const arrToObj = arr => arr.reduce((acc, cur) => {
 }, {});
 
 const getImportCategory = importPath => {
-  const categoriesRegex = /\b(?:react-icons|utilities|layouts|react-charts|react-topology|react-table|react-code-editor|react-console|react-catalog-view-extension|react-log-viewer|react-virtualized-extension|extensions|quickstarts|react-styles|react-tokens)\b/gi;
+  const categoriesRegex = /\b(?:react-icons|utilities|layouts|react-charts|react-topology|react-table|react-code-editor|react-console|react-user-feedback|react-catalog-view-extension|react-log-viewer|react-virtualized-extension|extensions|quickstarts|react-styles|react-tokens)\b/gi;
   const matches = importPath.match(categoriesRegex);
   const category = matches ? matches[0] : 'components';
   return category;

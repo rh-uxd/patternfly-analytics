@@ -384,6 +384,14 @@
     {
       "git": "https://github.com/stackrox/stackrox",
       "name": "Stackrox"
+    },
+    {
+      "git": "https://github.com/open-cluster-management/console",
+      "name": "ACM-console"
+    },
+    {
+      "git": "https://github.com/freeipa/freeipa-webui",
+      "name": "Freeipa"
     }
   ]
 }
