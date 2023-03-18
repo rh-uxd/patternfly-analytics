@@ -95,7 +95,7 @@ async function crawl(options) {
   console.log('Waiting for idle');
   await cluster.idle();
   await cluster.close();
-  const reportPath = path.join(statsDir, `/${new Date().toISOString().substr(0, 10)}/`, options.name, '/report.json');
+  const reportPath = path.join(statsDir, `/${new Date().toISOString().substring(0, 10)}/`, options.name, '/report.json');
   fs.ensureFileSync(reportPath);
   fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
   process.exit(exitCode);

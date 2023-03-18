@@ -13,12 +13,24 @@ const patternflyAggs = {
   classes: {
 
   },
-  scssVars: {
+  cssVars: {
 
   }
 };
 
-function getPatternflyStats(repoPath) {
+const productUsage = {
+  imports: {
+
+  },
+  classes: {
+
+  },
+  cssVars: {
+
+  }
+};
+
+function getPatternflyStats(repoPath, repoName) {
   const result = {
     files: {
       total: {
@@ -34,32 +46,38 @@ function getPatternflyStats(repoPath) {
     classes: {
       // "className": count
     },
-    scssVars: {
+    cssVars: {
       // "varName": count
     }
   };
 
-  const getExt = file => file.substr(file.lastIndexOf('.') + 1);
+  const getExt = file => file.substring(file.lastIndexOf('.') + 1);
   const jsFiles = glob.sync(`${repoPath}/**/*.{js,jsx,ts,tsx}`);
   const styleFiles = glob.sync(`${repoPath}/**/*.{css,sass,scss,less}`);
 
-  // https://regex101.com/r/hcIlRX/1
   const importRegex = /import\s+{?([\w\s,*]+)}?\s+from\s+['"](.*patternfly.*)['"]/gm;
-  // https://regex101.com/r/GGCTuA/1
-  const classRegex = /[^-\w](pf-[clum]-.*?)['"\s]/gm;
-  // https://regex101.com/r/gpPax3/1
-  const varRegex = /(--pf(-global)?-\w*-\w*-\w*-\w*)/gm;
+  const classRegex = /[^-\w](pf-[clum]-[\w|\-]*)/gm
+  const varRegex = /(--pf(-global)?[\w|\-]*)/gm;
 
   const matchClasses = (contents, file) => {
     const ext = getExt(file);
     let regMatch;
+    let fileName;
     for (let i = 0; regMatch = classRegex.exec(contents); i++) {
       if (i == 0) {
         result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
-        result.files.withPatternfly[ext][file.replace(repoPath, '')] = true;
+        fileName = file.replace(repoPath, '');
+        result.files.withPatternfly[ext][fileName] = true;
       }
-      result.classes[regMatch[1]] = result.classes[regMatch[1]] || 0;
-      result.classes[regMatch[1]]++;
+      const className = regMatch[1];
+      result.classes[className] = result.classes[className] || 0;
+      result.classes[className]++;
+      patternflyAggs.classes[className] = patternflyAggs.classes[className] || 0;
+      patternflyAggs.classes[className]++;
+      // update productUsage
+      productUsage.classes[className] = productUsage.classes[className] || {};
+      productUsage.classes[className][repoName] = productUsage.classes[className][repoName] || [];
+      productUsage.classes[className][repoName].push(fileName);
     }
   }
 
@@ -70,10 +88,12 @@ function getPatternflyStats(repoPath) {
     const ext = getExt(file);
     const contents = fs.readFileSync(file, 'utf8');
     let regMatch;
+    let fileName;
     for (let i = 0; regMatch = importRegex.exec(contents); i++) {
       if (i == 0) {
         result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
-        result.files.withPatternfly[ext][file.replace(repoPath, '')] = true;
+        fileName = file.replace(repoPath, '');
+        result.files.withPatternfly[ext][fileName] = true;
       }
       result.imports[regMatch[2]] = result.imports[regMatch[2]] || {};
       patternflyAggs.imports[regMatch[2]] = patternflyAggs.imports[regMatch[2]] || {};
@@ -83,19 +103,26 @@ function getPatternflyStats(repoPath) {
         .map(str => str.replace(/\s/gm, ''))
         .filter(imp => imp)
         .forEach(imp => {
-          let pkg = result.imports[regMatch[2]];
+          const pkgName = regMatch[2];
+          let pkg = result.imports[pkgName];
           pkg[imp] = pkg[imp] || 0;
           pkg[imp]++;
-          pkg = patternflyAggs.imports[regMatch[2]];
+          pkg = patternflyAggs.imports[pkgName];
           pkg[imp] = pkg[imp] || 0;
           pkg[imp]++;
+          // product usage
+          productUsage.imports[pkgName] = productUsage.imports[pkgName] || {};
+          pkg = productUsage.imports[pkgName];
+          pkg[imp] = pkg[imp] || {};
+          pkg[imp][repoName] = pkg[imp][repoName] || [];
+          pkg[imp][repoName].push(fileName);
         });
     }
 
     matchClasses(contents, file);
   });
 
-  // Build { result: { scssVars: total: {} } }
+  // Build { result: { cssVars: total: {} } }
   styleFiles.forEach(file => {
     const stat = fs.lstatSync(file);
     if (stat.isSymbolicLink() || stat.isDirectory()) return;
@@ -103,15 +130,24 @@ function getPatternflyStats(repoPath) {
     const contents = fs.readFileSync(file, 'utf8');
 
     let regMatch;
+    let fileName;
     for (let i = 0; regMatch = varRegex.exec(contents); i++) {
       if (i == 0) {
         result.files.withPatternfly[ext] = result.files.withPatternfly[ext] || {};
-        result.files.withPatternfly[ext][file.replace(repoPath, '')] = true;
+        fileName = file.replace(repoPath, '')
+        result.files.withPatternfly[ext][fileName] = true;
       }
-      result.scssVars[regMatch[1]] = result.scssVars[regMatch[1]] || 0;
-      result.scssVars[regMatch[1]]++;
-      patternflyAggs.scssVars[regMatch[1]] = patternflyAggs.scssVars[regMatch[1]] || 0;
-      patternflyAggs.scssVars[regMatch[1]]++;
+      const cssVarName = regMatch[1];
+      result.cssVars[cssVarName] = result.cssVars[cssVarName] || 0;
+      result.cssVars[cssVarName]++;
+      patternflyAggs.cssVars[cssVarName] = patternflyAggs.cssVars[cssVarName] || 0;
+      patternflyAggs.cssVars[cssVarName]++;
+      // update productUsage
+      productUsage.cssVars[cssVarName] = productUsage.cssVars[cssVarName] || {};
+      productUsage.cssVars[cssVarName][repoName] = productUsage.cssVars[cssVarName][repoName] || [];
+      if (!productUsage.cssVars[cssVarName][repoName].includes(fileName)) {
+        productUsage.cssVars[cssVarName][repoName].push(fileName);
+      }
     }
 
     matchClasses(contents, file);
@@ -138,6 +174,7 @@ function getPatternflyStats(repoPath) {
 
 module.exports = {
   getPatternflyStats,
-  patternflyAggs
+  patternflyAggs,
+  productUsage
 };
 
