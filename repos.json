@@ -165,7 +165,7 @@
     },
     {
       "git": "https://github.com/syndesisio/syndesis",
-      "name": "Fuse-Online"
+      "name": "Fuse-Online(Syndesis)"
     },
     {
       "git": "https://github.com/apache/activemq-artemis",
@@ -384,6 +384,51 @@
     {
       "git": "https://github.com/stackrox/stackrox",
       "name": "Stackrox"
+    },
+    {
+      "git": "https://github.com/open-cluster-management/console",
+      "name": "ACM-console"
+    },
+    {
+      "git": "https://github.com/freeipa/freeipa-webui",
+      "name": "Freeipa"
+    },
+    {
+      "git": "https://github.com/redhat-developer/app-services-ui-components",
+      "name": "App-services-ui-components"
+    },
+    {
+      "git": "https://github.com/redhat-developer/app-services-ui",
+      "name": "App-services-ui"
+      
+    },
+    {
+      "git": "https://github.com/bf2fc6cc711aee1a0c2a/kas-ui",
+      "name": "kas-ui"
+    },
+    {
+      "git": "https://github.com/bf2fc6cc711aee1a0c2a/kafka-ui",
+      "name": "kafka-ui"
+    },
+    {
+      "git": "https://github.com/bf2fc6cc711aee1a0c2a/srs-ui",
+      "name": "srs-ui"
+    },
+    {
+      "git": "https://github.com/redhat-developer/rhosak-ui",
+      "name": "rhosak-ui"
+    },
+    {
+      "git": "https://github.com/5733d9e2be6485d52ffa08870cabdee0/sandbox-ui",
+      "name": "RHOSE-POC"
+    },
+    {
+      "git": "https://github.com/bf2fc6cc711aee1a0c2a/cos-ui",
+      "name": "RHOSE-production"
+    },
+    {
+      "git": "https://github.com/janus-idp/backstage-plugins",
+      "name": "Backstage"
     }
   ]
 }
