@@ -1,12 +1,20 @@
 {
   "repos": [
     {
-      "git": "https://github.com/konveyor/mig-ui",
+      "git": "https://github.com/migtools/mig-ui",
       "name": "Migration-Toolkit-for-Containers"
     },
     {
-      "git": "https://github.com/konveyor/lib-ui",
-      "name": "Konveyor-Shared-Library"
+      "git": "https://github.com/kubev2v/forklift-console-plugin",
+      "name": "Migration-Toolkit-for-Virtualization"
+    },
+    {
+      "git": "https://github.com/konveyor/tackle2-ui",
+      "name": "Migration-Toolkit-For-Applications"
+    },
+    {
+      "git": "https://github.com/migtools/lib-ui",
+      "name": "Migration-Tools-Shared-Library"
     },
     {
       "git": "git@github.com:ansible/awx-pf.git",
@@ -157,7 +165,7 @@
     },
     {
       "git": "https://github.com/syndesisio/syndesis",
-      "name": "Fuse-Online"
+      "name": "Fuse-Online(Syndesis)"
     },
     {
       "git": "https://github.com/apache/activemq-artemis",
@@ -376,6 +384,51 @@
     {
       "git": "https://github.com/stackrox/stackrox",
       "name": "Stackrox"
+    },
+    {
+      "git": "https://github.com/open-cluster-management/console",
+      "name": "ACM-console"
+    },
+    {
+      "git": "https://github.com/freeipa/freeipa-webui",
+      "name": "Freeipa"
+    },
+    {
+      "git": "https://github.com/redhat-developer/app-services-ui-components",
+      "name": "App-services-ui-components"
+    },
+    {
+      "git": "https://github.com/redhat-developer/app-services-ui",
+      "name": "App-services-ui"
+      
+    },
+    {
+      "git": "https://github.com/bf2fc6cc711aee1a0c2a/kas-ui",
+      "name": "kas-ui"
+    },
+    {
+      "git": "https://github.com/bf2fc6cc711aee1a0c2a/kafka-ui",
+      "name": "kafka-ui"
+    },
+    {
+      "git": "https://github.com/bf2fc6cc711aee1a0c2a/srs-ui",
+      "name": "srs-ui"
+    },
+    {
+      "git": "https://github.com/redhat-developer/rhosak-ui",
+      "name": "rhosak-ui"
+    },
+    {
+      "git": "https://github.com/5733d9e2be6485d52ffa08870cabdee0/sandbox-ui",
+      "name": "RHOSE-POC"
+    },
+    {
+      "git": "https://github.com/bf2fc6cc711aee1a0c2a/cos-ui",
+      "name": "RHOSE-production"
+    },
+    {
+      "git": "https://github.com/janus-idp/backstage-plugins",
+      "name": "Backstage"
     }
   ]
 }
