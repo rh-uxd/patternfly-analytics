@@ -56,6 +56,29 @@ const getSortedImports = (importsObj) => {
   return sortedCategories;
 }
 
+const sortUsageSection = (usageObj) => Object
+  .entries(usageObj)
+  .sort((
+    [_pfItemName1, pfItemData1],
+    [_pfItemName2, pfItemData2]
+  ) => pfItemData2.product_count - pfItemData1.product_count)
+  .reduce((acc, [curPfItemName, curPfItemData]) => {
+    acc[curPfItemName] = curPfItemData;
+    return acc;
+  }, {});
+
+// Sort productUsage sections by product_count
+const getSortedUsage = (productUsageObj) => {
+  const sortedResult = {};
+  console.log('GET SORTED USAGE');
+  Object.entries(productUsageObj).map(([sectionName, sectionData]) => {
+    const sortedSection = sortUsageSection(sectionData);
+    sortedResult[sectionName] = sortedSection;
+  });
+  return sortedResult;
+}
+
 module.exports = {
-  getSortedImports
+  getSortedImports,
+  getSortedUsage
 }
