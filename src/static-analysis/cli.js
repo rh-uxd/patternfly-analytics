@@ -2,9 +2,9 @@ const path = require('path');
 const { execSync } = require('child_process');
 const fs = require('fs-extra');
 // IMPORT FUNCTIONS FROM THIS DIRECTORY
-const { getPatternflyStats, patternflyAggs } = require('./getPatternflyStats');
+const { getPatternflyStats, patternflyAggs, productUsage } = require('./getPatternflyStats');
 const { getPackageStats, getAggregatePackageStats } = require('./getPackageStats');
-const { getSortedImports } = require('./getSortedImports');
+const { getSortedImports, getSortedUsage } = require('./getSortedImports');
 // IMPORT JSON LIST OF REPOS
 const repos = require('../../repos.json').repos;
 
@@ -20,7 +20,7 @@ function collectPatternflyStats(argv) {
   const date = new Date().toISOString();
   // CREATE NEW DIRECTORY W/TODAY'S DATE FOR REPORT
   // STATS-STATIC/{DATE}
-  const dir = `${statsDir}/${date.substr(0, 10)}`;
+  const dir = `${statsDir}/${date.substring(0, 10)}`;
   if (argv.c) {
     fs.removeSync(tmpDir);
   }
@@ -37,7 +37,7 @@ function collectPatternflyStats(argv) {
         : `git clone "${repo.git}" "${tmpPath}" --depth 1`;
       console.log(command);
       execSync(command);
-      const patternflyStats = getPatternflyStats(tmpPath);
+      const patternflyStats = getPatternflyStats(tmpPath, repo.name);
       patternflyStats.repo = repo.git;
       patternflyStats.name = repo.name || repoName;
       patternflyStats.date = date;
@@ -51,6 +51,7 @@ function collectPatternflyStats(argv) {
     fs.outputFileSync(`${dir}/_all_dependencies.json`, JSON.stringify(getAggregatePackageStats(), null, 2));
     fs.outputFileSync(`${dir}/_all.json`, JSON.stringify(patternflyAggs, null, 2));
     fs.outputFileSync(`${dir}/_all_sorted.json`, JSON.stringify(getSortedImports(patternflyAggs.imports), null, 2));
+    fs.outputFileSync(`${dir}/_all_product_uses.json`, JSON.stringify(getSortedUsage(productUsage), null, 2));
   }
   console.log(`Collected stats for ${date} under ${dir}`);
 }

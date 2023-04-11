@@ -120,8 +120,8 @@ function getPackageStats(repoPath, repoName) {
         //write csv file of dependency for each package.json found
         const date = new Date().toISOString();
         const statsDir = path.resolve(__dirname, '../../stats-static');
-    
-        fsj.writeFileSync(`${statsDir}/${date.substr(0, 10)}/${repoName}-${extractFilename(filePath)}-data.csv`, data, "utf-8", (err) => {
+
+        fsj.writeFileSync(`${statsDir}/${date.substring(0, 10)}/${repoName}-${extractFilename(filePath)}-data.csv`, data, "utf-8", (err) => {
           if (err) console.log(err);
           else console.log("Data saved");
         });

@@ -165,7 +165,7 @@
     },
     {
       "git": "https://github.com/syndesisio/syndesis",
-      "name": "Fuse-Online(Syndesis)"
+      "name": "Fuse-Online-Syndesis"
     },
     {
       "git": "https://github.com/apache/activemq-artemis",
