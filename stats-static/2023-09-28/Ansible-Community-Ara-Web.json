@@ -1,0 +1,130 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 10
+      },
+      "js": 37
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/layout/Header.js",
+          "/src/layout/LoadingPage.js",
+          "/src/layout/Page.js",
+          "/src/layout/Page404.js",
+          "/src/login/LoginPage.js",
+          "/src/playbooks/PlaybookPage.js",
+          "/src/playbooks/PlaybooksPage.js",
+          "/src/playbooks/PlaybookSummary.js",
+          "/src/tasks/TaskRow.js",
+          "/src/tasks/Tasks.js"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Brand": 1,
+      "Nav": 1,
+      "NavItem": 1,
+      "NavList": 1,
+      "NavVariants": 1,
+      "PageHeader": 1,
+      "Bullseye": 3,
+      "Card": 4,
+      "CardBody": 3,
+      "PageSection": 4,
+      "PageSectionVariants": 4,
+      "Page": 1,
+      "Button": 2,
+      "LoginFooterItem": 1,
+      "LoginForm": 1,
+      "LoginPage": 1,
+      "ListItem": 1,
+      "CardHeader": 1,
+      "EmptyState": 1,
+      "EmptyStateVariant": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateBody": 1,
+      "Title": 1,
+      "Label": 1
+    },
+    "@patternfly/react-icons": {
+      "CubesIcon": 1,
+      "ErrorCircleOIcon": 1,
+      "CheckCircleIcon": 1,
+      "ExclamationCircleIcon": 1,
+      "PauseCircleIcon": 1,
+      "CalendarAltIcon": 1,
+      "ClockIcon": 1
+    },
+    "@patternfly/react-tokens": {
+      "global_danger_color_100": 2,
+      "global_success_color_100": 2,
+      "global_active_color_100": 2,
+      "global_warning_color_100": 2,
+      "global_Color_light_100": 1
+    }
+  },
+  "classes": {
+    "pf-u-text-align-center": 15,
+    "pf-u-mt-xl": 1,
+    "pf-u-mb-xs": 2,
+    "pf-c-table": 3,
+    "pf-m-compact": 3,
+    "pf-m-grid-md": 1,
+    "pf-c-card": 1,
+    "pf-c-title": 1,
+    "pf-m-xl": 1,
+    "pf-u-ml-md": 1,
+    "pf-u-mr-md": 3,
+    "pf-u-ml-sm": 2,
+    "pf-c-label": 1,
+    "pf-c-table__toggle": 1,
+    "pf-c-button": 1,
+    "pf-m-plain": 1,
+    "pf-m-expanded": 3,
+    "pf-c-table__expandable-row": 1,
+    "pf-u-p-0": 1,
+    "pf-c-table__expandable-row-content": 1,
+    "pf-m-no-border-rows": 1,
+    "pf-m-expandable": 1
+  },
+  "cssVars": {},
+  "repo": "https://github.com/ansible-community/ara-web",
+  "name": "Ansible-Community-Ara-Web",
+  "date": "2023-09-28T20:01:03.171Z",
+  "dependencies": {
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-tokens": 1,
+    "axios": 1,
+    "axios-mock-adapter": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "^2.71.5"
+      ],
+      "@patternfly/react-core": [
+        "^3.153.3"
+      ],
+      "@patternfly/react-icons": [
+        "^3.15.16"
+      ],
+      "@patternfly/react-tokens": [
+        "^2.8.12"
+      ]
+    },
+    "prettier": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-redux": 1,
+    "react-router-dom": 1,
+    "react-scripts": 1,
+    "redux": 1,
+    "redux-mock-store": 1,
+    "redux-thunk": 1,
+    "styled-components": 1
+  }
+}
