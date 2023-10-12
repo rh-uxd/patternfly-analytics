@@ -1,0 +1,2762 @@
+{
+  "Dropdown": {
+    "total_count": 51,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Settings-RBAC": [
+      "^4.276.1"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Settings-Catalog": [
+      "^4.198.5"
+    ],
+    "Insights-Dashboard": [
+      "^4.221.3"
+    ],
+    "Insights-Vulnerability": [
+      "^4.276.8"
+    ],
+    "Insights-Drift": [
+      "^4.221.3"
+    ],
+    "Insights-Inventory": [
+      "^4.277.0"
+    ],
+    "Insights-Remediations": [
+      "^4.221.3"
+    ],
+    "Migration-Analytics": [
+      "^4.22.2"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Integreatly": [
+      "4.32.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "3Scale": [
+      "4.276.8"
+    ],
+    "Apicurio-POC": [
+      "^4.32.1"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Pbench": [
+      "^4.198.19"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "ChRIS": [
+      "^4.75.2"
+    ],
+    "Optaweb-Employee-Rostering": [
+      "^4.113.1"
+    ],
+    "Optaweb-Vehicle-Routing": [
+      "~4.250.1"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Packit-Dashboard": [
+      "^4.276.8"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.276.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "RedHatInsights-api-documentation-frontend": [
+      "^4.267.6"
+    ],
+    "RedHatInsights-cloud-connector-frontend": [
+      "^4.221.3"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "Freeipa": [
+      "^4.250.1"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "srs-ui": [
+      "4.276.8"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "DropdownItem": {
+    "total_count": 51,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Settings-RBAC": [
+      "^4.276.1"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Settings-Catalog": [
+      "^4.198.5"
+    ],
+    "Insights-Dashboard": [
+      "^4.221.3"
+    ],
+    "Insights-Vulnerability": [
+      "^4.276.8"
+    ],
+    "Insights-Drift": [
+      "^4.221.3"
+    ],
+    "Insights-Inventory": [
+      "^4.277.0"
+    ],
+    "Insights-Remediations": [
+      "^4.221.3"
+    ],
+    "Migration-Analytics": [
+      "^4.22.2"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Integreatly": [
+      "4.32.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "3Scale": [
+      "4.276.8"
+    ],
+    "Apicurio-POC": [
+      "^4.32.1"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Pbench": [
+      "^4.198.19"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "ChRIS": [
+      "^4.75.2"
+    ],
+    "Optaweb-Employee-Rostering": [
+      "^4.113.1"
+    ],
+    "Optaweb-Vehicle-Routing": [
+      "~4.250.1"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Packit-Dashboard": [
+      "^4.276.8"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.276.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "RedHatInsights-api-documentation-frontend": [
+      "^4.267.6"
+    ],
+    "RedHatInsights-cloud-connector-frontend": [
+      "^4.221.3"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "Freeipa": [
+      "^4.250.1"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "srs-ui": [
+      "4.276.8"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "DropdownToggle": {
+    "total_count": 48,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Settings-RBAC": [
+      "^4.276.1"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Settings-Catalog": [
+      "^4.198.5"
+    ],
+    "Insights-Dashboard": [
+      "^4.221.3"
+    ],
+    "Insights-Vulnerability": [
+      "^4.276.8"
+    ],
+    "Insights-Drift": [
+      "^4.221.3"
+    ],
+    "Insights-Inventory": [
+      "^4.277.0"
+    ],
+    "Insights-Remediations": [
+      "^4.221.3"
+    ],
+    "Migration-Analytics": [
+      "^4.22.2"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Integreatly": [
+      "4.32.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "3Scale": [
+      "4.276.8"
+    ],
+    "Apicurio-POC": [
+      "^4.32.1"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Pbench": [
+      "^4.198.19"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "ChRIS": [
+      "^4.75.2"
+    ],
+    "Optaweb-Employee-Rostering": [
+      "^4.113.1"
+    ],
+    "Optaweb-Vehicle-Routing": [
+      "~4.250.1"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Packit-Dashboard": [
+      "^4.276.8"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.276.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "RedHatInsights-api-documentation-frontend": [
+      "^4.267.6"
+    ],
+    "RedHatInsights-cloud-connector-frontend": [
+      "^4.221.3"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "Select": {
+    "total_count": 43,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Settings-RBAC": [
+      "^4.276.1"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Settings-Catalog": [
+      "^4.198.5"
+    ],
+    "Insights-Vulnerability": [
+      "^4.276.8"
+    ],
+    "Insights-Inventory": [
+      "^4.277.0"
+    ],
+    "Insights-Remediations": [
+      "^4.221.3"
+    ],
+    "Migration-Analytics": [
+      "^4.22.2"
+    ],
+    "RHEL-Composer": [
+      "4.267.6"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "3Scale": [
+      "4.276.8"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Aerogear-Uniforms-Patternfly": [
+      "4.135.0",
+      "^4.135.0"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.276.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "RedHatInsights-acs-ui": [
+      "4.250.1"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "Freeipa": [
+      "^4.250.1"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kas-ui": [
+      "4.276.8"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "srs-ui": [
+      "4.276.8"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "SelectOption": {
+    "total_count": 43,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Settings-RBAC": [
+      "^4.276.1"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Settings-Catalog": [
+      "^4.198.5"
+    ],
+    "Insights-Vulnerability": [
+      "^4.276.8"
+    ],
+    "Insights-Inventory": [
+      "^4.277.0"
+    ],
+    "Insights-Remediations": [
+      "^4.221.3"
+    ],
+    "Migration-Analytics": [
+      "^4.22.2"
+    ],
+    "RHEL-Composer": [
+      "4.267.6"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "3Scale": [
+      "4.276.8"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Aerogear-Uniforms-Patternfly": [
+      "4.135.0",
+      "^4.135.0"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.276.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "RedHatInsights-acs-ui": [
+      "4.250.1"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "Freeipa": [
+      "^4.250.1"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kas-ui": [
+      "4.276.8"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "srs-ui": [
+      "4.276.8"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "KebabToggle": {
+    "total_count": 37,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Settings-RBAC": [
+      "^4.276.1"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Settings-Catalog": [
+      "^4.198.5"
+    ],
+    "Insights-Drift": [
+      "^4.221.3"
+    ],
+    "Insights-Remediations": [
+      "^4.221.3"
+    ],
+    "Migration-Analytics": [
+      "^4.22.2"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "3Scale": [
+      "4.276.8"
+    ],
+    "Apicurio-POC": [
+      "^4.32.1"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "ChRIS": [
+      "^4.75.2"
+    ],
+    "Optaweb-Employee-Rostering": [
+      "^4.113.1"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.276.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "Freeipa": [
+      "^4.250.1"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "srs-ui": [
+      "4.276.8"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "SelectVariant": {
+    "total_count": 36,
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Settings-RBAC": [
+      "^4.276.1"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Migration-Analytics": [
+      "^4.22.2"
+    ],
+    "RHEL-Composer": [
+      "4.267.6"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "3Scale": [
+      "4.276.8"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Aerogear-Uniforms-Patternfly": [
+      "4.135.0",
+      "^4.135.0"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "RedHatInsights-acs-ui": [
+      "4.250.1"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "Freeipa": [
+      "^4.250.1"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kas-ui": [
+      "4.276.8"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "srs-ui": [
+      "4.276.8"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "DropdownPosition": {
+    "total_count": 33,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Settings-Catalog": [
+      "^4.198.5"
+    ],
+    "Insights-Drift": [
+      "^4.221.3"
+    ],
+    "Insights-Inventory": [
+      "^4.277.0"
+    ],
+    "Insights-Remediations": [
+      "^4.221.3"
+    ],
+    "Migration-Analytics": [
+      "^4.22.2"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "3Scale": [
+      "4.276.8"
+    ],
+    "Apicurio-POC": [
+      "^4.32.1"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "Optaweb-Vehicle-Routing": [
+      "~4.250.1"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.276.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "srs-ui": [
+      "4.276.8"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "Table": {
+    "total_count": 33,
+    "Migration-Toolkit-for-Containers": [
+      "^4.27.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.112.39"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Foreman-Tasks": "unknown",
+    "Settings-RBAC": [
+      "^4.67.19"
+    ],
+    "Settings-Hooks": [
+      "4.111.4"
+    ],
+    "Settings-Catalog": [
+      "^4.37.8"
+    ],
+    "Insights-Dashboard": [
+      "^4.90.3"
+    ],
+    "Insights-Vulnerability": [
+      "^4.113.0"
+    ],
+    "Insights-Compliance": [
+      "^4.112.6"
+    ],
+    "Insights-Drift": [
+      "^4.90.3"
+    ],
+    "Insights-Inventory": [
+      "^4.113.5"
+    ],
+    "Insights-Remediations": [
+      "^4.90.3"
+    ],
+    "Migration-Analytics": [
+      "^4.8.3"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.113.0"
+    ],
+    "AMQ-Interconnect": [
+      "^4.67.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.29.0"
+    ],
+    "3Scale": [
+      "4.113.0"
+    ],
+    "Keycloak": [
+      "^4.113.0"
+    ],
+    "Kogito": [
+      "^4.112.39"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.112.39"
+    ],
+    "Pbench": [
+      "^4.75.2"
+    ],
+    "Debezium": [
+      "4.113.4",
+      "^4.24.1"
+    ],
+    "ChRIS": [
+      "^4.27.7"
+    ],
+    "Packit-Dashboard": [
+      "^4.113.0"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.37.8",
+      "^4.113.0"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.113.0"
+    ],
+    "RedHatInsights-insights-chrome": "unknown",
+    "ACM-console": [
+      "4.90.3"
+    ],
+    "kas-ui": [
+      "4.113.0"
+    ],
+    "kafka-ui": [
+      "4.112.39"
+    ],
+    "srs-ui": [
+      "4.113.0"
+    ]
+  },
+  "TableBody": {
+    "total_count": 30,
+    "Migration-Toolkit-for-Containers": [
+      "^4.27.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.112.39"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Settings-RBAC": [
+      "^4.67.19"
+    ],
+    "Settings-Hooks": [
+      "4.111.4"
+    ],
+    "Settings-Catalog": [
+      "^4.37.8"
+    ],
+    "Insights-Dashboard": [
+      "^4.90.3"
+    ],
+    "Insights-Vulnerability": [
+      "^4.113.0"
+    ],
+    "Insights-Compliance": [
+      "^4.112.6"
+    ],
+    "Insights-Drift": [
+      "^4.90.3"
+    ],
+    "Insights-Inventory": [
+      "^4.113.5"
+    ],
+    "Insights-Remediations": [
+      "^4.90.3"
+    ],
+    "Migration-Analytics": [
+      "^4.8.3"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.113.0"
+    ],
+    "AMQ-Interconnect": [
+      "^4.67.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.29.0"
+    ],
+    "3Scale": [
+      "4.113.0"
+    ],
+    "Keycloak": [
+      "^4.113.0"
+    ],
+    "Kogito": [
+      "^4.112.39"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.112.39"
+    ],
+    "Debezium": [
+      "4.113.4",
+      "^4.24.1"
+    ],
+    "ChRIS": [
+      "^4.27.7"
+    ],
+    "Packit-Dashboard": [
+      "^4.113.0"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.37.8",
+      "^4.113.0"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.113.0"
+    ],
+    "ACM-console": [
+      "4.90.3"
+    ],
+    "kas-ui": [
+      "4.113.0"
+    ],
+    "kafka-ui": [
+      "4.112.39"
+    ],
+    "srs-ui": [
+      "4.113.0"
+    ]
+  },
+  "TableHeader": {
+    "total_count": 30,
+    "Migration-Toolkit-for-Containers": [
+      "^4.27.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.112.39"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Settings-RBAC": [
+      "^4.67.19"
+    ],
+    "Settings-Hooks": [
+      "4.111.4"
+    ],
+    "Settings-Catalog": [
+      "^4.37.8"
+    ],
+    "Insights-Dashboard": [
+      "^4.90.3"
+    ],
+    "Insights-Vulnerability": [
+      "^4.113.0"
+    ],
+    "Insights-Compliance": [
+      "^4.112.6"
+    ],
+    "Insights-Drift": [
+      "^4.90.3"
+    ],
+    "Insights-Inventory": [
+      "^4.113.5"
+    ],
+    "Insights-Remediations": [
+      "^4.90.3"
+    ],
+    "Migration-Analytics": [
+      "^4.8.3"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.113.0"
+    ],
+    "AMQ-Interconnect": [
+      "^4.67.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.29.0"
+    ],
+    "3Scale": [
+      "4.113.0"
+    ],
+    "Keycloak": [
+      "^4.113.0"
+    ],
+    "Kogito": [
+      "^4.112.39"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.112.39"
+    ],
+    "Debezium": [
+      "4.113.4",
+      "^4.24.1"
+    ],
+    "ChRIS": [
+      "^4.27.7"
+    ],
+    "Packit-Dashboard": [
+      "^4.113.0"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.37.8",
+      "^4.113.0"
+    ],
+    "Openshift-monitoring-plugin": [
+      "4.113.0"
+    ],
+    "ACM-console": [
+      "4.90.3"
+    ],
+    "kas-ui": [
+      "4.113.0"
+    ],
+    "kafka-ui": [
+      "4.112.39"
+    ],
+    "srs-ui": [
+      "4.113.0"
+    ]
+  },
+  "Wizard": {
+    "total_count": 25,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Settings-RBAC": [
+      "^4.276.1"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Insights-Compliance": [
+      "^4.267.7"
+    ],
+    "Insights-Remediations": [
+      "^4.221.3"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Vercel": [
+      "^4.121.1"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "RedHatInsights-acs-ui": [
+      "4.250.1"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ]
+  },
+  "PageHeader": {
+    "total_count": 24,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Settings-Catalog": [
+      "^4.198.5"
+    ],
+    "Integreatly": [
+      "4.32.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "Apicurio-POC": [
+      "^4.32.1"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "ChRIS": [
+      "^4.75.2"
+    ],
+    "Optaweb-Employee-Rostering": [
+      "^4.113.1"
+    ],
+    "Optaweb-Vehicle-Routing": [
+      "~4.250.1"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "kas-ui": [
+      "4.276.8"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "srs-ui": [
+      "4.276.8"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "DropdownSeparator": {
+    "total_count": 22,
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Integreatly": [
+      "4.32.1"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "Apicurio-POC": [
+      "^4.32.1"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "PageHeaderTools": {
+    "total_count": 20,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Settings-Catalog": [
+      "^4.198.5"
+    ],
+    "Integreatly": [
+      "4.32.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "ChRIS": [
+      "^4.75.2"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "kas-ui": [
+      "4.276.8"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "SelectOptionObject": {
+    "total_count": 20,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Aerogear-Uniforms-Patternfly": [
+      "4.135.0",
+      "^4.135.0"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "Freeipa": [
+      "^4.250.1"
+    ],
+    "kas-ui": [
+      "4.276.8"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "srs-ui": [
+      "4.276.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "SelectGroup": {
+    "total_count": 19,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "Insights-Vulnerability": [
+      "^4.276.8"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "3Scale": [
+      "4.276.8"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ]
+  },
+  "WizardContextConsumer": {
+    "total_count": 16,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Foreman-Katello": "unknown",
+    "Insights-Compliance": [
+      "^4.267.7"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "RedHatInsights-acs-ui": [
+      "4.250.1"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ]
+  },
+  "SelectProps": {
+    "total_count": 15,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Aerogear-Uniforms-Patternfly": [
+      "4.135.0",
+      "^4.135.0"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "kas-ui": [
+      "4.276.8"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ]
+  },
+  "WizardFooter": {
+    "total_count": 15,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Debezium": [
+      "4.276.12",
+      "^4.87.2"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "RedHatInsights-acs-ui": [
+      "4.250.1"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ]
+  },
+  "DropdownGroup": {
+    "total_count": 12,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Foreman-Console": "unknown",
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Pbench": [
+      "^4.198.19"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ]
+  },
+  "DropdownToggleCheckbox": {
+    "total_count": 12,
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Foreman-Katello": "unknown",
+    "Insights-Remediations": [
+      "^4.221.3"
+    ],
+    "Apicurio-POC": [
+      "^4.32.1"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Quay-ui": [
+      "^4.202.16"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ]
+  },
+  "PageHeaderToolsGroup": {
+    "total_count": 12,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Integreatly": [
+      "4.32.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "RHOSE-POC": [
+      "4.276.8"
+    ]
+  },
+  "PageHeaderToolsItem": {
+    "total_count": 12,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Integreatly": [
+      "4.32.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Apicurio-Registry": [
+      "4.276.12"
+    ],
+    "ChRIS": [
+      "^4.75.2"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ]
+  },
+  "DropdownDirection": {
+    "total_count": 10,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Foreman-Katello": "unknown",
+    "Insights-Drift": [
+      "^4.221.3"
+    ],
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Ansible-awx": [
+      "4.276.8"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "Freeipa": [
+      "^4.250.1"
+    ]
+  },
+  "WizardStep": {
+    "total_count": 8,
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Hub": [
+      "^4.278.0"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Kui": [
+      "^4.276.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ]
+  },
+  "DropdownToggleAction": {
+    "total_count": 7,
+    "Foreman-Katello": "unknown",
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "RedHatInsights-cloud-connector-frontend": [
+      "^4.221.3"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "rhosak-ui": [
+      "4.267.6"
+    ]
+  },
+  "OptionsMenu": {
+    "total_count": 7,
+    "Foreman-Katello": "unknown",
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ]
+  },
+  "SelectOptionProps": {
+    "total_count": 7,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ],
+    "Automation-Analytics": [
+      "^4.276.11"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ],
+    "Ansible-ui": [
+      "^4",
+      "4.276.12"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ]
+  },
+  "TableProps": {
+    "total_count": 7,
+    "OpenShift-Admin-Console": [
+      "4.113.0"
+    ],
+    "Keycloak": [
+      "^4.113.0"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.112.39"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.37.8",
+      "^4.113.0"
+    ],
+    "kas-ui": [
+      "4.113.0"
+    ],
+    "kafka-ui": [
+      "4.112.39"
+    ],
+    "srs-ui": [
+      "4.113.0"
+    ]
+  },
+  "OptionsMenuItem": {
+    "total_count": 6,
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ]
+  },
+  "ApplicationLauncher": {
+    "total_count": 5,
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ]
+  },
+  "ApplicationLauncherItem": {
+    "total_count": 5,
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Subscriptions-quipucords": [
+      "4.276.8"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ]
+  },
+  "DropdownProps": {
+    "total_count": 5,
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ],
+    "kafka-ui": [
+      "4.276.6"
+    ]
+  },
+  "OptionsMenuToggle": {
+    "total_count": 5,
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "AMQ-Interconnect": [
+      "^4.198.19"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ]
+  },
+  "ContextSelector": {
+    "total_count": 4,
+    "Foreman-Katello": "unknown",
+    "Foreman-Console": "unknown",
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ]
+  },
+  "WizardContext": {
+    "total_count": 4,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Settings-Hooks": [
+      "4.250.1"
+    ],
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Kogito": [
+      "^4.276.6"
+    ]
+  },
+  "ApplicationLauncherGroup": {
+    "total_count": 3,
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ]
+  },
+  "ApplicationLauncherSeparator": {
+    "total_count": 3,
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Opendatahub": [
+      "4.276.6"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ]
+  },
+  "ContextSelectorItem": {
+    "total_count": 3,
+    "Foreman-Console": "unknown",
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ],
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ]
+  },
+  "OptionsMenuItemGroup": {
+    "total_count": 3,
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ]
+  },
+  "SelectDirection": {
+    "total_count": 3,
+    "Foreman-Katello": "unknown",
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Aerogear-Uniforms-Patternfly": [
+      "4.135.0",
+      "^4.135.0"
+    ]
+  },
+  "TableBodyProps": {
+    "total_count": 3,
+    "kas-ui": [
+      "4.113.0"
+    ],
+    "kafka-ui": [
+      "4.112.39"
+    ],
+    "srs-ui": [
+      "4.113.0"
+    ]
+  },
+  "HeaderProps": {
+    "total_count": 3,
+    "kas-ui": [
+      "4.113.0"
+    ],
+    "kafka-ui": [
+      "4.112.39"
+    ],
+    "srs-ui": [
+      "4.113.0"
+    ]
+  },
+  "WizardNav": {
+    "total_count": 3,
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "WizardNavItem": {
+    "total_count": 3,
+    "Fuse-Online-Syndesis": [
+      "^4.135.0"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "ContextSelectorFooter": {
+    "total_count": 2,
+    "Foreman-Console": "unknown",
+    "ACM-console": [
+      "4.221.11"
+    ]
+  },
+  "DropdownItemProps": {
+    "total_count": 2,
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ],
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ]
+  },
+  "OptionsMenuSeparator": {
+    "total_count": 2,
+    "Virtualization-Frontend": [
+      "4.241.1"
+    ],
+    "App-services-ui-components": [
+      "4.267.6",
+      "^4.267.6"
+    ]
+  },
+  "SelectPosition": {
+    "total_count": 2,
+    "Kogito": [
+      "^4.276.6"
+    ],
+    "Stackrox": [
+      "4.276.6"
+    ]
+  },
+  "WizardHeader": {
+    "total_count": 2,
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "WizardStepFunctionType": {
+    "total_count": 2,
+    "Migration-Toolkit-for-Containers": [
+      "^4.115.5"
+    ],
+    "Migration-Toolkit-for-Virtualization": [
+      "4.276.6"
+    ]
+  },
+  "WizardProps": {
+    "total_count": 2,
+    "Kui": [
+      "^4.276.8"
+    ],
+    "ACM-console": [
+      "4.221.11"
+    ]
+  },
+  "WizardNavItemProps": {
+    "total_count": 2,
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ],
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "ContextSelectorProps": {
+    "total_count": 1,
+    "Application-Migration-Toolkit": [
+      "4.267.6"
+    ]
+  },
+  "ContextSelectorItemProps": {
+    "total_count": 1,
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ]
+  },
+  "DropdownMenu": {
+    "total_count": 1,
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ]
+  },
+  "BadgeToggle": {
+    "total_count": 1,
+    "Pbench": [
+      "^4.198.19"
+    ]
+  },
+  "DropdownToggleProps": {
+    "total_count": 1,
+    "Kogito": [
+      "^4.276.6"
+    ]
+  },
+  "KebabToggleProps": {
+    "total_count": 1,
+    "kafka-ui": [
+      "4.276.6"
+    ]
+  },
+  "OptionsMenuToggleWithText": {
+    "total_count": 1,
+    "ACM-console": [
+      "4.221.11"
+    ]
+  },
+  "OptionsMenuPosition": {
+    "total_count": 1,
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ]
+  },
+  "PageHeaderProps": {
+    "total_count": 1,
+    "Keycloak": [
+      "^4.276.8",
+      "^4.147.0"
+    ]
+  },
+  "WizardBody": {
+    "total_count": 1,
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ]
+  },
+  "WizardToggle": {
+    "total_count": 1,
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "WizardBodyProps": {
+    "total_count": 1,
+    "Openshift-assisted-ui": [
+      "^4.168.8"
+    ]
+  },
+  "WizardContextType": {
+    "total_count": 1,
+    "OpenShift-Admin-Console": [
+      "4.276.11"
+    ]
+  },
+  "WizardContextProvider": {
+    "total_count": 1,
+    "RHOSE-production": [
+      "^4.87.2",
+      "4.276.8"
+    ]
+  },
+  "ApplicationLauncherContext": {
+    "total_count": 0
+  },
+  "ApplicationLauncherItemContext": {
+    "total_count": 0
+  },
+  "ApplicationLauncherContent": {
+    "total_count": 0
+  },
+  "ApplicationLauncherIcon": {
+    "total_count": 0
+  },
+  "ApplicationLauncherText": {
+    "total_count": 0
+  },
+  "ApplicationLauncherProps": {
+    "total_count": 0
+  },
+  "ApplicationLauncherContentProps": {
+    "total_count": 0
+  },
+  "ApplicationLauncherIconProps": {
+    "total_count": 0
+  },
+  "ApplicationLauncherItemProps": {
+    "total_count": 0
+  },
+  "ApplicationLauncherTextProps": {
+    "total_count": 0
+  },
+  "ContextSelectorFooterProps": {
+    "total_count": 0
+  },
+  "DropdownWithContext": {
+    "total_count": 0
+  },
+  "dropdownConstants": {
+    "total_count": 0
+  },
+  "BadgeToggleProps": {
+    "total_count": 0
+  },
+  "DropdownGroupProps": {
+    "total_count": 0
+  },
+  "DropdownMenuProps": {
+    "total_count": 0
+  },
+  "DropdownMenuItem": {
+    "total_count": 0
+  },
+  "SeparatorProps": {
+    "total_count": 0
+  },
+  "DropdownToggleActionProps": {
+    "total_count": 0
+  },
+  "DropdownToggleCheckboxProps": {
+    "total_count": 0
+  },
+  "DropdownContext": {
+    "total_count": 0
+  },
+  "DropdownArrowContext": {
+    "total_count": 0
+  },
+  "OptionsMenuDirection": {
+    "total_count": 0
+  },
+  "OptionsMenuProps": {
+    "total_count": 0
+  },
+  "OptionsMenuItemProps": {
+    "total_count": 0
+  },
+  "OptionsMenuItemGroupProps": {
+    "total_count": 0
+  },
+  "OptionsMenuToggleProps": {
+    "total_count": 0
+  },
+  "OptionsMenuToggleWithTextProps": {
+    "total_count": 0
+  },
+  "PageHeaderToolsProps": {
+    "total_count": 0
+  },
+  "PageHeaderToolsGroupProps": {
+    "total_count": 0
+  },
+  "PageHeaderToolsItemProps": {
+    "total_count": 0
+  },
+  "selectConstants": {
+    "total_count": 0
+  },
+  "SelectViewMoreObject": {
+    "total_count": 0
+  },
+  "SelectState": {
+    "total_count": 0
+  },
+  "SelectGroupProps": {
+    "total_count": 0
+  },
+  "SelectContextInterface": {
+    "total_count": 0
+  },
+  "SelectContext": {
+    "total_count": 0
+  },
+  "SelectProvider": {
+    "total_count": 0
+  },
+  "SelectConsumer": {
+    "total_count": 0
+  },
+  "SelectFooterTabbableItems": {
+    "total_count": 0
+  },
+  "IComputedData": {
+    "total_count": 0
+  },
+  "OnRowClick": {
+    "total_count": 0
+  },
+  "WizardFooterProps": {
+    "total_count": 0
+  },
+  "WizardHeaderProps": {
+    "total_count": 0
+  },
+  "WizardNavProps": {
+    "total_count": 0
+  },
+  "WizardToggleProps": {
+    "total_count": 0
+  }
+}

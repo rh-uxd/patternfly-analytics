@@ -1,0 +1,165 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "jsx": 5,
+        "css": 1
+      },
+      "js": 6,
+      "jsx": 5,
+      "scss": 1,
+      "css": 1
+    },
+    "withPatternfly": {
+      "jsx": {
+        "files": [
+          "/src/app.jsx",
+          "/src/certificateActions.jsx",
+          "/src/certificateList.jsx",
+          "/src/emptyState.jsx",
+          "/src/requestCertificate.jsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/src/certificateActions.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/esm/components/Alert/index.js": {
+      "Alert": 1,
+      "AlertActionCloseButton": 1,
+      "AlertVariant": 1,
+      "AlertGroup": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Page/index.js": {
+      "Page": 1,
+      "PageSection": 1,
+      "PageSectionVariants": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Button/index.js": {
+      "Button": 3
+    },
+    "@patternfly/react-core/dist/esm/components/Checkbox/index.js": {
+      "Checkbox": 3
+    },
+    "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js": {
+      "Dropdown-deprecated": 1,
+      "DropdownItem-deprecated": 1,
+      "KebabToggle-deprecated": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Form/index.js": {
+      "Form": 2,
+      "FormGroup": 2,
+      "FormHelperText": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Modal/index.js": {
+      "Modal": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Badge/index.js": {
+      "Badge": 1
+    },
+    "@patternfly/react-core/dist/esm/components/DescriptionList/index.js": {
+      "DescriptionList": 1,
+      "DescriptionListDescription": 1,
+      "DescriptionListGroup": 1,
+      "DescriptionListTerm": 1
+    },
+    "@patternfly/react-core/dist/esm/layouts/Flex/index.js": {
+      "Flex": 1,
+      "FlexItem": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Tooltip/index.js": {
+      "Tooltip": 1,
+      "TooltipPosition": 1
+    },
+    "@patternfly/react-icons": {
+      "InfoAltIcon": 1,
+      "ExclamationTriangleIcon": 1,
+      "TimesCircleIcon": 1,
+      "ExclamationCircleIcon": 1
+    },
+    "@patternfly/react-core/dist/esm/components/FormSelect/index.js": {
+      "FormSelect": 1,
+      "FormSelectOption": 1
+    },
+    "@patternfly/react-core/dist/esm/components/HelperText/index.js": {
+      "HelperText": 1,
+      "HelperTextItem": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Radio/index.js": {
+      "Radio": 1
+    },
+    "@patternfly/react-core/dist/esm/components/TextArea/index.js": {
+      "TextArea": 1
+    },
+    "@patternfly/react-core/dist/esm/components/TextInput/index.js": {
+      "TextInput": 1
+    }
+  },
+  "classes": {
+    "pf-m-danger": 2
+  },
+  "cssVars": {
+    "--pf-v5-global--danger-color--200": 1
+  },
+  "repo": "https://github.com/cockpit-project/cockpit-certificates",
+  "name": "Cockpit-certificates",
+  "date": "2023-10-12T02:02:45.471Z",
+  "dependencies": {
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-table": 1,
+    "@patternfly/react-tokens": 1,
+    "argparse": 1,
+    "chrome-remote-interface": 1,
+    "deep-equal": 1,
+    "esbuild": 1,
+    "esbuild-plugin-copy": 1,
+    "esbuild-plugin-replace": 1,
+    "esbuild-sass-plugin": 1,
+    "esbuild-wasm": 1,
+    "eslint": 1,
+    "eslint-config-standard": 1,
+    "eslint-config-standard-jsx": 1,
+    "eslint-config-standard-react": 1,
+    "eslint-plugin-import": 1,
+    "eslint-plugin-jsx-a11y": 1,
+    "eslint-plugin-promise": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "gettext-parser": 1,
+    "htmlparser": 1,
+    "jed": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "5.1.0"
+      ],
+      "@patternfly/react-core": [
+        "5.1.1"
+      ],
+      "@patternfly/react-icons": [
+        "5.1.1"
+      ],
+      "@patternfly/react-styles": [
+        "5.1.1"
+      ],
+      "@patternfly/react-table": [
+        "5.1.1"
+      ],
+      "@patternfly/react-tokens": [
+        "5.1.1"
+      ]
+    },
+    "react": 1,
+    "react-dom": 1,
+    "sass": 1,
+    "sizzle": 1,
+    "stylelint-formatter-pretty": 1,
+    "throttle-debounce": 1
+  }
+}

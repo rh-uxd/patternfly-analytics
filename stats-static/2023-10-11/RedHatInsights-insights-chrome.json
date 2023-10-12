@@ -1,0 +1,796 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 3,
+        "tsx": 76,
+        "ts": 10,
+        "scss": 20
+      },
+      "js": 62,
+      "ts": 112,
+      "tsx": 117,
+      "scss": 29
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/cypress/component/DefaultLayout.cy.js",
+          "/src/components/Header/HeaderTests/HeaderAlert.test.js",
+          "/src/moduleOverrides/chart-utils-override.js"
+        ]
+      },
+      "tsx": {
+        "files": [
+          "/cypress/component/helptopics/HelpTopicManager.cy.tsx",
+          "/src/components/Activation/Activation.tsx",
+          "/src/components/AllServices/AllServicesGroup.tsx",
+          "/src/components/AllServices/AllServicesLink.tsx",
+          "/src/components/AllServices/AllServicesSection.tsx",
+          "/src/components/AllServicesDropdown/AllServicesDropdown.tsx",
+          "/src/components/AllServicesDropdown/AllServicesGallery.tsx",
+          "/src/components/AllServicesDropdown/AllServicesGalleryLink.tsx",
+          "/src/components/AllServicesDropdown/AllServicesGallerySection.tsx",
+          "/src/components/AllServicesDropdown/AllServicesMenu.tsx",
+          "/src/components/AllServicesDropdown/AllServicesTabs.tsx",
+          "/src/components/AppPlaceholder/index.tsx",
+          "/src/components/Banners/Banner.tsx",
+          "/src/components/BetaInfoModal/BetaInfoModal.tsx",
+          "/src/components/Breadcrumbs/Breadcrumbs.tsx",
+          "/src/components/Breadcrumbs/BreadcrumbsFavorites.tsx",
+          "/src/components/ChromeRoute/ChromeRoute.tsx",
+          "/src/components/ContextSwitcher/index.tsx",
+          "/src/components/CrossRequestNotifier/CrossRequestNotifier.tsx",
+          "/src/components/Debugger/DebuggerModal.tsx",
+          "/src/components/Debugger/DebuggerTable.tsx",
+          "/src/components/ErrorComponents/DefaultErrorComponent.tsx",
+          "/src/components/ErrorComponents/GatewayErrorComponent.tsx",
+          "/src/components/ErrorComponents/IDPError.tsx",
+          "/src/components/FavoriteServices/EmptyState.tsx",
+          "/src/components/FavoriteServices/LandingNavFavorites.tsx",
+          "/src/components/FavoriteServices/QuickAccess.tsx",
+          "/src/components/FavoriteServices/ServicesGallery.tsx",
+          "/src/components/FavoriteServices/ServiceTile.tsx",
+          "/src/components/Feedback/FeedbackError.tsx",
+          "/src/components/Feedback/FeedbackForm.tsx",
+          "/src/components/Feedback/FeedbackModal.tsx",
+          "/src/components/Feedback/FeedbackSuccess.tsx",
+          "/src/components/Footer/Footer.tsx",
+          "/src/components/GlobalFilter/GlobalFilterMenu.tsx",
+          "/src/components/Header/Header.tsx",
+          "/src/components/Header/HeaderAlert.tsx",
+          "/src/components/Header/Login.tsx",
+          "/src/components/Header/Logo.tsx",
+          "/src/components/Header/MastheadMenuToggle.tsx",
+          "/src/components/Header/SatelliteLink.tsx",
+          "/src/components/Header/ToolbarToggle.tsx",
+          "/src/components/Header/Tools.tsx",
+          "/src/components/Header/UnAuthtedHeader.tsx",
+          "/src/components/Header/UserIcon.tsx",
+          "/src/components/Header/UserToggle.tsx",
+          "/src/components/Navigation/ChromeNavExpandable.tsx",
+          "/src/components/Navigation/ChromeNavGroup.tsx",
+          "/src/components/Navigation/ChromeNavItem.tsx",
+          "/src/components/Navigation/ChromeNavItemFactory.tsx",
+          "/src/components/Navigation/DynamicNav.tsx",
+          "/src/components/Navigation/index.tsx",
+          "/src/components/Navigation/Loader.tsx",
+          "/src/components/NotEntitledModal/index.tsx",
+          "/src/components/NotFoundRoute/NotFoundRoute.tsx",
+          "/src/components/NotificationsDrawer/DrawerPanelContent.tsx",
+          "/src/components/NotificationsDrawer/NotificationItem.tsx",
+          "/src/components/QuickStart/LazyQuickStartCatalog.tsx",
+          "/src/components/QuickStart/QuickStartCatalog.tsx",
+          "/src/components/RootApp/RootApp.tsx",
+          "/src/components/RootApp/ScalprumRoot.tsx",
+          "/src/components/Satellite/SatelliteTable.tsx",
+          "/src/components/Search/EmptySearchState.tsx",
+          "/src/components/Search/SearchDescription.tsx",
+          "/src/components/Search/SearchGroup.tsx",
+          "/src/components/Search/SearchInput.tsx",
+          "/src/components/Search/SearchTitle.tsx",
+          "/src/components/Stratosphere/Footer.tsx",
+          "/src/components/Stratosphere/ProductCard.tsx",
+          "/src/components/Stratosphere/ProductSelection.tsx",
+          "/src/components/Stratosphere/RedirectBanner.tsx",
+          "/src/layouts/AllServices.tsx",
+          "/src/layouts/DefaultLayout.tsx",
+          "/src/layouts/FavoritedServices.tsx",
+          "/src/layouts/SatelliteToken.tsx",
+          "/src/utils/loading-fallback.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/@types/types.d.ts",
+          "/src/components/AllServices/AllServicesIcons.ts",
+          "/src/components/QuickStart/helpTopicDataMock.ts",
+          "/src/components/QuickStart/quickstartValidation.ts",
+          "/src/components/QuickStart/useHelpTopicManager.ts",
+          "/src/components/QuickStart/useHelpTopicState.ts",
+          "/src/components/QuickStart/useQuickstartsStates.ts",
+          "/src/redux/chromeReducers.ts",
+          "/src/redux/store.d.ts",
+          "/src/utils/useNavigation.ts"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/components/AllServicesDropdown/AllServicesDropdown.scss",
+          "/src/components/Banners/Banner.scss",
+          "/src/components/Breadcrumbs/Breadcrumbs.scss",
+          "/src/components/Breadcrumbs/BreadcrumbsFavorites.scss",
+          "/src/components/ContextSwitcher/ContextSwitcher.scss",
+          "/src/components/Debugger/Debugger.scss",
+          "/src/components/Feedback/Feedback.scss",
+          "/src/components/Footer/Footer.scss",
+          "/src/components/GlobalFilter/global-filter-menu.scss",
+          "/src/components/Header/Header.scss",
+          "/src/components/Header/HeaderAlert.scss",
+          "/src/components/Navigation/Navigation.scss",
+          "/src/components/NotEntitledModal/styles.scss",
+          "/src/components/Search/SearchDescription.scss",
+          "/src/components/Search/SearchInput.scss",
+          "/src/components/Stratosphere/footer.scss",
+          "/src/components/Stratosphere/product-card.scss",
+          "/src/components/Stratosphere/product-selection.scss",
+          "/src/layouts/DefaultLayout.scss",
+          "/src/sass/chrome.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Nav": 1,
+      "NavList": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Button": {
+      "Button": 22,
+      "ButtonProps": 1
+    },
+    "@patternfly/quickstarts": {
+      "QuickStart": 6,
+      "QuickStartCatalogPage": 2,
+      "HelpTopicContext": 3,
+      "HelpTopic": 3,
+      "LoadingBox": 1,
+      "QuickStartState": 1,
+      "HelpTopicContainer": 1,
+      "QuickStartContainer": 1,
+      "QuickStartContainerProps": 1,
+      "QuickStartContext": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Modal": {
+      "Modal": 6,
+      "ModalVariant": 6,
+      "ModalProps": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Text": {
+      "Text": 29,
+      "TextContent": 26,
+      "TextVariants": 11,
+      "TextList": 1,
+      "TextListItem": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/automation-icon": {
+      "AutomationIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/bell-icon": {
+      "BellIcon": 3
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/boxes-icon": {
+      "BoxesIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/chart-line-icon": {
+      "ChartLineIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/cloud-security-icon": {
+      "CloudSecurityIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/cloud-upload-alt-icon": {
+      "CloudUploadAltIcon": 1,
+      "CloudIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/cog-icon": {
+      "CogIcon": 2
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/credit-card-icon": {
+      "CreditCardIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/cube-icon": {
+      "CubeIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/database-icon": {
+      "DatabaseIcon": 2
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/infrastructure-icon": {
+      "InfrastructureIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/rocket-icon": {
+      "RocketIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/shopping-cart-icon": {
+      "ShoppingCartIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/users-icon": {
+      "UsersIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/monitoring-icon": {
+      "MonitoringIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Icon": {
+      "Icon": 18
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/star-icon": {
+      "StarIcon": 8
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/external-link-alt-icon": {
+      "ExternalLinkAltIcon": 5
+    },
+    "@patternfly/react-core/dist/dynamic/components/Card": {
+      "Card": 8,
+      "CardBody": 8,
+      "CardTitle": 4,
+      "CardHeader": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Backdrop": {
+      "Backdrop": 2
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Bullseye": {
+      "Bullseye": 9
+    },
+    "@patternfly/react-core/dist/dynamic/components/MenuToggle": {
+      "MenuToggle": 7,
+      "MenuToggleElement": 3
+    },
+    "@patternfly/react-core/dist/dynamic/components/Panel": {
+      "Panel": 3,
+      "PanelMain": 3,
+      "PanelMainBody": 1
+    },
+    "@patternfly/react-core/dist/dynamic/helpers/Popper/Popper": {
+      "Popper": 3
+    },
+    "@patternfly/react-core/dist/dynamic/components/Spinner": {
+      "Spinner": 5
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Gallery": {
+      "Gallery": 5,
+      "GalleryItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Split": {
+      "Split": 3,
+      "SplitItem": 3
+    },
+    "@patternfly/react-core/dist/dynamic/components/Label": {
+      "Label": 3
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Flex": {
+      "FlexItem": 6,
+      "Flex": 6
+    },
+    "@patternfly/react-core/dist/dynamic/components/Sidebar": {
+      "Sidebar": 1,
+      "SidebarContent": 1,
+      "SidebarPanel": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Tabs": {
+      "TabContent": 1,
+      "Tab": 1,
+      "TabProps": 1,
+      "TabTitleText": 1,
+      "Tabs": 1,
+      "TabsProps": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Title": {
+      "Title": 9
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/book-open-icon": {
+      "BookOpenIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/times-icon": {
+      "TimesIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Masthead": {
+      "Masthead": 6,
+      "MastheadBrand": 2,
+      "MastheadMain": 2,
+      "MastheadContent": 1,
+      "MastheadToggle": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Page": {
+      "Page": 6,
+      "PageSidebar": 2,
+      "PageSidebarBody": 2,
+      "PageBreadcrumb": 1,
+      "PageSection": 4,
+      "PageToggleButton": 1,
+      "PageContextConsumer": 1,
+      "PageGroup": 1,
+      "PageSectionVariants": 2
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/arrow-right-icon": {
+      "ArrowRightIcon": 2
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/info-circle-icon": {
+      "InfoCircleIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Breadcrumb": {
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Menu": {
+      "Menu": 2,
+      "MenuItem": 2,
+      "MenuList": 2,
+      "MenuGroup": 2,
+      "MenuContent": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/caret-down-icon": {
+      "CaretDownIcon": 1
+    },
+    "@patternfly/react-core/deprecated": {
+      "ContextSelector-deprecated": 1,
+      "ContextSelectorItem-deprecated": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/check-icon": {
+      "CheckIcon": 3
+    },
+    "@patternfly/react-core/dist/dynamic/components/Alert": {
+      "AlertVariant": 4,
+      "Alert": 2,
+      "AlertActionCloseButton": 2,
+      "AlertProps": 1,
+      "AlertActionLink": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/bug-icon": {
+      "BugIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Select": {
+      "Select": 1,
+      "SelectList": 1,
+      "SelectOption": 1
+    },
+    "@patternfly/react-table": {
+      "Table": 2,
+      "Tbody": 2,
+      "Th": 2,
+      "Thead": 2,
+      "Tr": 2,
+      "TableText": 1,
+      "Td": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/EmptyState": {
+      "EmptyState": 6,
+      "EmptyStateActions": 1,
+      "EmptyStateBody": 5,
+      "EmptyStateIcon": 4
+    },
+    "@patternfly/react-core/dist/dynamic/components/ExpandableSection": {
+      "ExpandableSection": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/exclamation-circle-icon": {
+      "ExclamationCircleIcon": 2
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Stack": {
+      "StackItem": 6,
+      "Stack": 4
+    },
+    "@patternfly/react-core/dist/dynamic/components/Pagination": {
+      "Pagination": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Checkbox": {
+      "Checkbox": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Form": {
+      "Form": 1,
+      "FormGroup": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/TextArea": {
+      "TextArea": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Grid": {
+      "Grid": 1,
+      "GridItem": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/outlined-comments-icon": {
+      "OutlinedCommentsIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/redhat-icon": {
+      "RedHatIcon": 1,
+      "RedhatIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Chip": {
+      "Chip": 1,
+      "ChipGroup": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Divider": {
+      "Divider": 5
+    },
+    "@patternfly/react-core/dist/dynamic/components/Skeleton": {
+      "Skeleton": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Tooltip": {
+      "Tooltip": 4
+    },
+    "@patternfly/react-core/dist/dynamic/components/Toolbar": {
+      "Toolbar": 1,
+      "ToolbarContent": 1,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Brand": {
+      "Brand": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/bars-icon": {
+      "BarsIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Dropdown": {
+      "Dropdown": 4,
+      "DropdownItem": 5,
+      "DropdownList": 4,
+      "DropdownGroup": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Popover": {
+      "PopoverPosition": 3
+    },
+    "@patternfly/react-core/dist/dynamic/components/NotificationBadge": {
+      "NotificationBadge": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Switch": {
+      "Switch": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/question-circle-icon": {
+      "QuestionCircleIcon": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Avatar": {
+      "Avatar": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/ellipsis-v-icon": {
+      "EllipsisVIcon": 3
+    },
+    "@patternfly/react-core/dist/dynamic/components/Nav": {
+      "NavExpandable": 1,
+      "NavGroup": 1,
+      "NavItem": 3,
+      "Nav": 2,
+      "NavList": 2
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/flask-icon": {
+      "FlaskIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/wrench-icon": {
+      "WrenchIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/security-icon": {
+      "SecurityIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/trend-up-icon": {
+      "TrendUpIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/code-icon": {
+      "CodeIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Badge": {
+      "Badge": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/NotificationDrawer": {
+      "NotificationDrawer": 1,
+      "NotificationDrawerBody": 1,
+      "NotificationDrawerHeader": 1,
+      "NotificationDrawerList": 2,
+      "NotificationDrawerListItem": 1,
+      "NotificationDrawerListItemBody": 1,
+      "NotificationDrawerListItemHeader": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/filter-icon": {
+      "FilterIcon": 2
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/bell-slash-icon": {
+      "BellSlashIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/external-link-square-alt-icon": {
+      "ExternalLinkSquareAltIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/search-icon": {
+      "SearchIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/SearchInput": {
+      "SearchInput": 2,
+      "SearchInputProps": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Level": {
+      "Level": 1,
+      "LevelItem": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/check-circle-icon": {
+      "CheckCircleIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/ClipboardCopy": {
+      "ClipboardCopy": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/List": {
+      "List": 1,
+      "ListComponent": 1,
+      "ListItem": 1,
+      "OrderType": 1
+    },
+    "@patternfly/react-charts": {
+      "getTheme": 1
+    }
+  },
+  "classes": {
+    "pf-m-column": 3,
+    "pf-m-plain": 2,
+    "pf-c-alert": 1,
+    "pf-u-align-items-center": 1,
+    "pf-u-mb-md": 1,
+    "pf-u-display-block": 1,
+    "pf-u-flex-grow-1": 1,
+    "pf-u-pt-lg": 1,
+    "pf-u-pb-lg": 1,
+    "pf-c-page": 1,
+    "pf-m-expanded": 2,
+    "pf-m-current": 1,
+    "pf-m-unread": 1,
+    "pf-c-page__main-section": 2,
+    "pf-m-light": 1,
+    "pf-m-grid-md": 1,
+    "pf-m-grid-lg": 1
+  },
+  "cssVars": {
+    "--pf-v5-global--BorderWidth--lg": 3,
+    "--pf-v5-global--info-color--100": 3,
+    "--pf-v5-global--BackgroundColor--200": 3,
+    "--pf-v5-global--BorderWidth--sm": 12,
+    "--pf-v5-global--BorderColor--dark-100": 3,
+    "--pf-v5-global--spacer--sm": 13,
+    "--pf-v5-l-flex--RowGap": 1,
+    "--pf-v5-c-sidebar__panel--md--FlexBasis": 1,
+    "--pf-v5-c-sidebar__panel--BackgroundColor": 1,
+    "--pf-v5-global--spacer--2xl": 1,
+    "--pf-v5-c-tabs__item--m-current__link--after--BorderColor": 1,
+    "--pf-v5-c-tabs--m-vertical__link--PaddingTop": 1,
+    "--pf-v5-c-tabs--m-vertical__link--PaddingBottom": 1,
+    "--pf-v5-c-tabs__link--PaddingRight": 1,
+    "--pf-v5-global--spacer--md": 19,
+    "--pf-v5-c-tabs__link--PaddingLeft": 1,
+    "--pf-v5-c-tabs__item--m-current__link--Color": 1,
+    "--pf-v5-global--link--Color": 2,
+    "--pf-v5-c-tabs--m-vertical--MaxWidth": 1,
+    "--pf-v5-c-tabs--m-vertical__list--before--BorderColor": 1,
+    "--pf-v5-global--primary-color--200": 1,
+    "--pf-v5-c-tabs__link--BackgroundColor": 1,
+    "--pf-v5-global--BackgroundColor--100": 5,
+    "--pf-v5-c-card--first-child--PaddingTop": 1,
+    "--pf-v5-global--FontSize--lg": 1,
+    "--pf-v5-global--BackgroundColor--dark-300": 1,
+    "--pf-v5-global--link--Color--light": 1,
+    "--pf-v5-global--palette--black-600": 1,
+    "--pf-v5-global--palette--gold-400": 3,
+    "--pf-v5-c-masthead--c-context-selector--Width": 1,
+    "--pf-v5-global--ZIndex--xs": 1,
+    "--pf-v5-global--BorderWidth--xl": 1,
+    "--pf-v5-global--height-breakpoint--sm": 1,
+    "--pf-v5-global--danger-color--100": 1,
+    "--pf-v5-global--palette--red-200": 2,
+    "--pf-v5-v5-c-content--MarginBottom": 2,
+    "--pf-v5-global--spacer--lg": 25,
+    "--pf-v5-global--Color--dark-100": 1,
+    "--pf-v5-global--palette--purple-100": 1,
+    "--pf-v5-global--palette--purple-200": 1,
+    "--pf-v5-global--palette--black-150": 1,
+    "--pf-v5-global--palette--black-500": 6,
+    "--pf-v5-c-icon__content--Color": 15,
+    "--pf-v5-c-icon__content--FontSize": 1,
+    "--pf-v5-global--palette--black-400": 2,
+    "--pf-v5-c-content--a--Color": 1,
+    "--pf-v5-global--Color--light-100": 6,
+    "--pf-v5-c-content--a--hover--Color": 1,
+    "--pf-v5-global--spacer--xs": 4,
+    "--pf-v5-global--palette--blue-50": 1,
+    "--pf-v5-c-masthead__content--MinHeight": 1,
+    "--pf-v5-c-masthead__main--before--Right": 1,
+    "--pf-v5-global--Color--300": 2,
+    "--pf-v5-c-switch--FontSize": 1,
+    "--pf-v5-global--FontSize--sm": 1,
+    "--pf-v5-c-menu__list-item--m-disabled__item--Color": 1,
+    "--pf-v5-global--FontSize--xs": 2,
+    "--pf-v5-c-dropdown__menu--Top": 1,
+    "--pf-v5-c-dropdown__toggle--before--BorderLeftColor": 1,
+    "--pf-v5-c-notification-badge--after--BackgroundColor": 2,
+    "--pf-v5-global--palette--red-100": 1,
+    "--pf-v5-global--Color--dark-200": 1,
+    "--pf-v5-global--FontWeight--semi-bold": 1,
+    "--pf-v5-global--BackgroundColor--dark-200": 2,
+    "--pf-v5-global--FontWeight--medium": 1,
+    "--pf-v5-c-nav__item--MarginTop": 1,
+    "--pf-v5-c-nav__item--before--BorderWidth": 1,
+    "--pf-v5-global--palette--green-300": 1,
+    "--pf-v5-global--active-color--100": 4,
+    "--pf-v5-global--FontWeight--bold": 1,
+    "--pf-v5-c-text-input-group--BackgroundColor": 1,
+    "--pf-v5-global--palette--black-700": 1,
+    "--pf-v5-c-text-input-group__icon--Color": 1,
+    "--pf-v5-global--primary-color--light-100": 2,
+    "--pf-v5-c-text-input-group__text--after--BorderBottomColor": 2,
+    "--pf-v5-c-text-input-group__text--before--BorderColor": 1,
+    "--pf-v5-global--palette--black-800": 2,
+    "--pf-v5-c-text-input-group__text--hover__icon--Color": 1,
+    "--pf-v5-global--Color--light-300": 1,
+    "--pf-v5-global--active-color--300": 1,
+    "--pf-v5-global--BackgroundColor--dark-100": 2,
+    "--pf-v5-global--spacer--xl": 1,
+    "--pf-v5-global--FontSize--4xl": 1,
+    "--pf-v5-v5-c-content--small--Color": 1,
+    "--pf-v5-global--Color--200": 1,
+    "--pf-v5-global--BorderColor--100": 6,
+    "--pf-v5-global--palette--blue-200": 1,
+    "--pf-v5-global--Color--100": 1,
+    "--pf-m-emphasis--FontSize": 1,
+    "--pf-v5-global--FontSize--xl": 1,
+    "--pf-v5-v5-c-page__main-section--BackgroundColor": 1,
+    "--pf-c-page__main-section--PaddingTop": 1,
+    "--pf-c-page__main-section--PaddingRight": 1,
+    "--pf-c-page__main-section--PaddingBottom": 1,
+    "--pf-c-page__main-section--PaddingLeft": 1,
+    "--pf-c-page__main-section--BackgroundColor": 2,
+    "--pf-c-page__main-section--m-light--BackgroundColor": 1,
+    "--pf-v5-v5-c-page__header--MinHeight": 1,
+    "--pf-v5-v5-c-page__header-tools--MarginRight": 1,
+    "--pf-v5-c-table--cell--hidden-visible--Display": 1,
+    "--pf-global--spacer--xl": 2,
+    "--pf-v5-c-backdrop--Position": 1,
+    "--pf-v5-global--icon--Color--light": 1,
+    "--pf-v5-global--icon--Color--dark": 1,
+    "--pf-v5-global--palette--gold-500": 2
+  },
+  "repo": "https://github.com/RedHatInsights/insights-chrome",
+  "name": "RedHatInsights-insights-chrome",
+  "date": "2023-10-11T21:08:41.359Z",
+  "dependencies": {
+    "@data-driven-forms/pf4-component-mapper": 1,
+    "@data-driven-forms/react-form-renderer": 1,
+    "@formatjs/cli": 1,
+    "@openshift/dynamic-plugin-sdk": 1,
+    "@openshift/dynamic-plugin-sdk-webpack": 1,
+    "@patternfly/patternfly": 1,
+    "@patternfly/quickstarts": 1,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-tokens": 1,
+    "@pmmmwh/react-refresh-webpack-plugin": 1,
+    "@redhat-cloud-services/chrome": 1,
+    "@redhat-cloud-services/entitlements-client": 1,
+    "@redhat-cloud-services/eslint-config-redhat-cloud-services": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config-utilities": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-pdf-generator": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@redhat-cloud-services/host-inventory-client": 1,
+    "@redhat-cloud-services/rbac-client": 1,
+    "@redhat-cloud-services/types": 1,
+    "@scalprum/core": 1,
+    "@scalprum/react-core": 1,
+    "@segment/analytics-next": 1,
+    "@sentry/react": 1,
+    "@sentry/tracing": 1,
+    "@simonsmith/cypress-image-snapshot": 1,
+    "@swc/core": 1,
+    "@swc/jest": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@types/intercom-web": 1,
+    "@types/jest": 1,
+    "@types/js-cookie": 1,
+    "@types/lodash": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "@types/redux-logger": 1,
+    "@types/redux-mock-store": 1,
+    "@types/sanitize-html": 1,
+    "@types/urijs": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "@unleash/proxy-client-react": 1,
+    "abortcontroller-polyfill": 1,
+    "amazon-cognito-identity-js": 1,
+    "assert": 1,
+    "axios": 1,
+    "axios-cache-interceptor": 1,
+    "axios-mock-adapter": 1,
+    "broadcast-channel": 1,
+    "browserify-zlib": 1,
+    "buffer": 1,
+    "classnames": 1,
+    "clean-webpack-plugin": 1,
+    "commander": 1,
+    "css-loader": 1,
+    "cypress": 1,
+    "cypress-localstorage-commands": 1,
+    "eslint": 1,
+    "fork-ts-checker-webpack-plugin": 1,
+    "git-revision-webpack-plugin": 1,
+    "glob": 1,
+    "history": 1,
+    "html-webpack-plugin": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "jest-mock-axios": 1,
+    "jest_workaround": 1,
+    "js-cookie": 1,
+    "js-yaml": 1,
+    "jsdom": 1,
+    "jws": 1,
+    "keycloak-js": 1,
+    "localforage": 1,
+    "lodash": 1,
+    "madge": 1,
+    "mini-css-extract-plugin": 1,
+    "mkdir": 1,
+    "ncp": 1,
+    "node-sass-package-importer": 1,
+    "node-vault": 1,
+    "npm-run-all": 1,
+    "path-browserify": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "^5.0.4"
+      ],
+      "@patternfly/quickstarts": [
+        "^5.0.0"
+      ],
+      "@patternfly/react-charts": [
+        "^7.0.0"
+      ],
+      "@patternfly/react-core": [
+        "^5.0.1"
+      ],
+      "@patternfly/react-icons": [
+        "^5.0.1"
+      ],
+      "@patternfly/react-tokens": [
+        "^5.0.1"
+      ]
+    },
+    "pf-4-styles": 1,
+    "process": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-intl": 1,
+    "react-redux": 1,
+    "react-refresh": 1,
+    "react-router-dom": 1,
+    "redux": 1,
+    "redux-logger": 1,
+    "redux-mock-store": 1,
+    "redux-promise-middleware": 1,
+    "resolve-url-loader": 1,
+    "rgb-hex": 1,
+    "rimraf": 1,
+    "sanitize-html": 1,
+    "sass": 1,
+    "sass-loader": 1,
+    "source-map-loader": 1,
+    "stream-browserify": 1,
+    "style-loader": 1,
+    "swc-loader": 1,
+    "terser-webpack-plugin": 1,
+    "title-case": 1,
+    "typescript": 1,
+    "urijs": 1,
+    "url": 1,
+    "utility-types": 1,
+    "wait-on": 1,
+    "webpack": 1,
+    "webpack-bundle-analyzer": 1,
+    "webpack-cli": 1,
+    "webpack-dev-server": 1,
+    "yargs": 1
+  }
+}

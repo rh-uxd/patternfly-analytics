@@ -36,7 +36,9 @@ function getPackageStats(repoPath, repoName) {
     pfVersions[repoName] = pfVersions[repoName] || {};
     pfVersions[repoName][dep] = pfVersions[repoName][dep] || [];
     // add dependency version
-    pfVersions[repoName][dep].push(pfVersion);
+    if (!pfVersions[repoName][dep].includes(pfVersion)) {
+      pfVersions[repoName][dep].push(pfVersion);
+    }
 }
 
   function outputDeps(dependencies, file) {
