@@ -362,7 +362,7 @@
   },
   "repo": "https://github.com/debezium/debezium-ui",
   "name": "Debezium",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@debezium/ui-models": 2,
     "@debezium/ui-services": 1,

@@ -1086,7 +1086,7 @@
   },
   "repo": "https://github.com/keycloak/keycloak",
   "name": "Keycloak",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@4tw/cypress-drag-drop": 1,
     "@babel/cli": 1,

@@ -9,6 +9,9 @@
   "@ably-labs/react-hooks": [
     "Vercel"
   ],
+  "@actions/core": [
+    "Vercel"
+  ],
   "@adobe/css-tools": [
     "Foreman-Console"
   ],
@@ -10796,6 +10799,9 @@
     "Aerogear-Uniforms-Patternfly",
     "Foreman-Katello"
   ],
+  "eslint-plugin-comment-length": [
+    "Insights-Curiosity"
+  ],
   "eslint-plugin-cypress": [
     "App-services-ui",
     "Automation-Analytics",
@@ -11353,8 +11359,10 @@
   "fastify-plugin": [
     "Opendatahub"
   ],
+  "fauna": [
+    "Vercel"
+  ],
   "faunadb": [
-    "Vercel",
     "Vercel",
     "Vercel"
   ],
@@ -11740,7 +11748,6 @@
     "Vercel",
     "Vercel",
     "Vercel",
-    "Vercel",
     "Vercel"
   ],
   "graphql-cli": [
@@ -11760,7 +11767,6 @@
     "Vercel"
   ],
   "graphql-request": [
-    "Vercel",
     "Vercel"
   ],
   "graphql-tag": [
@@ -18304,6 +18310,7 @@
     "Vercel",
     "Vercel",
     "Vercel",
+    "Vercel",
     "Vercel"
   ],
   "set-tz": [
@@ -18858,7 +18865,6 @@
     "ACM-console",
     "Ansible-ui",
     "Openshift-assisted-ui",
-    "Vercel",
     "Vercel",
     "Vercel",
     "Vercel",

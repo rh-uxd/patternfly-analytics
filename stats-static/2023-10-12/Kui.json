@@ -908,7 +908,7 @@
   },
   "repo": "https://github.com/kubernetes-sigs/kui",
   "name": "Kui",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@IBM/kui": 1,
     "@babel/cli": 1,

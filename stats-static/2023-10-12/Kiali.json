@@ -786,7 +786,7 @@
   },
   "repo": "https://github.com/kiali/kiali",
   "name": "Kiali",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": 1,
     "@cypress/browserify-preprocessor": 1,

@@ -332,7 +332,7 @@
   },
   "repo": "https://github.com/RedHatInsights/compliance-frontend",
   "name": "Insights-Compliance",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@apollo/client": 1,
     "@babel/core": 1,

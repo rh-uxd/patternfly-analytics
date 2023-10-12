@@ -36,7 +36,7 @@
   "cssVars": {},
   "repo": "https://github.com/RedHatInsights/settings-frontend",
   "name": "Settings-Frontend",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@babel/compat-data": 1,
     "@babel/core": 1,

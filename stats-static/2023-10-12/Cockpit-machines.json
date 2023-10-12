@@ -150,6 +150,7 @@
       "PendingIcon": 2,
       "ErrorCircleOIcon": 1,
       "ExternalLinkAltIcon": 1,
+      "TrashIcon": 1,
       "ExclamationTriangleIcon": 2,
       "InfoIcon": 1,
       "InfoAltIcon": 2,
@@ -222,6 +223,10 @@
       "FormSelectOption": 11,
       "FormSelectOptionGroup": 2
     },
+    "@patternfly/react-core/dist/esm/layouts/Grid": {
+      "Grid": 6,
+      "GridItem": 2
+    },
     "@patternfly/react-core/dist/esm/components/InputGroup": {
       "InputGroup": 3
     },
@@ -246,10 +251,6 @@
     },
     "@patternfly/react-core/dist/esm/components/Checkbox": {
       "Checkbox": 8
-    },
-    "@patternfly/react-core/dist/esm/layouts/Grid": {
-      "Grid": 5,
-      "GridItem": 1
     },
     "@patternfly/react-core/dist/esm/components/Breadcrumb": {
       "Breadcrumb": 3,
@@ -318,6 +319,7 @@
   },
   "classes": {
     "pf-m-danger": 11,
+    "pf-m-1-col-on-md": 1,
     "pf-m-8-col": 1,
     "pf-m-4-col": 1,
     "pf-m-sm": 2,
@@ -363,7 +365,7 @@
   },
   "repo": "https://github.com/cockpit-project/cockpit-machines",
   "name": "Cockpit-machines",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@patternfly/patternfly": 1,
     "@patternfly/react-console": 1,

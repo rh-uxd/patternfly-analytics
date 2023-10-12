@@ -26,7 +26,7 @@
   },
   "repo": "https://github.com/change-metrics/monocle",
   "name": "Change-Metrics-Monocle",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@dusty-phillips/rescript-dexie": 1,
     "@patternfly/react-core": 1,

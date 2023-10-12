@@ -419,7 +419,7 @@
   },
   "repo": "https://github.com/migtools/mig-ui",
   "name": "Migration-Toolkit-for-Containers",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@hot-loader/react-dom": 1,
     "@konveyor/lib-ui": 1,

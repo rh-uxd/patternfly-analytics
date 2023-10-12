@@ -1,6 +1,6 @@
 {
   "Dropdown": {
-    "product_count": 51,
+    "product_count": 63,
     "products": [
       "Migration-Toolkit-for-Containers",
       "Migration-Toolkit-for-Virtualization",
@@ -52,10 +52,22 @@
       "srs-ui",
       "rhosak-ui",
       "RHOSE-POC",
-      "RHOSE-production"
+      "RHOSE-production",
+      "Settings-Sources",
+      "Cost-Management",
+      "Insights-Curiosity",
+      "Cockpit",
+      "Quay",
+      "Infinispan",
+      "HAC-Dev",
+      "Cockpit-certificates",
+      "Cockpit-machines",
+      "Cockpit-podman",
+      "Kiali",
+      "Product-Shared-Library"
     ],
     "Dropdown": {
-      "product_count": 51,
+      "product_count": 62,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -472,6 +484,94 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-certificates": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Cockpit-machines": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
@@ -489,7 +589,7 @@
       }
     },
     "DropdownGroup": {
-      "product_count": 12,
+      "product_count": 17,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -588,11 +688,51 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "DropdownItem": {
-      "product_count": 51,
+      "product_count": 63,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -1006,11 +1146,107 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Product-Shared-Library": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-certificates": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Cockpit-machines": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "DropdownSeparator": {
-      "product_count": 22,
+      "product_count": 27,
       "products": {
         "Automation-Hub": {
           "versions": [
@@ -1191,24 +1427,66 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-machines": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "BadgeToggle": {
-      "product_count": 1,
+      "product_count": 2,
       "products": {
         "Pbench": {
           "versions": [
+            "^4.198.19",
             "^4.198.19"
           ],
           "importPaths": [
+            "@patternfly/react-core",
             "@patternfly/react-core"
           ]
         }
       }
     },
     "KebabToggle": {
-      "product_count": 37,
+      "product_count": 46,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -1509,11 +1787,83 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-certificates": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Cockpit-machines": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "DropdownToggle": {
-      "product_count": 48,
+      "product_count": 57,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -1905,11 +2255,83 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-machines": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "DropdownToggleCheckbox": {
-      "product_count": 12,
+      "product_count": 16,
       "products": {
         "Migration-Toolkit-for-Virtualization": {
           "versions": [
@@ -2008,11 +2430,43 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "DropdownToggleAction": {
-      "product_count": 7,
+      "product_count": 10,
       "products": {
         "Foreman-Katello": {
           "versions": [
@@ -2070,6 +2524,30 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
         }
       }
     },
@@ -2120,7 +2598,7 @@
       }
     },
     "DropdownItemProps": {
-      "product_count": 2,
+      "product_count": 3,
       "products": {
         "OpenShift-Admin-Console": {
           "versions": [
@@ -2136,6 +2614,14 @@
           ],
           "importPaths": [
             "@patternfly/react-core"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
           ]
         }
       }
@@ -2154,7 +2640,7 @@
       }
     },
     "KebabToggleProps": {
-      "product_count": 1,
+      "product_count": 2,
       "products": {
         "kafka-ui": {
           "versions": [
@@ -2163,11 +2649,19 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "DropdownPosition": {
-      "product_count": 33,
+      "product_count": 41,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -2437,11 +2931,75 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Dropdown/index.js"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "DropdownDirection": {
-      "product_count": 10,
+      "product_count": 11,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -2523,12 +3081,20 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     }
   },
   "Select": {
-    "product_count": 43,
+    "product_count": 56,
     "products": [
       "Migration-Toolkit-for-Containers",
       "Migration-Toolkit-for-Virtualization",
@@ -2572,10 +3138,23 @@
       "srs-ui",
       "rhosak-ui",
       "RHOSE-POC",
-      "RHOSE-production"
+      "RHOSE-production",
+      "Migration-Toolkit-For-Applications",
+      "Settings-Sources",
+      "Cost-Management",
+      "Insights-Curiosity",
+      "Cockpit",
+      "Quay",
+      "Infinispan",
+      "HAC-Dev",
+      "Camel-Karavan",
+      "Cockpit-machines",
+      "Cockpit-podman",
+      "Hybrid-Commited-Spend",
+      "Backstage"
     ],
     "Select": {
-      "product_count": 43,
+      "product_count": 56,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -2930,11 +3509,115 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Select/index.js"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Camel-Karavan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-machines": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Select"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Select"
+          ]
+        },
+        "Hybrid-Commited-Spend": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Backstage": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "SelectGroup": {
-      "product_count": 19,
+      "product_count": 23,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -3091,11 +3774,43 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-machines": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Select"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Select"
+          ]
         }
       }
     },
     "SelectOption": {
-      "product_count": 43,
+      "product_count": 56,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -3448,11 +4163,115 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Select/index.js"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Camel-Karavan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-machines": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Select"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Select"
+          ]
+        },
+        "Hybrid-Commited-Spend": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Backstage": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "SelectProps": {
-      "product_count": 15,
+      "product_count": 16,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -3576,11 +4395,19 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "SelectOptionObject": {
-      "product_count": 20,
+      "product_count": 23,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -3745,11 +4572,35 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Backstage": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "SelectOptionProps": {
-      "product_count": 7,
+      "product_count": 8,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -3807,11 +4658,19 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
     "SelectVariant": {
-      "product_count": 36,
+      "product_count": 47,
       "products": {
         "Migration-Toolkit-for-Virtualization": {
           "versions": [
@@ -4106,6 +4965,94 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Insights-Curiosity": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Camel-Karavan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cockpit-podman": {
+          "versions": [
+            "5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/dist/esm/deprecated/components/Select"
+          ]
+        },
+        "Hybrid-Commited-Spend": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Backstage": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
@@ -4131,7 +5078,7 @@
       }
     },
     "SelectDirection": {
-      "product_count": 3,
+      "product_count": 5,
       "products": {
         "Foreman-Katello": {
           "versions": [
@@ -4157,12 +5104,28 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Camel-Karavan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     }
   },
   "Table": {
-    "product_count": 33,
+    "product_count": 42,
     "products": [
       "Migration-Toolkit-for-Containers",
       "Migration-Toolkit-for-Virtualization",
@@ -4196,10 +5159,19 @@
       "ACM-console",
       "kas-ui",
       "kafka-ui",
-      "srs-ui"
+      "srs-ui",
+      "Migration-Toolkit-For-Applications",
+      "Migration-Tools-Shared-Library",
+      "Product-Shared-Library",
+      "Settings-Sources",
+      "Cost-Management",
+      "Infinispan",
+      "HAC-Dev",
+      "Camel-Karavan",
+      "Kiali"
     ],
     "Table": {
-      "product_count": 33,
+      "product_count": 42,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -4470,11 +5442,83 @@
           "importPaths": [
             "@patternfly/react-table"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Migration-Tools-Shared-Library": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Product-Shared-Library": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Camel-Karavan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
         }
       }
     },
     "TableProps": {
-      "product_count": 7,
+      "product_count": 9,
       "products": {
         "OpenShift-Admin-Console": {
           "versions": [
@@ -4532,6 +5576,22 @@
           "importPaths": [
             "@patternfly/react-table"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Product-Shared-Library": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
         }
       }
     },
@@ -4565,7 +5625,7 @@
       }
     },
     "TableBody": {
-      "product_count": 30,
+      "product_count": 37,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -4810,11 +5870,67 @@
           "importPaths": [
             "@patternfly/react-table"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Migration-Tools-Shared-Library": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Product-Shared-Library": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
         }
       }
     },
     "TableHeader": {
-      "product_count": 30,
+      "product_count": 38,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -5059,6 +6175,70 @@
           "importPaths": [
             "@patternfly/react-table"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Migration-Tools-Shared-Library": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Product-Shared-Library": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "HAC-Dev": {
+          "versions": [
+            "5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
+        },
+        "Kiali": {
+          "versions": [
+            "5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-table/deprecated"
+          ]
         }
       }
     },
@@ -5093,7 +6273,7 @@
     }
   },
   "Wizard": {
-    "product_count": 28,
+    "product_count": 33,
     "products": [
       "Migration-Toolkit-for-Containers",
       "Migration-Toolkit-for-Virtualization",
@@ -5120,12 +6300,17 @@
       "App-services-ui-components",
       "kafka-ui",
       "rhosak-ui",
+      "Migration-Toolkit-For-Applications",
+      "Settings-Sources",
+      "Cost-Management",
+      "Quay",
+      "Infinispan",
       "Fuse-Online-Syndesis",
       "Openshift-assisted-ui",
       "RHOSE-production"
     ],
     "Wizard": {
-      "product_count": 25,
+      "product_count": 30,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -5331,6 +6516,46 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Settings-Sources": {
+          "versions": [
+            "^5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Cost-Management": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
@@ -5467,7 +6692,7 @@
       }
     },
     "WizardFooter": {
-      "product_count": 15,
+      "product_count": 18,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -5591,6 +6816,30 @@
           "importPaths": [
             "@patternfly/react-core"
           ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
         }
       }
     },
@@ -5609,7 +6858,7 @@
       }
     },
     "WizardStep": {
-      "product_count": 8,
+      "product_count": 9,
       "products": {
         "Migration-Toolkit-for-Virtualization": {
           "versions": [
@@ -5674,6 +6923,14 @@
           ],
           "importPaths": [
             "@patternfly/react-core"
+          ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
           ]
         }
       }
@@ -5762,7 +7019,7 @@
       }
     },
     "WizardContextConsumer": {
-      "product_count": 16,
+      "product_count": 19,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -5893,6 +7150,30 @@
           ],
           "importPaths": [
             "@patternfly/react-core"
+          ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Quay": {
+          "versions": [
+            "^5.1.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Infinispan": {
+          "versions": [
+            "^5.0.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
           ]
         }
       }
@@ -6787,6 +8068,149 @@
       }
     }
   },
+  "ContextSelector": {
+    "product_count": 6,
+    "products": [
+      "Foreman-Katello",
+      "Foreman-Console",
+      "Keycloak",
+      "Application-Migration-Toolkit",
+      "RedHatInsights-insights-chrome",
+      "ACM-console"
+    ],
+    "ContextSelector": {
+      "product_count": 5,
+      "products": {
+        "Foreman-Katello": {
+          "versions": [
+            "unknown"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Foreman-Console": {
+          "versions": [
+            "unknown"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Keycloak": {
+          "versions": [
+            "^4.276.8",
+            "^4.147.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Application-Migration-Toolkit": {
+          "versions": [
+            "4.267.6"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "RedHatInsights-insights-chrome": {
+          "versions": [
+            "^5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        }
+      }
+    },
+    "ContextSelectorItem": {
+      "product_count": 4,
+      "products": {
+        "Foreman-Console": {
+          "versions": [
+            "unknown"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Keycloak": {
+          "versions": [
+            "^4.276.8",
+            "^4.147.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Application-Migration-Toolkit": {
+          "versions": [
+            "4.267.6"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "RedHatInsights-insights-chrome": {
+          "versions": [
+            "^5.0.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        }
+      }
+    },
+    "ContextSelectorFooter": {
+      "product_count": 2,
+      "products": {
+        "Foreman-Console": {
+          "versions": [
+            "unknown"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "ACM-console": {
+          "versions": [
+            "4.221.11"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        }
+      }
+    },
+    "ContextSelectorProps": {
+      "product_count": 1,
+      "products": {
+        "Application-Migration-Toolkit": {
+          "versions": [
+            "4.267.6"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        }
+      }
+    },
+    "ContextSelectorItemProps": {
+      "product_count": 1,
+      "products": {
+        "Keycloak": {
+          "versions": [
+            "^4.276.8",
+            "^4.147.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        }
+      }
+    }
+  },
   "ApplicationLauncher": {
     "product_count": 5,
     "products": [
@@ -6937,132 +8361,6 @@
         "Stackrox": {
           "versions": [
             "4.276.6"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        }
-      }
-    }
-  },
-  "ContextSelector": {
-    "product_count": 5,
-    "products": [
-      "Foreman-Katello",
-      "Foreman-Console",
-      "Keycloak",
-      "Application-Migration-Toolkit",
-      "ACM-console"
-    ],
-    "ContextSelector": {
-      "product_count": 4,
-      "products": {
-        "Foreman-Katello": {
-          "versions": [
-            "unknown"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Foreman-Console": {
-          "versions": [
-            "unknown"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Keycloak": {
-          "versions": [
-            "^4.276.8",
-            "^4.147.0"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Application-Migration-Toolkit": {
-          "versions": [
-            "4.267.6"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        }
-      }
-    },
-    "ContextSelectorItem": {
-      "product_count": 3,
-      "products": {
-        "Foreman-Console": {
-          "versions": [
-            "unknown"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Keycloak": {
-          "versions": [
-            "^4.276.8",
-            "^4.147.0"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Application-Migration-Toolkit": {
-          "versions": [
-            "4.267.6"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        }
-      }
-    },
-    "ContextSelectorFooter": {
-      "product_count": 2,
-      "products": {
-        "Foreman-Console": {
-          "versions": [
-            "unknown"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "ACM-console": {
-          "versions": [
-            "4.221.11"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        }
-      }
-    },
-    "ContextSelectorProps": {
-      "product_count": 1,
-      "products": {
-        "Application-Migration-Toolkit": {
-          "versions": [
-            "4.267.6"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        }
-      }
-    },
-    "ContextSelectorItemProps": {
-      "product_count": 1,
-      "products": {
-        "Keycloak": {
-          "versions": [
-            "^4.276.8",
-            "^4.147.0"
           ],
           "importPaths": [
             "@patternfly/react-core"

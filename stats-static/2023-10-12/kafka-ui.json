@@ -371,7 +371,7 @@
   },
   "repo": "https://github.com/bf2fc6cc711aee1a0c2a/kafka-ui",
   "name": "kafka-ui",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@patternfly/patternfly": 2,
     "@patternfly/react-charts": 1,

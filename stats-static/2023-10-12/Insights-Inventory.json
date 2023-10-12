@@ -2,10 +2,10 @@
   "files": {
     "total": {
       "withPatternfly": {
-        "js": 101,
+        "js": 102,
         "scss": 9
       },
-      "js": 290,
+      "js": 294,
       "scss": 15
     },
     "withPatternfly": {
@@ -91,6 +91,7 @@
           "/src/components/InventoryTable/Pagination.js",
           "/src/components/InventoryTable/Pagination.test.js",
           "/src/components/InventoryTabs/ConventionalSystems/ConventionalSystemsTab.test.js",
+          "/src/components/InventoryTabs/HybridInventoryTabs.cy.js",
           "/src/components/InventoryTabs/HybridInventoryTabs.js",
           "/src/components/LostPage.js",
           "/src/components/SpinnerFallback.cy.js",
@@ -356,6 +357,7 @@
     "pf-c-pagination__nav-control": 1,
     "pf-c-dropdown": 3,
     "pf-c-modal-box__body": 5,
+    "pf-c-tabs": 1,
     "pf-l-bullseye": 1,
     "pf-u-mb-md": 4,
     "pf-u-mt-sm": 2,
@@ -415,7 +417,7 @@
   },
   "repo": "https://github.com/RedHatInsights/insights-inventory-frontend",
   "name": "Insights-Inventory",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@babel/core": 1,
     "@babel/plugin-proposal-class-properties": 1,

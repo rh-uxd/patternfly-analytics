@@ -1851,7 +1851,7 @@
   },
   "repo": "https://github.com/kiegroup/kogito-tooling",
   "name": "Kogito",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@angular-devkit/build-angular": 1,
     "@angular/animations": 1,

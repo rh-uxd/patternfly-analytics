@@ -190,75 +190,82 @@ const getDeprecatedComponents = (sortedUsage, pfVersions) => {
 
     // loop through each deprecated export (aka subcomponent)
     exports.map(subcomponent => {
-      // get product usage data for current subcomponent
-      const productUses = sortedUsage.imports[subcomponent];
-      // exit if no products use current component
-      if (!productUses) return;
+      // Make sure to track components with "-deprecated" appended to name
+      const deprecatedSubcomponents = [subcomponent, `${subcomponent}-deprecated`];
+      deprecatedSubcomponents.map(subcompName => {
+        // get product usage data for current subcomponent
+        const productUses = sortedUsage.imports[subcompName];
+        // exit if no products use current component
+        if (!productUses) return;
 
-      // add new entry for each deprecated subcomponent
-      deprecatedUsage[component][subcomponent] = { 
-        product_count: 0,
-        products: {}
-      };
+        // add new entry for each deprecated subcomponent
+        deprecatedUsage[component][subcomponent] = deprecatedUsage[component][subcomponent] || { 
+          product_count: 0,
+          products: {}
+        };
 
-      console.log(subcomponent);
-      Object.keys(productUses).map(productName => {
-        // skip over non-product keys present on every object
-        if (['product_count', 'total_usage'].includes(productName)) {
-          return;
-        }
-
-        // check if product is using PF4, PF5, or both versions
-        const versions = pfVersions?.[productName]?.[path];
-        let isPF4 = false;
-        let isPF5 = false;
-        // Handle if no version found - plugin?
-        if (versions) {
-          versions.map(version => {
-            // exit if both major versions already found
-            if (isPF4 && isPF5) {
-              return;
-            }
-            const majorVersion = version.split('.')[0];
-            if (majorVersion.includes('4')) {
-              isPF4 = true;
-            }
-            if (majorVersion.includes('5')) {
-              isPF5 = true;
-            }
-          });
-        }
-
-        // Combine version number & import paths to confirm if deprecated usage
-        const importPaths = Object.keys(productUses[productName]).filter(key => !['unique_import_paths', 'repo_usage'].includes(key));
-        const isNext = importPaths.every(path => path.includes('next'));
-        // assume deprecated if versions can't be tracked, else:
-        // cannot be next component, must be PF4 OR be PF5 importing from deprecated
-        const isDeprecated = !versions || (
-          !isNext && (
-            isPF4 ||
-            (isPF5 && importPaths.some(path => path.includes('deprecated')))
-          )
-        );
-        // If deprecated, save product name to component
-        if (isDeprecated) {
-          // add product to parent component tracking
-          const parentComponent = deprecatedUsage[component];
-          // avoid duplicates
-          if (!parentComponent.products.includes(productName)) {
-            parentComponent.products.push(productName);
+        Object.keys(productUses).map(productName => {
+          // skip over non-product keys present on every object
+          if (['product_count', 'total_usage'].includes(productName)) {
+            return;
           }
-          parentComponent.product_count = parentComponent.products.length;
 
-          // add product to subcomponent tracking
-          parentComponent[subcomponent].products[productName] = {};
-          // some products (ex: Foreman-Console) declare PF dependency versions in another package
-          parentComponent[subcomponent].products[productName].versions = versions
-            ? versions
-            : ['unknown'];
-          parentComponent[subcomponent].products[productName].importPaths = importPaths;
-          parentComponent[subcomponent].product_count++;
-        }
+          // check if product is using PF4, PF5, or both versions
+          const versions = pfVersions?.[productName]?.[path];
+          let isPF4 = false;
+          let isPF5 = false;
+          // Handle if no version found - plugin?
+          if (versions) {
+            versions.map(version => {
+              // exit if both major versions already found
+              if (isPF4 && isPF5) {
+                return;
+              }
+              const majorVersion = version.split('.')[0];
+              if (majorVersion.includes('4')) {
+                isPF4 = true;
+              }
+              if (majorVersion.includes('5')) {
+                isPF5 = true;
+              }
+            });
+          }
+
+          // Combine version number & import paths to confirm if deprecated usage
+          const importPaths = Object.keys(productUses[productName]).filter(key => !['unique_import_paths', 'repo_usage'].includes(key));
+          const isNext = importPaths.every(path => path.includes('next'));
+          // assume deprecated if versions can't be tracked, else:
+          // cannot be next component, must be PF4 OR be PF5 importing from deprecated
+          const isDeprecated = !versions || (
+            !isNext && (
+              isPF4 ||
+              (isPF5 && importPaths.some(path => path.includes('deprecated')))
+            )
+          );
+          // If deprecated, save product name to component
+          if (isDeprecated) {
+            // add product to parent component tracking
+            const parentComponent = deprecatedUsage[component];
+            // avoid duplicates
+            if (!parentComponent.products.includes(productName)) {
+              parentComponent.products.push(productName);
+            }
+            parentComponent.product_count = parentComponent.products.length;
+
+            // add product to subcomponent tracking
+            const subcomponentProducts = parentComponent[subcomponent].products;
+            subcomponentProducts[productName] = subcomponentProducts[productName] || {};
+            // Track product PF versions
+            subcomponentProducts[productName].versions = subcomponentProducts[productName].versions || [];
+            // some products (ex: Foreman-Console) declare PF dependency versions in another package
+            const productVersions = versions || ['unknown'];
+            subcomponentProducts[productName].versions = [...subcomponentProducts[productName].versions, ...productVersions];
+            // Track product import paths for current subcomponent
+            subcomponentProducts[productName].importPaths = subcomponentProducts[productName].importPaths || [];
+            subcomponentProducts[productName].importPaths = [...subcomponentProducts[productName].importPaths, ...importPaths];
+            parentComponent[subcomponent].product_count++;
+          }
+        });
       });
     });
   });

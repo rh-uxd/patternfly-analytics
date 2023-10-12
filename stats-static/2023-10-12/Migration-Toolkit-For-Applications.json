@@ -256,18 +256,18 @@
       "IRowData": 5,
       "ISeparator": 1,
       "expandable": 3,
-      "IExtraData": 3,
+      "IExtraData": 2,
       "TableVariant": 2,
       "breakWord": 1
     },
     "@patternfly/react-core": {
-      "Label": 15,
+      "Label": 14,
       "Text": 53,
       "List": 6,
       "ListItem": 5,
       "ActionGroup": 20,
-      "Button": 69,
-      "ButtonVariant": 44,
+      "Button": 68,
+      "ButtonVariant": 43,
       "Form": 27,
       "FormGroup": 4,
       "FormHelperText": 4,
@@ -275,7 +275,7 @@
       "HelperTextItem": 4,
       "Spinner": 15,
       "TextContent": 42,
-      "Bullseye": 12,
+      "Bullseye": 11,
       "Skeleton": 5,
       "Flex": 9,
       "FlexItem": 8,
@@ -293,8 +293,8 @@
       "Divider": 2,
       "Breadcrumb": 5,
       "BreadcrumbItem": 5,
-      "Split": 4,
-      "SplitItem": 4,
+      "Split": 3,
+      "SplitItem": 3,
       "Tooltip": 6,
       "TooltipProps": 1,
       "ModalProps": 2,
@@ -311,7 +311,7 @@
       "DropdownItem": 11,
       "DropdownGroup": 2,
       "DropdownList": 5,
-      "MenuToggle": 9,
+      "MenuToggle": 8,
       "SelectOptionProps": 1,
       "ToolbarToggleGroup": 4,
       "ToolbarFilter": 3,
@@ -349,7 +349,7 @@
       "Pagination": 1,
       "PaginationVariant": 1,
       "LabelGroup": 6,
-      "Popover": 7,
+      "Popover": 6,
       "SpinnerProps": 1,
       "Card": 7,
       "CardBody": 7,
@@ -413,10 +413,7 @@
       "NumberInput": 2,
       "ExpandableSectionToggle": 1,
       "DatePicker": 1,
-      "CardExpandableContent": 1,
       "CardTitle": 1,
-      "Select": 1,
-      "SelectOption": 1,
       "ToolbarChip": 2
     },
     "@patternfly/react-styles/css/utilities/Spacing/spacing": {
@@ -547,7 +544,7 @@
       "AngleRightIcon": 1
     },
     "@patternfly/react-icons/dist/esm/icons/help-icon": {
-      "HelpIcon": 5
+      "HelpIcon": 4
     },
     "@patternfly/react-icons/dist/js/icons/bars-icon": {
       "BarsIcon": 1
@@ -638,7 +635,7 @@
   },
   "repo": "https://github.com/konveyor/tackle2-ui",
   "name": "Migration-Toolkit-For-Applications",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@dnd-kit/core": 1,
     "@dnd-kit/sortable": 1,

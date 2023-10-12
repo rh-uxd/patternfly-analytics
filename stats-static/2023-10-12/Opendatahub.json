@@ -798,7 +798,7 @@
   },
   "repo": "https://github.com/opendatahub-io/odh-dashboard",
   "name": "Opendatahub",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@babel/core": 1,
     "@fastify/autoload": 1,

@@ -2,13 +2,13 @@
   "files": {
     "total": {
       "withPatternfly": {
-        "ts": 25,
-        "tsx": 319,
+        "ts": 23,
+        "tsx": 323,
         "jsx": 2,
         "css": 9
       },
       "ts": 401,
-      "tsx": 681,
+      "tsx": 693,
       "js": 1,
       "jsx": 5,
       "css": 12
@@ -16,9 +16,7 @@
     "withPatternfly": {
       "ts": {
         "files": [
-          "/cypress/e2e/awx/dashboard/welcomeModal.cy.ts",
           "/cypress/e2e/awx/general-ui/dashboard-checks.cy.ts",
-          "/cypress/e2e/awx/resources/jobTemplates.cy.ts",
           "/cypress/e2e/awx/views/jobs.cy.ts",
           "/cypress/e2e/awx/views/schedules.cy.ts",
           "/cypress/e2e/eda/General-UI/dashboard.cy.ts",
@@ -149,6 +147,7 @@
           "/framework/PageToolbar/PageToolbarFilters/ToolbarTextFilter.tsx",
           "/framework/PageToolbar/PageToolbarSort.tsx",
           "/framework/PageToolbar/PageToolbarView.tsx",
+          "/framework/PageWizard/PageWizard.cy.tsx",
           "/framework/PageWizard/PageWizard.tsx",
           "/framework/PageWizard/PageWizardBody.tsx",
           "/framework/PageWizard/PageWizardFooter.tsx",
@@ -252,6 +251,7 @@
           "/frontend/awx/resources/templates/components/WebhookSubForm.tsx",
           "/frontend/awx/resources/templates/hooks/useTemplateActions.tsx",
           "/frontend/awx/resources/templates/JobTemplateInputs.tsx",
+          "/frontend/awx/resources/templates/TemplatePage/steps/TemplateLaunchReviewStep.tsx",
           "/frontend/awx/resources/templates/TemplatePage/TemplateDetails.tsx",
           "/frontend/awx/resources/templates/TemplatePage/TemplatePage.cy.tsx",
           "/frontend/awx/resources/templates/TemplatePage/TemplatePage.tsx",
@@ -363,6 +363,8 @@
           "/frontend/hub/remotes/RemoteDetails.tsx",
           "/frontend/hub/repositories/Repositories.tsx",
           "/frontend/hub/signature-keys/SignatureKeys.tsx",
+          "/frontend/hub/tasks/hooks/useTaskActions.tsx",
+          "/frontend/hub/tasks/hooks/useTasksActions.tsx",
           "/frontend/hub/token/Token.tsx"
         ]
       },
@@ -431,8 +433,8 @@
       "ClipboardCopy": 1,
       "Truncate": 6,
       "SplitItem": 12,
-      "Label": 22,
-      "LabelGroup": 15,
+      "Label": 23,
+      "LabelGroup": 16,
       "Card": 7,
       "CardFooter": 3,
       "CardHeader": 5,
@@ -635,7 +637,8 @@
       "ThumbsDownIcon": 2,
       "ThumbsUpIcon": 3,
       "RedhatIcon": 2,
-      "AnsibleTowerIcon": 2
+      "AnsibleTowerIcon": 2,
+      "StopIcon": 2
     },
     "@patternfly/react-styles/css/components/Table/table": {
       "styles": 1
@@ -718,16 +721,13 @@
     }
   },
   "classes": {
-    "pf-c-banner": 3,
-    "pf-m-info": 3,
+    "pf-c-banner": 1,
+    "pf-m-info": 1,
     "pf-c-modal-box__title-text": 10,
     "pf-c-title": 7,
     "pf-c-card__header": 11,
     "pf-c-empty-state__body": 9,
     "pf-c-card": 9,
-    "pf-c-form__label-text": 5,
-    "pf-c-form__group-control": 2,
-    "pf-c-select__menu": 2,
     "pf-c-tabs": 1,
     "pf-c-toolbar__group": 4,
     "pf-c-dropdown__menu": 2,
@@ -745,13 +745,14 @@
     "pf-m-plain": 1,
     "pf-c-switch__toggle": 2,
     "pf-c-check__label": 4,
+    "pf-c-form__label-text": 2,
     "pf-c-toggle-group__button": 3,
     "pf-c-truncate__start": 3,
     "pf-c-backdrop": 2,
     "pf-c-empty-state__content": 1,
     "pf-c-pagination": 1,
     "pf-c-options-menu": 1,
-    "pf-c-alert__title": 6,
+    "pf-c-alert__title": 8,
     "pf-c-tooltip__content": 1,
     "pf-c-menu": 3,
     "pf-c-menu-toggle": 2,
@@ -768,6 +769,7 @@
     "pf-m-12-col": 4,
     "pf-c-scroll-inner-wrapper": 1,
     "pf-m-border-left": 3,
+    "pf-m-current": 7,
     "pf-c-wizard": 1,
     "pf-c-wizard__outer-wrap": 1,
     "pf-c-button": 8,
@@ -781,13 +783,11 @@
     "pf-m-expanded": 3,
     "pf-c-wizard__nav-list": 1,
     "pf-c-wizard__nav-link": 1,
-    "pf-m-current": 1,
     "pf-c-wizard__nav-item": 1,
     "pf-c-icon": 3,
     "pf-m-warning": 3,
     "pf-m-aria-disabled": 1,
     "pf-c-tooltip": 2,
-    "pf-c-alert__description": 2,
     "pf-c-tabs__list": 6,
     "pf-c-badge": 1,
     "pf-c-switch__input": 2,
@@ -822,7 +822,7 @@
   },
   "repo": "https://github.com/ansible/ansible-ui",
   "name": "Ansible-ui",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@4tw/cypress-drag-drop": 1,
     "@ansible/react-json-chart-builder": 1,

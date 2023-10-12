@@ -15,7 +15,7 @@
   "cssVars": {},
   "repo": "https://github.com/kiegroup/kie-wb-common",
   "name": "Process-Automation",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@types/enzyme": 1,
     "@types/enzyme-adapter-react-16": 1,

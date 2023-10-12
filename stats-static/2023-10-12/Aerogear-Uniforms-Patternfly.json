@@ -90,7 +90,7 @@
   "cssVars": {},
   "repo": "https://github.com/aerogear/uniforms-patternfly",
   "name": "Aerogear-Uniforms-Patternfly",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@babel/plugin-proposal-class-properties": 1,
     "@babel/polyfill": 1,

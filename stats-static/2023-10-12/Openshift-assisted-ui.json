@@ -809,7 +809,7 @@
   },
   "repo": "https://github.com/openshift-assisted/assisted-ui-lib",
   "name": "Openshift-assisted-ui",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@openapitools/openapi-generator-cli": 1,
     "@openshift-assisted/locales": 1,

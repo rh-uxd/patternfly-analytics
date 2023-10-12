@@ -177,7 +177,7 @@
   "cssVars": {},
   "repo": "https://github.com/RedHatInsights/acs-ui",
   "name": "RedHatInsights-acs-ui",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@babel/core": 1,
     "@babel/plugin-proposal-object-rest-spread": 1,

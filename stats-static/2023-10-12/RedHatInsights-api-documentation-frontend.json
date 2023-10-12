@@ -254,7 +254,7 @@
   },
   "repo": "https://github.com/RedHatInsights/api-documentation-frontend",
   "name": "RedHatInsights-api-documentation-frontend",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@apidevtools/swagger-parser": 1,
     "@apidocs/common": 2,

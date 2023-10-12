@@ -7,8 +7,8 @@
         "scss": 1
       },
       "js": 6,
-      "ts": 120,
-      "tsx": 127,
+      "ts": 118,
+      "tsx": 126,
       "scss": 1
     },
     "withPatternfly": {
@@ -359,7 +359,7 @@
   },
   "repo": "https://github.com/RedHatInsights/notifications-frontend",
   "name": "Settings-Hooks",
-  "date": "2023-10-12T02:02:45.471Z",
+  "date": "2023-10-12T15:13:50.663Z",
   "dependencies": {
     "@babel/plugin-proposal-class-properties": 1,
     "@babel/plugin-proposal-object-rest-spread": 1,
