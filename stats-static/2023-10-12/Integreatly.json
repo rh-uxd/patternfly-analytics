@@ -280,7 +280,7 @@
   },
   "repo": "https://github.com/integr8ly/tutorial-web-app",
   "name": "Integreatly",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@fortawesome/fontawesome-free": 1,
     "@patternfly/patternfly": 1,

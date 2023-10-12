@@ -648,7 +648,7 @@
   },
   "repo": "https://github.com/RedHatInsights/insights-chrome",
   "name": "RedHatInsights-insights-chrome",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@data-driven-forms/pf4-component-mapper": 1,
     "@data-driven-forms/react-form-renderer": 1,

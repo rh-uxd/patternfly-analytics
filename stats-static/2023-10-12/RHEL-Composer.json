@@ -251,7 +251,7 @@
   },
   "repo": "https://github.com/weldr/cockpit-composer",
   "name": "RHEL-Composer",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@babel/cli": 1,
     "@babel/core": 1,

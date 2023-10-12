@@ -227,7 +227,7 @@
   },
   "repo": "https://github.com/kiegroup/optaweb-employee-rostering",
   "name": "Optaweb-Employee-Rostering",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@kie/lock-treatment-tool": 1,
     "@patternfly/patternfly": 1,

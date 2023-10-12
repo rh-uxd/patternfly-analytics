@@ -1201,7 +1201,7 @@
   },
   "repo": "https://github.com/open-cluster-management/console",
   "name": "ACM-console",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@apollo/client": 1,
     "@babel/core": 1,

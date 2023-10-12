@@ -86,7 +86,7 @@
   "cssVars": {},
   "repo": "https://github.com/hawtio/hawtio-core",
   "name": "Fuse-Console",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@hawtio/core-dts": 1,
     "@hawtio/node-backend": 1,

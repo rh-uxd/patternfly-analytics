@@ -397,7 +397,7 @@
   },
   "repo": "https://github.com/infinispan/infinispan-console",
   "name": "Infinispan",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@patternfly/react-charts": 1,
     "@patternfly/react-code-editor": 1,

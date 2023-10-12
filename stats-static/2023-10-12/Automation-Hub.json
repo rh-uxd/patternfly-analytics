@@ -569,7 +569,7 @@
   },
   "repo": "https://github.com/ansible/ansible-hub-ui",
   "name": "Automation-Hub",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@babel/core": 1,
     "@babel/plugin-syntax-dynamic-import": 1,

@@ -1,7 +1,3 @@
-
-
-const pf4NextPath = '@patternfly/react-core/next';
-
 const pf4DeprecatedComponents = {
   'ApplicationLauncher': {
     exports: [
@@ -156,22 +152,6 @@ const pf4DeprecatedComponents = {
   }
 };
 
-const pf5Deprecated = [
-  '@patternfly/react-core/deprecated',
-  '@patternfly/react-table/deprecated'
-];
-
-// combine all components from pf4DeprecatedObj into one array
-const pf4DeprecatedArr = Object.entries(pf4DeprecatedComponents).reduce((acc, [parentComponentName, { exports }]) => [...acc, ...exports], []);
-
-/*
-1 - Loop through pf4DeprecatedArr
-2 - For each deprecated component, get imports[component] from _all_product_uses.json
-3 - Loop through products, excluding ‘product_count’ and ‘total_usage’, check each product name against version number from _all_pf_versions.json and keep only if using deprecated version of component
-    - const prods = Object.keys(data).filter(key => !['product_count', 'total_usage'].includes(key));
-4 - Need to repeat separately for Table components
-*/
-
 // pass in sortedUsage (reported in _all_product_uses.json)
 // and pfVersions (reported in _all_pf_versions.json) from cli.js
 const getDeprecatedComponents = (sortedUsage, pfVersions) => {
@@ -185,7 +165,8 @@ const getDeprecatedComponents = (sortedUsage, pfVersions) => {
     // track data for parent component
     deprecatedUsage[component] = { 
       product_count: 0,
-      products: []
+      products: [],
+      product_count_by_component: {}
     };
 
     // loop through each deprecated export (aka subcomponent)
@@ -267,7 +248,18 @@ const getDeprecatedComponents = (sortedUsage, pfVersions) => {
           }
         });
       });
+      // Add total count for subcomponent to product_count_by_component field for quick usage comparison across components
+      const subcomponentProductCount = deprecatedUsage?.[component]?.[subcomponent]?.product_count;
+      if (subcomponentProductCount) {
+        deprecatedUsage[component].product_count_by_component[subcomponent] = subcomponentProductCount;
+      }
     });
+    // Sort product_count_by_component from highest to lowest usage
+    deprecatedUsage[component].product_count_by_component = Object.fromEntries(
+      Object
+        .entries(deprecatedUsage[component].product_count_by_component)
+        .sort(([compName1, compCount1], [compName2, compCount2]) => compCount2 - compCount1)
+    ) 
   });
 
   const sortedDeprecatedUsage = Object.fromEntries(
@@ -275,6 +267,7 @@ const getDeprecatedComponents = (sortedUsage, pfVersions) => {
       .entries(deprecatedUsage)
       .sort(([name1, {product_count: count1}], [name2, {product_count: count2}]) => count2 - count1)
   );
+
   return sortedDeprecatedUsage;
 };
 

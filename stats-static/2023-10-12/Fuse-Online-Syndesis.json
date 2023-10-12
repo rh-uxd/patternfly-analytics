@@ -470,7 +470,7 @@
   },
   "repo": "https://github.com/syndesisio/syndesis",
   "name": "Fuse-Online-Syndesis",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@allpro/react-router-pause": 1,
     "@angular-devkit/build-angular": 1,

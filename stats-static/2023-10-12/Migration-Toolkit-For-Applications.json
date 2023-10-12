@@ -635,7 +635,7 @@
   },
   "repo": "https://github.com/konveyor/tackle2-ui",
   "name": "Migration-Toolkit-For-Applications",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@dnd-kit/core": 1,
     "@dnd-kit/sortable": 1,

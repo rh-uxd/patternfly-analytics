@@ -622,7 +622,7 @@
   },
   "repo": "https://github.com/kubev2v/forklift-console-plugin",
   "name": "Migration-Toolkit-for-Virtualization",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@cspell/eslint-plugin": 1,
     "@kubev2v/build": 1,

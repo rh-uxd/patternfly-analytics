@@ -188,7 +188,7 @@
   },
   "repo": "https://github.com/FNNDSC/ChRIS_store_ui",
   "name": "ChRIS",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@babel/eslint-parser": 1,
     "@babel/preset-react": 1,

@@ -308,7 +308,7 @@
   },
   "repo": "https://github.com/janus-idp/backstage-plugins",
   "name": "Backstage",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@backstage/app-defaults": 1,
     "@backstage/backend-app-api": 1,

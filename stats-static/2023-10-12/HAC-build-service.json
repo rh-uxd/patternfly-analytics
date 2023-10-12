@@ -33,7 +33,7 @@
   "cssVars": {},
   "repo": "https://github.com/openshift/hac-build-service",
   "name": "HAC-build-service",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@openshift/dynamic-plugin-sdk-webpack": 1,
     "@patternfly/react-core": 1,

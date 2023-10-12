@@ -216,7 +216,7 @@
   },
   "repo": "https://github.com/openshift/monitoring-plugin",
   "name": "Openshift-monitoring-plugin",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@codemirror/autocomplete": 1,
     "@codemirror/commands": 1,

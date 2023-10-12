@@ -243,7 +243,7 @@
   },
   "repo": "https://github.com/apache/qpid-dispatch",
   "name": "AMQ-Interconnect",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@patternfly/patternfly": 1,
     "@patternfly/react-charts": 1,

@@ -267,7 +267,7 @@
   },
   "repo": "https://github.com/Apicurio/apicurio-registry",
   "name": "Apicurio-Registry",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@apicurio/data-models": 1,
     "@apicurio/eslint-config": 1,

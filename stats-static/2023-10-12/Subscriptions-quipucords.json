@@ -297,7 +297,7 @@
   },
   "repo": "https://github.com/quipucords/quipucords-ui",
   "name": "Subscriptions-quipucords",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@babel/core": 1,
     "@babel/eslint-parser": 1,

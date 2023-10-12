@@ -39,7 +39,7 @@
   "cssVars": {},
   "repo": "https://github.com/redhat-developer/app-services-ui",
   "name": "App-services-ui",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@patternfly/patternfly": 2,
     "@patternfly/react-charts": 1,

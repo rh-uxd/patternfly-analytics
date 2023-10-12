@@ -12,7 +12,7 @@
   "cssVars": {},
   "repo": "https://github.com/theforeman/foreman-js",
   "name": "Foreman-Tools",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@apollo/client": 1,
     "@apollo/react-testing": 1,

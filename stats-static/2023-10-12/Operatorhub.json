@@ -107,7 +107,7 @@
   },
   "repo": "https://github.com/operator-framework/operatorhub.io.git",
   "name": "Operatorhub",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@babel/core": 1,
     "@babel/plugin-proposal-class-properties": 1,

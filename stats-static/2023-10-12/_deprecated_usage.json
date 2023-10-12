@@ -66,6 +66,24 @@
       "Kiali",
       "Product-Shared-Library"
     ],
+    "product_count_by_component": {
+      "DropdownItem": 63,
+      "Dropdown": 62,
+      "DropdownToggle": 57,
+      "KebabToggle": 46,
+      "DropdownPosition": 41,
+      "DropdownSeparator": 27,
+      "DropdownGroup": 17,
+      "DropdownToggleCheckbox": 16,
+      "DropdownDirection": 11,
+      "DropdownToggleAction": 10,
+      "DropdownProps": 5,
+      "DropdownItemProps": 3,
+      "BadgeToggle": 2,
+      "KebabToggleProps": 2,
+      "DropdownMenu": 1,
+      "DropdownToggleProps": 1
+    },
     "Dropdown": {
       "product_count": 62,
       "products": {
@@ -3153,6 +3171,17 @@
       "Hybrid-Commited-Spend",
       "Backstage"
     ],
+    "product_count_by_component": {
+      "Select": 56,
+      "SelectOption": 56,
+      "SelectVariant": 47,
+      "SelectGroup": 23,
+      "SelectOptionObject": 23,
+      "SelectProps": 16,
+      "SelectOptionProps": 8,
+      "SelectDirection": 5,
+      "SelectPosition": 2
+    },
     "Select": {
       "product_count": 56,
       "products": {
@@ -5170,6 +5199,14 @@
       "Camel-Karavan",
       "Kiali"
     ],
+    "product_count_by_component": {
+      "Table": 42,
+      "TableHeader": 38,
+      "TableBody": 37,
+      "TableProps": 9,
+      "TableBodyProps": 3,
+      "HeaderProps": 3
+    },
     "Table": {
       "product_count": 42,
       "products": {
@@ -6309,6 +6346,24 @@
       "Openshift-assisted-ui",
       "RHOSE-production"
     ],
+    "product_count_by_component": {
+      "Wizard": 30,
+      "WizardContextConsumer": 19,
+      "WizardFooter": 18,
+      "WizardStep": 9,
+      "WizardContext": 4,
+      "WizardNav": 3,
+      "WizardNavItem": 3,
+      "WizardHeader": 2,
+      "WizardStepFunctionType": 2,
+      "WizardProps": 2,
+      "WizardNavItemProps": 2,
+      "WizardBody": 1,
+      "WizardToggle": 1,
+      "WizardBodyProps": 1,
+      "WizardContextType": 1,
+      "WizardContextProvider": 1
+    },
     "Wizard": {
       "product_count": 30,
       "products": {
@@ -7229,6 +7284,13 @@
       "RHOSE-POC",
       "RHOSE-production"
     ],
+    "product_count_by_component": {
+      "PageHeader": 24,
+      "PageHeaderTools": 20,
+      "PageHeaderToolsGroup": 12,
+      "PageHeaderToolsItem": 12,
+      "PageHeaderProps": 1
+    },
     "PageHeader": {
       "product_count": 24,
       "products": {
@@ -7827,6 +7889,15 @@
       "ACM-console",
       "App-services-ui-components"
     ],
+    "product_count_by_component": {
+      "OptionsMenu": 7,
+      "OptionsMenuItem": 6,
+      "OptionsMenuToggle": 5,
+      "OptionsMenuItemGroup": 3,
+      "OptionsMenuSeparator": 2,
+      "OptionsMenuToggleWithText": 1,
+      "OptionsMenuPosition": 1
+    },
     "OptionsMenu": {
       "product_count": 7,
       "products": {
@@ -8078,6 +8149,13 @@
       "RedHatInsights-insights-chrome",
       "ACM-console"
     ],
+    "product_count_by_component": {
+      "ContextSelector": 5,
+      "ContextSelectorItem": 4,
+      "ContextSelectorFooter": 2,
+      "ContextSelectorProps": 1,
+      "ContextSelectorItemProps": 1
+    },
     "ContextSelector": {
       "product_count": 5,
       "products": {
@@ -8220,6 +8298,12 @@
       "Stackrox",
       "ACM-console"
     ],
+    "product_count_by_component": {
+      "ApplicationLauncher": 5,
+      "ApplicationLauncherItem": 5,
+      "ApplicationLauncherGroup": 3,
+      "ApplicationLauncherSeparator": 3
+    },
     "ApplicationLauncher": {
       "product_count": 5,
       "products": {

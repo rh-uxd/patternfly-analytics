@@ -139,7 +139,7 @@
   },
   "repo": "https://github.com/Apicurio/apicurio-studio",
   "name": "Apicurio",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@angular-devkit/build-angular": 1,
     "@angular-devkit/core": 1,

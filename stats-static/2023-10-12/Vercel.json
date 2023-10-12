@@ -4,10 +4,10 @@
       "withPatternfly": {
         "js": 1
       },
-      "js": 6456,
+      "js": 6459,
       "jsx": 79,
       "tsx": 1830,
-      "ts": 2382,
+      "ts": 2383,
       "css": 464,
       "scss": 194,
       "sass": 9
@@ -33,7 +33,7 @@
   "cssVars": {},
   "repo": "https://github.com/vercel/next.js",
   "name": "Vercel",
-  "date": "2023-10-12T15:13:50.663Z",
+  "date": "2023-10-12T18:06:32.332Z",
   "dependencies": {
     "@ably-labs/react-hooks": 1,
     "@actions/core": 1,
