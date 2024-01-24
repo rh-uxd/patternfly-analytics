@@ -1,0 +1,193 @@
+{
+  "repos": [
+    {
+      "git": "https://github.com/project-koku/koku-ui",
+      "name": "Cost-Management"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/curiosity-frontend",
+      "name": "RedHatInsights-Subs-Watch"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/hybrid-committed-spend-ui",
+      "name": "RedHatInsights-Hybrid-Committed-Spend"
+    },
+    {
+      "git": "https://github.com/quipucords/quipucords-ui",
+      "name": "Quipucords-Product-Discovery"
+    },
+    {
+      "git": "https://github.com/openshift/monitoring-plugin",
+      "name": "Openshift-monitoring-plugin"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/cloud-connector-frontend",
+      "name": "RedHatInsights-cloud-connector-frontend"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/payload-tracker-frontend",
+      "name": "RedHatInsights-payload-tracker-frontend"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/api-frontend",
+      "name": "RedHatInsights-api-frontend"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/insights-chrome",
+      "name": "RedHatInsights-insights-chrome"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/insights-dashboard",
+      "name": "RedHatInsights-insights-dashboard"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/landing-page-frontend",
+      "name": "RedHatInsights-landing-page-frontend"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/sources-ui",
+      "name": "RedHatInsights-sources-ui"
+    },
+    {
+      "git": "https://github.com/data-driven-forms/react-forms",
+      "name": "RedHatInsights-data-driven-forms"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/frontend-components",
+      "name": "RedHatInsights-frontend-components"
+    },
+    {
+      "git": "https://github.com/janus-idp/backstage-plugins",
+      "name": "Backstage"
+    },
+    {
+      "git": "https://github.com/openshift/hac-core",
+      "name": "HAC-Core"
+    },
+    {
+      "git": "https://github.com/openshift/hac-dev",
+      "name": "HAC-Dev"
+    },
+    {
+      "git": "https://gitlab.cee.redhat.com/service/uhc-portal.git",
+      "name": "OCM-UI",
+      "private": true
+    },
+    {
+      "git": "https://github.com/RedHatInsights/tower-analytics-frontend",
+      "name": "RedHatInsights-tower-analytics-frontend"
+    },
+    {
+      "git": "https://github.com/ansible/awx",
+      "name": "Ansible-awx"
+    },
+    {
+      "git": "https://github.com/ansible/ansible-ui",
+      "name": "Ansible-ui"
+    },
+    {
+      "git": "https://github.com/ansible/ansible-hub-ui",
+      "name": "Ansible-hub"
+    },
+    {
+      "git": "https://github.com/opendatahub-io/odh-dashboard",
+      "name": "Opendatahub"
+    },
+    {
+      "git": "https://github.com/keycloak/keycloak",
+      "name": "Keycloak"
+    },
+    {
+      "git": "https://github.com/cockpit-project/cockpit",
+      "name": "Cockpit"
+    },
+    {
+      "git": "https://github.com/weldr/cockpit-composer",
+      "name": "RHEL-Composer"
+    },
+    {
+      "git": "https://github.com/cockpit-project/cockpit-certificates",
+      "name": "Cockpit-certificates"
+    },
+    {
+      "git": "https://github.com/cockpit-project/cockpit-machines",
+      "name": "Cockpit-machines"
+    },
+    {
+      "git": "https://github.com/cockpit-project/cockpit-podman",
+      "name": "Cockpit-podman"
+    },
+    {
+      "git": "https://github.com/cockpit-project/starter-kit",
+      "name": "Cockpit-Starter-Kit"
+    },
+    {
+      "git": "https://github.com/openshift/console",
+      "name": "OpenShift-Admin-Console"
+    },
+    {
+      "git": "https://github.com/open-cluster-management/console",
+      "name": "ACM-console"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/acs-ui",
+      "name": "RedHatInsights-acs-ui"
+    },
+    {
+      "git": "https://github.com/stackrox/stackrox",
+      "name": "Stackrox"
+    },
+    {
+      "git": "https://github.com/oVirt/ovirt-web-ui",
+      "name": "Virtualization-Frontend"
+    },
+    {
+      "git": "https://github.com/oVirt/ovirt-engine",
+      "name": "Virtualization-Engine"
+    },
+    {
+      "git": "https://github.com/openshift-assisted/assisted-ui-lib",
+      "name": "Openshift-assisted-ui"
+    },
+    {
+      "git": "https://github.com/quay/quay",
+      "name": "Quay"
+    },
+    {
+      "git": "https://github.com/quay/quay-ui",
+      "name": "Quay-ui"
+    },
+    {
+      "git": "https://github.com/konveyor/tackle2-ui",
+      "name": "Migration-Toolkit-For-Applications"
+    },
+    {
+      "git": "https://github.com/kiali/kiali",
+      "name": "Kiali"
+    },
+    {
+      "git": "https://github.com/rhinstaller/anaconda",
+      "name": "RHEL-Anaconda"
+    },
+    {
+      "git": "https://github.com/eclipse-che/che-dashboard",
+      "name": "CHE-dashboard"
+    },
+    {
+      "git": "https://github.com/kubevirt-ui/kubevirt-plugin",
+      "name": "Kubevirt"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/image-builder-frontend",
+      "name": "RedHatInsights-image-builder-frontend"
+    },
+    {
+      "git": "https://github.com/RHEnVision/provisioning-frontend",
+      "name": "RHEnVision"
+    },
+    {
+      "git": "https://github.com/nmstate/nmstate-console-plugin",
+      "name": "Nmstate-plugin"
+    }
+  ]
+}
