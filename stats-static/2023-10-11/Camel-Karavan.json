@@ -1,0 +1,751 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 197,
+        "ts": 1,
+        "css": 16
+      },
+      "ts": 98,
+      "tsx": 238,
+      "js": 1,
+      "css": 20
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/karavan-designer/src/App.tsx",
+          "/karavan-designer/src/designer/beans/BeanCard.tsx",
+          "/karavan-designer/src/designer/beans/BeanProperties.tsx",
+          "/karavan-designer/src/designer/beans/BeansDesigner.tsx",
+          "/karavan-designer/src/designer/kamelet/KameletAnnotationsPanel.tsx",
+          "/karavan-designer/src/designer/kamelet/KameletDefinitionPropertyCard.tsx",
+          "/karavan-designer/src/designer/kamelet/KameletDefinitionsPanel.tsx",
+          "/karavan-designer/src/designer/kamelet/KameletDependenciesCard.tsx",
+          "/karavan-designer/src/designer/kamelet/KameletDesigner.tsx",
+          "/karavan-designer/src/designer/kamelet/KameletProperties.tsx",
+          "/karavan-designer/src/designer/kamelet/KameletTypesOutCard.tsx",
+          "/karavan-designer/src/designer/KaravanDesigner.tsx",
+          "/karavan-designer/src/designer/MainToolbar.tsx",
+          "/karavan-designer/src/designer/rest/RestCard.tsx",
+          "/karavan-designer/src/designer/rest/RestConfigurationCard.tsx",
+          "/karavan-designer/src/designer/rest/RestDesigner.tsx",
+          "/karavan-designer/src/designer/rest/RestMethodCard.tsx",
+          "/karavan-designer/src/designer/rest/RestMethodSelector.tsx",
+          "/karavan-designer/src/designer/route/DeleteConfirmation.tsx",
+          "/karavan-designer/src/designer/route/DslElement.tsx",
+          "/karavan-designer/src/designer/route/DslElementMoveModal.tsx",
+          "/karavan-designer/src/designer/route/DslProperties.tsx",
+          "/karavan-designer/src/designer/route/DslSelector.tsx",
+          "/karavan-designer/src/designer/route/property/ComponentParameterField.tsx",
+          "/karavan-designer/src/designer/route/property/DataFormatField.tsx",
+          "/karavan-designer/src/designer/route/property/DslPropertyField.tsx",
+          "/karavan-designer/src/designer/route/property/ExpressionField.tsx",
+          "/karavan-designer/src/designer/route/property/InfrastructureSelector.tsx",
+          "/karavan-designer/src/designer/route/property/KameletPropertyField.tsx",
+          "/karavan-designer/src/designer/route/property/ModalEditor.tsx",
+          "/karavan-designer/src/designer/route/RouteDesigner.tsx",
+          "/karavan-designer/src/designer/utils/IntegrationHeader.tsx",
+          "/karavan-designer/src/designer/utils/Notification.tsx",
+          "/karavan-designer/src/DesignerPage.tsx",
+          "/karavan-designer/src/knowledgebase/components/ComponentCard.tsx",
+          "/karavan-designer/src/knowledgebase/components/ComponentModal.tsx",
+          "/karavan-designer/src/knowledgebase/components/ComponentsTab.tsx",
+          "/karavan-designer/src/knowledgebase/eip/EipCard.tsx",
+          "/karavan-designer/src/knowledgebase/eip/EipModal.tsx",
+          "/karavan-designer/src/knowledgebase/eip/EipTab.tsx",
+          "/karavan-designer/src/knowledgebase/kamelets/KameletCard.tsx",
+          "/karavan-designer/src/knowledgebase/kamelets/KameletModal.tsx",
+          "/karavan-designer/src/knowledgebase/kamelets/KameletsTab.tsx",
+          "/karavan-designer/src/knowledgebase/KnowledgebasePage.tsx",
+          "/karavan-space/src/App.tsx",
+          "/karavan-space/src/designer/beans/BeanCard.tsx",
+          "/karavan-space/src/designer/beans/BeanProperties.tsx",
+          "/karavan-space/src/designer/beans/BeansDesigner.tsx",
+          "/karavan-space/src/designer/kamelet/KameletAnnotationsPanel.tsx",
+          "/karavan-space/src/designer/kamelet/KameletDefinitionPropertyCard.tsx",
+          "/karavan-space/src/designer/kamelet/KameletDefinitionsPanel.tsx",
+          "/karavan-space/src/designer/kamelet/KameletDependenciesCard.tsx",
+          "/karavan-space/src/designer/kamelet/KameletDesigner.tsx",
+          "/karavan-space/src/designer/kamelet/KameletProperties.tsx",
+          "/karavan-space/src/designer/kamelet/KameletTypesOutCard.tsx",
+          "/karavan-space/src/designer/KaravanDesigner.tsx",
+          "/karavan-space/src/designer/MainToolbar.tsx",
+          "/karavan-space/src/designer/rest/RestCard.tsx",
+          "/karavan-space/src/designer/rest/RestConfigurationCard.tsx",
+          "/karavan-space/src/designer/rest/RestDesigner.tsx",
+          "/karavan-space/src/designer/rest/RestMethodCard.tsx",
+          "/karavan-space/src/designer/rest/RestMethodSelector.tsx",
+          "/karavan-space/src/designer/route/DeleteConfirmation.tsx",
+          "/karavan-space/src/designer/route/DslElement.tsx",
+          "/karavan-space/src/designer/route/DslElementMoveModal.tsx",
+          "/karavan-space/src/designer/route/DslProperties.tsx",
+          "/karavan-space/src/designer/route/DslSelector.tsx",
+          "/karavan-space/src/designer/route/property/ComponentParameterField.tsx",
+          "/karavan-space/src/designer/route/property/DataFormatField.tsx",
+          "/karavan-space/src/designer/route/property/DslPropertyField.tsx",
+          "/karavan-space/src/designer/route/property/ExpressionField.tsx",
+          "/karavan-space/src/designer/route/property/InfrastructureSelector.tsx",
+          "/karavan-space/src/designer/route/property/KameletPropertyField.tsx",
+          "/karavan-space/src/designer/route/property/ModalEditor.tsx",
+          "/karavan-space/src/designer/route/RouteDesigner.tsx",
+          "/karavan-space/src/designer/templates/TemplatesDesigner.tsx",
+          "/karavan-space/src/designer/utils/IntegrationHeader.tsx",
+          "/karavan-space/src/designer/utils/KaravanComponents.tsx",
+          "/karavan-space/src/designer/utils/Notification.tsx",
+          "/karavan-space/src/knowledgebase/components/ComponentCard.tsx",
+          "/karavan-space/src/knowledgebase/components/ComponentModal.tsx",
+          "/karavan-space/src/knowledgebase/components/ComponentsTab.tsx",
+          "/karavan-space/src/knowledgebase/eip/EipCard.tsx",
+          "/karavan-space/src/knowledgebase/eip/EipModal.tsx",
+          "/karavan-space/src/knowledgebase/eip/EipTab.tsx",
+          "/karavan-space/src/knowledgebase/kamelets/KameletCard.tsx",
+          "/karavan-space/src/knowledgebase/kamelets/KameletModal.tsx",
+          "/karavan-space/src/knowledgebase/kamelets/KameletsTab.tsx",
+          "/karavan-space/src/knowledgebase/KnowledgebasePage.tsx",
+          "/karavan-space/src/space/GithubModal.tsx",
+          "/karavan-space/src/space/SpacePage.tsx",
+          "/karavan-space/src/space/UploadModal.tsx",
+          "/karavan-vscode/webview/App.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/config/ConfigurationPage.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/containers/ContainersPage.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/containers/ContainerTableRow.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/dashboard/DashboardPage.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/beans/BeanCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/beans/BeanProperties.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/beans/BeansDesigner.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/kamelet/KameletAnnotationsPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/kamelet/KameletDefinitionPropertyCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/kamelet/KameletDefinitionsPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/kamelet/KameletDependenciesCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/kamelet/KameletDesigner.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/kamelet/KameletProperties.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/kamelet/KameletTypesOutCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/KaravanDesigner.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/MainToolbar.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/rest/RestCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/rest/RestConfigurationCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/rest/RestDesigner.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/rest/RestMethodCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/rest/RestMethodSelector.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/DeleteConfirmation.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/DslElement.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/DslElementMoveModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/DslProperties.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/DslSelector.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/property/ComponentParameterField.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/property/DataFormatField.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/property/DslPropertyField.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/property/ExpressionField.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/property/InfrastructureSelector.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/property/KameletPropertyField.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/property/ModalEditor.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/route/RouteDesigner.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/templates/TemplatesDesigner.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/utils/IntegrationHeader.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/utils/KaravanComponents.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/utils/Notification.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/components/ComponentCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/components/ComponentModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/components/ComponentsTab.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/eip/EipCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/eip/EipModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/eip/EipTab.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/kamelets/KameletCard.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/kamelets/KameletModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/kamelets/KameletsTab.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/knowledgebase/KnowledgebasePage.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/main/Main.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/main/MainLogin.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/main/PageNavigation.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/build/BuildPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/build/ImagesPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/build/ProjectBuildTab.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/BuildToolbar.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/container/ContainerButtons.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/container/ContainerPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/container/DeploymentPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/container/ProjectContainerTab.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/dashboard/DashboardTab.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/dashboard/InfoContainer.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/dashboard/InfoContext.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/dashboard/InfoMemory.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/DevModeToolbar.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/file/FileEditor.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/file/PropertiesPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/file/PropertiesTable.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/file/PropertiesToolbar.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/file/PropertyField.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/files/CreateFileModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/files/DeleteFileModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/files/FilesTab.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/files/FilesToolbar.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/files/UploadFileModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/ImageDownloadToolbar.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/log/ProjectLog.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/log/ProjectLogPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/ProjectPage.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/ProjectPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/ProjectTitle.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/ProjectToolbar.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/topology/CustomEdge.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/topology/CustomGroup.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/topology/CustomNode.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/topology/TopologyApi.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/topology/TopologyPropertiesPanel.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/topology/TopologyTab.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/topology/TopologyToolbar.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/trace/RunnerInfoTraceModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/trace/RunnerInfoTraceNode.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/trace/TraceTab.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/project/trace/TraceTable.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/projects/CreateProjectModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/projects/DeleteProjectModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/projects/ProjectsPage.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/projects/ProjectsTableRow.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/services/CreateServiceModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/services/DeleteServiceModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/services/ServicesPage.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/services/ServicesTableRow.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/templates/CreateProjectModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/templates/DeleteProjectModal.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/templates/TemplatesPage.tsx",
+          "/karavan-web/karavan-app/src/main/webui/src/templates/TemplatesTableRow.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/karavan-vscode/src/webviewContent.ts"
+        ]
+      },
+      "css": {
+        "files": [
+          "/karavan-designer/src/designer/beans/bean.css",
+          "/karavan-designer/src/designer/kamelet/kamelet.css",
+          "/karavan-designer/src/designer/karavan.css",
+          "/karavan-designer/src/designer/rest/rest.css",
+          "/karavan-designer/src/index.css",
+          "/karavan-space/src/designer/beans/bean.css",
+          "/karavan-space/src/designer/kamelet/kamelet.css",
+          "/karavan-space/src/designer/karavan.css",
+          "/karavan-space/src/designer/rest/rest.css",
+          "/karavan-space/src/index.css",
+          "/karavan-vscode/webview/index.css",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/beans/bean.css",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/kamelet/kamelet.css",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/karavan.css",
+          "/karavan-web/karavan-app/src/main/webui/src/designer/rest/rest.css",
+          "/karavan-web/karavan-app/src/main/webui/src/index.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Bullseye": 15,
+      "Button": 119,
+      "Divider": 9,
+      "Flex": 71,
+      "FlexItem": 60,
+      "Masthead": 1,
+      "Page": 5,
+      "PageSidebar": 1,
+      "PageSidebarBody": 1,
+      "Spinner": 14,
+      "Tooltip": 50,
+      "Form": 29,
+      "FormGroup": 49,
+      "TextInput": 48,
+      "Title": 14,
+      "Popover": 16,
+      "InputGroup": 15,
+      "InputGroupItem": 12,
+      "Drawer": 12,
+      "DrawerContent": 12,
+      "DrawerContentBody": 12,
+      "DrawerPanelContent": 12,
+      "Gallery": 25,
+      "GalleryItem": 9,
+      "Modal": 56,
+      "PageSection": 58,
+      "capitalize": 15,
+      "Card": 44,
+      "CardBody": 40,
+      "CardTitle": 37,
+      "Grid": 9,
+      "GridItem": 9,
+      "InputGroupText": 3,
+      "ToggleGroup": 12,
+      "ToggleGroupItem": 12,
+      "FormSelect": 3,
+      "FormSelectOption": 3,
+      "Label": 24,
+      "LabelGroup": 15,
+      "Switch": 21,
+      "TextArea": 12,
+      "FormHelperText": 11,
+      "HelperText": 11,
+      "HelperTextItem": 11,
+      "CardFooter": 18,
+      "Badge": 43,
+      "PageSectionVariants": 16,
+      "Tab": 19,
+      "Tabs": 19,
+      "TabTitleIcon": 3,
+      "TabTitleText": 14,
+      "TooltipPosition": 12,
+      "CardHeader": 24,
+      "Text": 43,
+      "ModalVariant": 19,
+      "TextVariants": 8,
+      "ExpandableSection": 9,
+      "Chip": 3,
+      "TextInputGroup": 4,
+      "TextInputGroupMain": 4,
+      "TextInputGroupUtilities": 3,
+      "ChipGroup": 3,
+      "TitleSizes": 3,
+      "Alert": 3,
+      "AlertActionCloseButton": 3,
+      "AlertGroup": 3,
+      "Toolbar": 13,
+      "ToolbarContent": 13,
+      "ToolbarItem": 12,
+      "TextContent": 16,
+      "ActionGroup": 9,
+      "EmptyState": 12,
+      "EmptyStateBody": 2,
+      "EmptyStateIcon": 12,
+      "EmptyStateHeader": 12,
+      "FileUpload": 2,
+      "EmptyStateVariant": 10,
+      "ProgressStep": 1,
+      "ProgressStepper": 1,
+      "LoginForm": 1,
+      "DescriptionList": 8,
+      "DescriptionListTerm": 8,
+      "DescriptionListGroup": 8,
+      "DescriptionListDescription": 7,
+      "Panel": 9,
+      "PanelHeader": 6,
+      "Checkbox": 2,
+      "Radio": 2,
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1,
+      "CodeBlock": 1,
+      "CodeBlockCode": 1,
+      "DataList": 1,
+      "DataListCell": 1,
+      "DataListItem": 1,
+      "DataListItemCells": 1,
+      "DataListItemRow": 1,
+      "DataListWrapModifier": 1,
+      "PanelMain": 2,
+      "PanelMainBody": 2
+    },
+    "@patternfly/react-icons": {
+      "BlueprintIcon": 2,
+      "RegionsIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/book-open-icon": {
+      "KnowledgebaseIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/times-circle-icon": {
+      "DeleteIcon": 18
+    },
+    "@patternfly/react-icons/dist/js/icons/times-icon": {
+      "DeleteIcon": 9
+    },
+    "@patternfly/react-icons/dist/js/icons/plus-circle-icon": {
+      "AddIcon": 24
+    },
+    "@patternfly/react-icons/dist/esm/icons/clone-icon": {
+      "CloneIcon": 6
+    },
+    "@patternfly/react-icons/dist/js/icons/help-icon": {
+      "HelpIcon": 15
+    },
+    "@patternfly/react-icons/dist/js/icons/openshift-icon": {
+      "KubernetesIcon": 12
+    },
+    "@patternfly/react-icons/dist/js/icons/eye-icon": {
+      "ShowIcon": 9
+    },
+    "@patternfly/react-icons/dist/js/icons/eye-slash-icon": {
+      "HideIcon": 9
+    },
+    "@patternfly/react-icons/dist/js/icons/docker-icon": {
+      "DockerIcon": 12
+    },
+    "@patternfly/react-icons/dist/esm/icons/plus-icon": {
+      "PlusIcon": 24
+    },
+    "@patternfly/react-icons/dist/esm/icons/bell-icon": {
+      "BellIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/arrow-alt-circle-right-icon": {
+      "InsertIcon": 3
+    },
+    "@patternfly/react-core/deprecated": {
+      "Select-deprecated": 12,
+      "SelectVariant-deprecated": 12,
+      "SelectDirection-deprecated": 12,
+      "SelectOption-deprecated": 12
+    },
+    "@patternfly/react-icons/dist/js/icons/compress-icon": {
+      "CompressIcon": 9
+    },
+    "@patternfly/react-icons/dist/js/icons/expand-icon": {
+      "ExpandIcon": 9
+    },
+    "@patternfly/react-icons/dist/js/icons/code-icon": {
+      "EditorIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/download-icon": {
+      "DownloadIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/image-icon": {
+      "DownloadImageIcon": 3
+    },
+    "@patternfly/react-table": {
+      "Table": 9,
+      "Tbody": 20,
+      "Td": 23,
+      "Th": 19,
+      "Thead": 19,
+      "Tr": 24,
+      "TableVariant": 2,
+      "ExpandableRowContent": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/cubes-icon": {
+      "CubesIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/github-icon": {
+      "GithubImageIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/copy-icon": {
+      "CopyIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/upload-icon": {
+      "UploadIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/sync-alt-icon": {
+      "RefreshIcon": 2
+    },
+    "@patternfly/react-table/deprecated": {
+      "Table-deprecated": 10
+    },
+    "@patternfly/react-icons/dist/esm/icons/search-icon": {
+      "SearchIcon": 10
+    },
+    "@patternfly/react-icons/dist/js/icons/stop-icon": {
+      "StopIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/play-icon": {
+      "PlayIcon": 2,
+      "RunIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/pause-icon": {
+      "PauseIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/check-circle-icon": {
+      "UpIcon": 6
+    },
+    "@patternfly/react-icons/dist/esm/icons/error-circle-o-icon": {
+      "DownIcon": 10
+    },
+    "@patternfly/react-icons/dist/js/icons/user-icon": {
+      "UserIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/repository-icon": {
+      "ProjectsIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/blueprint-icon": {
+      "TemplatesIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/cubes-icon": {
+      "ContainersIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/tachometer-alt-icon": {
+      "DashboardIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/services-icon": {
+      "ServicesIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/build-icon": {
+      "BuildIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/clock-icon": {
+      "ClockIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/tag-icon": {
+      "TagIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/times-circle-icon": {
+      "DeleteIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/check-icon": {
+      "SetIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/running-icon": {
+      "UpIcon": 4
+    },
+    "@patternfly/react-icons/dist/esm/icons/trash-icon": {
+      "DeleteIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/process-automation-icon": {
+      "RolloutIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/rocket-icon": {
+      "RocketIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/bolt-icon": {
+      "ReloadIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/code-branch-icon": {
+      "PushIcon": 1
+    },
+    "@patternfly/react-log-viewer": {
+      "LogViewer": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/times-icon": {
+      "CloseIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/expand-icon": {
+      "ExpandIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/compress-icon": {
+      "CollapseIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/trash-alt-icon": {
+      "CleanIcon": 1
+    },
+    "@patternfly/react-topology": {
+      "DefaultEdge": 1,
+      "DefaultGroup": 2,
+      "observer": 3,
+      "DefaultNode": 1,
+      "ComponentFactory": 1,
+      "EdgeAnimationSpeed": 1,
+      "EdgeModel": 1,
+      "EdgeStyle": 1,
+      "GraphComponent": 1,
+      "Model": 2,
+      "ModelKind": 1,
+      "NodeModel": 1,
+      "NodeShape": 1,
+      "NodeStatus": 1,
+      "withPanZoom": 1,
+      "withSelection": 1,
+      "TopologySideBar": 1,
+      "action": 1,
+      "createTopologyControlButtons": 1,
+      "defaultControlButtonsOptions": 1,
+      "GRAPH_LAYOUT_END_EVENT": 1,
+      "TopologyView": 1,
+      "TopologyControlBar": 1,
+      "Visualization": 1,
+      "VisualizationProvider": 1,
+      "VisualizationSurface": 1,
+      "DagreLayout": 1,
+      "SELECTION_EVENT": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/arrow-right-icon": {
+      "ArrowRightIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-page": 1,
+    "pf-c-page__main": 1,
+    "pf-c-page__main-section": 1,
+    "pf-m-dark-200": 1,
+    "pf-c-spinner": 1,
+    "pf-m-xl": 1,
+    "pf-c-spinner__path": 1,
+    "pf-m-plain": 6,
+    "pf-m-primary": 2,
+    "pf-m-secondary": 1,
+    "pf-m-current": 1,
+    "pf-m-control": 3,
+    "pf-m-selected": 2,
+    "pf-m-dark-100": 1,
+    "pf-m-link": 3,
+    "pf-m-column": 1,
+    "pf-m-compact": 1
+  },
+  "cssVars": {
+    "--pf-v5-global--Color--200": 47,
+    "--pf-v5-global--primary-color--100": 34,
+    "--pf-v5-global--BackgroundColor--light-300": 7,
+    "--pf-v5-global--FontSize--md": 3,
+    "--pf-v5-c-page__header-tools--MarginRight": 3,
+    "--pf-v5-global--spacer--sm": 3,
+    "--pf-v5-global--BorderWidth--sm": 6,
+    "--pf-v5-global--BorderColor--100": 4,
+    "--pf-v5-global--active-color--100": 14,
+    "--pf-v5-c-form-control--after--BorderBottomColor": 6,
+    "--pf-v5-c-form-control--after--BorderBottomWidth": 6,
+    "--pf-v5-c-select__toggle--FontSize": 3,
+    "--pf-v5-c-select__menu-item--FontSize": 3,
+    "--pf-v5-c-button--BorderRadius": 3,
+    "--pf-v5-c-button--m-control--BorderRadius": 3,
+    "--pf-v5-c-button--disabled--BackgroundColor": 3,
+    "--pf-v5-c-button--m-control--disabled--BackgroundColor": 3,
+    "--pf-v5-c-button--after--BorderWidth": 3,
+    "--pf-v5-c-button--m-control--after--BorderWidth": 3,
+    "--pf-v5-c-button--after--BorderColor": 3,
+    "--pf-v5-c-button--m-control--after--BorderTopColor": 3,
+    "--pf-v5-c-button--m-control--after--BorderRightColor": 3,
+    "--pf-v5-c-button--m-control--after--BorderBottomColor": 3,
+    "--pf-v5-c-button--m-control--after--BorderLeftColor": 3,
+    "--pf-v5-c-button--m-control--Color": 3,
+    "--pf-v5-c-button--m-control--BackgroundColor": 3,
+    "--pf-v5-global--BorderColor--300": 9,
+    "--pf-v5-global--BorderColor--200": 6,
+    "--pf-v5-global--palette--blue-50": 6,
+    "--pf-v5-global--danger-color--100": 3,
+    "--pf-v5-global--Color--100": 4,
+    "--pf-v5-c-form--GridGap": 3,
+    "--pf-v5-c-card--child--PaddingRight": 3,
+    "--pf-v5-c-card--child--PaddingBottom": 3,
+    "--pf-v5-c-card--child--PaddingLeft": 3,
+    "--pf-v5-c-card--first-child--PaddingTop": 3,
+    "--pf-v5-global--Color--400": 3,
+    "--pf-v5-c-page__header--BackgroundColor": 3,
+    "--pf-v5-global--Color--light-100": 9,
+    "--pf-v5-global--active-color--400": 3,
+    "--pf-v5-global--BackgroundColor--dark-400": 3,
+    "--pf-v5-global--primary-color--200": 4,
+    "--pf-v5-global--link--Color": 1,
+    "--pf-v5-c-tabs__link--after--BorderColor": 1,
+    "--pf-v5-c-switch__input--checked__toggle--BackgroundColor": 2,
+    "--pf-v5-c-button--m-plain--Color": 1,
+    "--pf-v5-c-button--m-secondary--Color": 1,
+    "--pf-v5-global--active-color--200": 1,
+    "--pf-v5-c-button--m-primary--hover--Color": 1,
+    "--pf-v5-global--palette--black-400": 1,
+    "--pf-v5-global--info-color--100": 3,
+    "--pf-v5-global--BorderColor--light-100": 4,
+    "--pf-v5-c-select__toggle--BackgroundColor": 1,
+    "--pf-v5-c-select__toggle--before--BorderTopColor": 1,
+    "--pf-v5-c-select__toggle--before--BorderRightColor": 1,
+    "--pf-v5-c-select__toggle--before--BorderBottomColor": 1,
+    "--pf-v5-c-select__toggle--before--BorderLeftColor": 1,
+    "--pf-v5-c-select__toggle--Color": 1,
+    "--pf-v5-c-select__menu--BoxShadow": 1,
+    "--pf-v5-c-text-input-group__text--before--BorderColor": 2,
+    "--pf-v5-c-text-input-group__text--after--BorderBottomColor": 2,
+    "--pf-v5-c-chip--BackgroundColor": 1,
+    "--pf-v5-c-chip__text--Color": 1,
+    "--pf-v5-c-chip--before--BorderColor": 2,
+    "--pf-v5-c-card--BackgroundColor": 1,
+    "--pf-v5-c-popover__content--BackgroundColor": 1,
+    "--pf-v5-c-popover__arrow--BackgroundColor": 1,
+    "--pf-v5-c-tooltip__content--BackgroundColor": 1,
+    "--pf-v5-c-modal-box--BackgroundColor": 1,
+    "--pf-v5-c-table--cell--Color": 2,
+    "--pf-v5-c-badge--BackgroundColor": 1,
+    "--pf-v5-c-toggle-group__button--BackgroundColor": 4,
+    "--pf-v5-c-toggle-group__button--Color": 1,
+    "--pf-v5-c-page__main-section--BackgroundColor": 1,
+    "--pf-v5-c-table--cell--FontSize": 1,
+    "--pf-v5-c-label__content--before--BorderWidth": 1,
+    "--pf-v5-c-label--BackgroundColor": 1,
+    "--pf-v5-c-table--cell--PaddingRight": 1
+  },
+  "repo": "https://github.com/apache/camel-karavan",
+  "name": "Camel-Karavan",
+  "date": "2023-10-11T21:08:41.359Z",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": 4,
+    "@microsoft/fetch-event-source": 1,
+    "@monaco-editor/react": 4,
+    "@patternfly/patternfly": 4,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-core": 4,
+    "@patternfly/react-log-viewer": 1,
+    "@patternfly/react-table": 4,
+    "@patternfly/react-topology": 2,
+    "@svgr/webpack": 4,
+    "@types/chai": 2,
+    "@types/dagre": 4,
+    "@types/file-saver": 1,
+    "@types/glob": 1,
+    "@types/js-yaml": 5,
+    "@types/mocha": 2,
+    "@types/netlify-auth-providers": 1,
+    "@types/node": 5,
+    "@types/react": 4,
+    "@types/react-dom": 4,
+    "@types/shelljs": 1,
+    "@types/uuid": 5,
+    "@types/vscode": 1,
+    "@typescript-eslint/eslint-plugin": 4,
+    "@typescript-eslint/parser": 4,
+    "@vscode/test-electron": 1,
+    "axios": 3,
+    "buffer": 1,
+    "chai": 2,
+    "copy-webpack-plugin": 1,
+    "cross-env": 2,
+    "css-loader": 1,
+    "dagre": 3,
+    "eslint": 4,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "file-loader": 1,
+    "file-saver": 1,
+    "fs": 1,
+    "html-to-image": 4,
+    "js-yaml": 1,
+    "karavan-core": 3,
+    "keycloak-js": 1,
+    "mini-css-extract-plugin": 1,
+    "mocha": 2,
+    "monaco-editor": 3,
+    "netlify-auth-providers": 1,
+    "octokit": 1,
+    "path-browserify": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "^5.0.2"
+      ],
+      "@patternfly/react-core": [
+        "^5.0.0"
+      ],
+      "@patternfly/react-table": [
+        "^5.0.0"
+      ],
+      "@patternfly/react-topology": [
+        "^5.0.0"
+      ],
+      "@patternfly/react-charts": [
+        "^7.0.0"
+      ],
+      "@patternfly/react-log-viewer": [
+        "^5.0.0"
+      ]
+    },
+    "prettier": 1,
+    "react": 4,
+    "react-dom": 4,
+    "react-router-dom": 1,
+    "react-scripts": 3,
+    "run-script-os": 1,
+    "rxjs": 4,
+    "shelljs": 1,
+    "style-loader": 1,
+    "ts-loader": 1,
+    "ts-node": 1,
+    "tsc-alias": 1,
+    "tsconfig-paths": 1,
+    "typescript": 5,
+    "url-loader": 1,
+    "uuid": 5,
+    "vscode-test": 1,
+    "webpack": 1,
+    "webpack-cli": 1,
+    "zustand": 4
+  }
+}

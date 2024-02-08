@@ -1,0 +1,1723 @@
+{
+  "Migration-Toolkit-for-Containers": {
+    "@patternfly/react-core": [
+      "^4.115.5"
+    ],
+    "@patternfly/react-icons": [
+      "^4.9.5"
+    ],
+    "@patternfly/react-styles": [
+      "^4.8.5"
+    ],
+    "@patternfly/react-table": [
+      "^4.27.5"
+    ]
+  },
+  "Migration-Toolkit-for-Virtualization": {
+    "@patternfly/react-core": [
+      "4.276.6"
+    ],
+    "@patternfly/react-table": [
+      "4.112.39"
+    ],
+    "@patternfly/react-charts": [
+      "6.94.18"
+    ]
+  },
+  "Migration-Toolkit-For-Applications": {
+    "@patternfly/patternfly": [
+      "^5.0.2"
+    ],
+    "@patternfly/react-charts": [
+      "^7.1.0"
+    ],
+    "@patternfly/react-code-editor": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.1.0"
+    ]
+  },
+  "Migration-Tools-Shared-Library": {
+    "@patternfly/react-core": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.1.0"
+    ]
+  },
+  "Automation-Analytics": {
+    "@patternfly/patternfly": [
+      "^4.224.5"
+    ],
+    "@patternfly/react-charts": [
+      "^6.94.21"
+    ],
+    "@patternfly/react-core": [
+      "^4.276.11"
+    ],
+    "@patternfly/react-table": [
+      "^4.113.3"
+    ],
+    "@patternfly/react-tokens": [
+      "^4.94.7"
+    ]
+  },
+  "Automation-Hub": {
+    "@patternfly/patternfly": [
+      "^4.224.5"
+    ],
+    "@patternfly/react-code-editor": [
+      "^4.82.122"
+    ],
+    "@patternfly/react-core": [
+      "^4.278.0"
+    ],
+    "@patternfly/react-table": [
+      "^4.113.7"
+    ]
+  },
+  "Foreman-Katello": {
+    "patternfly": [
+      "4.0.0-alpha.2"
+    ],
+    "angular-patternfly": [
+      "4.0.0-alpha.2"
+    ]
+  },
+  "Foreman-Tools": {
+    "eslint-plugin-patternfly-react": [
+      "^4.1.8",
+      "0.2.0"
+    ],
+    "@patternfly/patternfly": [
+      "^4.171.1"
+    ],
+    "@patternfly/react-charts": [
+      "~6.94.15"
+    ],
+    "@patternfly/react-core": [
+      "~4.271.2"
+    ],
+    "@patternfly/react-icons": [
+      "~4.93.3"
+    ],
+    "@patternfly/react-styles": [
+      "~4.92.3"
+    ],
+    "@patternfly/react-table": [
+      "~4.112.6"
+    ],
+    "@patternfly/react-tokens": [
+      "~4.94.3"
+    ],
+    "patternfly": [
+      "^3.58.0"
+    ],
+    "patternfly-react": [
+      "^2.39.17"
+    ],
+    "patternfly-react-extensions": [
+      "^3.0.12"
+    ]
+  },
+  "Product-Shared-Library": {
+    "@patternfly/quickstarts": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-icons": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-component-groups": [
+      "^5.0.0"
+    ],
+    "@patternfly/patternfly": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-charts": [
+      "6.3.9"
+    ],
+    "@patternfly/react-styles": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.0.0"
+    ]
+  },
+  "Settings-Frontend": {
+    "@patternfly/patternfly": [
+      "^4.151.4"
+    ],
+    "@patternfly/react-core": [
+      "^4.168.9"
+    ],
+    "@patternfly/react-table": [
+      "^4.37.9"
+    ]
+  },
+  "Settings-RBAC": {
+    "@patternfly/quickstarts": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-component-groups": [
+      "^5.0.0"
+    ]
+  },
+  "Settings-Hooks": {
+    "@patternfly/patternfly": [
+      "4.217.1"
+    ],
+    "@patternfly/react-core": [
+      "4.250.1"
+    ],
+    "@patternfly/react-icons": [
+      "4.92.6"
+    ],
+    "@patternfly/react-styles": [
+      "4.91.6"
+    ],
+    "@patternfly/react-table": [
+      "4.111.4"
+    ]
+  },
+  "Settings-Sources": {
+    "@patternfly/react-core": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.1"
+    ]
+  },
+  "Settings-Catalog": {
+    "@patternfly/patternfly": [
+      "^4.185.1"
+    ],
+    "@patternfly/react-core": [
+      "^4.198.5"
+    ],
+    "@patternfly/react-icons": [
+      "^4.49.19"
+    ],
+    "@patternfly/react-styles": [
+      "^4.52.16"
+    ],
+    "@patternfly/react-table": [
+      "^4.37.8"
+    ]
+  },
+  "Insights-Dashboard": {
+    "@patternfly/patternfly": [
+      "5.1.0"
+    ],
+    "@patternfly/react-charts": [
+      "7.1.2"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.2"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.2"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.1.2"
+    ]
+  },
+  "Insights-Vulnerability": {
+    "@patternfly/patternfly": [
+      "^4.224.2"
+    ],
+    "@patternfly/react-core": [
+      "^4.276.8"
+    ],
+    "@patternfly/react-icons": [
+      "^4.93.6"
+    ],
+    "@patternfly/react-table": [
+      "^4.113.0"
+    ]
+  },
+  "Insights-Compliance": {
+    "@patternfly/react-charts": [
+      "^6.94.15"
+    ],
+    "@patternfly/react-core": [
+      "^4.267.7"
+    ],
+    "@patternfly/react-icons": [
+      "^4.93.3"
+    ],
+    "@patternfly/react-table": [
+      "^4.112.6"
+    ],
+    "@patternfly/patternfly": [
+      "^4.222.4"
+    ]
+  },
+  "Insights-Drift": {
+    "@patternfly/patternfly": [
+      "^4.196.7"
+    ],
+    "@patternfly/react-core": [
+      "^4.221.3"
+    ],
+    "@patternfly/react-icons": [
+      "^4.72.3"
+    ],
+    "@patternfly/react-table": [
+      "^4.90.3"
+    ]
+  },
+  "Insights-Inventory": {
+    "@patternfly/react-core": [
+      "^4.278.0"
+    ],
+    "@patternfly/react-icons": [
+      "^4.93.7"
+    ],
+    "@patternfly/react-table": [
+      "^4.113.7"
+    ],
+    "@patternfly/patternfly": [
+      "^4.224.2"
+    ]
+  },
+  "Insights-Remediations": {
+    "@patternfly/react-charts": [
+      "^7.0.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-log-viewer": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.0.0"
+    ],
+    "@patternfly/patternfly": [
+      "^4.221.2"
+    ]
+  },
+  "Cost-Management": {
+    "@patternfly/patternfly": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-charts": [
+      "^7.2.0"
+    ],
+    "@patternfly/react-component-groups": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-icons": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.2.0"
+    ],
+    "eslint-plugin-patternfly-react": [
+      "^5.2.1"
+    ]
+  },
+  "Migration-Analytics": {
+    "@patternfly/patternfly": [
+      "^4.10.31"
+    ],
+    "@patternfly/react-charts": [
+      "^6.5.1"
+    ],
+    "@patternfly/react-core": [
+      "^4.22.2"
+    ],
+    "@patternfly/react-table": [
+      "^4.8.3"
+    ]
+  },
+  "Insights-Curiosity": {
+    "@patternfly/patternfly": [
+      "5.1.0"
+    ],
+    "@patternfly/react-charts": [
+      "7.1.2"
+    ],
+    "@patternfly/react-core": [
+      "5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "5.1.2"
+    ],
+    "@patternfly/react-styles": [
+      "5.1.2"
+    ],
+    "@patternfly/react-table": [
+      "5.1.2"
+    ],
+    "@patternfly/react-tokens": [
+      "5.1.2"
+    ]
+  },
+  "Cockpit": {
+    "@patternfly/patternfly": [
+      "5.1.0"
+    ],
+    "@patternfly/react-core": [
+      "5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "5.1.2"
+    ],
+    "@patternfly/react-styles": [
+      "5.1.2"
+    ],
+    "@patternfly/react-table": [
+      "5.1.2"
+    ],
+    "@patternfly/react-tokens": [
+      "5.1.2"
+    ]
+  },
+  "RHEL-Composer": {
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/react-core": [
+      "4.267.6"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.6"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ]
+  },
+  "OpenShift-Admin-Console": {
+    "@patternfly/react-core": [
+      "5.1.1"
+    ],
+    "@patternfly/react-icons": [
+      "5.1.1"
+    ],
+    "@patternfly/react-table": [
+      "5.1.1"
+    ],
+    "@patternfly-4/patternfly": [
+      "npm:@patternfly/patternfly@4.224.5"
+    ],
+    "@patternfly-4/quickstarts": [
+      "npm:@patternfly/quickstarts@2.4.2"
+    ],
+    "@patternfly-4/react-catalog-view-extension": [
+      "npm:@patternfly/react-catalog-view-extension@4.96.1"
+    ],
+    "@patternfly-4/react-console": [
+      "npm:@patternfly/react-console@4.13.4"
+    ],
+    "@patternfly-4/react-core": [
+      "npm:@patternfly/react-core@4.278.0"
+    ],
+    "@patternfly-4/react-icons": [
+      "npm:@patternfly/react-icons@4.93.7"
+    ],
+    "@patternfly-4/react-styles": [
+      "npm:@patternfly/react-styles@4.92.8"
+    ],
+    "@patternfly-4/react-table": [
+      "npm:@patternfly/react-table@4.113.6"
+    ],
+    "@patternfly-4/react-tokens": [
+      "npm:@patternfly/react-tokens@4.94.7"
+    ],
+    "@patternfly/patternfly": [
+      "5.1.0"
+    ],
+    "@patternfly/quickstarts": [
+      "5.1.0"
+    ],
+    "@patternfly/react-catalog-view-extension": [
+      "5.0.0"
+    ],
+    "@patternfly/react-charts": [
+      "7.1.1"
+    ],
+    "@patternfly/react-console": [
+      "5.0.0"
+    ],
+    "@patternfly/react-log-viewer": [
+      "5.0.0"
+    ],
+    "@patternfly/react-styles": [
+      "5.1.1"
+    ],
+    "@patternfly/react-tokens": [
+      "5.1.1"
+    ],
+    "@patternfly/react-topology": [
+      "5.1.0"
+    ],
+    "@patternfly/react-user-feedback": [
+      "5.0.0"
+    ],
+    "@patternfly/react-virtualized-extension": [
+      "5.1.0"
+    ],
+    "@console/patternfly": [
+      "0.0.0-fixed"
+    ]
+  },
+  "Quay": {
+    "@patternfly/patternfly": [
+      "^5.0.4"
+    ],
+    "@patternfly/react-charts": [
+      "^7.1.0",
+      "^7.1.1"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.0"
+    ]
+  },
+  "Virtualization-Frontend": {
+    "@patternfly/react-charts": [
+      "6.94.1"
+    ],
+    "@patternfly/react-console": [
+      "4.92.1"
+    ],
+    "@patternfly/react-core": [
+      "4.241.1"
+    ],
+    "@patternfly/react-icons": [
+      "4.92.1"
+    ],
+    "@patternfly/react-table": [
+      "4.110.1"
+    ]
+  },
+  "Kiali-App": {
+    "@patternfly/patternfly": [
+      "2.71.6"
+    ],
+    "@patternfly/react-charts": [
+      "5.3.22"
+    ],
+    "@patternfly/react-core": [
+      "3.158.4"
+    ],
+    "@patternfly/react-styles": [
+      "3.7.14"
+    ],
+    "@patternfly/react-table": [
+      "2.28.51"
+    ],
+    "@patternfly/react-tokens": [
+      "2.8.15"
+    ]
+  },
+  "Integreatly": {
+    "@patternfly/patternfly": [
+      "4.23.3"
+    ],
+    "@patternfly/react-core": [
+      "4.32.1"
+    ],
+    "@patternfly/react-icons": [
+      "4.5.0"
+    ],
+    "@patternfly/react-styles": [
+      "4.5.0"
+    ],
+    "@rh-uxd/appservices-patternfly-core": [
+      "1.0.5"
+    ],
+    "eslint-plugin-patternfly-react": [
+      "0.2.3"
+    ]
+  },
+  "AMQ": {
+    "@patternfly/react-charts": [
+      "^5.3.12"
+    ],
+    "@patternfly/react-core": [
+      "^3.153.13",
+      "^3.77.2"
+    ],
+    "@patternfly/react-icons": [
+      "^3.15.1",
+      "^3.10.15"
+    ],
+    "@patternfly/react-styles": [
+      "^3.7.8",
+      "^3.5.7"
+    ],
+    "@patternfly/react-table": [
+      "^2.28.10"
+    ],
+    "use-patternfly": [
+      "^0.1.0"
+    ]
+  },
+  "AMQ-Interconnect": {
+    "@patternfly/patternfly": [
+      "^4.183.1"
+    ],
+    "@patternfly/react-charts": [
+      "^6.51.19"
+    ],
+    "@patternfly/react-core": [
+      "^4.198.19"
+    ],
+    "@patternfly/react-icons": [
+      "^4.49.19"
+    ],
+    "@patternfly/react-styles": [
+      "^4.48.19"
+    ],
+    "@patternfly/react-table": [
+      "^4.67.19"
+    ],
+    "@patternfly/react-topology": [
+      "^4.45.19"
+    ]
+  },
+  "Fuse-Console": {
+    "@patternfly/patternfly": [
+      "^2.0.0"
+    ],
+    "angular-patternfly": [
+      "^5.0.0"
+    ]
+  },
+  "Fuse-Online-Syndesis": {
+    "patternfly": [
+      "3.59.5"
+    ],
+    "@patternfly/patternfly": [
+      "1.0.250",
+      "^4.115.2"
+    ],
+    "@types/patternfly-react": [
+      "*"
+    ],
+    "@patternfly/react-core": [
+      "^4.135.0"
+    ],
+    "@patternfly/react-icons": [
+      "^4.11.0"
+    ],
+    "@patternfly/react-styles": [
+      "^4.11.0"
+    ],
+    "@patternfly/react-table": [
+      "^4.29.0"
+    ],
+    "@patternfly/react-topology": [
+      "^4.9.6"
+    ],
+    "@patternfly/react-charts": [
+      "^6.15.3"
+    ],
+    "@patternfly/react-tokens": [
+      "^4.12.0"
+    ]
+  },
+  "3Scale": {
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/quickstarts": [
+      "^2.4.1"
+    ],
+    "@patternfly/react-core": [
+      "4.276.8"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ]
+  },
+  "3Scale-Fly": {
+    "@patternfly/react-core": [
+      "^3.124.1"
+    ],
+    "@patternfly/react-table": [
+      "^2.24.41"
+    ]
+  },
+  "Apicurio": {
+    "@patternfly/patternfly": [
+      "1.0.250"
+    ],
+    "patternfly": [
+      "3.59.1"
+    ]
+  },
+  "Apicurio-POC": {
+    "@patternfly/react-core": [
+      "^4.32.1"
+    ],
+    "@patternfly/react-icons": [
+      "^4.5.0"
+    ]
+  },
+  "Keycloak": {
+    "@patternfly/patternfly": [
+      "^4.224.5"
+    ],
+    "@patternfly/react-core": [
+      "^4.278.0",
+      "^4.278.1"
+    ],
+    "@patternfly/react-icons": [
+      "^4.93.7"
+    ],
+    "@patternfly/react-table": [
+      "^4.113.6"
+    ],
+    "@patternfly/react-code-editor": [
+      "^4.82.121"
+    ],
+    "@patternfly/react-styles": [
+      "^4.92.8"
+    ],
+    "@patternfly-v5/patternfly": [
+      "npm:@patternfly/patternfly@^5.1.0"
+    ],
+    "patternfly": [
+      "^3.59.5"
+    ]
+  },
+  "Kogito": {
+    "@kie-tools-core/patternfly-base": [
+      "workspace:*"
+    ],
+    "@patternfly/react-core": [
+      "^4.276.6"
+    ],
+    "@patternfly/react-icons": [
+      "^4.93.6"
+    ],
+    "@kie-tools/uniforms-patternfly": [
+      "workspace:*"
+    ],
+    "@patternfly/react-styles": [
+      "^4.92.6"
+    ],
+    "@patternfly/react-table": [
+      "^4.112.39"
+    ],
+    "@patternfly/react-charts": [
+      "^6.94.18"
+    ],
+    "@kie-tools/uniforms-patternfly-codegen": [
+      "workspace:*"
+    ],
+    "@patternfly/react-tokens": [
+      "^4.94.6"
+    ],
+    "@patternfly/patternfly": [
+      "^4.224.2"
+    ],
+    "@patternfly/quickstarts": [
+      "^2.3.2"
+    ]
+  },
+  "Application-Migration-Toolkit": {
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/react-charts": [
+      "6.94.18"
+    ],
+    "@patternfly/react-code-editor": [
+      "4.82.113"
+    ],
+    "@patternfly/react-core": [
+      "4.267.6"
+    ],
+    "@patternfly/react-table": [
+      "4.112.39"
+    ]
+  },
+  "Infinispan": {
+    "@patternfly/react-charts": [
+      "^7.1.1"
+    ],
+    "@patternfly/react-code-editor": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-icons": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-log-viewer": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-styles": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.2.0"
+    ]
+  },
+  "Pbench": {
+    "@patternfly/patternfly": [
+      "4.224.5"
+    ],
+    "@patternfly/react-core": [
+      "4.198.19"
+    ],
+    "@patternfly/react-table": [
+      "4.75.2"
+    ],
+    "patternfly": [
+      "^3.9.0"
+    ]
+  },
+  "Aerogear-Uniforms-Patternfly": {
+    "@patternfly/react-core": [
+      "4.135.0",
+      "^4.135.0"
+    ],
+    "@patternfly/react-icons": [
+      "4.11.0",
+      "^4.11.0"
+    ],
+    "uniforms-patternfly": [
+      "4.7.9"
+    ]
+  },
+  "Ansible-Community-Ara-Web": {
+    "@patternfly/patternfly": [
+      "^2.71.5"
+    ],
+    "@patternfly/react-core": [
+      "^3.153.3"
+    ],
+    "@patternfly/react-icons": [
+      "^3.15.16"
+    ],
+    "@patternfly/react-tokens": [
+      "^2.8.12"
+    ]
+  },
+  "HAC-Dev": {
+    "@patternfly/patternfly": [
+      "5.1.0"
+    ],
+    "@patternfly/quickstarts": [
+      "5.0.0"
+    ],
+    "@patternfly/react-catalog-view-extension": [
+      "5.0.0"
+    ],
+    "@patternfly/react-core": [
+      "5.1.1"
+    ],
+    "@patternfly/react-table": [
+      "5.1.1"
+    ],
+    "@patternfly/react-topology": [
+      "5.1.0"
+    ],
+    "@patternfly/react-virtualized-extension": [
+      "5.0.0"
+    ]
+  },
+  "Ansible-awx": {
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/react-core": [
+      "4.276.8"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.6"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ]
+  },
+  "Camel-Karavan": {
+    "@patternfly/patternfly": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-topology": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-charts": [
+      "^7.2.0"
+    ],
+    "@patternfly/react-log-viewer": [
+      "^5.1.0"
+    ]
+  },
+  "Apicurio-Registry": {
+    "@patternfly/patternfly": [
+      "5.2.0"
+    ],
+    "@patternfly/react-code-editor": [
+      "5.2.0"
+    ],
+    "@patternfly/react-core": [
+      "5.2.0"
+    ],
+    "@patternfly/react-icons": [
+      "5.2.0"
+    ],
+    "@patternfly/react-table": [
+      "5.2.0"
+    ]
+  },
+  "Change-Metrics-Monocle": {
+    "@patternfly/react-core": [
+      "^4.115.2"
+    ],
+    "@patternfly/react-table": [
+      "^4.29.12"
+    ],
+    "@softwarefactory-project/re-patternfly": [
+      "^3.0.3"
+    ]
+  },
+  "Cockpit-certificates": {
+    "@patternfly/patternfly": [
+      "5.1.0"
+    ],
+    "@patternfly/react-core": [
+      "5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "5.1.2"
+    ],
+    "@patternfly/react-styles": [
+      "5.1.2"
+    ],
+    "@patternfly/react-table": [
+      "5.1.2"
+    ],
+    "@patternfly/react-tokens": [
+      "5.1.2"
+    ]
+  },
+  "Cockpit-machines": {
+    "@patternfly/patternfly": [
+      "5.1.0"
+    ],
+    "@patternfly/react-console": [
+      "5.0.0"
+    ],
+    "@patternfly/react-core": [
+      "5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "5.1.2"
+    ],
+    "@patternfly/react-styles": [
+      "5.1.2"
+    ],
+    "@patternfly/react-table": [
+      "5.1.2"
+    ],
+    "@patternfly/react-tokens": [
+      "5.1.2"
+    ]
+  },
+  "Cockpit-podman": {
+    "@patternfly/patternfly": [
+      "5.1.0"
+    ],
+    "@patternfly/react-core": [
+      "5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "5.1.2"
+    ],
+    "@patternfly/react-styles": [
+      "5.1.2"
+    ],
+    "@patternfly/react-table": [
+      "5.1.2"
+    ],
+    "@patternfly/react-tokens": [
+      "5.1.2"
+    ]
+  },
+  "Cockpit-Starter-Kit": {
+    "@patternfly/patternfly": [
+      "5.2.0"
+    ],
+    "@patternfly/react-core": [
+      "5.2.0"
+    ],
+    "@patternfly/react-icons": [
+      "5.2.0"
+    ],
+    "@patternfly/react-styles": [
+      "5.2.0"
+    ]
+  },
+  "Debezium": {
+    "@patternfly/react-core": [
+      "5.2.0"
+    ],
+    "@patternfly/react-icons": [
+      "5.2.0"
+    ],
+    "@patternfly/react-styles": [
+      "5.2.0"
+    ],
+    "@patternfly/react-table": [
+      "5.2.0"
+    ]
+  },
+  "ChRIS": {
+    "@patternfly/patternfly": [
+      "^4.59.1"
+    ],
+    "@patternfly/react-core": [
+      "^4.75.2"
+    ],
+    "@patternfly/react-icons": [
+      "^4.7.16"
+    ],
+    "@patternfly/react-table": [
+      "^4.27.7"
+    ]
+  },
+  "Keycloak-Quickstarts": {
+    "@patternfly/react-core": [
+      "^3.153.3"
+    ],
+    "@patternfly/react-icons": [
+      "^3.15.16"
+    ],
+    "@patternfly/react-styles": [
+      "^3.7.14"
+    ]
+  },
+  "Kiali": {
+    "@patternfly/patternfly": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-charts": [
+      "^7.2.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-topology": [
+      "^5.2.0"
+    ]
+  },
+  "Optaweb-Employee-Rostering": {
+    "@patternfly/patternfly": [
+      "^2.71.5"
+    ],
+    "@patternfly/react-core": [
+      "^4.113.1"
+    ],
+    "@patternfly/react-icons": [
+      "^4.8.4"
+    ],
+    "@patternfly/react-table": [
+      "^4.26.2"
+    ]
+  },
+  "Optaweb-Vehicle-Routing": {
+    "@patternfly/patternfly": [
+      "~4.219.2"
+    ],
+    "@patternfly/react-core": [
+      "~4.250.1"
+    ],
+    "@patternfly/react-icons": [
+      "~4.92.10"
+    ]
+  },
+  "Kui": {
+    "@kui-shell/plugin-patternfly4-themes": [
+      "file:plugins/plugin-patternfly4-themes"
+    ],
+    "@patternfly/react-core": [
+      "^4.276.8"
+    ],
+    "@patternfly/react-styles": [
+      "^4.92.6"
+    ],
+    "@patternfly/react-table": [
+      "^4.113.0"
+    ]
+  },
+  "Ocristopher": {
+    "@patternfly/patternfly": [
+      "5.2.0"
+    ],
+    "@patternfly/react-core": [
+      "5.2.0"
+    ],
+    "@patternfly/react-icons": [
+      "5.2.0"
+    ],
+    "@patternfly/react-styles": [
+      "5.2.0"
+    ]
+  },
+  "Console-Plugin-Template": {
+    "@patternfly/react-core": [
+      "4.221.3"
+    ]
+  },
+  "Packit-Dashboard": {
+    "@patternfly/patternfly": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-charts": [
+      "^7.1.1"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-log-viewer": [
+      "^5"
+    ],
+    "@patternfly/react-styles": [
+      "5.1.1"
+    ],
+    "@patternfly/react-table": [
+      "5.1.1"
+    ]
+  },
+  "PatternFly-React-Seed": {
+    "@patternfly/react-core": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-styles": [
+      "^5.1.1"
+    ]
+  },
+  "Hybrid-Commited-Spend": {
+    "@patternfly/patternfly": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-charts": [
+      "^7.2.0"
+    ],
+    "@patternfly/react-component-groups": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-icons": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.2.0"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.2.0"
+    ],
+    "eslint-plugin-patternfly-react": [
+      "^5.2.1"
+    ]
+  },
+  "Opendatahub": {
+    "@patternfly/patternfly": [
+      "^5.1.0"
+    ],
+    "@patternfly/quickstarts": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-catalog-view-extension": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-charts": [
+      "^7.1.1"
+    ],
+    "@patternfly/react-code-editor": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-log-viewer": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-styles": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-topology": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-virtualized-extension": [
+      "^5.0.0"
+    ]
+  },
+  "Operatorhub": {
+    "@patternfly/patternfly-next": [
+      "^1.0.109"
+    ],
+    "eslint-plugin-patternfly-react": [
+      "^0.2.3"
+    ],
+    "patternfly": [
+      "^3.59.4"
+    ],
+    "patternfly-react": [
+      "^2.39.15"
+    ],
+    "patternfly-react-extensions": [
+      "^2.20.9"
+    ]
+  },
+  "HAC-Core": {
+    "@patternfly/patternfly": [
+      "^5.1.0"
+    ],
+    "@patternfly/quickstarts": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-catalog-view-extension": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-virtualized-extension": [
+      "^5.0.0"
+    ]
+  },
+  "Subscriptions-quipucords": {
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/react-core": [
+      "4.276.8"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.6"
+    ],
+    "@patternfly/react-styles": [
+      "4.92.6"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ],
+    "@patternfly/react-tokens": [
+      "4.94.6"
+    ],
+    "patternfly": [
+      "3.59.5"
+    ],
+    "patternfly-react": [
+      "2.40.0"
+    ]
+  },
+  "Ansible-ui": {
+    "@patternfly/patternfly": [
+      "^5.1",
+      "5.1.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.1",
+      "5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1",
+      "5.1.2"
+    ],
+    "@patternfly/react-table": [
+      "^5.1",
+      "5.1.2"
+    ],
+    "@patternfly/quickstarts": [
+      "5.1.0"
+    ],
+    "@patternfly/react-charts": [
+      "7.1.2"
+    ],
+    "@patternfly/react-topology": [
+      "5.1.0"
+    ]
+  },
+  "Openshift-assisted-ui": {
+    "@patternfly/patternfly": [
+      "^4.222.4"
+    ],
+    "@patternfly/react-code-editor": [
+      "^4.82.113"
+    ],
+    "@patternfly/react-core": [
+      "^4.168.8"
+    ],
+    "@patternfly/react-icons": [
+      "^4.93.3"
+    ],
+    "@patternfly/react-styles": [
+      "^4.92.3"
+    ],
+    "@patternfly/react-table": [
+      "^4.37.8"
+    ],
+    "@patternfly/react-tokens": [
+      "^4.94.3"
+    ]
+  },
+  "HAC-build-service": {
+    "@patternfly/react-core": [
+      "^4.192.15"
+    ]
+  },
+  "Openshift-monitoring-plugin": {
+    "@patternfly/react-charts": [
+      "6.94.19"
+    ],
+    "@patternfly/react-core": [
+      "4.276.8"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ]
+  },
+  "Quay-ui": {
+    "@patternfly/patternfly": [
+      "^4.185.1"
+    ],
+    "@patternfly/react-charts": [
+      "^6.74.3"
+    ],
+    "@patternfly/react-core": [
+      "^4.202.16"
+    ],
+    "@patternfly/react-icons": [
+      "^4.53.16"
+    ],
+    "@patternfly/react-table": [
+      "^4.71.16"
+    ]
+  },
+  "RedHatInsights-acs-ui": {
+    "@patternfly/react-core": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.0"
+    ]
+  },
+  "RedHatInsights-api-documentation-frontend": {
+    "@patternfly/patternfly": [
+      "^4.222.4"
+    ],
+    "@patternfly/react-code-editor": [
+      "^4.82.113"
+    ],
+    "@patternfly/react-core": [
+      "^4.267.6"
+    ],
+    "@patternfly/react-icons": [
+      "^4.93.3"
+    ],
+    "@patternfly/react-styles": [
+      "^4.92.3"
+    ],
+    "@patternfly/react-table": [
+      "^4.112.6"
+    ],
+    "@patternfly/react-tokens": [
+      "^4.94.3"
+    ]
+  },
+  "RedHatInsights-cloud-connector-frontend": {
+    "@patternfly/patternfly": [
+      "^4.196.7"
+    ],
+    "@patternfly/react-core": [
+      "^4.221.3"
+    ],
+    "@patternfly/react-icons": [
+      "^4.72.3"
+    ],
+    "@patternfly/react-table": [
+      "^4.90.3"
+    ]
+  },
+  "RedHatInsights-insights-chrome": {
+    "@patternfly/patternfly": [
+      "^5.1.0"
+    ],
+    "@patternfly/quickstarts": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-charts": [
+      "^7.1.2"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.2"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.1.2"
+    ]
+  },
+  "Stackrox": {
+    "@patternfly/react-charts": [
+      "6.94.18"
+    ],
+    "@patternfly/react-code-editor": [
+      "^4.82.113"
+    ],
+    "@patternfly/react-core": [
+      "4.276.6"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.6"
+    ],
+    "@patternfly/react-styles": [
+      "4.92.6"
+    ],
+    "@patternfly/react-table": [
+      "4.112.39"
+    ],
+    "@patternfly/react-topology": [
+      "4.93.5"
+    ],
+    "@patternfly/react-user-feedback": [
+      "^1.1.2"
+    ]
+  },
+  "ACM-console": {
+    "@patternfly-labs/react-form-wizard": [
+      "^1.27.0"
+    ],
+    "@patternfly/patternfly": [
+      "4.196.7"
+    ],
+    "@patternfly/react-charts": [
+      "^6.74.3"
+    ],
+    "@patternfly/react-code-editor": [
+      "4.65.1"
+    ],
+    "@patternfly/react-core": [
+      "4.221.11"
+    ],
+    "@patternfly/react-icons": [
+      "4.75.1"
+    ],
+    "@patternfly/react-log-viewer": [
+      "4.87.21"
+    ],
+    "@patternfly/react-styles": [
+      "4.92.3"
+    ],
+    "@patternfly/react-table": [
+      "4.90.3"
+    ],
+    "@patternfly/react-topology": [
+      "4.38.5"
+    ]
+  },
+  "Freeipa": {
+    "@patternfly/patternfly": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.2"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.2"
+    ]
+  },
+  "App-services-ui-components": {
+    "@patternfly/patternfly": [
+      "4.222.4",
+      "^4.222.4"
+    ],
+    "@patternfly/react-charts": [
+      "6.94.15",
+      "^6.94.15"
+    ],
+    "@patternfly/react-core": [
+      "4.267.6",
+      "^4.267.6"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.3",
+      "^4.93.3"
+    ],
+    "@patternfly/react-table": [
+      "4.112.6",
+      "^4.112.6"
+    ],
+    "@patternfly/react-tokens": [
+      "^4.94.3"
+    ]
+  },
+  "App-services-ui": {
+    "@patternfly/react-charts": [
+      "6.94.19"
+    ],
+    "@patternfly/patternfly": [
+      "5.0.2"
+    ],
+    "@patternfly/react-core": [
+      "4.276.8"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.6"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ]
+  },
+  "kas-ui": {
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/quickstarts": [
+      "2.4.0"
+    ],
+    "@patternfly/react-charts": [
+      "6.94.19"
+    ],
+    "@patternfly/react-core": [
+      "4.276.8"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.6"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ]
+  },
+  "kafka-ui": {
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/react-charts": [
+      "6.94.18"
+    ],
+    "@patternfly/react-core": [
+      "4.276.6"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.6"
+    ],
+    "@patternfly/react-table": [
+      "4.112.39"
+    ]
+  },
+  "srs-ui": {
+    "@patternfly/react-styles": [
+      "4.92.6"
+    ],
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/quickstarts": [
+      "2.4.3",
+      "2.4.1"
+    ],
+    "@patternfly/react-charts": [
+      "6.94.19"
+    ],
+    "@patternfly/react-core": [
+      "4.276.8"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.6"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ]
+  },
+  "rhosak-ui": {
+    "@patternfly/patternfly": [
+      "4.222.4"
+    ],
+    "@patternfly/react-charts": [
+      "6.94.15"
+    ],
+    "@patternfly/react-core": [
+      "4.267.6"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.3"
+    ],
+    "@patternfly/react-table": [
+      "4.112.6"
+    ],
+    "@patternfly/react-tokens": [
+      "4.94.3"
+    ]
+  },
+  "RHOSE-POC": {
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/react-charts": [
+      "6.94.19"
+    ],
+    "@patternfly/react-code-editor": [
+      "4.82.115"
+    ],
+    "@patternfly/react-core": [
+      "4.276.8"
+    ],
+    "@patternfly/react-icons": [
+      "4.93.6"
+    ],
+    "@patternfly/react-styles": [
+      "4.92.6"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ],
+    "@patternfly/react-topology": [
+      "4.91.40"
+    ]
+  },
+  "RHOSE-production": {
+    "@patternfly/react-core": [
+      "^4.87.2",
+      "4.276.8"
+    ],
+    "@patternfly/react-icons": [
+      "^4.7.11",
+      "4.93.6"
+    ],
+    "@patternfly/react-styles": [
+      "^4.7.8",
+      "4.92.6"
+    ],
+    "@patternfly/patternfly": [
+      "4.224.2"
+    ],
+    "@patternfly/quickstarts": [
+      "1.4.0"
+    ],
+    "@patternfly/react-catalog-view-extension": [
+      "4.96.0"
+    ],
+    "@patternfly/react-charts": [
+      "6.94.19"
+    ],
+    "@patternfly/react-table": [
+      "4.113.0"
+    ],
+    "@patternfly/react-virtualized-extension": [
+      "4.88.115"
+    ],
+    "uniforms-patternfly": [
+      "4.7.9"
+    ]
+  },
+  "Backstage": {
+    "@patternfly/patternfly": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-charts": [
+      "^7.1.1"
+    ],
+    "@patternfly/react-core": [
+      "^5.1.1",
+      "^5.1.2"
+    ],
+    "@patternfly/react-icons": [
+      "^5.1.1"
+    ],
+    "@patternfly/react-tokens": [
+      "^5.1.2",
+      "^5.1.1"
+    ],
+    "@patternfly/react-topology": [
+      "^5.1.0"
+    ],
+    "@patternfly/react-styles": [
+      "^5.1.1"
+    ]
+  }
+}

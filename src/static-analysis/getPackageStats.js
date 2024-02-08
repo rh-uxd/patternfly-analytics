@@ -3,6 +3,7 @@ const fsj = require("fs");
 const path = require('path');
 
 const aggregated = {};
+const pfVersions = {};
 
 function getPackageStats(repoPath, repoName) {
   const result = {};
@@ -14,11 +15,31 @@ function getPackageStats(repoPath, repoName) {
     Object.keys(dependencies).forEach(dep => {
       result[dep] = result[dep] || 0;
       result[dep]++;
+      if (dep.includes('patternfly')) {
+        trackPfVersions(dependencies, dep);
+      }
      // console.log(dep); //dependency name 
       aggregated[dep] = aggregated[dep] || [];
       aggregated[dep].push(repoName);
     });
   }
+
+  // called in countDeps to track PF dependency versions
+  function trackPfVersions(dependencies, dep) {
+    const pfVersion = dependencies[dep];
+    result.patternflyVersions = result.patternflyVersions || {};
+    result.patternflyVersions[dep] = result.patternflyVersions[dep] || [];
+    if (!result.patternflyVersions[dep].includes(pfVersion)) {
+      result.patternflyVersions[dep].push(pfVersion);
+    }
+    // track repo & pf package names
+    pfVersions[repoName] = pfVersions[repoName] || {};
+    pfVersions[repoName][dep] = pfVersions[repoName][dep] || [];
+    // add dependency version
+    if (!pfVersions[repoName][dep].includes(pfVersion)) {
+      pfVersions[repoName][dep].push(pfVersion);
+    }
+}
 
   function outputDeps(dependencies, file) {
     if (!dependencies) {
@@ -143,7 +164,6 @@ function getPackageStats(repoPath, repoName) {
 
   const ordered = {};
   Object.keys(result).sort().forEach(key => ordered[key] = result[key]);
-
   return ordered;
 }
 
@@ -154,7 +174,12 @@ function getAggregatePackageStats() {
   return ordered;
 }
 
+function getPFVersions() {
+  return pfVersions;
+}
+
 module.exports = {
   getPackageStats,
-  getAggregatePackageStats
+  getAggregatePackageStats,
+  getPFVersions
 }

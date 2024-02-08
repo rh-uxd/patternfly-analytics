@@ -1,0 +1,160 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 20,
+        "js": 1
+      },
+      "js": 10,
+      "ts": 4,
+      "tsx": 48
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/__tests__/ListAddField.tsx",
+          "/__tests__/ListDelField.tsx",
+          "/__tests__/NestField.tsx",
+          "/__tests__/SelectField.tsx",
+          "/__tests__/SubmitField.tsx",
+          "/__tests__/TextField.tsx",
+          "/src/BaseForm.tsx",
+          "/src/BoolField.tsx",
+          "/src/DateField.tsx",
+          "/src/ListAddField.tsx",
+          "/src/ListDelField.tsx",
+          "/src/ListField.tsx",
+          "/src/LongTextField.tsx",
+          "/src/NestField.tsx",
+          "/src/NumField.tsx",
+          "/src/RadioField.tsx",
+          "/src/SelectField.tsx",
+          "/src/SubmitField.tsx",
+          "/src/TextField.tsx",
+          "/src/wrapField.tsx"
+        ]
+      },
+      "js": {
+        "files": [
+          "/examples/App.js"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Button": 6,
+      "Card": 2,
+      "Select": 2,
+      "Radio": 3,
+      "Form": 1,
+      "Checkbox": 2,
+      "CheckboxProps": 2,
+      "Switch": 1,
+      "SwitchProps": 1,
+      "DatePicker": 2,
+      "Flex": 1,
+      "FlexItem": 1,
+      "InputGroup": 1,
+      "TextInputProps": 3,
+      "TimePicker": 2,
+      "ButtonProps": 2,
+      "Split": 1,
+      "SplitItem": 1,
+      "Tooltip": 1,
+      "TextArea": 1,
+      "CardBody": 1,
+      "TextInput": 2,
+      "RadioProps": 2,
+      "SelectDirection": 1,
+      "SelectOption": 1,
+      "SelectOptionObject": 1,
+      "SelectProps": 1,
+      "SelectVariant": 1,
+      "FormGroup": 1,
+      "FormGroupProps": 1
+    },
+    "uniforms-patternfly/dist/es6": {
+      "AutoForm": 1
+    },
+    "@patternfly/react-icons": {
+      "PlusCircleIcon": 1,
+      "MinusCircleIcon": 1,
+      "OutlinedQuestionCircleIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-form__helper-text": 2,
+    "pf-c-form": 1
+  },
+  "cssVars": {},
+  "repo": "https://github.com/aerogear/uniforms-patternfly",
+  "name": "Aerogear-Uniforms-Patternfly",
+  "date": "2023-10-11T21:08:41.359Z",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": 1,
+    "@babel/polyfill": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-react": 1,
+    "@babel/preset-typescript": 1,
+    "@patternfly/react-core": 3,
+    "@patternfly/react-icons": 3,
+    "@testing-library/react": 1,
+    "@types/classnames": 1,
+    "@types/enzyme": 1,
+    "@types/invariant": 1,
+    "@types/jest": 1,
+    "@types/lodash": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "ajv": 1,
+    "babel-eslint": 1,
+    "classnames": 1,
+    "enzyme": 1,
+    "enzyme-adapter-react-16": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-config-vazco": 1,
+    "eslint-import-resolver-alias": 1,
+    "eslint-import-resolver-typescript": 1,
+    "eslint-plugin-babel": 1,
+    "eslint-plugin-import": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-vazco": 1,
+    "invariant": 1,
+    "jest": 1,
+    "lodash": 1,
+    "parcel-bundler": 1,
+    "patternflyVersions": {
+      "@patternfly/react-core": [
+        "4.135.0",
+        "^4.135.0"
+      ],
+      "@patternfly/react-icons": [
+        "4.11.0",
+        "^4.11.0"
+      ],
+      "uniforms-patternfly": [
+        "4.7.9"
+      ]
+    },
+    "prettier": 1,
+    "prop-types": 1,
+    "react": 3,
+    "react-dom": 2,
+    "react-scripts": 1,
+    "rimraf": 1,
+    "simpl-schema": 2,
+    "ts-jest": 1,
+    "ts-node": 1,
+    "tslib": 2,
+    "typescript": 1,
+    "uniforms": 2,
+    "uniforms-bridge-graphql": 1,
+    "uniforms-bridge-json-schema": 1,
+    "uniforms-bridge-simple-schema": 1,
+    "uniforms-bridge-simple-schema-2": 2,
+    "uniforms-patternfly": 1
+  }
+}
