@@ -1,0 +1,439 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "jsx": 59,
+        "js": 1,
+        "scss": 12,
+        "css": 3
+      },
+      "js": 26,
+      "jsx": 60,
+      "scss": 18,
+      "css": 7
+    },
+    "withPatternfly": {
+      "jsx": {
+        "files": [
+          "/src/app.jsx",
+          "/src/components/aggregateStatusCards.jsx",
+          "/src/components/common/deleteResource.jsx",
+          "/src/components/common/machinesConnectionSelector.jsx",
+          "/src/components/common/needsShutdown.jsx",
+          "/src/components/common/stateIcon.jsx",
+          "/src/components/create-vm-dialog/createVmDialog.jsx",
+          "/src/components/libvirtSlate.jsx",
+          "/src/components/networks/createNetworkDialog.jsx",
+          "/src/components/networks/network.jsx",
+          "/src/components/networks/networkList.jsx",
+          "/src/components/networks/networkOverviewTab.jsx",
+          "/src/components/storagePools/createStoragePoolDialog.jsx",
+          "/src/components/storagePools/storagePool.jsx",
+          "/src/components/storagePools/storagePoolDelete.jsx",
+          "/src/components/storagePools/storagePoolList.jsx",
+          "/src/components/storagePools/storagePoolOverviewTab.jsx",
+          "/src/components/storagePools/storageVolumeCreate.jsx",
+          "/src/components/storagePools/storageVolumeCreateBody.jsx",
+          "/src/components/storagePools/storageVolumeDelete.jsx",
+          "/src/components/vm/confirmDialog.jsx",
+          "/src/components/vm/consoles/consoles.jsx",
+          "/src/components/vm/consoles/desktopConsole.jsx",
+          "/src/components/vm/consoles/serialConsole.jsx",
+          "/src/components/vm/consoles/vnc.jsx",
+          "/src/components/vm/deleteDialog.jsx",
+          "/src/components/vm/disks/diskAdd.jsx",
+          "/src/components/vm/disks/diskEdit.jsx",
+          "/src/components/vm/disks/mediaEject.jsx",
+          "/src/components/vm/disks/vmDiskColumns.jsx",
+          "/src/components/vm/disks/vmDisksCard.jsx",
+          "/src/components/vm/filesystems/vmFilesystemsCard.jsx",
+          "/src/components/vm/hostdevs/hostDevAdd.jsx",
+          "/src/components/vm/hostdevs/hostDevCard.jsx",
+          "/src/components/vm/nics/nicAdd.jsx",
+          "/src/components/vm/nics/nicBody.jsx",
+          "/src/components/vm/nics/nicEdit.jsx",
+          "/src/components/vm/nics/vmNicsCard.jsx",
+          "/src/components/vm/overview/bootOrder.jsx",
+          "/src/components/vm/overview/cpuModal.jsx",
+          "/src/components/vm/overview/firmware.jsx",
+          "/src/components/vm/overview/helpers.jsx",
+          "/src/components/vm/overview/memoryModal.jsx",
+          "/src/components/vm/overview/memorySelectRow.jsx",
+          "/src/components/vm/overview/vmOverviewCard.jsx",
+          "/src/components/vm/overview/vsock.jsx",
+          "/src/components/vm/overview/watchdog.jsx",
+          "/src/components/vm/snapshots/vmSnapshotsCard.jsx",
+          "/src/components/vm/snapshots/vmSnapshotsCreateModal.jsx",
+          "/src/components/vm/snapshots/vmSnapshotsRevertModal.jsx",
+          "/src/components/vm/usesSpice.jsx",
+          "/src/components/vm/vmActions.jsx",
+          "/src/components/vm/vmCloneDialog.jsx",
+          "/src/components/vm/vmDetailsPage.jsx",
+          "/src/components/vm/vmMigrateDialog.jsx",
+          "/src/components/vm/vmRenameDialog.jsx",
+          "/src/components/vm/vmReplaceSpiceDialog.jsx",
+          "/src/components/vm/vmUsageCard.jsx",
+          "/src/components/vms/hostvmslist.jsx"
+        ]
+      },
+      "js": {
+        "files": [
+          "/src/components/create-vm-dialog/pxe-helpers.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/components/aggregateStatusCards.scss",
+          "/src/components/common/needsShutdown.scss",
+          "/src/components/common/stateIcon.scss",
+          "/src/components/create-vm-dialog/createVmDialog.scss",
+          "/src/components/storagePools/storagePoolDelete.scss",
+          "/src/components/vm/hostdevs/hostDevAdd.scss",
+          "/src/components/vm/overview/memoryModal.scss",
+          "/src/components/vm/snapshots/vmSnapshotsCard.scss",
+          "/src/components/vm/vmDetailsPage.scss",
+          "/src/components/vm/vmMigrateDialog.scss",
+          "/src/components/vms/hostvmslist.scss",
+          "/src/machines.scss"
+        ]
+      },
+      "css": {
+        "files": [
+          "/src/components/common/overviewCard.css",
+          "/src/components/vm/nics/nic.css",
+          "/src/components/vm/overview/bootOrder.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/esm/components/Alert": {
+      "AlertGroup": 1,
+      "Alert": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Button": {
+      "Button": 48
+    },
+    "@patternfly/react-core/dist/esm/components/EmptyState": {
+      "EmptyState": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateActions": 1,
+      "EmptyStateHeader": 1,
+      "EmptyStateFooter": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Page": {
+      "Page": 5,
+      "PageSection": 5,
+      "PageSectionVariants": 3,
+      "PageBreadcrumb": 3,
+      "PageGroup": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Progress": {
+      "Progress": 3,
+      "ProgressMeasureLocation": 1,
+      "ProgressVariant": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Text": {
+      "Text": 6,
+      "TextContent": 4,
+      "TextList": 2,
+      "TextListItem": 2,
+      "TextVariants": 4
+    },
+    "@patternfly/react-icons": {
+      "ExclamationCircleIcon": 2,
+      "VirtualMachineIcon": 1,
+      "ServerIcon": 1,
+      "NetworkIcon": 1,
+      "ArrowCircleUpIcon": 1,
+      "ArrowCircleDownIcon": 1,
+      "HelpIcon": 6,
+      "PendingIcon": 2,
+      "ErrorCircleOIcon": 1,
+      "ExternalLinkAltIcon": 1,
+      "TrashIcon": 1,
+      "ExclamationTriangleIcon": 3,
+      "InfoIcon": 1,
+      "InfoAltIcon": 2,
+      "ExternalLinkSquareAltIcon": 1,
+      "OutlinedQuestionCircleIcon": 2,
+      "AngleDownIcon": 1,
+      "AngleUpIcon": 1,
+      "CheckIcon": 1,
+      "PowerOffIcon": 1,
+      "RedoIcon": 1,
+      "ExpandIcon": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Card": {
+      "Card": 5,
+      "CardHeader": 5,
+      "CardBody": 4,
+      "CardTitle": 4,
+      "CardFooter": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Divider": {
+      "Divider": 3
+    },
+    "@patternfly/react-core/dist/esm/layouts/Flex": {
+      "Flex": 14,
+      "FlexItem": 13
+    },
+    "@patternfly/react-core/dist/esm/components/DescriptionList": {
+      "DescriptionList": 11,
+      "DescriptionListDescription": 10,
+      "DescriptionListGroup": 10,
+      "DescriptionListTerm": 10
+    },
+    "@patternfly/react-core/dist/esm/deprecated/components/Dropdown": {
+      "DropdownItem-deprecated": 6,
+      "Dropdown-deprecated": 6,
+      "KebabToggle-deprecated": 5,
+      "DropdownSeparator-deprecated": 2,
+      "DropdownToggle-deprecated": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Modal": {
+      "Modal": 28
+    },
+    "@patternfly/react-core/dist/esm/components/Tooltip": {
+      "Tooltip": 19
+    },
+    "@patternfly/react-core/dist/esm/components/Form": {
+      "FormGroup": 23,
+      "Form": 21,
+      "FormHelperText": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Radio": {
+      "Radio": 7
+    },
+    "@patternfly/react-core/dist/esm/components/Popover": {
+      "Popover": 12,
+      "PopoverPosition": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Icon": {
+      "Icon": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Label": {
+      "Label": 3
+    },
+    "@patternfly/react-core/dist/esm/components/List": {
+      "List": 5,
+      "ListItem": 5
+    },
+    "@patternfly/react-core/dist/esm/components/FormSelect": {
+      "FormSelect": 10,
+      "FormSelectOption": 11,
+      "FormSelectOptionGroup": 2
+    },
+    "@patternfly/react-core/dist/esm/layouts/Grid": {
+      "Grid": 6,
+      "GridItem": 2
+    },
+    "@patternfly/react-core/dist/esm/components/InputGroup": {
+      "InputGroup": 3
+    },
+    "@patternfly/react-core/dist/esm/deprecated/components/Select": {
+      "Select-deprecated": 2,
+      "SelectGroup-deprecated": 1,
+      "SelectOption-deprecated": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Tabs": {
+      "Tab": 1,
+      "TabTitleText": 1,
+      "Tabs": 1
+    },
+    "@patternfly/react-core/dist/esm/components/TextInput": {
+      "TextInput": 15
+    },
+    "@patternfly/react-core/dist/esm/components/TextArea": {
+      "TextArea": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Spinner": {
+      "Spinner": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Checkbox": {
+      "Checkbox": 8
+    },
+    "@patternfly/react-core/dist/esm/components/Breadcrumb": {
+      "Breadcrumb": 3,
+      "BreadcrumbItem": 3
+    },
+    "@patternfly/react-core/dist/esm/components/Switch": {
+      "Switch": 2
+    },
+    "@patternfly/react-core/dist/esm/components/HelperText": {
+      "HelperText": 2,
+      "HelperTextItem": 2
+    },
+    "@patternfly/react-core/dist/esm/layouts/Stack": {
+      "Stack": 2,
+      "StackItem": 1
+    },
+    "@patternfly/react-console": {
+      "AccessConsoles": 1,
+      "DesktopViewer": 1,
+      "VncConsole": 1
+    },
+    "@patternfly/react-core/dist/esm/components/DataList": {
+      "DataList": 2,
+      "DataListCell": 2,
+      "DataListCheck": 2,
+      "DataListItem": 2,
+      "DataListItemCells": 2,
+      "DataListItemRow": 2,
+      "DataListAction": 1,
+      "DataListControl": 1
+    },
+    "@patternfly/react-core/dist/esm/layouts/Bullseye": {
+      "Bullseye": 1
+    },
+    "@patternfly/react-core/dist/esm/components/ExpandableSection": {
+      "ExpandableSection": 3,
+      "ExpandableSectionToggle": 1
+    },
+    "@patternfly/react-core/dist/esm/components/CodeBlock": {
+      "CodeBlock": 3,
+      "CodeBlockCode": 3
+    },
+    "@patternfly/react-table": {
+      "Table": 1,
+      "Tbody": 1,
+      "Thead": 1,
+      "Th": 1,
+      "Td": 1,
+      "Tr": 1,
+      "TableVariant": 1
+    },
+    "@patternfly/react-core/dist/esm/components/NumberInput": {
+      "NumberInput": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Slider": {
+      "Slider": 1
+    },
+    "@patternfly/react-core/dist/esm/layouts/Gallery": {
+      "Gallery": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Toolbar": {
+      "Toolbar": 1,
+      "ToolbarContent": 1,
+      "ToolbarItem": 1
+    }
+  },
+  "classes": {
+    "pf-m-danger": 11,
+    "pf-m-1-col-on-md": 1,
+    "pf-m-8-col": 1,
+    "pf-m-4-col": 1,
+    "pf-m-sm": 2,
+    "pf-m-inline": 2,
+    "pf-m-label": 1,
+    "pf-u-pt-md": 1,
+    "pf-m-link": 1,
+    "pf-m-light": 1
+  },
+  "cssVars": {
+    "--pf-v5-global--spacer--xs": 7,
+    "--pf-v5-c-list--li--MarginTop": 2,
+    "--pf-v5-global--spacer--lg": 1,
+    "--pf-v5-c-description-list__term-icon--Color": 1,
+    "--pf-v5-c-description-list__term--FontSize": 1,
+    "--pf-v5-c-label--PaddingLeft": 1,
+    "--pf-v5-global--spacer--xl": 1,
+    "--pf-v5-c-form__helper-text--m-error--Color": 1,
+    "--pf-v5-global--spacer--sm": 3,
+    "--pf-v5-c-alert--m-inline--BackgroundColor": 1,
+    "--pf-v5-global--BackgroundColor--dark-400": 1,
+    "--pf-v5-c-table--m-compact-th--PaddingTop": 1,
+    "--pf-v5-global--spacer--md": 2,
+    "--pf-v5-global--FontWeight--bold": 1,
+    "--pf-v5-c-description-list__group--GridTemplateColumns": 1,
+    "--pf-v5-c-description-list--m-vertical__group--GridTemplateColumns": 1,
+    "--pf-v5-global--palette--green-300": 1,
+    "--pf-v5-global--FontSize--2xl": 1,
+    "--pf-v5-c-button--FontSize": 1,
+    "--pf-v5-global--FontWeight--light": 1,
+    "--pf-v5-l-gallery--GridTemplateColumns": 2,
+    "--pf-v5-global--FontSize--xl": 1,
+    "--pf-v5-c-progress--GridGap": 1,
+    "--pf-v5-global--danger-color--100": 1,
+    "--pf-v5-c-table--cell--Width": 1,
+    "--pf-v5-c-form__helper-text--MarginTop": 1,
+    "--pf-v5-global--danger-color--200": 1,
+    "--pf-v5-global--FontFamily--monospace": 1,
+    "--pf-v5-c-empty-state__content--MaxWidth": 1,
+    "--pf-v5-c-page__main-breadcrumb--BackgroundColor": 1,
+    "--pf-v5-global--BackgroundColor--dark-100": 2
+  },
+  "repo": "https://github.com/cockpit-project/cockpit-machines",
+  "name": "Cockpit-machines",
+  "date": "2024-02-08T15:10:17.877Z",
+  "dependencies": {
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-console": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-table": 1,
+    "@patternfly/react-tokens": 1,
+    "argparse": 1,
+    "buffer": 1,
+    "chrome-remote-interface": 1,
+    "date-fns": 1,
+    "deep-equal": 1,
+    "esbuild": 1,
+    "esbuild-plugin-copy": 1,
+    "esbuild-plugin-replace": 1,
+    "esbuild-sass-plugin": 1,
+    "esbuild-wasm": 1,
+    "eslint": 1,
+    "eslint-config-standard": 1,
+    "eslint-config-standard-jsx": 1,
+    "eslint-config-standard-react": 1,
+    "eslint-plugin-import": 1,
+    "eslint-plugin-jsx-a11y": 1,
+    "eslint-plugin-promise": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "gettext-parser": 1,
+    "htmlparser": 1,
+    "ip": 1,
+    "jed": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "5.1.0"
+      ],
+      "@patternfly/react-console": [
+        "5.0.0"
+      ],
+      "@patternfly/react-core": [
+        "5.1.2"
+      ],
+      "@patternfly/react-icons": [
+        "5.1.2"
+      ],
+      "@patternfly/react-styles": [
+        "5.1.2"
+      ],
+      "@patternfly/react-table": [
+        "5.1.2"
+      ],
+      "@patternfly/react-tokens": [
+        "5.1.2"
+      ]
+    },
+    "prop-types": 1,
+    "react": 1,
+    "react-dom": 1,
+    "redux": 1,
+    "redux-thunk": 1,
+    "sass": 1,
+    "sizzle": 1,
+    "stylelint": 1,
+    "stylelint-config-standard-scss": 1,
+    "stylelint-formatter-pretty": 1,
+    "stylelint-use-logical-spec": 1,
+    "throttle-debounce": 1,
+    "xterm": 1,
+    "xterm-addon-canvas": 1
+  }
+}

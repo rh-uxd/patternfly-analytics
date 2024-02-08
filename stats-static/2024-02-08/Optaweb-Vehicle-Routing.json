@@ -1,0 +1,196 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 17,
+        "css": 2
+      },
+      "js": 4,
+      "ts": 52,
+      "tsx": 38,
+      "css": 3
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/optaweb-vehicle-routing-frontend/src/ui/App.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/components/Alerts.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/components/Background.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/components/DemoDropdown.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/components/Location.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/components/LocationList.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/components/SearchBox.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/components/Vehicle.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/connection/ConnectionError.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/header/Header.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/header/Navigation.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/pages/Demo.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/pages/InfoBlock.test.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/pages/InfoBlock.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/pages/Route.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/pages/Vehicles.tsx",
+          "/optaweb-vehicle-routing-frontend/src/ui/pages/Visits.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/optaweb-vehicle-routing-frontend/src/ui/components/DemoDropdown.css",
+          "/optaweb-vehicle-routing-frontend/src/ui/components/LocationList.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Page": 1,
+      "PageSection": 1,
+      "Alert": 1,
+      "AlertActionCloseButton": 1,
+      "AlertGroup": 1,
+      "BackgroundImage": 1,
+      "Dropdown": 1,
+      "DropdownItem": 1,
+      "DropdownPosition": 1,
+      "DropdownToggle": 1,
+      "Button": 5,
+      "DataListCell": 2,
+      "DataListItem": 2,
+      "DataListItemRow": 2,
+      "Tooltip": 2,
+      "Bullseye": 1,
+      "DataList": 2,
+      "SearchInput": 1,
+      "Text": 2,
+      "TextContent": 2,
+      "TextVariants": 2,
+      "ButtonVariant": 2,
+      "InputGroup": 2,
+      "InputGroupText": 2,
+      "ExpandableSection": 1,
+      "List": 1,
+      "ListItem": 1,
+      "Modal": 1,
+      "Brand": 1,
+      "PageHeader": 1,
+      "Nav": 1,
+      "NavItem": 1,
+      "NavList": 1,
+      "Flex": 2,
+      "FlexItem": 2,
+      "Split": 3,
+      "SplitItem": 3,
+      "Title": 4,
+      "Form": 1,
+      "FormSelect": 1,
+      "FormSelectOption": 1
+    },
+    "@patternfly/react-core/dist/styles/assets/images/pfbg_1200.jpg": {
+      "pfBackground1200": 1
+    },
+    "@patternfly/react-core/dist/styles/assets/images/pfbg_576.jpg": {
+      "pfBackground576": 1
+    },
+    "@patternfly/react-core/dist/styles/assets/images/pfbg_576@2x.jpg": {
+      "pfBackground1152": 1
+    },
+    "@patternfly/react-core/dist/styles/assets/images/pfbg_768.jpg": {
+      "pfBackground768": 1
+    },
+    "@patternfly/react-core/dist/styles/assets/images/pfbg_768@2x.jpg": {
+      "pfBackground1536": 1
+    },
+    "@patternfly/react-icons": {
+      "TimesIcon": 2,
+      "PlusSquareIcon": 1,
+      "MinusIcon": 2,
+      "PlusIcon": 3,
+      "ClockIcon": 1,
+      "IconSize": 1,
+      "MapMarkerIcon": 1,
+      "TruckIcon": 1,
+      "WeightHangingIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/createIcon": {
+      "SVGIconProps": 1
+    }
+  },
+  "classes": {
+    "pf-c-options-menu": 1,
+    "pf-m-expanded": 1,
+    "pf-c-options-menu__menu": 1,
+    "pf-c-options-menu__menu-item": 2,
+    "pf-c-options-menu__menu-item-icon": 1,
+    "pf-c-options-menu__separator": 1,
+    "pf-m-disabled": 1,
+    "pf-c-dropdown__menu": 1,
+    "pf-c-data-list__cell": 1
+  },
+  "cssVars": {
+    "--pf-c-dropdown__menu--ZIndex": 1,
+    "--pf-c-data-list__cell-cell--PaddingTop": 1,
+    "--pf-global--spacer--sm": 2,
+    "--pf-c-data-list__cell--PaddingTop": 1,
+    "--pf-global--spacer--md": 1,
+    "--pf-c-data-list__cell--PaddingBottom": 1
+  },
+  "repo": "https://github.com/kiegroup/optaweb-vehicle-routing",
+  "name": "Optaweb-Vehicle-Routing",
+  "date": "2024-02-08T15:10:17.877Z",
+  "dependencies": {
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@types/jest": 1,
+    "@types/leaflet": 1,
+    "@types/node": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "@types/react-leaflet": 1,
+    "@types/react-router-dom": 1,
+    "@types/react-test-renderer": 1,
+    "@types/redux-logger": 1,
+    "@types/redux-mock-store": 1,
+    "cypress": 1,
+    "eslint-config-airbnb-typescript": 1,
+    "eslint-config-react-app": 1,
+    "eslint-plugin-cypress": 1,
+    "eslint-plugin-jest-dom": 1,
+    "eventsourcemock": 1,
+    "fetch-mock-jest": 1,
+    "history": 1,
+    "jest-junit": 1,
+    "leaflet": 1,
+    "leaflet-geosearch": 1,
+    "node-fetch": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "~4.219.2"
+      ],
+      "@patternfly/react-core": [
+        "~4.250.1"
+      ],
+      "@patternfly/react-icons": [
+        "~4.92.10"
+      ]
+    },
+    "react": 1,
+    "react-dom": 1,
+    "react-leaflet": 1,
+    "react-redux": 1,
+    "react-router": 1,
+    "react-router-dom": 1,
+    "react-scripts": 1,
+    "react-test-renderer": 1,
+    "redux": 1,
+    "redux-devtools-extension": 1,
+    "redux-logger": 1,
+    "redux-mock-store": 1,
+    "redux-thunk": 1,
+    "shx": 1,
+    "typescript": 1,
+    "use-sync-external-store": 1
+  }
+}
