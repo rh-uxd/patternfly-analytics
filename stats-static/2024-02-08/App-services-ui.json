@@ -1,0 +1,144 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 4
+      },
+      "js": 10,
+      "tsx": 56,
+      "ts": 57,
+      "css": 1
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/app/App.tsx",
+          "/src/app/AppRoutes.tsx",
+          "/src/app/pages/NotFound/NotFoundPage.tsx",
+          "/src/app/pages/ServiceDown/ServiceDownPage.tsx"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Page": 1,
+      "Button": 3,
+      "PageSection": 2,
+      "Title": 2,
+      "EmptyState": 2,
+      "EmptyStateIcon": 2,
+      "EmptyStateBody": 2
+    },
+    "@patternfly/react-icons": {
+      "ExclamationTriangleIcon": 1,
+      "WrenchIcon": 1
+    }
+  },
+  "classes": {},
+  "cssVars": {},
+  "repo": "https://github.com/redhat-developer/app-services-ui",
+  "name": "App-services-ui",
+  "date": "2024-02-08T15:10:17.877Z",
+  "dependencies": {
+    "@patternfly/patternfly": 2,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-core": 2,
+    "@patternfly/react-icons": 2,
+    "@patternfly/react-table": 2,
+    "@redhat-cloud-services/frontend-components": 2,
+    "@redhat-cloud-services/frontend-components-config-utilities": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 2,
+    "@redhat-cloud-services/frontend-components-utilities": 2,
+    "@redhat-cloud-services/rbac-client": 1,
+    "@rhoas/account-management-sdk": 1,
+    "@rhoas/app-services-ui-components": 1,
+    "@rhoas/app-services-ui-shared": 1,
+    "@rhoas/kafka-instance-sdk": 1,
+    "@rhoas/kafka-management-sdk": 1,
+    "@rhoas/registry-management-sdk": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@types/jest": 1,
+    "@types/js-cookie": 1,
+    "@types/react-dom": 1,
+    "@types/react-router-dom": 1,
+    "@types/redux-logger": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "@xstate/inspect": 1,
+    "axios": 2,
+    "classnames": 1,
+    "copy-webpack-plugin": 1,
+    "css-loader": 1,
+    "css-minimizer-webpack-plugin": 1,
+    "date-fns": 1,
+    "dotenv-webpack": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-cypress": 1,
+    "eslint-plugin-deprecation": 1,
+    "eslint-plugin-i18next": 1,
+    "eslint-plugin-jest": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "html-replace-webpack-plugin": 1,
+    "html-webpack-plugin": 1,
+    "https-proxy-agent": 1,
+    "husky": 1,
+    "i18next": 1,
+    "jest": 1,
+    "js-base64": 1,
+    "js-cookie": 1,
+    "jws": 1,
+    "jwt-decode": 1,
+    "lint-staged": 1,
+    "lodash.merge": 1,
+    "mini-css-extract-plugin": 1,
+    "npm-run-all": 1,
+    "null-loader": 1,
+    "patternflyVersions": {
+      "@patternfly/react-charts": [
+        "6.94.19"
+      ],
+      "@patternfly/patternfly": [
+        "5.0.2"
+      ],
+      "@patternfly/react-core": [
+        "4.276.8"
+      ],
+      "@patternfly/react-icons": [
+        "4.93.6"
+      ],
+      "@patternfly/react-table": [
+        "4.113.0"
+      ]
+    },
+    "prettier": 1,
+    "prop-types": 1,
+    "query-string": 1,
+    "react": 2,
+    "react-dom": 2,
+    "react-error-boundary": 1,
+    "react-i18next": 1,
+    "react-redux": 1,
+    "react-router-dom": 2,
+    "redux": 1,
+    "redux-logger": 1,
+    "redux-promise-middleware": 2,
+    "regenerator-runtime": 1,
+    "rimraf": 1,
+    "terser-webpack-plugin": 1,
+    "ts-jest": 1,
+    "ts-loader": 1,
+    "tsconfig-paths-webpack-plugin": 1,
+    "tslib": 1,
+    "typescript": 1,
+    "url": 1,
+    "webpack": 1,
+    "webpack-bundle-analyzer": 1,
+    "webpack-cli": 1,
+    "webpack-dev-server": 1,
+    "webpack-merge": 1
+  }
+}

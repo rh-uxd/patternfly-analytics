@@ -1,0 +1,15 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {}
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "cssVars": {},
+  "repo": "https://github.com/keycloak/keycloak-ui",
+  "name": "Keycloak-ui",
+  "date": "2024-02-08T15:10:17.877Z",
+  "dependencies": {}
+}
