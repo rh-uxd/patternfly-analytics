@@ -272,6 +272,6 @@ const getDeprecatedComponents = (sortedUsage, pfVersions) => {
 };
 
 module.exports = {
-  pf4DeprecatedArr,
+  pf4DeprecatedComponents,
   getDeprecatedComponents
 }
