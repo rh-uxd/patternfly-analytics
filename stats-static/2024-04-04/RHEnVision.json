@@ -1,0 +1,188 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 28,
+        "scss": 1
+      },
+      "js": 82,
+      "scss": 5
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/babel.config.js",
+          "/src/Components/AzureResourceGroup/index.js",
+          "/src/Components/ConfirmModal/index.js",
+          "/src/Components/InstanceCounter/index.js",
+          "/src/Components/InstancesTable/index.js",
+          "/src/Components/InstanceTypesSelect/index.js",
+          "/src/Components/InstanceTypesSelect/InstanceTypesSelect.test.js",
+          "/src/Components/LaunchDescriptionList/index.js",
+          "/src/Components/ProvisioningWizard/CustomFooter.js",
+          "/src/Components/ProvisioningWizard/index.js",
+          "/src/Components/ProvisioningWizard/steps/AccountCustomizations/aws.js",
+          "/src/Components/ProvisioningWizard/steps/AccountCustomizations/azure.js",
+          "/src/Components/ProvisioningWizard/steps/AccountCustomizations/gcp.js",
+          "/src/Components/ProvisioningWizard/steps/index.js",
+          "/src/Components/ProvisioningWizard/steps/NoPermission/index.js",
+          "/src/Components/ProvisioningWizard/steps/Pubkeys/index.js",
+          "/src/Components/ProvisioningWizard/steps/Pubkeys/NewKeyForm.js",
+          "/src/Components/ProvisioningWizard/steps/Pubkeys/PubkeySelect.js",
+          "/src/Components/ProvisioningWizard/steps/ReservationProgress/index.js",
+          "/src/Components/ProvisioningWizard/steps/ReservationProgress/ReservationProgress.test.js",
+          "/src/Components/ProvisioningWizard/steps/ReviewDetails/index.js",
+          "/src/Components/ProvisioningWizard/steps/SourceMissing/DirectProviderLink.js",
+          "/src/Components/ProvisioningWizard/steps/SourceMissing/GCPConsoleLaunch.js",
+          "/src/Components/ProvisioningWizard/steps/SourceMissing/GCPCreateImage.js",
+          "/src/Components/ProvisioningWizard/steps/SourceMissing/index.js",
+          "/src/Components/RegionsSelect/index.js",
+          "/src/Components/SourcesSelect/index.js",
+          "/src/Components/TemplateSelect/index.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/Components/ProvisioningWizard/steps/Pubkeys/pubkeys.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-icons": {
+      "someIcon": 1,
+      "ExportIcon": 1,
+      "ExternalLinkAltIcon": 2,
+      "HelpIcon": 4,
+      "LockIcon": 1,
+      "CogsIcon": 1,
+      "PendingIcon": 1,
+      "CheckCircleIcon": 1,
+      "PlusCircleIcon": 1,
+      "ExclamationCircleIcon": 1
+    },
+    "@patternfly/react-core": {
+      "Spinner": 9,
+      "TextInput": 3,
+      "Button": 11,
+      "Modal": 1,
+      "ModalVariant": 1,
+      "HelperText": 7,
+      "HelperTextItem": 7,
+      "NumberInput": 1,
+      "ClipboardCopy": 3,
+      "Card": 1,
+      "Pagination": 1,
+      "Bullseye": 3,
+      "EmptyStateActions": 4,
+      "ExpandableSection": 1,
+      "DescriptionList": 1,
+      "DescriptionListTerm": 1,
+      "DescriptionListGroup": 1,
+      "DescriptionListDescription": 1,
+      "ButtonVariant": 1,
+      "Form": 4,
+      "FormGroup": 7,
+      "Popover": 5,
+      "Title": 5,
+      "Text": 6,
+      "Icon": 4,
+      "EmptyState": 3,
+      "EmptyStateHeader": 3,
+      "EmptyStateBody": 3,
+      "EmptyStateIcon": 3,
+      "EmptyStateFooter": 3,
+      "Radio": 1,
+      "FileUpload": 1,
+      "Alert": 3,
+      "ProgressStepper": 1,
+      "ProgressStep": 1,
+      "AlertActionLink": 1,
+      "Stack": 2,
+      "StackItem": 4,
+      "FormHelperText": 1
+    },
+    "@patternfly/react-core/deprecated": {
+      "Select-deprecated": 6,
+      "SelectOption-deprecated": 6,
+      "WizardFooter-deprecated": 1,
+      "WizardContextConsumer-deprecated": 2,
+      "Wizard-deprecated": 1
+    },
+    "@patternfly/react-table": {
+      "Table": 1,
+      "Thead": 1,
+      "Tr": 1,
+      "Th": 1,
+      "Tbody": 1,
+      "Td": 1
+    },
+    "@patternfly/react-styles/css/components/Wizard/wizard": {
+      "styles": 1
+    }
+  },
+  "classes": {
+    "pf-c-form-control": 2,
+    "pf-m-warning": 1,
+    "pf-c-form__group-label-help": 12,
+    "pf-m-info": 1,
+    "pf-m-success": 1,
+    "pf-c-form": 1,
+    "pf-c-radio__body": 1
+  },
+  "cssVars": {},
+  "repo": "https://github.com/RHEnVision/provisioning-frontend",
+  "name": "RHEnVision",
+  "date": "2024-04-04T21:19:16.764Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@babel/plugin-proposal-object-rest-spread": 1,
+    "@babel/plugin-transform-runtime": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-react": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-table": 1,
+    "@redhat-cloud-services/eslint-config-redhat-cloud-services": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@redhat-cloud-services/tsc-transform-imports": 1,
+    "@tanstack/react-query": 1,
+    "@testing-library/dom": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@unleash/proxy-client-react": 1,
+    "axios": 1,
+    "babel-jest": 1,
+    "babel-plugin-transform-imports": 1,
+    "classnames": 1,
+    "eslint": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "jsonata": 1,
+    "msw": 1,
+    "npm-run-all": 1,
+    "patternflyVersions": {
+      "@patternfly/react-core": [
+        "5.1.2"
+      ],
+      "@patternfly/react-table": [
+        "5.1.2"
+      ]
+    },
+    "prop-types": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-tracked": 1,
+    "stylelint": 1,
+    "stylelint-config-recommended-scss": 1,
+    "stylelint-scss": 1,
+    "ts-patch": 1,
+    "typescript": 1,
+    "undici": 1,
+    "uuid": 1,
+    "webpack-bundle-analyzer": 1
+  }
+}

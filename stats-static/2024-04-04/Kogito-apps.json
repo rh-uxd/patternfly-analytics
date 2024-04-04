@@ -1,0 +1,1070 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 201,
+        "ts": 1,
+        "css": 6,
+        "scss": 24
+      },
+      "js": 249,
+      "ts": 461,
+      "tsx": 670,
+      "css": 18,
+      "scss": 33
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/ui-packages/packages/cloud-event-form/src/envelope/CloudEventFormEnvelopeView.tsx",
+          "/ui-packages/packages/cloud-event-form/src/envelope/components/CloudEventCustomHeadersEditor/CloudEventCustomHeadersEditor.tsx",
+          "/ui-packages/packages/cloud-event-form/src/envelope/components/CloudEventFieldLabelIcon/CloudEventFieldLabelIcon.tsx",
+          "/ui-packages/packages/cloud-event-form/src/envelope/components/CloudEventForm/CloudEventForm.tsx",
+          "/ui-packages/packages/components-common/src/components/DataTable/DataTable.tsx",
+          "/ui-packages/packages/components-common/src/components/DataTable/tests/DataTable.test.tsx",
+          "/ui-packages/packages/components-common/src/components/EndpointLink/EndpointLink.tsx",
+          "/ui-packages/packages/components-common/src/components/FormFooter/FormFooter.tsx",
+          "/ui-packages/packages/components-common/src/components/FormFooter/tests/FormFooter.test.tsx",
+          "/ui-packages/packages/components-common/src/components/FormNotification/FormNotification.tsx",
+          "/ui-packages/packages/components-common/src/components/FormRenderer/FormRenderer.tsx",
+          "/ui-packages/packages/components-common/src/components/ItemDescriptor/ItemDescriptor.tsx",
+          "/ui-packages/packages/components-common/src/components/KogitoEmptyState/KogitoEmptyState.tsx",
+          "/ui-packages/packages/components-common/src/components/KogitoEmptyState/tests/KogitoEmptyState.test.tsx",
+          "/ui-packages/packages/components-common/src/components/KogitoSpinner/KogitoSpinner.tsx",
+          "/ui-packages/packages/components-common/src/components/LoadMore/LoadMore.tsx",
+          "/ui-packages/packages/components-common/src/components/ServerErrors/ServerErrors.tsx",
+          "/ui-packages/packages/components-common/src/components/ServerErrors/tests/ServerErrors.test.tsx",
+          "/ui-packages/packages/components-common/src/components/utils/FormActionsUtils.tsx",
+          "/ui-packages/packages/consoles-common/src/components/layout/AboutModalBox/AboutModalBox.tsx",
+          "/ui-packages/packages/consoles-common/src/components/layout/PageLayout/PageLayout.tsx",
+          "/ui-packages/packages/consoles-common/src/components/layout/PageSectionHeader/PageSectionHeader.tsx",
+          "/ui-packages/packages/consoles-common/src/components/layout/PageTitle/PageTitle.tsx",
+          "/ui-packages/packages/consoles-common/src/components/layout/PageTitle/tests/PageTitle.test.tsx",
+          "/ui-packages/packages/consoles-common/src/components/layout/PageToolbar/PageToolbar.tsx",
+          "/ui-packages/packages/consoles-common/src/components/pages/KeycloakUnavailablePage/KeycloakUnavailablePage.tsx",
+          "/ui-packages/packages/consoles-common/src/components/pages/NoData/NoData.tsx",
+          "/ui-packages/packages/consoles-common/src/components/pages/PageNotFound/PageNotFound.tsx",
+          "/ui-packages/packages/consoles-common/src/components/pages/ServerUnavailablePage/ServerUnavailablePage.tsx",
+          "/ui-packages/packages/custom-dashboard-list/src/envelope/components/CustomDashboardCard/CustomDashboardCard.tsx",
+          "/ui-packages/packages/custom-dashboard-list/src/envelope/components/CustomDashboardCard/tests/CustomDashboardCard.test.tsx",
+          "/ui-packages/packages/custom-dashboard-list/src/envelope/components/CustomDashboardList/CustomDashboardList.tsx",
+          "/ui-packages/packages/custom-dashboard-list/src/envelope/components/CustomDashboardList/tests/CustomDashboardList.test.tsx",
+          "/ui-packages/packages/custom-dashboard-list/src/envelope/components/CustomDashboardListToolbar/CustomDashboardListToolbar.tsx",
+          "/ui-packages/packages/custom-dashboard-list/src/envelope/components/CustomDashboardsGallery/CustomDashboardsGallery.tsx",
+          "/ui-packages/packages/custom-dashboard-list/src/envelope/components/CustomDashboardsTable/CustomDashboardsTable.tsx",
+          "/ui-packages/packages/custom-dashboard-list/src/envelope/tests/CustomDashboardListEnvelopeView.test.tsx",
+          "/ui-packages/packages/custom-dashboard-view/src/envelope/components/CustomDashboardView/CustomDashboardView.tsx",
+          "/ui-packages/packages/custom-dashboard-view/src/envelope/components/CustomDashboardView/tests/CustomDashboardView.test.tsx",
+          "/ui-packages/packages/form-details/src/envelope/components/FormDetails/FormDetails.tsx",
+          "/ui-packages/packages/form-details/src/envelope/components/FormEditor/FormEditor.tsx",
+          "/ui-packages/packages/form-displayer/src/envelope/components/FormDisplayer/FormDisplayer.tsx",
+          "/ui-packages/packages/form-displayer/src/envelope/components/FormDisplayer/tests/FormDisplayer.test.tsx",
+          "/ui-packages/packages/form-displayer/src/envelope/components/FormErrorsWrapper/FormErrorsWrapper.tsx",
+          "/ui-packages/packages/form-displayer/src/envelope/components/FormErrorsWrapper/tests/FormErrorsWrapper.test.tsx",
+          "/ui-packages/packages/form-displayer/src/envelope/components/ReactFormRenderer/ReactFormRenderer.tsx",
+          "/ui-packages/packages/form-displayer/src/envelope/components/ReactFormRenderer/tests/ReactFormRenderer.test.tsx",
+          "/ui-packages/packages/forms-list/src/envelope/components/FormCard/FormCard.tsx",
+          "/ui-packages/packages/forms-list/src/envelope/components/FormCard/tests/FormCard.test.tsx",
+          "/ui-packages/packages/forms-list/src/envelope/components/FormsGallery/FormsGallery.tsx",
+          "/ui-packages/packages/forms-list/src/envelope/components/FormsList/FormsList.tsx",
+          "/ui-packages/packages/forms-list/src/envelope/components/FormsList/tests/FormsList.test.tsx",
+          "/ui-packages/packages/forms-list/src/envelope/components/FormsListToolbar/FormsListToolbar.tsx",
+          "/ui-packages/packages/forms-list/src/envelope/components/FormsListToolbar/tests/FormsListToolbar.test.tsx",
+          "/ui-packages/packages/forms-list/src/envelope/components/FormsListUtils/FormsListUtils.tsx",
+          "/ui-packages/packages/forms-list/src/envelope/components/FormsTable/FormsTable.tsx",
+          "/ui-packages/packages/jobs-management/src/envelope/components/JobsManagement/JobsManagement.tsx",
+          "/ui-packages/packages/jobs-management/src/envelope/components/JobsManagementTable/JobsManagementTable.tsx",
+          "/ui-packages/packages/jobs-management/src/envelope/components/JobsManagementToolbar/JobsManagementToolbar.tsx",
+          "/ui-packages/packages/jobs-management/src/utils/utils.tsx",
+          "/ui-packages/packages/management-console-shared/src/components/BulkList/BulkList.tsx",
+          "/ui-packages/packages/management-console-shared/src/components/JobsCancelModal/JobsCancelModal.tsx",
+          "/ui-packages/packages/management-console-shared/src/components/JobsDetailsModal/JobsDetailsModal.tsx",
+          "/ui-packages/packages/management-console-shared/src/components/JobsDetailsModal/tests/JobsDetailsModal.test.tsx",
+          "/ui-packages/packages/management-console-shared/src/components/JobsRescheduleModal/JobsRescheduleModal.tsx",
+          "/ui-packages/packages/management-console-shared/src/components/JobsRescheduleModal/tests/JobsRescheduleModal.test.tsx",
+          "/ui-packages/packages/management-console-shared/src/components/ProcessInfoModal/ProcessInfoModal.tsx",
+          "/ui-packages/packages/management-console-shared/src/components/ProcessInfoModal/tests/ProcessInfoModal.test.tsx",
+          "/ui-packages/packages/management-console-shared/src/utils/Utils.tsx",
+          "/ui-packages/packages/management-console-webapp/src/components/console/ManagementConsoleNav/ManagementConsoleNav.tsx",
+          "/ui-packages/packages/management-console-webapp/src/components/pages/JobsManagementPage/JobsManagementPage.tsx",
+          "/ui-packages/packages/management-console-webapp/src/components/pages/ProcessDetailsPage/ProcessDetailsPage.tsx",
+          "/ui-packages/packages/management-console-webapp/src/components/pages/ProcessListPage/ProcessListPage.tsx",
+          "/ui-packages/packages/process-definition-list/src/envelope/components/ProcessDefinitionList/ProcessDefinitionList.tsx",
+          "/ui-packages/packages/process-definition-list/src/envelope/components/ProcessDefinitionList/tests/ProcessDefinitionList.test.tsx",
+          "/ui-packages/packages/process-definition-list/src/envelope/components/ProcessDefinitionListToolbar/ProcessDefinitionListToolbar.tsx",
+          "/ui-packages/packages/process-definition-list/src/envelope/components/ProcessDefinitionListToolbar/tests/ProcessDefinitionListToolbar.test.tsx",
+          "/ui-packages/packages/process-definition-list/src/envelope/components/utils/ProcessDefinitionListUtils.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/JobActionsKebab/JobActionsKebab.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/JobsPanel/JobsPanel.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/ProcessDetails/ProcessDetails.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/ProcessDetailsErrorModal/ProcessDetailsErrorModal.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/ProcessDetailsErrorModal/tests/ProcessDetailsErrorModal.test.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/ProcessDetailsMilestonesPanel/ProcessDetailsMilestonesPanel.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/ProcessDetailsNodeTrigger/ProcessDetailsNodeTrigger.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/ProcessDetailsPanel/ProcessDetailsPanel.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/ProcessDetailsTimelinePanel/ProcessDetailsTimelinePanel.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/ProcessDiagram/ProcessDiagram.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/ProcessVariables/ProcessVariables.tsx",
+          "/ui-packages/packages/process-details/src/envelope/components/SwfCombinedEditor/SwfCombinedEditor.tsx",
+          "/ui-packages/packages/process-details/src/utils/Utils.tsx",
+          "/ui-packages/packages/process-form/src/envelope/components/ProcessForm/CustomProcessFormDisplayer.tsx",
+          "/ui-packages/packages/process-form/src/envelope/components/ProcessForm/ProcessForm.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/DisablePopup/DisablePopup.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/DisablePopup/tests/DisablePopup.test.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/ErrorPopover/ErrorPopover.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/ProcessList/ProcessList.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/ProcessList/tests/ProcessList.test.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/ProcessListActionsKebab/ProcessListActionsKebab.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/ProcessListChildTable/ProcessListChildTable.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/ProcessListTable/ProcessListTable.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/ProcessListTable/tests/ProcessListTable.test.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/ProcessListToolbar/ProcessListToolbar.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/ProcessListToolbar/tests/ProcessListToolbar.test.tsx",
+          "/ui-packages/packages/process-list/src/envelope/components/utils/ProcessListUtils.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/server/MockData/forms/examples/react_hiring_HRInterview.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/server/MockData/forms/examples/react_hiring_ITInterview.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/DevUI/DevUINav/DevUINav.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/CloudEventFormPage/CloudEventFormPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/CustomDashboardListPage/CustomDashboardListPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/CustomDashboardViewPage/CustomDashboardViewPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/FormDetailsPage/components/FormDetailsNotification/FormDetailsNotification.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/FormDetailsPage/components/FormDetailsNotification/tests/FormDetailsNotification.test.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/FormDetailsPage/FormDetailsPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/FormsListPage/FormsListPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/JobsManagementPage/JobsManagementPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/MonitoringPage/MonitoringPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/ProcessDetailsPage/ProcessDetailsPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/ProcessesPage/ProcessesPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/ProcessFormPage/components/InlineEdit/InlineEdit.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/ProcessFormPage/ProcessFormPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/TaskDetailsPage/TaskDetailsPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/TaskDetailsPage/tests/TaskDetailsPage.test.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/TaskInboxPage/components/TaskInboxSwitchUser.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/TaskInboxPage/TaskInboxPage.tsx",
+          "/ui-packages/packages/runtime-tools-dev-ui-webapp/src/components/pages/WorkflowFormPage/WorkflowFormPage.tsx",
+          "/ui-packages/packages/task-console-shared/src/components/TaskState/TaskState.tsx",
+          "/ui-packages/packages/task-console-shared/src/components/TaskState/tests/TaskState.test.tsx",
+          "/ui-packages/packages/task-console-webapp/src/components/console/TaskConsoleNav/TaskConsoleNav.tsx",
+          "/ui-packages/packages/task-console-webapp/src/components/pages/TaskDetailsPage/components/FormNotification/FormNotification.tsx",
+          "/ui-packages/packages/task-console-webapp/src/components/pages/TaskDetailsPage/components/FormNotification/tests/FormNotification.test.tsx",
+          "/ui-packages/packages/task-console-webapp/src/components/pages/TaskDetailsPage/TaskDetailsPage.tsx",
+          "/ui-packages/packages/task-console-webapp/src/components/pages/TaskDetailsPage/tests/TaskDetailsPage.test.tsx",
+          "/ui-packages/packages/task-console-webapp/src/components/pages/TaskInboxPage/TaskInboxPage.tsx",
+          "/ui-packages/packages/task-details/src/envelope/component/TaskDetails.tsx",
+          "/ui-packages/packages/task-form/src/envelope/components/CustomTaskFormDisplayer/CustomTaskFormDisplayer.tsx",
+          "/ui-packages/packages/task-form/src/envelope/components/EmptyTaskForm/EmptyTaskForm.tsx",
+          "/ui-packages/packages/task-form/src/envelope/components/EmptyTaskForm/tests/EmptyTaskForm.test.tsx",
+          "/ui-packages/packages/task-form/src/envelope/components/TaskForm/TaskForm.tsx",
+          "/ui-packages/packages/task-form/src/envelope/TaskFormEnvelopeView.tsx",
+          "/ui-packages/packages/task-inbox/src/envelope/components/TaskInbox/TaskInbox.tsx",
+          "/ui-packages/packages/task-inbox/src/envelope/components/TaskInboxToolbar/TaskInboxToolbar.tsx",
+          "/ui-packages/packages/task-inbox/src/envelope/components/TaskInboxToolbar/tests/TaskInboxToolbar.test.tsx",
+          "/ui-packages/packages/trusty/src/components/Atoms/CounterfactualOutcomeUnsupported/CounterfactualOutcomeUnsupported.tsx",
+          "/ui-packages/packages/trusty/src/components/Atoms/CounterfactualUnsupported/CounterfactualUnsupported.tsx",
+          "/ui-packages/packages/trusty/src/components/Atoms/CounterfactualUnsupportedBanner/CounterfactualUnsupportedBanner.tsx",
+          "/ui-packages/packages/trusty/src/components/Atoms/EvaluationStatus/EvaluationStatus.tsx",
+          "/ui-packages/packages/trusty/src/components/Atoms/ExecutionStatus/ExecutionStatus.tsx",
+          "/ui-packages/packages/trusty/src/components/Atoms/FormattedDate/FormattedDate.tsx",
+          "/ui-packages/packages/trusty/src/components/Atoms/FormattedValue/FormattedValue.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualCompletedMessage/CounterfactualCompletedMessage.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualError/CounterfactualError.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualExecutionInfo/CounterfactualExecutionInfo.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualOutcome/CounterfactualOutcome.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualOutcomeEdit/CounterfactualOutcomeEdit.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualProgressBar/CounterfactualProgressBar.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualsOutcomesSelected/CounterfactualOutcomesSelected.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/DatePicker/DatePicker.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/ExplanationError/ExplanationError.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/ExplanationUnavailable/ExplanationUnavailable.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/SkeletonCards/SkeletonCards.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/SkeletonDataList/SkeletonDataList.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/SkeletonDoubleBarChart/SkeletonDoubleBarChart.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/SkeletonFlexStripes/SkeletonFlexStripes.tsx",
+          "/ui-packages/packages/trusty/src/components/Molecules/SkeletonGrid/SkeletonGrid.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/AuditToolbar/AuditToolbar.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/Breadcrumbs/Breadcrumbs.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualAnalysis/CounterfactualAnalysis.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualAnalysis/tests/CounterfactualAnalysis.test.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualInputDomainEdit/CounterfactualInputDomainEdit.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualNumericalDomainEdit/CounterfactualNumericalDomainEdit.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualOutcomeSelection/CounterfactualOutcomeSelection.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualTable/CounterfactualTable.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualToolbar/CounterfactualToolbar.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/ExecutionHeader/ExecutionHeader.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/ExecutionTable/ExecutionTable.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/Explanation/Explanation.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/FeaturesScoreChart/FeaturesScoreChart.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/FeaturesScoreChartBySign/FeaturesScoreChartBySign.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/FeaturesScoreTable/FeaturesScoreTable.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/InputDataBrowser/InputDataBrowser.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/ModelDiagram/ModelDiagram.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/Outcomes/Outcomes.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/OutcomeSwitch/OutcomeSwitch.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/PaginationContainer/PaginationContainer.tsx",
+          "/ui-packages/packages/trusty/src/components/Organisms/PaginationContainer/tests/PaginationContainer.test.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/ApplicationError/ApplicationError.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/AuditDetail/AuditDetail.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/AuditOverview/AuditOverview.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/Counterfactual/Counterfactual.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/ExecutionDetail/ExecutionDetail.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/InputData/InputData.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/ModelLookup/ModelLookup.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/NotFound/NotFound.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/OutcomeDetails/OutcomeDetails.tsx",
+          "/ui-packages/packages/trusty/src/components/Templates/TrustyApp/TrustyApp.tsx",
+          "/ui-packages/packages/trusty/src/utils/skeletonRows/skeletonRows.tsx",
+          "/ui-packages/packages/trusty/src/utils/skeletonRows/tests/skeletonRows.test.tsx",
+          "/ui-packages/packages/workflow-form/src/envelope/components/CustomWorkflowForm/CustomWorkflowForm.tsx",
+          "/ui-packages/packages/workflow-form/src/envelope/components/WorkflowForm/WorkflowForm.tsx",
+          "/ui-packages/packages/workflow-form/src/envelope/WorkflowFormEnvelopeView.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/ui-packages/packages/trusty/cypress/e2e/TrafficViolation.ts"
+        ]
+      },
+      "css": {
+        "files": [
+          "/ui-packages/packages/components-common/src/components/styles.css",
+          "/ui-packages/packages/consoles-common/src/components/styles.css",
+          "/ui-packages/packages/form-details/src/envelope/components/styles.css",
+          "/ui-packages/packages/jobs-management/src/envelope/components/styles.css",
+          "/ui-packages/packages/process-details/src/envelope/components/styles.css",
+          "/ui-packages/packages/process-list/src/envelope/components/styles.css"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/ui-packages/packages/trusty/src/components/Atoms/CounterfactualOutcomeUnsupported/CounterfactualOutcomeUnsupported.scss",
+          "/ui-packages/packages/trusty/src/components/Atoms/CounterfactualUnsupportedBanner/CounterfactualUnsupportedBanner.scss",
+          "/ui-packages/packages/trusty/src/components/Atoms/EvaluationStatus/EvaluationStatus.scss",
+          "/ui-packages/packages/trusty/src/components/Atoms/ExecutionId/ExecutionId.scss",
+          "/ui-packages/packages/trusty/src/components/Atoms/ExecutionStatus/ExecutionStatus.scss",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualExecutionInfo/CounterfactualExecutionInfo.scss",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualOutcome/CounterfactualOutcome.scss",
+          "/ui-packages/packages/trusty/src/components/Molecules/CounterfactualOutcomeEdit/CounterfactualOutcomeEdit.scss",
+          "/ui-packages/packages/trusty/src/components/Molecules/DatePicker/DatePicker.scss",
+          "/ui-packages/packages/trusty/src/components/Molecules/SkeletonFlexStripes/SkeletonFlexStripes.scss",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualAnalysis/CounterfactualAnalysis.scss",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualOutcomeSelection/CounterfactualOutcomeSelection.scss",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualTable/CounterfactualTable.scss",
+          "/ui-packages/packages/trusty/src/components/Organisms/CounterfactualToolbar/CounterfactualToolbar.scss",
+          "/ui-packages/packages/trusty/src/components/Organisms/ExecutionHeader/ExecutionHeader.scss",
+          "/ui-packages/packages/trusty/src/components/Organisms/Explanation/Explanation.scss",
+          "/ui-packages/packages/trusty/src/components/Organisms/FeaturesScoreTable/FeaturesScoreTable.scss",
+          "/ui-packages/packages/trusty/src/components/Organisms/InputDataBrowser/InputDataBrowser.scss",
+          "/ui-packages/packages/trusty/src/components/Organisms/Outcomes/Outcomes.scss",
+          "/ui-packages/packages/trusty/src/components/Templates/AuditDetail/AuditDetail.scss",
+          "/ui-packages/packages/trusty/src/components/Templates/Counterfactual/Counterfactual.scss",
+          "/ui-packages/packages/trusty/src/components/Templates/ExecutionDetail/ExecutionDetail.scss",
+          "/ui-packages/packages/trusty/src/components/Templates/OutcomeDetails/OutcomeDetails.scss",
+          "/ui-packages/packages/trusty/src/components/Templates/TrustyApp/TrustyApp.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/js/layouts/Bullseye": {
+      "Bullseye": 29
+    },
+    "@patternfly/react-core/dist/js/components/Button": {
+      "Button": 39
+    },
+    "@patternfly/react-core/dist/js/layouts/Grid": {
+      "Grid": 5,
+      "GridItem": 5
+    },
+    "@patternfly/react-core/dist/js/layouts/Stack": {
+      "Stack": 3,
+      "StackItem": 2
+    },
+    "@patternfly/react-core/dist/js/components/TextInput": {
+      "TextInput": 8,
+      "TextInputBase": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/plus-circle-icon": {
+      "PlusCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/trash-icon": {
+      "TrashIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/help-icon": {
+      "HelpIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/Popover": {
+      "Popover": 3
+    },
+    "@patternfly/react-core/dist/js/components/ActionList": {
+      "ActionListGroup": 1,
+      "ActionList": 2,
+      "ActionListItem": 1
+    },
+    "@patternfly/react-core/dist/js/components/Select": {
+      "Select": 6,
+      "SelectOption": 6,
+      "SelectVariant": 5
+    },
+    "@patternfly/react-core/dist/js/components/Form": {
+      "Form": 7,
+      "FormGroup": 7,
+      "ActionGroup": 1
+    },
+    "@patternfly/react-core/dist/js/components/InputGroup": {
+      "InputGroup": 5
+    },
+    "@patternfly/react-core/dist/js/helpers": {
+      "ValidatedOptions": 2
+    },
+    "@patternfly/react-code-editor/dist/js/components/CodeEditor": {
+      "CodeEditor": 3,
+      "Language": 3,
+      "CodeEditorControl": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-circle-icon": {
+      "ExclamationCircleIcon": 2
+    },
+    "@patternfly/react-table/dist/js/components/Table": {
+      "Table": 4,
+      "TableHeader": 4,
+      "TableBody": 4,
+      "IRow": 4,
+      "ITransform": 1,
+      "ICell": 3,
+      "sortable": 2,
+      "ISortBy": 5,
+      "TableVariant": 1,
+      "IRowCell": 1,
+      "ExpandableRowContent": 1
+    },
+    "@patternfly/react-core/dist/js/components/Label": {
+      "Label": 8
+    },
+    "@patternfly/react-icons/dist/js/icons/external-link-alt-icon": {
+      "ExternalLinkAltIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Alert": {
+      "Alert": 3,
+      "AlertActionCloseButton": 2,
+      "AlertActionLink": 2
+    },
+    "uniforms-patternfly/dist/es6": {
+      "AutoFields": 1,
+      "AutoForm": 1,
+      "ErrorsField": 1
+    },
+    "@patternfly/react-core/dist/js/components/Text": {
+      "TextContent": 12,
+      "Text": 16,
+      "TextVariants": 11,
+      "TextList": 2,
+      "TextListItem": 2
+    },
+    "@patternfly/react-core/dist/js/components/Tooltip": {
+      "Tooltip": 11
+    },
+    "@patternfly/react-core/dist/js/components/Badge": {
+      "Badge": 1
+    },
+    "@patternfly/react-core/dist/js/components/EmptyState": {
+      "EmptyState": 10,
+      "EmptyStateBody": 7,
+      "EmptyStateIcon": 8,
+      "EmptyStateVariant": 6,
+      "EmptyStateSecondaryActions": 2
+    },
+    "@patternfly/react-core/dist/js/components/Title": {
+      "Title": 20,
+      "TitleSizes": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/search-icon": {
+      "SearchIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/info-circle-icon": {
+      "InfoCircleIcon": 8
+    },
+    "@patternfly/react-icons/dist/js/icons/exclamation-triangle-icon": {
+      "ExclamationTriangleIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/Spinner": {
+      "Spinner": 2
+    },
+    "@patternfly/react-core/dist/js/components/DataList": {
+      "DataList": 1,
+      "DataListItem": 1,
+      "DataListCell": 1
+    },
+    "@patternfly/react-core/dist/js/components/Dropdown": {
+      "DropdownItem": 9,
+      "Dropdown": 9,
+      "DropdownToggle": 5,
+      "DropdownToggleAction": 1,
+      "DropdownSeparator": 1,
+      "KebabToggle": 5,
+      "DropdownPosition": 1,
+      "DropdownToggleCheckbox": 1
+    },
+    "@patternfly/react-core/dist/js/layouts/Split": {
+      "Split": 6,
+      "SplitItem": 6
+    },
+    "@patternfly/react-icons/dist/js/icons/check-icon": {
+      "CheckIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/ClipboardCopy": {
+      "ClipboardCopy": 3,
+      "ClipboardCopyVariant": 2
+    },
+    "@patternfly/react-core/dist/js/components/Page": {
+      "PageSection": 22,
+      "Page": 1,
+      "PageSidebar": 1,
+      "PageHeader": 1,
+      "PageHeaderTools": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/exclamation-circle-icon": {
+      "ExclamationCircleIcon": 4
+    },
+    "@patternfly/react-core/dist/js/components/AboutModal": {
+      "AboutModal": 1
+    },
+    "@patternfly/react-core/dist/js/components/Brand": {
+      "Brand": 2
+    },
+    "@patternfly/react-core/dist/js/components/Breadcrumb": {
+      "Breadcrumb": 2,
+      "BreadcrumbItem": 2
+    },
+    "@patternfly/react-core/dist/js/layouts/Flex": {
+      "Flex": 6,
+      "FlexItem": 6
+    },
+    "@patternfly/react-core/dist/js/components/Toolbar": {
+      "Toolbar": 7,
+      "ToolbarGroup": 7,
+      "ToolbarItem": 7,
+      "ToolbarFilter": 6,
+      "ToolbarToggleGroup": 4,
+      "ToolbarContent": 6
+    },
+    "@patternfly/react-core/dist/js/components/Avatar": {
+      "Avatar": 1
+    },
+    "@patternfly/react-styles/css/utilities/Accessibility/accessibility": {
+      "accessibleStyles": 1
+    },
+    "@patternfly/react-styles": {
+      "css": 1
+    },
+    "@patternfly/react-core/dist/js/components/Card": {
+      "Card": 32,
+      "CardBody": 15,
+      "CardHeader": 10,
+      "CardHeaderMain": 3,
+      "CardTitle": 2
+    },
+    "@patternfly/react-core/dist/js/components/Divider": {
+      "Divider": 4
+    },
+    "@patternfly/react-core/dist/js/components/ToggleGroup": {
+      "ToggleGroup": 1,
+      "ToggleGroupItem": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/bars-icon": {
+      "BarsIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/th-icon": {
+      "ThIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/filter-icon": {
+      "FilterIcon": 4
+    },
+    "@patternfly/react-icons/dist/js/icons/sync-icon": {
+      "SyncIcon": 6
+    },
+    "@patternfly/react-core/dist/js/layouts/Gallery": {
+      "Gallery": 2,
+      "GalleryItem": 2
+    },
+    "@patternfly/react-core/dist/js/components/Drawer": {
+      "Drawer": 3,
+      "DrawerContent": 3,
+      "DrawerContentBody": 3,
+      "DrawerHead": 3,
+      "DrawerPanelContent": 3,
+      "DrawerActions": 2,
+      "DrawerCloseButton": 2,
+      "DrawerPanelBody": 2
+    },
+    "@patternfly/react-core/dist/js/components/Tabs": {
+      "Tab": 3,
+      "Tabs": 3,
+      "TabTitleText": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/undo-icon": {
+      "UndoIcon": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/save-icon": {
+      "SaveIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/redo-icon": {
+      "RedoIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/play-icon": {
+      "PlayIcon": 2
+    },
+    "@patternfly/react-core": {
+      "*": 1,
+      "Divider": 6,
+      "Split": 6,
+      "SplitItem": 6,
+      "ToggleGroup": 1,
+      "ToggleGroupItem": 2,
+      "Button": 12,
+      "ToolbarFilter": 2,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 3,
+      "ToolbarToggleGroup": 2,
+      "Toolbar": 3,
+      "ToolbarContent": 3,
+      "TextInput": 7,
+      "InputGroup": 3,
+      "Tooltip": 9,
+      "Label": 4,
+      "Bullseye": 2,
+      "Title": 21,
+      "Card": 9,
+      "CardHeader": 3,
+      "CardBody": 8,
+      "FormGroup": 6,
+      "Checkbox": 3,
+      "Alert": 6,
+      "AlertActionCloseButton": 3,
+      "AlertActionLink": 2,
+      "DrawerCloseButton": 2,
+      "DrawerPanelContent": 2,
+      "Grid": 4,
+      "GridItem": 4,
+      "PageSection": 11,
+      "Text": 5,
+      "TextVariants": 4,
+      "EmptyState": 9,
+      "EmptyStateBody": 8,
+      "EmptyStateIcon": 9,
+      "EmptyStateVariant": 3,
+      "StackItem": 8,
+      "Modal": 4,
+      "Badge": 1,
+      "FlexItem": 4,
+      "NumberInput": 1,
+      "Switch": 1,
+      "TextContent": 5,
+      "Progress": 1,
+      "ProgressSize": 1,
+      "List": 1,
+      "ListItem": 1,
+      "ListVariant": 1,
+      "Gallery": 2,
+      "GalleryItem": 2,
+      "DataList": 3,
+      "DataListCell": 3,
+      "DataListItem": 3,
+      "DataListItemCells": 3,
+      "DataListItemRow": 3,
+      "Flex": 3,
+      "gridSpans": 1,
+      "ButtonVariant": 2,
+      "ToolbarItemVariant": 1,
+      "PaginationVariant": 3,
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1,
+      "Drawer": 1,
+      "DrawerContent": 1,
+      "DrawerContentBody": 1,
+      "Stack": 7,
+      "ActionList": 1,
+      "ActionListItem": 1,
+      "DescriptionList": 1,
+      "DescriptionListDescription": 1,
+      "DescriptionListGroup": 1,
+      "DescriptionListTerm": 1,
+      "DrawerActions": 1,
+      "DrawerHead": 1,
+      "DrawerPanelBody": 1,
+      "Form": 2,
+      "ModalVariant": 2,
+      "TitleSizes": 1,
+      "Skeleton": 1,
+      "CardFooter": 1,
+      "Select": 1,
+      "SelectDirection": 1,
+      "SelectOption": 1,
+      "SelectOptionObject": 1,
+      "SelectVariant": 1,
+      "Pagination": 1,
+      "EmptyStatePrimary": 2,
+      "PageSectionVariants": 4,
+      "Nav": 2,
+      "NavItem": 2,
+      "NavList": 2,
+      "Avatar": 1,
+      "Brand": 1,
+      "Page": 1,
+      "PageHeader": 1,
+      "PageHeaderTools": 1,
+      "PageSidebar": 1
+    },
+    "@patternfly/react-icons": {
+      "BarsIcon": 1,
+      "ThIcon": 1,
+      "FilterIcon": 1,
+      "SyncIcon": 2,
+      "InfoCircleIcon": 2,
+      "CheckCircleIcon": 2,
+      "HourglassHalfIcon": 1,
+      "MinusCircleIcon": 1,
+      "ErrorCircleOIcon": 2,
+      "FastForwardIcon": 1,
+      "ExclamationCircleIcon": 2,
+      "ChartBarIcon": 1,
+      "OutlinedCalendarIcon": 1,
+      "SearchIcon": 2,
+      "OutlinedMehIcon": 2,
+      "AngleLeftIcon": 1,
+      "AngleRightIcon": 1,
+      "PlusCircleIcon": 1,
+      "StarIcon": 1,
+      "CubesIcon": 1,
+      "LongArrowAltRightIcon": 1,
+      "WarningTriangleIcon": 2,
+      "OutlinedQuestionCircleIcon": 1,
+      "HelpIcon": 1
+    },
+    "@patternfly/react-table": {
+      "ISortBy": 1,
+      "TableComposable": 1,
+      "Tbody": 1,
+      "Td": 1,
+      "Th": 1,
+      "Thead": 1,
+      "Tr": 2,
+      "IRow": 2,
+      "Table": 2,
+      "TableBody": 2,
+      "TableHeader": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/history-icon": {
+      "HistoryIcon": 3
+    },
+    "@patternfly/react-core/dist/js/components/OverflowMenu": {
+      "OverflowMenu": 3,
+      "OverflowMenuContent": 3,
+      "OverflowMenuItem": 2,
+      "OverflowMenuControl": 2,
+      "OverflowMenuGroup": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/clock-icon": {
+      "ClockIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/error-circle-o-icon": {
+      "ErrorCircleOIcon": 5
+    },
+    "@patternfly/react-icons/dist/js/icons/ban-icon": {
+      "BanIcon": 6
+    },
+    "@patternfly/react-icons/dist/js/icons/check-circle-icon": {
+      "CheckCircleIcon": 7
+    },
+    "@patternfly/react-core/dist/js/components/Modal": {
+      "Modal": 6,
+      "ModalVariant": 3,
+      "ModalBoxBody": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/outlined-clock-icon": {
+      "OutlinedClockIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/on-running-icon": {
+      "OnRunningIcon": 5
+    },
+    "@patternfly/react-icons/dist/js/icons/paused-icon": {
+      "PausedIcon": 2
+    },
+    "@patternfly/react-core/dist/js/components/Nav": {
+      "Nav": 3,
+      "NavItem": 3,
+      "NavList": 3
+    },
+    "@patternfly/react-icons/dist/js/icons/caret-down-icon": {
+      "CaretDownIcon": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/level-down-alt-icon": {
+      "LevelDownAltIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/level-up-alt-icon": {
+      "LevelUpAltIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/user-icon": {
+      "UserIcon": 2
+    },
+    "@patternfly/react-core/layouts/Stack": {
+      "Stack": 2,
+      "StackItem": 2
+    },
+    "@patternfly/react-core/dist/js/components/Checkbox": {
+      "Checkbox": 3
+    },
+    "@patternfly/react-table/dist/js/components/TableComposable": {
+      "TableComposable": 1,
+      "Thead": 1,
+      "Tbody": 1,
+      "Tr": 1,
+      "Th": 1,
+      "Td": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/pencil-alt-icon": {
+      "PencilAltIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/times-icon": {
+      "TimesIcon": 1
+    },
+    "@patternfly/react-core/layouts/Bullseye": {
+      "Bullseye": 1
+    },
+    "@patternfly/react-core/dist/js/components/Chip": {
+      "Chip": 1
+    },
+    "@patternfly/react-core/dist/js/components/Tooltip/Tooltip": {
+      "TooltipProps": 1
+    },
+    "@patternfly/react-charts": {
+      "Chart": 2,
+      "ChartAxis": 2,
+      "ChartBar": 2,
+      "ChartGroup": 2,
+      "ChartLabel": 2,
+      "ChartLegend": 2,
+      "ChartTooltip": 1,
+      "ChartTooltipProps": 1,
+      "ChartProps": 1
+    }
+  },
+  "classes": {
+    "pf-u-success-color-100": 1,
+    "pf-c-form__group-label-help": 2,
+    "pf-u-link-color": 1,
+    "pf-u-my-xl": 3,
+    "pf-u-ml-xs": 1,
+    "pf-u-display-inline": 2,
+    "pf-u-float-right": 1,
+    "pf-u-mr-md": 1,
+    "pf-u-text-align-left": 1,
+    "pf-u-font-weight-bold": 2,
+    "pf-u-mt-md": 4,
+    "pf-m-filter-group": 1,
+    "pf-m-toggle-group-container": 7,
+    "pf-c-card": 1,
+    "pf-c-form": 6,
+    "pf-u-text-align-center": 1,
+    "pf-u-mr-sm": 35,
+    "pf-u-ml-md": 2,
+    "pf-u-mt-sm": 2,
+    "pf-c-toolbar__content": 5,
+    "pf-u-align-items-center": 1,
+    "pf-u-ml-sm": 2,
+    "pf-c-table__button": 2,
+    "pf-c-table__expandable-row-content": 2,
+    "pf-c-chip": 2,
+    "pf-u-h-100": 5,
+    "pf-c-alert__action": 1,
+    "pf-c-inline-edit": 1,
+    "pf-m-inline-editable": 1,
+    "pf-c-inline-edit__group": 3,
+    "pf-c-inline-edit__value": 1,
+    "pf-u-disabled-color-100": 1,
+    "pf-c-inline-edit__action": 3,
+    "pf-m-enable-editable": 1,
+    "pf-c-inline-edit__input": 1,
+    "pf-m-action-group": 1,
+    "pf-m-icon-group": 1,
+    "pf-m-valid": 1,
+    "pf-c-empty-state__body": 1,
+    "pf-m-current": 1,
+    "pf-c-nav__list": 2,
+    "pf-c-data-list__cell": 11,
+    "pf-c-drawer__panel": 1,
+    "pf-m-compact": 1,
+    "pf-c-spinner": 1,
+    "pf-m-md": 1,
+    "pf-c-about-modal-box__hero": 1,
+    "pf-c-page__header-brand-link": 1,
+    "pf-c-brand": 1,
+    "pf-c-code-editor__controls": 1,
+    "pf-c-data-toolbar__item": 4,
+    "pf-c-chip__text": 5,
+    "pf-c-check__label": 4,
+    "pf-c-table__sort": 1,
+    "pf-c-chip-group": 1,
+    "pf-c-table__action": 1,
+    "pf-c-progress__indicator": 1,
+    "pf-c-title": 1,
+    "pf-c-data-list__item-content": 2,
+    "pf-c-data-list": 1,
+    "pf-c-card__body": 1,
+    "pf-m-scrollable": 1,
+    "pf-c-nav__item": 1,
+    "pf-c-nav__link": 1
+  },
+  "cssVars": {
+    "--pf-global--spacer--lg": 5,
+    "--pf-c-page__header-brand-link--c-brand--MaxHeight": 1,
+    "--pf-c-content--small--Color": 1,
+    "--pf-global--Color--100": 1,
+    "--pf-global--spacer--md": 14,
+    "--pf-global--BorderWidth--md": 1,
+    "--pf-global--BorderColor--300": 1,
+    "--pf-global--spacer--sm": 16,
+    "--pf-global--BackgroundColor--100": 2,
+    "--pf-global--active-color--100": 1,
+    "--pf-global--palette--black-600": 2,
+    "--pf-global--success-color--100": 2,
+    "--pf-global--warning-color--100": 1,
+    "--pf-global--danger-color--100": 2,
+    "--pf-global--FontFamily--heading--sans-serif": 1,
+    "--pf-global--Color--200": 2,
+    "--pf-global--spacer--form-element": 3,
+    "--pf-global--primary-color--200": 2,
+    "--pf-global--disabled-color--300": 2,
+    "--pf-global--primary-color--100": 3,
+    "--pf-global--disabled-color--200": 2,
+    "--pf-global--spacer--xs": 3,
+    "--pf-c-drawer__content--BackgroundColor": 1,
+    "--pf-global--palette--black-300": 2,
+    "--pf-global--palette--black-200": 1,
+    "--pf-c-modal-box__body--PaddingLeft": 1,
+    "--pf-global--palette--blue-50": 1,
+    "--pf-c-button--disabled--Color": 1,
+    "--pf-c-table--border-width--base": 1,
+    "--pf-global--BorderWidth--sm": 2,
+    "--pf-c-table--BorderColor": 2,
+    "--pf-global--spacer--xl": 3,
+    "--pf-global--FontSize--sm": 1,
+    "--pf-c-data-list__cell-cell--PaddingTop": 3,
+    "--pf-global--info-color--100": 5,
+    "--pf-c-data-list--BorderTopWidth": 1,
+    "--pf-c-page__main-section--xl--PaddingLeft": 2,
+    "--pf-c-page__main-section--BackgroundColor": 2,
+    "--pf-c-page__main-section--PaddingTop": 1,
+    "--pf-c-page__main-section--PaddingBottom": 1
+  },
+  "repo": "https://github.com/kiegroup/kogito-apps",
+  "name": "Kogito-apps",
+  "date": "2024-04-04T21:19:16.764Z",
+  "dependencies": {
+    "@apidevtools/swagger-parser": 1,
+    "@apollo/react-common": 1,
+    "@apollo/react-hooks": 1,
+    "@apollo/react-testing": 1,
+    "@babel/core": 25,
+    "@babel/preset-env": 11,
+    "@babel/preset-react": 11,
+    "@babel/standalone": 2,
+    "@emotion/core": 1,
+    "@graphql-codegen/add": 5,
+    "@graphql-codegen/cli": 5,
+    "@graphql-codegen/introspection": 5,
+    "@graphql-codegen/typescript": 5,
+    "@graphql-codegen/typescript-operations": 5,
+    "@graphql-codegen/typescript-react-apollo": 5,
+    "@kie-tools-core/editor": 2,
+    "@kie-tools-core/envelope": 18,
+    "@kie-tools-core/envelope-bus": 18,
+    "@kie-tools-core/keyboard-shortcuts": 1,
+    "@kie-tools/dashbuilder-client": 2,
+    "@kie-tools/kie-editors-standalone": 1,
+    "@kie-tools/serverless-workflow-combined-editor": 2,
+    "@kie-tools/serverless-workflow-diagram-editor-assets": 2,
+    "@kie-tools/serverless-workflow-diagram-editor-envelope": 1,
+    "@kie-tools/serverless-workflow-text-editor": 1,
+    "@kie/lock-treatment-tool": 1,
+    "@kogito-apps/cloud-event-form": 1,
+    "@kogito-apps/components-common": 22,
+    "@kogito-apps/consoles-common": 4,
+    "@kogito-apps/custom-dashboard-list": 1,
+    "@kogito-apps/custom-dashboard-view": 1,
+    "@kogito-apps/cypress-ouia": 2,
+    "@kogito-apps/form-details": 1,
+    "@kogito-apps/form-displayer": 5,
+    "@kogito-apps/forms-list": 2,
+    "@kogito-apps/jobs-management": 2,
+    "@kogito-apps/management-console-shared": 7,
+    "@kogito-apps/monitoring": 1,
+    "@kogito-apps/monitoring-webapp": 1,
+    "@kogito-apps/ouia-tools": 24,
+    "@kogito-apps/process-definition-list": 1,
+    "@kogito-apps/process-details": 2,
+    "@kogito-apps/process-form": 1,
+    "@kogito-apps/process-list": 2,
+    "@kogito-apps/runtime-gateway-api": 2,
+    "@kogito-apps/task-console-shared": 6,
+    "@kogito-apps/task-details": 2,
+    "@kogito-apps/task-form": 2,
+    "@kogito-apps/task-inbox": 2,
+    "@kogito-apps/trusty": 1,
+    "@kogito-apps/workflow-form": 1,
+    "@patternfly/patternfly": 20,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-code-editor": 4,
+    "@patternfly/react-core": 23,
+    "@patternfly/react-icons": 18,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-table": 9,
+    "@testing-library/jest-dom": 26,
+    "@testing-library/react": 14,
+    "@testing-library/react-hooks": 1,
+    "@types/enzyme": 13,
+    "@types/jest": 26,
+    "@types/json-schema": 1,
+    "@types/node": 1,
+    "@types/react": 23,
+    "@types/react-custom-scrollbars": 1,
+    "@types/react-dom": 24,
+    "@types/react-router": 5,
+    "@types/react-router-dom": 7,
+    "@types/react-scrollbar": 1,
+    "@types/webpack": 4,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "@wojtekmaj/enzyme-adapter-react-17": 13,
+    "ajv": 1,
+    "apollo-boost": 1,
+    "apollo-cache-inmemory": 3,
+    "apollo-client": 4,
+    "apollo-link-context": 2,
+    "apollo-link-error": 3,
+    "apollo-link-http": 3,
+    "apollo-server-express": 3,
+    "axios": 8,
+    "babel-jest": 26,
+    "babel-loader": 1,
+    "concurrently": 4,
+    "copy-webpack-plugin": 3,
+    "copyfiles": 24,
+    "core-js": 2,
+    "css-loader": 4,
+    "css-minimizer-webpack-plugin": 4,
+    "cypress": 5,
+    "dangerously-set-html-content": 1,
+    "date-fns": 1,
+    "enzyme": 13,
+    "enzyme-to-json": 13,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-cypress": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "express": 3,
+    "faker": 1,
+    "file-loader": 4,
+    "filemanager-webpack-plugin": 1,
+    "flatpickr": 1,
+    "gql-query-builder": 1,
+    "graphql": 1,
+    "graphql-tag": 1,
+    "history": 4,
+    "html-webpack-plugin": 3,
+    "https-browserify": 2,
+    "husky": 1,
+    "identity-obj-proxy": 26,
+    "jest": 26,
+    "jest-canvas-mock": 2,
+    "jest-junit": 26,
+    "json-schema": 1,
+    "json-server": 1,
+    "keycloak-js": 1,
+    "lint-staged": 1,
+    "lodash": 18,
+    "mini-css-extract-plugin": 4,
+    "mockdate": 1,
+    "moment": 1,
+    "monaco-editor": 1,
+    "monaco-editor-webpack-plugin": 1,
+    "monaco-yaml": 1,
+    "node-polyfill-webpack-plugin": 1,
+    "nodemon": 3,
+    "openapi-types": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "^4.224.2"
+      ],
+      "@patternfly/react-code-editor": [
+        "^4.82.113",
+        "4.82.113"
+      ],
+      "@patternfly/react-core": [
+        "^4.276.8"
+      ],
+      "@patternfly/react-icons": [
+        "^4.93.6"
+      ],
+      "@patternfly/react-table": [
+        "^4.113.0"
+      ],
+      "uniforms-patternfly": [
+        "^4.7.9"
+      ],
+      "@patternfly/react-styles": [
+        "^4.92.6"
+      ],
+      "@patternfly/react-charts": [
+        "^6.94.19"
+      ]
+    },
+    "pnpm": 1,
+    "prettier": 1,
+    "pretty-quick": 1,
+    "query-string": 1,
+    "raw-loader": 1,
+    "react": 25,
+    "react-apollo": 3,
+    "react-apollo-hooks": 3,
+    "react-custom-scrollbars": 1,
+    "react-datetime-picker": 1,
+    "react-dom": 25,
+    "react-helmet": 1,
+    "react-inlinesvg": 1,
+    "react-json-view": 1,
+    "react-moment": 9,
+    "react-monaco-editor": 1,
+    "react-pure-loaders": 1,
+    "react-router": 5,
+    "react-router-dom": 7,
+    "react-svg-pan-zoom": 1,
+    "react-svg-pan-zoom-loader": 1,
+    "react-test-renderer": 2,
+    "rimraf": 28,
+    "sass": 1,
+    "sass-loader": 5,
+    "serve": 2,
+    "start-server-and-test": 2,
+    "stream-http": 1,
+    "style-loader": 4,
+    "svg-url-loader": 4,
+    "swagger-ui-express": 1,
+    "ts-jest": 26,
+    "ts-loader": 4,
+    "tsconfig-paths-webpack-plugin": 4,
+    "typescript": 28,
+    "uniforms": 1,
+    "uniforms-bridge-json-schema": 1,
+    "uniforms-patternfly": 1,
+    "url-loader": 4,
+    "use-react-router-breadcrumbs": 1,
+    "uuid": 10,
+    "waait": 14,
+    "webpack": 4,
+    "webpack-cli": 4,
+    "webpack-dev-server": 4,
+    "webpack-merge": 4
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 71,
+        "ts": 3,
+        "css": 4
+      },
+      "js": 62,
+      "ts": 130,
+      "tsx": 76,
+      "css": 20
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/pf-ui/src/main/webapp/src/context/simple-context.tsx",
+          "/pf-ui/src/main/webapp/src/layout/about.tsx",
+          "/pf-ui/src/main/webapp/src/layout/default-layout.tsx",
+          "/pf-ui/src/main/webapp/src/layout/header.tsx",
+          "/pf-ui/src/main/webapp/src/layout/sidebar.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/application-edit.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/compatible-files/compatible-files-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/compatible-files/compatible-files.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/dashboard/components/efforts-section.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/dashboard/components/incidents-section.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/dashboard/dashboard.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/dependencies/dependencies.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/details/components/application-files-children-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/details/components/application-files-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/details/components/messages-card.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/details/components/tags-chart.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/details/details.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/ejb/ejb.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/ejb/entity-beans-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/ejb/message-driven-beans-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/ejb/stateless-session-beans-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/hardcoded-ip-addresses/hard-coded-ip-addresses-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/hardcoded-ip-addresses/hardcoded-ip-addresses.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/hibernate/entities-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/hibernate/hibernate.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/hibernate/session-factories-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/ignored-files/ignored-files.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/issues/issues.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/jbpm/jbpm-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/jbpm/jbpm.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/jpa/entities-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/jpa/jpa.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/jpa/named-queries-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/jpa/persistence-units-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/remote-services/ejb-remote-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/remote-services/jaxrs-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/remote-services/jaxws-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/remote-services/remote-services.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/remote-services/rmi-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/server-resources/datasource-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/server-resources/jms-connection-factory-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/server-resources/jms-destinations-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/server-resources/other-jndi-entries-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/server-resources/server-resources.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/server-resources/thread-pools-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/spring-beans/spring-beans-table.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/spring-beans/spring-beans.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/technologies/technologies.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/transactions/transactions.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-edit/pages/unparsable-files/unparsable-files.tsx",
+          "/pf-ui/src/main/webapp/src/pages/application-list/application-list.tsx",
+          "/pf-ui/src/main/webapp/src/pages/dependencies-list/dependencies-list.tsx",
+          "/pf-ui/src/main/webapp/src/pages/issues-list/issues-list.tsx",
+          "/pf-ui/src/main/webapp/src/pages/rules-list/rules-list.tsx",
+          "/pf-ui/src/main/webapp/src/pages/technologies-list/technologies-list.tsx",
+          "/pf-ui/src/main/webapp/src/Routes.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/dependencies-table/dependencies-table.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/file-editor/file-editor.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/ignored-files-table/ignored-files-table.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/issues-table/components/issue-overview.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/issues-table/issues-table.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/java-incidents-by-package/java-incidents-by-package.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/rule-editor/rule-editor.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/simple-select/simple-select.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/simple-table-with-toolbar/simple-pagination.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/simple-table-with-toolbar/simple-state-error.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/simple-table-with-toolbar/simple-state-no-data.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/simple-table-with-toolbar/simple-state-no-results.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/simple-table-with-toolbar/simple-table-with-toolbar.tsx",
+          "/pf-ui/src/main/webapp/src/shared/components/simple-table-with-toolbar/simple-table.tsx",
+          "/pf-ui/src/main/webapp/src/shared/hooks/useTechnologiesData/technologies-data.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/pf-ui/src/main/webapp/src/shared/hooks/useTable/useTable.ts",
+          "/pf-ui/src/main/webapp/src/shared/hooks/useTableControls/useTableControls.ts",
+          "/pf-ui/src/main/webapp/src/shared/hooks/useToolbar/useToolbar.ts"
+        ]
+      },
+      "css": {
+        "files": [
+          "/pf-ui/src/main/webapp/src/App.css",
+          "/pf-ui/src/main/webapp/src/context/simple-context.css",
+          "/pf-ui/src/main/webapp/src/index.css",
+          "/pf-ui/src/main/webapp/src/pages/application-list/application-list.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "ContextSelector": 1,
+      "ContextSelectorItem": 1,
+      "ContextSelectorProps": 1,
+      "AboutModal": 1,
+      "Flex": 3,
+      "FlexItem": 3,
+      "Grid": 6,
+      "GridItem": 6,
+      "List": 9,
+      "ListItem": 9,
+      "TextContent": 8,
+      "Page": 1,
+      "Brand": 1,
+      "Button": 22,
+      "ButtonVariant": 18,
+      "Dropdown": 1,
+      "DropdownItem": 1,
+      "KebabToggle": 1,
+      "PageHeader": 1,
+      "PageHeaderTools": 1,
+      "PageHeaderToolsGroup": 1,
+      "PageHeaderToolsItem": 1,
+      "Nav": 1,
+      "NavList": 1,
+      "PageSidebar": 1,
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1,
+      "PageSection": 23,
+      "Tab": 6,
+      "TabTitleText": 6,
+      "Tabs": 6,
+      "Text": 7,
+      "Modal": 20,
+      "Alert": 1,
+      "Stack": 6,
+      "StackItem": 6,
+      "Card": 13,
+      "CardBody": 13,
+      "CardTitle": 7,
+      "Badge": 2,
+      "Label": 5,
+      "ListComponent": 2,
+      "OrderType": 2,
+      "Truncate": 2,
+      "DescriptionList": 5,
+      "DescriptionListDescription": 5,
+      "DescriptionListGroup": 5,
+      "DescriptionListTerm": 5,
+      "ToolbarGroup": 5,
+      "ToolbarItem": 12,
+      "SearchInput": 7,
+      "Divider": 4,
+      "EmptyState": 8,
+      "EmptyStateIcon": 8,
+      "EmptyStateVariant": 4,
+      "Gallery": 1,
+      "GalleryItem": 1,
+      "SelectVariant": 5,
+      "Title": 8,
+      "Toolbar": 5,
+      "ToolbarContent": 5,
+      "ExpandableSection": 1,
+      "LabelGroup": 1,
+      "PageSectionVariants": 5,
+      "Split": 2,
+      "SplitItem": 2,
+      "ToolbarChip": 5,
+      "ToolbarChipGroup": 3,
+      "ToolbarFilter": 4,
+      "Tooltip": 1,
+      "Bullseye": 7,
+      "EmptyStateBody": 7,
+      "Spinner": 2,
+      "CardActions": 1,
+      "CardHeader": 1,
+      "Drawer": 1,
+      "DrawerActions": 1,
+      "DrawerCloseButton": 1,
+      "DrawerContent": 1,
+      "DrawerContentBody": 1,
+      "DrawerHead": 1,
+      "DrawerPanelContent": 1,
+      "Select": 1,
+      "SelectOption": 1,
+      "SelectOptionObject": 1,
+      "SelectOptionProps": 1,
+      "SelectProps": 1,
+      "Pagination": 1,
+      "PaginationVariant": 1,
+      "ToggleTemplate": 1,
+      "ToolbarItemVariant": 1,
+      "ToolbarToggleGroup": 1,
+      "Skeleton": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/book-open-icon": {
+      "BookOpenIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/envelope-icon": {
+      "EnvelopeIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/github-icon": {
+      "GithubIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/globe-icon": {
+      "GlobeIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/info-alt-icon": {
+      "InfoAltIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/help-icon": {
+      "HelpIcon": 1
+    },
+    "@patternfly/react-styles": {
+      "css": 1
+    },
+    "@patternfly/react-table": {
+      "IAction": 29,
+      "ICell": 31,
+      "IRow": 32,
+      "TableComposable": 9,
+      "Tbody": 9,
+      "Td": 9,
+      "Th": 5,
+      "Thead": 5,
+      "Tr": 9,
+      "cellWidth": 6,
+      "IRowData": 11,
+      "Caption": 2,
+      "sortable": 6,
+      "truncate": 3,
+      "IExtraData": 4,
+      "compoundExpand": 2,
+      "breakWord": 1,
+      "Table": 1,
+      "TableHeader": 1,
+      "TableBody": 1,
+      "TableProps": 1,
+      "SortByDirection": 2,
+      "IExtraColumnData": 1
+    },
+    "@patternfly/react-charts": {
+      "Chart": 3,
+      "ChartAxis": 3,
+      "ChartBar": 3,
+      "ChartGroup": 3,
+      "ChartThemeColor": 3,
+      "ChartTooltip": 2,
+      "ChartVoronoiContainer": 1,
+      "ChartDonut": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/info-circle-icon": {
+      "InfoCircleIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/filter-icon": {
+      "FilterIcon": 4
+    },
+    "@patternfly/react-icons/dist/esm/icons/expand-icon": {
+      "ExpandIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/tag-icon": {
+      "TagIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/task-icon": {
+      "TaskIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/arrow-up-icon": {
+      "ArrowUpIcon": 4
+    },
+    "@patternfly/react-code-editor": {
+      "CodeEditor": 2,
+      "CodeEditorProps": 2,
+      "Language": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-circle-icon": {
+      "ExclamationCircleIcon": 1
+    },
+    "@patternfly/react-tokens": {
+      "global_danger_color_200": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/cubes-icon": {
+      "CubesIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/search-icon": {
+      "SearchIcon": 1
+    }
+  },
+  "classes": {
+    "pf-u-py-xl": 2,
+    "pf-c-nav__link": 5,
+    "pf-m-current": 5,
+    "pf-u-m-md": 7,
+    "pf-u-mx-lg": 1,
+    "pf-u-text-align-right": 1,
+    "pf-u-m-lg": 2,
+    "pf-m-no-padding": 3,
+    "pf-u-m-sm": 1,
+    "pf-c-button": 2,
+    "pf-m-primary": 1,
+    "pf-m-toggle-group-container": 1,
+    "pf-c-select__toggle": 2,
+    "pf-c-table": 7,
+    "pf-c-table__toggle": 2,
+    "pf-c-progress": 1
+  },
+  "cssVars": {
+    "--pf-c-select__toggle--before--BorderTopWidth": 2,
+    "--pf-c-select__toggle--before--BorderTopColor": 2,
+    "--pf-c-select__toggle--before--BorderRightWidth": 2,
+    "--pf-c-select__toggle--before--BorderRightColor": 2,
+    "--pf-c-select__toggle--before--BorderBottomWidth": 2,
+    "--pf-c-select__toggle--before--BorderBottomColor": 2,
+    "--pf-c-select__toggle--before--BorderLeftWidth": 2,
+    "--pf-c-select__toggle--before--BorderLeftColor": 2,
+    "--pf-global--BorderWidth--sm": 1,
+    "--pf-global--BorderColor--100": 1,
+    "--pf-c-table--tbody--cell--PaddingBottom": 1,
+    "--pf-global--spacer--xl": 1,
+    "--pf-global--spacer--form-element": 1,
+    "--pf-global--spacer--md": 1,
+    "--pf-c-progress--GridGap": 1,
+    "--pf-global--spacer--xs": 1
+  },
+  "repo": "https://github.com/windup/windup",
+  "name": "Application-Migration-Toolkit",
+  "date": "2024-04-04T21:19:16.764Z",
+  "dependencies": {
+    "@migtools/lib-ui": 1,
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-code-editor": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-table": 1,
+    "@tanstack/react-query": 1,
+    "@tanstack/react-query-devtools": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@types/jest": 1,
+    "@types/node": 1,
+    "@types/react": 1,
+    "@types/react-csv": 1,
+    "@types/react-dom": 1,
+    "axios": 1,
+    "github-markdown-css": 1,
+    "http-proxy-middleware": 1,
+    "monaco-editor-webpack-plugin": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "4.224.2"
+      ],
+      "@patternfly/react-charts": [
+        "6.94.18"
+      ],
+      "@patternfly/react-code-editor": [
+        "4.82.113"
+      ],
+      "@patternfly/react-core": [
+        "4.267.6"
+      ],
+      "@patternfly/react-table": [
+        "4.112.39"
+      ]
+    },
+    "react": 1,
+    "react-app-rewired": 1,
+    "react-dom": 1,
+    "react-markdown": 1,
+    "react-monaco-editor": 1,
+    "react-router-dom": 1,
+    "react-scripts": 1,
+    "remark-gfm": 1,
+    "typesafe-actions": 1,
+    "typescript": 1,
+    "usehooks-ts": 1,
+    "web-vitals": 1
+  }
+}
