@@ -3,8 +3,9 @@ const { execSync } = require('child_process');
 const fs = require('fs-extra');
 // IMPORT FUNCTIONS FROM THIS DIRECTORY
 const { getPatternflyStats, patternflyAggs, productUsage } = require('./getPatternflyStats');
-const { getPackageStats, getAggregatePackageStats } = require('./getPackageStats');
+const { getPackageStats, getAggregatePackageStats, getPFVersions } = require('./getPackageStats');
 const { getSortedImports, getSortedUsage } = require('./getSortedImports');
+const { getDeprecatedComponents } = require('./getDeprecatedComponents');
 // IMPORT JSON LIST OF REPOS
 const repos = require('../../repos.json').repos;
 
@@ -51,7 +52,11 @@ function collectPatternflyStats(argv) {
     fs.outputFileSync(`${dir}/_all_dependencies.json`, JSON.stringify(getAggregatePackageStats(), null, 2));
     fs.outputFileSync(`${dir}/_all.json`, JSON.stringify(patternflyAggs, null, 2));
     fs.outputFileSync(`${dir}/_all_sorted.json`, JSON.stringify(getSortedImports(patternflyAggs.imports), null, 2));
-    fs.outputFileSync(`${dir}/_all_product_uses.json`, JSON.stringify(getSortedUsage(productUsage), null, 2));
+    const sortedUsage = getSortedUsage(productUsage);
+    const pfVersions = getPFVersions();
+    fs.outputFileSync(`${dir}/_all_product_uses.json`, JSON.stringify(sortedUsage, null, 2));
+    fs.outputFileSync(`${dir}/_all_pf_versions.json`, JSON.stringify(pfVersions, null, 2));
+    fs.outputFileSync(`${dir}/_deprecated_usage.json`, JSON.stringify(getDeprecatedComponents(sortedUsage, pfVersions), null, 2));
   }
   console.log(`Collected stats for ${date} under ${dir}`);
 }
