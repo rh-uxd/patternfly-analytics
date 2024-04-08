@@ -1,0 +1,190 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 12,
+        "scss": 4
+      },
+      "js": 4,
+      "ts": 9,
+      "tsx": 32,
+      "scss": 12
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/App.tsx",
+          "/src/components/app-content-renderer/first-panel.tsx",
+          "/src/components/app-content-renderer/second-panel.tsx",
+          "/src/components/app-content-renderer/SimpleSlider.tsx",
+          "/src/components/recently-visited/recently-visited.tsx",
+          "/src/components/widgets/explore-capabilities.tsx",
+          "/src/components/widgets/recently-visited.tsx",
+          "/src/components/widgets/simple-service-widget.tsx",
+          "/src/routes/404.tsx",
+          "/src/routes/Landing.tsx",
+          "/src/routes/Logout.tsx",
+          "/src/routes/Maintenance.tsx"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/components/app-content-renderer/styles/panels.scss",
+          "/src/components/app-content-renderer/virtual-assistant.scss",
+          "/src/components/widgets/explore-capabilities.scss",
+          "/src/routes/Maintenance.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/dynamic/layouts/Bullseye": {
+      "Bullseye": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Spinner": {
+      "Spinner": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Page": {
+      "PageSection": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Card": {
+      "Card": 2,
+      "CardBody": 2,
+      "CardFooter": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Gallery": {
+      "Gallery": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Icon": {
+      "Icon": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Sidebar": {
+      "Sidebar": 2,
+      "SidebarContent": 2,
+      "SidebarPanel": 2
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Stack": {
+      "Stack": 1,
+      "StackItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Text": {
+      "Text": 6,
+      "TextContent": 6,
+      "TextVariants": 3
+    },
+    "@patternfly/react-core/dist/dynamic/components/Title": {
+      "Title": 3,
+      "TitleSizes": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/arrow-right-icon": {
+      "ArrowRightIcon": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Button": {
+      "Button": 5
+    },
+    "@patternfly/react-core/dist/dynamic/components/Drawer": {
+      "Drawer": 1,
+      "DrawerContent": 1,
+      "DrawerContentBody": 1,
+      "DrawerPanelBody": 1,
+      "DrawerPanelContent": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/SimpleList": {
+      "SimpleList": 1,
+      "SimpleListItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Split": {
+      "Split": 1,
+      "SplitItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/EmptyState": {
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateFooter": 1,
+      "EmptyStateHeader": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateVariant": 1
+    }
+  },
+  "classes": {
+    "pf-m-no-background": 8,
+    "pf-m-fill": 1,
+    "pf-m-danger": 1
+  },
+  "cssVars": {
+    "--pf-v5-global--BorderWidth--lg": 1,
+    "--pf-v5-global--info-color--100": 3,
+    "--pf-v5-global--BackgroundColor--dark-300": 1,
+    "--pf-v5-global--BorderWidth--sm": 3,
+    "--pf-v5-global--BorderColor--100": 3,
+    "--pf-global--spacer--lg": 2,
+    "--pf-v5-c-simple-list__item-link--PaddingBottom": 1,
+    "--pf-v5-c-simple-list__item-link--PaddingTop": 1,
+    "--pf-v5-c-simple-list__item-link--m-current--FontWeight": 1,
+    "--pf-v5-global--FontWeight--bold": 1,
+    "--pf-v5-global--palette--black-400": 1,
+    "--pf-v5-c-empty-state__icon--MarginBottom": 1
+  },
+  "repo": "https://github.com/RedHatInsights/landing-page-frontend",
+  "name": "RedHatInsights-landing-page-frontend",
+  "date": "2024-04-04T21:19:16.764Z",
+  "dependencies": {
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@redhat-cloud-services/chrome": 1,
+    "@redhat-cloud-services/eslint-config-redhat-cloud-services": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@redhat-cloud-services/tsc-transform-imports": 1,
+    "@redhat-cloud-services/types": 1,
+    "@scalprum/core": 1,
+    "@swc/core": 1,
+    "@swc/jest": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 2,
+    "@testing-library/user-event": 1,
+    "@types/jest": 1,
+    "@types/react-slick": 1,
+    "@types/redux-logger": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@unleash/proxy-client-react": 1,
+    "classnames": 1,
+    "copy-webpack-plugin": 1,
+    "eslint": 1,
+    "eslint-plugin-react": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "jest-fetch-mock": 1,
+    "jest_workaround": 1,
+    "joi": 1,
+    "js-cookie": 1,
+    "lodash": 1,
+    "npm-run-all": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "^5.1.0"
+      ],
+      "@patternfly/react-core": [
+        "5.1.1"
+      ],
+      "@patternfly/react-icons": [
+        "^5.1.1"
+      ]
+    },
+    "react": 1,
+    "react-dom": 1,
+    "react-intl": 1,
+    "react-router-dom": 1,
+    "react-slick": 1,
+    "redux-logger": 1,
+    "redux-promise-middleware": 1,
+    "ts-jest": 1,
+    "ts-patch": 1,
+    "typescript": 1,
+    "webpack-bundle-analyzer": 1
+  }
+}
