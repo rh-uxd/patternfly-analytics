@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+python-dateutil = "2.8.2"
+pandas = "*"
+xlsxwriter = "*"
+
+
+[requires]
+python_version = "3.11+"
