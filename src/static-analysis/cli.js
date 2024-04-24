@@ -43,7 +43,7 @@ function collectPatternflyStats(argv) {
       patternflyStats.name = repo.name || repoName;
       patternflyStats.date = date;
       if (argv.j) {
-        patternflyStats.dependencies = getPackageStats(tmpPath, patternflyStats.name);
+        patternflyStats.dependencies = getPackageStats(tmpPath, patternflyStats.name, repo.git);
       }
 
       fs.outputFileSync(`${dir}/${repo.name}.json`, JSON.stringify(patternflyStats, null, 2));
