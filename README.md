@@ -11,7 +11,7 @@ This project pulls current PatternFly usage metrics across a number of products.
 - View the new report, created within:
   - `/stats-static/{CURRENT-DATE}`
 
-- Create a .csv and .xslx report
+- Create a .csv and .xslx report (see below for installation)
   - `python to_xls.py` 
 
 
@@ -27,3 +27,23 @@ These repositories are cloned locally into a `/tmp` directory, and each are loop
   - Lists all imported PatternFly assets by import file path or import type
 - `_all_sorted.json`
   - Groups together common imported assets regardless of file path from `_all.json` and sorts them by total imported quantity across repos.
+
+
+## Installation of the Python code
+
+```shell
+# 1) Install a venv (only needed once)
+python3 -m venv .venv
+# 2) Activate it
+source .venv/bin/activate
+# 3) Install packages
+python3 -m pip install pandas xlswriter
+# 4) Run the code
+python3 to_xls.py
+# 5) (Optional) Deactivate the venv again
+deactivate
+```
+
+If step 3 fails, you need to install pip. on Linux e.g.
+via `dnf install python3-pip`.
+`
