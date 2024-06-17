@@ -18,7 +18,7 @@ function getPackageStats(repoPath, repoName, url) {
       if (dep.includes('patternfly')) {
         trackPfVersions(dependencies, dep);
       }
-     // console.log(dep); //dependency name 
+     // console.log(dep); //dependency name
       aggregated[dep] = aggregated[dep] || [];
       aggregated[dep].push(repoName);
     });
@@ -45,7 +45,7 @@ function getPackageStats(repoPath, repoName, url) {
     if (!dependencies) {
       return;
     }
-      
+
       //a way to get the dependency name/values out
       var pp, pq, prcve, prc, prce, prcon, prcore, pricon, predit, prlogv, pnext, prstyle, prtable, prtoken, prtop, pruf, prvirt, pf, pfr, pfre, r = null;
       var data = `
@@ -55,7 +55,7 @@ function getPackageStats(repoPath, repoName, url) {
       const courses = dependencies;
       const keys = Object.keys(courses);
       keys.forEach((key, index) => {
-        
+
         if(key == '@patternfly/patternfly'){
           pp = courses[key];
         }
@@ -119,11 +119,11 @@ function getPackageStats(repoPath, repoName, url) {
         else if(key == 'react'){
           r = courses[key];
         }
-       
-        
+
+
 
       });
-       
+
 
        //working to get unique filename for each package.json found in a github repo...
         const filePath = file;
@@ -135,13 +135,14 @@ function getPackageStats(repoPath, repoName, url) {
 
       //collect row for output object
        if(pp || pq || prcve ||prc || prce || prcon || prcore || pricon || predit || prlogv || pnext || prstyle || prtable || prtoken || prtop || pruf || prvirt || pf || pfr || pfre != null){
-          
+
         data += `${repoName}-${extractFilename(filePath)}, ${url}, ${pp}, ${pq}, ${prcve}, ${prc}, ${prce}, ${prcon}, ${prcore}, ${pricon}, ${predit}, ${prlogv}, ${pnext}, ${prstyle}, ${prtable}, ${prtoken}, ${prtop}, ${pruf}, ${prvirt}, ${pf}, ${pfr}, ${pfre}, ${r}`;
 
         //write csv file of dependency for each package.json found
         const date = new Date().toISOString();
         const statsDir = path.resolve(__dirname, '../../stats-static');
 
+        fsj.mkdirSync(`${statsDir}/${date.substring(0, 10)}`, true) // Create dir if it does not exist
         fsj.writeFileSync(`${statsDir}/${date.substring(0, 10)}/${repoName}-${extractFilename(filePath)}-data.csv`, data, "utf-8", (err) => {
           if (err) console.log(err);
           else console.log("Data saved");
