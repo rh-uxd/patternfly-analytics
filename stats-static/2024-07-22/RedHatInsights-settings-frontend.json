@@ -1,0 +1,41 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 4
+      },
+      "js": 35,
+      "scss": 2
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/PresentationalComponents/PlainTextWithLinks.js",
+          "/src/PresentationalComponents/RenderForms.js",
+          "/src/SmartComponents/Applications/Applications.js",
+          "/src/SmartComponents/Applications/applications.test.js"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Text": 1,
+      "TextVariants": 1,
+      "Card": 1,
+      "CardBody": 1,
+      "Stack": 1,
+      "StackItem": 1
+    }
+  },
+  "classes": {
+    "pf-u-ml-md": 1,
+    "pf-u-mt-sm": 1,
+    "pf-c-form": 1
+  },
+  "cssVars": {},
+  "repo": "https://github.com/RedHatInsights/settings-frontend",
+  "name": "RedHatInsights-settings-frontend",
+  "date": "2024-07-22T14:47:45.240Z",
+  "dependencies": {}
+}

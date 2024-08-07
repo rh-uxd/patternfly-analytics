@@ -1,0 +1,3561 @@
+{
+  "@actions/github": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@babel/cli": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/core": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/eslint-parser": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/plugin-proposal-class-properties": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/plugin-proposal-decorators": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/plugin-proposal-object-rest-spread": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/plugin-proposal-optional-chaining": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/plugin-syntax-dynamic-import": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/plugin-transform-react-display-name": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/plugin-transform-runtime": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/plugin-transform-typescript": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/preset-env": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/preset-react": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/preset-typescript": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@babel/runtime": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@backstage/app-defaults": [
+    "Backstage"
+  ],
+  "@backstage/backend-app-api": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/backend-common": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/backend-defaults": [
+    "Backstage"
+  ],
+  "@backstage/backend-dynamic-feature-service": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/backend-plugin-api": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/backend-tasks": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/backend-test-utils": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/catalog-client": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/catalog-model": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/cli": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/cli-common": [
+    "Backstage"
+  ],
+  "@backstage/cli-node": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/config": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/config-loader": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/core-app-api": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/core-components": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/core-plugin-api": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/dev-utils": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/errors": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/eslint-plugin": [
+    "Backstage"
+  ],
+  "@backstage/integration": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/integration-react": [
+    "Backstage"
+  ],
+  "@backstage/plugin-api-docs": [
+    "Backstage"
+  ],
+  "@backstage/plugin-app-backend": [
+    "Backstage"
+  ],
+  "@backstage/plugin-auth-backend": [
+    "Backstage"
+  ],
+  "@backstage/plugin-auth-backend-module-guest-provider": [
+    "Backstage"
+  ],
+  "@backstage/plugin-auth-node": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-catalog": [
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-catalog-backend": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-catalog-backend-module-logs": [
+    "Backstage"
+  ],
+  "@backstage/plugin-catalog-backend-module-scaffolder-entity-model": [
+    "Backstage"
+  ],
+  "@backstage/plugin-catalog-common": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-catalog-graph": [
+    "Backstage"
+  ],
+  "@backstage/plugin-catalog-import": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-catalog-node": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-catalog-react": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-events-backend": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-events-node": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-kubernetes-common": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-kubernetes-react": [
+    "Backstage"
+  ],
+  "@backstage/plugin-org": [
+    "Backstage"
+  ],
+  "@backstage/plugin-permission-backend": [
+    "Backstage"
+  ],
+  "@backstage/plugin-permission-common": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-permission-node": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-permission-react": [
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-proxy-backend": [
+    "Backstage"
+  ],
+  "@backstage/plugin-scaffolder": [
+    "Backstage"
+  ],
+  "@backstage/plugin-scaffolder-backend": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-scaffolder-node": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-scaffolder-node-test-utils": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/plugin-search": [
+    "Backstage"
+  ],
+  "@backstage/plugin-search-backend": [
+    "Backstage"
+  ],
+  "@backstage/plugin-search-backend-module-catalog": [
+    "Backstage"
+  ],
+  "@backstage/plugin-search-backend-module-pg": [
+    "Backstage"
+  ],
+  "@backstage/plugin-search-backend-module-techdocs": [
+    "Backstage"
+  ],
+  "@backstage/plugin-search-react": [
+    "Backstage"
+  ],
+  "@backstage/plugin-techdocs": [
+    "Backstage"
+  ],
+  "@backstage/plugin-techdocs-backend": [
+    "Backstage"
+  ],
+  "@backstage/plugin-techdocs-module-addons-contrib": [
+    "Backstage"
+  ],
+  "@backstage/plugin-techdocs-react": [
+    "Backstage"
+  ],
+  "@backstage/plugin-user-settings": [
+    "Backstage"
+  ],
+  "@backstage/test-utils": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/theme": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@backstage/types": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@blueprintjs/core": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@blueprintjs/datetime": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@blueprintjs/select": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@carbon/icons-react": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@cfaester/enzyme-adapter-react-18": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@console/container-security": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/dev-console": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/dynamic-plugin-sdk": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/git-service": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/gitops-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/helm-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/insights-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/internal": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/knative-plugin": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/local-storage-operator-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/metal3-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/network-attachment-definition-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/operator-lifecycle-manager": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/operator-lifecycle-manager-v1": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/patternfly": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/pipelines-plugin": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/plugin-sdk": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/rhoas-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/service-binding-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/shared": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/shipwright-plugin": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/telemetry-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/topology": [
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console"
+  ],
+  "@console/vsphere-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@console/webterminal-plugin": [
+    "OpenShift-Admin-Console"
+  ],
+  "@dagrejs/graphlib": [
+    "Backstage"
+  ],
+  "@data-driven-forms/common": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@data-driven-forms/editor-pro": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@data-driven-forms/mui-component-mapper": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@data-driven-forms/react-form-renderer": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@devfile/api": [
+    "CHE-dashboard",
+    "CHE-dashboard"
+  ],
+  "@docsearch/css": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@docsearch/react": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@eclipse-che/che-devworkspace-generator": [
+    "CHE-dashboard"
+  ],
+  "@eclipse-che/common": [
+    "CHE-dashboard"
+  ],
+  "@emotion/cache": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@emotion/react": [
+    "Backstage",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@emotion/server": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@emotion/styled": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@emotion/utils": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@eslint/compat": [
+    "Keycloak"
+  ],
+  "@eslint/eslintrc": [
+    "Keycloak"
+  ],
+  "@eslint/js": [
+    "Keycloak"
+  ],
+  "@faker-js/faker": [
+    "Keycloak"
+  ],
+  "@fastify/accepts": [
+    "Opendatahub"
+  ],
+  "@fastify/autoload": [
+    "Opendatahub"
+  ],
+  "@fastify/cors": [
+    "CHE-dashboard"
+  ],
+  "@fastify/error": [
+    "CHE-dashboard"
+  ],
+  "@fastify/http-proxy": [
+    "CHE-dashboard",
+    "Opendatahub"
+  ],
+  "@fastify/oauth2": [
+    "CHE-dashboard"
+  ],
+  "@fastify/rate-limit": [
+    "CHE-dashboard"
+  ],
+  "@fastify/sensible": [
+    "Opendatahub"
+  ],
+  "@fastify/static": [
+    "CHE-dashboard",
+    "Opendatahub"
+  ],
+  "@fastify/swagger": [
+    "CHE-dashboard"
+  ],
+  "@fastify/swagger-ui": [
+    "CHE-dashboard"
+  ],
+  "@fastify/websocket": [
+    "CHE-dashboard",
+    "Opendatahub"
+  ],
+  "@formatjs/cli": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@frsource/cypress-plugin-visual-regression-diff": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@hey-api/openapi-ts": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@ianvs/prettier-plugin-sort-imports": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@janus-idp/backstage-plugin-audit-log-node": [
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@janus-idp/backstage-plugin-ocm-common": [
+    "Backstage"
+  ],
+  "@janus-idp/backstage-plugin-orchestrator-common": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@janus-idp/backstage-plugin-rbac-backend": [
+    "Backstage"
+  ],
+  "@janus-idp/backstage-plugin-rbac-common": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@janus-idp/backstage-plugin-rbac-node": [
+    "Backstage"
+  ],
+  "@janus-idp/cli": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@janus-idp/shared-react": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@keycloak/keycloak-admin-client": [
+    "Backstage"
+  ],
+  "@khala/commit-analyzer-wildcard": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@khala/npm-release-monorepo": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@khala/wildcard-release-notes": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@kie-tools-core/editor": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@kie-tools-core/keyboard-shortcuts": [
+    "Backstage"
+  ],
+  "@kie-tools-core/notifications": [
+    "Backstage"
+  ],
+  "@kie-tools-core/react-hooks": [
+    "Backstage"
+  ],
+  "@kie-tools/serverless-workflow-combined-editor": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@kie-tools/serverless-workflow-diagram-editor-assets": [
+    "Backstage"
+  ],
+  "@kie-tools/serverless-workflow-diagram-editor-envelope": [
+    "Backstage"
+  ],
+  "@kie-tools/serverless-workflow-language-service": [
+    "Backstage"
+  ],
+  "@kie-tools/serverless-workflow-service-catalog": [
+    "Backstage"
+  ],
+  "@kie-tools/serverless-workflow-text-editor": [
+    "Backstage"
+  ],
+  "@kubernetes-models/shipwright": [
+    "OpenShift-Admin-Console"
+  ],
+  "@kubernetes/client-node": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Opendatahub"
+  ],
+  "@kubevirt-ui/kubevirt-api": [
+    "Nmstate-plugin"
+  ],
+  "@manypkg/get-packages": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@material-table/core": [
+    "Backstage"
+  ],
+  "@material-ui/core": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@material-ui/icons": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@material-ui/lab": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@mdx-js/loader": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@mdx-js/react": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@microsoft/api-extractor": [
+    "Backstage"
+  ],
+  "@microsoft/tsdoc": [
+    "OpenShift-Admin-Console"
+  ],
+  "@monaco-editor/react": [
+    "Backstage"
+  ],
+  "@mui/icons-material": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@mui/material": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@mui/styles": [
+    "Backstage"
+  ],
+  "@mui/system": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@mui/x-date-pickers": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@next/bundle-analyzer": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@next/font": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@noble/hashes": [
+    "Keycloak"
+  ],
+  "@octokit/auth-app": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@octokit/core": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@octokit/rest": [
+    "Backstage",
+    "Backstage",
+    "Keycloak",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-frontend-components"
+  ],
+  "@one-platform/opc-feedback": [
+    "Backstage"
+  ],
+  "@openapitools/openapi-generator-cli": [
+    "Backstage",
+    "Openshift-assisted-ui"
+  ],
+  "@openshift-assisted/toolbox": [
+    "Openshift-assisted-ui"
+  ],
+  "@openshift-assisted/ui-lib": [
+    "Openshift-assisted-ui"
+  ],
+  "@openshift-console/dynamic-plugin-sdk": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console"
+  ],
+  "@openshift-console/dynamic-plugin-sdk-webpack": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console"
+  ],
+  "@openshift-console/plugin-shared": [
+    "OpenShift-Admin-Console"
+  ],
+  "@openshift/dynamic-plugin-sdk": [
+    "Nmstate-plugin"
+  ],
+  "@openshift/dynamic-plugin-sdk-webpack": [
+    "Backstage",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "@patternfly/quickstarts": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "@patternfly/react-core": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-frontend-components"
+  ],
+  "@patternfly/react-icons": [
+    "OpenShift-Admin-Console",
+    "RedHatInsights-frontend-components"
+  ],
+  "@patternfly/react-table": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-frontend-components"
+  ],
+  "@playwright/test": [
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@pmmmwh/react-refresh-webpack-plugin": [
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/frontend-components": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/frontend-components-charts": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/frontend-components-config-utilities": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/frontend-components-notifications": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/frontend-components-pdf-generator": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/frontend-components-remediations": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/frontend-components-utilities": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/rbac-client": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/tsc-transform-imports": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-cloud-services/types": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@redhat-developer/red-hat-developer-hub-theme": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@reportportal/agent-js-cypress": [
+    "HAC-Dev"
+  ],
+  "@rjsf/core": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@rjsf/mui": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@rjsf/utils": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@rjsf/validator-ajv8": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@rollup/plugin-commonjs": [
+    "Backstage",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications"
+  ],
+  "@rollup/plugin-inject": [
+    "Keycloak"
+  ],
+  "@rollup/plugin-json": [
+    "Backstage",
+    "Migration-Toolkit-For-Applications"
+  ],
+  "@rollup/plugin-node-resolve": [
+    "Backstage",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications"
+  ],
+  "@rollup/plugin-run": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "@rollup/plugin-terser": [
+    "Keycloak"
+  ],
+  "@rollup/plugin-typescript": [
+    "Keycloak",
+    "Migration-Toolkit-For-Applications"
+  ],
+  "@rollup/plugin-virtual": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "@rollup/plugin-yaml": [
+    "Backstage"
+  ],
+  "@scalprum/react-core": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@segment/analytics-next": [
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "@semantic-release/changelog": [
+    "Backstage"
+  ],
+  "@semantic-release/exec": [
+    "Backstage",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@semantic-release/git": [
+    "Backstage",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@semantic-release/github": [
+    "Backstage",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@semantic-release/npm": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@semrel-extra/npm": [
+    "Backstage"
+  ],
+  "@severlessworkflow/sdk-typescript": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@simonsmith/cypress-image-snapshot": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@spotify/prettier-config": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@stackblitz/sdk": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@storybook/addon-controls": [
+    "Backstage"
+  ],
+  "@storybook/addon-essentials": [
+    "Backstage"
+  ],
+  "@storybook/addon-interactions": [
+    "Backstage"
+  ],
+  "@storybook/addon-links": [
+    "Backstage"
+  ],
+  "@storybook/blocks": [
+    "Backstage"
+  ],
+  "@storybook/preview-api": [
+    "Backstage"
+  ],
+  "@storybook/react": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@storybook/react-webpack5": [
+    "Backstage"
+  ],
+  "@storybook/testing-library": [
+    "Backstage"
+  ],
+  "@svgr/rollup": [
+    "Backstage"
+  ],
+  "@svgr/webpack": [
+    "Backstage"
+  ],
+  "@swc/core": [
+    "Backstage",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "@tanstack/eslint-plugin-query": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "@tanstack/react-query": [
+    "Backstage"
+  ],
+  "@testing-library/cypress": [
+    "Openshift-assisted-ui"
+  ],
+  "@testing-library/dom": [
+    "Backstage",
+    "Backstage",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@testing-library/jest-dom": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@testing-library/react": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@testing-library/react-hooks": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin"
+  ],
+  "@testing-library/user-event": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@tsconfig/recommended": [
+    "Openshift-assisted-ui"
+  ],
+  "@types/angular": [
+    "Quay",
+    "Quay"
+  ],
+  "@types/angular-mocks": [
+    "Quay",
+    "Quay"
+  ],
+  "@types/angular-route": [
+    "Quay",
+    "Quay"
+  ],
+  "@types/angular-sanitize": [
+    "Quay",
+    "Quay"
+  ],
+  "@types/args": [
+    "CHE-dashboard"
+  ],
+  "@types/autosuggest-highlight": [
+    "Backstage"
+  ],
+  "@types/carbon-components-react": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "@types/chai": [
+    "Keycloak"
+  ],
+  "@types/core-js": [
+    "Quay",
+    "Quay"
+  ],
+  "@types/ejs": [
+    "OpenShift-Admin-Console"
+  ],
+  "@types/enzyme": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/eslint": [
+    "ACM-console",
+    "Openshift-assisted-ui"
+  ],
+  "@types/event-stream": [
+    "ACM-console"
+  ],
+  "@types/express": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/file-saver": [
+    "Backstage"
+  ],
+  "@types/fs-extra": [
+    "Backstage",
+    "Backstage",
+    "CHE-dashboard",
+    "HAC-Dev",
+    "OpenShift-Admin-Console"
+  ],
+  "@types/get-value": [
+    "ACM-console"
+  ],
+  "@types/gunzip-maybe": [
+    "Keycloak"
+  ],
+  "@types/history": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/http-errors": [
+    "Opendatahub"
+  ],
+  "@types/http-server": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/inquirer": [
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/jasmine": [
+    "Quay",
+    "Quay"
+  ],
+  "@types/jest": [
+    "ACM-console",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/jquery": [
+    "Quay",
+    "Quay"
+  ],
+  "@types/js-combinatorics": [
+    "OpenShift-Admin-Console"
+  ],
+  "@types/js-yaml": [
+    "Nmstate-plugin",
+    "Openshift-assisted-ui",
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/json-schema": [
+    "Backstage"
+  ],
+  "@types/jws": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/lodash": [
+    "Backstage",
+    "Opendatahub",
+    "Openshift-assisted-ui",
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/lodash-es": [
+    "Keycloak"
+  ],
+  "@types/mocha": [
+    "Keycloak"
+  ],
+  "@types/mock-fs": [
+    "Backstage"
+  ],
+  "@types/node": [
+    "ACM-console",
+    "ACM-console",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "CHE-dashboard",
+    "HAC-Dev",
+    "Keycloak",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "Opendatahub",
+    "Openshift-assisted-ui",
+    "Quay"
+  ],
+  "@types/node-fetch": [
+    "ACM-console",
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/nodemailer": [
+    "Backstage"
+  ],
+  "@types/npm-packlist": [
+    "Backstage"
+  ],
+  "@types/pino": [
+    "ACM-console"
+  ],
+  "@types/pluralize": [
+    "ACM-console"
+  ],
+  "@types/react": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/react-dom": [
+    "Backstage",
+    "Backstage",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/react-measure": [
+    "OpenShift-Admin-Console"
+  ],
+  "@types/react-router": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console"
+  ],
+  "@types/react-router-dom": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/recursive-readdir": [
+    "Backstage"
+  ],
+  "@types/redux-mock-store": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/request": [
+    "CHE-dashboard"
+  ],
+  "@types/rollup-plugin-postcss": [
+    "Backstage"
+  ],
+  "@types/sanitize-html": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/semver": [
+    "ACM-console"
+  ],
+  "@types/showdown": [
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay"
+  ],
+  "@types/supertest": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "@types/tar-fs": [
+    "Keycloak"
+  ],
+  "@types/uuid": [
+    "Backstage"
+  ],
+  "@types/wait-on": [
+    "RedHatInsights-frontend-components"
+  ],
+  "@types/yarnpkg__lockfile": [
+    "Backstage"
+  ],
+  "@typescript-eslint/eslint-plugin": [
+    "ACM-console",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Opendatahub",
+    "Openshift-assisted-ui",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "@typescript-eslint/parser": [
+    "ACM-console",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Opendatahub",
+    "Openshift-assisted-ui",
+    "RedHatInsights-frontend-components"
+  ],
+  "@urql/core": [
+    "Backstage",
+    "Backstage"
+  ],
+  "@vitest/ui": [
+    "Openshift-assisted-ui"
+  ],
+  "@yarnpkg/lockfile": [
+    "Backstage"
+  ],
+  "@yarnpkg/parsers": [
+    "Backstage"
+  ],
+  "abort-controller": [
+    "ACM-console",
+    "Backstage",
+    "Backstage"
+  ],
+  "ajv-formats": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "angular": [
+    "Quay",
+    "Quay"
+  ],
+  "angular-animate": [
+    "Quay"
+  ],
+  "angular-cookies": [
+    "Quay"
+  ],
+  "angular-file-upload": [
+    "Quay"
+  ],
+  "angular-mocks": [
+    "Quay",
+    "Quay"
+  ],
+  "angular-route": [
+    "Quay",
+    "Quay"
+  ],
+  "angular-sanitize": [
+    "Quay",
+    "Quay"
+  ],
+  "antd": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "app": [
+    "Backstage"
+  ],
+  "args": [
+    "CHE-dashboard"
+  ],
+  "asn1js": [
+    "OpenShift-Admin-Console"
+  ],
+  "assert": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "autosuggest-highlight": [
+    "Backstage"
+  ],
+  "axe-core": [
+    "HAC-Dev"
+  ],
+  "axios": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Openshift-assisted-ui",
+    "RedHatInsights-frontend-components"
+  ],
+  "axios-mock-adapter": [
+    "CHE-dashboard",
+    "RedHatInsights-frontend-components"
+  ],
+  "babel-core": [
+    "RedHatInsights-frontend-components"
+  ],
+  "babel-eslint": [
+    "Opendatahub",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "babel-jest": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "babel-loader": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "babel-plugin-lodash": [
+    "RedHatInsights-frontend-components"
+  ],
+  "babel-plugin-transform-imports": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "babel-polyfill": [
+    "RedHatInsights-frontend-components"
+  ],
+  "bfj": [
+    "Backstage"
+  ],
+  "bootbox": [
+    "Quay",
+    "Quay"
+  ],
+  "bootstrap": [
+    "Quay"
+  ],
+  "bootstrap-datepicker": [
+    "Quay"
+  ],
+  "browserify-zlib": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "buffer": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "cal-heatmap": [
+    "Quay"
+  ],
+  "camelize-ts": [
+    "Backstage",
+    "Keycloak"
+  ],
+  "carbon-components": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "carbon-components-react": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "carbon-icons": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "casbin": [
+    "Backstage"
+  ],
+  "chai": [
+    "Keycloak"
+  ],
+  "chalk": [
+    "Backstage",
+    "Keycloak",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "chokidar": [
+    "Backstage",
+    "Backstage",
+    "Openshift-assisted-ui",
+    "RedHatInsights-frontend-components"
+  ],
+  "chrome-remote-interface": [
+    "Ansible-hub"
+  ],
+  "classnames": [
+    "Backstage",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "clean-webpack-plugin": [
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "clipboard": [
+    "Quay",
+    "Quay"
+  ],
+  "cloudevents": [
+    "Backstage",
+    "Backstage"
+  ],
+  "clsx": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "codeowners": [
+    "Backstage"
+  ],
+  "codesandbox": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "commander": [
+    "Backstage",
+    "Keycloak"
+  ],
+  "concurrently": [
+    "ACM-console",
+    "ACM-console",
+    "Migration-Toolkit-For-Applications",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "conventional-changelog-conventionalcommits": [
+    "Backstage"
+  ],
+  "cookie-parser": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "copy-webpack-plugin": [
+    "CHE-dashboard",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console"
+  ],
+  "copyfiles": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "core-js": [
+    "Quay",
+    "Quay"
+  ],
+  "cpx": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "cross-env": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "cross-fetch": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "css-loader": [
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "csv-parse": [
+    "Backstage"
+  ],
+  "cypress": [
+    "Ansible-hub",
+    "HAC-Dev",
+    "Nmstate-plugin",
+    "Openshift-assisted-ui"
+  ],
+  "cypress-axe": [
+    "HAC-Dev"
+  ],
+  "cypress-file-upload": [
+    "Ansible-hub",
+    "Openshift-assisted-ui"
+  ],
+  "cypress-fill-command": [
+    "Openshift-assisted-ui"
+  ],
+  "cypress-high-resolution": [
+    "HAC-Dev"
+  ],
+  "cypress-mochawesome-reporter": [
+    "HAC-Dev"
+  ],
+  "cypress-multi-reporters": [
+    "HAC-Dev"
+  ],
+  "cypress-terminal-report": [
+    "HAC-Dev"
+  ],
+  "d3": [
+    "Quay"
+  ],
+  "date-fns": [
+    "Backstage",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "deepmerge": [
+    "Backstage",
+    "HAC-Dev"
+  ],
+  "docker-file-parser": [
+    "OpenShift-Admin-Console"
+  ],
+  "dotenv": [
+    "ACM-console",
+    "Opendatahub",
+    "Opendatahub",
+    "RedHatInsights-frontend-components"
+  ],
+  "dotenv-expand": [
+    "Opendatahub"
+  ],
+  "dpdm": [
+    "Openshift-assisted-ui"
+  ],
+  "dtslint": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "ejs": [
+    "Migration-Toolkit-For-Applications",
+    "Migration-Toolkit-For-Applications",
+    "OpenShift-Admin-Console"
+  ],
+  "enzyme": [
+    "RedHatInsights-frontend-components"
+  ],
+  "enzyme-to-json": [
+    "RedHatInsights-frontend-components"
+  ],
+  "eonasdan-bootstrap-datetimepicker": [
+    "Quay"
+  ],
+  "es6-promise": [
+    "Keycloak"
+  ],
+  "esbuild": [
+    "Backstage"
+  ],
+  "esbuild-loader": [
+    "Backstage"
+  ],
+  "eslint": [
+    "ACM-console",
+    "Backstage",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Openshift-assisted-ui",
+    "Openshift-assisted-ui",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "Stackrox"
+  ],
+  "eslint-config-airbnb": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-config-airbnb-base": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-config-prettier": [
+    "ACM-console",
+    "Backstage",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Openshift-assisted-ui",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "Stackrox"
+  ],
+  "eslint-config-react-app": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "eslint-import-resolver-typescript": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-loader": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "eslint-plugin-cypress": [
+    "Keycloak",
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-flowtype": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "eslint-plugin-graphql": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-import": [
+    "OpenShift-Admin-Console",
+    "Openshift-assisted-ui",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "eslint-plugin-jest": [
+    "Backstage",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "eslint-plugin-json": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-jsx-a11y": [
+    "OpenShift-Admin-Console",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "eslint-plugin-lodash": [
+    "Keycloak"
+  ],
+  "eslint-plugin-mocha": [
+    "Keycloak"
+  ],
+  "eslint-plugin-no-relative-import-paths": [
+    "CHE-dashboard"
+  ],
+  "eslint-plugin-node": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-notice": [
+    "CHE-dashboard",
+    "CHE-dashboard"
+  ],
+  "eslint-plugin-playwright": [
+    "Keycloak"
+  ],
+  "eslint-plugin-prettier": [
+    "ACM-console",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "eslint-plugin-promise": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-react": [
+    "Keycloak",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Openshift-assisted-ui",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "eslint-plugin-react-hooks": [
+    "Keycloak",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Openshift-assisted-ui",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "eslint-plugin-rulesdir": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "eslint-plugin-simple-import-sort": [
+    "CHE-dashboard",
+    "Nmstate-plugin"
+  ],
+  "eslint-plugin-sort-class-members": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-storybook": [
+    "Backstage"
+  ],
+  "eslint-plugin-testing-library": [
+    "Nmstate-plugin"
+  ],
+  "eslint-plugin-tsdoc": [
+    "OpenShift-Admin-Console"
+  ],
+  "eslint-plugin-unused-imports": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "eslint-webpack-plugin": [
+    "Backstage",
+    "CHE-dashboard"
+  ],
+  "event-stream": [
+    "ACM-console"
+  ],
+  "evergreen-ui": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "express": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Migration-Toolkit-For-Applications",
+    "Migration-Toolkit-For-Applications",
+    "Migration-Toolkit-For-Applications",
+    "RedHatInsights-frontend-components"
+  ],
+  "express-promise-router": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "fastify": [
+    "CHE-dashboard",
+    "Opendatahub"
+  ],
+  "fastify-cli": [
+    "Opendatahub"
+  ],
+  "fastify-plugin": [
+    "Opendatahub"
+  ],
+  "file-loader": [
+    "CHE-dashboard",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "RedHatInsights-frontend-components"
+  ],
+  "file-saver": [
+    "Backstage",
+    "Quay",
+    "Quay"
+  ],
+  "filemanager-webpack-plugin": [
+    "Backstage"
+  ],
+  "final-form": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "final-form-arrays": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "final-form-focus": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "find-my-way": [
+    "ACM-console"
+  ],
+  "fork-ts-checker-webpack-plugin": [
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "form-data": [
+    "Backstage",
+    "Backstage"
+  ],
+  "formik": [
+    "Backstage",
+    "Backstage",
+    "OpenShift-Admin-Console"
+  ],
+  "fs-extra": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "CHE-dashboard",
+    "HAC-Dev",
+    "Keycloak",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "get-value": [
+    "ACM-console"
+  ],
+  "git-revision-webpack-plugin": [
+    "RedHatInsights-frontend-components"
+  ],
+  "git-url-parse": [
+    "Backstage",
+    "Backstage",
+    "OpenShift-Admin-Console"
+  ],
+  "gitconfiglocal": [
+    "Backstage"
+  ],
+  "gitlab": [
+    "OpenShift-Admin-Console"
+  ],
+  "glob": [
+    "HAC-Dev",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "got": [
+    "ACM-console"
+  ],
+  "gunzip-maybe": [
+    "Keycloak"
+  ],
+  "handlebars": [
+    "Backstage"
+  ],
+  "happy-dom": [
+    "Openshift-assisted-ui"
+  ],
+  "har-to-k6": [
+    "Stackrox"
+  ],
+  "highlight.js": [
+    "Quay",
+    "Quay"
+  ],
+  "history": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "html-loader": [
+    "Quay",
+    "Quay"
+  ],
+  "html-replace-webpack-plugin": [
+    "RedHatInsights-frontend-components"
+  ],
+  "html-webpack-plugin": [
+    "Backstage",
+    "Backstage",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "http-errors": [
+    "Opendatahub"
+  ],
+  "http-proxy-middleware": [
+    "Backstage",
+    "Backstage",
+    "Migration-Toolkit-For-Applications",
+    "Migration-Toolkit-For-Applications"
+  ],
+  "http-server": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-frontend-components"
+  ],
+  "http-terminator": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "https": [
+    "CHE-dashboard"
+  ],
+  "https-proxy-agent": [
+    "ACM-console",
+    "RedHatInsights-frontend-components"
+  ],
+  "husky": [
+    "ACM-console",
+    "Backstage",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications"
+  ],
+  "i18next-parser": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Openshift-assisted-ui"
+  ],
+  "identity-obj-proxy": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "immer": [
+    "Nmstate-plugin"
+  ],
+  "ini": [
+    "OpenShift-Admin-Console"
+  ],
+  "inquirer": [
+    "Backstage",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "is-native-module": [
+    "Backstage"
+  ],
+  "jasmine-core": [
+    "Quay",
+    "Quay"
+  ],
+  "jasmine-ts": [
+    "Quay",
+    "Quay"
+  ],
+  "jest": [
+    "ACM-console",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "jest-canvas-mock": [
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "jest-environment-jsdom": [
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "RedHatInsights-frontend-components"
+  ],
+  "jest-express": [
+    "Backstage"
+  ],
+  "jest-resolve": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "jest-sonar-reporter": [
+    "ACM-console"
+  ],
+  "jest-watch-typeahead": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "jquery": [
+    "Quay",
+    "Quay"
+  ],
+  "js-combinatorics": [
+    "OpenShift-Admin-Console"
+  ],
+  "js-yaml": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "CHE-dashboard",
+    "OpenShift-Admin-Console",
+    "Opendatahub",
+    "Openshift-assisted-ui",
+    "Quay",
+    "RedHatInsights-frontend-components"
+  ],
+  "js-yaml-cli": [
+    "Backstage"
+  ],
+  "json-schema": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "CHE-dashboard"
+  ],
+  "jsrsasign": [
+    "Quay"
+  ],
+  "jszip": [
+    "Quay"
+  ],
+  "jws": [
+    "RedHatInsights-frontend-components"
+  ],
+  "jwt-decode": [
+    "Keycloak"
+  ],
+  "karma": [
+    "Quay",
+    "Quay"
+  ],
+  "karma-chrome-launcher": [
+    "Quay",
+    "Quay"
+  ],
+  "karma-coverage": [
+    "Quay",
+    "Quay"
+  ],
+  "karma-es6-shim": [
+    "Quay",
+    "Quay"
+  ],
+  "karma-jasmine": [
+    "Quay",
+    "Quay"
+  ],
+  "karma-webpack": [
+    "Quay",
+    "Quay"
+  ],
+  "keycloak-js": [
+    "Backstage"
+  ],
+  "knex": [
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "knex-mock-client": [
+    "Backstage"
+  ],
+  "kubernetes-models": [
+    "Backstage"
+  ],
+  "lerna": [
+    "CHE-dashboard",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "lint-staged": [
+    "ACM-console",
+    "Backstage",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications"
+  ],
+  "lodash": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Opendatahub",
+    "Openshift-assisted-ui",
+    "Openshift-assisted-ui",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "lodash-es": [
+    "Keycloak",
+    "OpenShift-Admin-Console"
+  ],
+  "luxon": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "markdown-to-jsx": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "mathjs": [
+    "Backstage"
+  ],
+  "merge": [
+    "OpenShift-Admin-Console"
+  ],
+  "mini-css-extract-plugin": [
+    "Backstage",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "mini-svg-data-uri": [
+    "Nmstate-plugin"
+  ],
+  "minio": [
+    "Opendatahub"
+  ],
+  "mocha": [
+    "Keycloak"
+  ],
+  "mocha-ibutsu-reporter": [
+    "RedHatInsights-frontend-components"
+  ],
+  "mocha-junit-reporter": [
+    "HAC-Dev"
+  ],
+  "mock-fs": [
+    "Backstage"
+  ],
+  "moment": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Quay",
+    "Quay"
+  ],
+  "moment-timezone": [
+    "Quay"
+  ],
+  "monaco-editor": [
+    "Backstage",
+    "Backstage"
+  ],
+  "monaco-editor-webpack-plugin": [
+    "Backstage"
+  ],
+  "monaco-yaml": [
+    "Backstage"
+  ],
+  "msw": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Openshift-assisted-ui"
+  ],
+  "multi-ini": [
+    "CHE-dashboard"
+  ],
+  "multi-semantic-release": [
+    "Backstage"
+  ],
+  "mustache": [
+    "Keycloak",
+    "RedHatInsights-frontend-components"
+  ],
+  "mutation-observer": [
+    "RedHatInsights-frontend-components"
+  ],
+  "ncp": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "next": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "ng-metadata": [
+    "Quay",
+    "Quay"
+  ],
+  "ngtemplate-loader": [
+    "Quay",
+    "Quay"
+  ],
+  "nock": [
+    "ACM-console",
+    "OpenShift-Admin-Console"
+  ],
+  "node-fetch": [
+    "ACM-console",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "node-forge": [
+    "Quay"
+  ],
+  "node-libs-browser": [
+    "Backstage"
+  ],
+  "node-polyfill-webpack-plugin": [
+    "Backstage"
+  ],
+  "node-sass-package-importer": [
+    "RedHatInsights-frontend-components"
+  ],
+  "nodemailer": [
+    "Backstage",
+    "Backstage"
+  ],
+  "nodemon": [
+    "ACM-console",
+    "Backstage",
+    "CHE-dashboard",
+    "Opendatahub"
+  ],
+  "npm-packlist": [
+    "Backstage"
+  ],
+  "npm-run-all": [
+    "HAC-Dev",
+    "Opendatahub"
+  ],
+  "openai": [
+    "Backstage"
+  ],
+  "openapi-backend": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "openapi-typescript": [
+    "OpenShift-Admin-Console"
+  ],
+  "opener": [
+    "Backstage"
+  ],
+  "ora": [
+    "Backstage"
+  ],
+  "otplib": [
+    "HAC-Dev"
+  ],
+  "package.json": [
+    "Quay"
+  ],
+  "parse-bitbucket-url": [
+    "OpenShift-Admin-Console"
+  ],
+  "path-browserify": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "pino": [
+    "ACM-console",
+    "CHE-dashboard",
+    "Opendatahub"
+  ],
+  "pino-pretty": [
+    "CHE-dashboard",
+    "Opendatahub"
+  ],
+  "pino-zen": [
+    "ACM-console"
+  ],
+  "pkijs": [
+    "OpenShift-Admin-Console"
+  ],
+  "pluralize": [
+    "ACM-console"
+  ],
+  "postcss": [
+    "Backstage"
+  ],
+  "prettier": [
+    "ACM-console",
+    "ACM-console",
+    "Backstage",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "Opendatahub",
+    "Opendatahub",
+    "Openshift-assisted-ui",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "Stackrox"
+  ],
+  "prism-react-renderer": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "process": [
+    "Backstage",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "prom-client": [
+    "ACM-console",
+    "Opendatahub"
+  ],
+  "prop-types": [
+    "Backstage",
+    "Backstage",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "protractor": [
+    "Quay",
+    "Quay"
+  ],
+  "qs": [
+    "Backstage"
+  ],
+  "query-string": [
+    "Backstage"
+  ],
+  "querystring": [
+    "CHE-dashboard"
+  ],
+  "raven-js": [
+    "Quay",
+    "Quay"
+  ],
+  "raw-body": [
+    "ACM-console"
+  ],
+  "raw-loader": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "react": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "react-copy-to-clipboard": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "react-dev-utils": [
+    "Backstage"
+  ],
+  "react-dom": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "react-final-form": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "react-final-form-arrays": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "react-github-btn": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "react-helmet": [
+    "OpenShift-Admin-Console"
+  ],
+  "react-i18next": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console"
+  ],
+  "react-intl": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "react-json-view": [
+    "Backstage"
+  ],
+  "react-jss": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "react-moment": [
+    "Backstage"
+  ],
+  "react-redux": [
+    "RedHatInsights-frontend-components"
+  ],
+  "react-refresh": [
+    "Backstage",
+    "RedHatInsights-frontend-components"
+  ],
+  "react-router": [
+    "Backstage",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console"
+  ],
+  "react-router-dom": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "RedHatInsights-frontend-components"
+  ],
+  "react-router-dom-v5-compat": [
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console"
+  ],
+  "react-sticky-box": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "react-use": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "recharts": [
+    "Backstage"
+  ],
+  "recursive-readdir": [
+    "Backstage"
+  ],
+  "redux": [
+    "RedHatInsights-frontend-components"
+  ],
+  "redux-mock-store": [
+    "RedHatInsights-frontend-components"
+  ],
+  "reflect-metadata": [
+    "CHE-dashboard"
+  ],
+  "regenerator-runtime": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "remark-gfm": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "replace-in-file": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "resolve-url-loader": [
+    "RedHatInsights-frontend-components"
+  ],
+  "restangular": [
+    "Quay"
+  ],
+  "rimraf": [
+    "CHE-dashboard",
+    "Migration-Toolkit-For-Applications",
+    "Opendatahub",
+    "Openshift-assisted-ui",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "rollup": [
+    "ACM-console",
+    "Backstage",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications"
+  ],
+  "rollup-plugin-copy": [
+    "Migration-Toolkit-For-Applications"
+  ],
+  "rollup-plugin-dts": [
+    "Backstage"
+  ],
+  "rollup-plugin-esbuild": [
+    "Backstage"
+  ],
+  "rollup-plugin-postcss": [
+    "Backstage"
+  ],
+  "rollup-pluginutils": [
+    "Backstage"
+  ],
+  "rxjs": [
+    "Quay",
+    "Quay"
+  ],
+  "sanitize-html": [
+    "OpenShift-Admin-Console"
+  ],
+  "sass": [
+    "Backstage",
+    "Nmstate-plugin",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "sass-loader": [
+    "Backstage",
+    "Nmstate-plugin",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "script-loader": [
+    "Quay",
+    "Quay"
+  ],
+  "semantic-release": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "semantic-ui-react": [
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "semver": [
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "shell-escape-tag": [
+    "Ansible-hub"
+  ],
+  "short-uuid": [
+    "Backstage",
+    "Backstage"
+  ],
+  "showdown": [
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay"
+  ],
+  "shx": [
+    "Keycloak"
+  ],
+  "simple-git": [
+    "Keycloak"
+  ],
+  "source-map-loader": [
+    "CHE-dashboard",
+    "Quay",
+    "Quay",
+    "RedHatInsights-frontend-components"
+  ],
+  "speed-measure-webpack-plugin": [
+    "CHE-dashboard"
+  ],
+  "start-server-and-test": [
+    "Openshift-assisted-ui"
+  ],
+  "storybook": [
+    "Backstage"
+  ],
+  "storybook-dark-mode": [
+    "Backstage"
+  ],
+  "stream-browserify": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "strip-ansi": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "style-loader": [
+    "Backstage",
+    "Backstage",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "style-to-object": [
+    "RedHatInsights-frontend-components"
+  ],
+  "supertest": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "sw2dts": [
+    "Openshift-assisted-ui"
+  ],
+  "swc-loader": [
+    "Backstage",
+    "Backstage",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "swr": [
+    "Backstage"
+  ],
+  "tar-fs": [
+    "Keycloak"
+  ],
+  "terser-webpack-plugin": [
+    "Backstage",
+    "Quay",
+    "Quay",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "tree-kill": [
+    "RedHatInsights-frontend-components"
+  ],
+  "ts-jest": [
+    "ACM-console",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "RedHatInsights-frontend-components"
+  ],
+  "ts-json-schema-generator": [
+    "OpenShift-Admin-Console"
+  ],
+  "ts-loader": [
+    "Backstage",
+    "CHE-dashboard",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "ts-mocks": [
+    "Quay",
+    "Quay"
+  ],
+  "ts-node": [
+    "ACM-console",
+    "ACM-console",
+    "Backstage",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Opendatahub",
+    "Quay",
+    "Quay",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "ts-patch": [
+    "RedHatInsights-frontend-components"
+  ],
+  "ts-protoc-gen": [
+    "Opendatahub"
+  ],
+  "tsconfig-paths-webpack-plugin": [
+    "Nmstate-plugin"
+  ],
+  "tslib": [
+    "Keycloak",
+    "Opendatahub"
+  ],
+  "tslint": [
+    "Quay",
+    "Quay",
+    "RedHatInsights-data-driven-forms"
+  ],
+  "tslint-config-prettier": [
+    "RedHatInsights-data-driven-forms"
+  ],
+  "tss-react": [
+    "Backstage"
+  ],
+  "tsutils": [
+    "OpenShift-Admin-Console"
+  ],
+  "turbo": [
+    "Backstage"
+  ],
+  "type-fest": [
+    "Backstage",
+    "Migration-Toolkit-For-Applications"
+  ],
+  "typeorm-adapter": [
+    "Backstage"
+  ],
+  "typescript": [
+    "ACM-console",
+    "ACM-console",
+    "Backstage",
+    "Backstage",
+    "CHE-dashboard",
+    "CHE-dashboard",
+    "HAC-Dev",
+    "Keycloak",
+    "Migration-Toolkit-For-Applications",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Opendatahub",
+    "Openshift-assisted-ui",
+    "Openshift-assisted-ui",
+    "Quay",
+    "Quay",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "typescript-eslint": [
+    "Keycloak"
+  ],
+  "typescript-json-schema": [
+    "Backstage"
+  ],
+  "underscore": [
+    "Quay"
+  ],
+  "unique-names-generator": [
+    "OpenShift-Admin-Console"
+  ],
+  "urijs": [
+    "Quay"
+  ],
+  "url": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "url-join": [
+    "Ansible-hub",
+    "Backstage",
+    "Keycloak"
+  ],
+  "url-parse": [
+    "Quay",
+    "Quay"
+  ],
+  "url-template": [
+    "Backstage",
+    "Keycloak"
+  ],
+  "use-immer": [
+    "Nmstate-plugin"
+  ],
+  "util": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "uuid": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Quay"
+  ],
+  "vitest": [
+    "Openshift-assisted-ui"
+  ],
+  "vscode-languageserver-types": [
+    "Backstage"
+  ],
+  "wait-on": [
+    "RedHatInsights-frontend-components"
+  ],
+  "webpack": [
+    "Backstage",
+    "Backstage",
+    "CHE-dashboard",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "webpack-bundle-analyzer": [
+    "CHE-dashboard",
+    "Quay",
+    "Quay",
+    "RedHatInsights-frontend-components"
+  ],
+  "webpack-cli": [
+    "Backstage",
+    "CHE-dashboard",
+    "Nmstate-plugin",
+    "OpenShift-Admin-Console",
+    "Quay",
+    "Quay",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components"
+  ],
+  "webpack-dev-server": [
+    "Backstage",
+    "Nmstate-plugin",
+    "RedHatInsights-data-driven-forms",
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "webpack-merge": [
+    "CHE-dashboard"
+  ],
+  "webpack-node-externals": [
+    "CHE-dashboard"
+  ],
+  "whatwg-fetch": [
+    "RedHatInsights-frontend-components"
+  ],
+  "winston": [
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "wireit": [
+    "Keycloak"
+  ],
+  "word-wrap": [
+    "Nmstate-plugin"
+  ],
+  "ws": [
+    "CHE-dashboard"
+  ],
+  "xterm": [
+    "Backstage"
+  ],
+  "xterm-addon-attach": [
+    "Backstage"
+  ],
+  "xterm-addon-fit": [
+    "Backstage"
+  ],
+  "yaml": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "yargs": [
+    "RedHatInsights-frontend-components",
+    "RedHatInsights-frontend-components"
+  ],
+  "yml-loader": [
+    "Backstage"
+  ],
+  "yn": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "yup": [
+    "Backstage",
+    "OpenShift-Admin-Console"
+  ],
+  "zeroclipboard": [
+    "Quay"
+  ],
+  "zod": [
+    "Backstage",
+    "Backstage",
+    "Backstage",
+    "Backstage"
+  ],
+  "zx": [
+    "Openshift-assisted-ui"
+  ]
+}
