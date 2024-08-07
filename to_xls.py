@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from datetime import datetime
+from datetime import datetime, UTC
 
 REPOS_ALL = 'repos_all'
 
@@ -15,8 +15,8 @@ if do_collect:
     print("----------- collector done -------------------")
 
 # Find the directory with the csv files
-today = datetime.today()
-today_str = "%d-%02d-%02d" % (today.year, today.month, today.day)
+today = datetime.now(UTC)
+today_str = "%04d-%02d-%02d" % (today.year, today.month, today.day)
 in_dir = "stats-static/" + today_str
 
 
