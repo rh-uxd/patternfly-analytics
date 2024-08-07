@@ -7,7 +7,7 @@ name = "pypi"
 requests = "*"
 python-dateutil = "2.8.2"
 pandas = "*"
-xlsxwriter = "*"
+XlsxWriter = "3.2.0"
 
 
 [requires]
