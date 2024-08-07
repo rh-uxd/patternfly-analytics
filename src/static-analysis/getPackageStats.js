@@ -142,8 +142,12 @@ function getPackageStats(repoPath, repoName, url) {
         const date = new Date().toISOString();
         const statsDir = path.resolve(__dirname, '../../stats-static');
 
-        fsj.mkdirSync(`${statsDir}/${date.substring(0, 10)}`, true) // Create dir if it does not exist
-        fsj.writeFileSync(`${statsDir}/${date.substring(0, 10)}/${repoName}-${extractFilename(filePath)}-data.csv`, data, "utf-8", (err) => {
+
+        const statsDateDir = `${statsDir}/${date.substring(0, 10)}`;
+        if (!fsj.existsSync(statsDateDir)) {
+          fsj.mkdirSync(statsDateDir, true) // Create dir as it does not exist
+        }
+        fsj.writeFileSync(`${statsDateDir}/${repoName}-${extractFilename(filePath)}-data.csv`, data, "utf-8", (err) => {
           if (err) console.log(err);
           else console.log("Data saved");
         });
