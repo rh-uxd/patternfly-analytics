@@ -5,7 +5,7 @@ const path = require('path');
 const aggregated = {};
 const pfVersions = {};
 
-function getPackageStats(repoPath, repoName) {
+function getPackageStats(repoPath, repoName, url) {
   const result = {};
 
   function countDeps(dependencies) {
@@ -18,7 +18,7 @@ function getPackageStats(repoPath, repoName) {
       if (dep.includes('patternfly')) {
         trackPfVersions(dependencies, dep);
       }
-     // console.log(dep); //dependency name 
+     // console.log(dep); //dependency name
       aggregated[dep] = aggregated[dep] || [];
       aggregated[dep].push(repoName);
     });
@@ -45,17 +45,17 @@ function getPackageStats(repoPath, repoName) {
     if (!dependencies) {
       return;
     }
-      
+
       //a way to get the dependency name/values out
       var pp, pq, prcve, prc, prce, prcon, prcore, pricon, predit, prlogv, pnext, prstyle, prtable, prtoken, prtop, pruf, prvirt, pf, pfr, pfre, r = null;
       var data = `
-          name, @patternfly/patternfly, @patternfly/quickstarts, @patternfly/react-catalog-view-extension, @patternfly/react-charts, @patternfly/react-code-editor, @patternfly/react-console, @patternfly/react-core, @patternfly/react-icons, @patternfly/react-inline-edit-extension, @patternfly/react-log-viewer, @patternfly/patternfly-next, @patternfly/react-styles, @patternfly/react-table, @patternfly/react-tokens, @patternfly/react-topology, @patternfly/react-user-feedback, @patternfly/react-virtualized-extension, patternfly, patternfly-react, patternfly-react-extensions, react
+          name, url, @patternfly/patternfly, @patternfly/quickstarts, @patternfly/react-catalog-view-extension, @patternfly/react-charts, @patternfly/react-code-editor, @patternfly/react-console, @patternfly/react-core, @patternfly/react-icons, @patternfly/react-inline-edit-extension, @patternfly/react-log-viewer, @patternfly/patternfly-next, @patternfly/react-styles, @patternfly/react-table, @patternfly/react-tokens, @patternfly/react-topology, @patternfly/react-user-feedback, @patternfly/react-virtualized-extension, patternfly, patternfly-react, patternfly-react-extensions, react
           `;
 
       const courses = dependencies;
       const keys = Object.keys(courses);
       keys.forEach((key, index) => {
-        
+
         if(key == '@patternfly/patternfly'){
           pp = courses[key];
         }
@@ -119,11 +119,11 @@ function getPackageStats(repoPath, repoName) {
         else if(key == 'react'){
           r = courses[key];
         }
-       
-        
+
+
 
       });
-       
+
 
        //working to get unique filename for each package.json found in a github repo...
         const filePath = file;
@@ -135,14 +135,19 @@ function getPackageStats(repoPath, repoName) {
 
       //collect row for output object
        if(pp || pq || prcve ||prc || prce || prcon || prcore || pricon || predit || prlogv || pnext || prstyle || prtable || prtoken || prtop || pruf || prvirt || pf || pfr || pfre != null){
-          
-        data += `${repoName}-${extractFilename(filePath)}, ${pp}, ${pq}, ${prcve}, ${prc}, ${prce}, ${prcon}, ${prcore}, ${pricon}, ${predit}, ${prlogv}, ${pnext}, ${prstyle}, ${prtable}, ${prtoken}, ${prtop}, ${pruf}, ${prvirt}, ${pf}, ${pfr}, ${pfre}, ${r}`;
+
+        data += `${repoName}-${extractFilename(filePath)}, ${url}, ${pp}, ${pq}, ${prcve}, ${prc}, ${prce}, ${prcon}, ${prcore}, ${pricon}, ${predit}, ${prlogv}, ${pnext}, ${prstyle}, ${prtable}, ${prtoken}, ${prtop}, ${pruf}, ${prvirt}, ${pf}, ${pfr}, ${pfre}, ${r}`;
 
         //write csv file of dependency for each package.json found
         const date = new Date().toISOString();
         const statsDir = path.resolve(__dirname, '../../stats-static');
 
-        fsj.writeFileSync(`${statsDir}/${date.substring(0, 10)}/${repoName}-${extractFilename(filePath)}-data.csv`, data, "utf-8", (err) => {
+
+        const statsDateDir = `${statsDir}/${date.substring(0, 10)}`;
+        if (!fsj.existsSync(statsDateDir)) {
+          fsj.mkdirSync(statsDateDir, true) // Create dir as it does not exist
+        }
+        fsj.writeFileSync(`${statsDateDir}/${repoName}-${extractFilename(filePath)}-data.csv`, data, "utf-8", (err) => {
           if (err) console.log(err);
           else console.log("Data saved");
         });

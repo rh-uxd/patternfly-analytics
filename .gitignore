@@ -1,3 +1,5 @@
 tmp
 *.swp
 node_modules
+.idea
+.venv
