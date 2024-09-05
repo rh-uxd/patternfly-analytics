@@ -246,10 +246,6 @@
       "name": "Ansible-ui"
     },
     {
-      "git": "https://github.com/keycloak/keycloak-ui",
-      "name": "Keycloak-ui"
-    },
-    {
       "git": "https://github.com/openshift-assisted/assisted-ui-lib",
       "name": "Openshift-assisted-ui"
     },
