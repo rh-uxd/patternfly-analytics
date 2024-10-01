@@ -81,10 +81,6 @@
       "name": "RedHatInsights-compliance-frontend"
     },
     {
-      "git": "https://github.com/RedHatInsights/drift-frontend",
-      "name": "RedHatInsights-drift-frontend"
-    },
-    {
       "git": "https://github.com/RedHatInsights/insights-inventory-frontend",
       "name": "RedHatInsights-inventory-frontend"
     },
@@ -184,10 +180,6 @@
     {
       "git": "https://github.com/change-metrics/monocle",
       "name": "Change-Metrics-Monocle"
-    },
-    {
-      "git": "https://github.com/cockpit-project/cockpit-certificates",
-      "name": "Cockpit-certificates"
     },
     {
       "git": "https://github.com/cockpit-project/cockpit-machines",
@@ -290,11 +282,6 @@
       "name": "App-services-ui-components"
     },
     {
-      "git": "https://github.com/redhat-developer/app-services-ui",
-      "name": "App-services-ui"
-      
-    },
-    {
       "git": "https://github.com/janus-idp/backstage-plugins",
       "name": "Backstage"
     },
@@ -307,8 +294,8 @@
       "name": "Trusted-Content-CRDA"
     },
     {
-      "git": "https://github.com/rhinstaller/anaconda",
-      "name": "RHEL-Anaconda"
+      "git": "https://github.com/rhinstaller/anaconda-webui",
+      "name": "RHEL-Anaconda-webui"
     },
     {
       "git": "https://github.com/eclipse-che/che-dashboard",
