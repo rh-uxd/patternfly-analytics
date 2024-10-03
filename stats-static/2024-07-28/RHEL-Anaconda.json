@@ -1,0 +1,17 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 1,
+      "css": 15
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "cssVars": {},
+  "repo": "https://github.com/rhinstaller/anaconda",
+  "name": "RHEL-Anaconda",
+  "date": "2024-07-29T01:52:10.432Z",
+  "dependencies": {}
+}

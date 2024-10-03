@@ -1,0 +1,44 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 3
+      },
+      "ts": 35,
+      "js": 7,
+      "tsx": 13,
+      "scss": 1
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/frontend/src/App.tsx",
+          "/frontend/src/Routes/DynamicRoute/DynamicRoute.tsx",
+          "/frontend/src/Utils/Loader.tsx"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/dynamic/layouts/Bullseye": {
+      "Bullseye": 3
+    },
+    "@patternfly/react-core/dist/dynamic/components/Spinner": {
+      "Spinner": 3
+    },
+    "@patternfly/react-core/dist/dynamic/components/Page": {
+      "PageSection": 1
+    },
+    "@patternfly/react-component-groups": {
+      "ErrorState": 1
+    }
+  },
+  "classes": {
+    "pf-m-no-padding": 1
+  },
+  "cssVars": {},
+  "repo": "https://github.com/openshift/hac-core",
+  "name": "HAC-Core",
+  "date": "2024-08-07T13:25:19.580Z",
+  "dependencies": {}
+}

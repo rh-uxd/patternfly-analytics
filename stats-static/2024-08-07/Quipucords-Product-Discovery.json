@@ -1,0 +1,183 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 19,
+        "ts": 3,
+        "css": 2
+      },
+      "js": 9,
+      "tsx": 27,
+      "ts": 20,
+      "css": 3
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/components/actionMenu/actionMenu.tsx",
+          "/src/components/contextIcon/contextIcon.tsx",
+          "/src/components/contextIcon/contextIconAction.tsx",
+          "/src/components/refreshTimeButton/refreshTimeButton.tsx",
+          "/src/components/simpleDropdown/__tests__/simpleDropdown.test.tsx",
+          "/src/components/simpleDropdown/simpleDropdown.tsx",
+          "/src/components/typeAheadCheckboxes/typeaheadCheckboxes.tsx",
+          "/src/components/viewLayout/viewLayout.tsx",
+          "/src/components/viewLayout/viewLayoutToolbar.tsx",
+          "/src/views/credentials/viewCredentialsList.tsx",
+          "/src/views/login/viewLogin.tsx",
+          "/src/views/notFound/notFound.tsx",
+          "/src/views/scans/__tests__/showScansModal.test.tsx",
+          "/src/views/scans/showScansModal.tsx",
+          "/src/views/scans/viewScansList.tsx",
+          "/src/views/sources/addSourceModal.tsx",
+          "/src/views/sources/addSourcesScanModal.tsx",
+          "/src/views/sources/showSourceConnectionsModal.tsx",
+          "/src/views/sources/viewSourcesList.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/hooks/__tests__/useAlerts.test.ts",
+          "/src/hooks/useAlerts.ts",
+          "/src/hooks/useCredentialApi.ts"
+        ]
+      },
+      "css": {
+        "files": [
+          "/src/components/viewLayout/viewLayoutToolbar.css",
+          "/src/views/sources/showSourceConnectionsModal.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Dropdown": 3,
+      "DropdownItem": 6,
+      "DropdownList": 2,
+      "MenuToggle": 4,
+      "typeMenuToggleElement": 3,
+      "Spinner": 2,
+      "Button": 11,
+      "Select": 1,
+      "SelectOption": 1,
+      "SelectList": 1,
+      "typeSelectOptionProps": 1,
+      "TextInputGroup": 1,
+      "TextInputGroupMain": 1,
+      "TextInputGroupUtilities": 1,
+      "Brand": 1,
+      "Masthead": 1,
+      "MastheadBrand": 1,
+      "MastheadContent": 1,
+      "MastheadMain": 1,
+      "MastheadToggle": 1,
+      "Nav": 1,
+      "NavExpandable": 1,
+      "NavItem": 1,
+      "NavList": 1,
+      "Page": 1,
+      "PageSidebar": 1,
+      "PageSidebarBody": 1,
+      "SkipToContent": 1,
+      "Icon": 2,
+      "ToggleGroup": 1,
+      "ToggleGroupItem": 1,
+      "Toolbar": 1,
+      "ToolbarContent": 4,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 4,
+      "typeAlertProps": 3,
+      "Alert": 3,
+      "AlertActionCloseButton": 3,
+      "AlertGroup": 3,
+      "AlertVariant": 3,
+      "ButtonVariant": 3,
+      "EmptyState": 5,
+      "EmptyStateActions": 3,
+      "EmptyStateBody": 4,
+      "EmptyStateFooter": 4,
+      "EmptyStateHeader": 5,
+      "EmptyStateIcon": 5,
+      "List": 4,
+      "ListItem": 4,
+      "Modal": 7,
+      "ModalVariant": 7,
+      "PageSection": 4,
+      "getUniqueId": 3,
+      "LoginForm": 1,
+      "LoginPage": 1,
+      "KeyTypes": 1,
+      "Bullseye": 1,
+      "ActionGroup": 2,
+      "Checkbox": 2,
+      "Form": 2,
+      "FormContextProvider": 2,
+      "FormGroup": 2,
+      "HelperText": 2,
+      "TextArea": 2,
+      "TextInput": 2,
+      "NumberInput": 1
+    },
+    "@patternfly/react-icons": {
+      "EllipsisVIcon": 2,
+      "AnsibleTowerIcon": 1,
+      "CheckCircleIcon": 2,
+      "ClipboardCheckIcon": 1,
+      "CloudSecurityIcon": 1,
+      "CrosshairsIcon": 1,
+      "DisconnectedIcon": 1,
+      "DownloadIcon": 2,
+      "ExclamationCircleIcon": 3,
+      "ExclamationTriangleIcon": 3,
+      "IdCardIcon": 1,
+      "InfoCircleIcon": 1,
+      "OpenshiftIcon": 1,
+      "PencilAltIcon": 1,
+      "PficonNetworkRangeIcon": 1,
+      "PficonSatelliteIcon": 1,
+      "PficonVcenterIcon": 1,
+      "TrashIcon": 1,
+      "UnknownIcon": 1,
+      "UserIcon": 1,
+      "PauseIcon": 1,
+      "PlayIcon": 1,
+      "RedoIcon": 1,
+      "StopIcon": 1,
+      "RebootingIcon": 1,
+      "BarsIcon": 1,
+      "MoonIcon": 1,
+      "QuestionCircleIcon": 1,
+      "SunIcon": 1,
+      "PlusCircleIcon": 3
+    },
+    "@patternfly/react-tokens": {
+      "global_Color_dark_100": 1,
+      "global_success_color_100": 1,
+      "global_warning_color_100": 1,
+      "global_danger_color_100": 1
+    },
+    "@patternfly/react-icons/": {
+      "TimesIcon": 1
+    },
+    "@patternfly/react-table": {
+      "Table": 2,
+      "Thead": 1,
+      "Tr": 2,
+      "Th": 1,
+      "Tbody": 2,
+      "Td": 2,
+      "typeThProps": 1,
+      "ExpandableRowContent": 1
+    }
+  },
+  "classes": {},
+  "cssVars": {
+    "--pf-v5-global--spacer--sm": 1,
+    "--pf-v5-c-table__expandable-row-content--PaddingTop": 1
+  },
+  "repo": "https://github.com/quipucords/quipucords-ui",
+  "name": "Quipucords-Product-Discovery",
+  "date": "2024-08-07T13:25:19.580Z",
+  "dependencies": {}
+}

@@ -1,0 +1,163 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 12,
+        "scss": 3
+      },
+      "js": 6,
+      "ts": 24,
+      "tsx": 31,
+      "scss": 9
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/App.tsx",
+          "/src/components/recently-visited/recently-visited.tsx",
+          "/src/components/widgets/explore-capabilities.tsx",
+          "/src/components/widgets/recently-visited.tsx",
+          "/src/components/widgets/simple-service-widget.tsx",
+          "/src/components/widgets/support-case-table-filter.tsx",
+          "/src/components/widgets/support-case-widget.tsx",
+          "/src/moduleEntries/PdfEntry.tsx",
+          "/src/routes/404.tsx",
+          "/src/routes/Logout.tsx",
+          "/src/routes/Maintenance.tsx",
+          "/src/utils/consts.tsx"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/components/widgets/explore-capabilities.scss",
+          "/src/components/widgets/support-case-widget.scss",
+          "/src/routes/Maintenance.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/dynamic/layouts/Bullseye": {
+      "Bullseye": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Spinner": {
+      "Spinner": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Text": {
+      "Text": 4,
+      "TextContent": 4,
+      "TextVariants": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Button": {
+      "Button": 5
+    },
+    "@patternfly/react-core/dist/dynamic/components/Card": {
+      "Card": 2,
+      "CardBody": 2,
+      "CardFooter": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Drawer": {
+      "Drawer": 1,
+      "DrawerContent": 1,
+      "DrawerContentBody": 1,
+      "DrawerPanelBody": 1,
+      "DrawerPanelContent": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/SimpleList": {
+      "SimpleList": 1,
+      "SimpleListItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Gallery": {
+      "Gallery": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Icon": {
+      "Icon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/arrow-right-icon": {
+      "ArrowRightIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/external-link-alt-icon": {
+      "ExternalLinkAltIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Toolbar": {
+      "Toolbar": 1,
+      "ToolbarContent": 1,
+      "ToolbarFilter": 1,
+      "ToolbarGroup": 1,
+      "ToolbarToggleGroup": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/MenuToggle": {
+      "MenuToggle": 1,
+      "MenuToggleElement": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Select": {
+      "Select": 1,
+      "SelectList": 1,
+      "SelectOption": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/filter-icon": {
+      "FilterIcon": 1
+    },
+    "@patternfly/react-table": {
+      "ISortBy": 1,
+      "SortByDirection": 1,
+      "Table": 2,
+      "TableVariant": 1,
+      "Tbody": 2,
+      "Td": 2,
+      "Th": 2,
+      "Thead": 2,
+      "Tr": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/EmptyState": {
+      "EmptyState": 2,
+      "EmptyStateBody": 2,
+      "EmptyStateIcon": 2,
+      "EmptyStateVariant": 2,
+      "EmptyStateFooter": 1,
+      "EmptyStateHeader": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Stack": {
+      "Stack": 1,
+      "StackItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Title": {
+      "Title": 3
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/external-link-alt-icon": {
+      "ExternalLinkAltIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/headset-icon": {
+      "HeadsetIcon": 1
+    },
+    "@patternfly/react-component-groups/dist/dynamic/SkeletonTable": {
+      "SkeletonTable": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Label": {
+      "Label": 1
+    }
+  },
+  "classes": {
+    "pf-m-fill": 1,
+    "pf-m-toggle-group-container": 1
+  },
+  "cssVars": {
+    "--pf-v5-global--FontSize--2xl": 1,
+    "--pf-v5-global--spacer--lg": 1,
+    "--pf-v5-c-simple-list__item-link--m-current--FontWeight": 1,
+    "--pf-v5-global--FontWeight--bold": 1,
+    "--pf-v5-c-simple-list__item-link--BackgroundColor": 1,
+    "--pf-v5-global--BackgroundColor--150": 1,
+    "--pf-v5-global--palette--black-400": 1,
+    "--pf-v5-global--spacer--md": 4,
+    "--pf-v5-global--FontSize--lg": 1,
+    "--pf-v5-global--FontSize--sm": 1,
+    "--pf-global--spacer--md": 1,
+    "--pf-global--spacer--sm": 1,
+    "--pf-v5-c-empty-state__icon--MarginBottom": 1
+  },
+  "repo": "https://github.com/RedHatInsights/landing-page-frontend",
+  "name": "RedHatInsights-landing-page-frontend",
+  "date": "2024-07-29T01:52:10.432Z",
+  "dependencies": {}
+}

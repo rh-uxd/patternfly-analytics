@@ -1,0 +1,509 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 155,
+        "js": 11,
+        "scss": 8
+      },
+      "js": 70,
+      "tsx": 218,
+      "ts": 102,
+      "scss": 26
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/actions/action.tsx",
+          "/src/actions/ansible-repository-collection-version-add.tsx",
+          "/src/actions/ansible-repository-collection-version-remove.tsx",
+          "/src/actions/ansible-repository-sync.tsx",
+          "/src/actions/ansible-repository-version-revert.tsx",
+          "/src/components/access-tab.tsx",
+          "/src/components/alert-list.tsx",
+          "/src/components/ansible-repository-form.tsx",
+          "/src/components/applied-filters.tsx",
+          "/src/components/approval-row.tsx",
+          "/src/components/base-header.tsx",
+          "/src/components/breadcrumbs.tsx",
+          "/src/components/card-list-switcher.tsx",
+          "/src/components/collection-card.tsx",
+          "/src/components/collection-content-list.tsx",
+          "/src/components/collection-dependencies-list.tsx",
+          "/src/components/collection-dropdown.tsx",
+          "/src/components/collection-header.tsx",
+          "/src/components/collection-info.tsx",
+          "/src/components/collection-list-item.tsx",
+          "/src/components/collection-list.tsx",
+          "/src/components/collection-usedby-dependencies-list.tsx",
+          "/src/components/compound-filter.tsx",
+          "/src/components/confirm-modal.tsx",
+          "/src/components/data-form.tsx",
+          "/src/components/delete-ansible-remote-modal.tsx",
+          "/src/components/delete-ansible-repository-modal.tsx",
+          "/src/components/delete-collection-modal.tsx",
+          "/src/components/delete-execution-environment-modal.tsx",
+          "/src/components/delete-group-modal.tsx",
+          "/src/components/delete-modal.tsx",
+          "/src/components/detail-list.tsx",
+          "/src/components/details.tsx",
+          "/src/components/download-count.tsx",
+          "/src/components/download-signature-grid-item.tsx",
+          "/src/components/empty-state-custom.tsx",
+          "/src/components/empty-state-filter.tsx",
+          "/src/components/empty-state-no-data.tsx",
+          "/src/components/empty-state-unauthorized.tsx",
+          "/src/components/external-link.tsx",
+          "/src/components/form-field-helper.tsx",
+          "/src/components/group-modal.tsx",
+          "/src/components/help-button.tsx",
+          "/src/components/hub-about-modal.tsx",
+          "/src/components/hub-list-toolbar.tsx",
+          "/src/components/hub-pagination.tsx",
+          "/src/components/import-list.tsx",
+          "/src/components/import-modal.tsx",
+          "/src/components/landing-page-card.tsx",
+          "/src/components/language-switcher.tsx",
+          "/src/components/lazy-distributions.tsx",
+          "/src/components/lazy-repositories.tsx",
+          "/src/components/lightspeed-modal.tsx",
+          "/src/components/link-tabs.tsx",
+          "/src/components/list-item-actions.tsx",
+          "/src/components/list-page.tsx",
+          "/src/components/loading-page.tsx",
+          "/src/components/loading-spinner.tsx",
+          "/src/components/login-link.tsx",
+          "/src/components/markdown-editor.tsx",
+          "/src/components/multi-repo-modal.tsx",
+          "/src/components/multi-search-search.tsx",
+          "/src/components/multiple-repo-selector.tsx",
+          "/src/components/namespace-card.tsx",
+          "/src/components/namespace-form.tsx",
+          "/src/components/namespace-list-item.tsx",
+          "/src/components/namespace-modal.tsx",
+          "/src/components/page-with-tabs.tsx",
+          "/src/components/page.tsx",
+          "/src/components/patternfly-wrappers/l10n.tsx",
+          "/src/components/patternfly-wrappers/label-group.tsx",
+          "/src/components/patternfly-wrappers/login-form.tsx",
+          "/src/components/patternfly-wrappers/tooltip.tsx",
+          "/src/components/permission-categories.tsx",
+          "/src/components/permission-chip-selector.tsx",
+          "/src/components/preview-roles.tsx",
+          "/src/components/provider-link.tsx",
+          "/src/components/pulp-labels.tsx",
+          "/src/components/ratings.tsx",
+          "/src/components/remote-form.tsx",
+          "/src/components/render-plugin-doc.tsx",
+          "/src/components/repository-badge.tsx",
+          "/src/components/repository-form.tsx",
+          "/src/components/role-form.tsx",
+          "/src/components/role-import-form.tsx",
+          "/src/components/role-item.tsx",
+          "/src/components/role-list-table.tsx",
+          "/src/components/role-namespace-edit-modal.tsx",
+          "/src/components/role-namespace-item.tsx",
+          "/src/components/role-namespace-modal.tsx",
+          "/src/components/role-sync-form.tsx",
+          "/src/components/select-group.tsx",
+          "/src/components/select-roles.tsx",
+          "/src/components/select-user.tsx",
+          "/src/components/sha-label.tsx",
+          "/src/components/sign-all-certificates-modal.tsx",
+          "/src/components/sign-single-certificate-modal.tsx",
+          "/src/components/signature-badge.tsx",
+          "/src/components/sort-table.tsx",
+          "/src/components/sort.tsx",
+          "/src/components/stateful-dropdown.tsx",
+          "/src/components/status-indicator.tsx",
+          "/src/components/table-of-contents.tsx",
+          "/src/components/tag-label.tsx",
+          "/src/components/tag-manifest-modal.tsx",
+          "/src/components/tag.tsx",
+          "/src/components/typeahead.tsx",
+          "/src/components/upload-signature-modal.tsx",
+          "/src/components/user-form.tsx",
+          "/src/components/wizard-modal.tsx",
+          "/src/components/write-only-field.tsx",
+          "/src/containers/ansible-remote/list.tsx",
+          "/src/containers/ansible-remote/tab-details.tsx",
+          "/src/containers/ansible-repository/detail.tsx",
+          "/src/containers/ansible-repository/list.tsx",
+          "/src/containers/ansible-repository/tab-collection-versions.tsx",
+          "/src/containers/ansible-repository/tab-distributions.tsx",
+          "/src/containers/ansible-repository/tab-repository-versions.tsx",
+          "/src/containers/ansible-role/namespace-detail.tsx",
+          "/src/containers/ansible-role/namespace-list.tsx",
+          "/src/containers/ansible-role/role-detail.tsx",
+          "/src/containers/ansible-role/role-list.tsx",
+          "/src/containers/certification-dashboard/certification-dashboard.tsx",
+          "/src/containers/collection-detail/collection-distributions.tsx",
+          "/src/containers/collection-detail/collection-docs.tsx",
+          "/src/containers/edit-namespace/edit-namespace.tsx",
+          "/src/containers/execution-environment-detail/base.tsx",
+          "/src/containers/execution-environment-detail/execution-environment-detail-activities.tsx",
+          "/src/containers/execution-environment-detail/execution-environment-detail-images.tsx",
+          "/src/containers/execution-environment-detail/execution-environment-detail.tsx",
+          "/src/containers/execution-environment-list/execution-environment-list.tsx",
+          "/src/containers/execution-environment-manifest/execution-environment-manifest.tsx",
+          "/src/containers/execution-environment/registry-list.tsx",
+          "/src/containers/group-management/group-detail-role-management/group-detail-role-management.tsx",
+          "/src/containers/group-management/group-detail.tsx",
+          "/src/containers/group-management/group-list.tsx",
+          "/src/containers/landing/landing-page.tsx",
+          "/src/containers/login/login.tsx",
+          "/src/containers/namespace-detail/namespace-detail.tsx",
+          "/src/containers/namespace-list/namespace-list.tsx",
+          "/src/containers/not-found/dispatch.tsx",
+          "/src/containers/not-found/not-found.tsx",
+          "/src/containers/role-management/role-list.tsx",
+          "/src/containers/search/multi-search.tsx",
+          "/src/containers/search/search.tsx",
+          "/src/containers/settings/user-profile.tsx",
+          "/src/containers/signature-keys/list.tsx",
+          "/src/containers/task-management/task-detail.tsx",
+          "/src/containers/task-management/task-list-view.tsx",
+          "/src/containers/token/token-insights.tsx",
+          "/src/containers/token/token-standalone.tsx",
+          "/src/containers/user-management/user-detail.tsx",
+          "/src/containers/user-management/user-list.tsx",
+          "/src/loaders/standalone/layout.tsx",
+          "/src/loaders/standalone/menu.tsx"
+        ]
+      },
+      "js": {
+        "files": [
+          "/test/cypress/e2e/approval-modal/approval-multiple-repos-list.js",
+          "/test/cypress/e2e/collections/collection.js",
+          "/test/cypress/e2e/namespaces/execution-environments-edit.js",
+          "/test/cypress/e2e/namespaces/group-management.js",
+          "/test/cypress/e2e/namespaces/namespace-form.js",
+          "/test/cypress/e2e/namespaces/profile.js",
+          "/test/cypress/e2e/namespaces/task-list.js",
+          "/test/cypress/e2e/namespaces/task-management-detail.js",
+          "/test/cypress/e2e/namespaces/user-filter.js",
+          "/test/cypress/e2e/repo/remote-registry.js",
+          "/test/cypress/e2e/repo/repository.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/components/cards.scss",
+          "/src/components/collection-content-list.scss",
+          "/src/components/import-modal.scss",
+          "/src/components/render-plugin-doc.scss",
+          "/src/components/switcher.scss",
+          "/src/containers/certification-dashboard/certification-dashboard.scss",
+          "/src/containers/execution-environment-list/execution-environment.scss",
+          "/src/loaders/app.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Button": 63,
+      "Checkbox": 8,
+      "Modal": 21,
+      "Text": 12,
+      "FormGroup": 15,
+      "Switch": 4,
+      "Toolbar": 23,
+      "ToolbarContent": 18,
+      "ToolbarItem": 22,
+      "AlertActionCloseButton": 1,
+      "typeAlertProps": 2,
+      "ActionGroup": 8,
+      "Form": 14,
+      "TextInput": 14,
+      "ButtonVariant": 7,
+      "Label": 22,
+      "Title": 7,
+      "BreadcrumbItem": 1,
+      "Card": 6,
+      "CardBody": 6,
+      "CardFooter": 2,
+      "CardHeader": 3,
+      "TextContent": 5,
+      "TextVariants": 4,
+      "ToolbarGroup": 21,
+      "List": 5,
+      "ListItem": 4,
+      "Flex": 15,
+      "FlexItem": 15,
+      "Grid": 2,
+      "GridItem": 3,
+      "Split": 3,
+      "SplitItem": 3,
+      "DataListCell": 6,
+      "DataListItem": 6,
+      "DataListItemCells": 5,
+      "DataListItemRow": 6,
+      "DataList": 9,
+      "InputGroup": 8,
+      "InputGroupItem": 8,
+      "typeTextInputTypes": 1,
+      "typeModalProps": 1,
+      "DescriptionList": 2,
+      "DescriptionListDescription": 2,
+      "DescriptionListGroup": 2,
+      "DescriptionListTerm": 2,
+      "CodeBlock": 3,
+      "CodeBlockCode": 2,
+      "EmptyState": 1,
+      "EmptyStateActions": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateFooter": 1,
+      "EmptyStateHeader": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateVariant": 1,
+      "FormHelperText": 2,
+      "HelperText": 3,
+      "HelperTextItem": 3,
+      "typeHelperTextItemProps": 1,
+      "ModalVariant": 7,
+      "PopoverPosition": 1,
+      "AboutModal": 1,
+      "TextList": 1,
+      "TextListItem": 1,
+      "TextListItemVariants": 1,
+      "TextListVariants": 1,
+      "PaginationVariant": 1,
+      "Radio": 1,
+      "ExpandableSection": 2,
+      "Skeleton": 1,
+      "Bullseye": 3,
+      "TextArea": 3,
+      "CardTitle": 3,
+      "typeBreadcrumbProps": 1,
+      "typeChipGroupProps": 1,
+      "typeChipProps": 1,
+      "typeClipboardCopyButtonProps": 1,
+      "typeClipboardCopyProps": 1,
+      "typeFileUploadProps": 1,
+      "typeIconComponentProps": 1,
+      "typeLabelGroupProps": 1,
+      "typeLoginFormProps": 2,
+      "typeNavListProps": 1,
+      "Alert": 1,
+      "Breadcrumb": 1,
+      "Chip": 1,
+      "ChipGroup": 1,
+      "ClipboardCopy": 1,
+      "ClipboardCopyButton": 1,
+      "FileUpload": 1,
+      "Icon": 1,
+      "NavList": 1,
+      "Pagination": 1,
+      "Popover": 1,
+      "SearchInput": 1,
+      "Spinner": 1,
+      "typePaginationProps": 1,
+      "typePopoverProps": 1,
+      "typeSearchInputProps": 1,
+      "typeSpinnerProps": 1,
+      "LabelGroup": 1,
+      "ValidatedOptions": 1,
+      "Tooltip": 1,
+      "typeTooltipPosition": 1,
+      "Divider": 2,
+      "FormSelect": 1,
+      "FormSelectOption": 1,
+      "typeLabelProps": 2,
+      "Nav": 3,
+      "NavExpandable": 2,
+      "NavItem": 3,
+      "AlertActionLink": 1,
+      "Wizard": 1,
+      "WizardHeader": 1,
+      "WizardStep": 1,
+      "CodeBlockAction": 1,
+      "Panel": 1,
+      "ListVariant": 1,
+      "LoginPage": 1,
+      "Masthead": 1,
+      "MastheadBrand": 1,
+      "MastheadContent": 1,
+      "MastheadMain": 1,
+      "MastheadToggle": 1,
+      "Page": 1,
+      "PageSidebar": 1,
+      "PageSidebarBody": 1,
+      "PageToggleButton": 1,
+      "NavGroup": 1
+    },
+    "@patternfly/react-core/deprecated": {
+      "DropdownItem-deprecated": 21,
+      "Select-deprecated": 6,
+      "SelectOption-deprecated": 6,
+      "SelectVariant-deprecated": 5,
+      "SelectGroup-deprecated": 1,
+      "DropdownSeparator-deprecated": 2,
+      "Dropdown-deprecated": 2,
+      "DropdownToggle-deprecated": 2,
+      "DropdownToggleCheckbox-deprecated": 1,
+      "DropdownPosition-deprecated": 1,
+      "KebabToggle-deprecated": 1
+    },
+    "@patternfly/react-table": {
+      "Td": 31,
+      "Tr": 24,
+      "Table": 22,
+      "Tbody": 18,
+      "Th": 5,
+      "Thead": 2,
+      "ExpandableRowContent": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/check-circle-icon": {
+      "CheckCircleIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/download-icon": {
+      "DownloadIcon": 6
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-circle-icon": {
+      "ExclamationCircleIcon": 6
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-triangle-icon": {
+      "ExclamationTriangleIcon": 5
+    },
+    "@patternfly/react-icons/dist/esm/icons/list-icon": {
+      "ListIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/th-large-icon": {
+      "ThLargeIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/arrow-right-icon": {
+      "ArrowRightIcon": 4
+    },
+    "@patternfly/react-icons/dist/esm/icons/filter-icon": {
+      "FilterIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/search-icon": {
+      "SearchIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/cubes-icon": {
+      "CubesIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/plus-circle-icon": {
+      "PlusCircleIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/lock-icon": {
+      "LockIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/external-link-alt-icon": {
+      "ExternalLinkAltIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/outlined-question-circle-icon": {
+      "OutlinedQuestionCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/folder-open-icon": {
+      "FolderOpenIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/spinner-icon": {
+      "SpinnerIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/trash-icon": {
+      "TrashIcon": 1
+    },
+    "@patternfly/react-code-editor": {
+      "typeCodeEditorProps": 1,
+      "CodeEditor": 1,
+      "Language": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/eye-icon": {
+      "EyeIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/eye-slash-icon": {
+      "EyeSlashIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/tag-icon": {
+      "TagIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/arrows-alt-v-icon": {
+      "ArrowsAltVIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/long-arrow-alt-down-icon": {
+      "LongArrowAltDownIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/long-arrow-alt-up-icon": {
+      "LongArrowAltUpIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/sort-alpha-down-icon": {
+      "SortAlphaDownIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/sort-alpha-up-icon": {
+      "SortAlphaUpIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/sort-amount-down-icon": {
+      "SortAmountDownIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/sort-amount-up-icon": {
+      "SortAmountUpIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-icon": {
+      "ExclamationIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/outlined-clock-icon": {
+      "OutlinedClockIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/sync-alt-icon": {
+      "SyncAltIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/angle-down-icon": {
+      "AngleDownIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/angle-right-icon": {
+      "AngleRightIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/user-plus-icon": {
+      "UserPlusIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/bars-icon": {
+      "BarsIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/question-circle-icon": {
+      "QuestionCircleIcon": 1
+    }
+  },
+  "classes": {
+    "pf-m-truncate": 4,
+    "pf-m-wrap": 4,
+    "pf-m-current": 1,
+    "pf-m-light": 1,
+    "pf-m-primary": 6,
+    "pf-m-overflow": 1,
+    "pf-m-secondary": 2,
+    "pf-m-danger": 1,
+    "pf-m-success": 3,
+    "pf-m-info": 2,
+    "pf-m-control": 1,
+    "pf-m-category": 4,
+    "pf-m-disabled": 1
+  },
+  "cssVars": {
+    "--pf-v5-global--info-color--100": 3,
+    "--pf-v5-global--link--Color": 1,
+    "--pf-v5-global--danger-color--100": 2,
+    "--pf-v5-global--warning-color--100": 1,
+    "--pf-v5-global--success-color--200": 1,
+    "--pf-v5-global--FontFamily--monospace": 3,
+    "--pf-v5-global--icon--Color--light": 1,
+    "--pf-v5-global--link--Color--dark": 1,
+    "--pf-v5-global--spacer--md": 1,
+    "--pf-v5-global--BorderWidth--sm": 1,
+    "--pf-v5-global--palette--black-800": 1,
+    "--pf-v5-c-nav__link--FontSize": 1,
+    "--pf-v5-c-alert__title--FontSize": 1,
+    "--pf-v5-c-alert__title--FontWeight": 1
+  },
+  "repo": "https://github.com/ansible/ansible-hub-ui",
+  "name": "Ansible-hub",
+  "date": "2024-08-07T13:25:19.580Z",
+  "dependencies": {
+    "chrome-remote-interface": 1,
+    "cypress": 1,
+    "cypress-file-upload": 1,
+    "shell-escape-tag": 1,
+    "url-join": 1
+  }
+}

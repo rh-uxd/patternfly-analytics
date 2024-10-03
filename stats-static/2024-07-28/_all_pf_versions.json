@@ -1,0 +1,38 @@
+{
+  "RedHatInsights-frontend-components": {
+    "@patternfly/quickstarts": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-core": [
+      "^5.3.3"
+    ],
+    "@patternfly/react-icons": [
+      "^5.0.0"
+    ],
+    "@patternfly/react-table": [
+      "^5.0.0"
+    ]
+  },
+  "OpenShift-Admin-Console": {
+    "@patternfly/react-core": [
+      "5.1.1"
+    ],
+    "@patternfly/react-icons": [
+      "5.1.1"
+    ],
+    "@patternfly/react-table": [
+      "5.1.1"
+    ],
+    "@console/patternfly": [
+      "0.0.0-fixed"
+    ]
+  },
+  "Nmstate-plugin": {
+    "@patternfly/react-core": [
+      "5.1.1"
+    ],
+    "@patternfly/react-table": [
+      "^5.1.1"
+    ]
+  }
+}

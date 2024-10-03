@@ -2,12 +2,20 @@ const path = require('path');
 const { execSync } = require('child_process');
 const fs = require('fs-extra');
 // IMPORT FUNCTIONS FROM THIS DIRECTORY
-const { getPatternflyStats, patternflyAggs, productUsage } = require('./getPatternflyStats');
-const { getPackageStats, getAggregatePackageStats, getPFVersions } = require('./getPackageStats');
+const {
+  getPatternflyStats,
+  patternflyAggs,
+  productUsage,
+} = require('./getPatternflyStats');
+const {
+  getPackageStats,
+  getAggregatePackageStats,
+  getPFVersions,
+} = require('./getPackageStats');
 const { getSortedImports, getSortedUsage } = require('./getSortedImports');
 const { getDeprecatedComponents } = require('./getDeprecatedComponents');
 // IMPORT JSON LIST OF REPOS
-const repos = require('../../repos.json').repos;
+const repos = require('../../repos_2023.json').repos;
 
 // DEFINE OUTPUT DIRECTORIES
 const statsDir = path.resolve(__dirname, '../../stats-static');
@@ -28,8 +36,8 @@ function collectPatternflyStats(argv) {
   // LOOP THROUGH EVERY REPO & CLONE INTO NEW DIRECTORY (IF NOT ALREADY EXISTS)
   // OR GIT PULL (IF DOES EXIST)
   repos
-    .filter(repo => argv.p || !repo.private) // Only public repos unless flag passed
-    .forEach(repo => {
+    .filter((repo) => argv.p || !repo.private) // Only public repos unless flag passed
+    .forEach((repo) => {
       console.log(repo.name);
       const repoName = repo.git.split('/').pop();
       const tmpPath = `${tmpDir}/${repo.name}`;
@@ -43,20 +51,45 @@ function collectPatternflyStats(argv) {
       patternflyStats.name = repo.name || repoName;
       patternflyStats.date = date;
       if (argv.j) {
-        patternflyStats.dependencies = getPackageStats(tmpPath, patternflyStats.name, repo.git);
+        patternflyStats.dependencies = getPackageStats(
+          tmpPath,
+          patternflyStats.name,
+          repo.git
+        );
       }
 
-      fs.outputFileSync(`${dir}/${repo.name}.json`, JSON.stringify(patternflyStats, null, 2));
+      fs.outputFileSync(
+        `${dir}/${repo.name}.json`,
+        JSON.stringify(patternflyStats, null, 2)
+      );
     });
   if (argv.j) {
-    fs.outputFileSync(`${dir}/_all_dependencies.json`, JSON.stringify(getAggregatePackageStats(), null, 2));
-    fs.outputFileSync(`${dir}/_all.json`, JSON.stringify(patternflyAggs, null, 2));
-    fs.outputFileSync(`${dir}/_all_sorted.json`, JSON.stringify(getSortedImports(patternflyAggs.imports), null, 2));
+    fs.outputFileSync(
+      `${dir}/_all_dependencies.json`,
+      JSON.stringify(getAggregatePackageStats(), null, 2)
+    );
+    fs.outputFileSync(
+      `${dir}/_all.json`,
+      JSON.stringify(patternflyAggs, null, 2)
+    );
+    fs.outputFileSync(
+      `${dir}/_all_sorted.json`,
+      JSON.stringify(getSortedImports(patternflyAggs.imports), null, 2)
+    );
     const sortedUsage = getSortedUsage(productUsage);
     const pfVersions = getPFVersions();
-    fs.outputFileSync(`${dir}/_all_product_uses.json`, JSON.stringify(sortedUsage, null, 2));
-    fs.outputFileSync(`${dir}/_all_pf_versions.json`, JSON.stringify(pfVersions, null, 2));
-    fs.outputFileSync(`${dir}/_deprecated_usage.json`, JSON.stringify(getDeprecatedComponents(sortedUsage, pfVersions), null, 2));
+    fs.outputFileSync(
+      `${dir}/_all_product_uses.json`,
+      JSON.stringify(sortedUsage, null, 2)
+    );
+    fs.outputFileSync(
+      `${dir}/_all_pf_versions.json`,
+      JSON.stringify(pfVersions, null, 2)
+    );
+    fs.outputFileSync(
+      `${dir}/_deprecated_usage.json`,
+      JSON.stringify(getDeprecatedComponents(sortedUsage, pfVersions), null, 2)
+    );
   }
   console.log(`Collected stats for ${date} under ${dir}`);
 }
@@ -64,22 +97,26 @@ function collectPatternflyStats(argv) {
 require('yargs')
   .scriptName('repoStats')
   .usage('$0 ...flags')
-  .command('collect', 'save stats locally', yargs => {
-    yargs.option('c', {
-      type: 'boolean',
-      default: 'false',
-      describe: 'whether to do a clean clone'
-    });
-    yargs.option('p', {
-      type: 'boolean',
-      default: 'false',
-      describe: 'whether to clone private repos'
-    });
-    yargs.option('j', {
-      type: 'boolean',
-      default: 'false',
-      describe: 'whether to compile package.json stats'
-    });
-  }, collectPatternflyStats)
-  .help()
-  .argv;
+  .command(
+    'collect',
+    'save stats locally',
+    (yargs) => {
+      yargs.option('c', {
+        type: 'boolean',
+        default: 'false',
+        describe: 'whether to do a clean clone',
+      });
+      yargs.option('p', {
+        type: 'boolean',
+        default: 'false',
+        describe: 'whether to clone private repos',
+      });
+      yargs.option('j', {
+        type: 'boolean',
+        default: 'false',
+        describe: 'whether to compile package.json stats',
+      });
+    },
+    collectPatternflyStats
+  )
+  .help().argv;

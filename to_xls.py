@@ -30,7 +30,7 @@ def clean_undefined(x) -> str:
 
     return x
 
-
+print("%s/%s" % (today, today_str))
 # Action starts here
 bikes = []
 for file in os.listdir(in_dir):

@@ -1,0 +1,120 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 3,
+        "scss": 1
+      },
+      "js": 4,
+      "ts": 12,
+      "tsx": 6,
+      "scss": 1
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/routes/Detail.tsx",
+          "/src/routes/Overview.tsx",
+          "/src/Utilities/overviewRows.tsx"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/dynamic/components/Card": {
+      "CardBody": 1,
+      "Card": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Breadcrumb": {
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Modal": {
+      "Modal": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Button": {
+      "Button": 2,
+      "ButtonVariant": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Level": {
+      "Level": 1,
+      "LevelItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Split": {
+      "Split": 1,
+      "SplitItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Text": {
+      "Text": 1,
+      "TextContent": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/external-link-alt-icon": {
+      "ExternalLinkAltIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Icon": {
+      "Icon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Pagination": {
+      "Pagination": 1
+    },
+    "@patternfly/react-table": {
+      "OnTreeRowCollapse": 2,
+      "SortByDirection": 2,
+      "TableVariant": 1,
+      "ICell": 1,
+      "OnCheckChange": 1,
+      "cellWidth": 1,
+      "nowrap": 1,
+      "sortable": 1
+    },
+    "@patternfly/react-table/deprecated": {
+      "Table-deprecated": 1,
+      "TableBody-deprecated": 1,
+      "TableHeader-deprecated": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Badge": {
+      "Badge": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Bullseye": {
+      "Bullseye": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/EmptyState": {
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateVariant": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Title": {
+      "Title": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/export-icon": {
+      "ExportIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/external-link-square-alt-icon": {
+      "ExternalLinkSquareAltIcon": 1
+    },
+    "@patternfly/react-table/": {
+      "treeRow": 1
+    }
+  },
+  "classes": {
+    "pf-m-light": 2,
+    "pf-m-expandable": 1,
+    "pf-c-treeview": 2,
+    "pf-c-empty-state": 1,
+    "pf-l-split__item": 1,
+    "pf-c-content": 1
+  },
+  "cssVars": {
+    "--pf-global--spacer--sm": 1,
+    "--pf-global--spacer--md": 1
+  },
+  "repo": "https://github.com/RedHatInsights/api-frontend",
+  "name": "RedHatInsights-api-frontend",
+  "date": "2024-08-07T13:25:19.580Z",
+  "dependencies": {}
+}
