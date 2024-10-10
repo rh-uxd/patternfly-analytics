@@ -163,7 +163,7 @@ function getPackageStats(repoPath, repoName, url) {
       countDeps(packageJSON.devDependencies);
       countDeps(packageJSON.peerDependencies);
     } catch(error) {
-      console.error(`Problem parsing JSON file ${file}:\n${error}`);
+      console.error(`Problem parsing JSON file ${file}:\n${error}\n, ... skipping...`);
     }
   });
 
