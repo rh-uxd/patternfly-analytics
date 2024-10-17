@@ -9,11 +9,11 @@
   "author": "redallen",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "fs-extra": "^8.1.0",
-    "glob": "^7.1.4",
-    "puppeteer": "^2.1.1",
-    "puppeteer-cluster": "^0.18.0",
-    "yargs": "^13.3.0"
+    "cheerio": "^1.0.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
+    "puppeteer": "^23.6.0",
+    "puppeteer-cluster": "^0.24.0",
+    "yargs": "^17.7.2"
   }
 }
