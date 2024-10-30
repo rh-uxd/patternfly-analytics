@@ -28,13 +28,13 @@ in_dir = "stats-static/" + today_str
 # Helper method to clean up cell values by
 #  turning 'undefined' and 'null' into empty cell
 def clean_undefined(x) -> str:
-    if "undefined" in x:
-        return ''
-    if "null" in x:
-        return ''
+    if isinstance(x, (str, list, tuple, set, dict)):
+        if "undefined" in x:
+            return ''  # Return empty string if "undefined" is found
+        if "null" in x:
+            return ''  # Return empty string if "null" is found
 
     return x
-
 
 def write_repos_all_tab():
 
@@ -44,7 +44,7 @@ def write_repos_all_tab():
             print(file)
             df = pd.read_csv('%s/%s' % (in_dir, file))
             df = df.map(clean_undefined)
-            df = df.map(lambda x: str.lstrip(x))
+            df = df.map(lambda x: x.lstrip() if isinstance(x, str) else x)
             bikes.append(df)
 
     df = pd.concat(bikes, axis=0, ignore_index=True)
@@ -70,7 +70,10 @@ def write_repos_all_tab():
             tmp = df[column].astype(str)
             for value in tmp.values.tolist():
                 val = value.split(',')
-                val = val[1]
+                if len(val) > 1:
+                    val = val[1]
+                else:
+                    val = val[0]
                 val = val.replace('"', '').replace(')', '')
                 column_len = max(column_len, len(val))
         else:
