@@ -131,7 +131,7 @@ function getPackageStats(repoPath, repoName, url) {
         };
 
       //collect row for output object
-       if(pp || pq || prcve || prc || prce || prcon || prcore || pricon || predit || prlogv || prstyle || prtable || prtoken || prtop || pruf || prvirt || prchat || prdata || prcomp != null){
+       if(pp || pq || prcve || prc || prce || prcon || prcore || pricon || predit || prlogv || prdata || prchat || prcomp || prstyle || prtable || prtoken || prtop || pruf || prvirt != null){
 
         data += `${repoName}-${extractFilename(filePath)}, ${url}, ${pp}, ${pq}, ${prcve}, ${prc}, ${prce}, ${prcon}, ${prcore}, ${pricon}, ${predit}, ${prlogv}, ${prdata}, ${prchat}, ${prcomp}, ${prstyle}, ${prtable}, ${prtoken}, ${prtop}, ${pruf}, ${prvirt}, ${r}`;
         console.log(`${repoName}-${extractFilename(filePath)}, ${url}, ${pp}, ${pq}, ${prcve}, ${prc}, ${prce}, ${prcon}, ${prcore}, ${pricon}, ${predit}, ${prlogv}, ${prdata}, ${prchat}, ${prcomp}, ${prstyle}, ${prtable}, ${prtoken}, ${prtop}, ${pruf}, ${prvirt}, ${r}`);
