@@ -27,13 +27,11 @@ in_dir = "stats-static/" + today_str
 
 # Helper method to clean up cell values by
 #  turning 'undefined' and 'null' into empty cell
-def clean_undefined(x) -> str:
-    if isinstance(x, (str, list, tuple, set, dict)):
-        if "undefined" in x:
-            return ''  # Return empty string if "undefined" is found
-        if "null" in x:
-            return ''  # Return empty string if "null" is found
-
+def clean_undefined(x: str) -> str:
+    if "undefined" in x:
+        return ''  # Return empty string if "undefined" is found
+    if "null" in x:
+        return ''  # Return empty string if "null" is found
     return x
 
 def write_repos_all_tab():

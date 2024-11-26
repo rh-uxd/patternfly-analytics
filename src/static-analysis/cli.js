@@ -30,13 +30,11 @@ function collectPatternflyStats(argv) {
   repos
     .filter(repo => argv.p || !repo.private) // Only public repos unless flag passed
     .forEach(repo => {
-      console.log(repo.name);
       const repoName = repo.git.split('/').pop();
       const tmpPath = `${tmpDir}/${repo.name}`;
       const command = fs.existsSync(tmpPath)
         ? `cd ${tmpPath} && git pull`
         : `git clone "${repo.git}" "${tmpPath}" --depth 1`;
-      console.log(command);
       execSync(command);
       const patternflyStats = getPatternflyStats(tmpPath, repo.name);
       patternflyStats.repo = repo.git;
