@@ -47,9 +47,9 @@ function getPackageStats(repoPath, repoName, url) {
     }
 
       //a way to get the dependency name/values out
-      var pp, pq, prcve, prc, prce, prcon, prcore, pricon, predit, prlogv, prstyle, prtable, prtoken, prtop, pruf, prvirt, r, prchat, prdata, prcomp = null;
+      var pp, pq, prcve, prc, prce, prcon, prcore, pricon, predit, prlogv, prstyle, prtable, prtoken, prtop, pruf, prvirt, r, prchat, prassist, prdata, prcomp = null;
       var data = `
-          name, url, @patternfly/patternfly, @patternfly/quickstarts, @patternfly/react-catalog-view-extension, @patternfly/react-charts, @patternfly/react-code-editor, @patternfly/react-console, @patternfly/react-core, @patternfly/react-icons, @patternfly/react-inline-edit-extension, @patternfly/react-log-viewer, @patternfly/react-data-view, @patternfly/virtual-assistant, @patternfly/react-component-groups, @patternfly/react-styles, @patternfly/react-table, @patternfly/react-tokens, @patternfly/react-topology, @patternfly/react-user-feedback, @patternfly/react-virtualized-extension, react
+          name, url, @patternfly/patternfly, @patternfly/quickstarts, @patternfly/react-catalog-view-extension, @patternfly/react-charts, @patternfly/react-code-editor, @patternfly/react-console, @patternfly/react-core, @patternfly/react-icons, @patternfly/react-inline-edit-extension, @patternfly/react-log-viewer, @patternfly/react-data-view, @patternfly/chatbot, @patternfly/virtual-assistant, @patternfly/react-component-groups, @patternfly/react-styles, @patternfly/react-table, @patternfly/react-tokens, @patternfly/react-topology, @patternfly/react-user-feedback, @patternfly/react-virtualized-extension, react
           `;
 
       const courses = dependencies;
@@ -107,8 +107,11 @@ function getPackageStats(repoPath, repoName, url) {
         else if(key == 'react'){
           r = courses[key];
         }
-        else if(key == '@patternfly/virtual-assistant'){
+        else if(key == '@patternfly/chatbot'){
           prchat = courses[key];
+        }
+        else if(key == '@patternfly/virtual-assistant'){
+          prassist = courses[key];
         }
         else if(key == '@patternfly/react-data-view'){
           prdata = courses[key];
@@ -116,9 +119,6 @@ function getPackageStats(repoPath, repoName, url) {
         else if(key == '@patternfly/react-component-groups'){
           prcomp = courses[key];
         }
-
-
-
       });
 
 
@@ -131,10 +131,10 @@ function getPackageStats(repoPath, repoName, url) {
         };
 
       //collect row for output object
-       if(pp || pq || prcve || prc || prce || prcon || prcore || pricon || predit || prlogv || prdata || prchat || prcomp || prstyle || prtable || prtoken || prtop || pruf || prvirt != null){
+       if(pp || pq || prcve || prc || prce || prcon || prcore || pricon || predit || prlogv || prdata || prchat || prassist || prcomp || prstyle || prtable || prtoken || prtop || pruf || prvirt != null){
 
-        data += `${repoName}-${extractFilename(filePath)}, ${url}, ${pp}, ${pq}, ${prcve}, ${prc}, ${prce}, ${prcon}, ${prcore}, ${pricon}, ${predit}, ${prlogv}, ${prdata}, ${prchat}, ${prcomp}, ${prstyle}, ${prtable}, ${prtoken}, ${prtop}, ${pruf}, ${prvirt}, ${r}`;
-        console.log(`${repoName}-${extractFilename(filePath)}, ${url}, ${pp}, ${pq}, ${prcve}, ${prc}, ${prce}, ${prcon}, ${prcore}, ${pricon}, ${predit}, ${prlogv}, ${prdata}, ${prchat}, ${prcomp}, ${prstyle}, ${prtable}, ${prtoken}, ${prtop}, ${pruf}, ${prvirt}, ${r}`);
+        data += `${repoName}-${extractFilename(filePath)}, ${url}, ${pp}, ${pq}, ${prcve}, ${prc}, ${prce}, ${prcon}, ${prcore}, ${pricon}, ${predit}, ${prlogv}, ${prdata}, ${prchat}, ${prassist}, ${prcomp}, ${prstyle}, ${prtable}, ${prtoken}, ${prtop}, ${pruf}, ${prvirt}, ${r}`;
+        console.log(`${repoName}-${extractFilename(filePath)}, ${url}, ${pp}, ${pq}, ${prcve}, ${prc}, ${prce}, ${prcon}, ${prcore}, ${pricon}, ${predit}, ${prlogv}, ${prdata}, ${prchat}, ${prassist}, ${prcomp}, ${prstyle}, ${prtable}, ${prtoken}, ${prtop}, ${pruf}, ${prvirt}, ${r}`);
 
         //write csv file of dependency for each package.json found
         const date = new Date().toISOString();
