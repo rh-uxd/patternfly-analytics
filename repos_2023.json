@@ -61,10 +61,6 @@
       "name": "Backstage"
     },
     {
-      "git": "https://github.com/redhat-developer/rhdh-plugins",
-      "name": "RHDH-plugins"
-    },
-    {
       "git": "https://github.com/openshift/hac-core",
       "name": "HAC-Core"
     },
@@ -182,10 +178,6 @@
       "name": "Kubevirt"
     },
     {
-      "git": "https://github.com/kubeflow/model-registry",
-      "name": "Kubeflow-Model-Registry"
-    },
-    {
       "git": "https://github.com/RedHatInsights/image-builder-frontend",
       "name": "RedHatInsights-image-builder-frontend"
     },
@@ -196,14 +188,6 @@
     {
       "git": "https://github.com/nmstate/nmstate-console-plugin",
       "name": "Nmstate-plugin"
-    },
-    {
-      "git": "https://github.com/instructlab/ui",
-      "name": "InstructLab-UI"
-    },
-    {
-      "git": "https://github.com/redhat-composer-ai/chatbot-ui",
-      "name": "Composer-AI-chatbot"
     }
   ]
 }
