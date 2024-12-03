@@ -286,6 +286,26 @@
       "name": "Backstage"
     },
     {
+      "git": "https://github.com/redhat-developer/rhdh-plugins",
+      "name": "RHDH-plugins"
+    },
+    {
+      "git": "https://github.com/redhat-developer/aonic-ui",
+      "name": "Aonic-UI"
+    },
+    {
+      "git": "https://github.com/kubeflow/model-registry",
+      "name": "Kubeflow-Model-Registry"
+    },
+    {
+      "git": "https://github.com/instructlab/ui",
+      "name": "InstructLab-UI"
+    },
+    {
+      "git": "https://github.com/redhat-composer-ai/chatbot-ui",
+      "name": "Composer-AI-chatbot"
+    },
+    {
       "git": "https://github.com/cryostatio/cryostat-web",
       "name": "Cryostat-Web"
     },
