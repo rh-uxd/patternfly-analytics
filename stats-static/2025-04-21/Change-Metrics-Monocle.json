@@ -1,0 +1,69 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "css": 1
+      },
+      "js": 2,
+      "jsx": 1,
+      "css": 1
+    },
+    "withPatternfly": {
+      "css": {
+        "files": [
+          "/web/src/index.css"
+        ]
+      }
+    }
+  },
+  "imports": {},
+  "classes": {
+    "pf-c-label": 1
+  },
+  "cssVars": {
+    "--pf-global--spacer--xs": 1,
+    "--pf-global--spacer--sm": 1
+  },
+  "repo": "https://github.com/change-metrics/monocle",
+  "name": "Change-Metrics-Monocle",
+  "date": "2025-04-21T19:31:45.032Z",
+  "dependencies": {
+    "@dusty-phillips/rescript-dexie": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-table": 1,
+    "@rescript/react": 1,
+    "@softwarefactory-project/re-patternfly": 1,
+    "axios": 1,
+    "bs-ocaml-protoc-json": 1,
+    "bs-parse": 1,
+    "chart.js": 1,
+    "concurrently": 1,
+    "esbuild": 1,
+    "htmx.org": 1,
+    "interweave": 1,
+    "interweave-autolink": 1,
+    "jwt-decode": 1,
+    "live-server": 1,
+    "moment": 1,
+    "patternflyVersions": {
+      "@patternfly/react-core": [
+        "^4.115.2"
+      ],
+      "@patternfly/react-table": [
+        "^4.29.12"
+      ],
+      "@softwarefactory-project/re-patternfly": [
+        "^3.0.3"
+      ]
+    },
+    "react": 1,
+    "react-chartjs-2": 1,
+    "react-chord-diagram": 1,
+    "react-d3-treemap": 1,
+    "react-datepicker": 1,
+    "react-dom": 1,
+    "react-event-timeline": 1,
+    "rescript": 1,
+    "yargs-parser": 1
+  }
+}

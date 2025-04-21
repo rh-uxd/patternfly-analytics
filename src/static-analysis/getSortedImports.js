@@ -63,7 +63,11 @@ const sortUsageSection = (usageObj) => Object
     [_pfItemName2, pfItemData2]
   ) => pfItemData2.product_count - pfItemData1.product_count)
   .reduce((acc, [curPfItemName, curPfItemData]) => {
-    acc[curPfItemName] = curPfItemData;
+    if (!curPfItemName.endsWith(`Icon`)) return acc;
+    acc[curPfItemName] = {};
+    acc[curPfItemName].product_count = curPfItemData.product_count;
+    acc[curPfItemName].total_usage = curPfItemData.total_usage;
+    acc[curPfItemName].product_list = Object.keys(curPfItemData).filter(name => name !== 'product_count' && name !== 'total_usage');
     return acc;
   }, {});
 

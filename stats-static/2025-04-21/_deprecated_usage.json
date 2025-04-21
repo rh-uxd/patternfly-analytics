@@ -1,0 +1,42 @@
+{
+  "ApplicationLauncher": {
+    "product_count": 0,
+    "products": [],
+    "product_count_by_component": {}
+  },
+  "ContextSelector": {
+    "product_count": 0,
+    "products": [],
+    "product_count_by_component": {}
+  },
+  "Dropdown": {
+    "product_count": 0,
+    "products": [],
+    "product_count_by_component": {}
+  },
+  "OptionsMenu": {
+    "product_count": 0,
+    "products": [],
+    "product_count_by_component": {}
+  },
+  "PageHeader": {
+    "product_count": 0,
+    "products": [],
+    "product_count_by_component": {}
+  },
+  "Select": {
+    "product_count": 0,
+    "products": [],
+    "product_count_by_component": {}
+  },
+  "Table": {
+    "product_count": 0,
+    "products": [],
+    "product_count_by_component": {}
+  },
+  "Wizard": {
+    "product_count": 0,
+    "products": [],
+    "product_count_by_component": {}
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 24,
+        "scss": 4
+      },
+      "js": 41,
+      "scss": 9
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/App.js",
+          "/src/AppConstants.js",
+          "/src/components/DateFilter/DateRangeFilter.js",
+          "/src/components/DateFilter/DateTextInput.js",
+          "/src/components/ExportsDropdown.js",
+          "/src/components/Filters/Chips.js",
+          "/src/components/Filters/FilterModal.js",
+          "/src/components/Filters/FilterToolbar.js",
+          "/src/components/HoverableAttribute.js",
+          "/src/components/MainHeader.js",
+          "/src/components/MainSidebar.js",
+          "/src/components/Notifications/Notification.js",
+          "/src/components/OptionsContainer.js",
+          "/src/components/Pagination.js",
+          "/src/components/Payloads/Payloads.js",
+          "/src/components/Statuses/Statuses.js",
+          "/src/components/Table.js",
+          "/src/components/Track/Durations.js",
+          "/src/components/Track/KibanaLink.js",
+          "/src/components/Track/Track.js",
+          "/src/components/Track/TrackGraphic.js",
+          "/src/components/Track/TrackGraphicView.js",
+          "/src/components/Track/TrackSearchBar.js",
+          "/src/components/Track/TrackTable.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss",
+          "/src/components/DateFilter/DateRangeFilter.scss",
+          "/src/components/Filters/FilterModal.scss",
+          "/src/components/Track/Durations.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Page": 1,
+      "Bullseye": 3,
+      "Button": 6,
+      "Divider": 2,
+      "Flex": 2,
+      "FlexItem": 2,
+      "Form": 2,
+      "FormGroup": 2,
+      "Modal": 2,
+      "Radio": 1,
+      "Tab": 2,
+      "Tabs": 2,
+      "Text": 4,
+      "CalendarMonth": 1,
+      "TextInput": 3,
+      "Dropdown": 1,
+      "DropdownItem": 1,
+      "DropdownToggle": 1,
+      "Chip": 1,
+      "ChipGroup": 1,
+      "Select": 1,
+      "SelectOption": 1,
+      "Tooltip": 2,
+      "PageHeader": 1,
+      "PageHeaderTools": 1,
+      "Nav": 1,
+      "NavItem": 1,
+      "NavList": 1,
+      "PageSidebar": 1,
+      "Alert": 1,
+      "AlertActionCloseButton": 1,
+      "OptionsMenu": 1,
+      "OptionsMenuItem": 1,
+      "OptionsMenuPosition": 1,
+      "OptionsMenuToggle": 1,
+      "Card": 4,
+      "CardBody": 3,
+      "CardFooter": 1,
+      "CardTitle": 1,
+      "Pagination": 1,
+      "Split": 1,
+      "SplitItem": 1,
+      "PageSection": 3,
+      "TextContent": 3,
+      "TextVariants": 3,
+      "EmptyState": 2,
+      "EmptyStateBody": 2,
+      "EmptyStateIcon": 2,
+      "Spinner": 2,
+      "Title": 2,
+      "CardHeader": 2,
+      "AccordionContent": 1,
+      "AccordionItem": 1,
+      "AccordionToggle": 1,
+      "ClipboardCopy": 1,
+      "ClipboardCopyVariant": 1,
+      "Progress": 1,
+      "ProgressMeasureLocation": 1,
+      "ProgressVariant": 1,
+      "Accordion": 1,
+      "EmptyStateVariant": 1
+    },
+    "@patternfly/react-table": {
+      "sortable": 1,
+      "Table": 3,
+      "TableBody": 3,
+      "TableHeader": 3,
+      "TableVariant": 3,
+      "compoundExpand": 1
+    },
+    "@patternfly/react-icons": {
+      "CaretLeftIcon": 1,
+      "CaretRightIcon": 1,
+      "ClockIcon": 1,
+      "ExportIcon": 1,
+      "PlusCircleIcon": 2,
+      "SearchIcon": 1,
+      "ExternalLinkAltIcon": 1,
+      "DownloadIcon": 1,
+      "TimesCircleIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-filters__date--tab": 3,
+    "pf-m-no-padding": 1,
+    "pf-c-page__main": 1,
+    "pf-c-modal-box": 1,
+    "pf-c-radio": 1,
+    "pf-c-modal-box__body": 1
+  },
+  "cssVars": {
+    "--pf-c-page__header--MinHeight": 1,
+    "--pf-global--success-color--100": 1,
+    "--pf-global--danger-color--100": 1,
+    "--pf-global--primary-color--100": 1
+  },
+  "repo": "https://github.com/RedHatInsights/payload-tracker-frontend",
+  "name": "RedHatInsights-payload-tracker-frontend",
+  "date": "2025-04-21T19:31:45.032Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@babel/eslint-parser": 1,
+    "@babel/plugin-transform-runtime": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-react": 1,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-table": 1,
+    "axios": 1,
+    "babel-loader": 1,
+    "connected-react-router": 1,
+    "css-loader": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "history": 1,
+    "html-webpack-plugin": 1,
+    "humanize-duration": 1,
+    "luxon": 1,
+    "patternflyVersions": {
+      "@patternfly/react-charts": [
+        "6.51.19"
+      ],
+      "@patternfly/react-core": [
+        "4.198.19"
+      ],
+      "@patternfly/react-icons": [
+        "4.49.19"
+      ],
+      "@patternfly/react-styles": [
+        "4.48.19"
+      ],
+      "@patternfly/react-table": [
+        "4.67.19"
+      ]
+    },
+    "prop-types": 1,
+    "react": 1,
+    "react-csv": 1,
+    "react-dom": 1,
+    "react-redux": 1,
+    "react-router": 1,
+    "react-router-dom": 1,
+    "redux": 1,
+    "redux-thunk": 1,
+    "rimraf": 1,
+    "sass": 1,
+    "sass-loader": 1,
+    "style-loader": 1,
+    "webpack": 1,
+    "webpack-bundle-analyzer": 1,
+    "webpack-cli": 1,
+    "webpack-dev-server": 1
+  }
+}

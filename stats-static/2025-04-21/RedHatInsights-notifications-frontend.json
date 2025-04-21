@@ -1,0 +1,704 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 106,
+        "ts": 4,
+        "scss": 3
+      },
+      "ts": 133,
+      "js": 7,
+      "tsx": 159,
+      "scss": 5
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/app/App.tsx",
+          "/src/app/AppSkeleton.tsx",
+          "/src/app/IntegrationsApp.tsx",
+          "/src/components/ButtonLink.tsx",
+          "/src/components/EmptyStateSearch.tsx",
+          "/src/components/Icons/DisabledIntegrationIcon.tsx",
+          "/src/components/Icons/EnabledIntegrationIcon.tsx",
+          "/src/components/Icons/WebhookIcon.tsx",
+          "/src/components/Integrations/AddNotificationBody.tsx",
+          "/src/components/Integrations/DeleteModal.tsx",
+          "/src/components/Integrations/DopeBox.tsx",
+          "/src/components/Integrations/EmptyState.tsx",
+          "/src/components/Integrations/Form.tsx",
+          "/src/components/Integrations/Form/IntegrationTypeCamelExtrasForm.tsx",
+          "/src/components/Integrations/Form/IntegrationTypeCamelForm.tsx",
+          "/src/components/Integrations/Form/IntegrationTypeGoogleChatForm.tsx",
+          "/src/components/Integrations/Form/IntegrationTypeHttpForm.tsx",
+          "/src/components/Integrations/Form/IntegrationTypeSlackForm.tsx",
+          "/src/components/Integrations/Form/IntegrationTypeTeamsForm.tsx",
+          "/src/components/Integrations/IntegrationDetails.tsx",
+          "/src/components/Integrations/IntegrationDetailsContent.tsx",
+          "/src/components/Integrations/IntegrationEventDetails.tsx",
+          "/src/components/Integrations/IntegrationsDrawer.tsx",
+          "/src/components/Integrations/IntegrationsTable.tsx",
+          "/src/components/Integrations/Table.tsx",
+          "/src/components/Integrations/Table/ConnectionAlert.tsx",
+          "/src/components/Integrations/Table/ConnectionAttempt.tsx",
+          "/src/components/Integrations/Table/ConnectionDegraded.tsx",
+          "/src/components/Integrations/Table/ConnectionFailed.tsx",
+          "/src/components/Integrations/Table/ExpandedContent/GoogleChatExpandedContent.tsx",
+          "/src/components/Integrations/Table/ExpandedContent/IntegrationExpandedContent.tsx",
+          "/src/components/Integrations/Table/ExpandedContent/PagerDutyExpandedContent.tsx",
+          "/src/components/Integrations/Table/ExpandedContent/SlackExpandedContent.tsx",
+          "/src/components/Integrations/Table/ExpandedContent/TeamsExpandedContent.tsx",
+          "/src/components/Integrations/Table/IntegrationStatus.tsx",
+          "/src/components/Integrations/Table/IntegrationTest.tsx",
+          "/src/components/Integrations/Toolbar.tsx",
+          "/src/components/NotAuthorized.tsx",
+          "/src/components/Notifications/ActionComponent.tsx",
+          "/src/components/Notifications/BehaviorGroup/BehaviorGroupActionsSummary.tsx",
+          "/src/components/Notifications/BehaviorGroup/BehaviorGroupCard.tsx",
+          "/src/components/Notifications/BehaviorGroup/BehaviorGroupCardList.tsx",
+          "/src/components/Notifications/BehaviorGroup/BehaviorGroupDeleteModal.tsx",
+          "/src/components/Notifications/BehaviorGroup/BehaviorGroupForm.tsx",
+          "/src/components/Notifications/BehaviorGroup/BehaviorGroupFormActionsTable.tsx",
+          "/src/components/Notifications/BehaviorGroup/BehaviorGroupSaveModal.tsx",
+          "/src/components/Notifications/BehaviorGroup/Wizard/BehaviorGroupWizard.tsx",
+          "/src/components/Notifications/BehaviorGroup/Wizard/BehaviorGroupWizardFooter.tsx",
+          "/src/components/Notifications/BehaviorGroup/Wizard/SelectableEventTypeTable.tsx",
+          "/src/components/Notifications/EditableActionRow/RecipientForm.tsx",
+          "/src/components/Notifications/EmptyTableState.tsx",
+          "/src/components/Notifications/EventLog/EventLogActionPopoverContent.tsx",
+          "/src/components/Notifications/EventLog/EventLogDateFilter.tsx",
+          "/src/components/Notifications/EventLog/EventLogTable.tsx",
+          "/src/components/Notifications/EventLog/EventLogToolbar.tsx",
+          "/src/components/Notifications/EventLog/EventLogTreeFilter.tsx",
+          "/src/components/Notifications/Form/__tests__/ActionTypeahead.test.tsx",
+          "/src/components/Notifications/Form/__tests__/IntegrationRecipientTypeahead.test.tsx",
+          "/src/components/Notifications/Form/ActionTypeahead.tsx",
+          "/src/components/Notifications/Form/IntegrationRecipientTypeahead.tsx",
+          "/src/components/Notifications/Form/RecipientTypeahead.tsx",
+          "/src/components/Notifications/Form/useRecipientOptionMemo.tsx",
+          "/src/components/Notifications/NotificationsBehaviorGroupRow.tsx",
+          "/src/components/Notifications/NotificationsBehaviorGroupTable.tsx",
+          "/src/components/Notifications/NotificationsLog/NotificationsLogDateFilter.tsx",
+          "/src/components/Notifications/NotificationsLog/NotificationsLogEmptyState.tsx",
+          "/src/components/Notifications/NotificationsLog/NotificationsLogTable.tsx",
+          "/src/components/Notifications/NotificationsLog/NotificationsLogToolbar.tsx",
+          "/src/components/Notifications/NotificationStatus.tsx",
+          "/src/components/Notifications/Rbac/GroupNotFound.tsx",
+          "/src/components/Notifications/Recipient.tsx",
+          "/src/components/Notifications/TabComponent.tsx",
+          "/src/components/Notifications/Table/BehaviorGroupCell.tsx",
+          "/src/components/Notifications/TimeConfig.tsx",
+          "/src/components/Notifications/Toolbar.tsx",
+          "/src/components/NotificationsDrawer/DrawerBell.tsx",
+          "/src/components/NotificationsDrawer/DrawerPanel.tsx",
+          "/src/components/NotificationsDrawer/Dropdowns.tsx",
+          "/src/components/NotificationsDrawer/EmptyNotifications.tsx",
+          "/src/components/NotificationsDrawer/NotificationItem.tsx",
+          "/src/components/PageHeader.tsx",
+          "/src/components/Status/Degraded.tsx",
+          "/src/components/TableHelpPopover/TableHelp.tsx",
+          "/src/components/TableHelpPopover/TableHelpPopover.tsx",
+          "/src/components/Widgets/EventsWidget.tsx",
+          "/src/pages/Integrations/Create/CustomComponents/CardSelect.tsx",
+          "/src/pages/Integrations/Create/CustomComponents/InlineAlert.tsx",
+          "/src/pages/Integrations/Create/CustomComponents/SelectableTable.tsx",
+          "/src/pages/Integrations/Create/Review.tsx",
+          "/src/pages/Integrations/Create/Validated.tsx",
+          "/src/pages/Integrations/List/List.tsx",
+          "/src/pages/Integrations/List/Page.tsx",
+          "/src/pages/Integrations/SplunkSetup/SplunkSetupFinished.tsx",
+          "/src/pages/Integrations/SplunkSetup/SplunkSetupForm.tsx",
+          "/src/pages/Integrations/SplunkSetup/SplunkSetupPage.tsx",
+          "/src/pages/Notifications/BehaviorGroupWizard/Steps/ActionAndRecipientsStep.tsx",
+          "/src/pages/Notifications/BehaviorGroupWizard/Steps/AssociateEventTypesStep.tsx",
+          "/src/pages/Notifications/BehaviorGroupWizard/Steps/BasicInformationStep.tsx",
+          "/src/pages/Notifications/BehaviorGroupWizard/Steps/ReviewStep.tsx",
+          "/src/pages/Notifications/EventLog/EventLogPage.tsx",
+          "/src/pages/Notifications/List/BehaviorGroupsSection.tsx",
+          "/src/pages/Notifications/List/BundlePage.tsx",
+          "/src/pages/Notifications/List/BundlePageBehaviorGroupContent.tsx",
+          "/src/pages/Notifications/NotificationsLog/Page.tsx",
+          "/src/pages/Notifications/Overview/CustomDataListItem.tsx",
+          "/src/pages/Notifications/Overview/Page.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/components/Notifications/BehaviorGroup/Wizard/ExtendedWizardStep.ts",
+          "/src/components/Notifications/Form/ActionOption.ts",
+          "/src/components/Notifications/Form/RecipientOption.ts",
+          "/src/utils/AlertUtils.ts"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/app/App.scss",
+          "/src/components/Widgets/EventsWidget.scss",
+          "/src/pages/Integrations/Create/styling/cardselect.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Switch": 1,
+      "Bullseye": 4,
+      "Spinner": 6,
+      "Button": 19,
+      "ButtonProps": 2,
+      "EmptyState": 8,
+      "EmptyStateBody": 8,
+      "EmptyStateHeader": 6,
+      "EmptyStateIcon": 7,
+      "EmptyStateVariant": 3,
+      "Icon": 14,
+      "ButtonVariant": 11,
+      "ExpandableSection": 2,
+      "List": 3,
+      "ListItem": 3,
+      "Skeleton": 13,
+      "Card": 6,
+      "CardBody": 5,
+      "CardFooter": 2,
+      "CardHeader": 3,
+      "PageSection": 1,
+      "Text": 14,
+      "TextContent": 16,
+      "TextList": 6,
+      "TextListItem": 6,
+      "TextVariants": 7,
+      "EmptyStateFooter": 4,
+      "Gallery": 1,
+      "FormSelectOption": 1,
+      "FormGroup": 5,
+      "FormHelperText": 7,
+      "HelperText": 7,
+      "HelperTextItem": 7,
+      "FormSection": 1,
+      "DescriptionList": 3,
+      "DescriptionListDescription": 4,
+      "DescriptionListGroup": 3,
+      "DescriptionListTerm": 4,
+      "EmptyStateActions": 2,
+      "Pagination": 3,
+      "DrawerActions": 1,
+      "DrawerCloseButton": 1,
+      "DrawerHead": 1,
+      "DrawerPanelContent": 1,
+      "Tab": 3,
+      "TabTitleText": 3,
+      "Tabs": 3,
+      "Title": 9,
+      "Dropdown": 1,
+      "DropdownItem": 1,
+      "DropdownList": 1,
+      "MenuToggle": 4,
+      "MenuToggleElement": 2,
+      "Split": 10,
+      "SplitItem": 10,
+      "Alert": 3,
+      "AlertVariant": 4,
+      "TextListItemVariants": 5,
+      "TextListVariants": 5,
+      "Popover": 4,
+      "Modal": 2,
+      "ModalVariant": 3,
+      "TextInput": 2,
+      "PaginationProps": 3,
+      "PaginationVariant": 3,
+      "StackItem": 5,
+      "Grid": 7,
+      "GridItem": 7,
+      "Tooltip": 6,
+      "Flex": 4,
+      "FlexItem": 4,
+      "Checkbox": 1,
+      "Stack": 4,
+      "TreeView": 1,
+      "TreeViewDataItem": 1,
+      "Select": 1,
+      "SelectList": 1,
+      "SelectOption": 1,
+      "TextInputGroup": 1,
+      "TextInputGroupMain": 1,
+      "Chip": 2,
+      "ChipGroup": 2,
+      "DatePicker": 1,
+      "DatePickerRef": 1,
+      "TextInputProps": 1,
+      "Divider": 4,
+      "Toolbar": 1,
+      "ToolbarContent": 1,
+      "ToolbarItem": 1,
+      "Label": 3,
+      "LabelProps": 1,
+      "Badge": 1,
+      "MenuItem": 2,
+      "AlertActionLink": 1,
+      "Menu": 1,
+      "MenuContainer": 1,
+      "MenuContent": 1,
+      "MenuList": 1,
+      "Radio": 1,
+      "TimePicker": 1,
+      "Tile": 1,
+      "Drawer": 1,
+      "DrawerContent": 1,
+      "DrawerContentBody": 1,
+      "ActionGroup": 1,
+      "CodeBlock": 1,
+      "CodeBlockCode": 1,
+      "Form": 1,
+      "ListVariant": 1,
+      "ProgressStepProps": 2,
+      "ValidatedOptions": 1,
+      "ProgressStep": 1,
+      "ProgressStepper": 1,
+      "SearchInput": 1,
+      "DataListAction": 1,
+      "DataListCell": 1,
+      "DataListContent": 1,
+      "DataListItem": 1,
+      "DataListItemCells": 1,
+      "DataListItemRow": 1,
+      "DataListToggle": 1,
+      "CardTitle": 1,
+      "DataList": 1,
+      "AlertProps": 1
+    },
+    "@patternfly/react-icons": {
+      "SearchIcon": 5,
+      "OffIcon": 1,
+      "CheckCircleIcon": 9,
+      "ArrowRightIcon": 3,
+      "BellIcon": 2,
+      "CogIcon": 2,
+      "LockIcon": 4,
+      "CubesIcon": 1,
+      "HelpIcon": 4,
+      "InfrastructureIcon": 1,
+      "StopCircleIcon": 1,
+      "EllipsisVIcon": 1,
+      "ExclamationCircleIcon": 8,
+      "InProgressIcon": 5,
+      "UnknownIcon": 3,
+      "EnvelopeIcon": 1,
+      "MinusCircleIcon": 1,
+      "PlusCircleIcon": 1,
+      "ExclamationTriangleIcon": 3,
+      "AngleDownIcon": 1,
+      "CheckIcon": 1,
+      "CloseIcon": 1,
+      "PencilAltIcon": 1,
+      "FilterIcon": 1,
+      "BanIcon": 1,
+      "BellSlashIcon": 1,
+      "ExternalLinkSquareAltIcon": 1,
+      "BugIcon": 1,
+      "IntegrationIcon": 1,
+      "RunningIcon": 2,
+      "UserIcon": 2,
+      "UsersIcon": 1,
+      "ExternalLinkAltIcon": 1
+    },
+    "@patternfly/react-icons/dist/js/createIcon": {
+      "SVGIconProps": 1
+    },
+    "@patternfly/react-icons/dist/esm/createIcon": {
+      "SVGIconProps": 1
+    },
+    "@patternfly/react-data-view/dist/dynamic/DataViewTable": {
+      "DataViewTable": 2,
+      "DataViewTh": 1
+    },
+    "@patternfly/react-component-groups": {
+      "SkeletonTableBody": 2,
+      "SkeletonTableHead": 2
+    },
+    "@patternfly/react-data-view/dist/dynamic/DataView": {
+      "DataView": 2
+    },
+    "@patternfly/react-table": {
+      "Tbody": 3,
+      "Td": 3,
+      "ThProps": 1,
+      "Tr": 3,
+      "IAction": 1,
+      "ActionsColumn": 1,
+      "IActions": 3,
+      "ISortBy": 2,
+      "SortByDirection": 2,
+      "IActionsResolver": 1,
+      "ICell": 2,
+      "IRow": 2,
+      "IRowData": 2,
+      "RowWrapperProps": 1,
+      "expandable": 1,
+      "info": 1,
+      "sortable": 1,
+      "TableVariant": 2,
+      "cellWidth": 1,
+      "TableText": 1,
+      "Table": 2,
+      "Th": 1,
+      "Thead": 1
+    },
+    "@patternfly/react-data-view/dist/dynamic/Hooks": {
+      "useDataViewPagination": 1,
+      "useDataViewSort": 1
+    },
+    "@patternfly/react-data-view": {
+      "DataViewToolbar": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Spinner": {
+      "Spinner": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Switch": {
+      "Switch": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/EmptyState": {
+      "EmptyStateVariant": 3,
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Text": {
+      "Text": 2,
+      "TextContent": 1
+    },
+    "@patternfly/react-styles": {
+      "css": 1
+    },
+    "@patternfly/react-table/deprecated": {
+      "Table-deprecated": 2,
+      "TableBody-deprecated": 2,
+      "TableHeader-deprecated": 2
+    },
+    "@patternfly/react-icons/dist/js/icons/bell-icon": {
+      "BellIcon": 1
+    },
+    "@patternfly/react-core/deprecated": {
+      "Dropdown-deprecated": 2,
+      "DropdownItem-deprecated": 1,
+      "DropdownPosition-deprecated": 1,
+      "KebabToggle-deprecated": 1,
+      "Wizard-deprecated": 1,
+      "WizardContext-deprecated": 1,
+      "WizardFooter-deprecated": 1,
+      "WizardStep-deprecated": 1,
+      "Select-deprecated": 4,
+      "SelectVariant-deprecated": 4,
+      "SelectOption-deprecated": 4,
+      "SelectOptionObject-deprecated": 5,
+      "DropdownToggle-deprecated": 1,
+      "SelectGroup-deprecated": 1,
+      "OptionsMenu-deprecated": 1,
+      "OptionsMenuItem-deprecated": 1,
+      "OptionsMenuToggle-deprecated": 1
+    },
+    "@patternfly/react-table/dist/dynamic/components/Table": {
+      "Table": 6,
+      "TableVariant": 4,
+      "Tbody": 6,
+      "Td": 6,
+      "Th": 6,
+      "Thead": 6,
+      "Tr": 7,
+      "IExtraColumnData": 2,
+      "SortByDirection": 2,
+      "ThProps": 3,
+      "CustomActionsToggleProps": 1,
+      "IActions": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/DatePicker": {
+      "DatePicker": 1,
+      "DatePickerRef": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Split": {
+      "Split": 1,
+      "SplitItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/TextInput": {
+      "TextInputProps": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Popover": {
+      "Popover": 1,
+      "PopoverPosition": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Skeleton": {
+      "Skeleton": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Button": {
+      "Button": 1,
+      "ButtonVariant": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Label": {
+      "Label": 2,
+      "LabelGroup": 1,
+      "LabelProps": 1
+    },
+    "@patternfly/react-core/dist/esm/components/TreeView/TreeViewListItem": {
+      "TreeViewCheckProps": 1
+    },
+    "@patternfly/react-core/deprecated/": {
+      "Select-deprecated": 1,
+      "SelectOption-deprecated": 1,
+      "SelectOptionObject-deprecated": 1,
+      "SelectVariant-deprecated": 1
+    },
+    "@patternfly/react-tokens": {
+      "global_active_color_100": 1,
+      "global_disabled_color_100": 1,
+      "global_palette_black_600": 1,
+      "global_spacer_lg": 1
+    },
+    "@patternfly/react-core/dist/dynamic/deprecated/components/Dropdown": {
+      "DropdownDirection-deprecated": 1,
+      "DropdownPosition-deprecated": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Tabs": {
+      "Tabs": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/NotificationBadge": {
+      "NotificationBadge": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Toolbar": {
+      "ToolbarItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Tooltip": {
+      "Tooltip": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/bell-icon": {
+      "BellIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/NotificationDrawer": {
+      "NotificationDrawerBody": 1,
+      "NotificationDrawerHeader": 1,
+      "NotificationDrawerList": 2,
+      "NotificationDrawerListItem": 1,
+      "NotificationDrawerListItemBody": 1,
+      "NotificationDrawerListItemHeader": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Badge": {
+      "Badge": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Flex": {
+      "Flex": 1,
+      "FlexItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/MenuToggle": {
+      "MenuToggle": 2,
+      "MenuToggleElement": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Dropdown": {
+      "Dropdown": 2,
+      "DropdownGroup": 1,
+      "DropdownItem": 2,
+      "DropdownList": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Divider": {
+      "Divider": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/filter-icon": {
+      "FilterIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/ellipsis-v-icon": {
+      "EllipsisVIcon": 2
+    },
+    "@patternfly/react-core/dist/dynamic/components/Title": {
+      "Title": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/bell-slash-icon": {
+      "BellSlashIcon": 1
+    },
+    "@patternfly/react-core/dist/dynamic/layouts/Stack": {
+      "Stack": 1,
+      "StackItem": 1
+    },
+    "@patternfly/react-core/dist/dynamic/components/Checkbox": {
+      "Checkbox": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/cube-icon": {
+      "CubesIcon": 1
+    },
+    "@patternfly/react-data-view/dist/dynamic/DataViewEventsContext": {
+      "DataViewEventsProvider": 1
+    }
+  },
+  "classes": {
+    "pf-c-content": 1,
+    "pf-m-justify-content-center": 1,
+    "pf-c-form": 6,
+    "pf-c-select": 1,
+    "pf-c-select__toggle-typeahead": 1,
+    "pf-m-disabled": 1,
+    "pf-c-skeleton": 1,
+    "pf-u-align-items-center": 1,
+    "pf-u-mb-md": 1,
+    "pf-u-display-block": 1,
+    "pf-c-empty-state__icon": 1,
+    "pf-c-page__main-section": 1,
+    "pf-m-light": 1,
+    "pf-c-form__group-label-help": 1,
+    "pf-c-card__cover-image": 2,
+    "pf-c-wizard__main-body": 1,
+    "pf-c-expandable-section": 1,
+    "pf-c-icon__content": 1
+  },
+  "cssVars": {
+    "--pf-c-page__main-section--BackgroundColor": 1,
+    "--pf-v5-global--Color--light-100": 1,
+    "--pf-v5-global--spacer--lg": 2,
+    "--pf-v5-global--disabled-color--200": 2,
+    "--pf-v5-global--spacer--md": 2,
+    "--pf-v5-global--spacer--xs": 1,
+    "--pf-v5-global--Color--100": 1,
+    "--pf-v5-global--FontSize--lg": 1,
+    "--pf-c-icon__content--Color": 1,
+    "--pf-v5-global--primary-color--100": 1,
+    "--pf-c-table--border-width--base": 1,
+    "--pf-c-table--BorderColor": 1,
+    "--pf-global--spacer--md": 1,
+    "--pf-global--spacer--sm": 2,
+    "--pf-global--spacer--lg": 1
+  },
+  "repo": "https://github.com/RedHatInsights/notifications-frontend",
+  "name": "RedHatInsights-notifications-frontend",
+  "date": "2025-04-21T19:31:45.032Z",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": 1,
+    "@babel/plugin-proposal-object-rest-spread": 1,
+    "@babel/plugin-syntax-dynamic-import": 1,
+    "@babel/plugin-transform-runtime": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-react": 1,
+    "@data-driven-forms/pf4-component-mapper": 1,
+    "@data-driven-forms/react-form-renderer": 1,
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-data-view": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-table": 1,
+    "@redhat-cloud-services/eslint-config-redhat-cloud-services": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-testing": 1,
+    "@redhat-cloud-services/frontend-components-translations": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@redhat-cloud-services/insights-common-typescript": 1,
+    "@redhat-cloud-services/integrations-client": 1,
+    "@redhat-cloud-services/notifications-client": 1,
+    "@redhat-cloud-services/rbac-client": 1,
+    "@redhat-cloud-services/tsc-transform-imports": 1,
+    "@redhat-cloud-services/types": 1,
+    "@scalprum/react-core": 1,
+    "@swc/jest": 1,
+    "@testing-library/dom": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@types/jest": 1,
+    "@types/node": 1,
+    "@types/react": 1,
+    "@types/react-redux": 1,
+    "@types/react-router-dom": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "@unleash/proxy-client-react": 1,
+    "assert-never": 1,
+    "axios": 1,
+    "axios-mock-adapter": 1,
+    "babel-plugin-lodash": 1,
+    "babel-plugin-transform-imports": 1,
+    "camelcase": 1,
+    "classnames": 1,
+    "cross-fetch": 1,
+    "csstips": 1,
+    "csx": 1,
+    "cypress": 1,
+    "date-fns": 1,
+    "date-fns-tz": 1,
+    "eslint": 1,
+    "eslint-plugin-jest": 1,
+    "eslint-plugin-jest-dom": 1,
+    "eslint-plugin-react-hooks": 1,
+    "eslint-plugin-simple-import-sort": 1,
+    "eslint-plugin-testing-library": 1,
+    "fetch-mock": 1,
+    "formik": 1,
+    "identity-obj-proxy": 1,
+    "immer": 1,
+    "in-browser-download": 1,
+    "insights-common-typescript-dev": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "jest-mock": 1,
+    "jest-transform-stub": 1,
+    "jest_workaround": 1,
+    "karma": 1,
+    "karma-chrome-launcher": 1,
+    "karma-firefox-launcher": 1,
+    "karma-jasmine": 1,
+    "karma-webpack": 1,
+    "lodash": 1,
+    "npm-run-all": 1,
+    "openapi2typescript": 1,
+    "openapi2typescript-cli": 1,
+    "p-limit": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "^5.0.0"
+      ],
+      "@patternfly/react-core": [
+        "^5.0.2"
+      ],
+      "@patternfly/react-data-view": [
+        "^5.7.1"
+      ],
+      "@patternfly/react-icons": [
+        "^5.0.0"
+      ],
+      "@patternfly/react-styles": [
+        "^5.0.0"
+      ],
+      "@patternfly/react-table": [
+        "^5.0.0"
+      ]
+    },
+    "postcss": 1,
+    "prop-types": 1,
+    "react": 1,
+    "react-content-loader": 1,
+    "react-dom": 1,
+    "react-fetching-library": 1,
+    "react-intl": 1,
+    "react-markdown": 1,
+    "react-redux": 1,
+    "react-router-dom": 1,
+    "react-string-format": 1,
+    "react-test-renderer": 1,
+    "react-use": 1,
+    "redux-logger": 1,
+    "redux-promise-middleware": 1,
+    "remark-gfm": 1,
+    "stylelint": 1,
+    "stylelint-config-recommended-scss": 1,
+    "stylelint-scss": 1,
+    "timezones.json": 1,
+    "ts-essentials": 1,
+    "ts-import-plugin": 1,
+    "ts-jest": 1,
+    "ts-loader": 1,
+    "ts-node": 1,
+    "ts-patch": 1,
+    "typesafe-actions": 1,
+    "typescript": 1,
+    "typestyle": 1,
+    "webpack-bundle-analyzer": 1,
+    "whatwg-fetch": 1,
+    "yup": 1,
+    "zod": 1
+  }
+}
