@@ -1,4 +1,7 @@
 import json
+import sys
+from pathlib import Path
+
 import pandas as pd
 import os
 from datetime import datetime, UTC
@@ -28,6 +31,8 @@ in_dir = "stats-static/" + today_str
 # Helper method to clean up cell values by
 #  turning 'undefined' and 'null' into empty cell
 def clean_undefined(x: str) -> str:
+    if not isinstance(x, str): # despite the method signature, we may get something that is not str
+        return str(x)
     if "undefined" in x:
         return ''  # Return empty string if "undefined" is found
     if "null" in x:
@@ -166,6 +171,12 @@ def write_components_details_tab():
         writer.sheets[COMPONENT_DETAILS_TAB].set_column(col_idx, col_idx, column_len + 1) # +1 for padding
 
 
+def check_input_available():
+    fi = Path(in_dir + "/_all_product_uses.json")
+    if not fi.is_file():
+        print('!\n!\n! Input file _all_product_uses.json does not exist\n!\n!\n')
+        sys.exit(1)
+
 
 
 if __name__ == "__main__":
@@ -173,6 +184,8 @@ if __name__ == "__main__":
 
     today_report_dir = 'reports/%s' % today_str
     os.makedirs(today_report_dir, exist_ok=True)
+
+    check_input_available()
 
     report_name = "%s/%s.xlsx" % (today_report_dir, 'pf_report')
     writer = pd.ExcelWriter(report_name, engine='xlsxwriter')
