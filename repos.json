@@ -352,6 +352,139 @@
     {
       "git": "https://github.com/data-driven-forms/react-forms",
       "name": "RedHatInsights-data-driven-forms"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/insights-advisor-frontend",
+      "name": "RedHatInsights-insights-advisor-frontend"
+    },
+    {
+      "git": "https://github.com/ansible/ansible-ai-connect-service",
+      "name": "Ansible-ai-connect-service"
+    },
+    {
+      "git": "https://github.com/ansible/pinakes-ui",
+      "name": "Ansible-pinakes-ui"
+    },
+    {
+      "git": "https://github.com/ansible/aap-ui",
+      "name": "Ansible-aap-ui"
+    },
+    {
+      "git": "https://github.com/ansible/react-json-chart-builder",
+      "name": "Ansible-react-json-chart-builder"
+    },
+    {
+      "git": "https://github.com/ansible/azure-aap-deployment-driver",
+      "name": "Ansible-azure-aap-deployment-driver"
+    },
+    {
+      "git": "https://github.com/openshift/distributed-tracing-console-plugin",
+      "name": "Openshift-distributed-tracing-console-plugin"
+    },
+    {
+      "git": "https://github.com/redhat-developer/gitops-console-plugin",
+      "name": "Redhat-developer-gitops-console-plugin"
+    },
+    {
+      "git": "https://github.com/hawtio/hawtio-online",
+      "name": "Hawtio-online"
+    },
+    {
+      "git": "https://github.com/hawtio/hawtio-next",
+      "name": "Hawtio-next"
+    },
+    {
+      "git": "https://github.com/hawtio/hawtio-online-console-plugin",
+      "name": "Hawtio-online-console-plugin"
+    },
+    {
+      "git": "https://github.com/kiali/openshift-servicemesh-plugin",
+      "name": "Kiali-openshift-servicemesh-plugin"
+    },
+    {
+      "git": "https://github.com/Kuadrant/kuadrant-console-plugin/",
+      "name": "Kuadrant-console-plugin"
+    },
+    {
+      "git": "https://github.com/openshift/logging-view-plugin",
+      "name": "Openshift-logging-view-plugin"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/malware-detection-frontend",
+      "name": "RedHatInsights-malware-detection-frontend"
+    },
+    {
+      "git": "https://github.com/red-hat-storage/odf-console",
+      "name": "RedHatStorage-odf-console"
+    },
+    {
+      "git": "https://github.com/netobserv/network-observability-console-plugin",
+      "name": "network-observability-console-plugin"
+    },
+    {
+      "git": "https://github.com/openshift/networking-console-plugin",
+      "name": "Openshift-networking-console-plugin"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/ocp-advisor-frontend",
+      "name": "RedHatInsights-ocp-advisor-frontend"
+    },
+    {
+      "git": "https://github.com/openshift/lightspeed-console",
+      "name": "Openshift-lightspeed-console"
+    },
+    {
+      "git": "https://github.com/openshift/dynamic-plugin-sdk",
+      "name": "Openshift-dynamic-plugin-sdk"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/patchman-ui",
+      "name": "RedHatInsights-patchman-ui"
+    },
+    {
+      "git": "https://github.com/openshift-pipelines/console-plugin",
+      "name": "Openshift-pipelines-console-plugin"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/policies-ui-frontend",
+      "name": "RedHatInsights-policies-ui-frontend"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/registration-assistant",
+      "name": "RedHatInsights-registration-assistant"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/sed-frontend",
+      "name": "RedHatInsights-sed-frontend"
+    },
+    {
+      "git": "https://github.com/skupperproject/gilligan",
+      "name": "skupperproject-gilligan"
+    },
+    {
+      "git": "https://github.com/skupperproject/openshift-site-plugin",
+      "name": "skupperproject-openshift-site-plugin"
+    },
+    {
+      "git": "https://github.com/skupperproject/skupper-console",
+      "name": "skupperproject-skupper-console"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/tasks-frontend",
+      "name": "RedHatInsights-tasks-frontend"
+    },
+    {
+      "git": "https://github.com/openshift/troubleshooting-panel-console-plugin",
+      "name": "openshift-troubleshooting-panel-console-plugin"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/vuln4shift-frontend",
+      "name": "RedHatInsights-vuln4shift-frontend"
+    },
+    {
+      "git": "https://gitlab.cee.redhat.com/service/web-rca-ui",
+      "name": "Web-rca-ui",
+      "private": true
     }
   ]
 }
