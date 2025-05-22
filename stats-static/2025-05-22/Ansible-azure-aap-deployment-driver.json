@@ -1,0 +1,197 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 2,
+        "tsx": 18,
+        "css": 3
+      },
+      "js": 6,
+      "tsx": 34,
+      "ts": 2,
+      "css": 12
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/test/ui/cypress/e2e/deployment_driver.cy.js",
+          "/test/ui/cypress/support/auth.js"
+        ]
+      },
+      "tsx": {
+        "files": [
+          "/ui/src/app/AppLayout/AppLayout.tsx",
+          "/ui/src/app/AppLayout/PlainLayout.tsx",
+          "/ui/src/app/Deployment/DeploymentProgress/CancelDeployment.tsx",
+          "/ui/src/app/Deployment/DeploymentProgress/DeploymentProgress.tsx",
+          "/ui/src/app/Deployment/DeploymentProgress/ProgressBar.tsx",
+          "/ui/src/app/Deployment/DeploymentProgress/RestartStep.tsx",
+          "/ui/src/app/Deployment/DeploymentSteps/Step.tsx",
+          "/ui/src/app/Deployment/DeploymentSteps/Steps.tsx",
+          "/ui/src/app/Deployment/DeploymentSteps/StepStatus.tsx",
+          "/ui/src/app/Deployment/EngineConfigurationInfo.tsx",
+          "/ui/src/app/Deployment/EntitlementsInfo.tsx",
+          "/ui/src/app/Deployment/RHLoginModal.tsx",
+          "/ui/src/app/Documentation/Documentation.tsx",
+          "/ui/src/app/ErrorInfo/ErrorInfo.tsx",
+          "/ui/src/app/Login/FixedUsernameLoginForm.tsx",
+          "/ui/src/app/Login/Login.tsx",
+          "/ui/src/app/Login/LoginForm.tsx",
+          "/ui/src/app/NotAvailableYet/NotAvailableYet.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/ui/src/app/Deployment/DeploymentProgress/DeploymentProgress.css",
+          "/ui/src/app/Deployment/RHLoginModal.css",
+          "/ui/src/app/Login/LoginForm.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Brand": 2,
+      "Nav": 1,
+      "NavList": 1,
+      "NavItem": 1,
+      "NavExpandable": 1,
+      "Page": 2,
+      "PageHeader": 2,
+      "PageSidebar": 1,
+      "SkipToContent": 1,
+      "Modal": 3,
+      "ModalVariant": 3,
+      "Button": 7,
+      "Checkbox": 2,
+      "PageSection": 4,
+      "Bullseye": 2,
+      "Stack": 2,
+      "StackItem": 4,
+      "Text": 4,
+      "TextVariants": 3,
+      "Title": 5,
+      "HelperText": 1,
+      "HelperTextItem": 1,
+      "Level": 1,
+      "LevelItem": 1,
+      "Progress": 1,
+      "ListItem": 2,
+      "Flex": 3,
+      "PageSectionVariants": 1,
+      "TextContent": 1,
+      "List": 2,
+      "FlexItem": 2,
+      "Icon": 3,
+      "Tooltip": 2,
+      "ExpandableSection": 1,
+      "Alert": 1,
+      "AlertVariant": 1,
+      "TitleSizes": 1,
+      "EmptyState": 2,
+      "EmptyStateVariant": 1,
+      "EmptyStateIcon": 2,
+      "EmptyStateBody": 2,
+      "Popover": 1,
+      "Form": 1,
+      "FormGroup": 1,
+      "ActionGroup": 1,
+      "FormHelperText": 1,
+      "TextInput": 1,
+      "ValidatedOptions": 1,
+      "InputGroup": 1,
+      "LoginPage": 1,
+      "ListVariant": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/minus-circle-icon": {
+      "MinusCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/check-circle-icon": {
+      "CheckCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-circle-icon": {
+      "ExclamationCircleIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/history-icon": {
+      "HistoryIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/external-link-square-alt-icon": {
+      "ExternalLinkSquareAltIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-triangle-icon": {
+      "ExclamationTriangleIcon": 1
+    },
+    "@patternfly/react-icons": {
+      "CubesIcon": 1,
+      "ExternalLinkSquareAltIcon": 1,
+      "ExclamationTriangleIcon": 1
+    },
+    "@patternfly/react-table": {
+      "TableComposable": 1,
+      "Tr": 1,
+      "Th": 1,
+      "Td": 1,
+      "Tbody": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/eye-slash-icon": {
+      "EyeSlashIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/eye-icon": {
+      "EyeIcon": 1
+    }
+  },
+  "classes": {
+    "pf-c-brand": 1,
+    "pf-c-alert__title": 1,
+    "pf-c-button": 5,
+    "pf-c-title": 3,
+    "pf-c-modal-box__title-text": 1,
+    "pf-c-modal-box__footer": 2,
+    "pf-m-link": 1,
+    "pf-m-primary": 1,
+    "pf-m-progress": 1,
+    "pf-c-form__actions": 1,
+    "pf-c-modal-box__header": 1,
+    "pf-m-full-height": 2,
+    "pf-u-box-shadow-md": 3,
+    "pf-c-helper-text": 1,
+    "pf-c-icon": 1,
+    "pf-c-form__label-required": 1,
+    "pf-c-form__helper-text": 1
+  },
+  "cssVars": {
+    "--pf-global--FontSize--md": 1,
+    "--pf-c-modal-box__title-icon--MarginRight": 1
+  },
+  "repo": "https://github.com/ansible/azure-aap-deployment-driver",
+  "name": "Ansible-azure-aap-deployment-driver",
+  "date": "2025-05-22T14:21:52.855Z",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-table": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@types/jest": 1,
+    "@types/node": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "cypress": 1,
+    "http-proxy-middleware": 1,
+    "npm-watch": 1,
+    "patternflyVersions": {
+      "@patternfly/react-core": [
+        "^4.250.1"
+      ],
+      "@patternfly/react-table": [
+        "^4.112.39"
+      ]
+    },
+    "react": 1,
+    "react-dom": 1,
+    "react-router-dom": 1,
+    "react-scripts": 1,
+    "typescript": 1
+  }
+}

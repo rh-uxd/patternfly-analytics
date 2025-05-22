@@ -1,0 +1,227 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "ts": 2,
+        "tsx": 19,
+        "css": 1
+      },
+      "js": 8,
+      "ts": 28,
+      "tsx": 21,
+      "css": 1
+    },
+    "withPatternfly": {
+      "ts": {
+        "files": [
+          "/tests/cypress/support/commands.ts",
+          "/tests/tests/dt-plugin-tests.cy.ts"
+        ]
+      },
+      "tsx": {
+        "files": [
+          "/web/src/components/ControlledSelects.tsx",
+          "/web/src/components/DebouncedTextInput.tsx",
+          "/web/src/components/DurationDropdown.tsx",
+          "/web/src/components/ErrorAlert.tsx",
+          "/web/src/components/LoadingState.tsx",
+          "/web/src/components/NoTempoInstanceSelectedState.tsx",
+          "/web/src/components/PersesWrapper.tsx",
+          "/web/src/components/TempoInstanceDropdown.tsx",
+          "/web/src/components/TypeaheadCheckboxSelect.tsx",
+          "/web/src/components/TypeaheadSelect.tsx",
+          "/web/src/pages/TraceDetailPage.tsx",
+          "/web/src/pages/TracesPage/LimitSelect.tsx",
+          "/web/src/pages/TracesPage/QueryBrowser.tsx",
+          "/web/src/pages/TracesPage/ScatterPlot.tsx",
+          "/web/src/pages/TracesPage/Toolbar/AttributeFilters.tsx",
+          "/web/src/pages/TracesPage/Toolbar/FilterToolbar.tsx",
+          "/web/src/pages/TracesPage/Toolbar/TraceQLFilter.tsx",
+          "/web/src/pages/TracesPage/TracesPage.tsx",
+          "/web/src/pages/TracesPage/TraceTable.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/web/src/pages/TracesPage/TraceTable.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-templates": {
+      "SimpleSelect": 1,
+      "SimpleSelectOption": 1,
+      "SimpleSelectProps": 1,
+      "TypeaheadSelectOption": 3
+    },
+    "@patternfly/react-core": {
+      "FormHelperText": 1,
+      "HelperText": 1,
+      "HelperTextItem": 1,
+      "TextInput": 1,
+      "TextInputProps": 1,
+      "Form": 6,
+      "FormGroup": 6,
+      "Alert": 1,
+      "Bullseye": 2,
+      "Spinner": 2,
+      "EmptyState": 4,
+      "EmptyStateBody": 4,
+      "Popover": 2,
+      "ToolbarGroup": 4,
+      "ToolbarItem": 4,
+      "Select": 2,
+      "SelectOption": 2,
+      "SelectList": 2,
+      "SelectOptionProps": 2,
+      "MenuToggle": 3,
+      "MenuToggleElement": 2,
+      "TextInputGroup": 2,
+      "TextInputGroupMain": 2,
+      "TextInputGroupUtilities": 2,
+      "Button": 7,
+      "SelectProps": 1,
+      "MenuToggleProps": 1,
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1,
+      "Divider": 2,
+      "PageSection": 3,
+      "Title": 3,
+      "Split": 1,
+      "SplitItem": 1,
+      "Stack": 1,
+      "Flex": 1,
+      "FlexItem": 1,
+      "ToolbarFilter": 1,
+      "Toolbar": 1,
+      "ToolbarContent": 1,
+      "ToolbarToggleGroup": 1,
+      "Dropdown": 1,
+      "DropdownItem": 1,
+      "DropdownList": 1,
+      "EmptyStateActions": 2,
+      "EmptyStateFooter": 2
+    },
+    "@patternfly/react-icons": {
+      "ExclamationCircleIcon": 1,
+      "CubesIcon": 1,
+      "HelpIcon": 2,
+      "TimesIcon": 2,
+      "ExpandIcon": 1,
+      "CompressIcon": 1,
+      "FilterIcon": 2,
+      "PlusCircleIcon": 1,
+      "WrenchIcon": 1,
+      "ExternalLinkAltIcon": 1,
+      "SearchIcon": 1
+    },
+    "@patternfly/react-charts": {
+      "ChartThemeColor": 1,
+      "getThemeColors": 1
+    }
+  },
+  "classes": {
+    "pf-m-collapsed": 1,
+    "pf-m-toggle-group": 2,
+    "pf-m-action-group": 1
+  },
+  "cssVars": {
+    "--pf-t--global--font--size--xs": 1
+  },
+  "repo": "https://github.com/openshift/distributed-tracing-console-plugin",
+  "name": "Openshift-distributed-tracing-console-plugin",
+  "date": "2025-05-22T14:21:52.855Z",
+  "dependencies": {
+    "@cypress/grep": 1,
+    "@cypress/webpack-preprocessor": 2,
+    "@emotion/react": 1,
+    "@emotion/styled": 1,
+    "@grafana/lezer-traceql": 1,
+    "@hookform/resolvers": 1,
+    "@openshift-console/dynamic-plugin-sdk": 2,
+    "@openshift-console/dynamic-plugin-sdk-webpack": 2,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-code-editor": 1,
+    "@patternfly/react-core": 2,
+    "@patternfly/react-icons": 2,
+    "@patternfly/react-templates": 1,
+    "@perses-dev/core": 1,
+    "@perses-dev/dashboards": 1,
+    "@perses-dev/plugin-system": 1,
+    "@perses-dev/scatter-chart-plugin": 1,
+    "@perses-dev/tempo-plugin": 1,
+    "@perses-dev/trace-table-plugin": 1,
+    "@perses-dev/tracing-gantt-chart-plugin": 1,
+    "@tanstack/react-query": 1,
+    "@types/jest": 1,
+    "@types/node": 2,
+    "@types/react": 2,
+    "@types/react-helmet": 1,
+    "@types/react-router-dom": 1,
+    "@typescript-eslint/eslint-plugin": 2,
+    "@typescript-eslint/parser": 2,
+    "copy-webpack-plugin": 2,
+    "css-loader": 2,
+    "cypress": 2,
+    "cypress-multi-reporters": 2,
+    "dotenv": 1,
+    "eslint": 2,
+    "eslint-config-prettier": 2,
+    "eslint-plugin-cypress": 1,
+    "eslint-plugin-prettier": 2,
+    "eslint-plugin-react": 2,
+    "eslint-plugin-react-hooks": 2,
+    "i18next": 1,
+    "i18next-http-backend": 1,
+    "i18next-parser": 2,
+    "js-yaml": 1,
+    "junit-report-merger": 1,
+    "lodash": 2,
+    "mocha-junit-reporter": 2,
+    "mochawesome": 2,
+    "mochawesome-merge": 2,
+    "mochawesome-report-generator": 1,
+    "patternflyVersions": {
+      "@patternfly/react-code-editor": [
+        "^6.2.2"
+      ],
+      "@patternfly/react-core": [
+        "^6.2.2",
+        "^6.2.0"
+      ],
+      "@patternfly/react-icons": [
+        "^6.2.2",
+        "^5.4.2"
+      ],
+      "@patternfly/react-charts": [
+        "6.92.0"
+      ],
+      "@patternfly/react-templates": [
+        "^6.2.2"
+      ]
+    },
+    "pluralize": 2,
+    "prettier": 2,
+    "prettier-stylelint": 1,
+    "react": 2,
+    "react-dom": 2,
+    "react-helmet": 1,
+    "react-i18next": 2,
+    "react-markdown": 1,
+    "react-modal": 1,
+    "react-redux": 1,
+    "react-router-dom-v5-compat": 2,
+    "style-loader": 2,
+    "stylelint": 2,
+    "stylelint-config-standard": 2,
+    "ts-jest": 1,
+    "ts-loader": 2,
+    "ts-node": 2,
+    "typescript": 2,
+    "use-query-params": 1,
+    "webpack": 2,
+    "webpack-cli": 2,
+    "webpack-dev-server": 2
+  }
+}

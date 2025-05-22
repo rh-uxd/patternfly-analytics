@@ -1,0 +1,92 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 25
+      },
+      "js": 182,
+      "css": 2,
+      "scss": 11
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/webpack/ForemanTasks/Components/common/ClickConfirmation/index.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/Errors.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/Locks.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/RunningSteps.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/Task.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/TaskButtons.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/TaskInfo.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/Components/TaskSkeleton.js",
+          "/webpack/ForemanTasks/Components/TaskDetails/TaskDetails.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/Components/ScheduledTasksCard/ScheduledTasksCard.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/Components/StoppedTasksCard/OtherInfo.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/Components/StoppedTasksCard/StoppedTasksCard.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/Components/StoppedTasksCard/StoppedTasksCardTable.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/Components/TasksDonutCard/TasksDonutCard.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksCardsGrid/TasksCardsGrid.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksLabelsRow/TasksLabelsRow.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksTimeRow/Components/TimeDropDown/TimeDropDown.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/Components/TasksTimeRow/TasksTimeRow.js",
+          "/webpack/ForemanTasks/Components/TasksDashboard/TasksDashboard.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/ActionSelectButton.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/ConfirmModal/ConfirmModal.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/SelectAllAlert.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/TableSelectionCell.js",
+          "/webpack/ForemanTasks/Components/TasksTable/Components/TableSelectionHeaderCell.js",
+          "/webpack/ForemanTasks/Components/TasksTable/TasksTablePage.js"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "patternfly-react": {
+      "Button": 8,
+      "Alert": 4,
+      "Card": 4,
+      "Row": 6,
+      "Col": 4,
+      "Grid": 4,
+      "ProgressBar": 1,
+      "Tab": 1,
+      "Tabs": 1,
+      "Icon": 2,
+      "CardGrid": 1,
+      "Label": 1,
+      "DropdownButton": 2,
+      "MenuItem": 2,
+      "Table": 2,
+      "Spinner": 1
+    },
+    "@patternfly/react-core": {
+      "Button": 1,
+      "Tooltip": 1,
+      "TooltipPosition": 1
+    },
+    "@patternfly/react-icons": {
+      "InfoCircleIcon": 1
+    }
+  },
+  "classes": {},
+  "cssVars": {},
+  "repo": "https://github.com/theforeman/foreman-tasks",
+  "name": "Foreman-Tasks",
+  "date": "2025-05-22T14:21:52.855Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@theforeman/builder": 1,
+    "@theforeman/eslint-plugin-foreman": 1,
+    "@theforeman/test": 1,
+    "@theforeman/vendor": 1,
+    "@theforeman/vendor-dev": 1,
+    "babel-eslint": 1,
+    "c3": 1,
+    "eslint": 1,
+    "jed": 1,
+    "prettier": 1,
+    "stylelint": 1,
+    "stylelint-config-standard": 1,
+    "surge": 1
+  }
+}

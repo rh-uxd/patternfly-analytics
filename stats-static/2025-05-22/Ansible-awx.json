@@ -1,0 +1,17 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 4,
+      "css": 4
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "cssVars": {},
+  "repo": "https://github.com/ansible/awx",
+  "name": "Ansible-awx",
+  "date": "2025-05-22T14:21:52.855Z",
+  "dependencies": {}
+}

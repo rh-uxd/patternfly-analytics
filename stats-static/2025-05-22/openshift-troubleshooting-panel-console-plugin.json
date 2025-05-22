@@ -1,0 +1,169 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 6,
+        "css": 2
+      },
+      "js": 7,
+      "ts": 50,
+      "tsx": 8,
+      "css": 3
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/web/src/components/DateTimeRangePicker.tsx",
+          "/web/src/components/Korrel8rPanel.tsx",
+          "/web/src/components/Popover.tsx",
+          "/web/src/components/topology/Korrel8rTopology.tsx",
+          "/web/src/components/topology/LoadingTopology.tsx",
+          "/web/src/hooks/useTroubleshootingPanel.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/web/src/components/korrel8rpanel.css",
+          "/web/src/components/popover.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Flex": 3,
+      "FlexItem": 3,
+      "InputGroup": 1,
+      "InputGroupItem": 1,
+      "DatePicker": 1,
+      "isValidDate": 1,
+      "TimePicker": 1,
+      "yyyyMMddFormat": 1,
+      "Button": 2,
+      "Divider": 1,
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateHeader": 1,
+      "EmptyStateIcon": 1,
+      "EmptyStateVariant": 1,
+      "ExpandableSection": 1,
+      "ExpandableSectionToggle": 1,
+      "NumberInput": 1,
+      "Radio": 1,
+      "TextArea": 1,
+      "TextInput": 1,
+      "Tooltip": 1,
+      "Title": 1
+    },
+    "@patternfly/react-icons": {
+      "CubesIcon": 1,
+      "ExclamationCircleIcon": 1,
+      "TimesCircleIcon": 1,
+      "ClusterIcon": 1,
+      "InfrastructureIcon": 1
+    },
+    "@patternfly/react-topology": {
+      "action": 2,
+      "BreadthFirstLayout": 2,
+      "ComponentFactory": 2,
+      "createTopologyControlButtons": 2,
+      "defaultControlButtonsOptions": 2,
+      "DefaultEdge": 2,
+      "DefaultGroup": 2,
+      "DefaultNode": 2,
+      "EdgeStyle": 1,
+      "Graph": 2,
+      "GraphComponent": 2,
+      "Model": 2,
+      "ModelKind": 2,
+      "Node": 1,
+      "NodeShape": 1,
+      "SELECTION_EVENT": 1,
+      "TopologyControlBar": 2,
+      "TopologyView": 2,
+      "Visualization": 2,
+      "VisualizationProvider": 2,
+      "VisualizationSurface": 2,
+      "withPanZoom": 1,
+      "withSelection": 1
+    }
+  },
+  "classes": {},
+  "cssVars": {
+    "--pf-v5-global--spacer--md": 4,
+    "--pf-v5-global--BorderColor--100": 4,
+    "--pf-v5-global--BorderWidth--sm": 3,
+    "--pf-v5-global--spacer--sm": 5,
+    "--pf-v5-global--BackgroundColor--100": 1
+  },
+  "repo": "https://github.com/openshift/troubleshooting-panel-console-plugin",
+  "name": "openshift-troubleshooting-panel-console-plugin",
+  "date": "2025-05-22T14:21:52.855Z",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": 1,
+    "@openshift-console/dynamic-plugin-sdk": 1,
+    "@openshift-console/dynamic-plugin-sdk-webpack": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@patternfly/react-topology": 1,
+    "@types/jest": 1,
+    "@types/node": 1,
+    "@types/react": 1,
+    "@types/react-helmet": 1,
+    "@types/react-redux": 1,
+    "@types/react-router-dom": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "copy-webpack-plugin": 1,
+    "css-loader": 1,
+    "cypress": 1,
+    "cypress-multi-reporters": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-cypress": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "i18next-parser": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "mocha-junit-reporter": 1,
+    "mochawesome": 1,
+    "mochawesome-merge": 1,
+    "openapi-typescript-codegen": 1,
+    "patternflyVersions": {
+      "@patternfly/react-core": [
+        "^5.1.1"
+      ],
+      "@patternfly/react-icons": [
+        "^5.1.1"
+      ],
+      "@patternfly/react-styles": [
+        "^5.1.1"
+      ],
+      "@patternfly/react-topology": [
+        "^5.2.0"
+      ]
+    },
+    "pluralize": 1,
+    "prettier": 1,
+    "prettier-stylelint": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-helmet": 1,
+    "react-i18next": 1,
+    "react-redux": 1,
+    "react-router-dom-v5-compat": 1,
+    "style-loader": 1,
+    "stylelint": 1,
+    "stylelint-config-standard": 1,
+    "ts-jest": 1,
+    "ts-loader": 1,
+    "ts-node": 1,
+    "typescript": 1,
+    "webpack": 1,
+    "webpack-cli": 1,
+    "webpack-dev-server": 1
+  }
+}
