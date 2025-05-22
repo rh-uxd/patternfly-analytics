@@ -1,0 +1,387 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 37,
+        "ts": 18,
+        "scss": 4
+      },
+      "js": 5,
+      "ts": 163,
+      "tsx": 56,
+      "scss": 7
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/App.tsx",
+          "/src/components/permissions/PermissionsWrapper.tsx",
+          "/src/components/user-access/UserAccess.tsx",
+          "/src/Routes.tsx",
+          "/src/routes/components/charts/breakdown/BreakdownChart.tsx",
+          "/src/routes/components/charts/trend/TrendChart.tsx",
+          "/src/routes/components/data-toolbar/DataToolbar.tsx",
+          "/src/routes/components/export/ExportModal.tsx",
+          "/src/routes/components/export/ExportSubmit.tsx",
+          "/src/routes/components/filterTypeahead/FilterInput.tsx",
+          "/src/routes/components/page-heading/PageHeading.tsx",
+          "/src/routes/components/perspective/Perspective.tsx",
+          "/src/routes/components/selectWrapper/selectWrapper.tsx",
+          "/src/routes/components/state/empty-filter/EmptyFilterState.tsx",
+          "/src/routes/components/state/empty-value/EmptyValueState.tsx",
+          "/src/routes/components/state/error/ErrorState.tsx",
+          "/src/routes/components/state/loading/LoadingState.tsx",
+          "/src/routes/details/Details.tsx",
+          "/src/routes/details/DetailsHeaderToolbar.tsx",
+          "/src/routes/details/DetailsTable.tsx",
+          "/src/routes/details/DetailsTableExpand.tsx",
+          "/src/routes/overview/components/actual-spend/ActualSpend.tsx",
+          "/src/routes/overview/components/dashboard/Dashboard.tsx",
+          "/src/routes/overview/components/excess-spend/ExcessSpend.tsx",
+          "/src/routes/overview/components/report-summary/ReportSummary.tsx",
+          "/src/routes/overview/Overview.tsx",
+          "/src/routes/state/loading/Loading.tsx",
+          "/src/routes/state/not-authorized/NotAuthorized.tsx",
+          "/src/routes/state/not-authorized/NotAuthorizedState.tsx",
+          "/src/routes/state/not-available/NotAvailable.tsx",
+          "/src/routes/state/not-deal/NotDeal.tsx",
+          "/src/routes/state/not-deal/NotDealState.tsx",
+          "/src/routes/state/not-found/NotFound.tsx",
+          "/src/routes/state/not-viewer/NotViewer.tsx",
+          "/src/routes/state/not-viewer/NotViewerState.tsx",
+          "/src/routes/state/not-visible/NotVisible.tsx",
+          "/src/routes/state/not-visible/NotVisibleState.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/routes/components/charts/common/chart-utils.ts",
+          "/src/routes/components/charts/theme/theme-utils.ts",
+          "/src/routes/components/charts/trend/TrendChart.styles.ts",
+          "/src/routes/components/export/ExportModal.styles.ts",
+          "/src/routes/components/page-heading/PageHeading.styles.ts",
+          "/src/routes/components/perspective/Perspective.styles.ts",
+          "/src/routes/components/selectWrapper/select.styles.ts",
+          "/src/routes/details/Details.styles.ts",
+          "/src/routes/details/DetailsTable.styles.ts",
+          "/src/routes/overview/components/actual-spend-breakdown/ActualSpendBreakdownChart.styles.ts",
+          "/src/routes/overview/components/actual-spend/ActualSpend.styles.ts",
+          "/src/routes/overview/components/committed-spend-trend/CommittedSpendTrendChart.styles.ts",
+          "/src/routes/overview/components/committed-spend/CommittedSpend.styles.ts",
+          "/src/routes/overview/components/excess-spend/ExcessSpend.styles.ts",
+          "/src/routes/overview/components/report-summary/ReportSummary.styles.ts",
+          "/src/routes/state/not-deal/NotDeal.styles.ts",
+          "/src/routes/state/not-viewer/NotViewer.styles.ts",
+          "/src/routes/state/not-visible/NotVisible.styles.ts"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/routes/components/data-toolbar/DataToolbar.scss",
+          "/src/routes/components/state/empty-value/EmptyValueState.scss",
+          "/src/routes/details/detailsHeaderToolbar.scss",
+          "/src/routes/details/DetailsTable.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Bullseye": 8,
+      "Spinner": 10,
+      "Title": 4,
+      "Button": 5,
+      "ButtonVariant": 4,
+      "InputGroup": 1,
+      "InputGroupItem": 1,
+      "TextInput": 1,
+      "Toolbar": 2,
+      "ToolbarContent": 2,
+      "ToolbarFilter": 1,
+      "ToolbarGroup": 1,
+      "ToolbarItem": 2,
+      "ToolbarToggleGroup": 1,
+      "Alert": 3,
+      "Form": 1,
+      "FormGroup": 1,
+      "Grid": 2,
+      "GridItem": 2,
+      "Modal": 1,
+      "ModalBody": 1,
+      "ModalFooter": 1,
+      "ModalHeader": 1,
+      "Radio": 1,
+      "Divider": 1,
+      "Menu": 1,
+      "MenuContent": 1,
+      "MenuItem": 1,
+      "MenuList": 1,
+      "Popper": 1,
+      "TextInputGroup": 1,
+      "TextInputGroupMain": 1,
+      "TextInputGroupUtilities": 1,
+      "TitleSizes": 2,
+      "Icon": 1,
+      "MenuToggle": 1,
+      "Select": 1,
+      "SelectList": 1,
+      "SelectOption": 1,
+      "EmptyState": 4,
+      "EmptyStateBody": 4,
+      "EmptyStateVariant": 2,
+      "Card": 9,
+      "CardBody": 9,
+      "PageSection": 9,
+      "Pagination": 1,
+      "PaginationVariant": 1,
+      "Popover": 1,
+      "CardFooter": 1,
+      "CardTitle": 1,
+      "Skeleton": 1
+    },
+    "@patternfly/react-charts/victory": {
+      "Chart": 2,
+      "ChartAxis": 2,
+      "ChartBar": 1,
+      "ChartGroup": 1,
+      "ChartLegend": 2,
+      "ChartLegendTooltip": 2,
+      "ChartThemeColor": 2,
+      "createContainer": 2,
+      "getInteractiveLegendEvents": 2,
+      "getInteractiveLegendItemStyles": 1,
+      "getCustomTheme": 1,
+      "ChartArea": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_black_200": {
+      "chart_color_black_200": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_blue_300": {
+      "chart_color_blue_300": 2
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_blue_400": {
+      "chart_color_blue_400": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_100": {
+      "chart_color_green_100": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_200": {
+      "chart_color_green_200": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_300": {
+      "chart_color_green_300": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_400": {
+      "chart_color_green_400": 1
+    },
+    "@patternfly/react-tokens/dist/js/chart_color_green_500": {
+      "chart_color_green_500": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/export-icon": {
+      "ExportIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/filter-icon": {
+      "FilterIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/search-icon": {
+      "SearchIcon": 3
+    },
+    "@patternfly/react-tokens/dist/js/t_global_spacer_md": {
+      "t_global_spacer_md": 5
+    },
+    "@patternfly/react-tokens/dist/js/t_global_spacer_sm": {
+      "t_global_spacer_sm": 4
+    },
+    "@patternfly/react-tokens/dist/js/t_global_spacer_xs": {
+      "t_global_spacer_xs": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/times-icon": {
+      "TimesIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/t_global_font_size_xs": {
+      "t_global_font_size_xs": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/minus-icon": {
+      "MinusIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/error-circle-o-icon": {
+      "ErrorCircleOIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/lock-icon": {
+      "LockIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/t_global_spacer_lg": {
+      "t_global_spacer_lg": 4
+    },
+    "@patternfly/react-tokens/dist/js/t_global_background_color_100": {
+      "t_global_background_color_100": 1
+    },
+    "@patternfly/react-tokens/dist/js/t_global_spacer_3xl": {
+      "t_global_spacer_3xl": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/calculator-icon": {
+      "CalculatorIcon": 1
+    },
+    "@patternfly/react-table": {
+      "InnerScrollContainer": 1,
+      "SortByDirection": 1,
+      "Table": 1,
+      "TableVariant": 1,
+      "Tbody": 1,
+      "Td": 2,
+      "Th": 2,
+      "Thead": 1,
+      "Tr": 2
+    },
+    "@patternfly/react-tokens/dist/js/t_global_font_size_3xl": {
+      "t_global_font_size_3xl": 2
+    },
+    "@patternfly/react-tokens/dist/js/t_global_spacer_2xl": {
+      "t_global_spacer_2xl": 4
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/arrow-down-icon": {
+      "ArrowDownIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/arrow-up-icon": {
+      "ArrowUpIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/info-circle-icon": {
+      "InfoCircleIcon": 1
+    },
+    "@patternfly/react-tokens/dist/js/t_global_text_color_200": {
+      "t_global_text_color_200": 1
+    },
+    "@patternfly/react-component-groups/dist/esm/UnauthorizedAccess": {
+      "UnauthorizedAccess": 4
+    },
+    "@patternfly/react-component-groups/dist/esm/UnavailableContent": {
+      "Unavailable": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/pause-circle-icon": {
+      "PauseCircleIcon": 3
+    },
+    "@patternfly/react-component-groups/dist/esm/MissingPage": {
+      "MissingPage": 1
+    }
+  },
+  "classes": {
+    "pf-m-redhat-font": 2,
+    "pf-m-expanded": 1
+  },
+  "cssVars": {
+    "--pf-v6-c-toolbar--ZIndex": 2,
+    "--pf-v5-global--FontSize--sm": 1,
+    "--pf-v6-c-table--cell--PaddingTop": 1,
+    "--pf-v6-c-table--m-compact--cell--PaddingTop": 1,
+    "--pf-v6-c-table--cell--PaddingBottom": 1,
+    "--pf-v6-c-table--m-compact--cell--PaddingBottom": 1,
+    "--pf-v6-c-table--cell--PaddingLeft": 1,
+    "--pf-v6-c-table__expandable-row--after--BorderLeftWidth": 1,
+    "--pf-v6-c-table--cell--Width": 1
+  },
+  "repo": "https://github.com/RedHatInsights/hybrid-committed-spend-ui",
+  "name": "RedHatInsights-Hybrid-Committed-Spend",
+  "date": "2025-05-22T14:21:52.855Z",
+  "dependencies": {
+    "@eslint/compat": 1,
+    "@eslint/eslintrc": 1,
+    "@eslint/js": 1,
+    "@formatjs/cli": 1,
+    "@formatjs/ecma402-abstract": 1,
+    "@formatjs/fast-memoize": 1,
+    "@formatjs/icu-messageformat-parser": 1,
+    "@formatjs/intl-localematcher": 1,
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-component-groups": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-table": 1,
+    "@patternfly/react-tokens": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-translations": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@redhat-cloud-services/tsc-transform-imports": 1,
+    "@reduxjs/toolkit": 1,
+    "@swc/core": 1,
+    "@swc/jest": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@types/jest": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "@types/react-redux": 1,
+    "@types/react-router-dom": 1,
+    "@types/redux-logger": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "@unleash/proxy-client-react": 1,
+    "axios": 1,
+    "copy-webpack-plugin": 1,
+    "eslint": 1,
+    "eslint-plugin-formatjs": 1,
+    "eslint-plugin-jest-dom": 1,
+    "eslint-plugin-jsdoc": 1,
+    "eslint-plugin-markdown": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "eslint-plugin-simple-import-sort": 1,
+    "eslint-plugin-sort-keys-fix": 1,
+    "eslint-plugin-testing-library": 1,
+    "git-revision-webpack-plugin": 1,
+    "globals": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "jest-mock-axios": 1,
+    "jest-transform-stub": 1,
+    "js-file-download": 1,
+    "npm-run-all": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "6.2.0"
+      ],
+      "@patternfly/react-charts": [
+        "8.2.0"
+      ],
+      "@patternfly/react-component-groups": [
+        "6.2.0"
+      ],
+      "@patternfly/react-core": [
+        "6.2.0"
+      ],
+      "@patternfly/react-icons": [
+        "6.2.0"
+      ],
+      "@patternfly/react-table": [
+        "6.2.0"
+      ],
+      "@patternfly/react-tokens": [
+        "6.2.0"
+      ]
+    },
+    "prettier": 1,
+    "qs": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-intl": 1,
+    "react-redux": 1,
+    "react-router-dom": 1,
+    "redux": 1,
+    "redux-logger": 1,
+    "redux-promise-middleware": 1,
+    "redux-thunk": 1,
+    "rimraf": 1,
+    "stylelint-config-recommended-scss": 1,
+    "swc_mut_cjs_exports": 1,
+    "ts-jest": 1,
+    "ts-patch": 1,
+    "typesafe-actions": 1,
+    "typescript": 1,
+    "victory": 1
+  }
+}

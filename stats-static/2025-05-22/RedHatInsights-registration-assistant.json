@@ -1,0 +1,297 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 18,
+        "scss": 4
+      },
+      "js": 59,
+      "scss": 4
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/Components/AnsibleTabs/AnsibleTabs.js",
+          "/src/Components/Loading/Loading.js",
+          "/src/Components/RegAssistCodeBlock/RegAssistCodeBlock.js",
+          "/src/Components/RegistrationProgress/CentosLinuxRegContent.js",
+          "/src/Components/RegistrationProgress/FirstStep/FirstStep.js",
+          "/src/Components/RegistrationProgress/FirstStep/ShowSelectedActivationKey.js",
+          "/src/Components/RegistrationProgress/FirstStep/SuccessPage.js",
+          "/src/Components/RegistrationProgress/RegAssistantFooter.js",
+          "/src/Components/RegistrationProgress/RegProgressStepper.js",
+          "/src/Components/RegistrationProgress/RHEL7RegContent.js",
+          "/src/Components/RegistrationProgress/RHEL8RegContent.js",
+          "/src/Components/RegistrationProgress/RHEL9RegContent.js",
+          "/src/Components/RegistrationProgress/SecondStep.js",
+          "/src/Components/RegistrationProgress/ViewInventoryStep.js",
+          "/src/constants.js",
+          "/src/Routes/Register/Helpers.js",
+          "/src/Routes/Register/NewRegister.js",
+          "/src/Routes/Register/Register.js"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss",
+          "/src/Components/AnsibleTabs/AnsibleTabs.scss",
+          "/src/Components/Group/Group.scss",
+          "/src/Routes/Register/Register.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/esm/components/Accordion/index": {
+      "Accordion": 1,
+      "AccordionContent": 1,
+      "AccordionItem": 1,
+      "AccordionToggle": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/": {
+      "ArrowDownIcon": 1,
+      "OutlinedFileIcon": 1,
+      "SearchIcon": 1,
+      "CloudIcon": 1,
+      "CogsIcon": 1,
+      "DownloadIcon": 1,
+      "ShieldAltIcon": 1,
+      "ColumnsIcon": 1,
+      "TasksIcon": 1
+    },
+    "@patternfly/react-core/dist/esm/components/ClipboardCopy/index": {
+      "ClipboardCopy": 2,
+      "ClipboardCopyVariant": 2
+    },
+    "@patternfly/react-core/dist/esm/components/Tabs/index": {
+      "Tab": 1,
+      "TabTitleText": 1,
+      "Tabs": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Text/index": {
+      "Text": 3,
+      "TextContent": 3,
+      "TextVariants": 3,
+      "TextList": 1,
+      "TextListItem": 1,
+      "TextListVariants": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Title/index": {
+      "Title": 2,
+      "TitleSizes": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Divider/index": {
+      "Divider": 2
+    },
+    "@patternfly/react-core/dist/esm/layouts/Gallery/index": {
+      "Gallery": 1
+    },
+    "@patternfly/react-core/dist/esm/layouts/Grid/index": {
+      "Grid": 1
+    },
+    "@patternfly/react-core": {
+      "Icon": 8,
+      "CodeBlock": 1,
+      "CodeBlockAction": 1,
+      "CodeBlockCode": 1,
+      "ClipboardCopyButton": 1,
+      "Text": 6,
+      "TextContent": 10,
+      "TextList": 6,
+      "TextListItem": 6,
+      "TextListVariants": 5,
+      "TextVariants": 5,
+      "Button": 2,
+      "MenuFooter": 1,
+      "MenuToggle": 1,
+      "Select": 1,
+      "SelectList": 1,
+      "SelectOption": 1,
+      "ExpandableSection": 1,
+      "TextListItemVariants": 1,
+      "Bullseye": 1,
+      "EmptyState": 2,
+      "EmptyStateBody": 1,
+      "EmptyStateIcon": 2,
+      "Spinner": 1,
+      "EmptyStateActions": 1,
+      "EmptyStateHeader": 2,
+      "EmptyStateFooter": 1,
+      "ProgressStep": 1,
+      "ProgressStepper": 1,
+      "Flex": 1,
+      "FlexItem": 1,
+      "Radio": 1,
+      "EmptyStateVariant": 1,
+      "PageSection": 1,
+      "PageSectionVariants": 1
+    },
+    "@patternfly/react-core/dist/esm/components": {
+      "EmptyState": 1,
+      "EmptyStateHeader": 1,
+      "EmptyStateIcon": 1,
+      "Spinner": 1
+    },
+    "@patternfly/react-icons": {
+      "ExternalLinkAltIcon": 5,
+      "PlusCircleIcon": 2,
+      "SyncAltIcon": 1,
+      "CheckCircleIcon": 1
+    },
+    "@patternfly/react-core/dist/esm/layouts/Flex/index": {
+      "Flex": 1,
+      "FlexItem": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Title/Title": {
+      "Title": 1,
+      "TitleSizes": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Button/Button": {
+      "Button": 1
+    },
+    "@patternfly/react-core/dist/esm/components/ExpandableSection/ExpandableSection": {
+      "ExpandableSection": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Form/FormHelperText": {
+      "FormHelperText": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Drawer/": {
+      "Drawer": 1,
+      "DrawerActions": 1,
+      "DrawerCloseButton": 1,
+      "DrawerContent": 1,
+      "DrawerContentBody": 1,
+      "DrawerHead": 1,
+      "DrawerPanelBody": 1,
+      "DrawerPanelContent": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Page/": {
+      "PageSection": 1,
+      "PageSectionVariants": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Button/index": {
+      "Button": 1
+    }
+  },
+  "classes": {
+    "pf-m-display-lg": 3,
+    "pf-l-gallery": 1,
+    "pf-m-inline": 1
+  },
+  "cssVars": {
+    "--pf-global--spacer--md": 9,
+    "--pf-global--palette--black-150": 1,
+    "--pf-global--FontWeight--semi-bold": 3,
+    "--pf-global--FontFamily--sans-serif": 2,
+    "--pf-global--FontSize--lg": 1,
+    "--pf-global--FontWeight--light": 1,
+    "--pf-global--FontWeight--normal": 2,
+    "--pf-global--FontWeight--bold": 1,
+    "--pf-global--spacer--sm": 4,
+    "--pf-global--FontSize--sm": 2,
+    "--pf-v5-c-content--MarginBottom": 1,
+    "--pf-v5-c-form--GridGap": 2,
+    "--pf-v5-c-form__helper-text--MarginTop": 1,
+    "--pf-v5-c-form__helper-text--Color": 1,
+    "--pf-global--secondary-color--100": 1,
+    "--pf-global--spacer--xl": 6,
+    "--pf-global--BackgroundColor--light-300": 1,
+    "--pf-v5-c-progress-stepper__step-title--FontWeight": 1,
+    "--pf-global--spacer--lg": 4,
+    "--pf-l-gallery--GridTemplateColumns": 1,
+    "--pf-global--Color--100": 1,
+    "--pf-global--spacer--2xl": 1,
+    "--pf-v5-c-form__label--FontSize": 1,
+    "--pf-global--FontSize--md": 1,
+    "--pf-v5-c-form__label-text--FontWeight": 1,
+    "--pf-v5-c-drawer__panel--FlexBasis": 2,
+    "--pf-global--palette--black-100": 1
+  },
+  "repo": "https://github.com/RedHatInsights/registration-assistant",
+  "name": "RedHatInsights-registration-assistant",
+  "date": "2025-05-22T14:21:52.855Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@babel/plugin-transform-runtime": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-flow": 1,
+    "@babel/preset-react": 1,
+    "@babel/runtime": 1,
+    "@commitlint/cli": 1,
+    "@commitlint/config-conventional": 1,
+    "@cypress/code-coverage": 1,
+    "@cypress/react18": 1,
+    "@data-driven-forms/pf4-component-mapper": 1,
+    "@data-driven-forms/react-form-renderer": 1,
+    "@formatjs/cli": 1,
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-table": 1,
+    "@redhat-cloud-services/eslint-config-redhat-cloud-services": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-translations": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@redhat-cloud-services/tsc-transform-imports": 1,
+    "@sentry/webpack-plugin": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@unleash/proxy-client-react": 1,
+    "axios": 1,
+    "babel-core": 1,
+    "babel-eslint": 1,
+    "babel-jest": 1,
+    "babel-loader": 1,
+    "babel-plugin-dual-import": 1,
+    "babel-plugin-istanbul": 1,
+    "babel-plugin-react-intl": 1,
+    "babel-plugin-transform-imports": 1,
+    "cypress": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-loader": 1,
+    "eslint-plugin-cypress": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "eslint-plugin-testing-library": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "moment": 1,
+    "npm-run-all": 1,
+    "nyc": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "^5.4.1"
+      ],
+      "@patternfly/react-core": [
+        "^5.4.1"
+      ],
+      "@patternfly/react-icons": [
+        "^5.4.0"
+      ],
+      "@patternfly/react-table": [
+        "^5.4.13"
+      ]
+    },
+    "prop-types": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-helmet": 1,
+    "react-intl": 1,
+    "react-redux": 1,
+    "react-router-dom": 1,
+    "redux-mock-store": 1,
+    "redux-promise-middleware": 1,
+    "stylelint": 1,
+    "stylelint-config-recommended-scss": 1,
+    "stylelint-scss": 1,
+    "ts-patch": 1,
+    "typescript": 1,
+    "webpack-bundle-analyzer": 1,
+    "webpack-cli": 1
+  }
+}
