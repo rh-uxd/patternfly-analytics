@@ -367,7 +367,8 @@
     },
     {
       "git": "https://github.com/ansible/aap-ui",
-      "name": "Ansible-aap-ui"
+      "name": "Ansible-aap-ui",
+      "private": true
     },
     {
       "git": "https://github.com/ansible/react-json-chart-builder",
