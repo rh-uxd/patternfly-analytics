@@ -1,0 +1,85 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 1
+      },
+      "js": 1,
+      "tsx": 2,
+      "scss": 1
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/app.tsx"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core/dist/esm/components/Alert/index.js": {
+      "Alert": 1
+    },
+    "@patternfly/react-core/dist/esm/components/Card/index.js": {
+      "Card": 1,
+      "CardBody": 1,
+      "CardTitle": 1
+    }
+  },
+  "classes": {},
+  "cssVars": {},
+  "repo": "https://github.com/cockpit-project/starter-kit",
+  "name": "Cockpit-Starter-Kit",
+  "date": "2025-07-07T18:03:42.155Z",
+  "dependencies": {
+    "@patternfly/patternfly": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "argparse": 1,
+    "esbuild": 1,
+    "esbuild-plugin-copy": 1,
+    "esbuild-plugin-replace": 1,
+    "esbuild-sass-plugin": 1,
+    "esbuild-wasm": 1,
+    "eslint": 1,
+    "eslint-config-standard": 1,
+    "eslint-config-standard-jsx": 1,
+    "eslint-config-standard-react": 1,
+    "eslint-plugin-import": 1,
+    "eslint-plugin-node": 1,
+    "eslint-plugin-promise": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "gettext-parser": 1,
+    "glob": 1,
+    "jed": 1,
+    "patternflyVersions": {
+      "@patternfly/patternfly": [
+        "6.1.0"
+      ],
+      "@patternfly/react-core": [
+        "6.1.0"
+      ],
+      "@patternfly/react-icons": [
+        "6.1.0"
+      ],
+      "@patternfly/react-styles": [
+        "6.2.2"
+      ]
+    },
+    "qunit": 1,
+    "react": 1,
+    "react-dom": 1,
+    "sass": 1,
+    "stylelint": 1,
+    "stylelint-config-recommended-scss": 1,
+    "stylelint-config-standard": 1,
+    "stylelint-config-standard-scss": 1,
+    "stylelint-formatter-pretty": 1,
+    "typescript": 1
+  }
+}

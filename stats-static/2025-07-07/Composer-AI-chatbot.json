@@ -1,0 +1,235 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 19,
+        "css": 1
+      },
+      "js": 10,
+      "ts": 11,
+      "tsx": 42,
+      "css": 1
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/app/AppLayout/AppLayout.tsx",
+          "/src/app/BaseChatbot/BaseChatbot.tsx",
+          "/src/app/Compare/CompareChild.tsx",
+          "/src/app/Compare/CompareLayout.tsx",
+          "/src/app/ErrorPage/ErrorLayout.tsx",
+          "/src/app/FlyoutError/FlyoutError.tsx",
+          "/src/app/FlyoutFooter/FlyoutFooter.tsx",
+          "/src/app/FlyoutForm/AssistantFlyoutForm.tsx",
+          "/src/app/FlyoutForm/ExpandingTextInputs.tsx",
+          "/src/app/FlyoutForm/KnowledgeSourceFlyoutForm.tsx",
+          "/src/app/FlyoutForm/LLMConnectionFlyoutForm.tsx",
+          "/src/app/FlyoutHeader/FlyoutHeader.tsx",
+          "/src/app/FlyoutList/FlyoutList.tsx",
+          "/src/app/FlyoutLoading/FlyoutLoading.tsx",
+          "/src/app/FlyoutStartScreen/FlyoutStartScreen.tsx",
+          "/src/app/HeaderDropdown/HeaderDropdown.tsx",
+          "/src/app/LoginPage/LoginPage.tsx",
+          "/src/app/SidebarWithFlyout/FlyoutMenu.tsx",
+          "/src/app/SidebarWithFlyout/SidebarWithFlyout.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/src/app/app.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Brand": 4,
+      "Button": 9,
+      "Masthead": 1,
+      "MastheadBrand": 1,
+      "MastheadLogo": 1,
+      "MastheadMain": 1,
+      "MastheadToggle": 1,
+      "Page": 1,
+      "SkipToContent": 1,
+      "ToggleGroup": 2,
+      "ToggleGroupItem": 2,
+      "ActionGroup": 1,
+      "Dropdown": 4,
+      "DropdownItem": 4,
+      "DropdownList": 4,
+      "Form": 3,
+      "FormGroup": 3,
+      "FormHelperText": 3,
+      "HelperText": 3,
+      "HelperTextItem": 3,
+      "MenuToggle": 4,
+      "MenuToggleElement": 4,
+      "TextArea": 1,
+      "TextInput": 4,
+      "Label": 1,
+      "Menu": 1,
+      "MenuContent": 1,
+      "MenuItem": 1,
+      "MenuList": 1,
+      "SearchInput": 2,
+      "Spinner": 1,
+      "MenuSearch": 1,
+      "MenuSearchInput": 1,
+      "FocusTrap": 1,
+      "Nav": 1,
+      "NavItem": 1,
+      "NavList": 1,
+      "PageSidebar": 1
+    },
+    "@patternfly/react-icons": {
+      "BarsIcon": 1,
+      "ExclamationCircleIcon": 1,
+      "CheckIcon": 1,
+      "CloseIcon": 1,
+      "PencilAltIcon": 1,
+      "TimesIcon": 1
+    },
+    "@patternfly/chatbot": {
+      "Chatbot": 2,
+      "ChatbotAlert": 2,
+      "ChatbotContent": 2,
+      "ChatbotDisplayMode": 2,
+      "ChatbotFooter": 2,
+      "ChatbotFootnote": 2,
+      "ChatbotHeader": 2,
+      "ChatbotHeaderActions": 1,
+      "ChatbotHeaderMain": 2,
+      "ChatbotWelcomePrompt": 2,
+      "FileDetailsLabel": 2,
+      "Message": 2,
+      "MessageBar": 2,
+      "MessageBox": 2,
+      "MessageProps": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/sun-icon": {
+      "Sun": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/moon-icon": {
+      "Moon": 1
+    },
+    "@patternfly/react-styles": {
+      "css": 2
+    }
+  },
+  "classes": {
+    "pf-c-page__sidebar": 1,
+    "pf-c-nav": 1,
+    "pf-m-fill": 1
+  },
+  "cssVars": {
+    "--pf-t--global--background--color--primary--default": 1,
+    "--pf-v6-c-menu--PaddingBlockStart": 2,
+    "--pf-t--global--spacer--sm": 12,
+    "--pf-t--global--background--color--floating--default": 3,
+    "--pf-t--global--z-index--md": 1,
+    "--pf-t--global--border--color--default": 3,
+    "--pf-t--global--spacer--md": 19,
+    "--pf-t--global--spacer--lg": 2,
+    "--pf-t--global--background--color--secondary--default": 2,
+    "--pf-t--global--box-shadow--md": 1,
+    "--pf-t--global--font--size--heading--h3": 2,
+    "--pf-v6-c-page__main-container--MaxHeight": 1,
+    "--pf-v6-c-page__main-container--MarginInlineStart": 1,
+    "--pf-v6-c-page__main-container--MarginInlineEnd": 1,
+    "--pf-v6-c-page__main-container--BorderWidth": 1,
+    "--pf-v6-c-page__main-container--BorderColor": 1,
+    "--pf-v6-c-page__main-container--BorderRadius": 1,
+    "--pf-t--global--spacer--xl": 3,
+    "--pf-t--global--text--color--subtle": 1,
+    "--pf-t--global--font--size--xs": 1,
+    "--pf-t--global--font--family--mono": 1,
+    "--pf-t--global--font--size--heading--h2": 1,
+    "--pf-t--chatbot--heading--font-family": 1,
+    "--pf-t--global--font--size--md": 1,
+    "--pf-t--global--font--family--body": 1,
+    "--pf-v6-c-nav--PaddingInlineStart": 1,
+    "--pf-v6-c-file-upload--PaddingBlockStart": 1,
+    "--pf-v6-c-file-upload--PaddingInlineStart": 1,
+    "--pf-v6-c-file-upload--PaddingInlineEnd": 1,
+    "--pf-v6-c-file-upload--PaddingBlockEnd": 1,
+    "--pf-t--global--spacer--xs": 1
+  },
+  "repo": "https://github.com/redhat-composer-ai/chatbot-ui",
+  "name": "Composer-AI-chatbot",
+  "date": "2025-07-07T18:03:42.155Z",
+  "dependencies": {
+    "@babel/preset-env": 1,
+    "@babel/preset-react": 1,
+    "@babel/preset-typescript": 1,
+    "@openapitools/openapi-generator-cli": 1,
+    "@patternfly/chatbot": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-styles": 1,
+    "@redhat-cloud-services/eslint-config-redhat-cloud-services": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@types/jest": 1,
+    "@types/react-router-dom": 1,
+    "@types/victory": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "copy-webpack-plugin": 1,
+    "css-loader": 1,
+    "css-minimizer-webpack-plugin": 1,
+    "dompurify": 1,
+    "dotenv-webpack": 1,
+    "eslint": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "html-webpack-plugin": 1,
+    "imagemin": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "mini-css-extract-plugin": 1,
+    "patternflyVersions": {
+      "@patternfly/chatbot": [
+        "^2.1.0-prerelease.26"
+      ],
+      "@patternfly/react-core": [
+        "^6.0.0"
+      ],
+      "@patternfly/react-icons": [
+        "^6.0.0"
+      ],
+      "@patternfly/react-styles": [
+        "^6.0.0"
+      ]
+    },
+    "postcss": 1,
+    "prettier": 1,
+    "prop-types": 1,
+    "raw-loader": 1,
+    "react": 1,
+    "react-axe": 1,
+    "react-docgen-typescript-loader": 1,
+    "react-dom": 1,
+    "react-router-dom": 1,
+    "regenerator-runtime": 1,
+    "rimraf": 1,
+    "sirv-cli": 1,
+    "style-loader": 1,
+    "svg-url-loader": 1,
+    "terser-webpack-plugin": 1,
+    "ts-jest": 1,
+    "ts-loader": 1,
+    "tsc": 1,
+    "tsconfig-paths-webpack-plugin": 1,
+    "tslib": 1,
+    "typescript": 1,
+    "url-loader": 1,
+    "webpack": 1,
+    "webpack-bundle-analyzer": 1,
+    "webpack-cli": 1,
+    "webpack-dev-server": 1,
+    "webpack-merge": 1
+  }
+}

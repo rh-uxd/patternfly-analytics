@@ -1,0 +1,469 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "js": 114,
+        "tsx": 3,
+        "ts": 1,
+        "scss": 8
+      },
+      "js": 354,
+      "tsx": 7,
+      "ts": 3,
+      "scss": 11
+    },
+    "withPatternfly": {
+      "js": {
+        "files": [
+          "/src/components/AddApplication/AddApplication.js",
+          "/src/components/AddApplication/AddApplicationSchema.js",
+          "/src/components/AddApplication/RemoveAppModal.js",
+          "/src/components/AddApplication/schema/selectAuthenticationStep.js",
+          "/src/components/AddApplication/WizardBody.js",
+          "/src/components/addSourceWizard/compileAllApplicationComboOptions.js",
+          "/src/components/addSourceWizard/descriptions/HybridCommittedSpendDescription.js",
+          "/src/components/addSourceWizard/descriptions/Point.js",
+          "/src/components/addSourceWizard/descriptions/SubWatchDescription.js",
+          "/src/components/addSourceWizard/EditLink.js",
+          "/src/components/addSourceWizard/FinalWizard.js",
+          "/src/components/addSourceWizard/hardcodedComponents/aws/access_key.js",
+          "/src/components/addSourceWizard/hardcodedComponents/aws/arn.js",
+          "/src/components/addSourceWizard/hardcodedComponents/aws/provisioningArn.js",
+          "/src/components/addSourceWizard/hardcodedComponents/aws/subscriptionWatch.js",
+          "/src/components/addSourceWizard/hardcodedComponents/azure/costManagement.js",
+          "/src/components/addSourceWizard/hardcodedComponents/azure/provisioning.js",
+          "/src/components/addSourceWizard/hardcodedComponents/azure/subscriptionWatch.js",
+          "/src/components/addSourceWizard/hardcodedComponents/gcp/costManagement.js",
+          "/src/components/addSourceWizard/hardcodedComponents/gcp/provisioning.js",
+          "/src/components/addSourceWizard/hardcodedComponents/gcp/subscriptionWatch.js",
+          "/src/components/addSourceWizard/hardcodedComponents/ibm/costManagement.js",
+          "/src/components/addSourceWizard/hardcodedComponents/openshift/costManagement.js",
+          "/src/components/addSourceWizard/hardcodedComponents/openshift/endpoint.js",
+          "/src/components/addSourceWizard/hardcodedComponents/openshift/token.js",
+          "/src/components/addSourceWizard/hardcodedComponents/tower/catalog.js",
+          "/src/components/addSourceWizard/hardcodedSchemas.js",
+          "/src/components/addSourceWizard/index.js",
+          "/src/components/addSourceWizard/SourceAddModal.js",
+          "/src/components/addSourceWizard/SourceAddSchema.js",
+          "/src/components/addSourceWizard/SSLFormLabel.js",
+          "/src/components/addSourceWizard/superKey/configurationStep.js",
+          "/src/components/Authentication.js",
+          "/src/components/CloseModal.js",
+          "/src/components/CloudTiles/CloudCards.js",
+          "/src/components/CloudTiles/CloudEmptyState.js",
+          "/src/components/CredentialsForm/CredentialsForm.js",
+          "/src/components/CredentialsForm/ModalFormTemplate.js",
+          "/src/components/FormComponents/AuthSelect.js",
+          "/src/components/FormComponents/CardSelect.js",
+          "/src/components/FormComponents/ClipboardCopy.js",
+          "/src/components/FormComponents/PFDivider.js",
+          "/src/components/FormComponents/RhelUsageCheckbox.js",
+          "/src/components/FormComponents/SelectWithLink.js",
+          "/src/components/FormComponents/SourceWizardSummary.js",
+          "/src/components/FormComponents/SwitchGroup.js",
+          "/src/components/FormComponents/ValuePopover.js",
+          "/src/components/IntegrationsDropdown.js",
+          "/src/components/Overview/CustomDataListItem.js",
+          "/src/components/Overview/index.js",
+          "/src/components/RedHatTiles/RedHatEmptyState.js",
+          "/src/components/SourceDetail/ApplicationKebab.js",
+          "/src/components/SourceDetail/ApplicationResourcesCard.js",
+          "/src/components/SourceDetail/ApplicationsCard.js",
+          "/src/components/SourceDetail/AvailabilityChecker.js",
+          "/src/components/SourceDetail/Breadcrumbs.js",
+          "/src/components/SourceDetail/DetailHeader.js",
+          "/src/components/SourceDetail/NoApplications.js",
+          "/src/components/SourceDetail/NoPermissions.js",
+          "/src/components/SourceDetail/PauseAlert.js",
+          "/src/components/SourceDetail/ResourcesEmptyState.js",
+          "/src/components/SourceDetail/ResourcesTable.js",
+          "/src/components/SourceDetail/SourceKebab.js",
+          "/src/components/SourceDetail/SourceRenameModal.js",
+          "/src/components/SourceDetail/SourceSummaryCard.js",
+          "/src/components/SourceEditForm/ErroredModal.js",
+          "/src/components/SourceEditForm/parser/application.js",
+          "/src/components/SourceEditForm/parser/EditAlert.js",
+          "/src/components/SourceEditForm/SourceEditModal.js",
+          "/src/components/SourceRemoveModal/AppListInRemoval.js",
+          "/src/components/SourceRemoveModal/SourceRemoveModal.js",
+          "/src/components/SourcesHeader.js",
+          "/src/components/SourcesTable/EmptyStateTable.js",
+          "/src/components/SourcesTable/loaders.js",
+          "/src/components/SourcesTable/SourcesTable.js",
+          "/src/components/steps/AmazonFinishedStep.js",
+          "/src/components/steps/ErroredStep.js",
+          "/src/components/steps/FinishedStep.js",
+          "/src/components/steps/LoadingStep.js",
+          "/src/components/steps/TimeoutStep.js",
+          "/src/components/TabNavigation.js",
+          "/src/components/TilesShared/DisabledTile.js",
+          "/src/components/TilesShared/TilesArray.js",
+          "/src/marketplace/MarketplaceCard.js",
+          "/src/marketplace/MarketplaceModal.js",
+          "/src/marketplace/RecommendedServices.js",
+          "/src/marketplace/SeeMoreCard.js",
+          "/src/marketplace/SkeletonMarketplaceCard.js",
+          "/src/marketplace/tests/RecommendedServices.test.js",
+          "/src/pages/Detail.js",
+          "/src/pages/Sources.js",
+          "/src/pages/Sources/helpers.js",
+          "/src/redux/sources/actions.js",
+          "/src/test/addSourceWizard/addSourceWizard/addSourceSchema.test.js",
+          "/src/test/addSourceWizard/addSourceWizard/addSourceWizzard.test.js",
+          "/src/test/addSourceWizard/addSourceWizard/compileAllApplicationComboOptions.test.js",
+          "/src/test/addSourceWizard/addSourceWizard/hardCodedComponents/ibm_cost.test.js",
+          "/src/test/addSourceWizard/addSourceWizard/superKey/applicationsStep.test.js",
+          "/src/test/addSourceWizard/addSourceWizard/superKey/configurationStep.test.js",
+          "/src/test/components/formComponents/cardSelect.test.js",
+          "/src/test/components/formComponents/sourceWizardSummary.test.js",
+          "/src/test/components/sourceDetail/ApplicationsCard.test.js",
+          "/src/test/components/sourceDetail/ResourcesTable.test.js",
+          "/src/test/components/sourceEditForm/helpers.test.js",
+          "/src/test/components/sourceEditForm/parser/application.test.js",
+          "/src/test/components/sourceEditForm/parser/EditAlert.test.js",
+          "/src/test/components/sourcesTable/SourcesTable.test.js",
+          "/src/test/components/TabNavigation.test.js",
+          "/src/test/pages/Sources.test.js",
+          "/src/test/redux/sources/actions.test.js",
+          "/src/test/views/formatters.test.js",
+          "/src/utilities/alerts.js",
+          "/src/utilities/resolveProps/validated.js",
+          "/src/views/formatters.js"
+        ]
+      },
+      "tsx": {
+        "files": [
+          "/src/components/DisabledDropdownItemWithTooltip.tsx",
+          "/src/components/UnauthorizedState/UnauthorizedState.tsx",
+          "/src/components/Widget/IntegrationsWidget.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/redux/notifications/notificationsMiddleware.ts"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/App.scss",
+          "/src/components/DisabledDropdownItemWithTooltip.scss",
+          "/src/components/Overview/overview.scss",
+          "/src/components/Widget/IntegrationsWidget.scss",
+          "/src/marketplace/marketplace.scss",
+          "/src/styles/authSelect.scss",
+          "/src/styles/cardSelect.scss",
+          "/src/styles/costManagement.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Button": 31,
+      "Content": 39,
+      "ContentVariants": 26,
+      "Icon": 8,
+      "Modal": 4,
+      "ModalBody": 4,
+      "ModalFooter": 2,
+      "ModalHeader": 3,
+      "Title": 19,
+      "Wizard": 3,
+      "WizardHeader": 3,
+      "WizardStep": 3,
+      "Label": 11,
+      "Stack": 8,
+      "Flex": 4,
+      "FlexItem": 3,
+      "StackItem": 7,
+      "Popover": 7,
+      "Alert": 12,
+      "ButtonVariant": 3,
+      "ClipboardCopy": 13,
+      "ClipboardCopyVariant": 2,
+      "EmptyState": 11,
+      "EmptyStateActions": 6,
+      "EmptyStateBody": 11,
+      "EmptyStateVariant": 9,
+      "ExpandableSection": 2,
+      "ListComponent": 2,
+      "MenuToggle": 5,
+      "Select": 1,
+      "SelectList": 1,
+      "SelectOption": 1,
+      "ClipboardCopyButton": 1,
+      "InputGroup": 1,
+      "TextArea": 1,
+      "clipboardCopyFunc": 1,
+      "FormHelperText": 3,
+      "FormGroup": 6,
+      "TextInput": 1,
+      "Card": 13,
+      "CardBody": 13,
+      "CardExpandableContent": 1,
+      "CardHeader": 1,
+      "CardTitle": 10,
+      "Grid": 6,
+      "GridItem": 7,
+      "CardFooter": 6,
+      "Bullseye": 12,
+      "Spinner": 8,
+      "ActionGroup": 1,
+      "Form": 2,
+      "ButtonProps": 1,
+      "Tooltip": 6,
+      "TooltipProps": 1,
+      "Radio": 1,
+      "HelperText": 1,
+      "HelperTextItem": 1,
+      "Divider": 2,
+      "Checkbox": 2,
+      "DescriptionList": 2,
+      "DescriptionListDescription": 2,
+      "DescriptionListGroup": 2,
+      "DescriptionListTerm": 2,
+      "Switch": 2,
+      "Dropdown": 4,
+      "DropdownItem": 4,
+      "DropdownList": 3,
+      "DataListAction": 2,
+      "DataListCell": 3,
+      "DataListContent": 2,
+      "DataListItem": 3,
+      "DataListItemCells": 3,
+      "DataListItemRow": 3,
+      "DataListToggle": 2,
+      "AlertActionLink": 4,
+      "DataList": 2,
+      "Hint": 1,
+      "HintBody": 1,
+      "List": 1,
+      "ListItem": 1,
+      "Skeleton": 2,
+      "Breadcrumb": 1,
+      "BreadcrumbItem": 1,
+      "Tab": 2,
+      "TabTitleText": 2,
+      "Tabs": 2,
+      "Pagination": 1,
+      "PageSection": 1,
+      "TabTitleIcon": 1,
+      "Badge": 2,
+      "Gallery": 1,
+      "AlertVariant": 1,
+      "LabelGroup": 1
+    },
+    "@patternfly/react-icons": {
+      "ExclamationTriangleIcon": 2,
+      "InfoCircleIcon": 1,
+      "ExternalLinkAltIcon": 6,
+      "ArrowRightIcon": 1,
+      "AutomationIcon": 2,
+      "CheckIcon": 1,
+      "CloudIcon": 1,
+      "LockIcon": 3,
+      "OutlinedCommentsIcon": 2,
+      "RedhatIcon": 1,
+      "EllipsisVIcon": 1,
+      "DatabaseIcon": 1,
+      "AwsIcon": 1,
+      "OpenshiftIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/check-circle-icon": {
+      "CheckCircleIcon": 3
+    },
+    "@patternfly/react-core/deprecated": {
+      "Modal-deprecated": 5,
+      "Tile-deprecated": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/question-circle-icon": {
+      "QuestionCircleIcon": 4
+    },
+    "@patternfly/react-icons/dist/esm/icons/info-circle-icon": {
+      "InfoCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/arrow-right-icon": {
+      "ArrowRightIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/builder-image-icon": {
+      "BuilderImageIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/trend-up-icon": {
+      "TrendUpIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/list-icon": {
+      "ListIcon": 1
+    },
+    "@patternfly/react-icons/dist/dynamic/icons/plus-circle-icon": {
+      "PlusCircleIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon": {
+      "EllipsisVIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/pause-icon": {
+      "PauseIcon": 8
+    },
+    "@patternfly/react-icons/dist/esm/icons/play-icon": {
+      "PlayIcon": 4
+    },
+    "@patternfly/react-icons/dist/esm/icons/redo-icon": {
+      "RedoIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/plus-circle-icon": {
+      "PlusCircleIcon": 3
+    },
+    "@patternfly/react-icons/dist/esm/icons/private-icon": {
+      "PrivateIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/wrench-icon": {
+      "WrenchIcon": 3
+    },
+    "@patternfly/react-table": {
+      "Table": 1,
+      "Tbody": 3,
+      "Td": 3,
+      "Th": 1,
+      "Thead": 1,
+      "Tr": 3,
+      "ActionsColumn": 1,
+      "sortable": 2,
+      "wrappable": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-triangle-icon": {
+      "ExclamationTriangleIcon": 1
+    },
+    "@patternfly/react-component-groups": {
+      "PageHeader": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/search-icon": {
+      "SearchIcon": 1
+    },
+    "@patternfly/react-data-view": {
+      "DataView": 1,
+      "DataViewState": 1,
+      "DataViewTable": 1,
+      "DataViewToolbar": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/exclamation-circle-icon": {
+      "ExclamationCircleIcon": 2
+    },
+    "@patternfly/react-icons/dist/esm/icons/redhat-icon": {
+      "RedhatIcon": 1
+    },
+    "@patternfly/react-icons/dist/esm/icons/cloud-icon": {
+      "CloudIcon": 1
+    },
+    "@patternfly/react-core/dist/js/components/ClipboardCopy/ClipboardCopy": {
+      "*": 1
+    },
+    "@patternfly/react-icons/dist/js/icons/wrench-icon": {
+      "WrenchIcon": 1
+    }
+  },
+  "classes": {
+    "pf-m-disabled": 3,
+    "pf-c-card__cover-image": 2,
+    "pf-m-selectable": 1,
+    "pf-m-selected": 5,
+    "pf-m-inline": 1,
+    "pf-m-icon-lg": 1,
+    "pf-m-current": 6,
+    "pf-m-plain": 3,
+    "pf-m-green": 1,
+    "pf-m-grid-lg": 1
+  },
+  "cssVars": {
+    "--pf-v6-c-table--responsive--BorderColor": 2,
+    "--pf-v6-c-table--cell--hidden-visible--Display": 1,
+    "--pf-t--global--font--size--lg": 1,
+    "--pf-t--global--font--weight--body--default": 1,
+    "--pf-t--global--font--size--sm": 5,
+    "--pf-t--global--spacer--sm": 3,
+    "--pf-v6-c-menu__item--m-disabled--Color": 2,
+    "--pf-t--color--blue--50": 1,
+    "--pf-v5-global--spacer--sm": 4,
+    "--pf-v6-c-button--hover--BackgroundColor": 1,
+    "--pf-t--color--gray--50": 2,
+    "--pf-t--global--spacer--lg": 1,
+    "--pf-t--global--spacer--xl": 3,
+    "--pf-t--global--spacer--md": 1
+  },
+  "repo": "https://github.com/RedHatInsights/sources-ui",
+  "name": "RedHatInsights-sources-ui",
+  "date": "2025-07-07T18:03:42.155Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@babel/eslint-parser": 1,
+    "@babel/preset-env": 1,
+    "@babel/preset-react": 1,
+    "@babel/preset-typescript": 1,
+    "@data-driven-forms/pf4-component-mapper": 1,
+    "@data-driven-forms/react-form-renderer": 1,
+    "@patternfly/react-component-groups": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-data-view": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-table": 1,
+    "@redhat-cloud-services/frontend-components": 1,
+    "@redhat-cloud-services/frontend-components-config": 1,
+    "@redhat-cloud-services/frontend-components-notifications": 1,
+    "@redhat-cloud-services/frontend-components-utilities": 1,
+    "@redhat-cloud-services/tsc-transform-imports": 1,
+    "@sentry/minimal": 1,
+    "@testing-library/dom": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/user-event": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "@unleash/proxy-client-react": 1,
+    "awesome-debounce-promise": 1,
+    "axios": 1,
+    "axios-mock-adapter": 1,
+    "classnames": 1,
+    "deep-object-diff": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "identity-obj-proxy": 1,
+    "jest": 1,
+    "jest-environment-jsdom": 1,
+    "lodash": 1,
+    "npm-run-all": 1,
+    "patternflyVersions": {
+      "@patternfly/react-component-groups": [
+        "^6.2.1"
+      ],
+      "@patternfly/react-core": [
+        "^6.2.2"
+      ],
+      "@patternfly/react-data-view": [
+        "^6.1.0"
+      ],
+      "@patternfly/react-icons": [
+        "^6.2.2"
+      ],
+      "@patternfly/react-table": [
+        "^6.2.2"
+      ]
+    },
+    "prettier": 1,
+    "prop-types": 1,
+    "react": 1,
+    "react-dom": 1,
+    "react-intl": 1,
+    "react-redux": 1,
+    "react-router-dom": 1,
+    "redux": 1,
+    "redux-logger": 1,
+    "redux-mock-store": 1,
+    "redux-promise-middleware": 1,
+    "redux-thunk": 1,
+    "ts-patch": 1,
+    "typescript": 1,
+    "uuid": 1,
+    "webpack-bundle-analyzer": 1,
+    "whatwg-fetch": 1
+  }
+}

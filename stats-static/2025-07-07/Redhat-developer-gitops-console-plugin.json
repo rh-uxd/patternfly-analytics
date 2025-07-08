@@ -1,0 +1,281 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 30,
+        "ts": 2,
+        "scss": 8
+      },
+      "js": 1,
+      "tsx": 37,
+      "ts": 19,
+      "scss": 11
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/src/components/ApplicationListPage.tsx",
+          "/src/components/details/ArgoCdLink.tsx",
+          "/src/components/details/EnvironmentDetails.tsx",
+          "/src/components/details/EnvironmentDetailsPageHeading.tsx",
+          "/src/components/details/RenderStatusLabel.tsx",
+          "/src/components/details/ResourceRow.tsx",
+          "/src/components/details/ResourcesSection.tsx",
+          "/src/components/EnvironmentDetailsPage.tsx",
+          "/src/components/EnvironmentDetailsPageTabs.tsx",
+          "/src/components/EnvironmentEmptyState.tsx",
+          "/src/components/history/DeploymentHistory.tsx",
+          "/src/components/history/DeploymentHistoryColumns.tsx",
+          "/src/components/history/DeploymentHistoryTableColumnClasses.tsx",
+          "/src/components/history/DeploymentHistoryTableRow.tsx",
+          "/src/components/import/badges/DevPreviewBadge.tsx",
+          "/src/components/import/badges/TechPreviewBadge.tsx",
+          "/src/components/import/render-utils.tsx",
+          "/src/components/list/ApplicationColumns.tsx",
+          "/src/components/list/ApplicationTableRow.tsx",
+          "/src/components/list/SyncFragment.tsx",
+          "/src/components/status/icons.tsx",
+          "/src/components/topology/actions/action-provider.tsx",
+          "/src/components/topology/console/Decorator.tsx",
+          "/src/components/topology/console/pod-traffic.tsx",
+          "/src/components/topology/console/PodsOverview.tsx",
+          "/src/components/topology/decorators/ArgoRolloutNodeDecorator.tsx",
+          "/src/components/topology/decorators/getArgoRolloutNodeDecorator.tsx",
+          "/src/components/topology/nodes/RolloutNode.tsx",
+          "/src/components/topology/sidebar/DeploymentSideBarDetails.tsx",
+          "/src/components/topology/sidebar/resource-sections.tsx"
+        ]
+      },
+      "ts": {
+        "files": [
+          "/src/components/topology/data-transformer.ts",
+          "/src/components/topology/gitops-topology-types.ts"
+        ]
+      },
+      "scss": {
+        "files": [
+          "/src/components/details/EnvironmentDetails.scss",
+          "/src/components/details/EnvironmentDetailsPageHeading.scss",
+          "/src/components/details/ResourcesSection.scss",
+          "/src/components/history/DeploymentHistory.scss",
+          "/src/components/import/badges/Badge.scss",
+          "/src/components/list/ApplicationList.scss",
+          "/src/components/list/ApplicationTableRow.scss",
+          "/src/components/topology/console/Decorator.scss"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/quickstarts": {
+      "LoadingBox": 4
+    },
+    "@patternfly/react-core": {
+      "SplitItem": 6,
+      "Alert": 1,
+      "Card": 2,
+      "CardBody": 2,
+      "CardTitle": 1,
+      "Label": 5,
+      "Split": 5,
+      "Stack": 2,
+      "StackItem": 2,
+      "Tooltip": 5,
+      "Breadcrumb": 2,
+      "BreadcrumbItem": 2,
+      "Button": 2,
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateVariant": 1,
+      "Flex": 2,
+      "FlexItem": 2,
+      "Spinner": 1,
+      "Grid": 1,
+      "GridItem": 1,
+      "TooltipPosition": 1,
+      "DescriptionList": 1,
+      "DescriptionListDescription": 1,
+      "DescriptionListGroup": 1,
+      "DescriptionListTermHelpText": 1,
+      "DescriptionListTermHelpTextButton": 1,
+      "Popover": 1,
+      "Title": 1,
+      "LabelGroup": 1
+    },
+    "@patternfly/react-icons": {
+      "GitAltIcon": 2,
+      "ExclamationTriangleIcon": 1,
+      "HeartBrokenIcon": 1,
+      "CubesIcon": 1,
+      "BitbucketIcon": 1,
+      "GithubIcon": 1,
+      "GitlabIcon": 1,
+      "ArrowCircleUpIcon": 1,
+      "ResourcesAlmostFullIcon": 1,
+      "ResourcesFullIcon": 1,
+      "SyncAltIcon": 1,
+      "UnknownIcon": 1,
+      "ConnectedIcon": 1,
+      "DisconnectedIcon": 1,
+      "ExternalLinkAltIcon": 1,
+      "PencilAltIcon": 1
+    },
+    "@patternfly/react-tokens/dist/esm/t_global_color_status_danger_100": {
+      "RedColor": 1,
+      "dangerColor": 1
+    },
+    "@patternfly/react-tokens/dist/esm/t_global_color_status_warning_100": {
+      "YellowColor": 1,
+      "warningColor": 1
+    },
+    "@patternfly/react-table": {
+      "sortable": 2
+    },
+    "@patternfly/react-tokens/dist/esm/t_global_color_disabled_100": {
+      "disabledColor": 1
+    },
+    "@patternfly/react-tokens/dist/esm/t_global_color_nonstatus_blue_300": {
+      "blueInfoColor": 1
+    },
+    "@patternfly/react-tokens/dist/esm/t_global_icon_color_nonstatus_on_blue_default": {
+      "blueDefaultColor": 1
+    },
+    "@patternfly/react-topology": {
+      "GraphElement": 4,
+      "isGraph": 1,
+      "Decorator": 1,
+      "nodeDragSourceSpec": 1,
+      "NodeModel": 2,
+      "withDragNode": 1,
+      "withSelection": 1,
+      "Node": 1,
+      "NodeShape": 1,
+      "observer": 1
+    },
+    "@patternfly/react-topology/dist/esm/types": {
+      "Model": 1
+    },
+    "@patternfly/react-topology/src/types": {
+      "Node": 1
+    }
+  },
+  "classes": {
+    "pf-c-page__main-breadcrumb": 1,
+    "pf-m-width-30": 7,
+    "pf-m-hidden": 7,
+    "pf-m-visible-on-sm": 1,
+    "pf-m-width-25": 2,
+    "pf-m-visible-on-md": 3,
+    "pf-m-visible-on-lg": 3,
+    "pf-u-text-nowrap": 1,
+    "pf-m-width-20": 4,
+    "pf-c-label__text": 1,
+    "pf-l-split": 1,
+    "pf-m-gutter": 1
+  },
+  "cssVars": {
+    "--pf-global--spacer--xl": 3,
+    "--pf-global--spacer--xs": 10,
+    "--pf-global--palette--black-600": 1,
+    "--pf-global--BorderWidth--sm": 3,
+    "--pf-global--BorderColor--100": 3,
+    "--pf-global--Color--200": 2,
+    "--pf-global--spacer--sm": 4,
+    "--pf-global--link--Color": 1,
+    "--pf-global--spacer--lg": 2,
+    "--pf-v6-c-label--BackgroundColor": 1,
+    "--pf-v6-c-label--Color": 1,
+    "--pf-t--color--white": 1,
+    "--pf-t--global--text--color--subtle": 1,
+    "--pf-t--global--background--color--primary--default": 1,
+    "--pf-t--global--text--color--link--default--hover": 1
+  },
+  "repo": "https://github.com/redhat-developer/gitops-console-plugin",
+  "name": "Redhat-developer-gitops-console-plugin",
+  "date": "2025-07-07T18:03:42.155Z",
+  "dependencies": {
+    "@openshift-console/dynamic-plugin-sdk": 1,
+    "@openshift-console/dynamic-plugin-sdk-internal": 1,
+    "@openshift-console/dynamic-plugin-sdk-webpack": 1,
+    "@openshift-console/plugin-shared": 1,
+    "@patternfly/quickstarts": 1,
+    "@patternfly/react-charts": 1,
+    "@patternfly/react-core": 1,
+    "@patternfly/react-icons": 1,
+    "@patternfly/react-table": 1,
+    "@patternfly/react-tokens": 1,
+    "@patternfly/react-topology": 1,
+    "@types/classnames": 1,
+    "@types/git-url-parse": 1,
+    "@types/node": 1,
+    "@types/react": 1,
+    "@types/react-redux": 1,
+    "@types/semver": 1,
+    "@types/webpack-dev-server": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "classnames": 1,
+    "copy-webpack-plugin": 1,
+    "css-loader": 1,
+    "eslint": 1,
+    "eslint-config-prettier": 1,
+    "eslint-import-resolver-typescript": 1,
+    "eslint-plugin-chai-friendly": 1,
+    "eslint-plugin-cypress": 1,
+    "eslint-plugin-import": 1,
+    "eslint-plugin-jsdoc": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "eslint-plugin-simple-import-sort": 1,
+    "file-loader": 1,
+    "git-url-parse": 1,
+    "http-server": 1,
+    "i18next": 1,
+    "i18next-parser": 1,
+    "lodash-es": 1,
+    "marked": 1,
+    "patternflyVersions": {
+      "@patternfly/quickstarts": [
+        "^6.2.0"
+      ],
+      "@patternfly/react-charts": [
+        "^8.2.0"
+      ],
+      "@patternfly/react-core": [
+        "^6.2.0"
+      ],
+      "@patternfly/react-icons": [
+        "^6.2.0"
+      ],
+      "@patternfly/react-table": [
+        "^6.2.0"
+      ],
+      "@patternfly/react-tokens": [
+        "6.2.0"
+      ],
+      "@patternfly/react-topology": [
+        "^6.2.0"
+      ]
+    },
+    "prettier": 1,
+    "prop-types": 1,
+    "react": 2,
+    "react-dom": 1,
+    "react-helmet": 1,
+    "react-i18next": 1,
+    "react-redux": 1,
+    "react-router-dom-v5-compat": 1,
+    "react-router-hash-link": 1,
+    "redux": 1,
+    "sass": 1,
+    "sass-loader": 1,
+    "style-loader": 1,
+    "ts-loader": 1,
+    "ts-node": 1,
+    "typescript": 1,
+    "webpack": 1,
+    "webpack-cli": 1,
+    "webpack-dev-server": 1
+  }
+}

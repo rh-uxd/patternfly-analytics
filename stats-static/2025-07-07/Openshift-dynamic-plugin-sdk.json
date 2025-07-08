@@ -1,0 +1,222 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {
+        "tsx": 9,
+        "css": 1
+      },
+      "ts": 118,
+      "js": 17,
+      "tsx": 20,
+      "css": 2
+    },
+    "withPatternfly": {
+      "tsx": {
+        "files": [
+          "/packages/sample-app/src/components/ErrorBoundaryFallback.tsx",
+          "/packages/sample-app/src/components/FeatureFlagTable.tsx",
+          "/packages/sample-app/src/components/LabelWithTooltipIcon.tsx",
+          "/packages/sample-app/src/components/Loading.tsx",
+          "/packages/sample-app/src/components/LoadPluginModal.tsx",
+          "/packages/sample-app/src/components/PageContent.tsx",
+          "/packages/sample-app/src/components/PageHeader.tsx",
+          "/packages/sample-app/src/components/PageLayout.tsx",
+          "/packages/sample-app/src/components/PluginInfoTable.tsx"
+        ]
+      },
+      "css": {
+        "files": [
+          "/packages/sample-app/src/components/ErrorBoundaryFallback.css"
+        ]
+      }
+    }
+  },
+  "imports": {
+    "@patternfly/react-core": {
+      "Flex": 3,
+      "FlexItem": 3,
+      "Text": 1,
+      "TextContent": 1,
+      "CodeBlock": 1,
+      "CodeBlockCode": 1,
+      "Button": 4,
+      "Tooltip": 1,
+      "Bullseye": 2,
+      "Spinner": 1,
+      "Checkbox": 1,
+      "Form": 1,
+      "FormGroup": 1,
+      "Modal": 1,
+      "TextInput": 1,
+      "Card": 1,
+      "CardBody": 1,
+      "Gallery": 1,
+      "GalleryItem": 1,
+      "Brand": 1,
+      "Masthead": 1,
+      "MastheadToggle": 1,
+      "MastheadMain": 1,
+      "MastheadBrand": 1,
+      "MastheadContent": 1,
+      "PageToggleButton": 1,
+      "Toolbar": 1,
+      "ToolbarContent": 1,
+      "ToolbarItem": 1,
+      "ToolbarGroup": 1,
+      "Page": 1,
+      "PageSection": 1,
+      "EmptyState": 1,
+      "EmptyStateBody": 1,
+      "EmptyStateIcon": 1,
+      "Title": 1
+    },
+    "@patternfly/react-table": {
+      "TableComposable": 2,
+      "Thead": 2,
+      "Tbody": 2,
+      "Tr": 2,
+      "Th": 2,
+      "Td": 2,
+      "ActionsColumn": 1
+    },
+    "@patternfly/react-icons": {
+      "InfoCircleIcon": 1,
+      "BarsIcon": 1,
+      "ModuleIcon": 1
+    },
+    "@patternfly/react-tokens": {
+      "global_info_color_100": 1
+    }
+  },
+  "classes": {},
+  "cssVars": {
+    "--pf-global--spacer--md": 1
+  },
+  "repo": "https://github.com/openshift/dynamic-plugin-sdk",
+  "name": "Openshift-dynamic-plugin-sdk",
+  "date": "2025-07-07T18:03:42.155Z",
+  "dependencies": {
+    "@babel/core": 1,
+    "@mdx-js/react": 1,
+    "@microsoft/api-documenter": 1,
+    "@microsoft/api-extractor": 1,
+    "@openshift/dynamic-plugin-sdk": 4,
+    "@openshift/dynamic-plugin-sdk-extensions": 3,
+    "@openshift/dynamic-plugin-sdk-webpack": 2,
+    "@optimize-lodash/rollup-plugin": 1,
+    "@patternfly/react-core": 3,
+    "@patternfly/react-icons": 2,
+    "@patternfly/react-styles": 2,
+    "@patternfly/react-table": 3,
+    "@patternfly/react-tokens": 1,
+    "@patternfly/react-virtualized-extension": 1,
+    "@rollup/plugin-commonjs": 1,
+    "@rollup/plugin-json": 1,
+    "@rollup/plugin-node-resolve": 1,
+    "@rollup/plugin-typescript": 1,
+    "@testing-library/dom": 1,
+    "@testing-library/jest-dom": 1,
+    "@testing-library/react": 1,
+    "@testing-library/react-hooks": 1,
+    "@testing-library/user-event": 1,
+    "@types/glob": 1,
+    "@types/jest": 1,
+    "@types/jest-axe": 1,
+    "@types/lodash": 1,
+    "@types/node": 1,
+    "@types/pluralize": 1,
+    "@types/react": 1,
+    "@types/react-dom": 1,
+    "@types/react-router": 1,
+    "@types/react-router-dom": 1,
+    "@types/react-test-renderer": 1,
+    "@types/react-virtualized": 1,
+    "@types/semver": 1,
+    "@types/uuid": 1,
+    "@types/webpack-bundle-analyzer": 1,
+    "@typescript-eslint/eslint-plugin": 1,
+    "@typescript-eslint/parser": 1,
+    "babel-loader": 1,
+    "copy-webpack-plugin": 1,
+    "css-loader": 2,
+    "css-minimizer-webpack-plugin": 2,
+    "cypress": 1,
+    "eslint": 1,
+    "eslint-config-airbnb": 1,
+    "eslint-config-airbnb-base": 1,
+    "eslint-config-prettier": 1,
+    "eslint-import-resolver-typescript": 1,
+    "eslint-plugin-import": 1,
+    "eslint-plugin-jsx-a11y": 1,
+    "eslint-plugin-lodash": 1,
+    "eslint-plugin-node": 1,
+    "eslint-plugin-prettier": 1,
+    "eslint-plugin-promise": 1,
+    "eslint-plugin-react": 1,
+    "eslint-plugin-react-hooks": 1,
+    "find-up": 1,
+    "html-webpack-plugin": 1,
+    "http-server": 2,
+    "identity-obj-proxy": 1,
+    "immutable": 1,
+    "jest": 1,
+    "jest-axe": 1,
+    "jsonc-parser": 1,
+    "lodash": 5,
+    "mini-css-extract-plugin": 1,
+    "minimatch": 1,
+    "patternflyVersions": {
+      "@patternfly/react-core": [
+        "^5.1.0",
+        "^4.202.16"
+      ],
+      "@patternfly/react-icons": [
+        "^5.1.0",
+        "^4.53.16"
+      ],
+      "@patternfly/react-styles": [
+        "^5.1.0",
+        "^4.52.16"
+      ],
+      "@patternfly/react-table": [
+        "^5.1.0",
+        "^4.71.16"
+      ],
+      "@patternfly/react-virtualized-extension": [
+        "^5.0.0"
+      ],
+      "@patternfly/react-tokens": [
+        "^4.58.5"
+      ]
+    },
+    "pluralize": 1,
+    "prettier": 1,
+    "react": 6,
+    "react-dom": 3,
+    "react-redux": 3,
+    "react-router": 2,
+    "react-router-dom": 1,
+    "react-test-renderer": 1,
+    "react-virtualized": 1,
+    "redux": 3,
+    "redux-thunk": 2,
+    "rollup": 1,
+    "rollup-plugin-analyzer": 1,
+    "rollup-plugin-import-css": 1,
+    "semver": 2,
+    "start-server-and-test": 1,
+    "style-loader": 2,
+    "ts-jest": 1,
+    "ts-loader": 2,
+    "ts-node": 1,
+    "tslib": 1,
+    "type-fest": 1,
+    "typesafe-actions": 1,
+    "typescript": 3,
+    "uuid": 2,
+    "webpack": 4,
+    "webpack-bundle-analyzer": 1,
+    "webpack-cli": 2,
+    "yup": 2
+  }
+}

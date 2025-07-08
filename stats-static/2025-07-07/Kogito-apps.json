@@ -1,0 +1,17 @@
+{
+  "files": {
+    "total": {
+      "withPatternfly": {},
+      "js": 1,
+      "css": 1
+    },
+    "withPatternfly": {}
+  },
+  "imports": {},
+  "classes": {},
+  "cssVars": {},
+  "repo": "https://github.com/kiegroup/kogito-apps",
+  "name": "Kogito-apps",
+  "date": "2025-07-07T18:03:42.155Z",
+  "dependencies": {}
+}
