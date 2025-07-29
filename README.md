@@ -21,12 +21,33 @@ This project references a static list of projects, listed within [repos.json](/r
 
 These repositories are cloned locally into a `/tmp` directory, and each are looped through functionality within [getPackageStats.js](/src/static-analysis/getPackageStats.js), [getPatternflyStats.js](/src/static-analysis/getPatternflyStats.js), and [getSortedImports.js](/src/static-analysis/getSortedImports.js) to output the following files:
 
-- `_all_dependencies.json`
-  - Groups all projects by shared dependency
 - `_all.json`
-  - Lists all imported PatternFly assets by import file path or import type
+  - Grouped by: unique import path
+  - Shows: lists total count of imports for each PatternFly asset. Note that different import paths are counted separately (ex: `@patternfly/react-core` vs `@patternfly/react-core/`)
+  - Useful for: seeing the most common ways consumers are importing assets, also used as a reference to compile other reports below.
+- `_all_dependencies.json`
+  - Grouped by: dependency name
+  - Shows: lists all dependencies across products and lists the products that use each
+  - Useful for: viewing common libraries (aside from just PatternFly)
+- `all_pf_versions.json`
+  - Grouped by: repo name
+  - Shows: all PatternFly packages & versions used
+  - Useful for: calculating how many code bases use a specific version of each package, as well as how commonly different PF packages (such as extensions) are used.
+- `_all_product_uses`
+  - Grouped by: imported asset name (ex: `Button`)
+  - Shows:
+    - `product_count` lists the number of unique repos using the asset
+    - `total_usage` shows the total number of times the asset is used across all repos
+    - For each repo using the asset, this shows the number of different unique import paths used to import it (with the files listed for each), as well as how many total times the asset is used in that repo.
+  - Useful for: finding the most/least used PF assets, can also be a reference for where in a product specific components are used.
 - `_all_sorted.json`
-  - Groups together common imported assets regardless of file path from `_all.json` and sorts them by total imported quantity across repos.
+  - Grouped by: import category (`react-icons|utilities|layouts|react-charts|react-topology|react-table|react-code-editor|react-console|react-user-feedback|react-catalog-view-extension|react-log-viewer|react-virtualized-extension|extensions|quickstarts|react-styles|react-tokens`)
+  - Shows: total usage count of each PatternFly asset (simplified version of the `total_usage` field from `_all_product_uses`)
+  - Useful for: quick glance at most/least used components based on total usage count.
+- `_deprecated_usage.json`
+  - Grouped by: deprecated component name
+  - Shows: how many & which repos use each deprecated component & subcomponents, along with react-core version they're using.
+  - Useful for: tracking usage of deprecated components & which code bases may need to upgrade before they are removed.
 
 
 ## Installation of the Python code
