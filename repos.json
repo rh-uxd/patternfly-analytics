@@ -126,10 +126,6 @@
       "name": "Virtualization-Engine"
     },
     {
-      "git": "https://github.com/kiali/kiali-ui",
-      "name": "Kiali-App"
-    },
-    {
       "git": "https://github.com/3scale/porta",
       "name": "3Scale"
     },
