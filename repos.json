@@ -486,6 +486,22 @@
       "git": "https://gitlab.cee.redhat.com/service/web-rca-ui",
       "name": "Web-rca-ui",
       "private": true
+    },
+    {
+      "git": "https://github.com/RedHatInsights/astro-virtual-assistant-frontend",
+      "name": "RedHatInsights-astro-virtual-assistant-frontend"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/backstage-plugin-ai-search-frontend",
+      "name": "Convo-Backstage-ChatBot-UI"
+    },
+    {
+      "git": "https://github.com/konveyor/editor-extensions",
+      "name": "KAI IDE plugin"
+    },
+    {
+      "git": "https://github.com/arkmq-org/mboxrag",
+      "name": "AMQ Chatbot POC"
     }
   ]
 }
