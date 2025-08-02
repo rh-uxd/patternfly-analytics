@@ -334,7 +334,7 @@
       "name": "RHEnVision"
     },
     {
-      "git": "https://github.com/nmstate/nmstate-console-plugin",
+      "git": "https://github.com/openshift/nmstate-console-plugin",
       "name": "Nmstate-plugin"
     },
     {
