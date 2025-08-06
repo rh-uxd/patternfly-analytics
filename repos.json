@@ -53,10 +53,6 @@
       "name": "RedHatInsights-frontend-components"
     },
     {
-      "git": "https://github.com/RedHatInsights/settings-frontend",
-      "name": "RedHatInsights-settings-frontend"
-    },
-    {
       "git": "https://github.com/RedHatInsights/insights-rbac-ui",
       "name": "RedHatInsights-rbac-ui"
     },
@@ -109,9 +105,8 @@
       "name": "OpenShift-Admin-Console"
     },
     {
-      "git": "https://gitlab.cee.redhat.com/service/uhc-portal.git",
-      "name": "OCM-UI",
-      "private": true
+      "git": "https://github.com/RedHatInsights/uhc-portal",
+      "name": "OCM-UI"
     },
     {
       "git": "https://github.com/quay/quay",
@@ -158,10 +153,6 @@
       "name": "Pbench"
     },
     {
-      "git": "https://github.com/openshift/hac-dev",
-      "name": "HAC-Dev"
-    },
-    {
       "git": "https://github.com/ansible/awx",
       "name": "Ansible-awx"
     },
@@ -198,10 +189,6 @@
       "name": "Kiali"
     },
     {
-      "git": "https://github.com/kubernetes-sigs/kui",
-      "name": "Kui"
-    },
-    {
       "git": "https://github.com/openshift/console-plugin-template",
       "name": "OpenShift-console-plugin-template"
     },
@@ -222,10 +209,6 @@
       "name": "Opendatahub"
     },
     {
-      "git": "https://github.com/openshift/hac-core",
-      "name": "HAC-Core"
-    },
-    {
       "git": "https://github.com/quipucords/quipucords-ui",
       "name": "Quipucords-Product-Discovery"
     },
@@ -242,20 +225,12 @@
       "name": "Openshift-monitoring-plugin"
     },
     {
-      "git": "https://github.com/quay/quay-ui",
-      "name": "Quay-ui"
-    },
-    {
       "git": "https://github.com/RedHatInsights/acs-ui",
       "name": "RedHatInsights-acs-ui"
     },
     {
       "git": "https://github.com/RedHatInsights/api-documentation-frontend",
       "name": "RedHatInsights-api-documentation-frontend"
-    },
-    {
-      "git": "https://github.com/RedHatInsights/cloud-connector-frontend",
-      "name": "RedHatInsights-cloud-connector-frontend"
     },
     {
       "git": "https://github.com/RedHatInsights/insights-chrome",
@@ -272,10 +247,6 @@
     {
       "git": "https://github.com/freeipa/freeipa-webui",
       "name": "Freeipa"
-    },
-    {
-      "git": "https://github.com/redhat-developer/app-services-ui-components",
-      "name": "App-services-ui-components"
     },
     {
       "git": "https://github.com/janus-idp/backstage-plugins",
