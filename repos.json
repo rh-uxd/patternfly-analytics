@@ -469,6 +469,34 @@
     {
       "git": "https://github.com/arkmq-org/mboxrag",
       "name": "AMQ Chatbot POC"
+    },
+    {
+      "git": "https://github.com/openshift-assisted/assisted-installer-ui",
+      "name": "Assisted-installer-ui"
+    },
+    {
+      "git": "https://github.com/red-hat-data-services/odh-dashboard",
+      "name": "RH-Data-Services-ODH-Dashboard"
+    },
+    {
+      "git": "https://github.com/RedHat-UX/next-gen-ui-agent",
+      "name": "RHUX-next-gen-ui-agent"
+    },
+    {
+      "git": "https://github.com/rh-ai-kickstart/ai-virtual-agent",
+      "name": "RH-AI-Kickstart-AI-Virtual-Agent"
+    },
+    {
+      "git": "https://github.com/rh-aiservices-bu/multimodal-chatbot",
+      "name": "RH-AI-Services-Multimodal-Chatbot"
+    },
+    {
+      "git": "https://github.com/rh-aiservices-bu/rh-kb-chat",
+      "name": "RH-AI-Services-RH-KB-Chat"
+    },
+    {
+      "git": "https://github.com/samuelvl/containerd-shim-ollama",
+      "name": "Containerd-shim-ollama"
     }
   ]
 }
