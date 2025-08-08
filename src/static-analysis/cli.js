@@ -6,6 +6,7 @@ const { getPatternflyStats, patternflyAggs, productUsage } = require('./getPatte
 const { getPackageStats, getAggregatePackageStats, getPFVersions } = require('./getPackageStats');
 const { getSortedImports, getSortedUsage } = require('./getSortedImports');
 const { getDeprecatedComponents } = require('./getDeprecatedComponents');
+const { runDependentsAnalysis } = require('./dependentsAnalyzer');
 // IMPORT JSON LIST OF REPOS
 const repos = require('../../repos.json').repos;
 
@@ -17,7 +18,7 @@ if (!fs.existsSync(statsDir)) {
   fs.mkdirSync(statsDir);
 }
 
-function collectPatternflyStats(argv) {
+async function collectPatternflyStats(argv) {
   const date = new Date().toISOString();
   // CREATE NEW DIRECTORY W/TODAY'S DATE FOR REPORT
   // STATS-STATIC/{DATE}
@@ -56,6 +57,18 @@ function collectPatternflyStats(argv) {
     fs.outputFileSync(`${dir}/_all_pf_versions.json`, JSON.stringify(pfVersions, null, 2));
     fs.outputFileSync(`${dir}/_deprecated_usage.json`, JSON.stringify(getDeprecatedComponents(sortedUsage, pfVersions), null, 2));
   }
+  
+  // Run dependents analysis if requested
+  if (argv.d) {
+    console.log(`\n🔍 Running GitHub dependents analysis...`);
+    try {
+      await runDependentsAnalysis(dir);
+    } catch (error) {
+      console.error(`⚠️  Dependents analysis failed: ${error.message}`);
+      console.log(`   Continuing with main collection process...`);
+    }
+  }
+  
   console.log(`Collected stats for ${date} under ${dir}`);
 }
 
@@ -77,6 +90,11 @@ require('yargs')
       type: 'boolean',
       default: 'false',
       describe: 'whether to compile package.json stats'
+    });
+    yargs.option('d', {
+      type: 'boolean',
+      default: 'false',
+      describe: 'whether to run GitHub dependents analysis'
     });
   }, collectPatternflyStats)
   .help()
