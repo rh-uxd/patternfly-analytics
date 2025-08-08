@@ -4,11 +4,15 @@
   "description": "Analytics for patternfly",
   "main": "repo-stats.js",
   "scripts": {
-    "collect": "node src/static-analysis/cli.js collect -j"
+    "collect": "node src/static-analysis/cli.js collect -j",
+    "collect-with-dependents": "node src/static-analysis/cli.js collect -j -d",
+    "analyze-dependents": "node src/github-dependents-analyzer.js",
+    "sync-dependents": "node src/github-dependents-analyzer.js --create-pr"
   },
   "author": "redallen",
   "license": "MIT",
   "dependencies": {
+    "@octokit/rest": "^20.0.2",
     "cheerio": "^1.0.0-rc.12",
     "fs-extra": "^8.1.0",
     "glob": "^7.1.4",

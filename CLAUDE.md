@@ -39,12 +39,29 @@ Each analysis run creates these files in `/stats-static/{date}/`:
 - `_all_sorted.json`: Components categorized by PatternFly package
 - `_deprecated_usage.json`: Deprecated component usage tracking
 
+### Dependents Analysis Files (when `-d` flag used):
+- `_dependents_analysis.json`: Complete analysis of all PatternFly package dependents
+- `_suggested_repos.json`: Prioritized list of repositories to consider adding
+- `_dependents_by_package.json`: Summary of missing dependents by PatternFly package
+
 ## Development Commands
 
 ### Data Collection
 ```bash
-npm run collect          # Run complete analysis pipeline
-npm run collect -- -c    # Clean /tmp directory before collection
+npm run collect                    # Run complete analysis pipeline
+npm run collect-with-dependents    # Run analysis + GitHub dependents analysis
+npm run collect -- -c              # Clean /tmp directory before collection
+npm run collect -- -j -d           # Run with package stats and dependents analysis
+```
+
+### GitHub Dependents Analysis
+```bash
+npm run analyze-dependents  # Compare GitHub dependents with local repos.json
+npm run sync-dependents     # Create PR to add missing dependents (requires GITHUB_TOKEN)
+
+# Custom repository analysis
+node src/github-dependents-analyzer.js --repo-url https://github.com/patternfly/patternfly-react
+node src/github-dependents-analyzer.js --repo-url https://github.com/patternfly/patternfly-react --create-pr
 ```
 
 ### Report Generation
