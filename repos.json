@@ -464,11 +464,11 @@
     },
     {
       "git": "https://github.com/konveyor/editor-extensions",
-      "name": "KAI IDE plugin"
+      "name": "KAI-IDE-plugin"
     },
     {
       "git": "https://github.com/arkmq-org/mboxrag",
-      "name": "AMQ Chatbot POC"
+      "name": "AMQ-Chatbot-POC"
     },
     {
       "git": "https://github.com/openshift-assisted/assisted-installer-ui",
@@ -497,6 +497,11 @@
     {
       "git": "https://github.com/samuelvl/containerd-shim-ollama",
       "name": "Containerd-shim-ollama"
+    },
+    {
+      "git": "https://gitlab.cee.redhat.com/gss-engineering/portal-case-management",
+      "name": "Portal-Case-Management",
+      "private": true
     }
   ]
 }
