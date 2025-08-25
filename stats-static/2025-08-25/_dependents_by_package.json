@@ -1,0 +1,295 @@
+{
+  "patternfly/patternfly": {
+    "total_dependents": 29,
+    "missing_count": 29,
+    "top_missing": [
+      {
+        "name": "Smartwyn-accelerators/api-builder",
+        "stars": 0,
+        "language": "TypeScript"
+      },
+      {
+        "name": "waldirio/foreman",
+        "stars": 0,
+        "language": "Ruby"
+      },
+      {
+        "name": "direkshan-digital/keycloak",
+        "stars": 0,
+        "language": "Java"
+      },
+      {
+        "name": "Cosium/keycloak",
+        "stars": 0,
+        "language": "Java"
+      },
+      {
+        "name": "rmartinc/keycloak",
+        "stars": 0,
+        "language": "Java"
+      }
+    ]
+  },
+  "patternfly/patternfly-react": {
+    "total_dependents": 30,
+    "missing_count": 29,
+    "top_missing": [
+      {
+        "name": "DigitecGalaxus/backstage-community-plugins",
+        "stars": 0,
+        "language": null
+      },
+      {
+        "name": "RedHatInsights/ai-web-clients",
+        "stars": 1,
+        "language": "TypeScript"
+      },
+      {
+        "name": "khode-io/khode-account-theme",
+        "stars": 1,
+        "language": "TypeScript"
+      },
+      {
+        "name": "zippyreg/clean-sight-solutions__keycloak-theme",
+        "stars": 0,
+        "language": "TypeScript"
+      },
+      {
+        "name": "RedHatOfficial/static-website-template-for-ospo",
+        "stars": 2,
+        "language": "JavaScript"
+      }
+    ]
+  },
+  "patternfly/patternfly-elements": {
+    "total_dependents": 29,
+    "missing_count": 29,
+    "top_missing": [
+      {
+        "name": "nullroute-commits/authentik",
+        "stars": 0,
+        "language": null
+      },
+      {
+        "name": "olofvndrhr/authentik",
+        "stars": 0,
+        "language": "Python"
+      },
+      {
+        "name": "ljhanson/authentik",
+        "stars": 0,
+        "language": "Python"
+      },
+      {
+        "name": "nm004/img2tempdecal",
+        "stars": 16,
+        "language": "HTML"
+      },
+      {
+        "name": "GlacierEQ/authentik",
+        "stars": 0,
+        "language": null
+      }
+    ]
+  },
+  "patternfly/patternfly-org": {
+    "total_dependents": 0,
+    "missing_count": 0,
+    "top_missing": []
+  },
+  "patternfly/patternfly-design-tokens": {
+    "total_dependents": 0,
+    "missing_count": 0,
+    "top_missing": []
+  },
+  "patternfly/patternfly-toolkit": {
+    "total_dependents": 0,
+    "missing_count": 0,
+    "top_missing": []
+  },
+  "patternfly/patternfly-quickstarts": {
+    "total_dependents": 0,
+    "missing_count": 0,
+    "top_missing": []
+  },
+  "patternfly/react-charts": {
+    "total_dependents": 0,
+    "missing_count": 0,
+    "top_missing": []
+  },
+  "patternfly/react-topology": {
+    "total_dependents": 30,
+    "missing_count": 26,
+    "top_missing": [
+      {
+        "name": "DigitecGalaxus/backstage-community-plugins",
+        "stars": 0,
+        "language": "Unknown"
+      },
+      {
+        "name": "metalice/kubevirt-plugin",
+        "stars": 0,
+        "language": "Unknown"
+      },
+      {
+        "name": "camel-tooling/camel-openshift-console-plugin",
+        "stars": 0,
+        "language": "Unknown"
+      },
+      {
+        "name": "ChupapiMunani-xiang/console",
+        "stars": 0,
+        "language": "Unknown"
+      },
+      {
+        "name": "fxiang1/console",
+        "stars": 0,
+        "language": "Unknown"
+      }
+    ]
+  },
+  "patternfly/react-table": {
+    "total_dependents": 0,
+    "missing_count": 0,
+    "top_missing": []
+  },
+  "patternfly/react-code-editor": {
+    "total_dependents": 0,
+    "missing_count": 0,
+    "top_missing": []
+  },
+  "patternfly/react-console": {
+    "total_dependents": 30,
+    "missing_count": 29,
+    "top_missing": [
+      {
+        "name": "ChupapiMunani-xiang/console",
+        "stars": 0,
+        "language": null
+      },
+      {
+        "name": "evwilkin/patternfly-org",
+        "stars": 0,
+        "language": "JavaScript"
+      },
+      {
+        "name": "yunmingyang/cockpit-machines",
+        "stars": 0,
+        "language": "TypeScript"
+      },
+      {
+        "name": "DVSB/cockpit",
+        "stars": 0,
+        "language": "JavaScript"
+      },
+      {
+        "name": "jelly/cockpit-machines",
+        "stars": 0,
+        "language": "TypeScript"
+      }
+    ]
+  },
+  "patternfly/react-user-feedback": {
+    "total_dependents": 13,
+    "missing_count": 11,
+    "top_missing": [
+      {
+        "name": "ChupapiMunani-xiang/console",
+        "stars": 0,
+        "language": null
+      },
+      {
+        "name": "fxiang1/console",
+        "stars": 0,
+        "language": "TypeScript"
+      },
+      {
+        "name": "evwilkin/patternfly-org",
+        "stars": 0,
+        "language": "JavaScript"
+      },
+      {
+        "name": "zlayne/console",
+        "stars": 0,
+        "language": "TypeScript"
+      },
+      {
+        "name": "Randy424/console",
+        "stars": 0,
+        "language": "TypeScript"
+      }
+    ]
+  },
+  "patternfly/react-catalog-view-extension": {
+    "total_dependents": 0,
+    "missing_count": 0,
+    "top_missing": []
+  },
+  "patternfly/react-log-viewer": {
+    "total_dependents": 0,
+    "missing_count": 0,
+    "top_missing": []
+  },
+  "patternfly/react-virtualized-extension": {
+    "total_dependents": 30,
+    "missing_count": 26,
+    "top_missing": [
+      {
+        "name": "ChupapiMunani-xiang/console",
+        "stars": 0,
+        "language": null
+      },
+      {
+        "name": "evwilkin/patternfly-org",
+        "stars": 0,
+        "language": "JavaScript"
+      },
+      {
+        "name": "christianvogt/subtree-test",
+        "stars": 0,
+        "language": "TypeScript"
+      },
+      {
+        "name": "suvarineko/bridge-console",
+        "stars": 0,
+        "language": "TypeScript"
+      },
+      {
+        "name": "romdalf/openshift-console",
+        "stars": 0,
+        "language": null
+      }
+    ]
+  },
+  "patternfly/chatbot": {
+    "total_dependents": 27,
+    "missing_count": 11,
+    "top_missing": [
+      {
+        "name": "RedHatInsights/ai-web-clients",
+        "stars": 1,
+        "language": "TypeScript"
+      },
+      {
+        "name": "rh-aiservices-bu/litemaas",
+        "stars": 11,
+        "language": "TypeScript"
+      },
+      {
+        "name": "evwilkin/patternfly-org",
+        "stars": 0,
+        "language": "JavaScript"
+      },
+      {
+        "name": "jgyselov/assisted-installer-ui",
+        "stars": 0,
+        "language": "TypeScript"
+      },
+      {
+        "name": "TomerFi/odh-dashboard",
+        "stars": 0,
+        "language": "Unknown"
+      }
+    ]
+  }
+}

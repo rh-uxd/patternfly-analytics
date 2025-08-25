@@ -24,320 +24,25 @@
       "Camel-Karavan",
       "Quipucords-Product-Discovery",
       "Stackrox",
-      "ACM-console",
       "RHEnVision",
       "RedHatStorage-odf-console",
       "RedHatInsights-patchman-ui",
       "RedHatInsights-policies-ui-frontend",
-      "RedHatInsights-vuln4shift-frontend"
+      "RedHatInsights-vuln4shift-frontend",
+      "ACM-console"
     ],
     "product_count_by_component": {
-      "Select": 28,
-      "SelectOption": 27,
-      "SelectVariant": 21,
+      "Select": 27,
+      "SelectOption": 26,
+      "SelectVariant": 20,
       "SelectOptionObject": 10,
-      "SelectProps": 9,
+      "SelectProps": 8,
       "SelectGroup": 7,
       "SelectOptionProps": 6,
       "SelectPosition": 3,
       "SelectDirection": 3
     },
     "Select": {
-      "product_count": 28,
-      "products": {
-        "Migration-Toolkit-for-Containers": {
-          "versions": [
-            "^4.115.5"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "RHEL-Composer": {
-          "versions": [
-            "4.267.6"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Virtualization-Frontend": {
-          "versions": [
-            "4.241.1"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "3Scale": {
-          "versions": [
-            "4.278.1"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Application-Migration-Toolkit": {
-          "versions": [
-            "4.267.6"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Pbench": {
-          "versions": [
-            "4.198.19"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "CHE-dashboard": {
-          "versions": [
-            "^4.276.11"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "RedHatInsights-payload-tracker-frontend": {
-          "versions": [
-            "4.198.19"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Ansible-pinakes-ui": {
-          "versions": [
-            "^4.206.2"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "skupperproject-gilligan": {
-          "versions": [
-            "^4.162.3"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Migration-Toolkit-For-Applications": {
-          "versions": [
-            "5.4.14"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Ansible-ui": {
-          "versions": [
-            "^5.1",
-            "5.3.4"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Ansible-hub": {
-          "versions": [
-            "^5.4.11"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RedHatInsights-tower-analytics-frontend": {
-          "versions": [
-            "^5.4.11"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Foreman-Katello": {
-          "versions": [
-            "unknown"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Foreman-Console": {
-          "versions": [
-            "^5.2.0"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RedHatInsights-rbac-ui": {
-          "versions": [
-            "^5.1.1"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RedHatInsights-vulnerability-ui": {
-          "versions": [
-            "^5.3.3"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Kogito-tooling": {
-          "versions": [
-            "^5.4.1"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Camel-Karavan": {
-          "versions": [
-            "^5.4.12",
-            "^5.4.0"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Quipucords-Product-Discovery": {
-          "versions": [
-            "5.3.4"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Stackrox": {
-          "versions": [
-            "^5.2.2"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "ACM-console": {
-          "versions": [
-            "^5.4.10",
-            "^6.2.2",
-            "^5.4.14",
-            "^5"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RHEnVision": {
-          "versions": [
-            "5.1.2"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RedHatStorage-odf-console": {
-          "versions": [
-            "5.4.8"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RedHatInsights-patchman-ui": {
-          "versions": [
-            "^5.4.3"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RedHatInsights-policies-ui-frontend": {
-          "versions": [
-            "^5.4.0"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RedHatInsights-vuln4shift-frontend": {
-          "versions": [
-            "^5.4.14"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        }
-      }
-    },
-    "SelectGroup": {
-      "product_count": 7,
-      "products": {
-        "Migration-Toolkit-for-Containers": {
-          "versions": [
-            "^4.115.5"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "3Scale": {
-          "versions": [
-            "4.278.1"
-          ],
-          "importPaths": [
-            "@patternfly/react-core"
-          ]
-        },
-        "Ansible-hub": {
-          "versions": [
-            "^5.4.11"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RedHatInsights-vulnerability-ui": {
-          "versions": [
-            "^5.3.3"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Kogito-tooling": {
-          "versions": [
-            "^5.4.1"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "Stackrox": {
-          "versions": [
-            "^5.2.2"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "RedHatStorage-odf-console": {
-          "versions": [
-            "5.4.8"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        }
-      }
-    },
-    "SelectOption": {
       "product_count": 27,
       "products": {
         "Migration-Toolkit-for-Containers": {
@@ -518,12 +223,285 @@
             "@patternfly/react-core/deprecated"
           ]
         },
-        "ACM-console": {
+        "RHEnVision": {
           "versions": [
-            "^5.4.10",
-            "^6.2.2",
-            "^5.4.14",
-            "^5"
+            "5.1.2"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "RedHatStorage-odf-console": {
+          "versions": [
+            "5.4.8"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "RedHatInsights-patchman-ui": {
+          "versions": [
+            "^5.4.3"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "RedHatInsights-policies-ui-frontend": {
+          "versions": [
+            "^5.4.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "RedHatInsights-vuln4shift-frontend": {
+          "versions": [
+            "^5.4.14"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        }
+      }
+    },
+    "SelectGroup": {
+      "product_count": 7,
+      "products": {
+        "Migration-Toolkit-for-Containers": {
+          "versions": [
+            "^4.115.5"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "3Scale": {
+          "versions": [
+            "4.278.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Ansible-hub": {
+          "versions": [
+            "^5.4.11"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "RedHatInsights-vulnerability-ui": {
+          "versions": [
+            "^5.3.3"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Kogito-tooling": {
+          "versions": [
+            "^5.4.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Stackrox": {
+          "versions": [
+            "^5.2.2"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "RedHatStorage-odf-console": {
+          "versions": [
+            "5.4.8"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        }
+      }
+    },
+    "SelectOption": {
+      "product_count": 26,
+      "products": {
+        "Migration-Toolkit-for-Containers": {
+          "versions": [
+            "^4.115.5"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "RHEL-Composer": {
+          "versions": [
+            "4.267.6"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Virtualization-Frontend": {
+          "versions": [
+            "4.241.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "3Scale": {
+          "versions": [
+            "4.278.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Application-Migration-Toolkit": {
+          "versions": [
+            "4.267.6"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Pbench": {
+          "versions": [
+            "4.198.19"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "CHE-dashboard": {
+          "versions": [
+            "^4.276.11"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "RedHatInsights-payload-tracker-frontend": {
+          "versions": [
+            "4.198.19"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Ansible-pinakes-ui": {
+          "versions": [
+            "^4.206.2"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "skupperproject-gilligan": {
+          "versions": [
+            "^4.162.3"
+          ],
+          "importPaths": [
+            "@patternfly/react-core"
+          ]
+        },
+        "Migration-Toolkit-For-Applications": {
+          "versions": [
+            "5.4.14"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Ansible-ui": {
+          "versions": [
+            "^5.1",
+            "5.3.4"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Ansible-hub": {
+          "versions": [
+            "^5.4.11"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "RedHatInsights-tower-analytics-frontend": {
+          "versions": [
+            "^5.4.11"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Foreman-Katello": {
+          "versions": [
+            "unknown"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Foreman-Console": {
+          "versions": [
+            "^5.2.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "RedHatInsights-rbac-ui": {
+          "versions": [
+            "^5.1.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "RedHatInsights-vulnerability-ui": {
+          "versions": [
+            "^5.3.3"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Kogito-tooling": {
+          "versions": [
+            "^5.4.1"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Camel-Karavan": {
+          "versions": [
+            "^5.4.12",
+            "^5.4.0"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Quipucords-Product-Discovery": {
+          "versions": [
+            "5.3.4"
+          ],
+          "importPaths": [
+            "@patternfly/react-core/deprecated"
+          ]
+        },
+        "Stackrox": {
+          "versions": [
+            "^5.2.2"
           ],
           "importPaths": [
             "@patternfly/react-core/deprecated"
@@ -564,7 +542,7 @@
       }
     },
     "SelectProps": {
-      "product_count": 9,
+      "product_count": 8,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -617,17 +595,6 @@
         "Stackrox": {
           "versions": [
             "^5.2.2"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "ACM-console": {
-          "versions": [
-            "^5.4.10",
-            "^6.2.2",
-            "^5.4.14",
-            "^5"
           ],
           "importPaths": [
             "@patternfly/react-core/deprecated"
@@ -787,7 +754,7 @@
       }
     },
     "SelectVariant": {
-      "product_count": 21,
+      "product_count": 20,
       "products": {
         "RHEL-Composer": {
           "versions": [
@@ -922,17 +889,6 @@
         "Quipucords-Product-Discovery": {
           "versions": [
             "5.3.4"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "ACM-console": {
-          "versions": [
-            "^5.4.10",
-            "^6.2.2",
-            "^5.4.14",
-            "^5"
           ],
           "importPaths": [
             "@patternfly/react-core/deprecated"
@@ -2780,7 +2736,7 @@
     }
   },
   "Wizard": {
-    "product_count": 11,
+    "product_count": 10,
     "products": [
       "Migration-Toolkit-for-Containers",
       "Foreman-Katello",
@@ -2788,25 +2744,24 @@
       "RedHatInsights-tower-analytics-frontend",
       "RedHatInsights-rbac-ui",
       "Kogito-tooling",
-      "ACM-console",
       "RHEnVision",
       "RedHatStorage-odf-console",
       "RedHatInsights-patchman-ui",
       "RedHatInsights-policies-ui-frontend"
     ],
     "product_count_by_component": {
-      "Wizard": 12,
-      "WizardFooter": 7,
+      "Wizard": 11,
       "WizardContextConsumer": 7,
-      "WizardContext": 4,
-      "WizardStep": 4,
+      "WizardFooter": 6,
+      "WizardContext": 3,
+      "WizardStep": 3,
       "WizardStepFunctionType": 2,
       "WizardContextType": 2,
       "WizardHeader": 1,
       "WizardContextProvider": 1
     },
     "Wizard": {
-      "product_count": 12,
+      "product_count": 11,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -2859,17 +2814,6 @@
             "@patternfly/react-core/deprecated"
           ]
         },
-        "ACM-console": {
-          "versions": [
-            "^5.4.10",
-            "^6.2.2",
-            "^5.4.14",
-            "^5"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
         "RHEnVision": {
           "versions": [
             "5.1.2"
@@ -2905,7 +2849,7 @@
       }
     },
     "WizardContext": {
-      "product_count": 4,
+      "product_count": 3,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -2918,17 +2862,6 @@
         "Kogito-tooling": {
           "versions": [
             "^5.4.1"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "ACM-console": {
-          "versions": [
-            "^5.4.10",
-            "^6.2.2",
-            "^5.4.14",
-            "^5"
           ],
           "importPaths": [
             "@patternfly/react-core/deprecated"
@@ -2970,7 +2903,7 @@
       "products": {}
     },
     "WizardFooter": {
-      "product_count": 7,
+      "product_count": 6,
       "products": {
         "Migration-Toolkit-for-Containers": {
           "versions": [
@@ -2991,17 +2924,6 @@
         "Kogito-tooling": {
           "versions": [
             "^5.4.1"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
-          ]
-        },
-        "ACM-console": {
-          "versions": [
-            "^5.4.10",
-            "^6.2.2",
-            "^5.4.14",
-            "^5"
           ],
           "importPaths": [
             "@patternfly/react-core/deprecated"
@@ -3034,7 +2956,7 @@
       }
     },
     "WizardStep": {
-      "product_count": 4,
+      "product_count": 3,
       "products": {
         "Foreman-Katello": {
           "versions": [
@@ -3042,17 +2964,6 @@
           ],
           "importPaths": [
             "@patternfly/react-core"
-          ]
-        },
-        "ACM-console": {
-          "versions": [
-            "^5.4.10",
-            "^6.2.2",
-            "^5.4.14",
-            "^5"
-          ],
-          "importPaths": [
-            "@patternfly/react-core/deprecated"
           ]
         },
         "RedHatStorage-odf-console": {

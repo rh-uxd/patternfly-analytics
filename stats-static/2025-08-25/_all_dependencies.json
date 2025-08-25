@@ -1,5 +1,6 @@
 {
   "@4tw/cypress-drag-drop": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "RedHatInsights-landing-page-frontend"
@@ -51,10 +52,48 @@
   "@angular/router": [
     "Apicurio"
   ],
+  "@ansible/aap-mock": [
+    "Ansible-aap-ui"
+  ],
+  "@ansible/ansible-ai-connect-chatbot": [
+    "Ansible-aap-ui"
+  ],
   "@ansible/ansible-ui-framework": [
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service"
   ],
+  "@ansible/awx-ui": [
+    "Ansible-aap-ui",
+    "Ansible-aap-ui"
+  ],
+  "@ansible/chatbot": [
+    "Ansible-aap-ui"
+  ],
+  "@ansible/common-ui": [
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui"
+  ],
+  "@ansible/eda-ui": [
+    "Ansible-aap-ui",
+    "Ansible-aap-ui"
+  ],
+  "@ansible/hub-ui": [
+    "Ansible-aap-ui",
+    "Ansible-aap-ui"
+  ],
+  "@ansible/platform-ui": [
+    "Ansible-aap-ui"
+  ],
   "@ansible/react-json-chart-builder": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "RedHatInsights-tower-analytics-frontend"
@@ -183,6 +222,7 @@
     "3Scale",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-pinakes-ui",
@@ -333,6 +373,7 @@
     "RedHatInsights-vulnerability-ui",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin"
   ],
   "@babel/eslint-parser": [
@@ -347,7 +388,8 @@
     "RedHatInsights-payload-tracker-frontend",
     "RedHatInsights-sources-ui",
     "RedHatInsights-vulnerability-ui",
-    "Virtualization-Frontend"
+    "Virtualization-Frontend",
+    "Web-rca-ui"
   ],
   "@babel/eslint-plugin": [
     "Foreman-Katello",
@@ -378,6 +420,7 @@
     "RedHatInsights-rbac-ui"
   ],
   "@babel/plugin-proposal-object-rest-spread": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Foreman-Tools",
@@ -433,6 +476,7 @@
     "Ansible-hub",
     "Ansible-pinakes-ui",
     "OCM-UI",
+    "Portal-Case-Management",
     "RHEnVision",
     "RedHatInsights-acs-ui",
     "RedHatInsights-astro-virtual-assistant-frontend",
@@ -455,7 +499,8 @@
     "RedHatInsights-tasks-frontend",
     "RedHatInsights-tower-analytics-frontend",
     "RedHatInsights-vuln4shift-frontend",
-    "Stackrox"
+    "Stackrox",
+    "Web-rca-ui"
   ],
   "@babel/plugin-transform-typescript": [
     "network-observability-console-plugin"
@@ -576,6 +621,7 @@
     "OpenShift-console-plugin-template",
     "Opendatahub",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RHEL-Composer",
     "RHEnVision",
@@ -605,6 +651,7 @@
     "RedHatInsights-vulnerability-ui",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin"
   ],
   "@babel/preset-flow": [
@@ -615,6 +662,7 @@
     "3Scale",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-hub",
     "Ansible-pinakes-ui",
     "Ansible-react-json-chart-builder",
@@ -717,6 +765,7 @@
     "OCM-UI",
     "Opendatahub",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RHEL-Composer",
     "RHEnVision",
@@ -747,11 +796,13 @@
     "RedHatInsights-vulnerability-ui",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin"
   ],
   "@babel/preset-typescript": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-hub",
     "Ansible-pinakes-ui",
     "Ansible-ui",
@@ -781,6 +832,7 @@
     "ACM-console",
     "Ansible-hub",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
     "RedHatInsights-compliance-frontend",
     "RedHatInsights-insights-advisor-frontend",
     "RedHatInsights-insights-dashboard",
@@ -2301,6 +2353,39 @@
   "@carbon/icons-react": [
     "RedHatInsights-data-driven-forms"
   ],
+  "@casl/ability": [
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
+  "@casl/react": [
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
+  "@cee-eng/hydrajs": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
+  "@cee-eng/ui-toolkit": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "@changesets/cli": [
     "Aonic-UI",
     "Backstage",
@@ -2484,6 +2569,7 @@
   ],
   "@cypress/code-coverage": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Containerd-shim-ollama",
@@ -2566,7 +2652,8 @@
     "RedHatInsights-patchman-ui",
     "RedHatInsights-rbac-ui",
     "RedHatInsights-remediations-frontend",
-    "RedHatInsights-sources-ui"
+    "RedHatInsights-sources-ui",
+    "Web-rca-ui"
   ],
   "@data-driven-forms/react-form-renderer": [
     "Ansible-pinakes-ui",
@@ -2584,7 +2671,8 @@
     "RedHatInsights-patchman-ui",
     "RedHatInsights-rbac-ui",
     "RedHatInsights-remediations-frontend",
-    "RedHatInsights-sources-ui"
+    "RedHatInsights-sources-ui",
+    "Web-rca-ui"
   ],
   "@devfile/api": [
     "CHE-dashboard",
@@ -2932,6 +3020,10 @@
     "RHDH-plugins",
     "RHDH-plugins",
     "RHDH-plugins"
+  ],
+  "@ifd-ui/ask-redhat-core": [
+    "Portal-Case-Management",
+    "Portal-Case-Management"
   ],
   "@imranbarbhuiya/duration": [
     "Packit-Dashboard"
@@ -5574,6 +5666,8 @@
   "@patternfly/patternfly": [
     "3Scale",
     "ACM-console",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-pinakes-ui",
@@ -5633,6 +5727,15 @@
     "Openshift-logging-view-plugin",
     "Packit-Dashboard",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -5667,6 +5770,7 @@
     "RedHatInsights-vulnerability-ui",
     "RedHatStorage-odf-console",
     "RedHatStorage-odf-console",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "skupperproject-gilligan",
     "skupperproject-openshift-site-plugin",
@@ -5674,6 +5778,7 @@
   ],
   "@patternfly/quickstarts": [
     "3Scale",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Cryostat-Web",
@@ -5699,6 +5804,7 @@
   ],
   "@patternfly/react-charts": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-react-json-chart-builder",
     "Ansible-react-json-chart-builder",
     "Ansible-ui",
@@ -5818,6 +5924,7 @@
     "RedHatInsights-vuln4shift-frontend",
     "RedHatInsights-vulnerability-ui",
     "Stackrox",
+    "Web-rca-ui",
     "skupperproject-openshift-site-plugin"
   ],
   "@patternfly/react-console": [
@@ -5831,6 +5938,8 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-azure-aap-deployment-driver",
     "Ansible-hub",
@@ -5966,6 +6075,17 @@
     "Packit-Dashboard",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -6026,6 +6146,7 @@
     "Stackrox",
     "Trusted-Content-CRDA",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-gilligan",
@@ -6049,6 +6170,8 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-pinakes-ui",
     "Ansible-ui",
@@ -6153,6 +6276,9 @@
     "Openshift-pipelines-console-plugin",
     "Packit-Dashboard",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Kickstart-AI-Virtual-Agent",
@@ -6203,6 +6329,7 @@
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-gilligan",
@@ -6299,6 +6426,8 @@
     "ACM-console",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-azure-aap-deployment-driver",
@@ -6382,6 +6511,13 @@
     "Openshift-pipelines-console-plugin",
     "Packit-Dashboard",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -6432,12 +6568,14 @@
     "Stackrox",
     "Trusted-Content-CRDA",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "skupperproject-gilligan",
     "skupperproject-openshift-site-plugin",
     "skupperproject-skupper-console"
   ],
   "@patternfly/react-templates": [
+    "Ansible-aap-ui",
     "Containerd-shim-ollama",
     "Kubeflow-Model-Registry",
     "Kubevirt",
@@ -6485,6 +6623,7 @@
     "Openshift-dynamic-plugin-sdk",
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
     "RH-AI-Kickstart-AI-Virtual-Agent",
     "RH-Data-Services-ODH-Dashboard",
     "RHDH-plugins",
@@ -6509,6 +6648,7 @@
   ],
   "@patternfly/react-topology": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Camel-Karavan",
@@ -6584,6 +6724,7 @@
     "Openshift-distributed-tracing-console-plugin"
   ],
   "@playwright/test": [
+    "Ansible-aap-ui",
     "Apicurio",
     "Apicurio-Registry",
     "Convo-Backstage-ChatBot-UI",
@@ -6632,6 +6773,7 @@
   "@pmmmwh/react-refresh-webpack-plugin": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ui",
     "Ansible-ui",
@@ -6669,12 +6811,22 @@
   "@prettier/plugin-xml": [
     "Kogito-tooling"
   ],
+  "@progress/kendo-drawing": [
+    "Portal-Case-Management"
+  ],
+  "@progress/kendo-licensing": [
+    "Portal-Case-Management"
+  ],
+  "@progress/kendo-react-pdf": [
+    "Portal-Case-Management"
+  ],
   "@prometheus-io/codemirror-promql": [
     "Openshift-monitoring-plugin"
   ],
   "@react-hook/resize-observer": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "OCM-UI",
@@ -6977,7 +7129,8 @@
     "RedHatInsights-tasks-frontend",
     "RedHatInsights-tower-analytics-frontend",
     "RedHatInsights-vuln4shift-frontend",
-    "RedHatInsights-vulnerability-ui"
+    "RedHatInsights-vulnerability-ui",
+    "Web-rca-ui"
   ],
   "@redhat-cloud-services/frontend-components-advisor-components": [
     "RedHatInsights-insights-advisor-frontend",
@@ -7056,7 +7209,8 @@
     "RedHatInsights-tasks-frontend",
     "RedHatInsights-tower-analytics-frontend",
     "RedHatInsights-vuln4shift-frontend",
-    "RedHatInsights-vulnerability-ui"
+    "RedHatInsights-vulnerability-ui",
+    "Web-rca-ui"
   ],
   "@redhat-cloud-services/frontend-components-pdf-generator": [
     "RedHatInsights-insights-chrome",
@@ -7140,6 +7294,9 @@
     "RedHatInsights-remediations-frontend",
     "RedHatInsights-vulnerability-ui"
   ],
+  "@redhat-cloud-services/keycloak-js": [
+    "Web-rca-ui"
+  ],
   "@redhat-cloud-services/notifications-client": [
     "RedHatInsights-notifications-frontend"
   ],
@@ -7150,7 +7307,8 @@
     "RedHatInsights-frontend-components",
     "RedHatInsights-insights-chrome",
     "RedHatInsights-notifications-frontend",
-    "RedHatInsights-rbac-ui"
+    "RedHatInsights-rbac-ui",
+    "Web-rca-ui"
   ],
   "@redhat-cloud-services/remediations-client": [
     "RedHatInsights-remediations-frontend"
@@ -7218,6 +7376,8 @@
     "RHDH-plugins"
   ],
   "@redux-devtools/extension": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Virtualization-Frontend"
   ],
   "@reduxjs/toolkit": [
@@ -7244,6 +7404,65 @@
   ],
   "@rescript/react": [
     "Change-Metrics-Monocle"
+  ],
+  "@rh-support/cases": [
+    "Portal-Case-Management"
+  ],
+  "@rh-support/components": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
+  "@rh-support/configs": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
+  "@rh-support/manage": [
+    "Portal-Case-Management"
+  ],
+  "@rh-support/react-context": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
+  "@rh-support/troubleshoot": [
+    "Portal-Case-Management"
+  ],
+  "@rh-support/types": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
+  "@rh-support/user-permissions": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
+  "@rh-support/utils": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
+  "@rhcp/primer": [
+    "Portal-Case-Management"
   ],
   "@rhds/elements": [
     "RHDH-plugins",
@@ -7391,7 +7610,8 @@
     "Quay",
     "Quay",
     "RedHatInsights-frontend-components",
-    "RedHatInsights-insights-chrome"
+    "RedHatInsights-insights-chrome",
+    "Web-rca-ui"
   ],
   "@sentry/cli": [
     "OCM-UI",
@@ -7672,6 +7892,7 @@
   "@svgr/webpack": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ui",
     "Ansible-ui",
@@ -7686,6 +7907,7 @@
     "RedHatInsights-frontend-components"
   ],
   "@swc/core": [
+    "Ansible-aap-ui",
     "Backstage",
     "Containerd-shim-ollama",
     "Cost-Management",
@@ -7790,6 +8012,9 @@
     "OCM-UI",
     "Opendatahub",
     "Openshift-dynamic-plugin-sdk",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quipucords-Product-Discovery",
     "RHDH-plugins",
     "RHDH-plugins",
@@ -7825,6 +8050,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-azure-aap-deployment-driver",
     "Ansible-pinakes-ui",
@@ -7885,6 +8111,12 @@
     "Openshift-dynamic-plugin-sdk",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -7962,6 +8194,7 @@
     "RedHatStorage-odf-console",
     "Stackrox",
     "Trusted-Content-CRDA",
+    "Web-rca-ui",
     "skupperproject-gilligan",
     "skupperproject-openshift-site-plugin",
     "skupperproject-skupper-console"
@@ -7970,6 +8203,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -8029,6 +8263,12 @@
     "Packit-Dashboard",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -8106,6 +8346,7 @@
     "RedHatStorage-odf-console",
     "Stackrox",
     "Trusted-Content-CRDA",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "skupperproject-gilligan",
     "skupperproject-openshift-site-plugin",
@@ -8123,6 +8364,7 @@
     "Migration-Tools-Shared-Library",
     "Nmstate-plugin",
     "Openshift-dynamic-plugin-sdk",
+    "Portal-Case-Management",
     "RHDH-plugins",
     "RedHatInsights-policies-ui-frontend",
     "RedHatInsights-remediations-frontend",
@@ -8132,6 +8374,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -8166,6 +8409,12 @@
     "Openshift-dynamic-plugin-sdk",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -8233,6 +8482,7 @@
     "RedHatStorage-odf-console",
     "Stackrox",
     "Trusted-Content-CRDA",
+    "Web-rca-ui",
     "skupperproject-gilligan",
     "skupperproject-openshift-site-plugin",
     "skupperproject-skupper-console"
@@ -8367,6 +8617,11 @@
     "3Scale",
     "CHE-dashboard"
   ],
+  "@types/compression": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "@types/compression-webpack-plugin": [
     "ACM-console"
   ],
@@ -8414,6 +8669,7 @@
   ],
   "@types/debounce": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -8432,15 +8688,24 @@
     "RHDH-plugins"
   ],
   "@types/dompurify": [
+    "Ansible-aap-ui",
     "Containerd-shim-ollama",
     "Kubeflow-Model-Registry",
     "Opendatahub",
     "Opendatahub",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RH-Data-Services-ODH-Dashboard"
   ],
   "@types/dot": [
     "RedHatInsights-frontend-components"
+  ],
+  "@types/dotenv": [
+    "Portal-Case-Management"
   ],
   "@types/echarts": [
     "Kogito-tooling"
@@ -8481,6 +8746,9 @@
     "KAI-IDE-plugin",
     "Kogito-tooling",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RHDH-plugins",
     "RHDH-plugins",
     "RHDH-plugins",
@@ -8524,6 +8792,7 @@
     "Kogito-tooling",
     "Kogito-tooling",
     "OpenShift-Admin-Console",
+    "Portal-Case-Management",
     "RHDH-plugins",
     "RHDH-plugins",
     "RHDH-plugins",
@@ -8533,6 +8802,7 @@
     "ACM-console",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -8542,6 +8812,7 @@
     "Redhat-developer-gitops-console-plugin"
   ],
   "@types/glob": [
+    "Ansible-aap-ui",
     "Camel-Karavan",
     "OpenShift-Admin-Console",
     "Openshift-dynamic-plugin-sdk",
@@ -8568,8 +8839,10 @@
   ],
   "@types/html-webpack-plugin": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
-    "Ansible-ui"
+    "Ansible-ui",
+    "Portal-Case-Management"
   ],
   "@types/http-errors": [
     "Opendatahub",
@@ -8591,7 +8864,10 @@
     "Openshift-assisted-ui"
   ],
   "@types/i18next": [
-    "Migration-Toolkit-for-Virtualization"
+    "Migration-Toolkit-for-Virtualization",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
   ],
   "@types/immutable": [
     "OpenShift-Admin-Console",
@@ -8716,6 +8992,15 @@
     "Openshift-logging-view-plugin",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -8805,6 +9090,7 @@
   ],
   "@types/js-yaml": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Aonic-UI",
@@ -8850,6 +9136,7 @@
     "KAI-IDE-plugin"
   ],
   "@types/json-schema": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Kogito-tooling",
@@ -8923,6 +9210,15 @@
     "Openshift-assisted-ui",
     "Openshift-dynamic-plugin-sdk",
     "Openshift-logging-view-plugin",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RHDH-plugins",
     "RHDH-plugins",
@@ -8966,7 +9262,11 @@
   "@types/lodash.startcase": [
     "RedHatInsights-api-documentation-frontend"
   ],
+  "@types/lucene": [
+    "Portal-Case-Management"
+  ],
   "@types/luxon": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Apicurio-Registry",
@@ -8982,6 +9282,10 @@
   "@types/madge": [
     "RedHatInsights-frontend-components"
   ],
+  "@types/marked": [
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "@types/method-override": [
     "Hawtio-online",
     "Hawtio-online-console-plugin"
@@ -8989,7 +9293,8 @@
   "@types/mini-css-extract-plugin": [
     "ACM-console",
     "Ansible-ui",
-    "Ansible-ui"
+    "Ansible-ui",
+    "Portal-Case-Management"
   ],
   "@types/minimatch": [
     "Kogito-tooling",
@@ -9029,6 +9334,7 @@
     "ACM-console",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -9103,6 +9409,16 @@
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
     "Packit-Dashboard",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "RH-AI-Kickstart-AI-Virtual-Agent",
@@ -9178,6 +9494,9 @@
     "Ansible-pinakes-ui",
     "CHE-dashboard",
     "Cost-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Stackrox"
   ],
   "@types/qunit": [
@@ -9187,6 +9506,7 @@
     "3Scale",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -9336,6 +9656,13 @@
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
     "Packit-Dashboard",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -9376,8 +9703,14 @@
     "Assisted-installer-ui",
     "Openshift-assisted-ui"
   ],
+  "@types/react-beautiful-dnd": [
+    "Portal-Case-Management"
+  ],
   "@types/react-beforeunload": [
     "ACM-console"
+  ],
+  "@types/react-bootstrap-typeahead": [
+    "Portal-Case-Management"
   ],
   "@types/react-copy-to-clipboard": [
     "CHE-dashboard",
@@ -9400,6 +9733,7 @@
     "3Scale",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -9519,6 +9853,13 @@
     "Openshift-dynamic-plugin-sdk",
     "Openshift-logging-view-plugin",
     "Packit-Dashboard",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -9607,6 +9948,9 @@
     "Opendatahub",
     "Openshift-assisted-ui",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "RH-Data-Services-ODH-Dashboard",
     "RedHatInsights-Hybrid-Committed-Spend",
@@ -9658,6 +10002,12 @@
     "Openshift-monitoring-plugin",
     "Openshift-networking-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -9698,7 +10048,8 @@
     "Ansible-ai-connect-service",
     "CHE-dashboard",
     "Cryostat-Web",
-    "Openshift-dynamic-plugin-sdk"
+    "Openshift-dynamic-plugin-sdk",
+    "Portal-Case-Management"
   ],
   "@types/react-transition-group": [
     "Kogito-tooling",
@@ -9728,6 +10079,10 @@
   ],
   "@types/recursive-readdir": [
     "Backstage"
+  ],
+  "@types/redux": [
+    "Portal-Case-Management",
+    "Portal-Case-Management"
   ],
   "@types/redux-api-middleware": [
     "3Scale"
@@ -9781,9 +10136,15 @@
     "Openshift-dynamic-plugin-sdk",
     "Redhat-developer-gitops-console-plugin"
   ],
+  "@types/serve-static": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "@types/set-value": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -9819,6 +10180,7 @@
     "ACM-console"
   ],
   "@types/styled-components": [
+    "Ansible-aap-ui",
     "Ansible-pinakes-ui",
     "Ansible-react-json-chart-builder",
     "Ansible-ui",
@@ -9877,6 +10239,7 @@
     "RedHatInsights-insights-chrome"
   ],
   "@types/uuid": [
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-react-json-chart-builder",
@@ -9962,10 +10325,12 @@
   ],
   "@types/webpack": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "CHE-dashboard",
     "Kogito-tooling",
+    "Portal-Case-Management",
     "Quay"
   ],
   "@types/webpack-bundle-analyzer": [
@@ -9975,6 +10340,7 @@
   ],
   "@types/webpack-dev-server": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Kiali-openshift-servicemesh-plugin",
@@ -9986,6 +10352,9 @@
   "@types/ws": [
     "Opendatahub",
     "RH-Data-Services-ODH-Dashboard"
+  ],
+  "@types/xml2js": [
+    "Ansible-aap-ui"
   ],
   "@types/yargs": [
     "Kogito-tooling",
@@ -10000,6 +10369,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-pinakes-ui",
     "Ansible-react-json-chart-builder",
@@ -10057,6 +10427,7 @@
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -10095,6 +10466,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-pinakes-ui",
     "Ansible-react-json-chart-builder",
@@ -10146,6 +10518,7 @@
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -10242,6 +10615,7 @@
     "skupperproject-skupper-console"
   ],
   "@vitejs/plugin-react-swc": [
+    "Ansible-aap-ui",
     "Apicurio",
     "Apicurio-Registry",
     "Apicurio-Registry",
@@ -10260,6 +10634,7 @@
     "Ansible-ai-connect-service"
   ],
   "@vitest/coverage-v8": [
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Freeipa",
@@ -10276,6 +10651,7 @@
     "skupperproject-skupper-console"
   ],
   "@vitest/ui": [
+    "Ansible-aap-ui",
     "Assisted-installer-ui",
     "Openshift-assisted-ui",
     "RedHatInsights-frontend-components"
@@ -10367,6 +10743,9 @@
     "Foreman-Console",
     "Foreman-Tools"
   ],
+  "acorn": [
+    "Portal-Case-Management"
+  ],
   "adm-zip": [
     "KAI-IDE-plugin",
     "KAI-IDE-plugin"
@@ -10411,6 +10790,12 @@
     "RHDH-plugins",
     "RHDH-plugins"
   ],
+  "allure": [
+    "Ansible-aap-ui"
+  ],
+  "allure-playwright": [
+    "Ansible-aap-ui"
+  ],
   "angular": [
     "Foreman-Katello",
     "Quay",
@@ -10441,6 +10826,7 @@
     "Quay"
   ],
   "anser": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -10467,6 +10853,7 @@
     "Apicurio-Registry"
   ],
   "antsibull-docs": [
+    "Ansible-aap-ui",
     "Ansible-hub",
     "Ansible-ui",
     "Ansible-ui"
@@ -10582,7 +10969,8 @@
     "Ansible-pinakes-ui",
     "RedHatInsights-frontend-components",
     "RedHatInsights-inventory-frontend",
-    "RedHatInsights-sources-ui"
+    "RedHatInsights-sources-ui",
+    "Web-rca-ui"
   ],
   "axe-core": [
     "OpenShift-Admin-Console",
@@ -10636,6 +11024,7 @@
     "Openshift-assisted-ui",
     "Openshift-assisted-ui",
     "Pbench",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-Data-Services-ODH-Dashboard",
@@ -10666,6 +11055,7 @@
     "RedHatInsights-vuln4shift-frontend",
     "RedHatInsights-vulnerability-ui",
     "Stackrox",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "skupperproject-openshift-site-plugin",
     "skupperproject-skupper-console"
@@ -10706,6 +11096,7 @@
     "Foreman-Console",
     "Foreman-Tasks",
     "Foreman-Tools",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RedHatInsights-data-driven-forms",
     "RedHatInsights-insights-advisor-frontend"
@@ -10732,6 +11123,7 @@
     "Opendatahub",
     "Openshift-pipelines-console-plugin",
     "Pbench",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RHEnVision",
     "RedHatInsights-Subs-Watch",
@@ -10753,6 +11145,7 @@
   "babel-loader": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-pinakes-ui",
@@ -10772,6 +11165,7 @@
     "Opendatahub",
     "Openshift-dynamic-plugin-sdk",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RHEL-Composer",
     "RedHatInsights-compliance-frontend",
@@ -10789,6 +11183,7 @@
     "RedHatInsights-sed-frontend",
     "RedHatInsights-vulnerability-ui",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin"
   ],
   "babel-plugin-dual-import": [
@@ -10805,6 +11200,7 @@
   ],
   "babel-plugin-istanbul": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "RedHatInsights-compliance-frontend",
@@ -10834,11 +11230,13 @@
     "Packit-Dashboard"
   ],
   "babel-plugin-styled-components": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
   "babel-plugin-transform-class-properties": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "OCM-UI"
@@ -10866,6 +11264,9 @@
     "RedHatInsights-insights-advisor-frontend",
     "RedHatInsights-patchman-ui",
     "RedHatInsights-vulnerability-ui"
+  ],
+  "babel-polyfill": [
+    "Portal-Case-Management"
   ],
   "babel-preset-react": [
     "network-observability-console-plugin"
@@ -11036,6 +11437,7 @@
     "Keycloak"
   ],
   "canvas": [
+    "Ansible-aap-ui",
     "Ansible-pinakes-ui"
   ],
   "carbon-components": [
@@ -11071,6 +11473,7 @@
     "RH-Data-Services-ODH-Dashboard"
   ],
   "chalk": [
+    "Ansible-aap-ui",
     "Backstage",
     "Foreman-Tools",
     "Keycloak",
@@ -11110,6 +11513,9 @@
     "RedHatInsights-frontend-components",
     "RedHatInsights-policies-ui-frontend",
     "RedHatInsights-rbac-ui"
+  ],
+  "chokidar-cli": [
+    "Portal-Case-Management"
   ],
   "chromatic": [
     "RedHatInsights-rbac-ui"
@@ -11183,7 +11589,8 @@
     "RedHatStorage-odf-console",
     "RedHatStorage-odf-console",
     "Redhat-developer-gitops-console-plugin",
-    "Virtualization-Frontend"
+    "Virtualization-Frontend",
+    "Web-rca-ui"
   ],
   "clean-terminal-webpack-plugin": [
     "CHE-dashboard",
@@ -11278,11 +11685,15 @@
     "RH-Data-Services-ODH-Dashboard"
   ],
   "compression": [
-    "Migration-Toolkit-for-Containers"
+    "Migration-Toolkit-for-Containers",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
   ],
   "compression-webpack-plugin": [
     "3Scale",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Foreman-Console",
@@ -11303,6 +11714,7 @@
     "ACM-console",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Assisted-installer-ui",
@@ -11353,9 +11765,13 @@
   "cookie": [
     "Migration-Toolkit-For-Applications"
   ],
+  "cookie-parser": [
+    "Portal-Case-Management"
+  ],
   "copy-webpack-plugin": [
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "CHE-dashboard",
@@ -11508,7 +11924,8 @@
     "Kogito-tooling",
     "Kogito-tooling",
     "Kogito-tooling",
-    "Migration-Toolkit-For-Applications"
+    "Migration-Toolkit-For-Applications",
+    "Portal-Case-Management"
   ],
   "core-js": [
     "Apicurio",
@@ -11524,6 +11941,7 @@
     "Opendatahub",
     "Opendatahub",
     "Opendatahub",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quay",
@@ -11542,6 +11960,7 @@
     "Kogito-tooling"
   ],
   "coverage-istanbul-loader": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -11631,6 +12050,9 @@
   "crypto-js": [
     "Pbench"
   ],
+  "csp-html-webpack-plugin": [
+    "Kogito-tooling"
+  ],
   "cspell": [
     "Quipucords-Product-Discovery",
     "RedHatInsights-Subs-Watch"
@@ -11640,6 +12062,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-pinakes-ui",
@@ -11695,6 +12118,7 @@
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quay",
@@ -11725,6 +12149,7 @@
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin",
@@ -11734,6 +12159,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ui",
     "Ansible-ui",
@@ -11796,6 +12222,7 @@
     "Freeipa"
   ],
   "cypress": [
+    "Ansible-aap-ui",
     "Ansible-azure-aap-deployment-driver",
     "Ansible-hub",
     "Ansible-ui",
@@ -11917,6 +12344,7 @@
     "openshift-troubleshooting-panel-console-plugin"
   ],
   "cypress-react-selector": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Kiali",
@@ -11947,6 +12375,7 @@
     "skupperproject-skupper-console"
   ],
   "d3": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "OpenShift-Admin-Console",
@@ -11986,6 +12415,7 @@
     "Stackrox"
   ],
   "dagre": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Hawtio-next",
@@ -12013,6 +12443,8 @@
     "Cost-Management",
     "InstructLab-UI",
     "Kubevirt",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RHDH-plugins",
     "RHDH-plugins",
     "RedHatInsights-data-driven-forms",
@@ -12021,6 +12453,7 @@
     "Stackrox"
   ],
   "date-fns-tz": [
+    "Portal-Case-Management",
     "RHDH-plugins",
     "RedHatInsights-notifications-frontend"
   ],
@@ -12032,6 +12465,7 @@
   ],
   "debounce": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -12114,6 +12548,7 @@
     "RHDH-plugins"
   ],
   "dompurify": [
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Composer-AI-chatbot",
@@ -12123,16 +12558,25 @@
     "Kubeflow-Model-Registry",
     "Opendatahub",
     "Opendatahub",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RH-Data-Services-ODH-Dashboard"
   ],
   "dot": [
+    "Portal-Case-Management",
     "RedHatInsights-frontend-components",
     "RedHatInsights-frontend-components",
     "RedHatInsights-vulnerability-ui"
   ],
   "dotenv": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Containerd-shim-ollama",
     "Foreman-Console",
@@ -12146,6 +12590,7 @@
     "Openshift-distributed-tracing-console-plugin",
     "Openshift-lightspeed-console",
     "Pbench",
+    "Portal-Case-Management",
     "RH-AI-Services-Multimodal-Chatbot",
     "RH-AI-Services-RH-KB-Chat",
     "RH-Data-Services-ODH-Dashboard",
@@ -12334,6 +12779,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -12409,6 +12855,7 @@
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -12457,6 +12904,7 @@
     "Stackrox",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin",
@@ -12485,6 +12933,7 @@
     "ACM-console",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-hub",
@@ -12546,6 +12995,7 @@
     "RedHatStorage-odf-console",
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
+    "Web-rca-ui",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin",
     "skupperproject-skupper-console"
@@ -12671,6 +13121,7 @@
     "Stackrox"
   ],
   "eslint-plugin-flowtype": [
+    "Portal-Case-Management",
     "RedHatInsights-data-driven-forms",
     "Virtualization-Frontend"
   ],
@@ -12688,6 +13139,7 @@
   ],
   "eslint-plugin-i18next": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ui",
     "Ansible-ui"
@@ -12696,6 +13148,7 @@
     "3Scale",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Aonic-UI",
@@ -12717,6 +13170,7 @@
     "Opendatahub",
     "Openshift-assisted-ui",
     "Openshift-dynamic-plugin-sdk",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -12744,7 +13198,8 @@
     "RedHatInsights-data-driven-forms",
     "RedHatInsights-notifications-frontend",
     "RedHatInsights-policies-ui-frontend",
-    "RedHatStorage-odf-console"
+    "RedHatStorage-odf-console",
+    "Web-rca-ui"
   ],
   "eslint-plugin-jest-dom": [
     "Cost-Management",
@@ -12789,6 +13244,7 @@
   "eslint-plugin-jsx-a11y": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Aonic-UI",
@@ -12800,6 +13256,7 @@
     "OpenShift-Admin-Console",
     "Opendatahub",
     "Openshift-dynamic-plugin-sdk",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Kickstart-AI-Virtual-Agent",
@@ -12838,6 +13295,7 @@
     "RH-Data-Services-ODH-Dashboard"
   ],
   "eslint-plugin-no-only-tests": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Opendatahub",
@@ -12874,7 +13332,8 @@
     "Ansible-ai-connect-service",
     "Foreman-Console",
     "Foreman-Tools",
-    "Foreman-Tools"
+    "Foreman-Tools",
+    "Portal-Case-Management"
   ],
   "eslint-plugin-perfectionist": [
     "Kubevirt",
@@ -12893,6 +13352,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-pinakes-ui",
@@ -12927,6 +13387,7 @@
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Kickstart-AI-Virtual-Agent",
@@ -12943,6 +13404,7 @@
     "RedHatInsights-tower-analytics-frontend",
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
+    "Web-rca-ui",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin",
     "skupperproject-skupper-console"
@@ -12965,6 +13427,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -13014,6 +13477,7 @@
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -13043,6 +13507,7 @@
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin",
@@ -13058,6 +13523,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -13110,6 +13576,7 @@
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -13143,6 +13610,9 @@
     "skupperproject-openshift-site-plugin",
     "skupperproject-skupper-console"
   ],
+  "eslint-plugin-react-hooks-state": [
+    "Portal-Case-Management"
+  ],
   "eslint-plugin-react-redux": [
     "RedHatInsights-image-builder-frontend"
   ],
@@ -13171,6 +13641,7 @@
     "Nmstate-plugin",
     "OCM-UI",
     "Openshift-networking-console-plugin",
+    "Portal-Case-Management",
     "RHEL-Anaconda-webui",
     "RedHatInsights-Hybrid-Committed-Spend",
     "RedHatInsights-notifications-frontend",
@@ -13288,6 +13759,9 @@
     "Migration-Toolkit-For-Applications",
     "Migration-Toolkit-for-Containers",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quipucords-Product-Discovery",
     "RHDH-plugins",
     "RHDH-plugins",
@@ -13317,6 +13791,10 @@
   ],
   "extract-zip": [
     "KAI-IDE-plugin"
+  ],
+  "faker": [
+    "Portal-Case-Management",
+    "Portal-Case-Management"
   ],
   "fast-deep-equal": [
     "KAI-IDE-plugin",
@@ -13486,6 +13964,9 @@
   "flow-typed": [
     "Virtualization-Frontend"
   ],
+  "focus-options-polyfill": [
+    "Portal-Case-Management"
+  ],
   "font-awesome": [
     "Quay"
   ],
@@ -13504,6 +13985,7 @@
     "Opendatahub",
     "Opendatahub",
     "Openshift-networking-console-plugin",
+    "Portal-Case-Management",
     "Quay",
     "RH-Data-Services-ODH-Dashboard",
     "RH-Data-Services-ODH-Dashboard",
@@ -13545,6 +14027,8 @@
     "Keycloak",
     "Kogito-tooling",
     "OpenShift-Admin-Console",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RHDH-plugins",
     "RHDH-plugins",
     "RHDH-plugins",
@@ -13593,6 +14077,7 @@
     "ACM-console",
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -13637,6 +14122,7 @@
     "Openshift-pipelines-console-plugin"
   ],
   "glob": [
+    "Ansible-aap-ui",
     "Ansible-pinakes-ui",
     "Cockpit-Starter-Kit",
     "Cockpit-machines",
@@ -13644,6 +14130,8 @@
     "KAI-IDE-plugin",
     "Kogito-tooling",
     "OpenShift-Admin-Console",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "RHDH-plugins",
     "RHDH-plugins",
@@ -13812,6 +14300,7 @@
     "Virtualization-Frontend"
   ],
   "happy-dom": [
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Assisted-installer-ui",
     "Openshift-assisted-ui",
@@ -13861,6 +14350,8 @@
     "Migration-Toolkit-for-Containers",
     "OCM-UI",
     "OpenShift-Admin-Console",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "RHDH-plugins",
     "RHDH-plugins",
@@ -13900,10 +14391,14 @@
     "Camel-Karavan",
     "network-observability-console-plugin"
   ],
+  "html-webpack-injector": [
+    "Portal-Case-Management"
+  ],
   "html-webpack-plugin": [
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-pinakes-ui",
@@ -13954,6 +14449,8 @@
     "Openshift-logging-view-plugin",
     "Openshift-monitoring-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -13966,6 +14463,7 @@
     "RedHatInsights-insights-chrome",
     "RedHatInsights-payload-tracker-frontend",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "skupperproject-skupper-console"
   ],
@@ -13995,6 +14493,7 @@
     "Hawtio-online-console-plugin",
     "Migration-Toolkit-For-Applications",
     "Migration-Toolkit-for-Containers",
+    "Portal-Case-Management",
     "RHDH-plugins"
   ],
   "http-server": [
@@ -14059,6 +14558,7 @@
   ],
   "husky": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Backstage",
@@ -14077,6 +14577,7 @@
     "Opendatahub",
     "Openshift-logging-view-plugin",
     "Openshift-monitoring-plugin",
+    "Portal-Case-Management",
     "RH-AI-Kickstart-AI-Virtual-Agent",
     "RHDH-plugins",
     "RedHatInsights-frontend-components",
@@ -14090,6 +14591,7 @@
   ],
   "i18next": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Assisted-installer-ui",
@@ -14113,6 +14615,14 @@
     "Openshift-distributed-tracing-console-plugin",
     "Openshift-logging-view-plugin",
     "Openshift-monitoring-plugin",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quipucords-Product-Discovery",
     "RH-AI-Services-Multimodal-Chatbot",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -14126,6 +14636,7 @@
   ],
   "i18next-browser-languagedetector": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ui",
     "Ansible-ui",
@@ -14150,6 +14661,7 @@
   ],
   "i18next-http-backend": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ui",
     "Ansible-ui",
@@ -14200,6 +14712,9 @@
   "i18next-pseudo": [
     "OpenShift-Admin-Console"
   ],
+  "i18next-scanner": [
+    "Portal-Case-Management"
+  ],
   "i18next-v4-format-converter": [
     "OpenShift-Admin-Console"
   ],
@@ -14222,6 +14737,9 @@
     "Migration-Toolkit-for-Containers",
     "Migration-Tools-Shared-Library",
     "Openshift-dynamic-plugin-sdk",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RHEnVision",
     "RedHatInsights-Hybrid-Committed-Spend",
     "RedHatInsights-acs-ui",
@@ -14249,7 +14767,11 @@
     "RedHatInsights-sources-ui",
     "RedHatInsights-tasks-frontend",
     "RedHatInsights-vulnerability-ui",
-    "RedHatStorage-odf-console"
+    "RedHatStorage-odf-console",
+    "Web-rca-ui"
+  ],
+  "image-webpack-loader": [
+    "Portal-Case-Management"
   ],
   "imagemin": [
     "AMQ-Chatbot-POC",
@@ -14325,6 +14847,9 @@
     "Hawtio-online",
     "Hawtio-online",
     "Hawtio-online-console-plugin"
+  ],
+  "intersection-observer": [
+    "Portal-Case-Management"
   ],
   "interweave": [
     "Change-Metrics-Monocle"
@@ -14534,6 +15059,15 @@
     "Openshift-logging-view-plugin",
     "Openshift-pipelines-console-plugin",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -14568,6 +15102,7 @@
     "RedHatInsights-vulnerability-ui",
     "RedHatStorage-odf-console",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin"
   ],
@@ -14653,6 +15188,15 @@
     "Opendatahub",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quipucords-Product-Discovery",
     "RH-AI-Services-Multimodal-Chatbot",
     "RH-AI-Services-RH-KB-Chat",
@@ -14682,6 +15226,7 @@
     "RedHatInsights-tasks-frontend",
     "RedHatInsights-vulnerability-ui",
     "RedHatStorage-odf-console",
+    "Web-rca-ui",
     "openshift-troubleshooting-panel-console-plugin"
   ],
   "jest-extended": [
@@ -14771,7 +15316,8 @@
     "Kogito-tooling",
     "Kogito-tooling",
     "OpenShift-Admin-Console",
-    "Openshift-pipelines-console-plugin"
+    "Openshift-pipelines-console-plugin",
+    "Web-rca-ui"
   ],
   "jest-localstorage-mock": [
     "Kiali-openshift-servicemesh-plugin"
@@ -14963,11 +15509,23 @@
     "Hawtio-next",
     "Hawtio-next"
   ],
+  "js-markdown-extra": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "js-sha1": [
     "Quay"
   ],
+  "js-worker-search": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "js-yaml": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Aonic-UI",
@@ -15286,7 +15844,8 @@
     "KAI-IDE-plugin"
   ],
   "klona": [
-    "ACM-console"
+    "ACM-console",
+    "Ansible-aap-ui"
   ],
   "knex": [
     "RHDH-plugins"
@@ -15321,10 +15880,21 @@
   "langchain": [
     "KAI-IDE-plugin"
   ],
+  "lazysizes": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "lerna": [
     "Convo-Backstage-ChatBot-UI",
     "Foreman-Tools",
+    "Portal-Case-Management",
     "RedHatInsights-data-driven-forms"
+  ],
+  "lerna-alias": [
+    "Portal-Case-Management"
   ],
   "less": [
     "Pbench"
@@ -15360,6 +15930,7 @@
   ],
   "lint-staged": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Backstage",
@@ -15372,9 +15943,16 @@
     "OCM-UI",
     "OpenShift-Admin-Console",
     "Opendatahub",
+    "Portal-Case-Management",
     "RH-AI-Kickstart-AI-Virtual-Agent",
     "RHDH-plugins",
     "skupperproject-skupper-console"
+  ],
+  "lit": [
+    "Portal-Case-Management"
+  ],
+  "lit-element": [
+    "Portal-Case-Management"
   ],
   "live-server": [
     "Change-Metrics-Monocle"
@@ -15390,6 +15968,13 @@
     "RedHatInsights-vulnerability-ui"
   ],
   "localforage": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RedHatInsights-insights-chrome"
   ],
   "lodash": [
@@ -15454,6 +16039,22 @@
     "Openshift-dynamic-plugin-sdk",
     "Openshift-lightspeed-console",
     "Openshift-networking-console-plugin",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RHDH-plugins",
     "RHDH-plugins",
@@ -15546,7 +16147,11 @@
   "lru-cache": [
     "RedHatInsights-Subs-Watch"
   ],
+  "lucene": [
+    "Portal-Case-Management"
+  ],
   "luxon": [
+    "Ansible-aap-ui",
     "Ansible-hub",
     "Ansible-ui",
     "Ansible-ui",
@@ -15565,6 +16170,14 @@
     "RedHatInsights-insights-chrome",
     "RedHatInsights-rbac-ui"
   ],
+  "mark.js": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "markdown-table": [
     "Kogito-tooling"
   ],
@@ -15574,10 +16187,16 @@
   "marked": [
     "Apicurio",
     "OpenShift-Admin-Console",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RedHatInsights-frontend-components",
     "RedHatInsights-frontend-components",
     "RedHatInsights-vulnerability-ui",
     "Redhat-developer-gitops-console-plugin"
+  ],
+  "marked-react": [
+    "Web-rca-ui"
   ],
   "matcher": [
     "KAI-IDE-plugin"
@@ -15593,6 +16212,7 @@
   ],
   "merge-jsons-webpack-plugin": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Kiali-openshift-servicemesh-plugin"
@@ -15620,6 +16240,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-ui",
@@ -15651,6 +16272,7 @@
     "Opendatahub",
     "Openshift-dynamic-plugin-sdk",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -15765,6 +16387,7 @@
     "Stackrox"
   ],
   "mochawesome": [
+    "Ansible-aap-ui",
     "Hawtio-online-console-plugin",
     "Kuadrant-console-plugin",
     "Kubevirt",
@@ -15866,6 +16489,8 @@
   ],
   "monaco-editor": [
     "ACM-console",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-hub",
     "Ansible-ui",
     "Ansible-ui",
@@ -15911,6 +16536,7 @@
   ],
   "monaco-editor-webpack-plugin": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-hub",
     "Ansible-ui",
     "Ansible-ui",
@@ -15938,6 +16564,8 @@
     "RedHatInsights-api-documentation-frontend"
   ],
   "monaco-yaml": [
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-hub",
     "Ansible-ui",
     "Ansible-ui",
@@ -15953,6 +16581,14 @@
     "OCM-UI",
     "OpenShift-Admin-Console"
   ],
+  "monocart-coverage-reports": [
+    "Ansible-aap-ui"
+  ],
+  "morgan": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "moxios": [
     "RedHatInsights-Subs-Watch"
   ],
@@ -15960,6 +16596,7 @@
     "KAI-IDE-plugin"
   ],
   "msw": [
+    "Ansible-aap-ui",
     "Assisted-installer-ui",
     "Backstage",
     "Backstage",
@@ -16069,6 +16706,9 @@
     "ACM-console",
     "Foreman-Katello",
     "OpenShift-Admin-Console"
+  ],
+  "node-cache": [
+    "Portal-Case-Management"
   ],
   "node-fetch": [
     "ACM-console",
@@ -16228,6 +16868,7 @@
   "null-loader": [
     "ACM-console",
     "Opendatahub",
+    "Portal-Case-Management",
     "Quay",
     "RH-Data-Services-ODH-Dashboard"
   ],
@@ -16247,9 +16888,11 @@
     "Pbench"
   ],
   "nx": [
+    "Ansible-aap-ui",
     "RedHatInsights-frontend-components"
   ],
   "nyc": [
+    "Ansible-aap-ui",
     "OCM-UI",
     "Openshift-logging-view-plugin",
     "RedHatInsights-compliance-frontend",
@@ -16354,11 +16997,13 @@
     "KAI-IDE-plugin"
   ],
   "p-debounce": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Keycloak"
   ],
   "p-limit": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "RedHatInsights-notifications-frontend"
@@ -16386,6 +17031,10 @@
     "OCM-UI",
     "Openshift-assisted-ui"
   ],
+  "path": [
+    "Portal-Case-Management",
+    "Portal-Case-Management"
+  ],
   "path-browserify": [
     "ACM-console",
     "Camel-Karavan",
@@ -16409,6 +17058,9 @@
   "path-is-absolute": [
     "KAI-IDE-plugin"
   ],
+  "path-to-regexp": [
+    "Ansible-aap-ui"
+  ],
   "patternfly": [
     "Apicurio",
     "Foreman-Console",
@@ -16424,6 +17076,9 @@
   "patternfly-react-extensions": [
     "Foreman-Console",
     "Foreman-Tools"
+  ],
+  "pegjs": [
+    "Portal-Case-Management"
   ],
   "pend": [
     "KAI-IDE-plugin"
@@ -16584,6 +17239,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-pinakes-ui",
@@ -16654,6 +17310,7 @@
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
     "Quay",
     "Quipucords-Product-Discovery",
     "RH-AI-Kickstart-AI-Virtual-Agent",
@@ -16712,6 +17369,7 @@
     "Stackrox",
     "Stackrox",
     "Trusted-Content-CRDA",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin",
@@ -16733,6 +17391,7 @@
     "Kiali",
     "Kiali-openshift-servicemesh-plugin",
     "Kogito-tooling",
+    "Portal-Case-Management",
     "network-observability-console-plugin"
   ],
   "prism-react-renderer": [
@@ -16779,6 +17438,9 @@
     "ACM-console",
     "Opendatahub",
     "RH-Data-Services-ODH-Dashboard"
+  ],
+  "prompts": [
+    "Portal-Case-Management"
   ],
   "prop-types": [
     "3Scale",
@@ -16835,7 +17497,8 @@
     "RedHatInsights-vulnerability-ui",
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
-    "Virtualization-Frontend"
+    "Virtualization-Frontend",
+    "Web-rca-ui"
   ],
   "proper-lockfile": [
     "KAI-IDE-plugin"
@@ -16885,6 +17548,11 @@
     "CHE-dashboard",
     "Cost-Management",
     "OCM-UI",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RedHatInsights-Hybrid-Committed-Spend",
     "RedHatInsights-acs-ui",
     "RedHatInsights-insights-advisor-frontend",
@@ -16979,6 +17647,8 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -17162,6 +17832,20 @@
     "Packit-Dashboard",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -17298,6 +17982,7 @@
     "Stackrox",
     "Trusted-Content-CRDA",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-gilligan",
@@ -17343,10 +18028,17 @@
     "RH-AI-Services-RH-KB-Chat",
     "RH-Data-Services-ODH-Dashboard"
   ],
+  "react-beautiful-dnd": [
+    "Portal-Case-Management"
+  ],
   "react-bootstrap": [
     "Foreman-Console",
     "Foreman-Katello",
     "Pbench"
+  ],
+  "react-bootstrap-typeahead": [
+    "Portal-Case-Management",
+    "Portal-Case-Management"
   ],
   "react-chartjs-2": [
     "Change-Metrics-Monocle",
@@ -17459,6 +18151,8 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -17626,6 +18320,17 @@
     "Packit-Dashboard",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -17721,6 +18426,7 @@
     "Stackrox",
     "Trusted-Content-CRDA",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-gilligan",
@@ -17731,11 +18437,15 @@
     "skupperproject-gilligan"
   ],
   "react-dropzone": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Kogito-tooling",
     "Kogito-tooling",
     "Opendatahub",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RedHatStorage-odf-console"
   ],
@@ -17809,6 +18519,7 @@
     "RedHatInsights-api-documentation-frontend"
   ],
   "react-hook-form": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Camel-Karavan",
@@ -17830,6 +18541,7 @@
   "react-i18next": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ui",
     "Ansible-ui",
@@ -17862,6 +18574,16 @@
     "Openshift-monitoring-plugin",
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quipucords-Product-Discovery",
     "RH-AI-Services-Multimodal-Chatbot",
     "RH-AI-Services-Multimodal-Chatbot",
@@ -17908,7 +18630,8 @@
     "RedHatInsights-patchman-ui",
     "RedHatInsights-rbac-ui",
     "RedHatInsights-sources-ui",
-    "RedHatInsights-vulnerability-ui"
+    "RedHatInsights-vulnerability-ui",
+    "Web-rca-ui"
   ],
   "react-intl-detect-unused": [
     "RedHatInsights-vulnerability-ui"
@@ -17960,6 +18683,7 @@
     "Foreman-Tools"
   ],
   "react-markdown": [
+    "Ansible-aap-ui",
     "Ansible-hub",
     "Ansible-ui",
     "Ansible-ui",
@@ -18097,6 +18821,9 @@
     "Openshift-lightspeed-console",
     "Openshift-monitoring-plugin",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "RH-Data-Services-ODH-Dashboard",
     "RHEL-Composer",
@@ -18139,6 +18866,7 @@
   ],
   "react-refresh": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Backstage",
@@ -18202,6 +18930,7 @@
     "Openshift-dynamic-plugin-sdk",
     "Openshift-networking-console-plugin",
     "Pbench",
+    "Portal-Case-Management",
     "RH-Data-Services-ODH-Dashboard",
     "RH-Data-Services-ODH-Dashboard",
     "RHDH-plugins",
@@ -18234,6 +18963,7 @@
   ],
   "react-router-dom": [
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -18309,6 +19039,16 @@
     "Openshift-networking-console-plugin",
     "PatternFly-React-Seed",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -18387,6 +19127,7 @@
     "RedHatInsights-vulnerability-ui",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "skupperproject-gilligan",
     "skupperproject-skupper-console"
@@ -18513,10 +19254,18 @@
     "Foreman-Tools",
     "Infinispan",
     "Openshift-dynamic-plugin-sdk",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RedHatInsights-notifications-frontend",
     "RedHatInsights-sed-frontend"
   ],
   "react-toastify": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Stackrox"
   ],
   "react-tooltip": [
@@ -18568,6 +19317,7 @@
     "RedHatInsights-policies-ui-frontend"
   ],
   "react-use-websocket": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Kubevirt"
@@ -18579,6 +19329,8 @@
     "OpenShift-Admin-Console",
     "Openshift-dynamic-plugin-sdk",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay"
   ],
   "react-virtualized-auto-sizer": [
@@ -18659,6 +19411,8 @@
     "Openshift-dynamic-plugin-sdk",
     "Openshift-monitoring-plugin",
     "Pbench",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "RH-Data-Services-ODH-Dashboard",
     "RedHatInsights-Hybrid-Committed-Spend",
@@ -18844,6 +19598,7 @@
     "Opendatahub",
     "Opendatahub",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "RH-AI-Services-Multimodal-Chatbot",
     "RH-AI-Services-RH-KB-Chat",
     "RH-Data-Services-ODH-Dashboard",
@@ -18887,6 +19642,7 @@
     "Quay"
   ],
   "remark-gfm": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Application-Migration-Toolkit",
@@ -18945,6 +19701,9 @@
     "OCM-UI",
     "OpenShift-Admin-Console",
     "Stackrox"
+  ],
+  "resize-observer-polyfill": [
+    "Portal-Case-Management"
   ],
   "resolve": [
     "Ansible-ai-connect-service"
@@ -19191,6 +19950,11 @@
     "Opendatahub",
     "Openshift-assisted-ui",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RH-AI-Services-Multimodal-Chatbot",
     "RH-AI-Services-RH-KB-Chat",
     "RH-Data-Services-ODH-Dashboard",
@@ -19210,6 +19974,7 @@
   ],
   "rollup": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Aonic-UI",
     "Aonic-UI",
     "Keycloak",
@@ -19243,6 +20008,7 @@
     "Migration-Tools-Shared-Library"
   ],
   "rrule": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -19384,6 +20150,7 @@
     "Openshift-monitoring-plugin",
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
     "Quay",
     "RH-Data-Services-ODH-Dashboard",
     "RH-Data-Services-ODH-Dashboard",
@@ -19400,7 +20167,8 @@
     "RedHatInsights-payload-tracker-frontend",
     "RedHatStorage-odf-console",
     "RedHatStorage-odf-console",
-    "Redhat-developer-gitops-console-plugin"
+    "Redhat-developer-gitops-console-plugin",
+    "Web-rca-ui"
   ],
   "sass-embedded": [
     "Ansible-ai-connect-service",
@@ -19435,6 +20203,7 @@
     "Openshift-monitoring-plugin",
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "RH-Data-Services-ODH-Dashboard",
@@ -19451,7 +20220,8 @@
     "RedHatInsights-payload-tracker-frontend",
     "RedHatInsights-policies-ui-frontend",
     "RedHatStorage-odf-console",
-    "Redhat-developer-gitops-console-plugin"
+    "Redhat-developer-gitops-console-plugin",
+    "Web-rca-ui"
   ],
   "save-svg-as-png": [
     "Pbench"
@@ -19492,6 +20262,9 @@
     "Kogito-tooling",
     "Kogito-tooling",
     "Kogito-tooling"
+  ],
+  "selfsigned": [
+    "Ansible-aap-ui"
   ],
   "semantic-release": [
     "Ansible-react-json-chart-builder",
@@ -19545,11 +20318,15 @@
     "Debezium"
   ],
   "serve-static": [
-    "Kogito-tooling"
+    "Kogito-tooling",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
   ],
   "set-value": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -19583,6 +20360,9 @@
     "Quay",
     "RH-Data-Services-ODH-Dashboard",
     "RH-Data-Services-ODH-Dashboard"
+  ],
+  "sift": [
+    "Ansible-aap-ui"
   ],
   "signal-exit": [
     "KAI-IDE-plugin"
@@ -19623,6 +20403,9 @@
     "RHEL-Anaconda-webui",
     "RHEL-Composer"
   ],
+  "slack-markdown": [
+    "Web-rca-ui"
+  ],
   "slash": [
     "KAI-IDE-plugin"
   ],
@@ -19635,6 +20418,12 @@
   ],
   "sol-sc-explorer": [
     "OCM-UI"
+  ],
+  "solr-query-builder": [
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management"
   ],
   "sonataflow-deployment-webapp": [
     "Kogito-tooling",
@@ -19662,6 +20451,10 @@
     "Hawtio-online-console-plugin",
     "Kogito-tooling",
     "Migration-Toolkit-for-Containers",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "RedHatInsights-frontend-components",
@@ -19770,6 +20563,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-pinakes-ui",
@@ -19823,6 +20617,7 @@
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quay",
@@ -19840,11 +20635,13 @@
     "RedHatInsights-payload-tracker-frontend",
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin"
   ],
   "styled-components": [
+    "Ansible-aap-ui",
     "Ansible-pinakes-ui",
     "Ansible-react-json-chart-builder",
     "Ansible-ui",
@@ -20104,6 +20901,7 @@
   ],
   "swr": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Assisted-installer-ui",
@@ -20164,6 +20962,7 @@
   "thread-loader": [
     "OpenShift-Admin-Console",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
     "Quay",
     "RedHatStorage-odf-console"
   ],
@@ -20172,6 +20971,9 @@
     "Cockpit-machines",
     "Cockpit-podman",
     "RHEL-Anaconda-webui"
+  ],
+  "timers": [
+    "Portal-Case-Management"
   ],
   "timezone-mock": [
     "Hawtio-next"
@@ -20310,6 +21112,7 @@
     "Openshift-logging-view-plugin",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quipucords-Product-Discovery",
@@ -20387,6 +21190,9 @@
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quay",
@@ -20590,6 +21396,7 @@
     "Openshift-assisted-ui",
     "Openshift-dynamic-plugin-sdk",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "RH-AI-Services-Multimodal-Chatbot",
     "RH-AI-Services-RH-KB-Chat",
     "RH-Data-Services-ODH-Dashboard",
@@ -20627,6 +21434,8 @@
     "OpenShift-Admin-Console"
   ],
   "tsx": [
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "KAI-IDE-plugin",
     "RedHatStorage-odf-console"
   ],
@@ -20639,6 +21448,7 @@
   ],
   "type-fest": [
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Backstage",
@@ -20673,6 +21483,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -20893,6 +21704,12 @@
     "Openshift-pipelines-console-plugin",
     "Packit-Dashboard",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quay",
@@ -20994,6 +21811,7 @@
     "Backstage"
   ],
   "typescript-plugin-styled-components": [
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui"
   ],
@@ -21099,8 +21917,10 @@
     "Migration-Toolkit-for-Containers",
     "OCM-UI",
     "Openshift-pipelines-console-plugin",
+    "Portal-Case-Management",
     "RedHatInsights-frontend-components",
-    "RedHatInsights-insights-chrome"
+    "RedHatInsights-insights-chrome",
+    "Web-rca-ui"
   ],
   "url-join": [
     "Ansible-hub",
@@ -21127,6 +21947,7 @@
     "Opendatahub",
     "Opendatahub",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "Quay",
     "RH-AI-Services-Multimodal-Chatbot",
     "RH-AI-Services-RH-KB-Chat",
@@ -21154,6 +21975,9 @@
   ],
   "use-deep-compare-effect": [
     "Foreman-Katello",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "RedHatInsights-compliance-frontend",
     "RedHatInsights-vuln4shift-frontend",
     "Stackrox"
@@ -21191,6 +22015,7 @@
     "RedHatInsights-insights-chrome"
   ],
   "uuid": [
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-react-json-chart-builder",
@@ -21255,6 +22080,9 @@
   "v8-compile-cache": [
     "ACM-console"
   ],
+  "v8-to-istanbul": [
+    "Ansible-aap-ui"
+  ],
   "val-loader": [
     "OpenShift-Admin-Console"
   ],
@@ -21268,6 +22096,7 @@
     "Pbench"
   ],
   "victory": [
+    "Ansible-aap-ui",
     "Ansible-react-json-chart-builder",
     "Cost-Management",
     "Infinispan",
@@ -21421,6 +22250,7 @@
     "Kiali-openshift-servicemesh-plugin"
   ],
   "vite": [
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Ansible-ui",
@@ -21461,6 +22291,9 @@
   "vite-plugin-clean": [
     "Ansible-ai-connect-service"
   ],
+  "vite-plugin-compression": [
+    "Ansible-aap-ui"
+  ],
   "vite-plugin-dts": [
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
@@ -21483,11 +22316,16 @@
   "vite-plugin-lib-inject-css": [
     "Keycloak"
   ],
+  "vite-plugin-monaco-editor": [
+    "Ansible-aap-ui"
+  ],
   "vite-plugin-static-copy": [
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "KAI-IDE-plugin"
   ],
   "vite-plugin-svgr": [
+    "Ansible-aap-ui",
     "Camel-Karavan",
     "Camel-Karavan",
     "Camel-Karavan",
@@ -21504,6 +22342,8 @@
     "Packit-Dashboard"
   ],
   "vitest": [
+    "Ansible-aap-ui",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-ai-connect-service",
     "Apicurio-Registry",
@@ -21634,6 +22474,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-pinakes-ui",
@@ -21755,6 +22596,10 @@
     "Openshift-monitoring-plugin",
     "Openshift-networking-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quay",
@@ -21778,6 +22623,7 @@
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin",
@@ -21812,6 +22658,7 @@
     "Opendatahub",
     "Openshift-dynamic-plugin-sdk",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quay",
@@ -21842,6 +22689,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-hub",
     "Ansible-pinakes-ui",
     "Ansible-react-json-chart-builder",
@@ -21954,6 +22802,9 @@
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "Quay",
     "Quay",
@@ -21975,6 +22826,7 @@
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin",
@@ -21985,6 +22837,7 @@
     "ACM-console",
     "ACM-console",
     "AMQ-Chatbot-POC",
+    "Ansible-aap-ui",
     "Ansible-ai-connect-service",
     "Ansible-hub",
     "Ansible-pinakes-ui",
@@ -22088,6 +22941,9 @@
     "Openshift-networking-console-plugin",
     "Openshift-pipelines-console-plugin",
     "PatternFly-React-Seed",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
+    "Portal-Case-Management",
     "Quay",
     "RH-AI-Services-Multimodal-Chatbot",
     "RH-AI-Services-RH-KB-Chat",
@@ -22103,6 +22959,7 @@
     "Redhat-developer-gitops-console-plugin",
     "Stackrox",
     "Virtualization-Frontend",
+    "Web-rca-ui",
     "network-observability-console-plugin",
     "openshift-troubleshooting-panel-console-plugin",
     "skupperproject-openshift-site-plugin"
@@ -22261,9 +23118,31 @@
   "word-wrap": [
     "Nmstate-plugin"
   ],
+  "workbox-cacheable-response": [
+    "Portal-Case-Management"
+  ],
+  "workbox-core": [
+    "Portal-Case-Management"
+  ],
+  "workbox-expiration": [
+    "Portal-Case-Management"
+  ],
+  "workbox-precaching": [
+    "Portal-Case-Management"
+  ],
+  "workbox-routing": [
+    "Portal-Case-Management"
+  ],
+  "workbox-strategies": [
+    "Portal-Case-Management"
+  ],
   "workbox-webpack-plugin": [
     "Ansible-ai-connect-service",
-    "Ansible-pinakes-ui"
+    "Ansible-pinakes-ui",
+    "Portal-Case-Management"
+  ],
+  "workbox-window": [
+    "Portal-Case-Management"
   ],
   "wrappy": [
     "KAI-IDE-plugin"
@@ -22286,6 +23165,7 @@
     "Kogito-tooling"
   ],
   "xml2js": [
+    "Ansible-aap-ui",
     "RHDH-plugins"
   ],
   "xmllint-wasm": [
@@ -22304,6 +23184,7 @@
   "yaml": [
     "ACM-console",
     "ACM-console",
+    "Ansible-aap-ui",
     "Ansible-ui",
     "Ansible-ui",
     "Apicurio",
@@ -22429,6 +23310,7 @@
     "Kogito-tooling"
   ],
   "zustand": [
+    "Ansible-aap-ui",
     "Camel-Karavan",
     "Camel-Karavan",
     "Camel-Karavan",
@@ -22436,7 +23318,8 @@
     "Kogito-tooling",
     "Kogito-tooling",
     "Kubevirt",
-    "RedHatInsights-api-documentation-frontend"
+    "RedHatInsights-api-documentation-frontend",
+    "Web-rca-ui"
   ],
   "zx": [
     "Assisted-installer-ui",
