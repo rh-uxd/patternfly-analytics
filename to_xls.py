@@ -95,10 +95,14 @@ def write_components_count_tab():
             import_dict = imports[imp]
             prod_count = import_dict['product_count']
             total_usage = import_dict['total_usage']
+            # Get product names by filtering out the metadata fields
+            product_names = [key for key in import_dict.keys() if key not in ['product_count', 'total_usage']]
+            product_names_str = ', '.join(product_names)
             d = {
                 'Name': imp,
                 'Product Count': prod_count,
-                'Total Usage': total_usage}
+                'Total Usage': total_usage,
+                'Product Names': product_names_str}
             df = pd.DataFrame(d, index=[imp])
             items.append(df)
 
