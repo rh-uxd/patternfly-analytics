@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 import os
-from datetime import datetime, UTC
+from datetime import datetime, timezone
 
 # Tabs in the resulting report sheet
 REPOS_ALL_TAB = '1 All repositories'
@@ -23,7 +23,7 @@ if do_collect:
     print("----------- collector done -------------------")
 
 # Find the directory with the csv files
-today = datetime.now(UTC)
+today = datetime.now(timezone.utc)
 today_str = "%04d-%02d-%02d" % (today.year, today.month, today.day)
 in_dir = "stats-static/" + today_str
 
