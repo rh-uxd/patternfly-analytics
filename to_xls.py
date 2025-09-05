@@ -22,7 +22,7 @@ if do_collect:
 # Find the directory with the csv files
 today = datetime.now(UTC)
 today_str = "%04d-%02d-%02d" % (today.year, today.month, today.day)
-in_dir = "stats-static/" + today_str
+in_dir = "stats-static/2025-04-21"
 
 
 # Helper method to clean up cell values by
@@ -171,7 +171,7 @@ def write_components_details_tab():
 if __name__ == "__main__":
     # Action starts here
 
-    today_report_dir = 'reports/%s' % today_str
+    today_report_dir = 'reports/2025-04-21'
     os.makedirs(today_report_dir, exist_ok=True)
 
     report_name = "%s/%s.xlsx" % (today_report_dir, 'pf_report')
