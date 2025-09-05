@@ -1,0 +1,5012 @@
+{
+  "imports": {
+    "ExclamationCircleIcon": {
+      "product_count": 61,
+      "total_usage": 515,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Migration-Tools-Shared-Library",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "RedHatInsights-Subs-Watch",
+        "Cockpit",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "3Scale",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Infinispan",
+        "HAC-Dev",
+        "Camel-Karavan",
+        "Apicurio-Registry",
+        "Cockpit-machines",
+        "Cockpit-podman",
+        "Debezium",
+        "Kiali",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "Quay-ui",
+        "RedHatInsights-acs-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "App-services-ui-components",
+        "Aonic-UI",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Composer-AI-chatbot",
+        "Cryostat-Web",
+        "Trusted-Content-CRDA",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "RHEnVision"
+      ]
+    },
+    "Icon": {
+      "product_count": 55,
+      "total_usage": 401,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "Foreman-Tasks",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "3Scale",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "HAC-Dev",
+        "Apicurio-Registry",
+        "Cockpit-machines",
+        "Cockpit-podman",
+        "Debezium",
+        "Kiali",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "RedHatInsights-acs-ui",
+        "RedHatInsights-api-documentation-frontend",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "Aonic-UI",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Cryostat-Web",
+        "Trusted-Content-CRDA",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "RHEnVision",
+        "Nmstate-plugin",
+        "RedHatInsights-api-frontend",
+        "RedHatInsights-landing-page-frontend",
+        "RedHatInsights-data-driven-forms"
+      ]
+    },
+    "SearchIcon": {
+      "product_count": 54,
+      "total_usage": 194,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "RedHatInsights-Subs-Watch",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Virtualization-Frontend",
+        "3Scale",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Infinispan",
+        "Pbench",
+        "HAC-Dev",
+        "Camel-Karavan",
+        "Apicurio-Registry",
+        "Debezium",
+        "Kui",
+        "Packit-Dashboard",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "RedHatInsights-acs-ui",
+        "RedHatInsights-api-documentation-frontend",
+        "RedHatInsights-cloud-connector-frontend",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "App-services-ui-components",
+        "Aonic-UI",
+        "Kubeflow-Model-Registry",
+        "Cryostat-Web",
+        "Trusted-Content-CRDA",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "RedHatInsights-payload-tracker-frontend"
+      ]
+    },
+    "CheckCircleIcon": {
+      "product_count": 53,
+      "total_usage": 258,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Migration-Tools-Shared-Library",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "HAC-Dev",
+        "Apicurio-Registry",
+        "Cockpit-podman",
+        "Debezium",
+        "Kiali",
+        "Kui",
+        "OpenShift-console-plugin-template",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "Quay-ui",
+        "RedHatInsights-acs-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "App-services-ui-components",
+        "Aonic-UI",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "RHEnVision"
+      ]
+    },
+    "ExternalLinkAltIcon": {
+      "product_count": 53,
+      "total_usage": 304,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "RedHatInsights-Subs-Watch",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "HAC-Dev",
+        "Cockpit-machines",
+        "Kiali",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "Quay-ui",
+        "RedHatInsights-acs-ui",
+        "RedHatInsights-api-documentation-frontend",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "App-services-ui-components",
+        "Aonic-UI",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "RHEnVision",
+        "Nmstate-plugin",
+        "RedHatInsights-payload-tracker-frontend",
+        "RedHatInsights-api-frontend",
+        "RedHatInsights-landing-page-frontend"
+      ]
+    },
+    "ExclamationTriangleIcon": {
+      "product_count": 52,
+      "total_usage": 302,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Migration-Tools-Shared-Library",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "3Scale",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "HAC-Dev",
+        "Apicurio-Registry",
+        "Cockpit-machines",
+        "Debezium",
+        "Kiali",
+        "Kui",
+        "Packit-Dashboard",
+        "PatternFly-React-Seed",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "Quay-ui",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "App-services-ui-components",
+        "Aonic-UI",
+        "Kubeflow-Model-Registry",
+        "Cryostat-Web",
+        "Trusted-Content-CRDA",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "EmptyStateIcon": {
+      "product_count": 51,
+      "total_usage": 428,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "RedHatInsights-Subs-Watch",
+        "RHEL-Composer",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "3Scale",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Pbench",
+        "HAC-Dev",
+        "Camel-Karavan",
+        "Apicurio-Registry",
+        "Debezium",
+        "Kiali",
+        "Kui",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Quay-ui",
+        "RedHatInsights-api-documentation-frontend",
+        "RedHatInsights-cloud-connector-frontend",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "App-services-ui-components",
+        "Cryostat-Web",
+        "Trusted-Content-CRDA",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "RedHatInsights-image-builder-frontend",
+        "RHEnVision",
+        "Nmstate-plugin",
+        "RedHatInsights-payload-tracker-frontend",
+        "RedHatInsights-landing-page-frontend"
+      ]
+    },
+    "PlusCircleIcon": {
+      "product_count": 43,
+      "total_usage": 429,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "Cost-Management",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Kiali-App",
+        "3Scale",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "HAC-Dev",
+        "Apicurio-Registry",
+        "Debezium",
+        "Kiali",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "Stackrox",
+        "ACM-console",
+        "App-services-ui-components",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Cryostat-Web",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "RHEnVision",
+        "Nmstate-plugin",
+        "RedHatInsights-payload-tracker-frontend"
+      ]
+    },
+    "TimesIcon": {
+      "product_count": 42,
+      "total_usage": 154,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Migration-Tools-Shared-Library",
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "Cockpit",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "Pbench",
+        "HAC-Dev",
+        "Camel-Karavan",
+        "Debezium",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Composer-AI-chatbot",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "FilterIcon": {
+      "product_count": 40,
+      "total_usage": 118,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-notifications-frontend",
+        "Cost-Management",
+        "RedHatInsights-Subs-Watch",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "3Scale",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Infinispan",
+        "HAC-Dev",
+        "Debezium",
+        "Kiali",
+        "Kui",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "RedHatInsights-acs-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "App-services-ui-components",
+        "Kubeflow-Model-Registry",
+        "Cryostat-Web",
+        "Trusted-Content-CRDA",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "Nmstate-plugin",
+        "RedHatInsights-landing-page-frontend"
+      ]
+    },
+    "InfoCircleIcon": {
+      "product_count": 38,
+      "total_usage": 131,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Migration-Tools-Shared-Library",
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Tasks",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-inventory-frontend",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Infinispan",
+        "Kiali",
+        "Packit-Dashboard",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "Quay-ui",
+        "RedHatInsights-api-documentation-frontend",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "Kubeflow-Model-Registry",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "Kubevirt"
+      ]
+    },
+    "OutlinedQuestionCircleIcon": {
+      "product_count": 35,
+      "total_usage": 179,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "RedHatInsights-Subs-Watch",
+        "Cockpit",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "3Scale",
+        "Kogito-tooling",
+        "Pbench",
+        "HAC-Dev",
+        "Apicurio-Registry",
+        "Cockpit-podman",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "App-services-ui-components",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "Kubevirt"
+      ]
+    },
+    "CheckIcon": {
+      "product_count": 35,
+      "total_usage": 94,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Ansible-ui",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "3Scale",
+        "Keycloak",
+        "Kogito-tooling",
+        "Pbench",
+        "HAC-Dev",
+        "Camel-Karavan",
+        "Apicurio-Registry",
+        "Cockpit-machines",
+        "Kiali",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "App-services-ui-components",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Composer-AI-chatbot",
+        "CHE-dashboard",
+        "Nmstate-plugin",
+        "RedHatInsights-data-driven-forms"
+      ]
+    },
+    "PencilAltIcon": {
+      "product_count": 33,
+      "total_usage": 201,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "Pbench",
+        "HAC-Dev",
+        "Apicurio-Registry",
+        "Debezium",
+        "Kiali",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Stackrox",
+        "ACM-console",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Composer-AI-chatbot",
+        "Cryostat-Web",
+        "CHE-dashboard",
+        "Kubevirt",
+        "Nmstate-plugin"
+      ]
+    },
+    "HelpIcon": {
+      "product_count": 32,
+      "total_usage": 202,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "Cockpit",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Infinispan",
+        "Camel-Karavan",
+        "Cockpit-machines",
+        "Debezium",
+        "Kiali",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "App-services-ui-components",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "RHEnVision",
+        "Nmstate-plugin"
+      ]
+    },
+    "CubesIcon": {
+      "product_count": 32,
+      "total_usage": 162,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-inventory-frontend",
+        "Cost-Management",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Kiali-App",
+        "3Scale",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Infinispan",
+        "Pbench",
+        "HAC-Dev",
+        "Debezium",
+        "Kiali",
+        "PatternFly-React-Seed",
+        "Opendatahub",
+        "Quay-ui",
+        "RedHatInsights-acs-ui",
+        "Stackrox",
+        "ACM-console",
+        "App-services-ui-components",
+        "Trusted-Content-CRDA",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "EllipsisVIcon": {
+      "product_count": 31,
+      "total_usage": 107,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Foreman-Console",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-notifications-frontend",
+        "Cost-Management",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "HAC-Dev",
+        "Camel-Karavan",
+        "Debezium",
+        "Kiali",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-monitoring-plugin",
+        "RedHatInsights-insights-chrome",
+        "ACM-console",
+        "Freeipa",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "Nmstate-plugin"
+      ]
+    },
+    "QuestionCircleIcon": {
+      "product_count": 30,
+      "total_usage": 73,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-For-Applications",
+        "Migration-Tools-Shared-Library",
+        "Ansible-ui",
+        "Ansible-hub",
+        "Foreman-Console",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "3Scale",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "Pbench",
+        "Apicurio-Registry",
+        "Kiali",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "Kubeflow-Model-Registry",
+        "Cryostat-Web",
+        "CHE-dashboard"
+      ]
+    },
+    "EyeIcon": {
+      "product_count": 29,
+      "total_usage": 56,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Migration-Tools-Shared-Library",
+        "Ansible-ui",
+        "Ansible-hub",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-Subs-Watch",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "Debezium",
+        "Opendatahub",
+        "Quay-ui",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "TrashIcon": {
+      "product_count": 28,
+      "total_usage": 278,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Keycloak",
+        "Kogito-tooling",
+        "Pbench",
+        "Apicurio-Registry",
+        "Cockpit-machines",
+        "Cockpit-podman",
+        "Debezium",
+        "Kiali",
+        "Kui",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Quay-ui",
+        "Stackrox",
+        "ACM-console",
+        "App-services-ui-components",
+        "InstructLab-UI",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "RedHatInsights-data-driven-forms"
+      ]
+    },
+    "InProgressIcon": {
+      "product_count": 27,
+      "total_usage": 86,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Foreman-Katello",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "Cockpit",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "HAC-Dev",
+        "Kiali",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Stackrox",
+        "ACM-console",
+        "Kubeflow-Model-Registry",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "Kubevirt",
+        "Nmstate-plugin"
+      ]
+    },
+    "BarsIcon": {
+      "product_count": 26,
+      "total_usage": 34,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "Foreman-Console",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "3Scale",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "Pbench",
+        "Kiali",
+        "Packit-Dashboard",
+        "PatternFly-React-Seed",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Quay-ui",
+        "RedHatInsights-cloud-connector-frontend",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "Freeipa",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "Composer-AI-chatbot",
+        "Cryostat-Web"
+      ]
+    },
+    "MinusCircleIcon": {
+      "product_count": 25,
+      "total_usage": 151,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Ansible-ui",
+        "Foreman-Console",
+        "RedHatInsights-notifications-frontend",
+        "Cost-Management",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "HAC-Dev",
+        "Apicurio-Registry",
+        "Debezium",
+        "Kiali",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "Quay-ui",
+        "Stackrox",
+        "ACM-console",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend",
+        "Nmstate-plugin"
+      ]
+    },
+    "DownloadIcon": {
+      "product_count": 25,
+      "total_usage": 69,
+      "product_list": [
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-compliance-frontend",
+        "Cost-Management",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Kogito-tooling",
+        "Infinispan",
+        "Pbench",
+        "HAC-Dev",
+        "Camel-Karavan",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Quay-ui",
+        "Stackrox",
+        "ACM-console",
+        "InstructLab-UI",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-payload-tracker-frontend"
+      ]
+    },
+    "EyeSlashIcon": {
+      "product_count": 24,
+      "total_usage": 50,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Migration-Tools-Shared-Library",
+        "Ansible-ui",
+        "Ansible-hub",
+        "Foreman-Katello",
+        "RedHatInsights-Subs-Watch",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Keycloak",
+        "Infinispan",
+        "Debezium",
+        "Opendatahub",
+        "Quay-ui",
+        "ACM-console",
+        "Freeipa",
+        "Kubeflow-Model-Registry",
+        "InstructLab-UI",
+        "RHEL-Anaconda-webui",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "LockIcon": {
+      "product_count": 24,
+      "total_usage": 37,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Infinispan",
+        "HAC-Dev",
+        "Kiali",
+        "Kui",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "Opendatahub",
+        "Freeipa",
+        "App-services-ui-components",
+        "RHEL-Anaconda-webui",
+        "RHEnVision"
+      ]
+    },
+    "ArrowRightIcon": {
+      "product_count": 24,
+      "total_usage": 48,
+      "product_list": [
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-Subs-Watch",
+        "Quay",
+        "Keycloak",
+        "Kogito-tooling",
+        "HAC-Dev",
+        "Opendatahub",
+        "Quay-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "App-services-ui-components",
+        "InstructLab-UI",
+        "RedHatInsights-image-builder-frontend",
+        "RedHatInsights-landing-page-frontend"
+      ]
+    },
+    "SyncAltIcon": {
+      "product_count": 23,
+      "total_usage": 84,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "Debezium",
+        "Kiali",
+        "Opendatahub",
+        "Quay-ui",
+        "Stackrox",
+        "ACM-console",
+        "App-services-ui-components",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "Kubevirt"
+      ]
+    },
+    "BanIcon": {
+      "product_count": 22,
+      "total_usage": 57,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-Subs-Watch",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Kiali",
+        "Kui",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Openshift-monitoring-plugin",
+        "Quay-ui",
+        "Stackrox",
+        "Cryostat-Web",
+        "Kubevirt"
+      ]
+    },
+    "AngleRightIcon": {
+      "product_count": 22,
+      "total_usage": 45,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-insights-dashboard",
+        "Cockpit",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Kiali-App",
+        "3Scale",
+        "Keycloak",
+        "Kogito-tooling",
+        "Pbench",
+        "Kiali",
+        "Opendatahub",
+        "RedHatInsights-insights-chrome",
+        "ACM-console",
+        "Kubeflow-Model-Registry",
+        "Kubevirt",
+        "RedHatInsights-data-driven-forms"
+      ]
+    },
+    "UnknownIcon": {
+      "product_count": 21,
+      "total_usage": 47,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "OpenShift-Admin-Console",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Infinispan",
+        "Kiali",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "Cryostat-Web",
+        "Kubevirt"
+      ]
+    },
+    "BellIcon": {
+      "product_count": 19,
+      "total_usage": 32,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Ansible-ui",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-insights-dashboard",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Kiali",
+        "Packit-Dashboard",
+        "Openshift-monitoring-plugin",
+        "Quay-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Cryostat-Web"
+      ]
+    },
+    "AngleDownIcon": {
+      "product_count": 19,
+      "total_usage": 34,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-notifications-frontend",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Kiali-App",
+        "Kogito-tooling",
+        "HAC-Dev",
+        "Cockpit-machines",
+        "Kiali",
+        "Opendatahub",
+        "Stackrox",
+        "ACM-console",
+        "Kubeflow-Model-Registry",
+        "Cryostat-Web",
+        "Kubevirt"
+      ]
+    },
+    "ListIcon": {
+      "product_count": 19,
+      "total_usage": 27,
+      "product_list": [
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-remediations-frontend",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Infinispan",
+        "Kiali",
+        "Opendatahub",
+        "Openshift-monitoring-plugin",
+        "Stackrox",
+        "ACM-console",
+        "Cryostat-Web",
+        "CHE-dashboard",
+        "Kubevirt",
+        "Nmstate-plugin"
+      ]
+    },
+    "CloseIcon": {
+      "product_count": 19,
+      "total_usage": 39,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kogito-tooling",
+        "HAC-Dev",
+        "Camel-Karavan",
+        "Apicurio-Registry",
+        "Kiali",
+        "Opendatahub",
+        "Openshift-monitoring-plugin",
+        "ACM-console",
+        "Composer-AI-chatbot",
+        "Kubevirt",
+        "Nmstate-plugin",
+        "RedHatInsights-data-driven-forms"
+      ]
+    },
+    "PendingIcon": {
+      "product_count": 18,
+      "total_usage": 36,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Foreman-Console",
+        "Cost-Management",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Virtualization-Frontend",
+        "Kogito-tooling",
+        "Cockpit-machines",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "RedHatInsights-acs-ui",
+        "Stackrox",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui",
+        "RedHatInsights-image-builder-frontend",
+        "RHEnVision"
+      ]
+    },
+    "CaretDownIcon": {
+      "product_count": 18,
+      "total_usage": 64,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "RedHatInsights-vulnerability-ui",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "Pbench",
+        "HAC-Dev",
+        "Openshift-assisted-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "InstructLab-UI",
+        "CHE-dashboard",
+        "RedHatInsights-data-driven-forms"
+      ]
+    },
+    "CogIcon": {
+      "product_count": 17,
+      "total_usage": 50,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-Subs-Watch",
+        "Cockpit",
+        "Quay",
+        "Virtualization-Frontend",
+        "Keycloak",
+        "Kogito-tooling",
+        "Opendatahub",
+        "Quay-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console",
+        "Freeipa",
+        "Cryostat-Web",
+        "CHE-dashboard"
+      ]
+    },
+    "WarningTriangleIcon": {
+      "product_count": 16,
+      "total_usage": 36,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Foreman-Console",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "Cockpit",
+        "Kiali-App",
+        "Apicurio",
+        "Keycloak",
+        "Kogito-tooling",
+        "HAC-Dev",
+        "Kiali",
+        "Opendatahub",
+        "Cryostat-Web",
+        "CHE-dashboard",
+        "Kubevirt"
+      ]
+    },
+    "AngleLeftIcon": {
+      "product_count": 15,
+      "total_usage": 19,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Cost-Management",
+        "Cockpit",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "3Scale",
+        "Keycloak",
+        "Kogito-tooling",
+        "Pbench",
+        "Kiali",
+        "ACM-console",
+        "Kubevirt"
+      ]
+    },
+    "CopyIcon": {
+      "product_count": 15,
+      "total_usage": 43,
+      "product_list": [
+        "Ansible-ui",
+        "Cockpit",
+        "RHEL-Composer",
+        "Quay",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Pbench",
+        "Camel-Karavan",
+        "Kiali",
+        "Stackrox",
+        "ACM-console",
+        "App-services-ui-components",
+        "CHE-dashboard",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "ErrorCircleOIcon": {
+      "product_count": 14,
+      "total_usage": 31,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "Cost-Management",
+        "Cockpit",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Cockpit-machines",
+        "Cockpit-podman",
+        "Kiali",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Kubevirt"
+      ]
+    },
+    "TimesCircleIcon": {
+      "product_count": 14,
+      "total_usage": 31,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Foreman-Katello",
+        "RedHatInsights-insights-dashboard",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cockpit",
+        "RHEL-Composer",
+        "Quay",
+        "Quay-ui",
+        "Stackrox",
+        "ACM-console",
+        "RedHatInsights-payload-tracker-frontend",
+        "RedHatInsights-data-driven-forms"
+      ]
+    },
+    "PlusIcon": {
+      "product_count": 14,
+      "total_usage": 59,
+      "product_list": [
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Console",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Kiali",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Stackrox"
+      ]
+    },
+    "UserIcon": {
+      "product_count": 14,
+      "total_usage": 30,
+      "product_list": [
+        "Foreman-Console",
+        "RedHatInsights-notifications-frontend",
+        "Cockpit",
+        "Quay",
+        "Virtualization-Frontend",
+        "3Scale",
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Quipucords-Product-Discovery",
+        "Quay-ui",
+        "Freeipa",
+        "Cryostat-Web",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "WrenchIcon": {
+      "product_count": 13,
+      "total_usage": 27,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Katello",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Kiali-App",
+        "Kiali",
+        "Opendatahub",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "App-services-ui-components",
+        "Cryostat-Web"
+      ]
+    },
+    "SecurityIcon": {
+      "product_count": 13,
+      "total_usage": 30,
+      "product_list": [
+        "Foreman-Katello",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-vulnerability-ui",
+        "RedHatInsights-inventory-frontend",
+        "Cockpit",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Kiali",
+        "Packit-Dashboard",
+        "RedHatInsights-acs-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "Trusted-Content-CRDA"
+      ]
+    },
+    "OffIcon": {
+      "product_count": 12,
+      "total_usage": 20,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Foreman-Console",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Virtualization-Frontend",
+        "Kogito-tooling",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Kubevirt",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "UploadIcon": {
+      "product_count": 12,
+      "total_usage": 33,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Cockpit",
+        "Quay",
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Quay-ui",
+        "InstructLab-UI",
+        "Cryostat-Web",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "MoonIcon": {
+      "product_count": 12,
+      "total_usage": 13,
+      "product_list": [
+        "Ansible-ui",
+        "Quay",
+        "Infinispan",
+        "Debezium",
+        "Kiali",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Stackrox",
+        "ACM-console",
+        "InstructLab-UI",
+        "Cryostat-Web"
+      ]
+    },
+    "SunIcon": {
+      "product_count": 12,
+      "total_usage": 13,
+      "product_list": [
+        "Ansible-ui",
+        "Quay",
+        "Infinispan",
+        "Debezium",
+        "Kiali",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Stackrox",
+        "ACM-console",
+        "InstructLab-UI",
+        "Cryostat-Web"
+      ]
+    },
+    "KeyIcon": {
+      "product_count": 12,
+      "total_usage": 25,
+      "product_list": [
+        "Ansible-ui",
+        "Foreman-Console",
+        "RedHatInsights-rbac-ui",
+        "Quay",
+        "3Scale",
+        "Infinispan",
+        "Kiali",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "Quay-ui",
+        "Freeipa",
+        "CHE-dashboard"
+      ]
+    },
+    "GithubIcon": {
+      "product_count": 12,
+      "total_usage": 37,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-rbac-ui",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Infinispan",
+        "HAC-Dev",
+        "Kiali",
+        "Packit-Dashboard",
+        "InstructLab-UI"
+      ]
+    },
+    "RedoIcon": {
+      "product_count": 12,
+      "total_usage": 23,
+      "product_list": [
+        "Ansible-ui",
+        "Foreman-Katello",
+        "RedHatInsights-sources-ui",
+        "Cockpit",
+        "Kogito-tooling",
+        "Infinispan",
+        "Pbench",
+        "Cockpit-machines",
+        "Packit-Dashboard",
+        "Quipucords-Product-Discovery",
+        "ACM-console",
+        "Kubevirt"
+      ]
+    },
+    "OutlinedClockIcon": {
+      "product_count": 12,
+      "total_usage": 22,
+      "product_list": [
+        "Ansible-ui",
+        "Ansible-hub",
+        "Cost-Management",
+        "Quay",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Cockpit-machines",
+        "Kiali",
+        "Stackrox",
+        "ACM-console",
+        "App-services-ui-components",
+        "Kubevirt"
+      ]
+    },
+    "ExternalLinkSquareAltIcon": {
+      "product_count": 12,
+      "total_usage": 22,
+      "product_list": [
+        "RedHatInsights-notifications-frontend",
+        "Cockpit",
+        "RHEL-Composer",
+        "Keycloak",
+        "Infinispan",
+        "Cockpit-machines",
+        "Packit-Dashboard",
+        "Stackrox",
+        "CHE-dashboard",
+        "Kubevirt",
+        "Nmstate-plugin",
+        "RedHatInsights-api-frontend"
+      ]
+    },
+    "AddCircleOIcon": {
+      "product_count": 11,
+      "total_usage": 32,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Cost-Management",
+        "OpenShift-Admin-Console",
+        "Virtualization-Frontend",
+        "Kogito-tooling",
+        "Infinispan",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "Kubevirt"
+      ]
+    },
+    "PauseCircleIcon": {
+      "product_count": 11,
+      "total_usage": 14,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Migration-Tools-Shared-Library",
+        "RedHatInsights-vulnerability-ui",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Debezium",
+        "Kiali",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "Quay-ui"
+      ]
+    },
+    "ExpandIcon": {
+      "product_count": 11,
+      "total_usage": 17,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Application-Migration-Toolkit",
+        "HAC-Dev",
+        "Camel-Karavan",
+        "Cockpit-machines",
+        "Kiali",
+        "Packit-Dashboard",
+        "Opendatahub",
+        "ACM-console",
+        "CHE-dashboard"
+      ]
+    },
+    "ColumnsIcon": {
+      "product_count": 10,
+      "total_usage": 11,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Foreman-Console",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "Opendatahub",
+        "ACM-console",
+        "Kubevirt"
+      ]
+    },
+    "UndoIcon": {
+      "product_count": 10,
+      "total_usage": 20,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Foreman-Katello",
+        "Foreman-Console",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "Stackrox",
+        "ACM-console",
+        "RHEL-Anaconda-webui"
+      ]
+    },
+    "TagIcon": {
+      "product_count": 10,
+      "total_usage": 18,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "Ansible-hub",
+        "Foreman-Console",
+        "Cost-Management",
+        "Quay",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Camel-Karavan",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "CubeIcon": {
+      "product_count": 10,
+      "total_usage": 20,
+      "product_list": [
+        "Ansible-ui",
+        "Foreman-Katello",
+        "RedHatInsights-inventory-frontend",
+        "OpenShift-Admin-Console",
+        "3Scale",
+        "Keycloak",
+        "Kogito-tooling",
+        "Infinispan",
+        "RedHatInsights-insights-chrome",
+        "Aonic-UI"
+      ]
+    },
+    "CodeBranchIcon": {
+      "product_count": 10,
+      "total_usage": 16,
+      "product_list": [
+        "Foreman-Katello",
+        "RedHatInsights-frontend-components",
+        "Quay",
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "HAC-Dev",
+        "Apicurio-Registry",
+        "Kiali",
+        "Packit-Dashboard"
+      ]
+    },
+    "PlayIcon": {
+      "product_count": 10,
+      "total_usage": 34,
+      "product_list": [
+        "RedHatInsights-sources-ui",
+        "OpenShift-Admin-Console",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Kiali",
+        "Opendatahub",
+        "Quipucords-Product-Discovery",
+        "Kubevirt"
+      ]
+    },
+    "TabTitleIcon": {
+      "product_count": 10,
+      "total_usage": 17,
+      "product_list": [
+        "RedHatInsights-sources-ui",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Opendatahub",
+        "Quay-ui",
+        "Cryostat-Web",
+        "Kubevirt",
+        "Nmstate-plugin"
+      ]
+    },
+    "InfoIcon": {
+      "product_count": 10,
+      "total_usage": 22,
+      "product_list": [
+        "Cockpit",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Infinispan",
+        "Cockpit-machines",
+        "Kiali",
+        "Kui",
+        "Freeipa",
+        "App-services-ui-components",
+        "CHE-dashboard"
+      ]
+    },
+    "DatabaseIcon": {
+      "product_count": 9,
+      "total_usage": 18,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Ansible-ui",
+        "Foreman-Console",
+        "RedHatInsights-sources-ui",
+        "OpenShift-Admin-Console",
+        "Keycloak",
+        "Infinispan",
+        "Debezium",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "TopologyIcon": {
+      "product_count": 9,
+      "total_usage": 20,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Ansible-ui",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Kiali",
+        "Cryostat-Web",
+        "Nmstate-plugin"
+      ]
+    },
+    "AngleDoubleUpIcon": {
+      "product_count": 9,
+      "total_usage": 11,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-frontend-components",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "HAC-Dev",
+        "Kiali",
+        "Stackrox",
+        "Aonic-UI",
+        "Kubevirt"
+      ]
+    },
+    "AngleDoubleDownIcon": {
+      "product_count": 9,
+      "total_usage": 11,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-frontend-components",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "HAC-Dev",
+        "Kiali",
+        "Stackrox",
+        "Aonic-UI",
+        "Kubevirt"
+      ]
+    },
+    "BugIcon": {
+      "product_count": 9,
+      "total_usage": 16,
+      "product_list": [
+        "Foreman-Katello",
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-inventory-frontend",
+        "Cockpit",
+        "Quay",
+        "Packit-Dashboard",
+        "Quay-ui",
+        "RedHatInsights-acs-ui",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "ExportIcon": {
+      "product_count": 9,
+      "total_usage": 10,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "Cost-Management",
+        "RedHatInsights-Subs-Watch",
+        "OpenShift-Admin-Console",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "ACM-console",
+        "RHEnVision",
+        "RedHatInsights-payload-tracker-frontend",
+        "RedHatInsights-api-frontend"
+      ]
+    },
+    "DisconnectedIcon": {
+      "product_count": 9,
+      "total_usage": 10,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "Quipucords-Product-Discovery",
+        "Openshift-assisted-ui",
+        "Cryostat-Web",
+        "RHEL-Anaconda-webui"
+      ]
+    },
+    "CompressIcon": {
+      "product_count": 9,
+      "total_usage": 17,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kogito-tooling",
+        "HAC-Dev",
+        "Kiali",
+        "Opendatahub",
+        "Openshift-monitoring-plugin",
+        "ACM-console",
+        "CHE-dashboard"
+      ]
+    },
+    "GlobeAmericasIcon": {
+      "product_count": 8,
+      "total_usage": 9,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kiali",
+        "Opendatahub",
+        "ACM-console",
+        "Aonic-UI",
+        "Kubevirt"
+      ]
+    },
+    "NetworkIcon": {
+      "product_count": 8,
+      "total_usage": 12,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Virtualization-Frontend",
+        "Apicurio",
+        "Apicurio-Registry",
+        "Cockpit-machines",
+        "RedHatInsights-acs-ui",
+        "Kubevirt",
+        "Nmstate-plugin"
+      ]
+    },
+    "CodeIcon": {
+      "product_count": 8,
+      "total_usage": 11,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Kogito-tooling",
+        "Packit-Dashboard",
+        "RedHatInsights-insights-chrome",
+        "InstructLab-UI",
+        "CHE-dashboard"
+      ]
+    },
+    "HomeIcon": {
+      "product_count": 8,
+      "total_usage": 11,
+      "product_list": [
+        "Ansible-ui",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Kiali",
+        "Kui",
+        "Opendatahub",
+        "Kubeflow-Model-Registry",
+        "CHE-dashboard"
+      ]
+    },
+    "AngleUpIcon": {
+      "product_count": 8,
+      "total_usage": 11,
+      "product_list": [
+        "Ansible-ui",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "HAC-Dev",
+        "Cockpit-machines",
+        "Stackrox",
+        "ACM-console",
+        "Cryostat-Web"
+      ]
+    },
+    "PauseIcon": {
+      "product_count": 8,
+      "total_usage": 17,
+      "product_list": [
+        "RedHatInsights-sources-ui",
+        "Cost-Management",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Camel-Karavan",
+        "Kiali",
+        "Quipucords-Product-Discovery",
+        "Kubevirt"
+      ]
+    },
+    "DesktopIcon": {
+      "product_count": 8,
+      "total_usage": 14,
+      "product_list": [
+        "RedHatInsights-inventory-frontend",
+        "RedHatInsights-remediations-frontend",
+        "Quay",
+        "Keycloak",
+        "Kogito-tooling",
+        "Apicurio-Registry",
+        "Packit-Dashboard",
+        "Quay-ui"
+      ]
+    },
+    "ThIcon": {
+      "product_count": 8,
+      "total_usage": 10,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Kiali",
+        "Opendatahub",
+        "RedHatInsights-api-documentation-frontend",
+        "RedHatInsights-insights-chrome",
+        "Kubevirt"
+      ]
+    },
+    "LinkIcon": {
+      "product_count": 7,
+      "total_usage": 11,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "OpenShift-Admin-Console",
+        "Keycloak",
+        "Kogito-tooling",
+        "Openshift-assisted-ui",
+        "Kubevirt",
+        "Nmstate-plugin"
+      ]
+    },
+    "ResourcesFullIcon": {
+      "product_count": 7,
+      "total_usage": 10,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kogito-tooling",
+        "CHE-dashboard"
+      ]
+    },
+    "VirtualMachineIcon": {
+      "product_count": 7,
+      "total_usage": 13,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Virtualization-Frontend",
+        "Kogito-tooling",
+        "Cockpit-machines",
+        "Kiali",
+        "Kubevirt"
+      ]
+    },
+    "HourglassHalfIcon": {
+      "product_count": 7,
+      "total_usage": 11,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "RedHatInsights-frontend-components",
+        "OpenShift-Admin-Console",
+        "Packit-Dashboard",
+        "Openshift-monitoring-plugin",
+        "Kubevirt",
+        "Nmstate-plugin"
+      ]
+    },
+    "TaskIcon": {
+      "product_count": 7,
+      "total_usage": 9,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Migration-Toolkit-For-Applications",
+        "Quay",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Quay-ui"
+      ]
+    },
+    "PowerOffIcon": {
+      "product_count": 7,
+      "total_usage": 8,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Foreman-Console",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-vulnerability-ui",
+        "Cockpit",
+        "Quay",
+        "Cockpit-machines"
+      ]
+    },
+    "SortAmountDownIcon": {
+      "product_count": 7,
+      "total_usage": 10,
+      "product_list": [
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "RedHatInsights-frontend-components",
+        "Virtualization-Frontend",
+        "Debezium",
+        "App-services-ui-components"
+      ]
+    },
+    "ThLargeIcon": {
+      "product_count": 7,
+      "total_usage": 8,
+      "product_list": [
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Kiali"
+      ]
+    },
+    "SyncIcon": {
+      "product_count": 7,
+      "total_usage": 28,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-remediations-frontend",
+        "Cost-Management",
+        "Kogito-tooling",
+        "Openshift-assisted-ui",
+        "Stackrox",
+        "App-services-ui-components"
+      ]
+    },
+    "ClockIcon": {
+      "product_count": 7,
+      "total_usage": 30,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Kiali",
+        "App-services-ui-components",
+        "RedHatInsights-payload-tracker-frontend"
+      ]
+    },
+    "MonitoringIcon": {
+      "product_count": 7,
+      "total_usage": 9,
+      "product_list": [
+        "Ansible-ui",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "Opendatahub",
+        "Openshift-assisted-ui",
+        "RedHatInsights-insights-chrome",
+        "Cryostat-Web"
+      ]
+    },
+    "ProcessAutomationIcon": {
+      "product_count": 7,
+      "total_usage": 15,
+      "product_list": [
+        "Ansible-ui",
+        "Cockpit",
+        "Kiali-App",
+        "Keycloak",
+        "Kiali",
+        "RedHatInsights-acs-ui",
+        "Cryostat-Web"
+      ]
+    },
+    "ArrowCircleUpIcon": {
+      "product_count": 7,
+      "total_usage": 9,
+      "product_list": [
+        "Foreman-Katello",
+        "OpenShift-Admin-Console",
+        "Virtualization-Frontend",
+        "Kogito-tooling",
+        "Cockpit-machines",
+        "ACM-console",
+        "Kubevirt"
+      ]
+    },
+    "BundleIcon": {
+      "product_count": 7,
+      "total_usage": 9,
+      "product_list": [
+        "Foreman-Katello",
+        "RedHatInsights-inventory-frontend",
+        "Cockpit",
+        "Quay",
+        "Kiali-App",
+        "Kiali",
+        "Quay-ui"
+      ]
+    },
+    "AngleDoubleRightIcon": {
+      "product_count": 7,
+      "total_usage": 8,
+      "product_list": [
+        "Foreman-Console",
+        "RHEL-Composer",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kiali",
+        "Packit-Dashboard",
+        "Opendatahub"
+      ]
+    },
+    "UsersIcon": {
+      "product_count": 7,
+      "total_usage": 15,
+      "product_list": [
+        "Foreman-Console",
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "Quay",
+        "Kogito-tooling",
+        "Quay-ui",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "MinusIcon": {
+      "product_count": 7,
+      "total_usage": 18,
+      "product_list": [
+        "Cost-Management",
+        "Cockpit",
+        "Kiali-App",
+        "Kiali",
+        "RedHatInsights-Hybrid-Committed-Spend",
+        "Stackrox",
+        "Freeipa"
+      ]
+    },
+    "MigrationIcon": {
+      "product_count": 6,
+      "total_usage": 10,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Kiali",
+        "Kubevirt"
+      ]
+    },
+    "SortAlphaDownIcon": {
+      "product_count": 6,
+      "total_usage": 8,
+      "product_list": [
+        "Ansible-hub",
+        "RHEL-Composer",
+        "Kiali-App",
+        "Apicurio",
+        "Apicurio-Registry",
+        "Kiali"
+      ]
+    },
+    "CriticalRiskIcon": {
+      "product_count": 6,
+      "total_usage": 7,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "OpenShift-Admin-Console",
+        "HAC-Dev",
+        "Stackrox",
+        "ACM-console",
+        "Aonic-UI"
+      ]
+    },
+    "RebootingIcon": {
+      "product_count": 6,
+      "total_usage": 8,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-compliance-frontend",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "Quipucords-Product-Discovery"
+      ]
+    },
+    "OutlinedCommentsIcon": {
+      "product_count": 6,
+      "total_usage": 7,
+      "product_list": [
+        "RedHatInsights-sources-ui",
+        "Infinispan",
+        "Packit-Dashboard",
+        "RedHatInsights-insights-chrome",
+        "Stackrox",
+        "ACM-console"
+      ]
+    },
+    "CloudSecurityIcon": {
+      "product_count": 6,
+      "total_usage": 7,
+      "product_list": [
+        "RedHatInsights-compliance-frontend",
+        "Quay",
+        "Quipucords-Product-Discovery",
+        "RedHatInsights-acs-ui",
+        "RedHatInsights-insights-chrome",
+        "Stackrox"
+      ]
+    },
+    "StarIcon": {
+      "product_count": 6,
+      "total_usage": 19,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kiali",
+        "Opendatahub",
+        "RedHatInsights-insights-chrome",
+        "Kubevirt"
+      ]
+    },
+    "GitlabIcon": {
+      "product_count": 6,
+      "total_usage": 15,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Quay",
+        "Keycloak",
+        "Kogito-tooling",
+        "HAC-Dev",
+        "Packit-Dashboard"
+      ]
+    },
+    "InfoAltIcon": {
+      "product_count": 6,
+      "total_usage": 22,
+      "product_list": [
+        "Kiali-App",
+        "Keycloak",
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "Cockpit-machines",
+        "Kiali"
+      ]
+    },
+    "BlueprintIcon": {
+      "product_count": 6,
+      "total_usage": 10,
+      "product_list": [
+        "Kiali-App",
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Kiali",
+        "Packit-Dashboard",
+        "Kubeflow-Model-Registry"
+      ]
+    },
+    "PficonTemplateIcon": {
+      "product_count": 6,
+      "total_usage": 8,
+      "product_list": [
+        "Kiali-App",
+        "Kogito-tooling",
+        "Pbench",
+        "Kiali",
+        "Cryostat-Web",
+        "Kubevirt"
+      ]
+    },
+    "EditIcon": {
+      "product_count": 5,
+      "total_usage": 7,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Cockpit",
+        "Kogito-tooling",
+        "Infinispan",
+        "ACM-console"
+      ]
+    },
+    "TableIcon": {
+      "product_count": 5,
+      "total_usage": 11,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "Virtualization-Frontend",
+        "Keycloak",
+        "Kogito-tooling"
+      ]
+    },
+    "HistoryIcon": {
+      "product_count": 5,
+      "total_usage": 14,
+      "product_list": [
+        "Ansible-ui",
+        "Quay",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Kiali"
+      ]
+    },
+    "RocketIcon": {
+      "product_count": 5,
+      "total_usage": 16,
+      "product_list": [
+        "Ansible-ui",
+        "Camel-Karavan",
+        "Opendatahub",
+        "RedHatInsights-insights-chrome",
+        "Kubevirt"
+      ]
+    },
+    "ClipboardCheckIcon": {
+      "product_count": 5,
+      "total_usage": 14,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-vulnerability-ui",
+        "OpenShift-Admin-Console",
+        "Quipucords-Product-Discovery",
+        "RedHatInsights-acs-ui"
+      ]
+    },
+    "RedhatIcon": {
+      "product_count": 5,
+      "total_usage": 9,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-chrome",
+        "Trusted-Content-CRDA",
+        "Kubevirt"
+      ]
+    },
+    "ExclamationIcon": {
+      "product_count": 5,
+      "total_usage": 10,
+      "product_list": [
+        "Ansible-ui",
+        "Ansible-hub",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "Freeipa"
+      ]
+    },
+    "LongArrowAltUpIcon": {
+      "product_count": 5,
+      "total_usage": 7,
+      "product_list": [
+        "Ansible-hub",
+        "Foreman-Katello",
+        "Opendatahub",
+        "Stackrox",
+        "Nmstate-plugin"
+      ]
+    },
+    "EqualsIcon": {
+      "product_count": 5,
+      "total_usage": 6,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "OpenShift-Admin-Console",
+        "HAC-Dev",
+        "Stackrox",
+        "Aonic-UI"
+      ]
+    },
+    "InfrastructureIcon": {
+      "product_count": 5,
+      "total_usage": 7,
+      "product_list": [
+        "RedHatInsights-rbac-ui",
+        "RedHatInsights-notifications-frontend",
+        "Kogito-tooling",
+        "Kiali",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "RunningIcon": {
+      "product_count": 5,
+      "total_usage": 9,
+      "product_list": [
+        "RedHatInsights-notifications-frontend",
+        "Virtualization-Frontend",
+        "ACM-console",
+        "Cryostat-Web",
+        "Kubevirt"
+      ]
+    },
+    "ConnectedIcon": {
+      "product_count": 5,
+      "total_usage": 11,
+      "product_list": [
+        "RedHatInsights-remediations-frontend",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "Openshift-assisted-ui",
+        "ACM-console"
+      ]
+    },
+    "OnRunningIcon": {
+      "product_count": 5,
+      "total_usage": 10,
+      "product_list": [
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kogito-tooling",
+        "Kiali"
+      ]
+    },
+    "OkIcon": {
+      "product_count": 5,
+      "total_usage": 5,
+      "product_list": [
+        "Cockpit",
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Apicurio-Registry",
+        "Kiali"
+      ]
+    },
+    "StopIcon": {
+      "product_count": 5,
+      "total_usage": 21,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Camel-Karavan",
+        "Kiali",
+        "Quipucords-Product-Discovery"
+      ]
+    },
+    "BoltIcon": {
+      "product_count": 5,
+      "total_usage": 8,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "3Scale",
+        "Kogito-tooling",
+        "Kiali"
+      ]
+    },
+    "CatalogIcon": {
+      "product_count": 5,
+      "total_usage": 10,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Infinispan",
+        "Packit-Dashboard",
+        "InstructLab-UI",
+        "Kubevirt"
+      ]
+    },
+    "PasteIcon": {
+      "product_count": 5,
+      "total_usage": 10,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "Openshift-assisted-ui",
+        "ACM-console",
+        "Kubevirt"
+      ]
+    },
+    "FileIcon": {
+      "product_count": 5,
+      "total_usage": 12,
+      "product_list": [
+        "Kogito-tooling",
+        "Stackrox",
+        "InstructLab-UI",
+        "Cryostat-Web",
+        "CHE-dashboard"
+      ]
+    },
+    "ResourcesAlmostFullIcon": {
+      "product_count": 4,
+      "total_usage": 6,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Migration-Toolkit-for-Virtualization",
+        "Cockpit",
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "ResourcesAlmostEmptyIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Cockpit",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling"
+      ]
+    },
+    "GripVerticalIcon": {
+      "product_count": 4,
+      "total_usage": 8,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "OpenShift-Admin-Console",
+        "Kogito-tooling",
+        "HAC-Dev"
+      ]
+    },
+    "CircleIcon": {
+      "product_count": 4,
+      "total_usage": 12,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "OpenShift-Admin-Console",
+        "Debezium"
+      ]
+    },
+    "SortAlphaDownAltIcon": {
+      "product_count": 4,
+      "total_usage": 7,
+      "product_list": [
+        "Ansible-ui",
+        "RHEL-Composer",
+        "Apicurio",
+        "Apicurio-Registry"
+      ]
+    },
+    "SortAlphaUpIcon": {
+      "product_count": 4,
+      "total_usage": 5,
+      "product_list": [
+        "Ansible-ui",
+        "Ansible-hub",
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "SortAmountUpIcon": {
+      "product_count": 4,
+      "total_usage": 7,
+      "product_list": [
+        "Ansible-ui",
+        "Ansible-hub",
+        "RedHatInsights-tower-analytics-frontend",
+        "RedHatInsights-frontend-components"
+      ]
+    },
+    "ShareAltIcon": {
+      "product_count": 4,
+      "total_usage": 14,
+      "product_list": [
+        "Ansible-ui",
+        "Kiali-App",
+        "Keycloak",
+        "Kiali"
+      ]
+    },
+    "ArrowsAltVIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "Ansible-hub",
+        "Kogito-tooling",
+        "Opendatahub",
+        "Cryostat-Web"
+      ]
+    },
+    "LongArrowAltDownIcon": {
+      "product_count": 4,
+      "total_usage": 5,
+      "product_list": [
+        "Ansible-hub",
+        "Opendatahub",
+        "Stackrox",
+        "Nmstate-plugin"
+      ]
+    },
+    "SquareFullIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "RedHatInsights-tower-analytics-frontend",
+        "RedHatInsights-compliance-frontend",
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "SquareIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "Foreman-Katello",
+        "RedHatInsights-Subs-Watch",
+        "OpenShift-Admin-Console",
+        "Kubevirt"
+      ]
+    },
+    "CaretUpIcon": {
+      "product_count": 4,
+      "total_usage": 5,
+      "product_list": [
+        "Foreman-Katello",
+        "Cockpit",
+        "Keycloak",
+        "Kui"
+      ]
+    },
+    "FlagIcon": {
+      "product_count": 4,
+      "total_usage": 6,
+      "product_list": [
+        "Foreman-Katello",
+        "Foreman-Console",
+        "OpenShift-Admin-Console",
+        "ACM-console"
+      ]
+    },
+    "RegistryIcon": {
+      "product_count": 4,
+      "total_usage": 8,
+      "product_list": [
+        "Foreman-Katello",
+        "Kogito-tooling",
+        "CHE-dashboard",
+        "Kubevirt"
+      ]
+    },
+    "BuildIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "Foreman-Console",
+        "Quay",
+        "Camel-Karavan",
+        "Packit-Dashboard"
+      ]
+    },
+    "OutlinedWindowRestoreIcon": {
+      "product_count": 4,
+      "total_usage": 8,
+      "product_list": [
+        "Foreman-Console",
+        "OpenShift-Admin-Console",
+        "Opendatahub",
+        "ACM-console"
+      ]
+    },
+    "OpenshiftIcon": {
+      "product_count": 4,
+      "total_usage": 6,
+      "product_list": [
+        "RedHatInsights-sources-ui",
+        "Keycloak",
+        "Kogito-tooling",
+        "Quipucords-Product-Discovery"
+      ]
+    },
+    "FileAltIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "RedHatInsights-vulnerability-ui",
+        "Openshift-assisted-ui",
+        "Stackrox",
+        "ACM-console"
+      ]
+    },
+    "OutlinedCalendarAltIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "RedHatInsights-vulnerability-ui",
+        "Quay",
+        "App-services-ui-components",
+        "Cryostat-Web"
+      ]
+    },
+    "RepositoryIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "RedHatInsights-inventory-frontend",
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "AngleDoubleLeftIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "Cost-Management",
+        "RHEL-Composer",
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "createIcon": {
+      "product_count": 4,
+      "total_usage": 73,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Opendatahub",
+        "Kubeflow-Model-Registry",
+        "Nmstate-plugin"
+      ]
+    },
+    "BitbucketIcon": {
+      "product_count": 4,
+      "total_usage": 16,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Keycloak",
+        "Kogito-tooling",
+        "HAC-Dev"
+      ]
+    },
+    "SortAmountDownAltIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "Virtualization-Frontend",
+        "Kiali-App",
+        "Kiali",
+        "Cryostat-Web"
+      ]
+    },
+    "ClusterIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "Kiali-App",
+        "Kogito-tooling",
+        "Infinispan",
+        "Kiali"
+      ]
+    },
+    "ArrowLeftIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "Kiali-App",
+        "Kogito-tooling",
+        "Kiali",
+        "RHEL-Anaconda-webui"
+      ]
+    },
+    "EllipsisHIcon": {
+      "product_count": 4,
+      "total_usage": 4,
+      "product_list": [
+        "Kiali-App",
+        "HAC-Dev",
+        "Kiali",
+        "Stackrox"
+      ]
+    },
+    "ServerIcon": {
+      "product_count": 4,
+      "total_usage": 5,
+      "product_list": [
+        "HAC-Dev",
+        "Cockpit-machines",
+        "ACM-console",
+        "Kubevirt"
+      ]
+    },
+    "PackageIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "Foreman-Katello",
+        "Packit-Dashboard"
+      ]
+    },
+    "HourglassStartIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Ansible-ui",
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "NotStartedIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "OpenShift-Admin-Console",
+        "HAC-Dev"
+      ]
+    },
+    "BuilderImageIcon": {
+      "product_count": 3,
+      "total_usage": 6,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-sources-ui",
+        "Stackrox"
+      ]
+    },
+    "ThumbsUpIcon": {
+      "product_count": 3,
+      "total_usage": 14,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-vulnerability-ui"
+      ]
+    },
+    "AsteriskIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "Ansible-ui",
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "CaretLeftIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend",
+        "RedHatInsights-payload-tracker-frontend"
+      ]
+    },
+    "ImportIcon": {
+      "product_count": 3,
+      "total_usage": 6,
+      "product_list": [
+        "Ansible-ui",
+        "Kogito-tooling",
+        "ACM-console"
+      ]
+    },
+    "AnsibleTowerIcon": {
+      "product_count": 3,
+      "total_usage": 8,
+      "product_list": [
+        "Ansible-ui",
+        "Foreman-Katello",
+        "Quipucords-Product-Discovery"
+      ]
+    },
+    "FolderOpenIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Ansible-hub",
+        "Pbench",
+        "Kubevirt"
+      ]
+    },
+    "SpinnerIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Ansible-hub",
+        "RedHatInsights-insights-dashboard",
+        "Kui"
+      ]
+    },
+    "PathMissingIcon": {
+      "product_count": 3,
+      "total_usage": 6,
+      "product_list": [
+        "RedHatInsights-tower-analytics-frontend",
+        "Opendatahub",
+        "Kubeflow-Model-Registry"
+      ]
+    },
+    "EnhancementIcon": {
+      "product_count": 3,
+      "total_usage": 9,
+      "product_list": [
+        "Foreman-Katello",
+        "RedHatInsights-inventory-frontend",
+        "Cockpit"
+      ]
+    },
+    "TenantIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Foreman-Katello",
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "HddIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Foreman-Console",
+        "Opendatahub",
+        "RHEL-Anaconda-webui"
+      ]
+    },
+    "GlobeIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Foreman-Console",
+        "Application-Migration-Toolkit",
+        "Cryostat-Web"
+      ]
+    },
+    "QuestionIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "Kogito-tooling",
+        "Freeipa"
+      ]
+    },
+    "EnvelopeIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "RedHatInsights-notifications-frontend",
+        "RedHatInsights-insights-dashboard",
+        "Application-Migration-Toolkit"
+      ]
+    },
+    "TrendUpIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-insights-chrome",
+        "Kubevirt"
+      ]
+    },
+    "AutomationIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "RedHatInsights-sources-ui",
+        "OpenShift-Admin-Console",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "CloudIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "RedHatInsights-sources-ui",
+        "RedHatInsights-remediations-frontend",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "CogsIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "RedHatInsights-insights-dashboard",
+        "OpenShift-Admin-Console",
+        "RHEnVision"
+      ]
+    },
+    "ModuleIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "RedHatInsights-inventory-frontend",
+        "Stackrox",
+        "Kubevirt"
+      ]
+    },
+    "CalculatorIcon": {
+      "product_count": 3,
+      "total_usage": 7,
+      "product_list": [
+        "Cost-Management",
+        "Kogito-tooling",
+        "RedHatInsights-Hybrid-Committed-Spend"
+      ]
+    },
+    "AsleepIcon": {
+      "product_count": 3,
+      "total_usage": 5,
+      "product_list": [
+        "Cockpit",
+        "Virtualization-Frontend",
+        "ACM-console"
+      ]
+    },
+    "LongArrowAltRightIcon": {
+      "product_count": 3,
+      "total_usage": 5,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "ChartLineIcon": {
+      "product_count": 3,
+      "total_usage": 6,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Openshift-monitoring-plugin",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "FileUploadIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Stackrox",
+        "CHE-dashboard"
+      ]
+    },
+    "GitAltIcon": {
+      "product_count": 3,
+      "total_usage": 15,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "HAC-Dev",
+        "ACM-console"
+      ]
+    },
+    "ShareSquareIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Pbench",
+        "Freeipa"
+      ]
+    },
+    "OutlinedPlayCircleIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "HAC-Dev",
+        "Opendatahub"
+      ]
+    },
+    "DockerIcon": {
+      "product_count": 3,
+      "total_usage": 14,
+      "product_list": [
+        "Quay",
+        "Camel-Karavan",
+        "Quay-ui"
+      ]
+    },
+    "ArrowCircleDownIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "Virtualization-Frontend",
+        "Cockpit-machines",
+        "Stackrox"
+      ]
+    },
+    "ExpandArrowsAltIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Kiali-App",
+        "Pbench",
+        "Kiali"
+      ]
+    },
+    "MapIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Kiali-App",
+        "Kiali",
+        "Freeipa"
+      ]
+    },
+    "FileDownloadIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Kiali-App",
+        "Debezium",
+        "Kiali"
+      ]
+    },
+    "GlobeRouteIcon": {
+      "product_count": 3,
+      "total_usage": 5,
+      "product_list": [
+        "Kiali-App",
+        "Keycloak",
+        "Kiali"
+      ]
+    },
+    "LockOpenIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Kiali-App",
+        "Kiali",
+        "Kui"
+      ]
+    },
+    "MapMarkerIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Kiali-App",
+        "Keycloak",
+        "Kiali"
+      ]
+    },
+    "LockedIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Apicurio",
+        "Apicurio-Registry",
+        "Kiali"
+      ]
+    },
+    "OptimizeIcon": {
+      "product_count": 3,
+      "total_usage": 5,
+      "product_list": [
+        "Kogito-tooling",
+        "Opendatahub",
+        "RedHatInsights-image-builder-frontend"
+      ]
+    },
+    "ArrowUpIcon": {
+      "product_count": 3,
+      "total_usage": 8,
+      "product_list": [
+        "Kogito-tooling",
+        "Application-Migration-Toolkit",
+        "RedHatInsights-Hybrid-Committed-Spend"
+      ]
+    },
+    "FolderIcon": {
+      "product_count": 3,
+      "total_usage": 13,
+      "product_list": [
+        "Kogito-tooling",
+        "Pbench",
+        "Kubevirt"
+      ]
+    },
+    "ImageIcon": {
+      "product_count": 3,
+      "total_usage": 5,
+      "product_list": [
+        "Kogito-tooling",
+        "Camel-Karavan",
+        "Kubevirt"
+      ]
+    },
+    "someIcon": {
+      "product_count": 3,
+      "total_usage": 3,
+      "product_list": [
+        "Opendatahub",
+        "RedHatInsights-acs-ui",
+        "RHEnVision"
+      ]
+    },
+    "ResourcesEmptyIcon": {
+      "product_count": 3,
+      "total_usage": 4,
+      "product_list": [
+        "Stackrox",
+        "ACM-console",
+        "CHE-dashboard"
+      ]
+    },
+    "OutlinedCircleIcon": {
+      "product_count": 2,
+      "total_usage": 4,
+      "product_list": [
+        "Migration-Toolkit-for-Containers",
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "ClipboardListIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "OutlinedHddIcon": {
+      "product_count": 2,
+      "total_usage": 4,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization",
+        "Kogito-tooling"
+      ]
+    },
+    "UnlinkIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "Migration-Toolkit-For-Applications",
+        "Keycloak"
+      ]
+    },
+    "SearchPlusIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "Ansible-ui",
+        "Kogito-tooling"
+      ]
+    },
+    "ThumbsDownIcon": {
+      "product_count": 2,
+      "total_usage": 10,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-frontend-components"
+      ]
+    },
+    "DollarSignIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-tower-analytics-frontend"
+      ]
+    },
+    "ProjectDiagramIcon": {
+      "product_count": 2,
+      "total_usage": 6,
+      "product_list": [
+        "Ansible-ui",
+        "Kubevirt"
+      ]
+    },
+    "GoogleIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "Ansible-ui",
+        "Keycloak"
+      ]
+    },
+    "StopCircleIcon": {
+      "product_count": 2,
+      "total_usage": 7,
+      "product_list": [
+        "Ansible-ui",
+        "RedHatInsights-notifications-frontend"
+      ]
+    },
+    "OutlinedBookmarkIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Foreman-Katello",
+        "Foreman-Console"
+      ]
+    },
+    "CloneIcon": {
+      "product_count": 2,
+      "total_usage": 4,
+      "product_list": [
+        "Foreman-Console",
+        "Camel-Karavan"
+      ]
+    },
+    "TerminalIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Foreman-Console",
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "UserAltIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Foreman-Console",
+        "Pbench"
+      ]
+    },
+    "BullseyeIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-vulnerability-ui"
+      ]
+    },
+    "LightbulbIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-vulnerability-ui"
+      ]
+    },
+    "OutlinedThumbsDownIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "OutlinedThumbsUpIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "RedHatInsights-frontend-components",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "BellSlashIcon": {
+      "product_count": 2,
+      "total_usage": 4,
+      "product_list": [
+        "RedHatInsights-notifications-frontend",
+        "Openshift-monitoring-plugin"
+      ]
+    },
+    "PrivateIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "RedHatInsights-sources-ui",
+        "Quay"
+      ]
+    },
+    "TreeviewIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "RedHatInsights-compliance-frontend",
+        "RedHatInsights-remediations-frontend"
+      ]
+    },
+    "ContainerNodeIcon": {
+      "product_count": 2,
+      "total_usage": 7,
+      "product_list": [
+        "Cockpit",
+        "Cryostat-Web"
+      ]
+    },
+    "RouteIcon": {
+      "product_count": 2,
+      "total_usage": 4,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kubevirt"
+      ]
+    },
+    "MouseIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Cryostat-Web"
+      ]
+    },
+    "SignOutAltIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kogito-tooling"
+      ]
+    },
+    "LayerGroupIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kiali"
+      ]
+    },
+    "LevelUpAltIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "OpenShift-Admin-Console",
+        "Kogito-tooling"
+      ]
+    },
+    "OnIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Virtualization-Frontend",
+        "Kogito-tooling"
+      ]
+    },
+    "StorageDomainIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Virtualization-Frontend",
+        "Kubevirt"
+      ]
+    },
+    "PficonDragdropIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "ThumbTackIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "EqualizerIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "ServiceIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "ApplicationsIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "PlayCircleIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "UserClockIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Kiali-App",
+        "Kiali"
+      ]
+    },
+    "ArrowsAltHIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Apicurio",
+        "Kogito-tooling"
+      ]
+    },
+    "OutlinedFolderIcon": {
+      "product_count": 2,
+      "total_usage": 4,
+      "product_list": [
+        "Apicurio",
+        "Apicurio-Registry"
+      ]
+    },
+    "StackOverflowIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Keycloak",
+        "Infinispan"
+      ]
+    },
+    "TwitterIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Keycloak",
+        "Infinispan"
+      ]
+    },
+    "DataSourceIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Kogito-tooling",
+        "Cryostat-Web"
+      ]
+    },
+    "PficonSatelliteIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Kogito-tooling",
+        "Quipucords-Product-Discovery"
+      ]
+    },
+    "SaveIcon": {
+      "product_count": 2,
+      "total_usage": 4,
+      "product_list": [
+        "Kogito-tooling",
+        "Kiali"
+      ]
+    },
+    "GitIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Kogito-tooling",
+        "Packit-Dashboard"
+      ]
+    },
+    "ArrowAltCircleRightIcon": {
+      "product_count": 2,
+      "total_usage": 5,
+      "product_list": [
+        "Kogito-tooling",
+        "Kiali"
+      ]
+    },
+    "BoxesIcon": {
+      "product_count": 2,
+      "total_usage": 5,
+      "product_list": [
+        "Kogito-tooling",
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "PausedIcon": {
+      "product_count": 2,
+      "total_usage": 9,
+      "product_list": [
+        "Kogito-tooling",
+        "Kubevirt"
+      ]
+    },
+    "AddIcon": {
+      "product_count": 2,
+      "total_usage": 22,
+      "product_list": [
+        "Kogito-tooling",
+        "Camel-Karavan"
+      ]
+    },
+    "BookOpenIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Application-Migration-Toolkit",
+        "Packit-Dashboard"
+      ]
+    },
+    "DotCircleIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "HAC-Dev",
+        "Aonic-UI"
+      ]
+    },
+    "ServicesIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Camel-Karavan",
+        "RedHatInsights-acs-ui"
+      ]
+    },
+    "MicrochipIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Cockpit-podman",
+        "Kubevirt"
+      ]
+    },
+    "MemoryIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Cockpit-podman",
+        "Kubevirt"
+      ]
+    },
+    "VolumeIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Cockpit-podman",
+        "Kubevirt"
+      ]
+    },
+    "LanguageIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Kiali",
+        "Cryostat-Web"
+      ]
+    },
+    "PficonSortCommonAscIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Opendatahub",
+        "RedHatInsights-data-driven-forms"
+      ]
+    },
+    "PficonSortCommonDescIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Opendatahub",
+        "RedHatInsights-data-driven-forms"
+      ]
+    },
+    "PficonNetworkRangeIcon": {
+      "product_count": 2,
+      "total_usage": 4,
+      "product_list": [
+        "Quipucords-Product-Discovery",
+        "Stackrox"
+      ]
+    },
+    "CompressArrowsAltIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "Openshift-monitoring-plugin",
+        "RHEL-Anaconda-webui"
+      ]
+    },
+    "FlaskIcon": {
+      "product_count": 2,
+      "total_usage": 2,
+      "product_list": [
+        "RedHatInsights-insights-chrome",
+        "Cryostat-Web"
+      ]
+    },
+    "TachometerAltIcon": {
+      "product_count": 2,
+      "total_usage": 3,
+      "product_list": [
+        "App-services-ui-components",
+        "Cryostat-Web"
+      ]
+    },
+    "StartIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Migration-Toolkit-for-Virtualization"
+      ]
+    },
+    "UserNinjaIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Migration-Toolkit-For-Applications"
+      ]
+    },
+    "AdIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Migration-Toolkit-For-Applications"
+      ]
+    },
+    "SortNumericDownAltIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Ansible-ui"
+      ]
+    },
+    "SortNumericUpIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Ansible-ui"
+      ]
+    },
+    "HeartbeatIcon": {
+      "product_count": 1,
+      "total_usage": 4,
+      "product_list": [
+        "Ansible-ui"
+      ]
+    },
+    "DataProcessorIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Ansible-ui"
+      ]
+    },
+    "UserCircleIcon": {
+      "product_count": 1,
+      "total_usage": 8,
+      "product_list": [
+        "Ansible-ui"
+      ]
+    },
+    "CompressAltIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Ansible-ui"
+      ]
+    },
+    "ExpandAltIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Ansible-ui"
+      ]
+    },
+    "RedoAltIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Ansible-ui"
+      ]
+    },
+    "AzureIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Ansible-ui"
+      ]
+    },
+    "UserPlusIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Ansible-hub"
+      ]
+    },
+    "PFCheckCircleIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-tower-analytics-frontend"
+      ]
+    },
+    "PFExclamationCircleIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-tower-analytics-frontend"
+      ]
+    },
+    "PFExclamationTriangleIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-tower-analytics-frontend"
+      ]
+    },
+    "PFInfoCircleIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-tower-analytics-frontend"
+      ]
+    },
+    "PFTimesCircleIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-tower-analytics-frontend"
+      ]
+    },
+    "PFOutlinedQuestionCircleIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-tower-analytics-frontend"
+      ]
+    },
+    "EnterpriseIcon": {
+      "product_count": 1,
+      "total_usage": 4,
+      "product_list": [
+        "Foreman-Katello"
+      ]
+    },
+    "MiddlewareIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Foreman-Katello"
+      ]
+    },
+    "BoxIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Foreman-Katello"
+      ]
+    },
+    "FanIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Foreman-Katello"
+      ]
+    },
+    "BuildingIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Foreman-Console"
+      ]
+    },
+    "ExchangeAltIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Foreman-Console"
+      ]
+    },
+    "IntegrationIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-notifications-frontend"
+      ]
+    },
+    "AwsIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-sources-ui"
+      ]
+    },
+    "ChartSpikeIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-insights-dashboard"
+      ]
+    },
+    "SlackHashIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "RedHatInsights-insights-dashboard"
+      ]
+    },
+    "ServerAltIcon": {
+      "product_count": 1,
+      "total_usage": 3,
+      "product_list": [
+        "RedHatInsights-vulnerability-ui"
+      ]
+    },
+    "CloudServerIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-vulnerability-ui"
+      ]
+    },
+    "OutlinedArrowAltCircleDownIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-inventory-frontend"
+      ]
+    },
+    "OutlinedArrowAltCircleUpIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-inventory-frontend"
+      ]
+    },
+    "BinocularsIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-Subs-Watch"
+      ]
+    },
+    "SearchMinusIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Cockpit"
+      ]
+    },
+    "ThumbtackIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Cockpit"
+      ]
+    },
+    "AddressBookIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "MagicIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "LaptopCodeIcon": {
+      "product_count": 1,
+      "total_usage": 3,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "OsImageIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "PercentIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "OutlinedFileCodeIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "HeartBrokenIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "OutlinedCheckSquareIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "OutlinedSquareIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "MaintenanceIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "ArchiveIcon": {
+      "product_count": 1,
+      "total_usage": 5,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "OutlinedWindowMinimizeIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "NotFoundIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "ChevronDownIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "ChevronRightIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "OpenShift-Admin-Console"
+      ]
+    },
+    "WindowMaximizeIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Quay"
+      ]
+    },
+    "ChartBarIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Virtualization-Frontend"
+      ]
+    },
+    "BirthdayCakeIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Virtualization-Frontend"
+      ]
+    },
+    "GreaterThanIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "3Scale"
+      ]
+    },
+    "LessThanIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "3Scale"
+      ]
+    },
+    "MobileAltIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "UserCheckIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "EditAltIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "Remove2Icon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "DomainIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "TreeIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "FacebookSquareIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "InstagramIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "LinkedinIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "MicrosoftIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "PaypalIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Keycloak"
+      ]
+    },
+    "CutIcon": {
+      "product_count": 1,
+      "total_usage": 3,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "OutlinedTrashAltIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "MousePointerIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "UndoAltIcon": {
+      "product_count": 1,
+      "total_usage": 3,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "KeyboardIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "SortIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "ArrowAltCircleLeftIcon": {
+      "product_count": 1,
+      "total_usage": 4,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "DiceSixIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "UserTagIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "LevelDownAltIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "SitemapIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kogito-tooling"
+      ]
+    },
+    "FacebookIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Infinispan"
+      ]
+    },
+    "ArrowIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Infinispan"
+      ]
+    },
+    "StatusIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "HAC-Dev"
+      ]
+    },
+    "OutlinedEyeSlashIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "HAC-Dev"
+      ]
+    },
+    "DeleteIcon": {
+      "product_count": 1,
+      "total_usage": 16,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "EditorIcon": {
+      "product_count": 1,
+      "total_usage": 9,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "ShareIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "DownIcon": {
+      "product_count": 1,
+      "total_usage": 8,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "UpIcon": {
+      "product_count": 1,
+      "total_usage": 8,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "CollapseIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "CleanIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "ProjectsIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "ResourcesIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "KnowledgebaseIcon": {
+      "product_count": 1,
+      "total_usage": 3,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "ContainersIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "ConfigIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "LogoutIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "SetIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "PullIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "DeployIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "RunIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "RolloutIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "ReloadIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "DiffIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "PushIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "RefreshIcon": {
+      "product_count": 1,
+      "total_usage": 4,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "DownloadImageIcon": {
+      "product_count": 1,
+      "total_usage": 3,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "FilesIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "RegionsIcon": {
+      "product_count": 1,
+      "total_usage": 4,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "ShowIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "HideIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "GithubImageIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Camel-Karavan"
+      ]
+    },
+    "PortIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Cockpit-podman"
+      ]
+    },
+    "FilterAltIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kui"
+      ]
+    },
+    "PlusSquareIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kui"
+      ]
+    },
+    "EraserIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kui"
+      ]
+    },
+    "IceCreamIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Packit-Dashboard"
+      ]
+    },
+    "ArrowDownIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-Hybrid-Committed-Spend"
+      ]
+    },
+    "OutlinedPauseCircleIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Opendatahub"
+      ]
+    },
+    "OpenDrawerRightIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Opendatahub"
+      ]
+    },
+    "CrosshairsIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Quipucords-Product-Discovery"
+      ]
+    },
+    "IdCardIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Quipucords-Product-Discovery"
+      ]
+    },
+    "PficonVcenterIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Quipucords-Product-Discovery"
+      ]
+    },
+    "OutlinedBellIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Openshift-monitoring-plugin"
+      ]
+    },
+    "SeverityUndefinedIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Openshift-monitoring-plugin"
+      ]
+    },
+    "ThListIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-api-documentation-frontend"
+      ]
+    },
+    "CloudUploadAltIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "CreditCardIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "LightBulbIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "ShoppingCartIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "BrainIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "ShieldIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-insights-chrome"
+      ]
+    },
+    "AlternateIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Stackrox"
+      ]
+    },
+    "DefaultIcon": {
+      "product_count": 1,
+      "total_usage": 3,
+      "product_list": [
+        "Stackrox"
+      ]
+    },
+    "ZoneIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Stackrox"
+      ]
+    },
+    "ScreenIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Stackrox"
+      ]
+    },
+    "OutlinedCopyIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Stackrox"
+      ]
+    },
+    "PenIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "ACM-console"
+      ]
+    },
+    "CloudTenantIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "ACM-console"
+      ]
+    },
+    "SpaceShuttleIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "App-services-ui-components"
+      ]
+    },
+    "ShieldVirusIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Aonic-UI"
+      ]
+    },
+    "SortAmountUpAltIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Cryostat-Web"
+      ]
+    },
+    "MapMarkedAltIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Cryostat-Web"
+      ]
+    },
+    "ServerGroupIcon": {
+      "product_count": 1,
+      "total_usage": 2,
+      "product_list": [
+        "Kubevirt"
+      ]
+    },
+    "LinuxIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kubevirt"
+      ]
+    },
+    "WindowsIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kubevirt"
+      ]
+    },
+    "PuzzlePieceIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kubevirt"
+      ]
+    },
+    "EjectIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Kubevirt"
+      ]
+    },
+    "EthernetIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "Nmstate-plugin"
+      ]
+    },
+    "CaretRightIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-payload-tracker-frontend"
+      ]
+    },
+    "HeadsetIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-landing-page-frontend"
+      ]
+    },
+    "CircleNotchIcon": {
+      "product_count": 1,
+      "total_usage": 1,
+      "product_list": [
+        "RedHatInsights-data-driven-forms"
+      ]
+    }
+  },
+  "classes": {},
+  "cssVars": {}
+}
