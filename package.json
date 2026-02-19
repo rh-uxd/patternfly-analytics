@@ -15,9 +15,9 @@
     "@octokit/rest": "^20.0.2",
     "cheerio": "^1.0.0-rc.12",
     "fs-extra": "^8.1.0",
-    "glob": "^7.1.4",
-    "puppeteer": "^2.1.1",
-    "puppeteer-cluster": "^0.18.0",
+    "glob": "^13.0.6",
+    "puppeteer": "^24.37.5",
+    "puppeteer-cluster": "^0.25.0",
     "yargs": "^13.3.0"
   }
 }
