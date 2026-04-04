@@ -64,12 +64,6 @@ node src/github-dependents-analyzer.js --repo-url https://github.com/patternfly/
 node src/github-dependents-analyzer.js --repo-url https://github.com/patternfly/patternfly-react --create-pr
 ```
 
-### Repository list health (archived / stale)
-```bash
-npm run review-repos-health              # Markdown report; requires gh or GITHUB_TOKEN; GITLAB_TOKEN for GitLab
-node .cursor/skills/repos-json-health-review/scripts/repos-json-health-review.js --json repos.json
-```
-
 ### Report Generation
 ```bash
 # Generate Excel reports from JSON data
