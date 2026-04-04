@@ -7,7 +7,8 @@
     "collect": "node src/static-analysis/cli.js collect -j",
     "collect-with-dependents": "node src/static-analysis/cli.js collect -j -d",
     "analyze-dependents": "node src/github-dependents-analyzer.js",
-    "sync-dependents": "node src/github-dependents-analyzer.js --create-pr"
+    "sync-dependents": "node src/github-dependents-analyzer.js --create-pr",
+    "review-repos-health": "node .cursor/skills/repos-json-health-review/scripts/repos-json-health-review.js --json repos.json"
   },
   "author": "redallen",
   "license": "MIT",

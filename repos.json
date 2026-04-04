@@ -13,10 +13,6 @@
       "name": "Migration-Toolkit-For-Applications"
     },
     {
-      "git": "https://github.com/migtools/lib-ui",
-      "name": "Migration-Tools-Shared-Library"
-    },
-    {
       "git": "https://github.com/ansible/awx",
       "name": "Ansible-awx"
     },
@@ -121,10 +117,6 @@
       "name": "3Scale"
     },
     {
-      "git": "https://github.com/Apicurio/apicurio-studio",
-      "name": "Apicurio"
-    },
-    {
       "git": "https://github.com/keycloak/keycloak",
       "name": "Keycloak"
     },
@@ -175,10 +167,6 @@
     {
       "git": "https://github.com/cockpit-project/starter-kit",
       "name": "Cockpit-Starter-Kit"
-    },
-    {
-      "git": "https://github.com/debezium/debezium-ui",
-      "name": "Debezium"
     },
     {
       "git": "https://github.com/kiali/kiali",
@@ -245,10 +233,6 @@
       "name": "Freeipa"
     },
     {
-      "git": "https://github.com/janus-idp/backstage-plugins",
-      "name": "Backstage"
-    },
-    {
       "git": "https://github.com/redhat-developer/rhdh-plugins",
       "name": "RHDH-plugins"
     },
@@ -259,10 +243,6 @@
     {
       "git": "https://github.com/kubeflow/model-registry",
       "name": "Kubeflow-Model-Registry"
-    },
-    {
-      "git": "https://github.com/instructlab/ui",
-      "name": "InstructLab-UI"
     },
     {
       "git": "https://github.com/redhat-composer-ai/chatbot-ui",
@@ -293,10 +273,6 @@
       "name": "RedHatInsights-image-builder-frontend"
     },
     {
-      "git": "https://github.com/RHEnVision/provisioning-frontend",
-      "name": "RHEnVision"
-    },
-    {
       "git": "https://github.com/openshift/nmstate-console-plugin",
       "name": "Nmstate-plugin"
     },
@@ -323,10 +299,6 @@
     {
       "git": "https://github.com/ansible/ansible-ai-connect-service",
       "name": "Ansible-ai-connect-service"
-    },
-    {
-      "git": "https://github.com/ansible/pinakes-ui",
-      "name": "Ansible-pinakes-ui"
     },
     {
       "git": "https://github.com/ansible/aap-ui",
@@ -410,20 +382,12 @@
       "name": "Openshift-pipelines-console-plugin"
     },
     {
-      "git": "https://github.com/RedHatInsights/policies-ui-frontend",
-      "name": "RedHatInsights-policies-ui-frontend"
-    },
-    {
       "git": "https://github.com/RedHatInsights/registration-assistant",
       "name": "RedHatInsights-registration-assistant"
     },
     {
       "git": "https://github.com/RedHatInsights/sed-frontend",
       "name": "RedHatInsights-sed-frontend"
-    },
-    {
-      "git": "https://github.com/skupperproject/gilligan",
-      "name": "skupperproject-gilligan"
     },
     {
       "git": "https://github.com/skupperproject/openshift-site-plugin",
