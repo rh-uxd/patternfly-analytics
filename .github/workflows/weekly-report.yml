@@ -1,0 +1,80 @@
+name: Weekly PatternFly Analytics Report
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  collect-and-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Node dependencies
+        run: npm install
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect PatternFly stats
+        run: node src/static-analysis/cli.js collect -j -d
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Excel report
+        run: python3 to_xls.py
+
+      - name: Get report date
+        id: date
+        run: echo "date=$(date -u '+%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Setup SSH for uxd-hub.com
+        if: ${{ env.HAS_SSH_KEY == 'true' }}
+        env:
+          HAS_SSH_KEY: ${{ secrets.UXD_HUB_SSH_KEY != '' }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.UXD_HUB_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          if [ -n "${{ secrets.UXD_HUB_KNOWN_HOSTS }}" ]; then
+            echo "${{ secrets.UXD_HUB_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+            chmod 644 ~/.ssh/known_hosts
+          fi
+
+      - name: Upload report to uxd-hub.com
+        if: ${{ env.HAS_SSH_KEY == 'true' }}
+        env:
+          HAS_SSH_KEY: ${{ secrets.UXD_HUB_SSH_KEY != '' }}
+          OPENSSL_CONF: /dev/null
+          UXD_HUB_USER: ${{ secrets.UXD_HUB_USER }}
+        run: |
+          REPORT_DATE="${{ steps.date.outputs.date }}"
+          USER="${UXD_HUB_USER:-hwr}"
+          scp -o StrictHostKeyChecking=accept-new \
+            "reports/${REPORT_DATE}/pf_report.xlsx" \
+            "${USER}@uxd-hub.com:public_html/images/PF_analytics/${REPORT_DATE}_pf_report.xlsx"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pf-analytics-${{ steps.date.outputs.date }}
+          path: |
+            reports/${{ steps.date.outputs.date }}/pf_report.xlsx
+            stats-static/${{ steps.date.outputs.date }}/
+          retention-days: 90
