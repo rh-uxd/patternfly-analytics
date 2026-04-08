@@ -107,11 +107,18 @@ async function runDependentsAnalysis(outputDir) {
   console.log(`\n🚀 Starting dependents analysis for ${PATTERNFLY_PACKAGES.length} PatternFly packages...`);
   
   try {
-    // Initialize GitHub client (non-authenticated for read operations)
+    // Initialize GitHub client
     const { Octokit } = require('@octokit/rest');
-    const octokit = new Octokit({
+    const octokitOptions = {
       userAgent: 'patternfly-analytics-dependents-analyzer/1.0.0'
-    });
+    };
+    if (process.env.GITHUB_TOKEN) {
+      octokitOptions.auth = process.env.GITHUB_TOKEN;
+      console.log('  Using authenticated GitHub API requests');
+    } else {
+      console.log('  ⚠️  No GITHUB_TOKEN found — using unauthenticated requests (60/hr limit)');
+    }
+    const octokit = new Octokit(octokitOptions);
     
     // Load local repository list
     const localRepos = await dependentsAnalyzer.loadLocalRepoList();

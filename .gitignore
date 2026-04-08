@@ -4,6 +4,8 @@ node_modules
 .idea
 .venv
 .DS_Store
+.env
+scripts/logs/
 
 # Ignore files in stats-static directory and subdirectories, except files starting with underscore
 stats-static/**/*.json
