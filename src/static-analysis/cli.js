@@ -33,10 +33,22 @@ async function collectPatternflyStats(argv) {
     .forEach(repo => {
       const repoName = repo.git.split('/').pop();
       const tmpPath = `${tmpDir}/${repo.name}`;
-      const command = fs.existsSync(tmpPath)
-        ? `cd ${tmpPath} && git pull`
-        : `git clone "${repo.git}" "${tmpPath}" --depth 1`;
-      execSync(command);
+      const isExisting = fs.existsSync(tmpPath);
+      try {
+        const command = isExisting
+          ? `cd ${tmpPath} && git pull`
+          : `git clone "${repo.git}" "${tmpPath}" --depth 1`;
+        execSync(command);
+      } catch (error) {
+        if (isExisting) {
+          console.warn(`⚠️  git pull failed for ${repo.name}, re-cloning...`);
+          fs.removeSync(tmpPath);
+          execSync(`git clone "${repo.git}" "${tmpPath}" --depth 1`);
+        } else {
+          console.error(`❌  Failed to clone ${repo.name}: ${error.message}`);
+          return;
+        }
+      }
       const patternflyStats = getPatternflyStats(tmpPath, repo.name);
       patternflyStats.repo = repo.git;
       patternflyStats.name = repo.name || repoName;
