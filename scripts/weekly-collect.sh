@@ -91,6 +91,7 @@ ZIP_SIZE=$(du -h "$ZIP_NAME" | cut -f1)
 echo "Created ${ZIP_NAME} (${ZIP_SIZE})"
 
 # --- Phase 4: Upload to Confluence ---
+UPLOAD_SUCCESS=false
 if [ -z "${CONFLUENCE_EMAIL:-}" ] || [ -z "${CONFLUENCE_API_TOKEN:-}" ]; then
     echo "WARNING: Confluence credentials not set in .env — skipping upload"
     echo "Set CONFLUENCE_EMAIL and CONFLUENCE_API_TOKEN to enable uploads"
@@ -110,15 +111,23 @@ else
 
     if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
         echo "Upload successful (HTTP ${HTTP_CODE})"
+        UPLOAD_SUCCESS=true
 
         # Add a row to the reports table on the page
         echo "Adding table row to page..."
 
-        PAGE_DATA=$(curl -s \
+        PAGE_RESPONSE=$(curl -s -w "\n%{http_code}" \
             -u "${CONFLUENCE_EMAIL}:${CONFLUENCE_API_TOKEN}" \
             "${CONFLUENCE_BASE}/rest/api/content/${CONFLUENCE_PAGE_ID}?expand=body.storage,version")
 
-        UPDATE_PAYLOAD=$(echo "$PAGE_DATA" | REPORT_DATE="$REPORT_DATE" PAGE_ID="$CONFLUENCE_PAGE_ID" ZIP_NAME="$ZIP_NAME" python3 -c "
+        PAGE_CODE=$(echo "$PAGE_RESPONSE" | tail -1)
+        PAGE_DATA=$(echo "$PAGE_RESPONSE" | sed '$d')
+
+        if [ "$PAGE_CODE" -lt 200 ] || [ "$PAGE_CODE" -ge 300 ]; then
+            echo "WARNING: Could not fetch page data (HTTP ${PAGE_CODE})"
+            echo "Response: ${PAGE_DATA}"
+        else
+            UPDATE_PAYLOAD=$(echo "$PAGE_DATA" | REPORT_DATE="$REPORT_DATE" PAGE_ID="$CONFLUENCE_PAGE_ID" ZIP_NAME="$ZIP_NAME" python3 -c "
 import json, sys, os
 data = json.load(sys.stdin)
 version = data['version']['number']
@@ -126,8 +135,12 @@ body = data['body']['storage']['value']
 date = os.environ['REPORT_DATE']
 page_id = os.environ['PAGE_ID']
 zip_name = os.environ['ZIP_NAME']
+marker = '</tbody></table>'
+if marker not in body:
+    print('ERROR: Page does not contain expected table structure', file=sys.stderr)
+    sys.exit(1)
 new_row = '<tr><td><p>' + date + '</p></td><td><p><a href=\"/wiki/download/attachments/' + page_id + '/' + zip_name + '\">' + zip_name + '</a></p></td></tr>'
-body = body.replace('</tbody></table>', new_row + '</tbody></table>')
+body = body.replace(marker, new_row + marker)
 payload = {
     'version': {'number': version + 1},
     'type': 'page',
@@ -135,20 +148,28 @@ payload = {
     'body': {'storage': {'value': body, 'representation': 'storage'}}
 }
 print(json.dumps(payload))
-")
+") || {
+                echo "WARNING: Failed to build page update payload — skipping table row addition"
+                UPDATE_PAYLOAD=""
+            }
 
-        UPDATE_RESPONSE=$(curl -s -w "\n%{http_code}" \
-            -X PUT \
-            -u "${CONFLUENCE_EMAIL}:${CONFLUENCE_API_TOKEN}" \
-            -H "Content-Type: application/json" \
-            -d "$UPDATE_PAYLOAD" \
-            "${CONFLUENCE_BASE}/rest/api/content/${CONFLUENCE_PAGE_ID}")
+            if [ -n "$UPDATE_PAYLOAD" ]; then
+                UPDATE_RESPONSE=$(curl -s -w "\n%{http_code}" \
+                    -X PUT \
+                    -u "${CONFLUENCE_EMAIL}:${CONFLUENCE_API_TOKEN}" \
+                    -H "Content-Type: application/json" \
+                    -d "$UPDATE_PAYLOAD" \
+                    "${CONFLUENCE_BASE}/rest/api/content/${CONFLUENCE_PAGE_ID}")
 
-        UPDATE_CODE=$(echo "$UPDATE_RESPONSE" | tail -1)
-        if [ "$UPDATE_CODE" -ge 200 ] && [ "$UPDATE_CODE" -lt 300 ]; then
-            echo "Download link added to page."
-        else
-            echo "WARNING: Could not update page body (HTTP ${UPDATE_CODE})"
+                UPDATE_CODE=$(echo "$UPDATE_RESPONSE" | tail -1)
+                UPDATE_BODY=$(echo "$UPDATE_RESPONSE" | sed '$d')
+                if [ "$UPDATE_CODE" -ge 200 ] && [ "$UPDATE_CODE" -lt 300 ]; then
+                    echo "Download link added to page."
+                else
+                    echo "WARNING: Could not update page body (HTTP ${UPDATE_CODE})"
+                    echo "Response: ${UPDATE_BODY}"
+                fi
+            fi
         fi
     else
         echo "WARNING: Upload failed (HTTP ${HTTP_CODE})"
@@ -158,44 +179,52 @@ print(json.dumps(payload))
     fi
 
     # --- Phase 5: Confluence Database entry ---
-    echo ""
-    echo "--- Phase 5: Confluence Database entry ---"
+    if [ "$UPLOAD_SUCCESS" = true ]; then
+        echo ""
+        echo "--- Phase 5: Confluence Database entry ---"
 
-    # Probe the database API to see if entries endpoint is available
-    DB_PROBE=$(curl -s -w "\n%{http_code}" \
-        -u "${CONFLUENCE_EMAIL}:${CONFLUENCE_API_TOKEN}" \
-        "${CONFLUENCE_BASE}/api/v2/databases/${CONFLUENCE_DB_ID}")
-
-    DB_PROBE_CODE=$(echo "$DB_PROBE" | tail -1)
-
-    if [ "$DB_PROBE_CODE" -ge 200 ] && [ "$DB_PROBE_CODE" -lt 300 ]; then
-        echo "Database API accessible. Attempting to add entry..."
-
-        DB_ENTRY_RESPONSE=$(curl -s -w "\n%{http_code}" \
-            -X POST \
+        # Probe the database API to see if entries endpoint is available
+        DB_PROBE=$(curl -s -w "\n%{http_code}" \
             -u "${CONFLUENCE_EMAIL}:${CONFLUENCE_API_TOKEN}" \
-            -H "Content-Type: application/json" \
-            -d "{\"title\": \"${REPORT_DATE} Analytics Report\", \"date\": \"${REPORT_DATE}\"}" \
-            "${CONFLUENCE_BASE}/api/v2/databases/${CONFLUENCE_DB_ID}/entries")
+            "${CONFLUENCE_BASE}/api/v2/databases/${CONFLUENCE_DB_ID}")
 
-        DB_ENTRY_CODE=$(echo "$DB_ENTRY_RESPONSE" | tail -1)
-        DB_ENTRY_BODY=$(echo "$DB_ENTRY_RESPONSE" | sed '$d')
+        DB_PROBE_CODE=$(echo "$DB_PROBE" | tail -1)
 
-        if [ "$DB_ENTRY_CODE" -ge 200 ] && [ "$DB_ENTRY_CODE" -lt 300 ]; then
-            echo "Database entry added successfully."
+        if [ "$DB_PROBE_CODE" -ge 200 ] && [ "$DB_PROBE_CODE" -lt 300 ]; then
+            echo "Database API accessible. Attempting to add entry..."
+
+            DB_ENTRY_RESPONSE=$(curl -s -w "\n%{http_code}" \
+                -X POST \
+                -u "${CONFLUENCE_EMAIL}:${CONFLUENCE_API_TOKEN}" \
+                -H "Content-Type: application/json" \
+                -d "{\"title\": \"${REPORT_DATE} Analytics Report\", \"date\": \"${REPORT_DATE}\"}" \
+                "${CONFLUENCE_BASE}/api/v2/databases/${CONFLUENCE_DB_ID}/entries")
+
+            DB_ENTRY_CODE=$(echo "$DB_ENTRY_RESPONSE" | tail -1)
+            DB_ENTRY_BODY=$(echo "$DB_ENTRY_RESPONSE" | sed '$d')
+
+            if [ "$DB_ENTRY_CODE" -ge 200 ] && [ "$DB_ENTRY_CODE" -lt 300 ]; then
+                echo "Database entry added successfully."
+            else
+                echo "NOTE: Could not add database entry (HTTP ${DB_ENTRY_CODE})"
+                echo "Response: ${DB_ENTRY_BODY}"
+                echo "Manual step: Add entry at ${CONFLUENCE_BASE}/spaces/USEREXPDES/database/${CONFLUENCE_DB_ID}"
+            fi
         else
-            echo "NOTE: Could not add database entry (HTTP ${DB_ENTRY_CODE})"
-            echo "Response: ${DB_ENTRY_BODY}"
+            echo "NOTE: Confluence Database API not available (HTTP ${DB_PROBE_CODE})"
             echo "Manual step: Add entry at ${CONFLUENCE_BASE}/spaces/USEREXPDES/database/${CONFLUENCE_DB_ID}"
         fi
     else
-        echo "NOTE: Confluence Database API not available (HTTP ${DB_PROBE_CODE})"
-        echo "Manual step: Add entry at ${CONFLUENCE_BASE}/spaces/USEREXPDES/database/${CONFLUENCE_DB_ID}"
+        echo "Skipping database entry — upload did not succeed."
     fi
 fi
 
 # --- Cleanup ---
-rm -f "$ZIP_NAME"
+if [ "$UPLOAD_SUCCESS" = true ]; then
+    rm -f "$ZIP_NAME"
+else
+    echo "Zip file retained at: ${PROJECT_ROOT}/${ZIP_NAME}"
+fi
 
 echo ""
 echo "=== Collection complete at $(date) ==="
