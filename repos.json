@@ -13,12 +13,8 @@
       "name": "Migration-Toolkit-For-Applications"
     },
     {
-      "git": "https://github.com/ansible/awx",
-      "name": "Ansible-awx"
-    },
-    {
-      "git": "https://github.com/ansible/ansible-ui",
-      "name": "Ansible-ui"
+      "git": "https://github.com/ansible-automation-platform/aap-ui",
+      "name": "Ansible AAP"
     },
     {
       "git": "https://github.com/ansible/ansible-hub-ui",
@@ -141,10 +137,6 @@
       "name": "Pbench"
     },
     {
-      "git": "https://github.com/ansible/awx",
-      "name": "Ansible-awx"
-    },
-    {
       "git": "https://github.com/apache/camel-karavan",
       "name": "Camel-Karavan"
     },
@@ -195,10 +187,6 @@
     {
       "git": "https://github.com/quipucords/quipucords-ui",
       "name": "Quipucords-Product-Discovery"
-    },
-    {
-      "git": "https://github.com/ansible/ansible-ui",
-      "name": "Ansible-ui"
     },
     {
       "git": "https://github.com/openshift-assisted/assisted-ui-lib",
@@ -299,11 +287,6 @@
     {
       "git": "https://github.com/ansible/ansible-ai-connect-service",
       "name": "Ansible-ai-connect-service"
-    },
-    {
-      "git": "https://github.com/ansible/aap-ui",
-      "name": "Ansible-aap-ui",
-      "private": true
     },
     {
       "git": "https://github.com/ansible/react-json-chart-builder",
