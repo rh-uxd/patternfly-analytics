@@ -8,7 +8,6 @@ REPORT_DATE="$(date -u '+%Y-%m-%d')"
 LOG_DIR="${PROJECT_ROOT}/scripts/logs"
 LOG_FILE="${LOG_DIR}/weekly-collect-${REPORT_DATE}.log"
 CONFLUENCE_PAGE_ID="385791717"
-CONFLUENCE_DB_ID="385462031"
 CONFLUENCE_BASE="https://redhat.atlassian.net/wiki"
 
 # --- Setup logging ---
@@ -178,45 +177,6 @@ print(json.dumps(payload))
         echo "  ${CONFLUENCE_BASE}/spaces/USEREXPDES/pages/${CONFLUENCE_PAGE_ID}"
     fi
 
-    # --- Phase 5: Confluence Database entry ---
-    if [ "$UPLOAD_SUCCESS" = true ]; then
-        echo ""
-        echo "--- Phase 5: Confluence Database entry ---"
-
-        # Probe the database API to see if entries endpoint is available
-        DB_PROBE=$(curl -s -w "\n%{http_code}" \
-            -u "${CONFLUENCE_EMAIL}:${CONFLUENCE_API_TOKEN}" \
-            "${CONFLUENCE_BASE}/api/v2/databases/${CONFLUENCE_DB_ID}")
-
-        DB_PROBE_CODE=$(echo "$DB_PROBE" | tail -1)
-
-        if [ "$DB_PROBE_CODE" -ge 200 ] && [ "$DB_PROBE_CODE" -lt 300 ]; then
-            echo "Database API accessible. Attempting to add entry..."
-
-            DB_ENTRY_RESPONSE=$(curl -s -w "\n%{http_code}" \
-                -X POST \
-                -u "${CONFLUENCE_EMAIL}:${CONFLUENCE_API_TOKEN}" \
-                -H "Content-Type: application/json" \
-                -d "{\"title\": \"${REPORT_DATE} Analytics Report\", \"date\": \"${REPORT_DATE}\"}" \
-                "${CONFLUENCE_BASE}/api/v2/databases/${CONFLUENCE_DB_ID}/entries")
-
-            DB_ENTRY_CODE=$(echo "$DB_ENTRY_RESPONSE" | tail -1)
-            DB_ENTRY_BODY=$(echo "$DB_ENTRY_RESPONSE" | sed '$d')
-
-            if [ "$DB_ENTRY_CODE" -ge 200 ] && [ "$DB_ENTRY_CODE" -lt 300 ]; then
-                echo "Database entry added successfully."
-            else
-                echo "NOTE: Could not add database entry (HTTP ${DB_ENTRY_CODE})"
-                echo "Response: ${DB_ENTRY_BODY}"
-                echo "Manual step: Add entry at ${CONFLUENCE_BASE}/spaces/USEREXPDES/database/${CONFLUENCE_DB_ID}"
-            fi
-        else
-            echo "NOTE: Confluence Database API not available (HTTP ${DB_PROBE_CODE})"
-            echo "Manual step: Add entry at ${CONFLUENCE_BASE}/spaces/USEREXPDES/database/${CONFLUENCE_DB_ID}"
-        fi
-    else
-        echo "Skipping database entry — upload did not succeed."
-    fi
 fi
 
 # --- Cleanup ---
