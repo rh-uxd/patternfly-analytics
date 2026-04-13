@@ -43,31 +43,95 @@ jobs:
         id: date
         run: echo "date=$(date -u '+%Y-%m-%d')" >> "$GITHUB_OUTPUT"
 
-      - name: Setup SSH for uxd-hub.com
-        if: ${{ env.HAS_SSH_KEY == 'true' }}
-        env:
-          HAS_SSH_KEY: ${{ secrets.UXD_HUB_SSH_KEY != '' }}
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.UXD_HUB_SSH_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          if [ -n "${{ secrets.UXD_HUB_KNOWN_HOSTS }}" ]; then
-            echo "${{ secrets.UXD_HUB_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
-            chmod 644 ~/.ssh/known_hosts
-          fi
-
-      - name: Upload report to uxd-hub.com
-        if: ${{ env.HAS_SSH_KEY == 'true' }}
-        env:
-          HAS_SSH_KEY: ${{ secrets.UXD_HUB_SSH_KEY != '' }}
-          OPENSSL_CONF: /dev/null
-          UXD_HUB_USER: ${{ secrets.UXD_HUB_USER }}
+      - name: Create zip archive
         run: |
           REPORT_DATE="${{ steps.date.outputs.date }}"
-          USER="${UXD_HUB_USER:-hwr}"
-          scp -o StrictHostKeyChecking=accept-new \
+          zip -r "pf-analytics-${REPORT_DATE}.zip" \
             "reports/${REPORT_DATE}/pf_report.xlsx" \
-            "${USER}@uxd-hub.com:public_html/images/PF_analytics/${REPORT_DATE}_pf_report.xlsx"
+            "stats-static/${REPORT_DATE}/"
+
+      - name: Upload to Confluence
+        if: ${{ env.HAS_CONFLUENCE == 'true' }}
+        env:
+          HAS_CONFLUENCE: ${{ secrets.CONFLUENCE_API_TOKEN != '' }}
+          CONFLUENCE_EMAIL: ${{ secrets.CONFLUENCE_EMAIL }}
+          CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
+        run: |
+          REPORT_DATE="${{ steps.date.outputs.date }}"
+          ZIP_NAME="pf-analytics-${REPORT_DATE}.zip"
+          CONFLUENCE_BASE="https://redhat.atlassian.net/wiki"
+          CONFLUENCE_PAGE_ID="385791717"
+
+          # Upload zip as attachment
+          HTTP_CODE=$(curl -s -o /tmp/upload_response.json -w "%{http_code}" \
+            -X PUT \
+            -u "${CONFLUENCE_EMAIL}:${CONFLUENCE_API_TOKEN}" \
+            -H "X-Atlassian-Token: nocheck" \
+            -F "file=@${ZIP_NAME}" \
+            "${CONFLUENCE_BASE}/rest/api/content/${CONFLUENCE_PAGE_ID}/child/attachment")
+
+          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
+            echo "✅ Confluence upload successful (HTTP ${HTTP_CODE})"
+          else
+            echo "❌ Confluence upload failed (HTTP ${HTTP_CODE})"
+            cat /tmp/upload_response.json
+            exit 1
+          fi
+
+      - name: Update Confluence page table
+        if: ${{ env.HAS_CONFLUENCE == 'true' }}
+        env:
+          HAS_CONFLUENCE: ${{ secrets.CONFLUENCE_API_TOKEN != '' }}
+          CONFLUENCE_EMAIL: ${{ secrets.CONFLUENCE_EMAIL }}
+          CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
+        run: |
+          REPORT_DATE="${{ steps.date.outputs.date }}"
+          ZIP_NAME="pf-analytics-${REPORT_DATE}.zip"
+          CONFLUENCE_BASE="https://redhat.atlassian.net/wiki"
+          CONFLUENCE_PAGE_ID="385791717"
+          export CONFLUENCE_BASE CONFLUENCE_PAGE_ID REPORT_DATE ZIP_NAME
+          python3 -c "
+          import json, urllib.request, os, sys, base64
+
+          base = os.environ['CONFLUENCE_BASE']
+          page_id = os.environ['CONFLUENCE_PAGE_ID']
+          date = os.environ['REPORT_DATE']
+          zip_name = os.environ['ZIP_NAME']
+          email = os.environ['CONFLUENCE_EMAIL']
+          token = os.environ['CONFLUENCE_API_TOKEN']
+
+          auth = base64.b64encode(f'{email}:{token}'.encode()).decode()
+          headers = {'Authorization': f'Basic {auth}', 'Content-Type': 'application/json'}
+
+          req = urllib.request.Request(f'{base}/rest/api/content/{page_id}?expand=body.storage,version', headers=headers)
+          with urllib.request.urlopen(req) as resp:
+              data = json.load(resp)
+
+          version = data['version']['number']
+          body = data['body']['storage']['value']
+
+          marker = '</tbody></table>'
+          if marker not in body:
+              print('WARNING: Page does not contain expected table structure - skipping table update')
+              sys.exit(0)
+
+          new_row = (
+              f'<tr><td><p>{date}</p></td>'
+              f'<td><p><a href=\"/wiki/download/attachments/{page_id}/{zip_name}\">{zip_name}</a></p></td></tr>'
+          )
+          body = body.replace(marker, new_row + marker)
+
+          payload = json.dumps({
+              'version': {'number': version + 1},
+              'type': 'page',
+              'title': data['title'],
+              'body': {'storage': {'value': body, 'representation': 'storage'}}
+          }).encode()
+
+          req = urllib.request.Request(f'{base}/rest/api/content/{page_id}', data=payload, headers=headers, method='PUT')
+          with urllib.request.urlopen(req) as resp:
+              print(f'Download link added to page (HTTP {resp.status})')
+          "
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
