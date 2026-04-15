@@ -64,6 +64,13 @@ node src/github-dependents-analyzer.js --repo-url https://github.com/patternfly/
 node src/github-dependents-analyzer.js --repo-url https://github.com/patternfly/patternfly-react --create-pr
 ```
 
+### Discover untracked PatternFly repos (Jira + GitHub)
+Ask Claude: "discover repos not tracked in repos.json" or "find patternfly repos"
+- Uses Jira MCP to search for PatternFly references across all projects
+- Uses GitHub MCP to find public repos with @patternfly dependencies
+- Cross-references against repos.json and produces a tiered report
+- Skill definition: `.cursor/skills/discover-patternfly-repos/SKILL.md`
+
 ### Repository list health (archived / stale)
 ```bash
 npm run review-repos-health              # Markdown report; requires gh or GITHUB_TOKEN; GITLAB_TOKEN for GitLab

@@ -449,6 +449,46 @@
     {
       "git": "https://github.com/lightspeed-core/lightspeed-reference-ui",
       "name": "Lightspeed-Core-Reference-UI"
+    },
+    {
+      "git": "https://github.com/openshift/genie-web-client",
+      "name": "Aladdin-Genie-Web-Client"
+    },
+    {
+      "git": "https://github.com/openshift/cluster-update-console-plugin",
+      "name": "Openshift-cluster-update-console-plugin"
+    },
+    {
+      "git": "https://github.com/openshift/mirror-gui",
+      "name": "Openshift-mirror-gui"
+    },
+    {
+      "git": "https://github.com/openshift/console-dashboards-plugin",
+      "name": "Openshift-console-dashboards-plugin"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/ros-frontend",
+      "name": "RedHatInsights-ros-frontend"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/subscription-inventory-ui",
+      "name": "RedHatInsights-subscription-inventory-ui"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/cloud-inventory-ui",
+      "name": "RedHatInsights-cloud-inventory-ui"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/widget-layout",
+      "name": "RedHatInsights-widget-layout"
+    },
+    {
+      "git": "https://github.com/RedHatInsights/dbaas-ui",
+      "name": "RedHatInsights-dbaas-ui"
+    },
+    {
+      "git": "https://github.com/openshift/vcf-migration-operator",
+      "name": "Openshift-vcf-migration-operator"
     }
   ]
 }
