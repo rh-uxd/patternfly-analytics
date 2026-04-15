@@ -445,6 +445,10 @@
       "git": "https://gitlab.cee.redhat.com/gss-engineering/portal-case-management",
       "name": "Portal-Case-Management",
       "private": true
+    },
+    {
+      "git": "https://github.com/lightspeed-core/lightspeed-reference-ui",
+      "name": "Lightspeed-Core-Reference-UI"
     }
   ]
 }
