@@ -489,6 +489,22 @@
     {
       "git": "https://github.com/openshift/vcf-migration-operator",
       "name": "Openshift-vcf-migration-operator"
+    },
+    {
+      "git": "https://github.com/stolostron/console",
+      "name": "Stolostron-ACM-MCE-console"
+    },
+    {
+      "git": "https://github.com/medik8s/node-remediation-console",
+      "name": "Node-remediation-console"
+    },
+    {
+      "git": "https://github.com/redhat-developer/helm-console-plugin",
+      "name": "Redhat-developer-helm-console-plugin"
+    },
+    {
+      "git": "https://github.com/cryostatio/cryostat-openshift-console-plugin",
+      "name": "Cryostat-openshift-console-plugin"
     }
   ]
 }
