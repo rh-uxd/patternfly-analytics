@@ -14,7 +14,8 @@
     },
     {
       "git": "https://github.com/ansible-automation-platform/aap-ui",
-      "name": "Ansible AAP"
+      "name": "Ansible AAP",
+      "private": true
     },
     {
       "git": "https://github.com/ansible/ansible-hub-ui",

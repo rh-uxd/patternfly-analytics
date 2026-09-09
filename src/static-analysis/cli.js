@@ -34,16 +34,25 @@ async function collectPatternflyStats(argv) {
       const repoName = repo.git.split('/').pop();
       const tmpPath = `${tmpDir}/${repo.name}`;
       const isExisting = fs.existsSync(tmpPath);
+      const cloneRepo = () => {
+        execSync(`git clone "${repo.git}" "${tmpPath}" --depth 1`);
+      };
       try {
-        const command = isExisting
-          ? `cd ${tmpPath} && git pull`
-          : `git clone "${repo.git}" "${tmpPath}" --depth 1`;
-        execSync(command);
+        if (isExisting) {
+          execSync('git pull', { cwd: tmpPath });
+        } else {
+          cloneRepo();
+        }
       } catch (error) {
         if (isExisting) {
           console.warn(`⚠️  git pull failed for ${repo.name}, re-cloning...`);
           fs.removeSync(tmpPath);
-          execSync(`git clone "${repo.git}" "${tmpPath}" --depth 1`);
+          try {
+            cloneRepo();
+          } catch (recloneError) {
+            console.error(`❌  Failed to clone ${repo.name}: ${recloneError.message}`);
+            return;
+          }
         } else {
           console.error(`❌  Failed to clone ${repo.name}: ${error.message}`);
           return;

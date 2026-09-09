@@ -1,3 +1,4 @@
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -10,6 +11,25 @@ from datetime import datetime, timezone
 REPOS_ALL_TAB = '1 All repositories'
 COMPONENT_COUNT_TAB = '2 Component Count'
 COMPONENT_DETAILS_TAB = '3 Component Details'
+COMPONENT_PRODUCT_USAGE_TAB = '4 Component Product Usage'
+
+PRODUCT_USES_METADATA_KEYS = frozenset({
+    'product_count',
+    'total_usage',
+    'product_list',
+})
+
+AGGREGATE_JSON_FILES = frozenset({
+    '_all.json',
+    '_all_dependencies.json',
+    '_all_pf_versions.json',
+    '_all_product_uses.json',
+    '_all_sorted.json',
+    '_deprecated_usage.json',
+    '_dependents_analysis.json',
+    '_dependents_by_package.json',
+    '_suggested_repos.json',
+})
 
 
 do_collect = False    # Set to True to trigger the collection from here
@@ -22,10 +42,22 @@ if do_collect:
     os.system('node src/static-analysis/cli.js collect %s' % collect_args)
     print("----------- collector done -------------------")
 
-# Find the directory with the csv files
-today = datetime.now(timezone.utc)
-today_str = "%04d-%02d-%02d" % (today.year, today.month, today.day)
-in_dir = "stats-static/" + today_str
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description='Generate PatternFly analytics Excel report from stats-static data.',
+    )
+    parser.add_argument(
+        '--date',
+        help='Stats date folder to use (YYYY-MM-DD). Defaults to today (UTC).',
+    )
+    return parser.parse_args()
+
+
+def resolve_stats_date(date_arg):
+    if date_arg:
+        return date_arg
+    today = datetime.now(timezone.utc)
+    return '%04d-%02d-%02d' % (today.year, today.month, today.day)
 
 
 # Helper method to clean up cell values by
@@ -49,6 +81,10 @@ def write_repos_all_tab():
             df = df.map(clean_undefined)
             df = df.map(lambda x: x.lstrip() if isinstance(x, str) else x)
             bikes.append(df)
+
+    if not bikes:
+        print('No CSV files in %s — skipping repositories tab' % in_dir)
+        return
 
     df = pd.concat(bikes, axis=0, ignore_index=True)
     df = df.rename(str.strip, axis='columns')  # strip blanks from all header names
@@ -84,27 +120,115 @@ def write_repos_all_tab():
         col_idx = df.columns.get_loc(column)
         writer.sheets[REPOS_ALL_TAB].set_column(col_idx, col_idx, column_len + 1)  # +1 for padding
 
+def load_product_uses():
+    with open(in_dir + "/_all_product_uses.json") as input_file:
+        return json.load(input_file)
+
+
+def load_product_name_to_repo_url():
+    """Map display name -> git URL from repos.json and per-repo collection snapshots."""
+    mapping = {}
+
+    repos_path = Path('repos.json')
+    if repos_path.is_file():
+        with open(repos_path) as input_file:
+            for entry in json.load(input_file).get('repos', []):
+                name = entry.get('name')
+                git = entry.get('git')
+                if name and git:
+                    mapping[name] = git
+
+    stats_dir = Path(in_dir)
+    if stats_dir.is_dir():
+        for file in stats_dir.glob('*.json'):
+            if file.name.startswith('_') or file.name in AGGREGATE_JSON_FILES:
+                continue
+            with open(file) as input_file:
+                data = json.load(input_file)
+            name = data.get('name')
+            repo = data.get('repo')
+            if name and repo:
+                mapping[name] = repo
+
+    return mapping
+
+
+def autosize_worksheet_columns(df, sheet_name):
+    for column in df:
+        col_idx = df.columns.get_loc(column)
+        column_len = max(df[column].astype(str).map(len).max(), len(column))
+        writer.sheets[sheet_name].set_column(col_idx, col_idx, column_len + 1)
+
+
+def write_component_product_usage_tab():
+    data_all = load_product_uses()
+    imports = data_all['imports']
+    product_urls = load_product_name_to_repo_url()
+    rows = []
+
+    for component, import_dict in imports.items():
+        product_count = import_dict['product_count']
+        total_usage = import_dict['total_usage']
+
+        for product, prod_data in import_dict.items():
+            if product in PRODUCT_USES_METADATA_KEYS:
+                continue
+            if not isinstance(prod_data, dict):
+                continue
+
+            rows.append({
+                'Component': component,
+                'Product Count': product_count,
+                'Total Usage': total_usage,
+                'Product Usage': prod_data.get('repo_usage', 0),
+                'Product': product,
+                'Repo URL': product_urls.get(product, ''),
+            })
+
+    df = pd.DataFrame(rows)
+    df = df.sort_values(
+        by=['Component', 'Product Usage', 'Product'],
+        key=lambda col: col.str.lower() if col.dtype == 'object' else col,
+        ascending=[True, False, True],
+    )
+    df = df[[
+        'Component',
+        'Product Count',
+        'Total Usage',
+        'Product Usage',
+        'Product',
+        'Repo URL',
+    ]]
+
+    df.to_excel(
+        writer,
+        sheet_name=COMPONENT_PRODUCT_USAGE_TAB,
+        freeze_panes=tuple([1, 0]),
+        index=False,
+    )
+    autosize_worksheet_columns(df, COMPONENT_PRODUCT_USAGE_TAB)
+
+
 def write_components_count_tab():
     items = []
-    with open(in_dir + "/_all_product_uses.json") as input_file:
-        data_all = json.load(input_file)
-        imports = data_all['imports']
+    data_all = load_product_uses()
+    imports = data_all['imports']
 
-        for imp in imports:
-            print(imp)
-            import_dict = imports[imp]
-            prod_count = import_dict['product_count']
-            total_usage = import_dict['total_usage']
-            # Get product names by filtering out the metadata fields
-            product_names = [key for key in import_dict.keys() if key not in ['product_count', 'total_usage']]
-            product_names_str = ', '.join(product_names)
-            d = {
-                'Name': imp,
-                'Product Count': prod_count,
-                'Total Usage': total_usage,
-                'Product Names': product_names_str}
-            df = pd.DataFrame(d, index=[imp])
-            items.append(df)
+    for imp in imports:
+        print(imp)
+        import_dict = imports[imp]
+        prod_count = import_dict['product_count']
+        total_usage = import_dict['total_usage']
+        # Get product names by filtering out the metadata fields
+        product_names = [key for key in import_dict.keys() if key not in ['product_count', 'total_usage']]
+        product_names_str = ', '.join(product_names)
+        d = {
+            'Name': imp,
+            'Product Count': prod_count,
+            'Total Usage': total_usage,
+            'Product Names': product_names_str}
+        df = pd.DataFrame(d, index=[imp])
+        items.append(df)
 
     df = pd.concat(items, axis=0, ignore_index=False)
     df = df.sort_values(by=['Name'], key=lambda col: col.str.lower())
@@ -120,33 +244,32 @@ def write_components_count_tab():
 
 def write_components_details_tab():
     items = []
-    with open(in_dir + "/_all_product_uses.json") as input_file:
-        data_all = json.load(input_file)
-        imports = data_all['imports']
+    data_all = load_product_uses()
+    imports = data_all['imports']
 
-        imported_components = {}
+    imported_components = {}
 
-        for imp in imports: # Imp is the toplevel import like 'Button'
-            import_dict = imports[imp]
+    for imp in imports: # Imp is the toplevel import like 'Button'
+        import_dict = imports[imp]
 
-            for product in import_dict: # product is the product/project that uses the Button like MigrationToolkit
-                if product in ['product_count', 'total_usage']:
+        for product in import_dict: # product is the product/project that uses the Button like MigrationToolkit
+            if product in ['product_count', 'total_usage']:
+                continue
+            print(product)
+
+            prod_dict = import_dict[product]
+
+            for pf_component in prod_dict:
+                if pf_component in ['unique_import_paths', 'repo_usage']:
                     continue
-                print(product)
+                if pf_component.endswith('/'):
+                    pf_component = pf_component.rstrip('/')
 
-                prod_dict = import_dict[product]
-
-                for pf_component in prod_dict:
-                    if pf_component in ['unique_import_paths', 'repo_usage']:
-                        continue
-                    if pf_component.endswith('/'):
-                        pf_component = pf_component.rstrip('/')
-
-                    txt = imp + ":" + pf_component
-                    if txt in imported_components.keys():
-                        imported_components[txt].append(product)
-                    else:
-                        imported_components[txt] = [ product]
+                txt = imp + ":" + pf_component
+                if txt in imported_components.keys():
+                    imported_components[txt].append(product)
+                else:
+                    imported_components[txt] = [ product]
 
     for imported_component in imported_components:
         component_list = imported_components[imported_component]
@@ -178,13 +301,22 @@ def write_components_details_tab():
 def check_input_available():
     fi = Path(in_dir + "/_all_product_uses.json")
     if not fi.is_file():
-        print('!\n!\n! Input file _all_product_uses.json does not exist\n!\n!\n')
+        print('!\n!\n! Input file does not exist: %s\n!\n!\n' % fi)
+        print('Run collection first, e.g.:')
+        print('  npm run collect')
+        print('  ./scripts/weekly-collect.sh')
+        print('Or point at an existing stats folder:')
+        print('  python3 to_xls.py --date YYYY-MM-DD')
         sys.exit(1)
 
 
 
 if __name__ == "__main__":
     # Action starts here
+
+    args = parse_args()
+    today_str = resolve_stats_date(args.date)
+    in_dir = 'stats-static/' + today_str
 
     today_report_dir = 'reports/%s' % today_str
     os.makedirs(today_report_dir, exist_ok=True)
@@ -197,6 +329,7 @@ if __name__ == "__main__":
     write_repos_all_tab()
     write_components_count_tab()
     write_components_details_tab()
+    write_component_product_usage_tab()
     writer.close()
 
     print("Output is in %s  " % report_name)
